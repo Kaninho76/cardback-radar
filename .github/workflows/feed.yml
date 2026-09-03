@@ -16,7 +16,7 @@ jobs:
   feed:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Feeds ophalen
         run: python3 scripts/build_feed.py
@@ -31,4 +31,14 @@ jobs:
           git config user.email "noreply@github.com"
           git add feed.json
           git commit -m "Nieuwsfeed $(date -u '+%Y-%m-%d %H:%M') UTC"
-          git push
+          for poging in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "geweigerd, opnieuw proberen ($poging)"
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep 5
+          done
+          echo "de push bleef mislukken"
+          exit 1
