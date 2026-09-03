@@ -2,7 +2,7 @@
    Shell: cache first (instant open, works offline).
    Data:  network first, fall back to the last copy we kept. */
 
-const VERSION = "v4";
+const VERSION = "v5";
 const SHELL = "cardback-shell-" + VERSION;
 const DATA = "cardback-data-" + VERSION;
 
@@ -59,7 +59,33 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // everything else: cache first, refresh in the background
+  // the page itself: always try the network, so a new version arrives at once
+  const wantsPage =
+    req.mode === "navigate" ||
+    url.pathname.endsWith("/") ||
+    url.pathname.endsWith("/index.html");
+
+  if (wantsPage) {
+    event.respondWith(
+      fetch(req)
+        .then((res) => {
+          if (res && res.ok) {
+            const copy = res.clone();
+            caches.open(SHELL).then((c) => {
+              c.put("./index.html", copy.clone());
+              c.put("./", copy);
+            });
+          }
+          return res;
+        })
+        .catch(() =>
+          caches.match("./index.html").then((hit) => hit || caches.match("./"))
+        )
+    );
+    return;
+  }
+
+  // icons and the manifest: cache first, refresh quietly in the background
   event.respondWith(
     caches.match(req).then((hit) => {
       const net = fetch(req)
