@@ -1,0 +1,4 @@
+*.png
+!icon-*.png
+!apple-touch-icon.png
+!favicon.png
