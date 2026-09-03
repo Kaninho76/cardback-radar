@@ -1,0 +1,60 @@
+{
+  "updatedISO": "2026-09-03T07:00:00+02:00",
+  "updatedLabel": "donderdag 3 september 2026",
+  "quiet": false,
+  "quietNote": "",
+  "waves": [
+    {
+      "title": "Avengers: Doomsday",
+      "when": "Bioscoop 18 december 2026 · Marvel Legends wave 1 onthuld op SDCC, preorders lopen",
+      "countdown": { "date": "2026-12-18", "mode": "until", "unit": "dagen te gaan" },
+      "body": "De grootste opbouwende golf in je kast. Hasbro heeft de eerste Doomsday-golf Marvel Legends al onthuld en de marketing draait op Doctor Doom — Downey's Doom werd op CinemaCon zo goed ontvangen dat de trailer twee keer moest. Van nu tot december loopt de aandacht alleen maar op.",
+      "do": "Je hoeft de nieuwe figuren niet te hebben. Juist je oude Doom, je vintage Fantastic Four en je X-Men-planken worden nu gezocht — mensen zoeken op de personages, niet op de release. Post je oudste Doom naast het nieuws."
+    },
+    {
+      "title": "Masters of the Universe",
+      "when": "Bioscoop 5 juni 2026 · onderweg naar Prime Video",
+      "countdown": { "date": "2026-06-05", "mode": "since", "unit": "dagen sinds première" },
+      "body": "De film haalde wereldwijd 109,4 miljoen dollar en bleef achter bij de verwachting — volgens analisten juist omdát hij vooral Gen X-nostalgie aansprak en er nauwelijks buiten kwam. Dat is precies jouw publiek, en dat publiek krijgt hem nu thuis op de bank.",
+      "do": "De streamingdrop is een tweede piek voor MOTU-content bij mensen die de film in de bioscoop lieten schieten. Zet je He-Man-plank klaar — de originele Mattel-figuren naast de MOTU Origins-versies is een post die zichzelf schrijft."
+    }
+  ],
+  "drops": [
+    { "maker": "Hasbro", "what": "Marvel Legends — Avengers: Doomsday, The Thing", "note": "Eerste golf naar aanleiding van de film; onthuld rond SDCC.", "heat": "hot" },
+    { "maker": "Hasbro", "what": "Marvel Legends — Storm Siblings 2-pack", "note": "Invisible Woman en Human Torch samen. Fantastic Four loopt mee op de Doomsday-hype.", "heat": "yours" },
+    { "maker": "Hasbro", "what": "Marvel Legends — Retro Venom reissue", "note": "Heruitgave op retro-cardback. Perfecte donderdagpost naast je origineel.", "heat": "yours" },
+    { "maker": "Hasbro", "what": "Marvel Legends — Iron Man & Spiral 2-pack", "note": "Eerste set onder de nieuwe naam Marvel Games, met een nieuwe jaren-90 Iron Man.", "heat": "zijlijn" },
+    { "maker": "Mattel", "what": "DC Comics Core Collection — 6,5-inch lijn", "note": "Nieuwe Green Lantern, Superman en Batman-varianten. Mattel terug op DC naast McFarlane.", "heat": "hot" },
+    { "maker": "McFarlane", "what": "DC Multiverse — Green Lantern-golf", "note": "Kyle Rayner, Medphyll, Naut Ke Loi. Twee fabrikanten tegelijk op Green Lantern is een signaal.", "heat": "hot" },
+    { "maker": "NECA", "what": "TMNT Mirage — Shock Commando Triceraton", "note": "Uit de klassieke Mirage-strips, 7 inch. Kernvoer voor de TMNT-verzamelaars.", "heat": "yours" },
+    { "maker": "Mezco", "what": "One:12 Collective — Nightcrawler", "note": "Drie verwisselbare portretten, dertig punten articulatie. X-Men blijft warm richting december.", "heat": "zijlijn" },
+    { "maker": "Hasbro", "what": "Voltron — filmlicentie binnengehaald", "note": "Voor de Amazon MGM-film. Nog geen figuren, wel het begin van een golf om in de gaten te houden.", "heat": "zijlijn" }
+  ],
+  "talk": [
+    { "title": "G.I. Joe Classified", "body": "Al maanden het meest besproken onderwerp bij de verzamelaarsblogs. Vooral de spanning tussen strakke nieuwe ontwerpen en trouw blijven aan de Sunbow-tekenfilm." },
+    { "title": "Green Lantern-momentum", "body": "Mattel en McFarlane zetten tegelijk in op Green Lantern. Als twee fabrikanten hetzelfde hoekje kiezen, weten ze iets — meestal een aankondiging die nog moet komen." },
+    { "title": "Nostalgie versus vernieuwing", "body": "De tegenvallende MOTU-cijfers zwengelen een oud debat aan: hoeveel publiek is er buiten de mensen die het als kind hadden? Een vraag waar jouw pagina toevallig middenin staat." }
+  ],
+  "ideas": [
+    {
+      "slot": "Op de golf",
+      "title": "Je oudste Doom of Fantastic Four, naast het nieuws",
+      "why": "Mensen zoeken nu op de personages, niet op de nieuwe figuren — je vintage exemplaar wint het van elke preorder-foto.",
+      "tags": "#toystagram #actionfigures #actionfigurephotography #toycollector #toycommunity #marvellegends #doctordoom #fantasticfour #vintageactionfigures"
+    },
+    {
+      "slot": "Tweede kans",
+      "title": "He-Man toen en nu, in één frame",
+      "why": "De MOTU-film komt naar Prime Video en bereikt daar het publiek dat hem in de bioscoop miste. Je originele Mattel-figuur naast de Origins-versie vertelt dat hele verhaal zonder één woord.",
+      "tags": "#toystagram #actionfigures #actionfigurephotography #toycollector #toycommunity #motu #mastersoftheuniverse #motuorigins #heman #vintagetoys"
+    }
+  ],
+  "sources": [
+    { "label": "The Toyark", "url": "https://www.toyark.com/" },
+    { "label": "Bleeding Cool Collectibles", "url": "https://bleedingcool.com/collectibles/" },
+    { "label": "Marvel Toy News", "url": "https://marveltoynews.com/" },
+    { "label": "Toy Hype USA", "url": "https://toyhypeusa.com/" },
+    { "label": "The Fwoosh", "url": "https://thefwoosh.com/" }
+  ],
+  "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf."
+}

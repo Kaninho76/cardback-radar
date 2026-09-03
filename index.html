@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cardback Radar</title>
+<meta name="description" content="Dagelijkse stand van zaken in de actiefigurenscene.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1B5CD9">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Radar">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#EDEFF2; --card:#FFFFFF; --sunk:#E3E7ED;
+  --ink:#14171F; --ink-soft:#5A6274; --line:#D2D8E1;
+  --red:#C92A20; --blue:#1B5CD9; --deep:#102B69;
+  --yellow:#F5B915; --green:#17805B;
+  --shadow:0 1px 0 rgba(20,23,31,.05), 0 8px 20px -15px rgba(20,23,31,.5);
+  --safe-top:env(safe-area-inset-top,0px);
+  --safe-bot:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#13161C; --card:#1C2029; --sunk:#171B23;
+    --ink:#E9ECF3; --ink-soft:#98A1B4; --line:#2E3442;
+    --red:#FF5548; --blue:#3D74E8; --deep:#0D1D45;
+    --yellow:#FFC93D; --green:#35C48D;
+    --shadow:0 1px 0 rgba(0,0,0,.4), 0 10px 24px -16px rgba(0,0,0,.9);
+  }
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Barlow","Helvetica Neue",Arial,sans-serif;
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;
+  overscroll-behavior-y:contain;
+}
+h1,h2,h3{margin:0;text-wrap:balance}
+p{margin:0}
+a{color:var(--blue)}
+button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2.5px solid var(--blue);outline-offset:2px;border-radius:3px}
+
+.wrap{max-width:720px;margin:0 auto;padding:22px 16px calc(48px + var(--safe-bot))}
+
+/* ---------- top bar ---------- */
+.bar{
+  position:sticky;top:0;z-index:20;
+  background:var(--blue);color:#fff;
+  padding:calc(12px + var(--safe-top)) 16px 12px;
+  display:flex;align-items:center;gap:12px;
+  border-bottom:3px solid var(--deep);
+}
+.bar .id{flex:1;min-width:0}
+.bar h1{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:22px;text-transform:uppercase;letter-spacing:.02em;line-height:1;
+}
+.bar .stamp{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  opacity:.9;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.refresh{
+  flex:none;width:42px;height:42px;border-radius:50%;
+  background:rgba(255,255,255,.16);border:1.5px solid rgba(255,255,255,.5);
+  display:grid;place-items:center;cursor:pointer;
+}
+.refresh svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round}
+.refresh:disabled{opacity:.5}
+.refresh.spin svg{animation:spin .9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.flash{
+  padding:9px 16px;font-size:13.5px;text-align:center;
+  background:var(--sunk);border-bottom:1px solid var(--line);color:var(--ink-soft);
+}
+.flash.warn{background:var(--yellow);color:#2A2005;border-bottom-color:rgba(0,0,0,.2)}
+.flash.bad{background:var(--red);color:#fff;border-bottom-color:rgba(0,0,0,.2)}
+
+/* ---------- sections ---------- */
+.stack{display:flex;flex-direction:column;gap:34px}
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft);
+}
+h2.sec{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:23px;text-transform:uppercase;letter-spacing:.02em;margin:2px 0 6px;
+}
+.lede{color:var(--ink-soft);font-size:15px;margin-bottom:16px}
+
+/* ---------- waves ---------- */
+.wave{
+  background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+  box-shadow:var(--shadow);overflow:hidden;margin-bottom:14px;
+}
+.wave-top{
+  display:flex;gap:16px;align-items:center;
+  padding:15px 16px;background:var(--sunk);border-bottom:1.5px solid var(--line);
+}
+.clock{flex:none;text-align:center;min-width:74px}
+.clock .num{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:36px;line-height:1;color:var(--red);font-variant-numeric:tabular-nums;
+}
+.wave.minor .clock .num{color:var(--ink-soft);font-size:28px}
+.clock .unit{
+  font-family:"IBM Plex Mono",monospace;font-size:9.5px;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft);margin-top:4px;line-height:1.3;
+}
+.wave-title{flex:1;min-width:0}
+.wave-title h3{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:18px;text-transform:uppercase;letter-spacing:.02em;
+}
+.wave-title .when{color:var(--ink-soft);font-size:13px;margin-top:3px}
+.wave-body{padding:15px 16px;display:flex;flex-direction:column;gap:11px}
+.wave-body p{font-size:15px}
+.do{
+  background:var(--sunk);border-left:4px solid var(--yellow);border-radius:0 8px 8px 0;
+  padding:12px 14px;font-size:14.5px;
+}
+.do b{
+  display:block;font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:5px;
+}
+
+/* ---------- drops ---------- */
+.drop{padding:13px 0;border-bottom:1px solid var(--line)}
+.drop:last-child{border-bottom:0}
+.drop .top{display:flex;gap:10px;align-items:baseline}
+.maker{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);flex:none;
+}
+.heat{
+  margin-left:auto;flex:none;
+  font-family:"IBM Plex Mono",monospace;font-size:9.5px;
+  letter-spacing:.1em;text-transform:uppercase;
+  padding:3px 8px;border-radius:999px;border:1.5px solid var(--line);color:var(--ink-soft);
+}
+.heat.hot{border-color:var(--red);color:var(--red)}
+.heat.yours{border-color:var(--green);color:var(--green)}
+.drop .what{font-weight:600;margin-top:5px;font-size:15.5px}
+.drop .note{font-size:14px;color:var(--ink-soft);margin-top:3px}
+
+/* ---------- talk ---------- */
+.tcard{
+  background:var(--card);border:1.5px solid var(--line);border-radius:10px;
+  padding:14px 16px;margin-bottom:11px;box-shadow:var(--shadow);
+}
+.tcard h3{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:15px;text-transform:uppercase;letter-spacing:.03em;margin-bottom:6px;
+}
+.tcard p{font-size:14.5px;color:var(--ink-soft)}
+
+/* ---------- ideas ---------- */
+.idea{
+  background:var(--card);border:1.5px solid var(--line);border-left:4px solid var(--blue);
+  border-radius:0 10px 10px 0;padding:14px 16px;margin-bottom:11px;
+}
+.idea .slot{
+  font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.11em;text-transform:uppercase;color:var(--ink-soft);
+}
+.idea .ttl{font-weight:600;font-size:15.5px;margin-top:5px}
+.idea .why{font-size:14.5px;color:var(--ink-soft);margin-top:5px}
+
+/* ---------- copy blocks ---------- */
+.tapline{
+  display:flex;align-items:center;gap:10px;margin-top:10px;
+  background:var(--sunk);border:1px solid var(--line);border-radius:8px;
+  padding:9px 11px;cursor:pointer;text-align:left;width:100%;
+}
+.tapline code{
+  font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink);
+  flex:1;word-break:break-word;line-height:1.7;
+}
+.tapline .cue{
+  flex:none;font-family:"IBM Plex Mono",monospace;font-size:9.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);
+}
+.tapline.done{border-color:var(--green)}
+.tapline.done .cue{color:var(--green)}
+
+.setrow{
+  display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+  background:var(--card);border:1.5px solid var(--line);border-radius:10px;
+  padding:12px 14px;margin-bottom:9px;cursor:pointer;
+}
+.setrow .nm{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:14px;text-transform:uppercase;letter-spacing:.03em;flex:none;min-width:110px;
+}
+.setrow .pv{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-soft);
+  flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.setrow .cue{
+  flex:none;font-family:"IBM Plex Mono",monospace;font-size:9.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);
+}
+.setrow.done{border-color:var(--green)}
+.setrow.done .cue{color:var(--green)}
+
+/* ---------- search links ---------- */
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{
+  background:var(--card);border:1.5px solid var(--line);border-radius:999px;
+  padding:8px 14px;font-size:14px;text-decoration:none;color:var(--ink);
+}
+.links a:active{border-color:var(--blue)}
+
+.foot{
+  margin-top:34px;padding-top:18px;border-top:2px solid var(--line);
+  font-size:12.5px;color:var(--ink-soft);
+}
+.foot h3{
+  font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;margin-bottom:8px;
+}
+.foot ul{margin:0 0 12px;padding-left:17px;line-height:1.8}
+.foot p{margin-bottom:9px}
+
+.skel{color:var(--ink-soft);padding:30px 0;text-align:center;font-size:15px}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="id">
+    <h1>Cardback Radar</h1>
+    <div class="stamp" id="stamp">laden…</div>
+  </div>
+  <button class="refresh" id="refresh" type="button" aria-label="Ververs">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M20 12a8 8 0 1 1-2.6-5.9"/><path d="M20 4v4.5h-4.5"/>
+    </svg>
+  </button>
+</header>
+<div class="flash" id="flash" hidden></div>
+
+<div class="wrap">
+  <div id="app"><p class="skel">Bezig met laden…</p></div>
+
+  <div class="foot" id="foot" hidden>
+    <h3>Bronnen</h3>
+    <ul id="srcList"></ul>
+    <p id="srcNote"></p>
+    <p>Deze app wordt elke ochtend om 7:00 gevuld door een taak die de bronnen naleest. De knop rechtsboven haalt
+      de nieuwste stand op. Zonder verbinding zie je de laatste stand die op je telefoon staat.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var $ = function (id) { return document.getElementById(id); };
+  var app = $("app"), flash = $("flash"), stamp = $("stamp"), refresh = $("refresh");
+
+  /* ---------- static: hashtag sets, unchanged by the day ---------- */
+  var SETS = [
+    ["Basis", "#toystagram #actionfigures #actionfigurephotography #toyphotography #toycollector #toycommunity #toyphotographers"],
+    ["Vintage", "#vintagetoys #vintageactionfigures #80stoys #90stoys #retrotoys #toyhunting #toygrail"],
+    ["Marvel", "#marvellegends #marvellegendsseries #hasbromarvellegends #marvelcollector #comicbookfigures"],
+    ["DC", "#dcmultiverse #mcfarlanetoys #dccollectibles #dccollector #dcuniverse"],
+    ["TMNT", "#tmnt #teenagemutantninjaturtles #tmntcollector #playmatestoys #cowabunga"],
+    ["He-Man", "#motu #mastersoftheuniverse #motuorigins #motuclassics #heman #mattel"],
+    ["Power Rangers", "#powerrangers #lightningcollection #powerrangerscollector #tokusatsu #sentai"],
+    ["Godzilla", "#godzilla #kaiju #kaijucollector #godzillacollection #shmonsterarts #bandai"],
+    ["NECA", "#neca #necatoys #ultimateneca #horrorcollector #hottoys"]
+  ];
+
+  var HOOKS = [
+    ["zondag", "#ToyDayIsPunday", "woordgrap"],
+    ["maandag", "#MechanoidMonday", "robots en mecha"],
+    ["dinsdag", "#ToyDinoTuesday", "kaiju en dino's"],
+    ["woensdag", "#slumpday", "snelle, onbewerkte foto"],
+    ["donderdag", "#ThrowbackThursday", "vintage"],
+    ["vrijdag", "#NoFigureFriday", "accessoires zonder figuur"],
+    ["zaterdag", "#toyhunting", "vondsten en de plank"]
+  ];
+
+  var SEARCHES = [
+    ["Marvel Legends", "marvel legends new figure"],
+    ["MOTU", "masters of the universe figure news"],
+    ["TMNT", "tmnt action figure news"],
+    ["Godzilla", "godzilla figure kaiju news"],
+    ["Power Rangers", "power rangers lightning collection"],
+    ["DC", "dc multiverse mcfarlane figure"],
+    ["Vintage", "vintage action figure find"]
+  ];
+
+  /* ---------- helpers ---------- */
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function days(from, to) { return Math.round((to - from) / 86400000); }
+
+  function midnight(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+
+  function parseDay(s) {
+    var p = String(s || "").split("-");
+    if (p.length !== 3) return null;
+    var d = new Date(+p[0], +p[1] - 1, +p[2]);
+    return isNaN(d) ? null : d;
+  }
+
+  function copyTap(btn, text) {
+    btn.addEventListener("click", function () {
+      var ok = function () {
+        var cue = btn.querySelector(".cue");
+        var was = cue ? cue.textContent : "";
+        btn.classList.add("done");
+        if (cue) cue.textContent = "gekopieerd";
+        setTimeout(function () {
+          btn.classList.remove("done");
+          if (cue) cue.textContent = was;
+        }, 1500);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(ok, function () { legacy(text, ok); });
+      } else { legacy(text, ok); }
+    });
+  }
+  function legacy(text, ok) {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); ok(); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+  function showFlash(text, kind) {
+    if (!text) { flash.hidden = true; return; }
+    flash.hidden = false;
+    flash.className = "flash" + (kind ? " " + kind : "");
+    flash.textContent = text;
+  }
+
+  /* ---------- render ---------- */
+  function render(d) {
+    app.innerHTML = "";
+    var stack = el("div", "stack");
+    var today = midnight(new Date());
+
+    stamp.textContent = "Bijgewerkt " + (d.updatedLabel || "—");
+
+    /* waves */
+    if (d.waves && d.waves.length) {
+      var s1 = el("section");
+      s1.appendChild(el("div", "eyebrow", "Waar de aandacht heen gaat"));
+      s1.appendChild(el("h2", "sec", "De golven"));
+
+      d.waves.forEach(function (w, i) {
+        var box = el("div", "wave" + (i > 0 ? " minor" : ""));
+
+        var top = el("div", "wave-top");
+        var clock = el("div", "clock");
+        var num = el("div", "num", "—");
+        var unit = el("div", "unit", (w.countdown && w.countdown.unit) || "");
+        var when = parseDay(w.countdown && w.countdown.date);
+        if (when) {
+          var n = (w.countdown.mode === "since") ? days(when, today) : days(today, when);
+          if (n >= 0) num.textContent = n;
+          else if (w.countdown.mode !== "since") { num.textContent = "nu"; unit.textContent = "in de zalen"; }
+        }
+        clock.appendChild(num); clock.appendChild(unit);
+        top.appendChild(clock);
+
+        var ttl = el("div", "wave-title");
+        ttl.appendChild(el("h3", null, w.title || ""));
+        if (w.when) ttl.appendChild(el("div", "when", w.when));
+        top.appendChild(ttl);
+        box.appendChild(top);
+
+        var body = el("div", "wave-body");
+        if (w.body) body.appendChild(el("p", null, w.body));
+        if (w.do) {
+          var doBox = el("div", "do");
+          doBox.appendChild(el("b", null, "Wat je ermee doet"));
+          doBox.appendChild(document.createTextNode(w.do));
+          body.appendChild(doBox);
+        }
+        box.appendChild(body);
+        s1.appendChild(box);
+      });
+      stack.appendChild(s1);
+    }
+
+    /* drops */
+    if (d.drops && d.drops.length) {
+      var s2 = el("section");
+      s2.appendChild(el("div", "eyebrow", "Verse reveals en preorders"));
+      s2.appendChild(el("h2", "sec", "Wat er net op tafel ligt"));
+      s2.appendChild(el("p", "lede", "Groen betekent: dit raakt een lijn die jij al op de plank hebt staan."));
+      d.drops.forEach(function (dr) {
+        var row = el("div", "drop");
+        var top = el("div", "top");
+        top.appendChild(el("span", "maker", dr.maker || ""));
+        var h = String(dr.heat || "").toLowerCase();
+        var cls = h === "hot" ? "heat hot" : (h === "yours" || h === "jouw lijn") ? "heat yours" : "heat";
+        var label = h === "hot" ? "hot" : (h === "yours" || h === "jouw lijn") ? "jouw lijn" : "zijlijn";
+        top.appendChild(el("span", cls, label));
+        row.appendChild(top);
+        row.appendChild(el("div", "what", dr.what || ""));
+        if (dr.note) row.appendChild(el("div", "note", dr.note));
+        s2.appendChild(row);
+      });
+      stack.appendChild(s2);
+    }
+
+    /* talk */
+    if (d.talk && d.talk.length) {
+      var s3 = el("section");
+      s3.appendChild(el("div", "eyebrow", "Waar het over gaat"));
+      s3.appendChild(el("h2", "sec", "Het gesprek in de scene"));
+      d.talk.forEach(function (t) {
+        var c = el("div", "tcard");
+        c.appendChild(el("h3", null, t.title || ""));
+        c.appendChild(el("p", null, t.body || ""));
+        s3.appendChild(c);
+      });
+      stack.appendChild(s3);
+    }
+
+    /* ideas — the day's hook is worked out here, on the phone */
+    var s4 = el("section");
+    s4.appendChild(el("div", "eyebrow", "Vandaag"));
+    s4.appendChild(el("h2", "sec", "Posts die nu landen"));
+
+    var ideas = (d.ideas || []).slice();
+    var hook = HOOKS[new Date().getDay()];
+    ideas.push({
+      slot: hook[0].charAt(0).toUpperCase() + hook[0].slice(1),
+      title: "De vaste haak van vandaag: " + hook[2],
+      why: "Het is " + hook[0] + ", dus " + hook[1] + " staat open. Daar zit al publiek te kijken zonder dat je iets aan bereik hoeft te doen.",
+      tags: SETS[0][1] + " " + hook[1].toLowerCase()
+    });
+
+    ideas.forEach(function (it) {
+      var box = el("div", "idea");
+      box.appendChild(el("div", "slot", it.slot || ""));
+      box.appendChild(el("div", "ttl", it.title || ""));
+      if (it.why) box.appendChild(el("div", "why", it.why));
+      if (it.tags) {
+        var tap = el("button", "tapline");
+        tap.type = "button";
+        tap.appendChild(el("code", null, it.tags));
+        tap.appendChild(el("span", "cue", "tik = kopie"));
+        copyTap(tap, it.tags);
+        box.appendChild(tap);
+      }
+      s4.appendChild(box);
+    });
+    stack.appendChild(s4);
+
+    /* hashtag sets */
+    var s5 = el("section");
+    s5.appendChild(el("div", "eyebrow", "Kant-en-klaar"));
+    s5.appendChild(el("h2", "sec", "Hashtagsets"));
+    s5.appendChild(el("p", "lede", "Combineer altijd de basis met één merkset. Tik om te kopiëren."));
+    SETS.forEach(function (s) {
+      var row = el("button", "setrow");
+      row.type = "button";
+      row.appendChild(el("span", "nm", s[0]));
+      row.appendChild(el("span", "pv", s[1]));
+      row.appendChild(el("span", "cue", "kopie"));
+      copyTap(row, s[1]);
+      s5.appendChild(row);
+    });
+    stack.appendChild(s5);
+
+    /* search links */
+    var s6 = el("section");
+    s6.appendChild(el("div", "eyebrow", "Zelf verder kijken"));
+    s6.appendChild(el("h2", "sec", "Zoek verder"));
+    s6.appendChild(el("p", "lede", "Opent het laatste nieuws in je browser."));
+    var links = el("div", "links");
+    SEARCHES.forEach(function (q) {
+      var a = document.createElement("a");
+      a.href = "https://news.google.com/search?q=" + encodeURIComponent(q[1]) + "&hl=nl";
+      a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = q[0];
+      links.appendChild(a);
+    });
+    s6.appendChild(links);
+    stack.appendChild(s6);
+
+    app.appendChild(stack);
+
+    /* sources */
+    var list = $("srcList");
+    list.innerHTML = "";
+    (d.sources || []).forEach(function (s) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = s.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = s.label;
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+    $("srcNote").textContent = d.sourceNote || "";
+    $("foot").hidden = false;
+
+    if (d.quiet && d.quietNote) showFlash(d.quietNote, "warn");
+  }
+
+  /* ---------- loading ---------- */
+  var lastGood = null;
+
+  function load(manual) {
+    if (manual) { refresh.disabled = true; refresh.classList.add("spin"); showFlash("Ophalen…"); }
+    return fetch("data.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("http " + r.status);
+        return r.json();
+      })
+      .then(function (d) {
+        lastGood = d;
+        try { localStorage.setItem("cbr:data", JSON.stringify(d)); } catch (e) {}
+        render(d);
+        if (manual) {
+          var t = new Date().toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit" });
+          showFlash("Bijgewerkt om " + t);
+          setTimeout(function () { showFlash(null); }, 2500);
+        } else {
+          showFlash(null);
+        }
+      })
+      .catch(function () {
+        var kept = lastGood;
+        if (!kept) {
+          try { kept = JSON.parse(localStorage.getItem("cbr:data") || "null"); } catch (e) { kept = null; }
+        }
+        if (kept) {
+          render(kept);
+          showFlash("Geen verbinding — dit is de stand van " + (kept.updatedLabel || "eerder") + ".", "warn");
+        } else {
+          app.innerHTML = "";
+          app.appendChild(el("p", "skel", "Nog niets opgehaald en geen verbinding. Probeer het opnieuw zodra je online bent."));
+          showFlash("Geen verbinding.", "bad");
+        }
+      })
+      .then(function () {
+        refresh.disabled = false;
+        refresh.classList.remove("spin");
+      });
+  }
+
+  refresh.addEventListener("click", function () { load(true); });
+
+  /* show whatever we already have, instantly, then go and check */
+  try {
+    var cached = JSON.parse(localStorage.getItem("cbr:data") || "null");
+    if (cached) { lastGood = cached; render(cached); }
+  } catch (e) {}
+  load(false);
+
+  /* check again when the app is brought back to the front */
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden) load(false);
+  });
+
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("sw.js").catch(function () {});
+    });
+  }
+})();
+</script>
+</body>
+</html>
