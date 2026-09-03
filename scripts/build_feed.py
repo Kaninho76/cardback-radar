@@ -67,6 +67,15 @@ def strip_ns(tag):
     return tag.split("}", 1)[-1] if "}" in tag else tag
 
 
+def load_previous():
+    try:
+        with open("feed.json", encoding="utf-8") as fh:
+            old = json.load(fh)
+        return old.get("items") or []
+    except Exception:
+        return []
+
+
 def read_feed(name, url):
     req = urllib.request.Request(url, headers={
         "User-Agent": UA,
@@ -112,10 +121,16 @@ def main():
                 items.extend(got[:12])
                 ok.append(name)
             else:
-                failed.append(name)
+                failed.append("%s: leeg" % name)
+        except urllib.error.HTTPError as exc:
+            failed.append("%s: HTTP %s" % (name, exc.code))
+            print("overgeslagen: %s (HTTP %s)" % (name, exc.code), file=sys.stderr)
         except Exception as exc:            # noqa: BLE001 - één stukke bron mag de rest niet slopen
-            failed.append(name)
+            failed.append("%s: %s" % (name, type(exc).__name__))
             print("overgeslagen: %s (%s)" % (name, exc), file=sys.stderr)
+
+    # wat we eerder hadden blijft staan als een bron vandaag niet meewerkt
+    items.extend(load_previous())
 
     seen, unique = set(), []
     for it in items:
@@ -135,14 +150,12 @@ def main():
         "items": unique,
     }
 
-    if not unique:
-        print("geen enkele bron gaf items terug — feed.json niet overschreven", file=sys.stderr)
-        return 1
-
     with open("feed.json", "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=1)
 
-    print("%d berichten uit %d bronnen" % (len(unique), len(ok)))
+    print("%d berichten; gelukt: %s" % (len(unique), ", ".join(ok) or "geen"))
+    if failed:
+        print("niet gelukt: %s" % "; ".join(failed))
     return 0
 
 
