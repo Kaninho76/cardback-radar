@@ -214,6 +214,23 @@ h2.sec{
 .setrow.done{border-color:var(--green)}
 .setrow.done .cue{color:var(--green)}
 
+/* ---------- search ---------- */
+.seek{
+  display:flex;gap:8px;margin-bottom:12px;
+}
+.seek input{
+  flex:1;min-width:0;font:inherit;font-size:16px;color:var(--ink);
+  background:var(--card);border:1.5px solid var(--line);border-radius:10px;
+  padding:12px 14px;
+}
+.seek input::placeholder{color:var(--ink-soft)}
+.seek button{
+  flex:none;width:48px;border:0;border-radius:10px;background:var(--blue);
+  display:grid;place-items:center;cursor:pointer;
+}
+.seek button svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round}
+.seek-hint{font-size:13px;color:var(--ink-soft);margin-bottom:14px}
+
 /* ---------- search links ---------- */
 .links{display:flex;flex-wrap:wrap;gap:8px}
 .links a{
@@ -364,6 +381,48 @@ h2.sec{
 
     stamp.textContent = "Bijgewerkt " + (d.updatedLabel || "—");
 
+    /* search — opens in the browser, so it works with no account and no key */
+    var s0 = el("section");
+    var seek = el("div", "seek");
+    var q = document.createElement("input");
+    q.type = "search";
+    q.setAttribute("enterkeyhint", "search");
+    q.setAttribute("autocapitalize", "none");
+    q.placeholder = "Zoek: godzilla, motu origins, neca tmnt…";
+    var go = document.createElement("button");
+    go.type = "button";
+    go.setAttribute("aria-label", "Zoeken");
+    go.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>';
+    seek.appendChild(q);
+    seek.appendChild(go);
+    s0.appendChild(seek);
+    s0.appendChild(el("p", "seek-hint",
+      "Opent het nieuws over jouw zoekwoord in je browser. Ik zet er zelf “action figure” bij als je dat niet doet, anders krijg je filmnieuws."));
+
+    function doSeek() {
+      var raw = q.value.trim();
+      if (!raw) { q.focus(); return; }
+      var low = raw.toLowerCase();
+      var toyish = /figure|toy|collect|neca|hasbro|mattel|mcfarlane|mezco|super7|playmates|bandai|legends|origins|preorder|cardback/.test(low);
+      var term = toyish ? raw : raw + " action figure";
+      window.open("https://news.google.com/search?q=" + encodeURIComponent(term) + "&hl=nl", "_blank", "noopener");
+    }
+    go.addEventListener("click", doSeek);
+    q.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") { e.preventDefault(); doSeek(); }
+    });
+
+    var quick = el("div", "links");
+    SEARCHES.forEach(function (item) {
+      var a = document.createElement("a");
+      a.href = "https://news.google.com/search?q=" + encodeURIComponent(item[1]) + "&hl=nl";
+      a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = item[0];
+      quick.appendChild(a);
+    });
+    s0.appendChild(quick);
+    stack.appendChild(s0);
+
     /* waves */
     if (d.waves && d.waves.length) {
       var s1 = el("section");
@@ -488,22 +547,6 @@ h2.sec{
       s5.appendChild(row);
     });
     stack.appendChild(s5);
-
-    /* search links */
-    var s6 = el("section");
-    s6.appendChild(el("div", "eyebrow", "Zelf verder kijken"));
-    s6.appendChild(el("h2", "sec", "Zoek verder"));
-    s6.appendChild(el("p", "lede", "Opent het laatste nieuws in je browser."));
-    var links = el("div", "links");
-    SEARCHES.forEach(function (q) {
-      var a = document.createElement("a");
-      a.href = "https://news.google.com/search?q=" + encodeURIComponent(q[1]) + "&hl=nl";
-      a.target = "_blank"; a.rel = "noopener noreferrer";
-      a.textContent = q[0];
-      links.appendChild(a);
-    });
-    s6.appendChild(links);
-    stack.appendChild(s6);
 
     app.appendChild(stack);
 

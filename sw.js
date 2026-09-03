@@ -2,7 +2,7 @@
    Shell: cache first (instant open, works offline).
    Data:  network first, fall back to the last copy we kept. */
 
-const VERSION = "v3";
+const VERSION = "v4";
 const SHELL = "cardback-shell-" + VERSION;
 const DATA = "cardback-data-" + VERSION;
 
