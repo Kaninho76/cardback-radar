@@ -122,6 +122,38 @@ h2.sec{
   border:1px dashed var(--line);border-radius:10px;padding:16px;
 }
 
+/* ---------- live feed ---------- */
+.live-head{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
+.live-head .eyebrow{flex:1}
+.pulse{
+  display:inline-flex;align-items:center;gap:6px;flex:none;
+  font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);
+}
+.pulse i{
+  width:7px;height:7px;border-radius:50%;background:var(--green);
+  animation:blip 2.4s ease-in-out infinite;
+}
+@keyframes blip{0%,100%{opacity:1}50%{opacity:.25}}
+.news{display:flex;flex-direction:column}
+.news a{
+  display:block;padding:12px 0;border-bottom:1px solid var(--line);
+  text-decoration:none;color:var(--ink);
+}
+.news a:last-child{border-bottom:0}
+.news .hl{font-weight:600;font-size:15.5px;line-height:1.4}
+.news .meta{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-soft);
+  letter-spacing:.06em;margin-top:4px;
+}
+.news .meta b{color:var(--blue);font-weight:400}
+.more{
+  background:none;border:1.5px solid var(--line);border-radius:9px;
+  padding:9px 14px;margin-top:12px;cursor:pointer;font-size:14px;
+  color:var(--ink-soft);width:100%;
+}
+.more:active{border-color:var(--ink)}
+
 /* ---------- search ---------- */
 .seek{display:flex;gap:8px;margin-bottom:12px}
 .seek input{
@@ -389,6 +421,8 @@ h2.sec{
   }
 
   var data = null;
+  var feed = null;
+  var feedOpen = false;
 
   /* ---------- helpers ---------- */
   function el(tag, cls, text) {
@@ -429,6 +463,26 @@ h2.sec{
       } else { legacyCopy(text, ok); }
     });
   }
+  function ago(isoStr) {
+    if (!isoStr) return "";
+    var t = new Date(isoStr);
+    if (isNaN(t)) return "";
+    var mins = Math.round((Date.now() - t.getTime()) / 60000);
+    if (mins < 2) return "zojuist";
+    if (mins < 60) return mins + " min geleden";
+    var hrs = Math.round(mins / 60);
+    if (hrs < 24) return hrs + " uur geleden";
+    var dys = Math.round(hrs / 24);
+    if (dys === 1) return "gisteren";
+    if (dys < 8) return dys + " dagen geleden";
+    return t.getDate() + " " + MONTHS[t.getMonth()];
+  }
+
+  function feedAge(isoStr) {
+    var a = ago(isoStr);
+    return a ? "bijgewerkt " + a : "live";
+  }
+
   function showFlash(text, kind) {
     if (!text) { flash.hidden = true; return; }
     flash.hidden = false;
@@ -445,6 +499,46 @@ h2.sec{
 
     var stack = el("div", "stack");
     var today = midnight(new Date());
+
+    /* live news */
+    var items = (feed && feed.items) || [];
+    if (items.length) {
+      var sN = el("section");
+      var head = el("div", "live-head");
+      head.appendChild(el("div", "eyebrow", "Rechtstreeks van de vakpers"));
+      var pulse = el("span", "pulse");
+      pulse.appendChild(el("i"));
+      pulse.appendChild(document.createTextNode(feedAge(feed.updatedISO)));
+      head.appendChild(pulse);
+      sN.appendChild(head);
+      sN.appendChild(el("h2", "sec", "Nu binnen"));
+      sN.appendChild(el("p", "lede", "Elk uur opgehaald bij de verzamelaarssites zelf. Tik om te lezen."));
+
+      var news = el("news" === "" ? "div" : "div", "news");
+      var showing = feedOpen ? items.length : Math.min(6, items.length);
+      items.slice(0, showing).forEach(function (it) {
+        var a = document.createElement("a");
+        a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+        a.appendChild(el("div", "hl", it.title || ""));
+        var meta = el("div", "meta");
+        meta.appendChild(el("b", null, it.source || ""));
+        var when = ago(it.iso);
+        if (when) meta.appendChild(document.createTextNode(" · " + when));
+        a.appendChild(meta);
+        news.appendChild(a);
+      });
+      sN.appendChild(news);
+
+      if (items.length > 6) {
+        var more = el("button", "more", feedOpen
+          ? "Minder tonen"
+          : "Nog " + (items.length - 6) + " berichten");
+        more.type = "button";
+        more.addEventListener("click", function () { feedOpen = !feedOpen; renderRadar(); });
+        sN.appendChild(more);
+      }
+      stack.appendChild(sN);
+    }
 
     /* search */
     var s0 = el("section");
@@ -726,9 +820,19 @@ h2.sec{
     if (d.quiet && d.quietNote) showFlash(d.quietNote, "warn");
   }
 
+  function loadFeed() {
+    return fetch("feed.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (f) {
+        if (f && f.items) { feed = f; set("feed", f); }
+      })
+      .catch(function () { /* de rest van de pagina werkt gewoon door */ });
+  }
+
   function load(manual) {
     if (manual) { refresh.disabled = true; refresh.classList.add("spin"); showFlash("Ophalen…"); }
-    return fetch("data.json?t=" + Date.now(), { cache: "no-store" })
+    return loadFeed()
+      .then(function () { return fetch("data.json?t=" + Date.now(), { cache: "no-store" }); })
       .then(function (r) { if (!r.ok) throw new Error("http " + r.status); return r.json(); })
       .then(function (d) {
         set("data", d);
@@ -761,6 +865,7 @@ h2.sec{
 
   refresh.addEventListener("click", function () { load(true); });
 
+  feed = get("feed", null);
   var cached = get("data", null);
   if (cached) apply(cached);
   load(false);

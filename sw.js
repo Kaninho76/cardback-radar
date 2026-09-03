@@ -2,7 +2,7 @@
    Shell: cache first (instant open, works offline).
    Data:  network first, fall back to the last copy we kept. */
 
-const VERSION = "v7";
+const VERSION = "v8";
 const SHELL = "cardback-shell-" + VERSION;
 const DATA = "cardback-data-" + VERSION;
 
@@ -44,17 +44,19 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return; // fonts etc. — let the network handle it
 
   // the daily content: always try the network, keep a copy for offline
-  if (url.pathname.endsWith("/data.json")) {
+  if (url.pathname.endsWith("/data.json") || url.pathname.endsWith("/feed.json")) {
     event.respondWith(
       fetch(req)
         .then((res) => {
           if (res && res.ok) {
             const copy = res.clone();
-            caches.open(DATA).then((c) => c.put("./data.json", copy));
+            const key = url.pathname.endsWith("/feed.json") ? "./feed.json" : "./data.json";
+            caches.open(DATA).then((c) => c.put(key, copy));
           }
           return res;
         })
-        .catch(() => caches.open(DATA).then((c) => c.match("./data.json")))
+        .catch(() => caches.open(DATA).then((c) =>
+          c.match(url.pathname.endsWith("/feed.json") ? "./feed.json" : "./data.json")))
     );
     return;
   }
