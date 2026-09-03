@@ -25,6 +25,7 @@
   --shadow:0 1px 0 rgba(20,23,31,.05), 0 8px 20px -15px rgba(20,23,31,.5);
   --safe-top:env(safe-area-inset-top,0px);
   --safe-bot:env(safe-area-inset-bottom,0px);
+  --nav-h:60px;
 }
 @media (prefers-color-scheme: dark){
   :root{
@@ -47,10 +48,13 @@ body{
 h1,h2,h3{margin:0;text-wrap:balance}
 p{margin:0}
 a{color:var(--blue)}
-button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+button,input{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
 :focus-visible{outline:2.5px solid var(--blue);outline-offset:2px;border-radius:3px}
 
-.wrap{max-width:720px;margin:0 auto;padding:22px 16px calc(48px + var(--safe-bot))}
+.wrap{
+  max-width:720px;margin:0 auto;
+  padding:20px 16px calc(28px + var(--nav-h) + var(--safe-bot));
+}
 
 /* ---------- top bar ---------- */
 .bar{
@@ -63,7 +67,7 @@ button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
 .bar .id{flex:1;min-width:0}
 .bar h1{
   font-family:Anton,"Arial Narrow",Impact,sans-serif;
-  font-size:22px;text-transform:uppercase;letter-spacing:.02em;line-height:1;
+  font-size:21px;text-transform:uppercase;letter-spacing:.02em;line-height:1;
 }
 .bar .stamp{
   font-family:"IBM Plex Mono",ui-monospace,monospace;
@@ -84,11 +88,31 @@ button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
   padding:9px 16px;font-size:13.5px;text-align:center;
   background:var(--sunk);border-bottom:1px solid var(--line);color:var(--ink-soft);
 }
-.flash.warn{background:var(--yellow);color:#2A2005;border-bottom-color:rgba(0,0,0,.2)}
-.flash.bad{background:var(--red);color:#fff;border-bottom-color:rgba(0,0,0,.2)}
+.flash.warn{background:var(--yellow);color:#2A2005}
+.flash.bad{background:var(--red);color:#fff}
 
-/* ---------- sections ---------- */
-.stack{display:flex;flex-direction:column;gap:34px}
+/* ---------- bottom nav ---------- */
+.nav{
+  position:fixed;left:0;right:0;bottom:0;z-index:30;
+  background:var(--card);border-top:1.5px solid var(--line);
+  display:grid;grid-template-columns:repeat(4,1fr);
+  padding-bottom:var(--safe-bot);
+}
+.nav button{
+  background:none;border:0;padding:9px 4px 8px;cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+  color:var(--ink-soft);
+}
+.nav svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.nav span{
+  font-family:"IBM Plex Mono",monospace;font-size:9.5px;
+  letter-spacing:.06em;text-transform:uppercase;
+}
+.nav button[aria-selected="true"]{color:var(--blue)}
+.nav button[aria-selected="true"] span{font-weight:500}
+
+/* ---------- shared ---------- */
+.stack{display:flex;flex-direction:column;gap:32px}
 .eyebrow{
   font-family:"IBM Plex Mono",ui-monospace,monospace;
   font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft);
@@ -98,6 +122,29 @@ h2.sec{
   font-size:23px;text-transform:uppercase;letter-spacing:.02em;margin:2px 0 6px;
 }
 .lede{color:var(--ink-soft);font-size:15px;margin-bottom:16px}
+.empty{
+  color:var(--ink-soft);font-size:14.5px;background:var(--sunk);
+  border:1px dashed var(--line);border-radius:10px;padding:16px;
+}
+
+/* ---------- search ---------- */
+.seek{display:flex;gap:8px;margin-bottom:12px}
+.seek input{
+  flex:1;min-width:0;font-size:16px;background:var(--card);
+  border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;
+}
+.seek input::placeholder{color:var(--ink-soft)}
+.seek button{
+  flex:none;width:48px;border:0;border-radius:10px;background:var(--blue);
+  display:grid;place-items:center;cursor:pointer;
+}
+.seek button svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round}
+.seek-hint{font-size:13px;color:var(--ink-soft);margin-bottom:14px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{
+  background:var(--card);border:1.5px solid var(--line);border-radius:999px;
+  padding:8px 14px;font-size:14px;text-decoration:none;color:var(--ink);
+}
 
 /* ---------- waves ---------- */
 .wave{
@@ -138,7 +185,7 @@ h2.sec{
 /* ---------- drops ---------- */
 .drop{padding:13px 0;border-bottom:1px solid var(--line)}
 .drop:last-child{border-bottom:0}
-.drop .top{display:flex;gap:10px;align-items:baseline}
+.drop .top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
 .maker{
   font-family:"IBM Plex Mono",monospace;font-size:10.5px;
   letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);flex:none;
@@ -151,10 +198,11 @@ h2.sec{
 }
 .heat.hot{border-color:var(--red);color:var(--red)}
 .heat.yours{border-color:var(--green);color:var(--green)}
+.heat.mine{border-color:var(--blue);color:#fff;background:var(--blue);margin-left:0}
 .drop .what{font-weight:600;margin-top:5px;font-size:15.5px}
 .drop .note{font-size:14px;color:var(--ink-soft);margin-top:3px}
 
-/* ---------- talk ---------- */
+/* ---------- cards ---------- */
 .tcard{
   background:var(--card);border:1.5px solid var(--line);border-radius:10px;
   padding:14px 16px;margin-bottom:11px;box-shadow:var(--shadow);
@@ -165,7 +213,6 @@ h2.sec{
 }
 .tcard p{font-size:14.5px;color:var(--ink-soft)}
 
-/* ---------- ideas ---------- */
 .idea{
   background:var(--card);border:1.5px solid var(--line);border-left:4px solid var(--blue);
   border-radius:0 10px 10px 0;padding:14px 16px;margin-bottom:11px;
@@ -177,7 +224,7 @@ h2.sec{
 .idea .ttl{font-weight:600;font-size:15.5px;margin-top:5px}
 .idea .why{font-size:14.5px;color:var(--ink-soft);margin-top:5px}
 
-/* ---------- copy blocks ---------- */
+/* ---------- copy ---------- */
 .tapline{
   display:flex;align-items:center;gap:10px;margin-top:10px;
   background:var(--sunk);border:1px solid var(--line);border-radius:8px;
@@ -187,13 +234,12 @@ h2.sec{
   font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink);
   flex:1;word-break:break-word;line-height:1.7;
 }
-.tapline .cue{
+.tapline .cue,.setrow .cue{
   flex:none;font-family:"IBM Plex Mono",monospace;font-size:9.5px;
   letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);
 }
-.tapline.done{border-color:var(--green)}
-.tapline.done .cue{color:var(--green)}
-
+.tapline.done,.setrow.done{border-color:var(--green)}
+.tapline.done .cue,.setrow.done .cue{color:var(--green)}
 .setrow{
   display:flex;align-items:center;gap:10px;width:100%;text-align:left;
   background:var(--card);border:1.5px solid var(--line);border-radius:10px;
@@ -201,46 +247,96 @@ h2.sec{
 }
 .setrow .nm{
   font-family:Anton,"Arial Narrow",Impact,sans-serif;
-  font-size:14px;text-transform:uppercase;letter-spacing:.03em;flex:none;min-width:110px;
+  font-size:14px;text-transform:uppercase;letter-spacing:.03em;flex:none;min-width:104px;
 }
 .setrow .pv{
   font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-soft);
   flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
-.setrow .cue{
-  flex:none;font-family:"IBM Plex Mono",monospace;font-size:9.5px;
-  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);
-}
-.setrow.done{border-color:var(--green)}
-.setrow.done .cue{color:var(--green)}
 
-/* ---------- search ---------- */
-.seek{
-  display:flex;gap:8px;margin-bottom:12px;
+/* ---------- add rows / lists ---------- */
+.addrow{display:flex;gap:8px;margin-bottom:12px}
+.addrow input{
+  flex:1;min-width:0;font-size:16px;background:var(--card);
+  border:1.5px solid var(--line);border-radius:10px;padding:11px 13px;
 }
-.seek input{
-  flex:1;min-width:0;font:inherit;font-size:16px;color:var(--ink);
+.addrow input[type="date"]{flex:none;width:150px}
+.addrow button{
+  flex:none;border:0;border-radius:10px;background:var(--blue);color:#fff;
+  padding:0 16px;cursor:pointer;font-weight:600;
+}
+.seg{display:flex;gap:8px;margin-bottom:12px}
+.seg button{
+  flex:1;background:var(--card);border:1.5px solid var(--line);border-radius:10px;
+  padding:9px 8px;cursor:pointer;font-size:14px;color:var(--ink-soft);
+}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+.item{
+  display:flex;align-items:center;gap:10px;
   background:var(--card);border:1.5px solid var(--line);border-radius:10px;
-  padding:12px 14px;
+  padding:11px 13px;margin-bottom:8px;
 }
-.seek input::placeholder{color:var(--ink-soft)}
-.seek button{
-  flex:none;width:48px;border:0;border-radius:10px;background:var(--blue);
-  display:grid;place-items:center;cursor:pointer;
+.item .txt{flex:1;min-width:0;font-size:15px;word-break:break-word}
+.item .sub{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-soft);
+  letter-spacing:.06em;margin-top:2px;
 }
-.seek button svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round}
-.seek-hint{font-size:13px;color:var(--ink-soft);margin-bottom:14px}
+.item .x{
+  flex:none;background:none;border:0;cursor:pointer;color:var(--ink-soft);
+  font-size:20px;line-height:1;padding:2px 8px;border-radius:6px;
+}
+.item .x:active{color:var(--red)}
+.item.wish{border-left:4px solid var(--yellow)}
 
-/* ---------- search links ---------- */
-.links{display:flex;flex-wrap:wrap;gap:8px}
-.links a{
-  background:var(--card);border:1.5px solid var(--line);border-radius:999px;
-  padding:8px 14px;font-size:14px;text-decoration:none;color:var(--ink);
+.stale{
+  display:flex;align-items:baseline;gap:10px;
+  padding:11px 2px;border-bottom:1px solid var(--line);
 }
-.links a:active{border-color:var(--blue)}
+.stale:last-child{border-bottom:0}
+.stale .t{flex:1;font-size:15px}
+.stale .n{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-soft);
+  font-variant-numeric:tabular-nums;flex:none;
+}
+.stale .n.never{color:var(--yellow)}
+
+/* ---------- agenda ---------- */
+.ag{
+  display:flex;gap:14px;padding:13px 0;border-bottom:1px solid var(--line);
+}
+.ag:last-child{border-bottom:0}
+.ag .day{
+  flex:none;width:52px;text-align:center;
+}
+.ag .day b{
+  display:block;font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:22px;line-height:1;
+}
+.ag .day i{
+  display:block;font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-style:normal;margin-top:3px;
+}
+.ag .body{flex:1;min-width:0}
+.ag .body .nm{font-weight:600;font-size:15.5px}
+.ag .body .where{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-soft);
+  letter-spacing:.05em;margin-top:3px;
+}
+.ag .body .nt{font-size:14px;color:var(--ink-soft);margin-top:4px}
+.ag .body a{font-size:13.5px;display:inline-block;margin-top:5px}
+.flag{
+  display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:9.5px;
+  letter-spacing:.1em;padding:2px 6px;border-radius:4px;border:1px solid var(--line);
+  color:var(--ink-soft);margin-left:6px;vertical-align:1px;
+}
+.cd{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-soft);
+  margin-left:auto;flex:none;
+}
 
 .foot{
-  margin-top:34px;padding-top:18px;border-top:2px solid var(--line);
+  margin-top:30px;padding-top:18px;border-top:2px solid var(--line);
   font-size:12.5px;color:var(--ink-soft);
 }
 .foot h3{
@@ -249,7 +345,6 @@ h2.sec{
 }
 .foot ul{margin:0 0 12px;padding-left:17px;line-height:1.8}
 .foot p{margin-bottom:9px}
-
 .skel{color:var(--ink-soft);padding:30px 0;text-align:center;font-size:15px}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
@@ -271,25 +366,46 @@ h2.sec{
 <div class="flash" id="flash" hidden></div>
 
 <div class="wrap">
-  <div id="app"><p class="skel">Bezig met laden…</p></div>
+  <div id="view-radar"><p class="skel">Bezig met laden…</p></div>
+  <div id="view-plank" hidden></div>
+  <div id="view-log" hidden></div>
+  <div id="view-agenda" hidden></div>
 
   <div class="foot" id="foot" hidden>
     <h3>Bronnen</h3>
     <ul id="srcList"></ul>
     <p id="srcNote"></p>
-    <p>Deze app wordt elke ochtend om 7:00 gevuld door een taak die de bronnen naleest. De knop rechtsboven haalt
-      de nieuwste stand op. Zonder verbinding zie je de laatste stand die op je telefoon staat.</p>
+    <p>De radar wordt elke ochtend om 7:00 gevuld door een taak die de bronnen naleest. De knop rechtsboven haalt
+      de nieuwste stand op. Je plank en je logboek staan alleen op deze telefoon en gaan nergens heen.</p>
   </div>
 </div>
+
+<nav class="nav" id="nav" role="tablist">
+  <button type="button" data-view="radar" aria-selected="true">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 12l6-6"/></svg>
+    <span>Radar</span>
+  </button>
+  <button type="button" data-view="plank" aria-selected="false">
+    <svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/><path d="M7 7v-2M13 12v-2M17 17v-2"/></svg>
+    <span>Plank</span>
+  </button>
+  <button type="button" data-view="log" aria-selected="false">
+    <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 10h8M8 14h5"/></svg>
+    <span>Logboek</span>
+  </button>
+  <button type="button" data-view="agenda" aria-selected="false">
+    <svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3.5v3M16 3.5v3"/></svg>
+    <span>Agenda</span>
+  </button>
+</nav>
 
 <script>
 (function () {
   "use strict";
 
   var $ = function (id) { return document.getElementById(id); };
-  var app = $("app"), flash = $("flash"), stamp = $("stamp"), refresh = $("refresh");
+  var flash = $("flash"), stamp = $("stamp"), refresh = $("refresh");
 
-  /* ---------- static: hashtag sets, unchanged by the day ---------- */
   var SETS = [
     ["Basis", "#toystagram #actionfigures #actionfigurephotography #toyphotography #toycollector #toycommunity #toyphotographers"],
     ["Vintage", "#vintagetoys #vintageactionfigures #80stoys #90stoys #retrotoys #toyhunting #toygrail"],
@@ -301,7 +417,6 @@ h2.sec{
     ["Godzilla", "#godzilla #kaiju #kaijucollector #godzillacollection #shmonsterarts #bandai"],
     ["NECA", "#neca #necatoys #ultimateneca #horrorcollector #hottoys"]
   ];
-
   var HOOKS = [
     ["zondag", "#ToyDayIsPunday", "woordgrap"],
     ["maandag", "#MechanoidMonday", "robots en mecha"],
@@ -311,7 +426,6 @@ h2.sec{
     ["vrijdag", "#NoFigureFriday", "accessoires zonder figuur"],
     ["zaterdag", "#toyhunting", "vondsten en de plank"]
   ];
-
   var SEARCHES = [
     ["Marvel Legends", "marvel legends new figure"],
     ["MOTU", "masters of the universe figure news"],
@@ -321,6 +435,22 @@ h2.sec{
     ["DC", "dc multiverse mcfarlane figure"],
     ["Vintage", "vintage action figure find"]
   ];
+  var MONTHS = ["jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"];
+
+  /* ---------- storage ---------- */
+  function get(key, fallback) {
+    try {
+      var raw = localStorage.getItem("cbr:" + key);
+      return raw ? JSON.parse(raw) : fallback;
+    } catch (e) { return fallback; }
+  }
+  function set(key, val) {
+    try { localStorage.setItem("cbr:" + key, JSON.stringify(val)); } catch (e) {}
+  }
+
+  var shelf = get("shelf", []);   // [{t, w}]  w = wenslijst
+  var log = get("log", []);       // [{t, d}]  d = "JJJJ-MM-DD"
+  var data = null;
 
   /* ---------- helpers ---------- */
   function el(tag, cls, text) {
@@ -329,18 +459,25 @@ h2.sec{
     if (text != null) n.textContent = text;
     return n;
   }
-
-  function days(from, to) { return Math.round((to - from) / 86400000); }
-
   function midnight(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
-
+  function days(a, b) { return Math.round((b - a) / 86400000); }
   function parseDay(s) {
     var p = String(s || "").split("-");
     if (p.length !== 3) return null;
     var d = new Date(+p[0], +p[1] - 1, +p[2]);
     return isNaN(d) ? null : d;
   }
-
+  function iso(d) {
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") +
+      "-" + String(d.getDate()).padStart(2, "0");
+  }
+  function legacyCopy(text, ok) {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); ok(); } catch (e) {}
+    document.body.removeChild(ta);
+  }
   function copyTap(btn, text) {
     btn.addEventListener("click", function () {
       var ok = function () {
@@ -354,70 +491,60 @@ h2.sec{
         }, 1500);
       };
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(ok, function () { legacy(text, ok); });
-      } else { legacy(text, ok); }
+        navigator.clipboard.writeText(text).then(ok, function () { legacyCopy(text, ok); });
+      } else { legacyCopy(text, ok); }
     });
   }
-  function legacy(text, ok) {
-    var ta = document.createElement("textarea");
-    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
-    document.body.appendChild(ta); ta.select();
-    try { document.execCommand("copy"); ok(); } catch (e) {}
-    document.body.removeChild(ta);
-  }
-
   function showFlash(text, kind) {
     if (!text) { flash.hidden = true; return; }
     flash.hidden = false;
     flash.className = "flash" + (kind ? " " + kind : "");
     flash.textContent = text;
   }
+  function words(s) {
+    return String(s || "").toLowerCase().split(/[^a-z0-9']+/)
+      .filter(function (w) { return w.length >= 4; });
+  }
 
-  /* ---------- render ---------- */
-  function render(d) {
-    app.innerHTML = "";
+  /* ================= RADAR ================= */
+  function renderRadar() {
+    var host = $("view-radar");
+    host.innerHTML = "";
+    var d = data;
+    if (!d) { host.appendChild(el("p", "skel", "Nog niets opgehaald.")); return; }
+
     var stack = el("div", "stack");
     var today = midnight(new Date());
 
-    stamp.textContent = "Bijgewerkt " + (d.updatedLabel || "—");
-
-    /* search — opens in the browser, so it works with no account and no key */
+    /* search */
     var s0 = el("section");
     var seek = el("div", "seek");
     var q = document.createElement("input");
-    q.type = "search";
-    q.setAttribute("enterkeyhint", "search");
+    q.type = "search"; q.setAttribute("enterkeyhint", "search");
     q.setAttribute("autocapitalize", "none");
     q.placeholder = "Zoek: godzilla, motu origins, neca tmnt…";
     var go = document.createElement("button");
-    go.type = "button";
-    go.setAttribute("aria-label", "Zoeken");
+    go.type = "button"; go.setAttribute("aria-label", "Zoeken");
     go.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>';
-    seek.appendChild(q);
-    seek.appendChild(go);
+    seek.appendChild(q); seek.appendChild(go);
     s0.appendChild(seek);
     s0.appendChild(el("p", "seek-hint",
       "Opent het nieuws over jouw zoekwoord in je browser. Ik zet er zelf “action figure” bij als je dat niet doet, anders krijg je filmnieuws."));
-
     function doSeek() {
       var raw = q.value.trim();
       if (!raw) { q.focus(); return; }
-      var low = raw.toLowerCase();
-      var toyish = /figure|toy|collect|neca|hasbro|mattel|mcfarlane|mezco|super7|playmates|bandai|legends|origins|preorder|cardback/.test(low);
-      var term = toyish ? raw : raw + " action figure";
-      window.open("https://news.google.com/search?q=" + encodeURIComponent(term) + "&hl=nl", "_blank", "noopener");
+      var toyish = /figure|toy|collect|neca|hasbro|mattel|mcfarlane|mezco|super7|playmates|bandai|legends|origins|preorder|cardback/.test(raw.toLowerCase());
+      window.open("https://news.google.com/search?q=" +
+        encodeURIComponent(toyish ? raw : raw + " action figure") + "&hl=nl", "_blank", "noopener");
     }
     go.addEventListener("click", doSeek);
-    q.addEventListener("keydown", function (e) {
-      if (e.key === "Enter") { e.preventDefault(); doSeek(); }
-    });
-
+    q.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); doSeek(); } });
     var quick = el("div", "links");
-    SEARCHES.forEach(function (item) {
+    SEARCHES.forEach(function (it) {
       var a = document.createElement("a");
-      a.href = "https://news.google.com/search?q=" + encodeURIComponent(item[1]) + "&hl=nl";
+      a.href = "https://news.google.com/search?q=" + encodeURIComponent(it[1]) + "&hl=nl";
       a.target = "_blank"; a.rel = "noopener noreferrer";
-      a.textContent = item[0];
+      a.textContent = it[0];
       quick.appendChild(a);
     });
     s0.appendChild(quick);
@@ -428,10 +555,8 @@ h2.sec{
       var s1 = el("section");
       s1.appendChild(el("div", "eyebrow", "Waar de aandacht heen gaat"));
       s1.appendChild(el("h2", "sec", "De golven"));
-
       d.waves.forEach(function (w, i) {
         var box = el("div", "wave" + (i > 0 ? " minor" : ""));
-
         var top = el("div", "wave-top");
         var clock = el("div", "clock");
         var num = el("div", "num", "—");
@@ -444,13 +569,11 @@ h2.sec{
         }
         clock.appendChild(num); clock.appendChild(unit);
         top.appendChild(clock);
-
         var ttl = el("div", "wave-title");
         ttl.appendChild(el("h3", null, w.title || ""));
         if (w.when) ttl.appendChild(el("div", "when", w.when));
         top.appendChild(ttl);
         box.appendChild(top);
-
         var body = el("div", "wave-body");
         if (w.body) body.appendChild(el("p", null, w.body));
         if (w.do) {
@@ -465,19 +588,33 @@ h2.sec{
       stack.appendChild(s1);
     }
 
-    /* drops */
+    /* drops, matched against the shelf */
     if (d.drops && d.drops.length) {
       var s2 = el("section");
       s2.appendChild(el("div", "eyebrow", "Verse reveals en preorders"));
       s2.appendChild(el("h2", "sec", "Wat er net op tafel ligt"));
-      s2.appendChild(el("p", "lede", "Groen betekent: dit raakt een lijn die jij al op de plank hebt staan."));
+      s2.appendChild(el("p", "lede", shelf.length
+        ? "Blauw is een treffer op jouw plank of wensenlijst. Groen raakt een lijn die je verzamelt."
+        : "Groen raakt een lijn die je verzamelt. Vul je plank in en je ziet ook treffers op je eigen stukken."));
+
+      var terms = [];
+      shelf.forEach(function (it) {
+        words(it.t).forEach(function (w) { terms.push({ w: w, wish: !!it.w, t: it.t }); });
+      });
+
       d.drops.forEach(function (dr) {
         var row = el("div", "drop");
+        var hay = ((dr.what || "") + " " + (dr.note || "")).toLowerCase();
+        var hit = null;
+        for (var i = 0; i < terms.length; i++) {
+          if (hay.indexOf(terms[i].w) !== -1) { hit = terms[i]; break; }
+        }
         var top = el("div", "top");
         top.appendChild(el("span", "maker", dr.maker || ""));
+        if (hit) top.appendChild(el("span", "heat mine", hit.wish ? "je zoekt dit" : "op je plank"));
         var h = String(dr.heat || "").toLowerCase();
-        var cls = h === "hot" ? "heat hot" : (h === "yours" || h === "jouw lijn") ? "heat yours" : "heat";
-        var label = h === "hot" ? "hot" : (h === "yours" || h === "jouw lijn") ? "jouw lijn" : "zijlijn";
+        var cls = h === "hot" ? "heat hot" : (h === "yours") ? "heat yours" : "heat";
+        var label = h === "hot" ? "hot" : (h === "yours") ? "jouw lijn" : "zijlijn";
         top.appendChild(el("span", cls, label));
         row.appendChild(top);
         row.appendChild(el("div", "what", dr.what || ""));
@@ -501,11 +638,10 @@ h2.sec{
       stack.appendChild(s3);
     }
 
-    /* ideas — the day's hook is worked out here, on the phone */
+    /* ideas */
     var s4 = el("section");
     s4.appendChild(el("div", "eyebrow", "Vandaag"));
     s4.appendChild(el("h2", "sec", "Posts die nu landen"));
-
     var ideas = (d.ideas || []).slice();
     var hook = HOOKS[new Date().getDay()];
     ideas.push({
@@ -514,7 +650,6 @@ h2.sec{
       why: "Het is " + hook[0] + ", dus " + hook[1] + " staat open. Daar zit al publiek te kijken zonder dat je iets aan bereik hoeft te doen.",
       tags: SETS[0][1] + " " + hook[1].toLowerCase()
     });
-
     ideas.forEach(function (it) {
       var box = el("div", "idea");
       box.appendChild(el("div", "slot", it.slot || ""));
@@ -532,7 +667,7 @@ h2.sec{
     });
     stack.appendChild(s4);
 
-    /* hashtag sets */
+    /* sets */
     var s5 = el("section");
     s5.appendChild(el("div", "eyebrow", "Kant-en-klaar"));
     s5.appendChild(el("h2", "sec", "Hashtagsets"));
@@ -548,7 +683,7 @@ h2.sec{
     });
     stack.appendChild(s5);
 
-    app.appendChild(stack);
+    host.appendChild(stack);
 
     /* sources */
     var list = $("srcList");
@@ -563,43 +698,317 @@ h2.sec{
     });
     $("srcNote").textContent = d.sourceNote || "";
     $("foot").hidden = false;
-
-    if (d.quiet && d.quietNote) showFlash(d.quietNote, "warn");
   }
 
-  /* ---------- loading ---------- */
-  var lastGood = null;
+  /* ================= PLANK ================= */
+  var plankMode = "have";
+
+  function renderPlank() {
+    var host = $("view-plank");
+    host.innerHTML = "";
+    var stack = el("div", "stack");
+    var sec = el("section");
+
+    sec.appendChild(el("div", "eyebrow", "Wat je hebt en wat je zoekt"));
+    sec.appendChild(el("h2", "sec", "Mijn plank"));
+    sec.appendChild(el("p", "lede",
+      "Zet erin wat op je plank staat en wat je nog zoekt. De radar markeert daarna nieuws dat over jouw stukken gaat. Blijft op deze telefoon."));
+
+    var seg = el("div", "seg");
+    [["have", "Heb ik"], ["wish", "Zoek ik"]].forEach(function (m) {
+      var b = el("button", null, m[1]);
+      b.type = "button";
+      b.setAttribute("aria-pressed", plankMode === m[0] ? "true" : "false");
+      b.addEventListener("click", function () { plankMode = m[0]; renderPlank(); });
+      seg.appendChild(b);
+    });
+    sec.appendChild(seg);
+
+    var add = el("div", "addrow");
+    var inp = document.createElement("input");
+    inp.type = "text";
+    inp.placeholder = plankMode === "have"
+      ? "He-Man MOTU Origins 2021" : "Vintage Rocksteady 1988";
+    var btn = el("button", null, "Erbij");
+    btn.type = "button";
+    function addItem() {
+      var v = inp.value.trim();
+      if (!v) return;
+      shelf.push({ t: v, w: plankMode === "wish" });
+      set("shelf", shelf);
+      inp.value = "";
+      renderPlank();
+    }
+    btn.addEventListener("click", addItem);
+    inp.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); addItem(); } });
+    add.appendChild(inp); add.appendChild(btn);
+    sec.appendChild(add);
+
+    var mine = shelf.filter(function (it) { return (plankMode === "wish") === !!it.w; });
+    if (!mine.length) {
+      sec.appendChild(el("div", "empty", plankMode === "have"
+        ? "Nog niets ingevuld. Begin met je tien favorieten — meer hoeft niet om het nuttig te maken."
+        : "Nog geen wensen. Zet erin wat je op beurzen zoekt, dan springt het eruit zodra het in het nieuws komt."));
+    } else {
+      mine.forEach(function (it) {
+        var row = el("div", "item" + (it.w ? " wish" : ""));
+        row.appendChild(el("div", "txt", it.t));
+        var x = el("button", "x", "×");
+        x.type = "button";
+        x.setAttribute("aria-label", "Verwijder " + it.t);
+        x.addEventListener("click", function () {
+          var i = shelf.indexOf(it);
+          if (i > -1) { shelf.splice(i, 1); set("shelf", shelf); renderPlank(); }
+        });
+        row.appendChild(x);
+        sec.appendChild(row);
+      });
+    }
+
+    stack.appendChild(sec);
+    host.appendChild(stack);
+  }
+
+  /* ================= LOGBOEK ================= */
+  function renderLog() {
+    var host = $("view-log");
+    host.innerHTML = "";
+    var stack = el("div", "stack");
+    var today = midnight(new Date());
+
+    var sec = el("section");
+    sec.appendChild(el("div", "eyebrow", "Wat heb je laten zien"));
+    sec.appendChild(el("h2", "sec", "Logboek"));
+    sec.appendChild(el("p", "lede",
+      "Noteer kort wat je gepost hebt. Daaronder zie je welke stukken van je plank al lang niet aan de beurt zijn geweest."));
+
+    var add = el("div", "addrow");
+    var inp = document.createElement("input");
+    inp.type = "text"; inp.placeholder = "Wat heb je gepost?";
+    var dt = document.createElement("input");
+    dt.type = "date"; dt.value = iso(new Date());
+    var btn = el("button", null, "Erbij");
+    btn.type = "button";
+    function addEntry() {
+      var v = inp.value.trim();
+      if (!v) return;
+      log.push({ t: v, d: dt.value || iso(new Date()) });
+      set("log", log);
+      inp.value = "";
+      renderLog();
+    }
+    btn.addEventListener("click", addEntry);
+    inp.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); addEntry(); } });
+    add.appendChild(inp); add.appendChild(btn);
+    sec.appendChild(add);
+    var add2 = el("div", "addrow");
+    add2.appendChild(dt);
+    sec.appendChild(add2);
+
+    if (!log.length) {
+      sec.appendChild(el("div", "empty", "Nog niets genoteerd. Vul het na elke post in — het kost vijf seconden en na een maand weet je precies waar je gaten zitten."));
+    } else {
+      var sorted = log.slice().sort(function (a, b) { return a.d < b.d ? 1 : -1; });
+      sorted.slice(0, 40).forEach(function (e) {
+        var row = el("div", "item");
+        var txt = el("div", "txt");
+        txt.appendChild(document.createTextNode(e.t));
+        var when = parseDay(e.d);
+        var ago = when ? days(when, today) : null;
+        txt.appendChild(el("div", "sub",
+          (when ? when.getDate() + " " + MONTHS[when.getMonth()] : "?") +
+          (ago === 0 ? " · vandaag" : ago > 0 ? " · " + ago + " dagen geleden" : "")));
+        row.appendChild(txt);
+        var x = el("button", "x", "×");
+        x.type = "button";
+        x.setAttribute("aria-label", "Verwijder");
+        x.addEventListener("click", function () {
+          var i = log.indexOf(e);
+          if (i > -1) { log.splice(i, 1); set("log", log); renderLog(); }
+        });
+        row.appendChild(x);
+        sec.appendChild(row);
+      });
+    }
+    stack.appendChild(sec);
+
+    /* what has not had a turn */
+    var have = shelf.filter(function (it) { return !it.w; });
+    var sec2 = el("section");
+    sec2.appendChild(el("div", "eyebrow", "Tijd voor een beurt"));
+    sec2.appendChild(el("h2", "sec", "Lang niet laten zien"));
+
+    if (!have.length) {
+      sec2.appendChild(el("div", "empty", "Vul eerst je plank in, dan kan ik zeggen wat je laat liggen."));
+    } else {
+      var scored = have.map(function (it) {
+        var best = null;
+        log.forEach(function (e) {
+          var hay = e.t.toLowerCase();
+          var ws = words(it.t);
+          for (var i = 0; i < ws.length; i++) {
+            if (hay.indexOf(ws[i]) !== -1) {
+              var when = parseDay(e.d);
+              if (when && (!best || when > best)) best = when;
+              break;
+            }
+          }
+        });
+        return { t: it.t, last: best, n: best ? days(best, today) : null };
+      }).sort(function (a, b) {
+        if (a.n === null && b.n === null) return 0;
+        if (a.n === null) return -1;
+        if (b.n === null) return 1;
+        return b.n - a.n;
+      });
+
+      scored.slice(0, 8).forEach(function (s) {
+        var row = el("div", "stale");
+        row.appendChild(el("div", "t", s.t));
+        row.appendChild(el("div", "n" + (s.n === null ? " never" : ""),
+          s.n === null ? "nog nooit" : s.n + " dgn"));
+        sec2.appendChild(row);
+      });
+      sec2.appendChild(el("p", "lede", ""));
+    }
+    stack.appendChild(sec2);
+    host.appendChild(stack);
+  }
+
+  /* ================= AGENDA ================= */
+  function renderAgenda() {
+    var host = $("view-agenda");
+    host.innerHTML = "";
+    var stack = el("div", "stack");
+    var today = midnight(new Date());
+    var d = data || {};
+
+    function dayBlock(when) {
+      var day = el("div", "day");
+      day.appendChild(el("b", null, String(when.getDate())));
+      day.appendChild(el("i", null, MONTHS[when.getMonth()]));
+      return day;
+    }
+
+    /* fairs first — they need planning */
+    var s1 = el("section");
+    s1.appendChild(el("div", "eyebrow", "Nederland, België en Duitsland"));
+    s1.appendChild(el("h2", "sec", "Beurzen"));
+    var fairs = (d.fairs || []).map(function (f) {
+      return { f: f, when: parseDay(f.date) };
+    }).filter(function (x) {
+      return x.when && days(today, x.when) >= 0;
+    }).sort(function (a, b) { return a.when - b.when; });
+
+    if (!fairs.length) {
+      s1.appendChild(el("div", "empty", "Op dit moment geen beurzen bekend. De ochtendtaak vult ze aan zodra er data bekend zijn."));
+    } else {
+      fairs.forEach(function (x) {
+        var row = el("div", "ag");
+        row.appendChild(dayBlock(x.when));
+        var body = el("div", "body");
+        var nm = el("div", "nm");
+        nm.appendChild(document.createTextNode(x.f.name || ""));
+        if (x.f.country) nm.appendChild(el("span", "flag", x.f.country));
+        body.appendChild(nm);
+        if (x.f.city) body.appendChild(el("div", "where", x.f.city));
+        if (x.f.note) body.appendChild(el("div", "nt", x.f.note));
+        if (x.f.url) {
+          var a = document.createElement("a");
+          a.href = x.f.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+          a.textContent = "Meer info";
+          body.appendChild(a);
+        }
+        row.appendChild(body);
+        row.appendChild(el("div", "cd", "over " + days(today, x.when) + " dgn"));
+        s1.appendChild(row);
+      });
+    }
+    stack.appendChild(s1);
+
+    /* what is coming */
+    var s2 = el("section");
+    s2.appendChild(el("div", "eyebrow", "Om op voor te bereiden"));
+    s2.appendChild(el("h2", "sec", "Wat eraan komt"));
+    var ag = (d.agenda || []).map(function (a) {
+      return { a: a, when: parseDay(a.date) };
+    }).filter(function (x) {
+      return x.when && days(today, x.when) >= 0;
+    }).sort(function (a, b) { return a.when - b.when; });
+
+    if (!ag.length) {
+      s2.appendChild(el("div", "empty", "Nog niets in de agenda. De ochtendtaak vult hem aan met releases, jubilea en aankondigingen."));
+    } else {
+      ag.forEach(function (x) {
+        var row = el("div", "ag");
+        row.appendChild(dayBlock(x.when));
+        var body = el("div", "body");
+        body.appendChild(el("div", "nm", x.a.label || ""));
+        if (x.a.note) body.appendChild(el("div", "nt", x.a.note));
+        row.appendChild(body);
+        row.appendChild(el("div", "cd", "over " + days(today, x.when) + " dgn"));
+        s2.appendChild(row);
+      });
+    }
+    stack.appendChild(s2);
+    host.appendChild(stack);
+  }
+
+  /* ================= views ================= */
+  var VIEWS = { radar: renderRadar, plank: renderPlank, log: renderLog, agenda: renderAgenda };
+  var current = "radar";
+
+  function show(name) {
+    current = name;
+    Object.keys(VIEWS).forEach(function (k) {
+      $("view-" + k).hidden = k !== name;
+    });
+    $("foot").hidden = name !== "radar";
+    VIEWS[name]();
+    window.scrollTo(0, 0);
+  }
+
+  Array.prototype.forEach.call($("nav").querySelectorAll("button"), function (b) {
+    b.addEventListener("click", function () {
+      Array.prototype.forEach.call($("nav").querySelectorAll("button"), function (o) {
+        o.setAttribute("aria-selected", o === b ? "true" : "false");
+      });
+      show(b.getAttribute("data-view"));
+    });
+  });
+
+  /* ================= loading ================= */
+  function apply(d) {
+    data = d;
+    stamp.textContent = "Bijgewerkt " + (d.updatedLabel || "—");
+    VIEWS[current]();
+    if (d.quiet && d.quietNote) showFlash(d.quietNote, "warn");
+  }
 
   function load(manual) {
     if (manual) { refresh.disabled = true; refresh.classList.add("spin"); showFlash("Ophalen…"); }
     return fetch("data.json?t=" + Date.now(), { cache: "no-store" })
-      .then(function (r) {
-        if (!r.ok) throw new Error("http " + r.status);
-        return r.json();
-      })
+      .then(function (r) { if (!r.ok) throw new Error("http " + r.status); return r.json(); })
       .then(function (d) {
-        lastGood = d;
-        try { localStorage.setItem("cbr:data", JSON.stringify(d)); } catch (e) {}
-        render(d);
+        set("data", d);
+        apply(d);
         if (manual) {
           var t = new Date().toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit" });
           showFlash("Bijgewerkt om " + t);
           setTimeout(function () { showFlash(null); }, 2500);
-        } else {
+        } else if (!(d.quiet && d.quietNote)) {
           showFlash(null);
         }
       })
       .catch(function () {
-        var kept = lastGood;
-        if (!kept) {
-          try { kept = JSON.parse(localStorage.getItem("cbr:data") || "null"); } catch (e) { kept = null; }
-        }
+        var kept = data || get("data", null);
         if (kept) {
-          render(kept);
+          apply(kept);
           showFlash("Geen verbinding — dit is de stand van " + (kept.updatedLabel || "eerder") + ".", "warn");
         } else {
-          app.innerHTML = "";
-          app.appendChild(el("p", "skel", "Nog niets opgehaald en geen verbinding. Probeer het opnieuw zodra je online bent."));
+          $("view-radar").innerHTML = "";
+          $("view-radar").appendChild(el("p", "skel",
+            "Nog niets opgehaald en geen verbinding. Probeer het opnieuw zodra je online bent."));
           showFlash("Geen verbinding.", "bad");
         }
       })
@@ -611,14 +1020,10 @@ h2.sec{
 
   refresh.addEventListener("click", function () { load(true); });
 
-  /* show whatever we already have, instantly, then go and check */
-  try {
-    var cached = JSON.parse(localStorage.getItem("cbr:data") || "null");
-    if (cached) { lastGood = cached; render(cached); }
-  } catch (e) {}
+  var cached = get("data", null);
+  if (cached) apply(cached);
   load(false);
 
-  /* check again when the app is brought back to the front */
   document.addEventListener("visibilitychange", function () {
     if (!document.hidden) load(false);
   });
