@@ -25,7 +25,6 @@
   --shadow:0 1px 0 rgba(20,23,31,.05), 0 8px 20px -15px rgba(20,23,31,.5);
   --safe-top:env(safe-area-inset-top,0px);
   --safe-bot:env(safe-area-inset-bottom,0px);
-  --nav-h:60px;
 }
 @media (prefers-color-scheme: dark){
   :root{
@@ -53,7 +52,7 @@ button,input{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
 
 .wrap{
   max-width:720px;margin:0 auto;
-  padding:20px 16px calc(28px + var(--nav-h) + var(--safe-bot));
+  padding:18px 16px calc(40px + var(--safe-bot));
 }
 
 /* ---------- top bar ---------- */
@@ -91,25 +90,21 @@ button,input{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
 .flash.warn{background:var(--yellow);color:#2A2005}
 .flash.bad{background:var(--red);color:#fff}
 
-/* ---------- bottom nav ---------- */
-.nav{
-  position:fixed;left:0;right:0;bottom:0;z-index:30;
-  background:var(--card);border-top:1.5px solid var(--line);
-  display:grid;grid-template-columns:repeat(4,1fr);
-  padding-bottom:var(--safe-bot);
+/* ---------- view switch ---------- */
+.switch{
+  display:flex;gap:6px;background:var(--sunk);border:1.5px solid var(--line);
+  border-radius:12px;padding:4px;margin-bottom:22px;
 }
-.nav button{
-  background:none;border:0;padding:9px 4px 8px;cursor:pointer;
-  display:flex;flex-direction:column;align-items:center;gap:3px;
-  color:var(--ink-soft);
+.switch button{
+  flex:1;background:none;border:0;border-radius:9px;padding:9px 8px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:7px;color:var(--ink-soft);
 }
-.nav svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
-.nav span{
-  font-family:"IBM Plex Mono",monospace;font-size:9.5px;
-  letter-spacing:.06em;text-transform:uppercase;
+.switch svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.switch span{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;
+  letter-spacing:.08em;text-transform:uppercase;
 }
-.nav button[aria-selected="true"]{color:var(--blue)}
-.nav button[aria-selected="true"] span{font-weight:500}
+.switch button[aria-selected="true"]{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}
 
 /* ---------- shared ---------- */
 .stack{display:flex;flex-direction:column;gap:32px}
@@ -254,53 +249,6 @@ h2.sec{
   flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 
-/* ---------- add rows / lists ---------- */
-.addrow{display:flex;gap:8px;margin-bottom:12px}
-.addrow input{
-  flex:1;min-width:0;font-size:16px;background:var(--card);
-  border:1.5px solid var(--line);border-radius:10px;padding:11px 13px;
-}
-.addrow input[type="date"]{flex:none;width:150px}
-.addrow button{
-  flex:none;border:0;border-radius:10px;background:var(--blue);color:#fff;
-  padding:0 16px;cursor:pointer;font-weight:600;
-}
-.seg{display:flex;gap:8px;margin-bottom:12px}
-.seg button{
-  flex:1;background:var(--card);border:1.5px solid var(--line);border-radius:10px;
-  padding:9px 8px;cursor:pointer;font-size:14px;color:var(--ink-soft);
-}
-.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-
-.item{
-  display:flex;align-items:center;gap:10px;
-  background:var(--card);border:1.5px solid var(--line);border-radius:10px;
-  padding:11px 13px;margin-bottom:8px;
-}
-.item .txt{flex:1;min-width:0;font-size:15px;word-break:break-word}
-.item .sub{
-  font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-soft);
-  letter-spacing:.06em;margin-top:2px;
-}
-.item .x{
-  flex:none;background:none;border:0;cursor:pointer;color:var(--ink-soft);
-  font-size:20px;line-height:1;padding:2px 8px;border-radius:6px;
-}
-.item .x:active{color:var(--red)}
-.item.wish{border-left:4px solid var(--yellow)}
-
-.stale{
-  display:flex;align-items:baseline;gap:10px;
-  padding:11px 2px;border-bottom:1px solid var(--line);
-}
-.stale:last-child{border-bottom:0}
-.stale .t{flex:1;font-size:15px}
-.stale .n{
-  font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-soft);
-  font-variant-numeric:tabular-nums;flex:none;
-}
-.stale .n.never{color:var(--yellow)}
-
 /* ---------- agenda ---------- */
 .ag{
   display:flex;gap:14px;padding:13px 0;border-bottom:1px solid var(--line);
@@ -366,9 +314,18 @@ h2.sec{
 <div class="flash" id="flash" hidden></div>
 
 <div class="wrap">
+  <div class="switch" id="switch" role="tablist">
+    <button type="button" data-view="radar" aria-selected="true">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 12l6-6"/></svg>
+      <span>Radar</span>
+    </button>
+    <button type="button" data-view="agenda" aria-selected="false">
+      <svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3.5v3M16 3.5v3"/></svg>
+      <span>Agenda</span>
+    </button>
+  </div>
+
   <div id="view-radar"><p class="skel">Bezig met laden…</p></div>
-  <div id="view-plank" hidden></div>
-  <div id="view-log" hidden></div>
   <div id="view-agenda" hidden></div>
 
   <div class="foot" id="foot" hidden>
@@ -376,28 +333,11 @@ h2.sec{
     <ul id="srcList"></ul>
     <p id="srcNote"></p>
     <p>De radar wordt elke ochtend om 7:00 gevuld door een taak die de bronnen naleest. De knop rechtsboven haalt
-      de nieuwste stand op. Je plank en je logboek staan alleen op deze telefoon en gaan nergens heen.</p>
+      de nieuwste stand op. Zonder verbinding zie je de laatste stand die op je telefoon staat.</p>
   </div>
 </div>
 
-<nav class="nav" id="nav" role="tablist">
-  <button type="button" data-view="radar" aria-selected="true">
-    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 12l6-6"/></svg>
-    <span>Radar</span>
-  </button>
-  <button type="button" data-view="plank" aria-selected="false">
-    <svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/><path d="M7 7v-2M13 12v-2M17 17v-2"/></svg>
-    <span>Plank</span>
-  </button>
-  <button type="button" data-view="log" aria-selected="false">
-    <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 10h8M8 14h5"/></svg>
-    <span>Logboek</span>
-  </button>
-  <button type="button" data-view="agenda" aria-selected="false">
-    <svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3.5v3M16 3.5v3"/></svg>
-    <span>Agenda</span>
-  </button>
-</nav>
+
 
 <script>
 (function () {
@@ -448,8 +388,6 @@ h2.sec{
     try { localStorage.setItem("cbr:" + key, JSON.stringify(val)); } catch (e) {}
   }
 
-  var shelf = get("shelf", []);   // [{t, w}]  w = wenslijst
-  var log = get("log", []);       // [{t, d}]  d = "JJJJ-MM-DD"
   var data = null;
 
   /* ---------- helpers ---------- */
@@ -466,10 +404,6 @@ h2.sec{
     if (p.length !== 3) return null;
     var d = new Date(+p[0], +p[1] - 1, +p[2]);
     return isNaN(d) ? null : d;
-  }
-  function iso(d) {
-    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") +
-      "-" + String(d.getDate()).padStart(2, "0");
   }
   function legacyCopy(text, ok) {
     var ta = document.createElement("textarea");
@@ -500,10 +434,6 @@ h2.sec{
     flash.hidden = false;
     flash.className = "flash" + (kind ? " " + kind : "");
     flash.textContent = text;
-  }
-  function words(s) {
-    return String(s || "").toLowerCase().split(/[^a-z0-9']+/)
-      .filter(function (w) { return w.length >= 4; });
   }
 
   /* ================= RADAR ================= */
@@ -588,30 +518,16 @@ h2.sec{
       stack.appendChild(s1);
     }
 
-    /* drops, matched against the shelf */
+    /* drops */
     if (d.drops && d.drops.length) {
       var s2 = el("section");
       s2.appendChild(el("div", "eyebrow", "Verse reveals en preorders"));
       s2.appendChild(el("h2", "sec", "Wat er net op tafel ligt"));
-      s2.appendChild(el("p", "lede", shelf.length
-        ? "Blauw is een treffer op jouw plank of wensenlijst. Groen raakt een lijn die je verzamelt."
-        : "Groen raakt een lijn die je verzamelt. Vul je plank in en je ziet ook treffers op je eigen stukken."));
-
-      var terms = [];
-      shelf.forEach(function (it) {
-        words(it.t).forEach(function (w) { terms.push({ w: w, wish: !!it.w, t: it.t }); });
-      });
-
+      s2.appendChild(el("p", "lede", "Groen betekent: dit raakt een lijn die jij al op de plank hebt staan."));
       d.drops.forEach(function (dr) {
         var row = el("div", "drop");
-        var hay = ((dr.what || "") + " " + (dr.note || "")).toLowerCase();
-        var hit = null;
-        for (var i = 0; i < terms.length; i++) {
-          if (hay.indexOf(terms[i].w) !== -1) { hit = terms[i]; break; }
-        }
         var top = el("div", "top");
         top.appendChild(el("span", "maker", dr.maker || ""));
-        if (hit) top.appendChild(el("span", "heat mine", hit.wish ? "je zoekt dit" : "op je plank"));
         var h = String(dr.heat || "").toLowerCase();
         var cls = h === "hot" ? "heat hot" : (h === "yours") ? "heat yours" : "heat";
         var label = h === "hot" ? "hot" : (h === "yours") ? "jouw lijn" : "zijlijn";
@@ -700,181 +616,6 @@ h2.sec{
     $("foot").hidden = false;
   }
 
-  /* ================= PLANK ================= */
-  var plankMode = "have";
-
-  function renderPlank() {
-    var host = $("view-plank");
-    host.innerHTML = "";
-    var stack = el("div", "stack");
-    var sec = el("section");
-
-    sec.appendChild(el("div", "eyebrow", "Wat je hebt en wat je zoekt"));
-    sec.appendChild(el("h2", "sec", "Mijn plank"));
-    sec.appendChild(el("p", "lede",
-      "Zet erin wat op je plank staat en wat je nog zoekt. De radar markeert daarna nieuws dat over jouw stukken gaat. Blijft op deze telefoon."));
-
-    var seg = el("div", "seg");
-    [["have", "Heb ik"], ["wish", "Zoek ik"]].forEach(function (m) {
-      var b = el("button", null, m[1]);
-      b.type = "button";
-      b.setAttribute("aria-pressed", plankMode === m[0] ? "true" : "false");
-      b.addEventListener("click", function () { plankMode = m[0]; renderPlank(); });
-      seg.appendChild(b);
-    });
-    sec.appendChild(seg);
-
-    var add = el("div", "addrow");
-    var inp = document.createElement("input");
-    inp.type = "text";
-    inp.placeholder = plankMode === "have"
-      ? "He-Man MOTU Origins 2021" : "Vintage Rocksteady 1988";
-    var btn = el("button", null, "Erbij");
-    btn.type = "button";
-    function addItem() {
-      var v = inp.value.trim();
-      if (!v) return;
-      shelf.push({ t: v, w: plankMode === "wish" });
-      set("shelf", shelf);
-      inp.value = "";
-      renderPlank();
-    }
-    btn.addEventListener("click", addItem);
-    inp.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); addItem(); } });
-    add.appendChild(inp); add.appendChild(btn);
-    sec.appendChild(add);
-
-    var mine = shelf.filter(function (it) { return (plankMode === "wish") === !!it.w; });
-    if (!mine.length) {
-      sec.appendChild(el("div", "empty", plankMode === "have"
-        ? "Nog niets ingevuld. Begin met je tien favorieten — meer hoeft niet om het nuttig te maken."
-        : "Nog geen wensen. Zet erin wat je op beurzen zoekt, dan springt het eruit zodra het in het nieuws komt."));
-    } else {
-      mine.forEach(function (it) {
-        var row = el("div", "item" + (it.w ? " wish" : ""));
-        row.appendChild(el("div", "txt", it.t));
-        var x = el("button", "x", "×");
-        x.type = "button";
-        x.setAttribute("aria-label", "Verwijder " + it.t);
-        x.addEventListener("click", function () {
-          var i = shelf.indexOf(it);
-          if (i > -1) { shelf.splice(i, 1); set("shelf", shelf); renderPlank(); }
-        });
-        row.appendChild(x);
-        sec.appendChild(row);
-      });
-    }
-
-    stack.appendChild(sec);
-    host.appendChild(stack);
-  }
-
-  /* ================= LOGBOEK ================= */
-  function renderLog() {
-    var host = $("view-log");
-    host.innerHTML = "";
-    var stack = el("div", "stack");
-    var today = midnight(new Date());
-
-    var sec = el("section");
-    sec.appendChild(el("div", "eyebrow", "Wat heb je laten zien"));
-    sec.appendChild(el("h2", "sec", "Logboek"));
-    sec.appendChild(el("p", "lede",
-      "Noteer kort wat je gepost hebt. Daaronder zie je welke stukken van je plank al lang niet aan de beurt zijn geweest."));
-
-    var add = el("div", "addrow");
-    var inp = document.createElement("input");
-    inp.type = "text"; inp.placeholder = "Wat heb je gepost?";
-    var dt = document.createElement("input");
-    dt.type = "date"; dt.value = iso(new Date());
-    var btn = el("button", null, "Erbij");
-    btn.type = "button";
-    function addEntry() {
-      var v = inp.value.trim();
-      if (!v) return;
-      log.push({ t: v, d: dt.value || iso(new Date()) });
-      set("log", log);
-      inp.value = "";
-      renderLog();
-    }
-    btn.addEventListener("click", addEntry);
-    inp.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); addEntry(); } });
-    add.appendChild(inp); add.appendChild(btn);
-    sec.appendChild(add);
-    var add2 = el("div", "addrow");
-    add2.appendChild(dt);
-    sec.appendChild(add2);
-
-    if (!log.length) {
-      sec.appendChild(el("div", "empty", "Nog niets genoteerd. Vul het na elke post in — het kost vijf seconden en na een maand weet je precies waar je gaten zitten."));
-    } else {
-      var sorted = log.slice().sort(function (a, b) { return a.d < b.d ? 1 : -1; });
-      sorted.slice(0, 40).forEach(function (e) {
-        var row = el("div", "item");
-        var txt = el("div", "txt");
-        txt.appendChild(document.createTextNode(e.t));
-        var when = parseDay(e.d);
-        var ago = when ? days(when, today) : null;
-        txt.appendChild(el("div", "sub",
-          (when ? when.getDate() + " " + MONTHS[when.getMonth()] : "?") +
-          (ago === 0 ? " · vandaag" : ago > 0 ? " · " + ago + " dagen geleden" : "")));
-        row.appendChild(txt);
-        var x = el("button", "x", "×");
-        x.type = "button";
-        x.setAttribute("aria-label", "Verwijder");
-        x.addEventListener("click", function () {
-          var i = log.indexOf(e);
-          if (i > -1) { log.splice(i, 1); set("log", log); renderLog(); }
-        });
-        row.appendChild(x);
-        sec.appendChild(row);
-      });
-    }
-    stack.appendChild(sec);
-
-    /* what has not had a turn */
-    var have = shelf.filter(function (it) { return !it.w; });
-    var sec2 = el("section");
-    sec2.appendChild(el("div", "eyebrow", "Tijd voor een beurt"));
-    sec2.appendChild(el("h2", "sec", "Lang niet laten zien"));
-
-    if (!have.length) {
-      sec2.appendChild(el("div", "empty", "Vul eerst je plank in, dan kan ik zeggen wat je laat liggen."));
-    } else {
-      var scored = have.map(function (it) {
-        var best = null;
-        log.forEach(function (e) {
-          var hay = e.t.toLowerCase();
-          var ws = words(it.t);
-          for (var i = 0; i < ws.length; i++) {
-            if (hay.indexOf(ws[i]) !== -1) {
-              var when = parseDay(e.d);
-              if (when && (!best || when > best)) best = when;
-              break;
-            }
-          }
-        });
-        return { t: it.t, last: best, n: best ? days(best, today) : null };
-      }).sort(function (a, b) {
-        if (a.n === null && b.n === null) return 0;
-        if (a.n === null) return -1;
-        if (b.n === null) return 1;
-        return b.n - a.n;
-      });
-
-      scored.slice(0, 8).forEach(function (s) {
-        var row = el("div", "stale");
-        row.appendChild(el("div", "t", s.t));
-        row.appendChild(el("div", "n" + (s.n === null ? " never" : ""),
-          s.n === null ? "nog nooit" : s.n + " dgn"));
-        sec2.appendChild(row);
-      });
-      sec2.appendChild(el("p", "lede", ""));
-    }
-    stack.appendChild(sec2);
-    host.appendChild(stack);
-  }
-
   /* ================= AGENDA ================= */
   function renderAgenda() {
     var host = $("view-agenda");
@@ -955,7 +696,7 @@ h2.sec{
   }
 
   /* ================= views ================= */
-  var VIEWS = { radar: renderRadar, plank: renderPlank, log: renderLog, agenda: renderAgenda };
+  var VIEWS = { radar: renderRadar, agenda: renderAgenda };
   var current = "radar";
 
   function show(name) {
@@ -968,9 +709,9 @@ h2.sec{
     window.scrollTo(0, 0);
   }
 
-  Array.prototype.forEach.call($("nav").querySelectorAll("button"), function (b) {
+  Array.prototype.forEach.call($("switch").querySelectorAll("button"), function (b) {
     b.addEventListener("click", function () {
-      Array.prototype.forEach.call($("nav").querySelectorAll("button"), function (o) {
+      Array.prototype.forEach.call($("switch").querySelectorAll("button"), function (o) {
         o.setAttribute("aria-selected", o === b ? "true" : "false");
       });
       show(b.getAttribute("data-view"));
