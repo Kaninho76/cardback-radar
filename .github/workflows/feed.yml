@@ -1,0 +1,34 @@
+name: Nieuwsfeed bijwerken
+
+on:
+  schedule:
+    - cron: "20 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Feeds ophalen
+        run: python3 scripts/build_feed.py
+
+      - name: Vastleggen als er iets veranderd is
+        run: |
+          if git diff --quiet -- feed.json; then
+            echo "niets nieuws"
+            exit 0
+          fi
+          git config user.name "Cardback Radar"
+          git config user.email "noreply@github.com"
+          git add feed.json
+          git commit -m "Nieuwsfeed $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
