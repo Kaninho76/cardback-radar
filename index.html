@@ -251,6 +251,40 @@ h2.sec{
 .idea .ttl{font-weight:600;font-size:15.5px;margin-top:5px}
 .idea .why{font-size:14.5px;color:var(--ink-soft);margin-top:5px}
 
+/* ---------- idee-onderdelen ---------- */
+.hook{
+  background:var(--sunk);border-left:4px solid var(--red);border-radius:0 8px 8px 0;
+  padding:10px 13px;margin-top:9px;font-size:14.5px;
+}
+.hook b,.send b{
+  display:block;font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:4px;
+}
+.send{
+  background:var(--sunk);border-left:4px solid var(--green);border-radius:0 8px 8px 0;
+  padding:10px 13px;margin-top:8px;font-size:14.5px;
+}
+.rule{
+  background:var(--card);border:1.5px solid var(--line);border-radius:10px;
+  padding:15px 16px;box-shadow:var(--shadow);
+}
+.rule h3{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:15px;text-transform:uppercase;letter-spacing:.03em;margin-bottom:8px;
+}
+.rule p{font-size:14.5px;color:var(--ink-soft)}
+.rule p + p{margin-top:9px}
+.ex{
+  font-family:"IBM Plex Mono",monospace;font-size:12.5px;line-height:1.65;
+  border-radius:8px;padding:10px 12px;margin-top:9px;
+}
+.ex.bad{background:var(--sunk);color:var(--ink-soft);border-left:3px solid var(--red)}
+.ex.good{background:var(--sunk);color:var(--ink);border-left:3px solid var(--green)}
+.ex i{
+  display:block;font-style:normal;font-size:9.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-soft);margin-bottom:4px;
+}
+
 /* ---------- copy ---------- */
 .tapline{
   display:flex;align-items:center;gap:10px;margin-top:10px;
@@ -378,26 +412,32 @@ h2.sec{
   var $ = function (id) { return document.getElementById(id); };
   var flash = $("flash"), stamp = $("stamp"), refresh = $("refresh");
 
+  /* Hashtags zijn sinds 2025 geen bereikmiddel meer maar een etiket:
+     Instagram staat er nog ongeveer vijf toe en leest vooral je bijschrift.
+     Elke set hieronder is dus compleet — niet combineren. */
   var SETS = [
-    ["Basis", "#toystagram #actionfigures #actionfigurephotography #toyphotography #toycollector #toycommunity #toyphotographers"],
-    ["Vintage", "#vintagetoys #vintageactionfigures #80stoys #90stoys #retrotoys #toyhunting #toygrail"],
-    ["Marvel", "#marvellegends #marvellegendsseries #hasbromarvellegends #marvelcollector #comicbookfigures"],
-    ["DC", "#dcmultiverse #mcfarlanetoys #dccollectibles #dccollector #dcuniverse"],
-    ["TMNT", "#tmnt #teenagemutantninjaturtles #tmntcollector #playmatestoys #cowabunga"],
-    ["He-Man", "#motu #mastersoftheuniverse #motuorigins #motuclassics #heman #mattel"],
-    ["Power Rangers", "#powerrangers #lightningcollection #powerrangerscollector #tokusatsu #sentai"],
-    ["Godzilla", "#godzilla #kaiju #kaijucollector #godzillacollection #shmonsterarts #bandai"],
-    ["NECA", "#neca #necatoys #ultimateneca #horrorcollector #hottoys"]
+    ["Marvel", "#marvellegends #actionfigures #marvelcollector #toystagram"],
+    ["DC", "#dcmultiverse #mcfarlanetoys #actionfigures #toystagram"],
+    ["TMNT", "#tmnt #tmntcollector #actionfigures #toystagram"],
+    ["He-Man", "#motu #mastersoftheuniverse #actionfigures #toystagram"],
+    ["Power Rangers", "#powerrangers #lightningcollection #actionfigures #toystagram"],
+    ["Godzilla", "#godzilla #kaijucollector #actionfigures #toystagram"],
+    ["NECA", "#neca #necatoys #actionfigures #toystagram"],
+    ["Vintage", "#vintagetoys #80stoys #actionfigures #toystagram"],
+    ["Fotografie", "#toyphotography #actionfigurephotography #toycollector #toystagram"]
   ];
+
+  /* per weekdag: naam, community-tag, onderwerp, en waarom iemand het doorstuurt */
   var HOOKS = [
-    ["zondag", "#ToyDayIsPunday", "woordgrap"],
-    ["maandag", "#MechanoidMonday", "robots en mecha"],
-    ["dinsdag", "#ToyDinoTuesday", "kaiju en dino's"],
-    ["woensdag", "#slumpday", "snelle, onbewerkte foto"],
-    ["donderdag", "#ThrowbackThursday", "vintage"],
-    ["vrijdag", "#NoFigureFriday", "accessoires zonder figuur"],
-    ["zaterdag", "#toyhunting", "vondsten en de plank"]
+    ["zondag", "#ToyDayIsPunday", "een woordgrap", "iemand die je aan het lachen wilt maken"],
+    ["maandag", "#MechanoidMonday", "robots en mecha", "de vriend die vroeger alles omkatte"],
+    ["dinsdag", "#ToyDinoTuesday", "kaiju en dino's", "wie de films kent en de figuren nooit zag"],
+    ["woensdag", "#slumpday", "een snelle, onbewerkte foto", "iemand die dezelfde stapel thuis heeft"],
+    ["donderdag", "#ThrowbackThursday", "vintage", "je broer, of wie er als kind bij was"],
+    ["vrijdag", "#NoFigureFriday", "accessoires zonder figuur", "de verzamelaar die dit onderdeel zoekt"],
+    ["zaterdag", "#toyhunting", "vondsten en de plank", "wie meegaat naar de volgende rommelmarkt"]
   ];
+
   var SEARCHES = [
     ["Marvel Legends", "marvel legends new figure"],
     ["MOTU", "masters of the universe figure news"],
@@ -648,23 +688,41 @@ h2.sec{
       stack.appendChild(s3);
     }
 
-    /* ideas */
+    /* ideas — gebouwd op doorsturen, want dat is wat bereik geeft */
     var s4 = el("section");
     s4.appendChild(el("div", "eyebrow", "Vandaag"));
-    s4.appendChild(el("h2", "sec", "Posts die nu landen"));
+    s4.appendChild(el("h2", "sec", "Wat je zou posten"));
+    s4.appendChild(el("p", "lede",
+      "Een Reel haalt onder de 50.000 volgers ongeveer vier keer het bereik van een losse foto, en doorsturen weegt drie tot vijf keer zwaarder dan een like. Vandaar bij elk idee: de haak, en naar wie iemand dit stuurt."));
+
     var ideas = (d.ideas || []).slice();
     var hook = HOOKS[new Date().getDay()];
     ideas.push({
       slot: hook[0].charAt(0).toUpperCase() + hook[0].slice(1),
       title: "De vaste haak van vandaag: " + hook[2],
-      why: "Het is " + hook[0] + ", dus " + hook[1] + " staat open. Daar zit al publiek te kijken zonder dat je iets aan bereik hoeft te doen.",
-      tags: SETS[0][1] + " " + hook[1].toLowerCase()
+      hook: "Begin met het figuur al in beeld, niet met een lege plank — de eerste twee seconden bepalen of hij verder kijkt.",
+      why: "Het is " + hook[0] + ", dus " + hook[1] + " staat open. Daar kijkt al publiek zonder dat je iets aan bereik hoeft te doen.",
+      send: hook[3],
+      tags: SETS[8][1]
     });
+
     ideas.forEach(function (it) {
       var box = el("div", "idea");
       box.appendChild(el("div", "slot", it.slot || ""));
       box.appendChild(el("div", "ttl", it.title || ""));
       if (it.why) box.appendChild(el("div", "why", it.why));
+      if (it.hook) {
+        var hk = el("div", "hook");
+        hk.appendChild(el("b", null, "Eerste twee seconden"));
+        hk.appendChild(document.createTextNode(it.hook));
+        box.appendChild(hk);
+      }
+      if (it.send) {
+        var sd = el("div", "send");
+        sd.appendChild(el("b", null, "Wie stuurt dit door"));
+        sd.appendChild(document.createTextNode(it.send));
+        box.appendChild(sd);
+      }
       if (it.tags) {
         var tap = el("button", "tapline");
         tap.type = "button";
@@ -677,20 +735,39 @@ h2.sec{
     });
     stack.appendChild(s4);
 
-    /* sets */
+    /* tags en, belangrijker, de woorden in je bijschrift */
     var s5 = el("section");
-    s5.appendChild(el("div", "eyebrow", "Kant-en-klaar"));
-    s5.appendChild(el("h2", "sec", "Hashtagsets"));
-    s5.appendChild(el("p", "lede", "Combineer altijd de basis met één merkset. Tik om te kopiëren."));
-    SETS.forEach(function (s) {
+    s5.appendChild(el("div", "eyebrow", "Gevonden worden"));
+    s5.appendChild(el("h2", "sec", "Tags en woorden"));
+    s5.appendChild(el("p", "lede",
+      "Hashtags zijn geen bereikmiddel meer — Instagram staat er nog ongeveer vijf toe en zegt zelf dat ze de zichtbaarheid niet vergroten. Elke set hieronder is compleet. Niet combineren."));
+
+    SETS.forEach(function (st) {
       var row = el("button", "setrow");
       row.type = "button";
-      row.appendChild(el("span", "nm", s[0]));
-      row.appendChild(el("span", "pv", s[1]));
+      row.appendChild(el("span", "nm", st[0]));
+      row.appendChild(el("span", "pv", st[1]));
       row.appendChild(el("span", "cue", "kopie"));
-      copyTap(row, s[1]);
+      copyTap(row, st[1]);
       s5.appendChild(row);
     });
+
+    var rule = el("div", "rule");
+    rule.style.marginTop = "14px";
+    rule.appendChild(el("h3", null, "Woorden in je bijschrift"));
+    rule.appendChild(el("p", null,
+      "Hier zit het bereik nu. Instagram leest je bijschrift, de tekst in beeld en het geluid om te bepalen waar je post over gaat. Noem dus gewoon uit: het personage, de lijn, de fabrikant en het jaar."));
+    var bad = el("div", "ex bad");
+    bad.appendChild(el("i", null, "levert weinig op"));
+    bad.appendChild(document.createTextNode("Sunday shelf vibes \u2728 #toystagram #actionfigures #toycollector #toyphotography #vintagetoys #80stoys #retro #collector #plasticcrack #toycommunity"));
+    rule.appendChild(bad);
+    var good = el("div", "ex good");
+    good.appendChild(el("i", null, "wordt wel gevonden"));
+    good.appendChild(document.createTextNode("He-Man uit de MOTU Origins-lijn van Mattel, 2021, naast mijn originele uit 1983. Het zwaard van de oude ben ik ergens in de tuin kwijtgeraakt. Wie had deze ook?\n\n#motu #mastersoftheuniverse #actionfigures #toystagram"));
+    rule.appendChild(good);
+    rule.appendChild(el("p", null,
+      "Zet diezelfde woorden ook als tekst in je Reel. Met ondertiteling kijkt ongeveer 65 procent hem uit, zonder 37 — en kijktijd is het signaal dat bepaalt of je überhaupt aan vreemden getoond wordt."));
+    s5.appendChild(rule);
     stack.appendChild(s5);
 
     host.appendChild(stack);
