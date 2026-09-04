@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-09-04T04:39:15+00:00",
+ "updatedISO": "2026-09-04T09:42:29+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError",
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "Takara-Tomy Transformers Missing Link C-12 Grimlock Figure Available Now",
