@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-09-04T00:08:32+00:00",
+ "updatedISO": "2026-09-04T04:39:15+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError",
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Takara-Tomy Transformers Missing Link C-12 Grimlock Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/09/04/takara-tomy-transformers-missing-link-c-12-grimlock-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=takara-tomy-transformers-missing-link-c-12-grimlock-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-04T04:01:11+00:00"
+  },
   {
    "title": "Teela MOTU Origins Movie In-Hand Images",
    "url": "https://toyhabits.com/teela-motu-origins-movie-in-hand-images/",
@@ -274,12 +281,6 @@
    "url": "https://www.actionfigureinsider.com/yoon-ahn-reimagines-barbie-for-the-future-available-september-4-on-mattelcreations/",
    "source": "Action Figure Insider",
    "iso": "2026-09-01T14:44:36+00:00"
-  },
-  {
-   "title": "GI Joe Classified Series Arctic BAT Reissue Preorder",
-   "url": "https://toyhabits.com/gi-joe-classified-series-arctic-bat-reissue-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-01T13:50:49+00:00"
   }
  ],
  "trends": {
