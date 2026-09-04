@@ -154,6 +154,22 @@ h2.sec{
 }
 .more:active{border-color:var(--ink)}
 
+/* ---------- schrijftafel ---------- */
+.desk{
+  display:flex;align-items:center;gap:14px;width:100%;text-align:left;
+  background:var(--card);border:1.5px solid var(--line);border-left:4px solid var(--red);
+  border-radius:0 12px 12px 0;padding:15px 16px;text-decoration:none;color:var(--ink);
+  box-shadow:var(--shadow);
+}
+.desk .pen{
+  flex:none;width:44px;height:44px;border-radius:10px;background:var(--sunk);
+  display:grid;place-items:center;font-size:20px;
+}
+.desk .body{flex:1;min-width:0}
+.desk .body b{display:block;font-size:15.5px}
+.desk .body span{font-size:14px;color:var(--ink-soft)}
+.desk .arrow{flex:none;color:var(--ink-soft);font-size:20px}
+
 /* ---------- opgezocht ---------- */
 .tr{display:flex;align-items:center;gap:10px;padding:9px 0}
 .tr .nm{
@@ -857,6 +873,27 @@ h2.sec{
       s4.appendChild(box);
     });
     stack.appendChild(s4);
+
+    /* de schrijftafel — die draait bij Claude, want daar zit het schrijven */
+    var sW = el("section");
+    sW.appendChild(el("div", "eyebrow", "Bijschrift maken"));
+    sW.appendChild(el("h2", "sec", "Schrijftafel"));
+    sW.appendChild(el("p", "lede",
+      "Typ je aantekeningen, voeg eventueel de foto toe, en krijg er een bijschrift uit met vier hashtags en de woorden voor in beeld."));
+    var deskLink = document.createElement("a");
+    deskLink.className = "desk";
+    deskLink.href = "https://claude.ai/code/artifact/d9966e59-e0ae-4e9d-bf67-771b4d6f674f";
+    deskLink.target = "_blank";
+    deskLink.rel = "noopener noreferrer";
+    var pen = el("div", "pen"); pen.textContent = "\u270D";
+    deskLink.appendChild(pen);
+    var dbody = el("div", "body");
+    dbody.appendChild(el("b", null, "Open de schrijftafel"));
+    dbody.appendChild(el("span", null, "Aparte pagina, want daar kan het schrijven wél."));
+    deskLink.appendChild(dbody);
+    deskLink.appendChild(el("div", "arrow", "\u2197"));
+    sW.appendChild(deskLink);
+    stack.appendChild(sW);
 
     /* tags en, belangrijker, de woorden in je bijschrift */
     var s5 = el("section");
