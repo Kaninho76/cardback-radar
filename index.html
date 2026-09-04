@@ -313,6 +313,34 @@ h2.sec{
   text-transform:uppercase;color:var(--ink-soft);margin-bottom:4px;
 }
 
+/* ---------- fotorecept ---------- */
+.shots{
+  margin-top:9px;background:var(--sunk);border:1px solid var(--line);
+  border-radius:8px;padding:11px 13px;
+}
+.shots b{
+  display:block;font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:7px;
+}
+.shots ol{margin:0;padding-left:19px}
+.shots li{font-size:14.5px;line-height:1.5;margin-bottom:4px}
+.shots li:last-child{margin-bottom:0}
+.shots li::marker{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-soft)}
+
+/* ---------- nieuw sinds vorige keer ---------- */
+.news a.fresh .hl::before{
+  content:"";display:inline-block;width:7px;height:7px;border-radius:50%;
+  background:var(--blue);margin-right:7px;vertical-align:2px;
+}
+.sincebar{
+  display:flex;align-items:center;gap:10px;margin:6px 0 2px;
+}
+.sincebar span{
+  font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-soft);flex:none;
+}
+.sincebar i{flex:1;height:1px;background:var(--line)}
+
 /* ---------- copy ---------- */
 .tapline{
   display:flex;align-items:center;gap:10px;margin-top:10px;
@@ -491,6 +519,7 @@ h2.sec{
   var data = null;
   var feed = null;
   var feedOpen = false;
+  var seenAt = null;   // je vorige bezoek; deze sessie blijft dit staan
 
   /* ---------- helpers ---------- */
   function el(tag, cls, text) {
@@ -582,10 +611,23 @@ h2.sec{
       sN.appendChild(el("h2", "sec", "Nu binnen"));
       sN.appendChild(el("p", "lede", "Elk uur opgehaald bij de verzamelaarssites zelf. Tik om te lezen."));
 
-      var news = el("news" === "" ? "div" : "div", "news");
+      var news = el("div", "news");
       var showing = feedOpen ? items.length : Math.min(6, items.length);
-      items.slice(0, showing).forEach(function (it) {
+
+      var seenMs = seenAt ? Date.parse(seenAt) : NaN;
+      var isNew = function (it) {
+        if (isNaN(seenMs) || !it.iso) return false;
+        var t = Date.parse(it.iso);
+        return !isNaN(t) && t > seenMs;
+      };
+
+      var freshCount = 0;
+      items.forEach(function (it) { if (isNew(it)) freshCount++; });
+
+      items.slice(0, showing).forEach(function (it, i) {
+        var isFresh = isNew(it);
         var a = document.createElement("a");
+        if (isFresh) a.className = "fresh";
         a.href = it.url; a.target = "_blank"; a.rel = "noopener noreferrer";
         a.appendChild(el("div", "hl", it.title || ""));
         var meta = el("div", "meta");
@@ -594,6 +636,14 @@ h2.sec{
         if (when) meta.appendChild(document.createTextNode(" · " + when));
         a.appendChild(meta);
         news.appendChild(a);
+
+        // streepje onder het laatste nieuwe bericht
+        if (freshCount && i === freshCount - 1 && i < showing - 1) {
+          var bar = el("div", "sincebar");
+          bar.appendChild(el("span", null, "hierboven nieuw sinds " + ago(seenAt)));
+          bar.appendChild(document.createElement("i"));
+          news.appendChild(bar);
+        }
       });
       sN.appendChild(news);
 
@@ -759,6 +809,11 @@ h2.sec{
       slot: hook[0].charAt(0).toUpperCase() + hook[0].slice(1),
       title: "De vaste haak van vandaag: " + hook[2],
       hook: "Begin met het figuur al in beeld, niet met een lege plank — de eerste twee seconden bepalen of hij verder kijkt.",
+      shots: [
+        "Vier foto's van hetzelfde stuk, staand (9:16), elk een stap dichterbij.",
+        "Zet ze achter elkaar met één tot twee seconden per foto — dat leest als een camerabeweging.",
+        "Tekst in beeld vanaf de eerste seconde: wat het is en uit welk jaar."
+      ],
       why: "Het is " + hook[0] + ", dus " + hook[1] + " staat open. Daar kijkt al publiek zonder dat je iets aan bereik hoeft te doen.",
       send: hook[3],
       tags: SETS[8][1]
@@ -774,6 +829,16 @@ h2.sec{
         hk.appendChild(el("b", null, "Eerste twee seconden"));
         hk.appendChild(document.createTextNode(it.hook));
         box.appendChild(hk);
+      }
+      if (it.shots && it.shots.length) {
+        var sh = el("div", "shots");
+        sh.appendChild(el("b", null, "Zo maak je hem"));
+        var ol = document.createElement("ol");
+        it.shots.forEach(function (line) {
+          ol.appendChild(el("li", null, line));
+        });
+        sh.appendChild(ol);
+        box.appendChild(sh);
       }
       if (it.send) {
         var sd = el("div", "send");
@@ -999,6 +1064,9 @@ h2.sec{
   }
 
   refresh.addEventListener("click", function () { load(true); });
+
+  seenAt = get("seen", null);
+  set("seen", new Date().toISOString());   // vanaf nu telt dit bezoek
 
   feed = get("feed", null);
   var cached = get("data", null);
