@@ -154,6 +154,34 @@ h2.sec{
 }
 .more:active{border-color:var(--ink)}
 
+/* ---------- opgezocht ---------- */
+.tr{display:flex;align-items:center;gap:10px;padding:9px 0}
+.tr .nm{
+  flex:none;width:112px;font-size:14.5px;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap;
+}
+.tr .track{
+  flex:1;height:10px;background:var(--sunk);border:1px solid var(--line);
+  border-radius:5px;overflow:hidden;
+}
+.tr .track i{display:block;height:100%;background:var(--ink-soft);border-radius:4px}
+.tr.up .track i{background:var(--green)}
+.tr .pct{
+  flex:none;width:52px;text-align:right;
+  font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+  font-variant-numeric:tabular-nums;color:var(--ink-soft);
+}
+.tr.up .pct{color:var(--green)}
+.tr .per{
+  flex:none;width:66px;text-align:right;
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--ink-soft);
+  font-variant-numeric:tabular-nums;
+}
+.caveat{
+  font-size:13px;color:var(--ink-soft);margin-top:12px;line-height:1.6;
+  border-top:1px dashed var(--line);padding-top:11px;
+}
+
 /* ---------- search ---------- */
 .seek{display:flex;gap:8px;margin-bottom:12px}
 .seek input{
@@ -578,6 +606,36 @@ h2.sec{
         sN.appendChild(more);
       }
       stack.appendChild(sN);
+    }
+
+    /* wat er opgezocht wordt */
+    var tr = (feed && feed.trends) || null;
+    if (tr && tr.rows && tr.rows.length) {
+      var sT = el("section");
+      sT.appendChild(el("div", "eyebrow", "Publieke belangstelling"));
+      sT.appendChild(el("h2", "sec", "Wat wordt er opgezocht"));
+      sT.appendChild(el("p", "lede",
+        "Hoeveel mensen dit onderwerp de afgelopen week op Wikipedia opzochten, vergeleken met de vier weken daarvoor."));
+
+      var top = Math.max.apply(null, tr.rows.map(function (r) { return Math.abs(r.change || 0); }));
+      if (!top) top = 1;
+
+      tr.rows.forEach(function (r) {
+        var row = el("div", "tr" + ((r.change || 0) > 0 ? " up" : ""));
+        row.appendChild(el("div", "nm", r.label || ""));
+        var track = el("div", "track");
+        var fill = document.createElement("i");
+        fill.style.width = Math.max(3, Math.round(Math.abs(r.change || 0) / top * 100)) + "%";
+        track.appendChild(fill);
+        row.appendChild(track);
+        row.appendChild(el("div", "pct", ((r.change > 0) ? "+" : "") + (r.change || 0) + "%"));
+        row.appendChild(el("div", "per", (r.perDay || 0).toLocaleString("nl-NL") + "/dag"));
+        sT.appendChild(row);
+      });
+
+      sT.appendChild(el("p", "caveat",
+        "Dit is geen Google-zoekvolume — dat geeft Google niet vrij zonder betaalde koppeling. Wikipedia-bezoek is een goede vervanger: het meet wie er iets over wil weten, en het beweegt bij dezelfde aanleidingen. Een sterke stijging betekent dat er iets gebeurd is; wat dat is, staat meestal in het nieuws hierboven."));
+      stack.appendChild(sT);
     }
 
     /* search */
