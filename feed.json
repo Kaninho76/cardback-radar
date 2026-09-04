@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-03T21:57:03+00:00",
+ "updatedISO": "2026-09-04T00:08:32+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Teela MOTU Origins Movie In-Hand Images",
+   "url": "https://toyhabits.com/teela-motu-origins-movie-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-03T22:39:49+00:00"
+  },
   {
    "title": "Marvel Legends Gamerverse Wolverine vs Psylocke Preorder",
    "url": "https://toyhabits.com/marvel-legends-gamerverse-wolverine-vs-psylocke-preorder/",
@@ -274,12 +280,6 @@
    "url": "https://toyhabits.com/gi-joe-classified-series-arctic-bat-reissue-preorder/",
    "source": "Toy Habits",
    "iso": "2026-09-01T13:50:49+00:00"
-  },
-  {
-   "title": "Back to the Future Part II Egg Attack Floating EAF-005 Floating DeLorean",
-   "url": "https://toyhabits.com/back-to-the-future-part-ii-egg-attack-floating-eaf-005-floating-delorean/",
-   "source": "Toy Habits",
-   "iso": "2026-09-01T12:17:14+00:00"
   }
  ]
 }
