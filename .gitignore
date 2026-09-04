@@ -2,3 +2,4 @@
 !icon-*.png
 !apple-touch-icon.png
 !favicon.png
+__pycache__/
