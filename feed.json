@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-05T04:35:25+00:00",
+ "updatedISO": "2026-09-05T09:09:18+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -283,37 +283,37 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-04T18:29:29+00:00",
+  "updatedISO": "2026-09-05T09:09:18+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": 71
+    "perDay": 4,
+    "change": 75
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 3264,
-    "change": 26
+    "perDay": 3245,
+    "change": 25
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1736,
+    "perDay": 1735,
     "change": 6
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 662,
+    "perDay": 663,
     "change": 6
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 879,
+    "perDay": 880,
     "change": 3
    },
    {
@@ -326,37 +326,37 @@
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
     "perDay": 78,
-    "change": -8
+    "change": -7
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 145,
-    "change": -9
+    "perDay": 143,
+    "change": -11
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 89,
-    "change": -19
+    "perDay": 86,
+    "change": -21
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 23734,
-    "change": -51
+    "perDay": 23017,
+    "change": -52
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 1129,
-    "change": -56
+    "perDay": 1097,
+    "change": -55
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1744,
-    "change": -60
+    "perDay": 1687,
+    "change": -59
    }
   ],
   "missed": []
