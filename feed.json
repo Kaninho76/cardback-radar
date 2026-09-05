@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-09-05T00:08:59+00:00",
+ "updatedISO": "2026-09-05T04:35:25+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "DC Retro Wave 17 Super Friends + Warpland Superman McFarlane Preorder",
