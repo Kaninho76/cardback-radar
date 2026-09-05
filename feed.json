@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-09-05T21:19:56+00:00",
+ "updatedISO": "2026-09-05T22:59:25+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "Cleveland Gaming Classic, Ohio’s 3-Day Event for Gamers, Collectors and Fans All Across the Land Opens Friday, September 11, 2026 produced by Party411 Events",
