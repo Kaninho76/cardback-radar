@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-06T06:00:12+00:00",
+ "updatedISO": "2026-09-06T11:03:46+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Pixar's Cars 20th Anniversary in The Daily LITG, 6th September, 2026",
+   "url": "https://bleedingcool.com/collectibles/pixars-cars-20th-anniversary-in-the-daily-litg-6th-september-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-06T11:00:09+00:00"
+  },
   {
    "title": "Cleveland Gaming Classic, Ohio’s 3-Day Event for Gamers, Collectors and Fans All Across the Land Opens Friday, September 11, 2026 produced by Party411 Events",
    "url": "https://www.actionfigureinsider.com/cleveland-gaming-classic-ohios-3-day-event-for-gamers-collectors-and-fans-all-across-the-land-opens-friday-september-11-2026-produced-by-party411-events/",
@@ -274,89 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/golden-age-superman-and-batman-lego-brickheadz-available-now/",
    "source": "Bleeding Cool",
    "iso": "2026-09-02T18:22:08+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Future Foundation Mister Fantastic & Spider-Man, The Thing & Invisible Woman Figure Sets Available Now",
-   "url": "https://toyhypeusa.com/2026/09/02/hasbro-marvel-legends-series-future-foundation-mister-fantastic-spider-man-the-thing-invisible-woman-figure-sets-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-future-foundation-mister-fantastic-spider-man-the-thing-invisible-woman-figure-sets-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-02T17:29:23+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-05T21:19:56+00:00",
+  "updatedISO": "2026-09-06T11:03:46+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 4,
-    "change": 75
+    "perDay": 3,
+    "change": 31
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 3245,
-    "change": 25
+    "perDay": 3150,
+    "change": 19
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1735,
-    "change": 6
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 663,
-    "change": 6
+    "perDay": 1702,
+    "change": 3
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 880,
-    "change": 3
+    "perDay": 875,
+    "change": 2
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 642,
+    "change": 2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2247,
-    "change": -5
+    "perDay": 2213,
+    "change": -6
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 78,
+    "perDay": 79,
     "change": -7
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 143,
-    "change": -11
+    "perDay": 147,
+    "change": -8
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 86,
-    "change": -21
+    "perDay": 82,
+    "change": -24
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 23017,
-    "change": -52
+    "perDay": 22256,
+    "change": -53
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 1097,
-    "change": -55
+    "perDay": 1076,
+    "change": -54
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1687,
-    "change": -59
+    "perDay": 1632,
+    "change": -58
    }
   ],
   "missed": []
