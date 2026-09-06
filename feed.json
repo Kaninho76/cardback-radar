@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-09-06T14:14:10+00:00",
+ "updatedISO": "2026-09-06T17:06:46+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Buzzer x Rocksteady TMNT GI Joe Crossover Review",
+   "url": "https://toyhabits.com/buzzer-x-rocksteady-tmnt-gi-joe-crossover-review/",
+   "source": "Toy Habits",
+   "iso": "2026-09-06T13:29:08+00:00"
+  },
   {
    "title": "Mattel Masters of the Universe (2026) Battle for Eternia Playset Now $79.99",
    "url": "https://toyhypeusa.com/2026/09/06/mattel-masters-of-the-universe-2026-battle-for-eternia-playset-now-79-99/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-masters-of-the-universe-2026-battle-for-eternia-playset-now-79-99",
@@ -275,12 +280,6 @@
    "url": "https://www.actionfigureinsider.com/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026/",
    "source": "Action Figure Insider",
    "iso": "2026-09-02T20:07:42+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Spider-Man: Brand New Day – Scorpion Figure Pre-Orders (Update)",
-   "url": "https://toyhypeusa.com/2026/09/02/hasbro-marvel-legends-series-spider-man-brand-new-day-scorpion-figure-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-brand-new-day-scorpion-figure-pre-orders-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-02T19:56:15+00:00"
   }
  ],
  "trends": {
