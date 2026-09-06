@@ -1,17 +1,23 @@
 {
- "updatedISO": "2026-09-06T19:14:58+00:00",
+ "updatedISO": "2026-09-06T21:25:24+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError"
+  "Toy Habits: URLError"
  ],
  "items": [
+  {
+   "title": "Regal Theaters Rolls Out Multiple Star Trek Popcorn Buckets",
+   "url": "https://bleedingcool.com/movies/regal-theaters-rolls-out-multiple-star-trek-popcorn-buckets/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-06T18:22:09+00:00"
+  },
   {
    "title": "Buzzer x Rocksteady TMNT GI Joe Crossover Review",
    "url": "https://toyhabits.com/buzzer-x-rocksteady-tmnt-gi-joe-crossover-review/",
@@ -275,12 +281,6 @@
    "url": "https://toyhypeusa.com/2026/09/02/bbts-tamashii-nations-one-piece-sale-motu-transformers/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-tamashii-nations-one-piece-sale-motu-transformers",
    "source": "Toy Hype USA",
    "iso": "2026-09-02T23:11:26+00:00"
-  },
-  {
-   "title": "Lucas Museum of Narrative Art Opens to the Public on September 22, 2026",
-   "url": "https://www.actionfigureinsider.com/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-02T20:07:42+00:00"
   }
  ],
  "trends": {
