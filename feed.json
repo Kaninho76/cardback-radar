@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-09-06T21:25:24+00:00",
+ "updatedISO": "2026-09-06T23:59:48+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Destro and Quick Kick Ninja Force GI Joe ReAction+ Figures Coming",
+   "url": "https://toyhabits.com/destro-and-quick-kick-ninja-force-gi-joe-reaction-figures-coming/",
+   "source": "Toy Habits",
+   "iso": "2026-09-06T21:59:07+00:00"
+  },
   {
    "title": "Regal Theaters Rolls Out Multiple Star Trek Popcorn Buckets",
    "url": "https://bleedingcool.com/movies/regal-theaters-rolls-out-multiple-star-trek-popcorn-buckets/",
@@ -275,16 +280,10 @@
    "url": "https://www.toyark.com/2026/09/03/chogokin-mechagodzilla-and-s-h-monsterarts-godzilla-1993-poster-version-598510",
    "source": "The Toyark",
    "iso": "2026-09-03T12:29:57+00:00"
-  },
-  {
-   "title": "BigBadToyStore News: Tamashii Nations, One Piece Sale, MOTU, Transformers & More",
-   "url": "https://toyhypeusa.com/2026/09/02/bbts-tamashii-nations-one-piece-sale-motu-transformers/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-tamashii-nations-one-piece-sale-motu-transformers",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-02T23:11:26+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-06T11:03:46+00:00",
+  "updatedISO": "2026-09-06T23:59:48+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
