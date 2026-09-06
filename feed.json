@@ -1,16 +1,29 @@
 {
- "updatedISO": "2026-09-06T11:03:46+00:00",
+ "updatedISO": "2026-09-06T14:14:10+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "Mattel Masters of the Universe (2026) Battle for Eternia Playset Now $79.99",
+   "url": "https://toyhypeusa.com/2026/09/06/mattel-masters-of-the-universe-2026-battle-for-eternia-playset-now-79-99/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-masters-of-the-universe-2026-battle-for-eternia-playset-now-79-99",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-06T13:27:12+00:00"
+  },
+  {
+   "title": "Oris and Disney’s The Muppets Launch Gonzo-Inspired Watch",
+   "url": "https://www.actionfigureinsider.com/oris-and-disneys-the-muppets-launch-gonzo-inspired-watch/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-06T13:00:14+00:00"
+  },
   {
    "title": "Pixar's Cars 20th Anniversary in The Daily LITG, 6th September, 2026",
    "url": "https://bleedingcool.com/collectibles/pixars-cars-20th-anniversary-in-the-daily-litg-6th-september-2026/",
@@ -268,18 +281,6 @@
    "url": "https://toyhypeusa.com/2026/09/02/hasbro-marvel-legends-series-spider-man-brand-new-day-scorpion-figure-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-brand-new-day-scorpion-figure-pre-orders-update",
    "source": "Toy Hype USA",
    "iso": "2026-09-02T19:56:15+00:00"
-  },
-  {
-   "title": "LEGO Reveals New Avengers: Doomsday Heroes & Villain BrickHeadz",
-   "url": "https://bleedingcool.com/collectibles/lego-reveals-new-avengers-doomsday-heroes-villain-brickheadz/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-02T19:23:08+00:00"
-  },
-  {
-   "title": "Golden Age Superman and Batman LEGO BrickHeadz Available Now",
-   "url": "https://bleedingcool.com/collectibles/golden-age-superman-and-batman-lego-brickheadz-available-now/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-02T18:22:08+00:00"
   }
  ],
  "trends": {
