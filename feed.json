@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-09-06T17:06:46+00:00",
+ "updatedISO": "2026-09-06T19:14:58+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "Buzzer x Rocksteady TMNT GI Joe Crossover Review",
