@@ -118,6 +118,13 @@ canvas.view.dragging{cursor:grabbing}
   font-size:14.5px;
 }
 .hint{font-size:12.5px;color:var(--ink-soft);text-align:center}
+.overlaymsg .in{max-width:32ch}
+.overlaymsg .pbar{height:5px;background:rgba(255,255,255,.25);border-radius:3px;margin-top:12px;overflow:hidden}
+.overlaymsg .pbar i{display:block;height:100%;background:#fff;width:0%}
+.status{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.05em;
+  color:var(--ink-soft);margin-top:10px;line-height:1.5}
+.status.warn{color:var(--yellow)}
+.status.good{color:var(--green)}
 
 /* before/after */
 .compare{position:relative;width:100%;max-width:100%;display:none}
@@ -248,6 +255,7 @@ details.adv .inner{padding:0 16px 16px}
       </div>
       <input type="file" id="fileFig" accept="image/*" hidden>
       <input type="file" id="fileBg" accept="image/*" hidden>
+      <p class="status" id="segStatus"></p>
     </section>
 
     <section class="work" id="work" hidden>
@@ -255,7 +263,12 @@ details.adv .inner{padding:0 16px 16px}
         <div class="stage">
           <div class="holder" id="holder">
             <canvas class="view" id="view"></canvas>
-            <div class="overlaymsg" id="busy" hidden>Bezig…</div>
+            <div class="overlaymsg" id="busy" hidden>
+              <div class="in">
+                <div id="busyTxt">Bezig…</div>
+                <div class="pbar" id="pbarWrap" hidden><i id="pbar"></i></div>
+              </div>
+            </div>
           </div>
           <div class="compare" id="compare">
             <canvas id="cmpBottom"></canvas>
@@ -275,24 +288,46 @@ details.adv .inner{padding:0 16px 16px}
 
       <div>
         <div class="panel">
+          <h3>Sfeer</h3>
+          <p class="why">Dit is wat een plakwerkje in een foto verandert: licht van de omgeving dat over de randen
+            van het figuur valt, nevel die diepte geeft, gloed uit de lampen, en een kleurgraad over het geheel.</p>
+          <div class="ctl">
+            <label for="wrap">Licht om de randen <b id="vWrap">45%</b></label>
+            <input type="range" id="wrap" min="0" max="100" value="45">
+          </div>
+          <div class="ctl">
+            <label for="haze">Nevel en diepte <b id="vHaze">30%</b></label>
+            <input type="range" id="haze" min="0" max="100" value="30">
+          </div>
+          <div class="ctl">
+            <label for="bloom">Gloed <b id="vBloom">30%</b></label>
+            <input type="range" id="bloom" min="0" max="100" value="30">
+          </div>
+          <div class="ctl">
+            <label for="grade">Kleurgraad <b id="vGrade">35%</b></label>
+            <input type="range" id="grade" min="0" max="100" value="35">
+          </div>
+          <div class="ctl">
+            <label for="rain">Regen <b id="vRain">0%</b></label>
+            <input type="range" id="rain" min="0" max="100" value="0">
+          </div>
+        </div>
+
+        <div class="panel">
           <h3>Integratie</h3>
           <p class="why">Hoeveel het licht en de kleur van de achtergrond op het figuur mogen doorwerken. Alleen
             belichting en witbalans — de vorm, de pose en de verf blijven zoals ze zijn.</p>
           <div class="ctl">
-            <label for="integ">Lichtaanpassing <b id="vInteg">25%</b></label>
-            <input type="range" id="integ" min="0" max="100" value="25">
+            <label for="integ">Lichtaanpassing <b id="vInteg">30%</b></label>
+            <input type="range" id="integ" min="0" max="100" value="30">
           </div>
           <div class="ctl">
-            <label for="spill">Omgevingskleur <b id="vSpill">15%</b></label>
-            <input type="range" id="spill" min="0" max="100" value="15">
+            <label for="shadow">Contactschaduw <b id="vShadow">45%</b></label>
+            <input type="range" id="shadow" min="0" max="100" value="45">
           </div>
           <div class="ctl">
-            <label for="shadow">Contactschaduw <b id="vShadow">40%</b></label>
-            <input type="range" id="shadow" min="0" max="100" value="40">
-          </div>
-          <div class="ctl">
-            <label for="blur">Achtergrond onscherp <b id="vBlur">0</b></label>
-            <input type="range" id="blur" min="0" max="100" value="0">
+            <label for="blur">Achtergrond onscherp <b id="vBlur">15</b></label>
+            <input type="range" id="blur" min="0" max="100" value="15">
           </div>
         </div>
 
@@ -300,8 +335,8 @@ details.adv .inner{padding:0 16px 16px}
           <h3>Plaatsing</h3>
           <p class="why">Verschuiven en schalen mag; vervormen niet. De verhoudingen blijven altijd gelijk.</p>
           <div class="ctl">
-            <label for="scale">Grootte <b id="vScale">70%</b></label>
-            <input type="range" id="scale" min="15" max="130" value="70">
+            <label for="scale">Grootte <b id="vScale">72%</b></label>
+            <input type="range" id="scale" min="15" max="140" value="72">
           </div>
           <div class="ctl">
             <label>Beeldverhouding</label>
@@ -318,9 +353,12 @@ details.adv .inner{padding:0 16px 16px}
         <details class="adv" id="maskPanel">
           <summary>Uitknippen bijstellen</summary>
           <div class="inner">
-            <p class="why">De randbepaling gebeurt op basis van je lichtbakachtergrond. Klopt er iets niet, stel het
-              hier bij of werk het met de kwast weg.</p>
-            <div class="ctl">
+            <p class="why" id="maskWhy">Het uitknippen gebeurt automatisch. Klopt er iets niet, werk het hier bij.</p>
+            <div class="rowbtn" style="margin-bottom:13px">
+              <button class="btn" id="showMask" type="button">Toon masker</button>
+              <button class="btn" id="redoMask" type="button">Opnieuw uitknippen</button>
+            </div>
+            <div class="ctl" id="tolCtl" hidden>
               <label for="tol">Gevoeligheid <b id="vTol">30</b></label>
               <input type="range" id="tol" min="4" max="80" value="30">
             </div>
@@ -342,10 +380,9 @@ details.adv .inner{padding:0 16px 16px}
             </div>
             <div class="ctl">
               <label for="brushSize">Kwastgrootte <b id="vBrush">40</b></label>
-              <input type="range" id="brushSize" min="8" max="160" value="40">
+              <input type="range" id="brushSize" min="8" max="200" value="40">
             </div>
             <div class="rowbtn">
-              <button class="btn" id="showMask" type="button">Toon masker</button>
               <button class="btn" id="clearBrush" type="button">Kwastwerk wissen</button>
             </div>
           </div>
@@ -366,21 +403,20 @@ details.adv .inner{padding:0 16px 16px}
 
     <section>
       <div class="note">
-        <b>Waarom hier geen beeld-AI aan te pas komt.</b> Je vroeg om een figuur dat gegarandeerd onveranderd blijft.
-        Een generatief model kan dat niet beloven — het maakt altijd nieuwe pixels, hoe streng je het ook instrueert.
-        Dit werkt anders: het figuur wordt uitgeknipt en de originele pixels worden op de achtergrond geplakt. Aan die
-        pixels wordt alleen een belichtings- en witbalanscorrectie gerekend, hetzelfde soort bewerking als in Lightroom.
-        Je “Figure Lock” is hier dus geen wens maar de bouwwijze: er valt niets te controleren achteraf, want er is
-        niets gegenereerd. Alles gebeurt bovendien op je eigen toestel — je foto's gaan nergens heen.
+        <b>Wat hier wel en niet met AI gebeurt.</b> Er draait een model in je browser, maar dat doet één ding:
+        bepalen wat figuur is en wat achtergrond. Het levert een masker, geen pixels. Jouw verzamelstuk komt daarna
+        ongewijzigd uit je eigen foto — dezelfde verf, dezelfde sleet, hetzelfde gezicht. Alles wat je daarna ziet
+        gebeuren is fotobewerking: belichting, nevel, gloed, schaduw, regen en kleur. Alles op je eigen toestel;
+        je foto's gaan nergens heen.
       </div>
     </section>
 
   </div>
 
   <div class="foot">
-    <p>Werkt het uitknippen slecht, dan ligt dat bijna altijd aan de foto: fotografeer met wat afstand tot de
-      achtergrond en zorg dat het figuur duidelijk lichter of donkerder is dan de lichtbak. Donkere figuren op een
-      witte achtergrond gaan het best.</p>
+    <p>De eerste keer wordt eenmalig een uitknipmodel opgehaald van ongeveer veertig megabyte. Daarna staat het in je
+      browser en gaat het meteen. Lukt dat ophalen niet, dan valt de studio terug op een eenvoudiger randmeting die
+      alleen werkt bij een egale achtergrond — dat staat er dan bij.</p>
     <p>Perspectief en cameravoet worden niet automatisch berekend — dat kan niet betrouwbaar. Kies daarom een
       achtergrond die ongeveer op ooghoogte van het figuur genomen is, dan klopt het vanzelf.</p>
   </div>
@@ -394,10 +430,10 @@ details.adv .inner{padding:0 16px 16px}
   var MAXW = 1700;                 // werkresolutie
   var state = {
     fig: null, bg: null,           // {canvas, w, h, data}
-    alpha: null,                   // Float32Array, figuurmasker
+    alpha: null, auto: null, method: "none",
     paint: null,                   // Uint8Array: 0 niets, 1 terughalen, 2 weghalen
     figStats: null, bgStats: null,
-    pos: { x: 0.5, y: 0.98 },      // voetpunt van het figuur, in fracties van het doek
+    pos: { x: 0.5, y: 0.97 },      // voetpunt van het figuur, in fracties van het doek
     ratio: "4:5", fmt: "jpg",
     brush: 0, showMask: false,
     layerCache: null, layerKey: ""
@@ -433,9 +469,104 @@ details.adv .inner{padding:0 16px 16px}
     var f = e.target.files && e.target.files[0]; if (f) handleFile("bg", f);
   });
 
-  function busy(on, text) {
+  function busy(on, text, pct) {
     $("busy").hidden = !on;
-    if (text) $("busy").textContent = text;
+    if (text) $("busyTxt").textContent = text;
+    if (typeof pct === "number") {
+      $("pbarWrap").hidden = false;
+      $("pbar").style.width = Math.max(0, Math.min(100, pct)) + "%";
+    } else $("pbarWrap").hidden = true;
+  }
+  function status(text, kind) {
+    var el = $("segStatus");
+    el.className = "status" + (kind ? " " + kind : "");
+    el.textContent = text || "";
+  }
+
+  /* ============ het uitknipmodel: bepaalt alleen WAT figuur is ============
+     Het levert een masker, nooit pixels. Het figuur zelf komt onaangeroerd
+     uit de originele foto. Lukt het laden niet, dan valt alles terug op de
+     randmeting hieronder. */
+  var M = { state: "idle", p: null };
+
+  function loadModel() {
+    if (M.state === "ready") return Promise.resolve(true);
+    if (M.state === "failed") return Promise.resolve(false);
+    if (M.p) return M.p;
+    M.state = "loading";
+    busy(true, "Uitknipmodel ophalen — dit gebeurt eenmalig", 0);
+    M.p = import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@3/+esm")
+      .then(function (T) {
+        M.lib = T;
+        T.env.allowLocalModels = false;
+        var prog = function (p) {
+          if (p && p.status === "progress" && p.total) {
+            busy(true, "Uitknipmodel ophalen — dit gebeurt eenmalig",
+                 Math.round(p.loaded / p.total * 100));
+          }
+        };
+        return Promise.all([
+          T.AutoModel.from_pretrained("briaai/RMBG-1.4", {
+            config: { model_type: "custom", is_encoder_decoder: false },
+            progress_callback: prog
+          }),
+          T.AutoProcessor.from_pretrained("briaai/RMBG-1.4", {
+            config: {
+              do_normalize: true, do_pad: false, do_rescale: true, do_resize: true,
+              image_mean: [0.5, 0.5, 0.5], image_std: [1, 1, 1],
+              resample: 2, rescale_factor: 0.00392156862745098,
+              size: { width: 1024, height: 1024 }
+            }
+          })
+        ]);
+      })
+      .then(function (r) { M.model = r[0]; M.proc = r[1]; M.state = "ready"; return true; })
+      .catch(function (e) {
+        M.state = "failed";
+        if (window.console) console.warn("uitknipmodel niet geladen:", e);
+        return false;
+      });
+    return M.p;
+  }
+
+  function modelAlpha(canvas) {
+    var T = M.lib;
+    return T.RawImage.fromURL(canvas.toDataURL("image/png"))
+      .then(function (img) { return M.proc(img); })
+      .then(function (inputs) { return M.model({ input: inputs.pixel_values }); })
+      .then(function (out) {
+        var t = out.output ? out.output[0] : (out.logits ? out.logits[0] : null);
+        if (!t) throw new Error("geen masker terug");
+        return T.RawImage.fromTensor(t.mul(255).to("uint8")).resize(canvas.width, canvas.height);
+      })
+      .then(function (mask) {
+        var n = canvas.width * canvas.height, a = new Float32Array(n);
+        var d = mask.data, ch = Math.max(1, Math.round(d.length / n));
+        for (var i = 0; i < n; i++) a[i] = d[i * ch] / 255;
+        return a;
+      });
+  }
+
+  function segment() {
+    if (!state.fig) return Promise.resolve();
+    busy(true, "Figuur uitknippen…");
+    return loadModel().then(function (ok) {
+      if (!ok) throw new Error("geen model");
+      busy(true, "Figuur uitknippen…");
+      return modelAlpha(state.fig.canvas);
+    }).then(function (a) {
+      state.auto = a; state.method = "model";
+      status("Uitgeknipt met het model. Werkt ook bij donker figuur op donkere achtergrond.", "good");
+      $("tolCtl").hidden = true;
+      $("maskWhy").textContent = "Het model bepaalt wat figuur is. Klopt er iets niet, haal het met de kwast terug of weg.";
+      finishMask(true);
+    }).catch(function () {
+      state.auto = null; state.method = "key";
+      status("Model niet beschikbaar — teruggevallen op randmeting. Die werkt alleen bij een egale achtergrond.", "warn");
+      $("tolCtl").hidden = false;
+      $("maskWhy").textContent = "De randmeting kan zwart-op-zwart niet scheiden. Stel de gevoeligheid bij of gebruik de kwast.";
+      finishMask(true);
+    }).then(function () { busy(false); });
   }
 
   function toCanvas(bitmap) {
@@ -467,23 +598,21 @@ details.adv .inner{padding:0 16px 16px}
       })
       .then(function (bmp) {
         var got = toCanvas(bmp);
-        if (which === "fig") {
-          state.fig = got;
-          state.paint = new Uint8Array(got.w * got.h);
-          buildMask();
-          state.figStats = null;
-          markSlot("Fig", file.name, got);
-        } else {
+        markSlot(which === "fig" ? "Fig" : "Bg", file.name, got);
+        state.layerKey = "";
+        if (which === "bg") {
           state.bg = got;
           state.bgStats = analyseBackground(got);
-          markSlot("Bg", file.name, got);
+          if (state.fig) { $("work").hidden = false; render(); }
+          return;
         }
-        state.layerKey = "";
-        if (state.fig && state.bg) { $("work").hidden = false; }
-        render();
+        state.fig = got;
+        state.paint = new Uint8Array(got.w * got.h);
+        state.figStats = null;
+        if (state.bg) $("work").hidden = false;
+        return segment();
       })
-      .catch(function () { alert("Deze foto lukte niet. Probeer een JPG of PNG."); })
-      .then(function () { busy(false); });
+      .catch(function () { busy(false); alert("Deze foto lukte niet. Probeer een JPG of PNG."); });
   }
 
   function markSlot(kind, name, got) {
@@ -504,29 +633,18 @@ details.adv .inner{padding:0 16px 16px}
   }
 
   /* ================= masker ================= */
-  /* De lichtbak is egaal. We meten de rand van de foto, bouwen daar een
-     kleurmodel van, en alles wat daar genoeg van afwijkt is het figuur. */
-  function buildMask() {
-    var f = state.fig; if (!f) return;
-    var d = f.data.data, w = f.w, h = f.h;
-
+  /* Terugval als het model niet geladen kan worden: meet de rand van de foto
+     en beschouw alles wat daar genoeg van afwijkt als figuur. Werkt alleen
+     bij een egale achtergrond. */
+  function keyAlpha() {
+    var f = state.fig, d = f.data.data, w = f.w, h = f.h;
     var band = Math.max(3, Math.round(Math.min(w, h) * 0.02));
     var sr = 0, sg = 0, sb = 0, n = 0;
-    function sample(x, y) {
-      var i = (y * w + x) * 4;
-      sr += d[i]; sg += d[i + 1]; sb += d[i + 2]; n++;
-    }
-    for (var y = 0; y < h; y++) {
-      for (var b = 0; b < band; b++) { sample(b, y); sample(w - 1 - b, y); }
-    }
-    for (var x = 0; x < w; x++) {
-      for (var b2 = 0; b2 < band; b2++) { sample(x, b2); sample(x, h - 1 - b2); }
-    }
+    function smp(x, y) { var i = (y * w + x) * 4; sr += d[i]; sg += d[i + 1]; sb += d[i + 2]; n++; }
+    for (var y = 0; y < h; y++) for (var b1 = 0; b1 < band; b1++) { smp(b1, y); smp(w - 1 - b1, y); }
+    for (var x = 0; x < w; x++) for (var b2 = 0; b2 < band; b2++) { smp(x, b2); smp(x, h - 1 - b2); }
     var mr = sr / n, mg = sg / n, mb = sb / n;
-
-    var tol = +$("tol").value;
-    var t0 = tol * 0.55, t1 = tol * 1.75;
-
+    var tol = +$("tol").value, t0 = tol * 0.55, t1 = tol * 1.75;
     var a = new Float32Array(w * h);
     for (var p = 0, q = 0; p < w * h; p++, q += 4) {
       var dr = d[q] - mr, dg = d[q + 1] - mg, db = d[q + 2] - mb;
@@ -534,22 +652,26 @@ details.adv .inner{padding:0 16px 16px}
       var v = (dist - t0) / (t1 - t0);
       a[p] = v <= 0 ? 0 : v >= 1 ? 1 : v * v * (3 - 2 * v);
     }
-
     keepLargest(a, w, h);
-    var sh = +$("shrink").value;
-    if (sh > 0) a = erode(a, w, h, sh);
-    var fe = +$("feather").value;
-    if (fe > 0) a = blur(a, w, h, fe);
+    return a;
+  }
 
-    var paint = state.paint;
-    if (paint) {
+  /* automatisch masker + randbewerking + kwastwerk */
+  function finishMask(replace) {
+    var f = state.fig; if (!f) return;
+    var base = (state.method === "model" && state.auto) ? state.auto : keyAlpha();
+    var a = new Float32Array(base);
+    var sh = +$("shrink").value; if (sh > 0) a = erode(a, f.w, f.h, sh);
+    var fe = +$("feather").value; if (fe > 0) a = blur(a, f.w, f.h, fe);
+    if (state.paint) {
       for (var k = 0; k < a.length; k++) {
-        if (paint[k] === 1) a[k] = 1;
-        else if (paint[k] === 2) a[k] = 0;
+        if (state.paint[k] === 1) a[k] = 1; else if (state.paint[k] === 2) a[k] = 0;
       }
     }
     state.alpha = a;
-    state.layerKey = "";
+    state.figStats = null; state.layerKey = "";
+    if (replace) { state.pos = { x: 0.5, y: 0.97 }; }
+    render();
   }
 
   /* alleen het grootste samenhangende gebied houden — weg met stofjes */
@@ -682,8 +804,7 @@ details.adv .inner{padding:0 16px 16px}
      Geen vervorming, geen herschrijven van vorm of detail. */
   function buildLayer() {
     var integ = +$("integ").value / 100;
-    var spill = +$("spill").value / 100;
-    var key = [integ, spill, $("tol").value, $("shrink").value, $("feather").value].join("|");
+    var key = [integ, state.method, $("tol").value, $("shrink").value, $("feather").value].join("|");
     if (state.layerCache && state.layerKey === key) return state.layerCache;
 
     var f = state.fig, a = state.alpha, src = f.data.data;
@@ -699,7 +820,7 @@ details.adv .inner{padding:0 16px 16px}
         var ratio = (bs.mean[c] / bl) / Math.max(0.001, fs.mean[c] / fl);
         ratio = Math.pow(ratio, 0.22 * integ);           // sterk afgezwakt
         gain[c] = expo * Math.max(0.82, Math.min(1.22, ratio));
-        add[c] = (bs.mean[c] - 128) * 0.05 * spill;      // milde omgevingskleur
+        add[c] = (bs.mean[c] - 128) * 0.05 * integ;       // milde omgevingskleur
       }
     }
 
@@ -721,6 +842,7 @@ details.adv .inner{padding:0 16px 16px}
     return out;
   }
   function clamp(v) { return v < 0 ? 0 : v > 255 ? 255 : v; }
+  function tmpC(W, H) { var c = document.createElement("canvas"); c.width = W; c.height = H; return c; }
 
   /* ================= tekenen ================= */
   function outputSize() {
@@ -752,12 +874,22 @@ details.adv .inner{padding:0 16px 16px}
       var pad = bl > 0 ? Math.ceil(bl / 100 * 18) * 2 : 0;
       ctx.drawImage(b.canvas, (W - dw) / 2 - pad, (H - dh) / 2 - pad, dw + pad * 2, dh + pad * 2);
       ctx.restore();
-    } else if (opts.figureOnly) {
-      ctx.fillStyle = "#c9ccd2";
+    }
+
+    /* nevel: zet de achtergrond op afstand, zodat het figuur ervoor komt te staan */
+    var haze = +$("haze").value / 100;
+    if (haze > 0 && state.bgStats) {
+      var bm = state.bgStats.mean;
+      var cc = "rgba(" + Math.round(bm[0]) + "," + Math.round(bm[1]) + "," + Math.round(bm[2]) + ",";
+      var gr0 = ctx.createLinearGradient(0, 0, 0, H);
+      gr0.addColorStop(0, cc + (0.44 * haze).toFixed(3) + ")");
+      gr0.addColorStop(0.55, cc + (0.20 * haze).toFixed(3) + ")");
+      gr0.addColorStop(1, cc + "0)");
+      ctx.fillStyle = gr0;
       ctx.fillRect(0, 0, W, H);
     }
 
-    if (!state.fig || !state.alpha) return;
+    if (!state.fig || !state.alpha) { state._place = null; return; }
 
     var layer = buildLayer();
     var fs = analyseFigure(), box = fs.box;
@@ -799,6 +931,33 @@ details.adv .inner{padding:0 16px 16px}
     }
 
     ctx.drawImage(layer, dx, dy, dw2, dh2);
+    state._place = { dx: dx, dy: dy, dw: dw2, dh: dh2, sc: sc };
+
+    /* licht om de randen: de omgeving die op het figuur valt.
+       Dit is de ingreep die een uitgeknipte foto in een scene laat horen. */
+    var wr = +$("wrap").value / 100;
+    if (wr > 0 && state.bg && !opts.quick) {
+      var rr = Math.max(4, Math.round(Math.min(W, H) * 0.018));
+      var band = tmpC(W, H), bx = band.getContext("2d");
+      bx.drawImage(layer, dx, dy, dw2, dh2);
+      bx.globalCompositeOperation = "destination-out";
+      bx.filter = "blur(" + rr + "px)";
+      bx.drawImage(layer, dx, dy, dw2, dh2);
+
+      var wrapC = tmpC(W, H), wx = wrapC.getContext("2d");
+      var bb = state.bg, ss = Math.max(W / bb.w, H / bb.h);
+      wx.filter = "blur(" + (rr * 2) + "px)";
+      wx.drawImage(bb.canvas, (W - bb.w * ss) / 2, (H - bb.h * ss) / 2, bb.w * ss, bb.h * ss);
+      wx.filter = "none";
+      wx.globalCompositeOperation = "destination-in";
+      wx.drawImage(band, 0, 0);
+
+      ctx.save();
+      ctx.globalCompositeOperation = "screen";
+      ctx.globalAlpha = 0.85 * wr;
+      ctx.drawImage(wrapC, 0, 0);
+      ctx.restore();
+    }
 
     if (state.showMask && !opts.plain) {
       // alleen het figuur inkleuren, niet het hele doek
@@ -813,16 +972,101 @@ details.adv .inner{padding:0 16px 16px}
       ctx.globalAlpha = 0.5;
       ctx.drawImage(tint, 0, 0);
       ctx.restore();
+      return;
     }
-    state._place = { dx: dx, dy: dy, dw: dw2, dh: dh2, sc: sc };
+    if (opts.quick) return;
+
+    /* gloed uit de lichte delen van de scene */
+    var bloom = +$("bloom").value / 100;
+    if (bloom > 0) {
+      var sw = Math.max(64, Math.round(W / 4)), sh2 = Math.max(64, Math.round(H / 4));
+      var sm = tmpC(sw, sh2), s2 = sm.getContext("2d", { willReadFrequently: true });
+      s2.drawImage(ctx.canvas, 0, 0, sw, sh2);
+      var bi = s2.getImageData(0, 0, sw, sh2), bd = bi.data;
+      for (var i = 0; i < bd.length; i += 4) {
+        var L = 0.2126 * bd[i] + 0.7152 * bd[i + 1] + 0.0722 * bd[i + 2];
+        var kk = (L - 168) / 87; kk = kk <= 0 ? 0 : kk >= 1 ? 1 : kk;
+        bd[i] *= kk; bd[i + 1] *= kk; bd[i + 2] *= kk;
+      }
+      s2.putImageData(bi, 0, 0);
+      ctx.save();
+      ctx.filter = "blur(" + Math.max(2, Math.round(sw * 0.035)) + "px)";
+      ctx.globalCompositeOperation = "lighter";
+      ctx.globalAlpha = 0.5 * bloom;
+      ctx.drawImage(sm, 0, 0, W, H);
+      ctx.restore();
+    }
+
+    var rain = +$("rain").value / 100;
+    if (rain > 0) drawRain(ctx, W, H, rain);
+
+    var gr = +$("grade").value / 100;
+    if (gr > 0 && state.bgStats) applyGrade(ctx, W, H, gr, state.bgStats);
   }
 
-  function render() {
+  /* regen met een vaste reeks, zodat hij niet flikkert bij elk hertekenen */
+  function drawRain(ctx, W, H, k) {
+    var seed = 20260907;
+    function rnd() { seed = (seed * 1664525 + 1013904223) % 4294967296; return seed / 4294967296; }
+    var n = Math.round(230 * k) + 70;
+    ctx.save();
+    ctx.lineCap = "round";
+    ctx.strokeStyle = "#dce7f4";
+    for (var lay = 0; lay < 2; lay++) {
+      var far = lay === 0;
+      ctx.globalAlpha = (far ? 0.15 : 0.3) * k;
+      ctx.lineWidth = far ? Math.max(1, W / 900) : Math.max(1.4, W / 620);
+      ctx.filter = far ? "blur(1.2px)" : "none";
+      ctx.beginPath();
+      for (var i = 0; i < n; i++) {
+        var x = rnd() * W * 1.16 - W * 0.08, y = rnd() * H;
+        var len = (far ? 0.045 : 0.085) * H * (0.6 + rnd() * 0.8);
+        ctx.moveTo(x, y);
+        ctx.lineTo(x - len * 0.16, y + len);
+      }
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  /* kleurgraad en vignet in één doorloop over het hele beeld */
+  function applyGrade(ctx, W, H, k, bs) {
+    var im = ctx.getImageData(0, 0, W, H), d = im.data;
+    var cx = W / 2, cy = H / 2, maxR = Math.sqrt(cx * cx + cy * cy);
+    var tint = [bs.mean[0] / 255, bs.mean[1] / 255, bs.mean[2] / 255];
+    var contrast = 1 + 0.18 * k, sat = 1 + 0.1 * k, vig = 0.32 * k;
+    for (var y = 0, p = 0; y < H; y++) {
+      var ny = (y - cy) / maxR;
+      for (var x = 0; x < W; x++, p += 4) {
+        var nx = (x - cx) / maxR;
+        var rad = Math.sqrt(nx * nx + ny * ny);
+        var v = 1 - vig * Math.max(0, rad - 0.42) / 0.58;
+        var R = d[p], G = d[p + 1], B = d[p + 2];
+        var L = (0.2126 * R + 0.7152 * G + 0.0722 * B) / 255;
+        var lift = (1 - L) * (1 - L) * 26 * k;
+        R += lift * tint[0]; G += lift * tint[1]; B += lift * tint[2];
+        R = (R - 128) * contrast + 128;
+        G = (G - 128) * contrast + 128;
+        B = (B - 128) * contrast + 128;
+        var lum = 0.2126 * R + 0.7152 * G + 0.0722 * B;
+        R = lum + (R - lum) * sat; G = lum + (G - lum) * sat; B = lum + (B - lum) * sat;
+        d[p] = clamp(R * v); d[p + 1] = clamp(G * v); d[p + 2] = clamp(B * v);
+      }
+    }
+    ctx.putImageData(im, 0, 0);
+  }
+
+  var quickTimer = null;
+  function render(quick) {
     if (!state.fig || !state.bg) return;
     var o = outputSize();
-    view.width = o.w; view.height = o.h;
-    view.style.width = "min(100%, " + Math.round(o.w * 0.62) + "px)";
-    drawComposite(vctx, o.w, o.h);
+    if (view.width !== o.w || view.height !== o.h) { view.width = o.w; view.height = o.h; }
+    view.style.width = "min(100%, " + Math.round(o.w * 0.6) + "px)";
+    drawComposite(vctx, o.w, o.h, { quick: !!quick });
+    if (quick) {
+      clearTimeout(quickTimer);
+      quickTimer = setTimeout(function () { render(false); }, 170);
+    }
     if ($("compare").classList.contains("on")) renderCompare();
   }
 
@@ -886,12 +1130,12 @@ details.adv .inner{padding:0 16px 16px}
     else {
       state.pos.x = Math.max(0, Math.min(1, state.pos.x + (p.x - last.x)));
       state.pos.y = Math.max(0.15, Math.min(1.25, state.pos.y + (p.y - last.y)));
-      last = p; render();
+      last = p; render(true);
     }
   });
   ["pointerup", "pointercancel"].forEach(function (ev) {
     view.addEventListener(ev, function () {
-      if (painting) { buildMask(); render(); }
+      if (painting || dragging) render(false);
       dragging = painting = false; view.classList.remove("dragging");
     });
   });
@@ -930,12 +1174,16 @@ details.adv .inner{padding:0 16px 16px}
     el.addEventListener("input", function () {
       $(label).textContent = fmt ? fmt(el.value) : el.value;
       if (cb) cb();
-      render();
+      render(true);
     });
   }
   var pct = function (v) { return v + "%"; };
+  bindRange("wrap", "vWrap", pct);
+  bindRange("haze", "vHaze", pct);
+  bindRange("bloom", "vBloom", pct);
+  bindRange("grade", "vGrade", pct);
+  bindRange("rain", "vRain", pct);
   bindRange("integ", "vInteg", pct, function () { state.layerKey = ""; });
-  bindRange("spill", "vSpill", pct, function () { state.layerKey = ""; });
   bindRange("shadow", "vShadow", pct);
   bindRange("blur", "vBlur", null);
   bindRange("scale", "vScale", pct);
@@ -944,8 +1192,7 @@ details.adv .inner{padding:0 16px 16px}
     var lbl = { tol: "vTol", shrink: "vShrink", feather: "vFeather" }[id];
     $(id).addEventListener("input", function () {
       $(lbl).textContent = this.value;
-      state.figStats = null;
-      buildMask(); render();
+      finishMask(false);
     });
   });
 
@@ -978,7 +1225,11 @@ details.adv .inner{padding:0 16px 16px}
   $("brushDel").addEventListener("click", function () { setBrush(2); });
   $("clearBrush").addEventListener("click", function () {
     if (state.paint) state.paint.fill(0);
-    state.figStats = null; buildMask(); render();
+    finishMask(false);
+  });
+  $("redoMask").addEventListener("click", function () {
+    if (state.paint) state.paint.fill(0);
+    segment();
   });
   $("showMask").addEventListener("click", function () {
     state.showMask = !state.showMask;
@@ -988,16 +1239,17 @@ details.adv .inner{padding:0 16px 16px}
   });
 
   $("reset").addEventListener("click", function () {
-    var defs = { integ: 25, spill: 15, shadow: 40, blur: 0, scale: 70, tol: 30, shrink: 1, feather: 1 };
+    var defs = { wrap: 45, haze: 30, bloom: 30, grade: 35, rain: 0,
+                 integ: 30, shadow: 45, blur: 15, scale: 72, tol: 30, shrink: 1, feather: 1 };
     Object.keys(defs).forEach(function (k) { $(k).value = defs[k]; });
-    $("vInteg").textContent = "25%"; $("vSpill").textContent = "15%";
-    $("vShadow").textContent = "40%"; $("vBlur").textContent = "0";
-    $("vScale").textContent = "70%"; $("vTol").textContent = "30";
-    $("vShrink").textContent = "1"; $("vFeather").textContent = "1";
-    state.pos = { x: 0.5, y: 0.98 };
+    [["vWrap", "45%"], ["vHaze", "30%"], ["vBloom", "30%"], ["vGrade", "35%"], ["vRain", "0%"],
+     ["vInteg", "30%"], ["vShadow", "45%"], ["vBlur", "15"], ["vScale", "72%"],
+     ["vTol", "30"], ["vShrink", "1"], ["vFeather", "1"]].forEach(function (q) {
+      $(q[0]).textContent = q[1];
+    });
+    state.pos = { x: 0.5, y: 0.97 };
     if (state.paint) state.paint.fill(0);
-    state.figStats = null; state.layerKey = "";
-    setBrush(0); buildMask(); render();
+    setBrush(0); finishMask(false);
   });
 
   $("download").addEventListener("click", function () {
@@ -1021,6 +1273,9 @@ details.adv .inner{padding:0 16px 16px}
   window.addEventListener("resize", function () {
     if ($("compare").classList.contains("on")) setSplit(+$("cmpSlider").value);
   });
+
+  /* het model alvast binnenhalen terwijl je de foto's kiest */
+  if (navigator.onLine !== false) setTimeout(function () { loadModel().then(function () { busy(false); }); }, 500);
 })();
 </script>
 </body>
