@@ -2,13 +2,15 @@
    Shell: cache first (instant open, works offline).
    Data:  network first, fall back to the last copy we kept. */
 
-const VERSION = "v12";
+const VERSION = "v13";
 const SHELL = "cardback-shell-" + VERSION;
 const DATA = "cardback-data-" + VERSION;
 
 const SHELL_FILES = [
   "./",
   "./index.html",
+  "./studio/",
+  "./studio/index.html",
   "./manifest.webmanifest",
   "./icon-192.png",
   "./icon-512.png",

@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cardback Studio</title>
+<meta name="description" content="Zet je eigen figuurfoto in een andere achtergrond, zonder dat het figuur verandert.">
+<meta name="theme-color" content="#1B5CD9">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="icon" href="../favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#EDEFF2; --card:#FFFFFF; --sunk:#E3E7ED;
+  --ink:#14171F; --ink-soft:#5A6274; --line:#D2D8E1;
+  --red:#C92A20; --blue:#1B5CD9; --deep:#102B69;
+  --yellow:#F5B915; --green:#17805B;
+  --shadow:0 1px 0 rgba(20,23,31,.05), 0 8px 20px -15px rgba(20,23,31,.5);
+  --safe-top:env(safe-area-inset-top,0px);
+  --safe-bot:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#13161C; --card:#1C2029; --sunk:#171B23;
+    --ink:#E9ECF3; --ink-soft:#98A1B4; --line:#2E3442;
+    --red:#FF5548; --blue:#3D74E8; --deep:#0D1D45;
+    --yellow:#FFC93D; --green:#35C48D;
+    --shadow:0 1px 0 rgba(0,0,0,.4), 0 10px 24px -16px rgba(0,0,0,.9);
+  }
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Barlow","Helvetica Neue",Arial,sans-serif;
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{margin:0;text-wrap:balance}
+p{margin:0}
+a{color:var(--blue)}
+button,input,select{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2.5px solid var(--blue);outline-offset:2px;border-radius:3px}
+
+.bar{
+  position:sticky;top:0;z-index:30;background:var(--blue);color:#fff;
+  border-bottom:3px solid var(--deep);
+  padding:calc(11px + var(--safe-top)) 16px 11px;
+  display:flex;align-items:center;gap:12px;
+}
+.back{
+  flex:none;width:38px;height:38px;border-radius:9px;text-decoration:none;color:#fff;
+  background:rgba(255,255,255,.16);border:1.5px solid rgba(255,255,255,.45);
+  display:grid;place-items:center;font-size:18px;line-height:1;
+}
+.bar .id{flex:1;min-width:0}
+.bar h1{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:20px;text-transform:uppercase;letter-spacing:.02em;line-height:1;
+}
+.bar .sub{
+  font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;opacity:.9;margin-top:4px;
+}
+
+.wrap{max-width:1080px;margin:0 auto;padding:18px 16px calc(56px + var(--safe-bot))}
+.stack{display:flex;flex-direction:column;gap:24px}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+  letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft);
+}
+h2.sec{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:21px;text-transform:uppercase;letter-spacing:.02em;margin:2px 0 6px;
+}
+.lede{color:var(--ink-soft);font-size:14.5px;margin-bottom:14px;max-width:64ch}
+
+/* ---------- uploads ---------- */
+.slots{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+.slot{
+  background:var(--card);border:1.5px dashed var(--line);border-radius:12px;
+  padding:14px;cursor:pointer;display:flex;gap:13px;align-items:center;min-height:92px;
+}
+.slot.on{border-style:solid;border-color:var(--green)}
+.slot.drag{border-color:var(--blue);background:var(--sunk)}
+.slot .thumb{
+  flex:none;width:62px;height:62px;border-radius:9px;background:var(--sunk);
+  display:grid;place-items:center;font-size:22px;overflow:hidden;
+}
+.slot .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.slot .t{flex:1;min-width:0}
+.slot .t b{display:block;font-size:14.5px}
+.slot .t span{font-size:13px;color:var(--ink-soft);display:block;margin-top:2px}
+.slot .num{
+  font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-soft);
+}
+
+/* ---------- canvas ---------- */
+.stage{
+  background:var(--sunk);border:1.5px solid var(--line);border-radius:12px;
+  padding:12px;display:flex;flex-direction:column;align-items:center;gap:10px;
+  position:relative;overflow:hidden;
+}
+.holder{position:relative;max-width:100%;touch-action:none}
+canvas.view{
+  display:block;max-width:100%;height:auto;border-radius:8px;
+  box-shadow:0 6px 24px -12px rgba(0,0,0,.6);cursor:grab;
+  background:repeating-conic-gradient(var(--line) 0% 25%, var(--sunk) 0% 50%) 50%/18px 18px;
+}
+canvas.view.brushing{cursor:crosshair}
+canvas.view.dragging{cursor:grabbing}
+.overlaymsg{
+  position:absolute;inset:0;display:grid;place-items:center;text-align:center;
+  background:rgba(0,0,0,.45);color:#fff;border-radius:8px;padding:20px;
+  font-size:14.5px;
+}
+.hint{font-size:12.5px;color:var(--ink-soft);text-align:center}
+
+/* before/after */
+.compare{position:relative;width:100%;max-width:100%;display:none}
+.compare.on{display:block}
+.compare canvas{display:block;max-width:100%;height:auto;border-radius:8px}
+.compare .top{position:absolute;inset:0;overflow:hidden}
+.compare .top canvas{position:absolute;top:0;left:0;max-width:none}
+.compare input[type=range]{
+  position:absolute;left:0;right:0;bottom:10px;width:calc(100% - 24px);margin:0 12px;
+}
+.tagpair{display:flex;justify-content:space-between;font-family:"IBM Plex Mono",monospace;
+  font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);
+  width:100%;margin-top:2px}
+
+/* ---------- controls ---------- */
+.panel{
+  background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+  padding:16px;box-shadow:var(--shadow);
+}
+.panel + .panel{margin-top:12px}
+.panel h3{
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:15px;text-transform:uppercase;letter-spacing:.03em;margin-bottom:4px;
+}
+.panel .why{font-size:13px;color:var(--ink-soft);margin-bottom:12px}
+.ctl{margin-bottom:14px}
+.ctl:last-child{margin-bottom:0}
+.ctl label{
+  display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;
+  letter-spacing:.11em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px;
+}
+.ctl label b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+input[type=range]{
+  width:100%;accent-color:var(--blue);height:26px;
+}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.seg button{
+  flex:1;min-width:60px;background:var(--paper);border:1.5px solid var(--line);
+  border-radius:8px;padding:8px 6px;cursor:pointer;font-size:13.5px;color:var(--ink-soft);
+}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.rowbtn{display:flex;gap:9px;flex-wrap:wrap;margin-top:4px}
+.btn{
+  background:var(--paper);border:1.5px solid var(--line);border-radius:9px;
+  padding:10px 15px;cursor:pointer;font-size:14px;
+}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{
+  background:var(--red);color:#fff;border-color:var(--red);
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:15px;letter-spacing:.05em;text-transform:uppercase;padding:12px 22px;
+}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+
+details.adv{
+  background:var(--card);border:1.5px solid var(--line);border-radius:12px;
+  padding:0;overflow:hidden;margin-top:12px;
+}
+details.adv > summary{
+  padding:14px 16px;cursor:pointer;list-style:none;
+  font-family:Anton,"Arial Narrow",Impact,sans-serif;
+  font-size:15px;text-transform:uppercase;letter-spacing:.03em;
+  display:flex;justify-content:space-between;align-items:center;
+}
+details.adv > summary::-webkit-details-marker{display:none}
+details.adv > summary::after{content:"+";color:var(--ink-soft);font-family:"IBM Plex Mono",monospace}
+details.adv[open] > summary::after{content:"–"}
+details.adv .inner{padding:0 16px 16px}
+
+.note{
+  background:var(--sunk);border-left:4px solid var(--green);border-radius:0 9px 9px 0;
+  padding:13px 15px;font-size:14px;color:var(--ink-soft);max-width:66ch;
+}
+.note b{color:var(--ink)}
+.foot{
+  margin-top:26px;padding-top:16px;border-top:2px solid var(--line);
+  font-size:12.5px;color:var(--ink-soft);max-width:70ch;
+}
+.foot p + p{margin-top:9px}
+
+@media (max-width:700px){
+  .slots{grid-template-columns:1fr}
+}
+@media (min-width:900px){
+  .work{display:grid;grid-template-columns:1.15fr .85fr;gap:20px;align-items:start}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <a class="back" href="../" aria-label="Terug naar de radar">←</a>
+  <div class="id">
+    <h1>Cardback Studio</h1>
+    <div class="sub">achtergrond vervangen · figuur blijft figuur</div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stack">
+
+    <section>
+      <div class="eyebrow">Twee foto's</div>
+      <h2 class="sec">Wat gaat erin</h2>
+      <p class="lede">Je eigen foto uit de lichtbak, en de achtergrond waar je hem in wilt zetten. Het figuur wordt
+        uitgeknipt en ongewijzigd op de achtergrond geplaatst — pixel voor pixel dezelfde foto.</p>
+      <div class="slots">
+        <div class="slot" id="slotFig" tabindex="0" role="button">
+          <div class="thumb" id="thFig" aria-hidden="true">🧍</div>
+          <div class="t">
+            <span class="num">Stap 1</span>
+            <b id="nmFig">Foto van het figuur</b>
+            <span id="sbFig">Neutrale of egale achtergrond werkt het best.</span>
+          </div>
+        </div>
+        <div class="slot" id="slotBg" tabindex="0" role="button">
+          <div class="thumb" id="thBg" aria-hidden="true">🖼️</div>
+          <div class="t">
+            <span class="num">Stap 2</span>
+            <b id="nmBg">Achtergrond</b>
+            <span id="sbBg">Straat, bos, comic, jaren-90 kamer — wat je wilt.</span>
+          </div>
+        </div>
+      </div>
+      <input type="file" id="fileFig" accept="image/*" hidden>
+      <input type="file" id="fileBg" accept="image/*" hidden>
+    </section>
+
+    <section class="work" id="work" hidden>
+      <div>
+        <div class="stage">
+          <div class="holder" id="holder">
+            <canvas class="view" id="view"></canvas>
+            <div class="overlaymsg" id="busy" hidden>Bezig…</div>
+          </div>
+          <div class="compare" id="compare">
+            <canvas id="cmpBottom"></canvas>
+            <div class="top" id="cmpTopWrap"><canvas id="cmpTop"></canvas></div>
+            <input type="range" id="cmpSlider" min="0" max="100" value="50" aria-label="Vergelijken">
+          </div>
+          <div class="tagpair" id="cmpTags" hidden><span>origineel</span><span>resultaat</span></div>
+          <p class="hint" id="hint">Sleep het figuur om het te verplaatsen.</p>
+        </div>
+
+        <div class="rowbtn" style="margin-top:12px">
+          <button class="btn primary" id="download" type="button">Bewaar foto</button>
+          <button class="btn" id="toggleCmp" type="button">Vergelijk met origineel</button>
+          <button class="btn" id="reset" type="button">Alles terug</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="panel">
+          <h3>Integratie</h3>
+          <p class="why">Hoeveel het licht en de kleur van de achtergrond op het figuur mogen doorwerken. Alleen
+            belichting en witbalans — de vorm, de pose en de verf blijven zoals ze zijn.</p>
+          <div class="ctl">
+            <label for="integ">Lichtaanpassing <b id="vInteg">25%</b></label>
+            <input type="range" id="integ" min="0" max="100" value="25">
+          </div>
+          <div class="ctl">
+            <label for="spill">Omgevingskleur <b id="vSpill">15%</b></label>
+            <input type="range" id="spill" min="0" max="100" value="15">
+          </div>
+          <div class="ctl">
+            <label for="shadow">Contactschaduw <b id="vShadow">40%</b></label>
+            <input type="range" id="shadow" min="0" max="100" value="40">
+          </div>
+          <div class="ctl">
+            <label for="blur">Achtergrond onscherp <b id="vBlur">0</b></label>
+            <input type="range" id="blur" min="0" max="100" value="0">
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Plaatsing</h3>
+          <p class="why">Verschuiven en schalen mag; vervormen niet. De verhoudingen blijven altijd gelijk.</p>
+          <div class="ctl">
+            <label for="scale">Grootte <b id="vScale">70%</b></label>
+            <input type="range" id="scale" min="15" max="130" value="70">
+          </div>
+          <div class="ctl">
+            <label>Beeldverhouding</label>
+            <div class="seg" id="ratio">
+              <button type="button" data-r="orig">Origineel</button>
+              <button type="button" data-r="4:5" aria-pressed="true">4:5</button>
+              <button type="button" data-r="1:1">1:1</button>
+              <button type="button" data-r="3:4">3:4</button>
+              <button type="button" data-r="16:9">16:9</button>
+            </div>
+          </div>
+        </div>
+
+        <details class="adv" id="maskPanel">
+          <summary>Uitknippen bijstellen</summary>
+          <div class="inner">
+            <p class="why">De randbepaling gebeurt op basis van je lichtbakachtergrond. Klopt er iets niet, stel het
+              hier bij of werk het met de kwast weg.</p>
+            <div class="ctl">
+              <label for="tol">Gevoeligheid <b id="vTol">30</b></label>
+              <input type="range" id="tol" min="4" max="80" value="30">
+            </div>
+            <div class="ctl">
+              <label for="shrink">Rand inkorten <b id="vShrink">1</b></label>
+              <input type="range" id="shrink" min="0" max="6" value="1">
+            </div>
+            <div class="ctl">
+              <label for="feather">Randzachtheid <b id="vFeather">1</b></label>
+              <input type="range" id="feather" min="0" max="6" value="1">
+            </div>
+            <div class="ctl">
+              <label>Kwast</label>
+              <div class="seg">
+                <button class="btn" id="brushOff" type="button" aria-pressed="true">Uit</button>
+                <button class="btn" id="brushAdd" type="button" aria-pressed="false">Terughalen</button>
+                <button class="btn" id="brushDel" type="button" aria-pressed="false">Weghalen</button>
+              </div>
+            </div>
+            <div class="ctl">
+              <label for="brushSize">Kwastgrootte <b id="vBrush">40</b></label>
+              <input type="range" id="brushSize" min="8" max="160" value="40">
+            </div>
+            <div class="rowbtn">
+              <button class="btn" id="showMask" type="button">Toon masker</button>
+              <button class="btn" id="clearBrush" type="button">Kwastwerk wissen</button>
+            </div>
+          </div>
+        </details>
+
+        <div class="panel" style="margin-top:12px">
+          <h3>Bewaren</h3>
+          <div class="ctl">
+            <label>Bestandstype</label>
+            <div class="seg" id="fmt">
+              <button type="button" data-f="jpg" aria-pressed="true">JPG</button>
+              <button type="button" data-f="png">PNG</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="note">
+        <b>Waarom hier geen beeld-AI aan te pas komt.</b> Je vroeg om een figuur dat gegarandeerd onveranderd blijft.
+        Een generatief model kan dat niet beloven — het maakt altijd nieuwe pixels, hoe streng je het ook instrueert.
+        Dit werkt anders: het figuur wordt uitgeknipt en de originele pixels worden op de achtergrond geplakt. Aan die
+        pixels wordt alleen een belichtings- en witbalanscorrectie gerekend, hetzelfde soort bewerking als in Lightroom.
+        Je “Figure Lock” is hier dus geen wens maar de bouwwijze: er valt niets te controleren achteraf, want er is
+        niets gegenereerd. Alles gebeurt bovendien op je eigen toestel — je foto's gaan nergens heen.
+      </div>
+    </section>
+
+  </div>
+
+  <div class="foot">
+    <p>Werkt het uitknippen slecht, dan ligt dat bijna altijd aan de foto: fotografeer met wat afstand tot de
+      achtergrond en zorg dat het figuur duidelijk lichter of donkerder is dan de lichtbak. Donkere figuren op een
+      witte achtergrond gaan het best.</p>
+    <p>Perspectief en cameravoet worden niet automatisch berekend — dat kan niet betrouwbaar. Kies daarom een
+      achtergrond die ongeveer op ooghoogte van het figuur genomen is, dan klopt het vanzelf.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var $ = function (id) { return document.getElementById(id); };
+
+  var MAXW = 1700;                 // werkresolutie
+  var state = {
+    fig: null, bg: null,           // {canvas, w, h, data}
+    alpha: null,                   // Float32Array, figuurmasker
+    paint: null,                   // Uint8Array: 0 niets, 1 terughalen, 2 weghalen
+    figStats: null, bgStats: null,
+    pos: { x: 0.5, y: 0.98 },      // voetpunt van het figuur, in fracties van het doek
+    ratio: "4:5", fmt: "jpg",
+    brush: 0, showMask: false,
+    layerCache: null, layerKey: ""
+  };
+
+  var view = $("view"), vctx = view.getContext("2d");
+
+  /* ================= laden ================= */
+  function pick(input) { input.value = ""; input.click(); }
+  $("slotFig").addEventListener("click", function () { pick($("fileFig")); });
+  $("slotBg").addEventListener("click", function () { pick($("fileBg")); });
+  ["slotFig", "slotBg"].forEach(function (id) {
+    $(id).addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); $(id).click(); }
+    });
+  });
+
+  [["slotFig", "fileFig"], ["slotBg", "fileBg"]].forEach(function (p) {
+    var el = $(p[0]);
+    el.addEventListener("dragover", function (e) { e.preventDefault(); el.classList.add("drag"); });
+    el.addEventListener("dragleave", function () { el.classList.remove("drag"); });
+    el.addEventListener("drop", function (e) {
+      e.preventDefault(); el.classList.remove("drag");
+      var f = e.dataTransfer.files && e.dataTransfer.files[0];
+      if (f) handleFile(p[1] === "fileFig" ? "fig" : "bg", f);
+    });
+  });
+
+  $("fileFig").addEventListener("change", function (e) {
+    var f = e.target.files && e.target.files[0]; if (f) handleFile("fig", f);
+  });
+  $("fileBg").addEventListener("change", function (e) {
+    var f = e.target.files && e.target.files[0]; if (f) handleFile("bg", f);
+  });
+
+  function busy(on, text) {
+    $("busy").hidden = !on;
+    if (text) $("busy").textContent = text;
+  }
+
+  function toCanvas(bitmap) {
+    var s = Math.min(1, MAXW / Math.max(bitmap.width, bitmap.height));
+    var w = Math.max(1, Math.round(bitmap.width * s));
+    var h = Math.max(1, Math.round(bitmap.height * s));
+    var c = document.createElement("canvas");
+    c.width = w; c.height = h;
+    var x = c.getContext("2d");
+    x.drawImage(bitmap, 0, 0, w, h);
+    return { canvas: c, w: w, h: h, data: x.getImageData(0, 0, w, h) };
+  }
+
+  function handleFile(which, file) {
+    if (!/^image\//.test(file.type)) return;
+    busy(true, "Foto inlezen…");
+    var opts = { imageOrientation: "from-image" };
+    (window.createImageBitmap ? createImageBitmap(file, opts).catch(function () {
+      return createImageBitmap(file);
+    }) : Promise.reject())
+      .then(function (bmp) { return bmp; })
+      .catch(function () {
+        return new Promise(function (res, rej) {
+          var img = new Image();
+          img.onload = function () { res(img); };
+          img.onerror = rej;
+          img.src = URL.createObjectURL(file);
+        });
+      })
+      .then(function (bmp) {
+        var got = toCanvas(bmp);
+        if (which === "fig") {
+          state.fig = got;
+          state.paint = new Uint8Array(got.w * got.h);
+          buildMask();
+          state.figStats = null;
+          markSlot("Fig", file.name, got);
+        } else {
+          state.bg = got;
+          state.bgStats = analyseBackground(got);
+          markSlot("Bg", file.name, got);
+        }
+        state.layerKey = "";
+        if (state.fig && state.bg) { $("work").hidden = false; }
+        render();
+      })
+      .catch(function () { alert("Deze foto lukte niet. Probeer een JPG of PNG."); })
+      .then(function () { busy(false); });
+  }
+
+  function markSlot(kind, name, got) {
+    var slot = $("slot" + kind);
+    slot.classList.add("on");
+    $("nm" + kind).textContent = name.length > 28 ? name.slice(0, 26) + "…" : name;
+    $("sb" + kind).textContent = got.w + " × " + got.h + " — tik om te vervangen";
+    var th = $("th" + kind);
+    th.innerHTML = "";
+    var img = document.createElement("img");
+    img.alt = "";
+    got.canvas.toBlob(function (b) {
+      var u = URL.createObjectURL(b);
+      img.src = u;
+      img.onload = function () { URL.revokeObjectURL(u); };
+    }, "image/jpeg", 0.7);
+    th.appendChild(img);
+  }
+
+  /* ================= masker ================= */
+  /* De lichtbak is egaal. We meten de rand van de foto, bouwen daar een
+     kleurmodel van, en alles wat daar genoeg van afwijkt is het figuur. */
+  function buildMask() {
+    var f = state.fig; if (!f) return;
+    var d = f.data.data, w = f.w, h = f.h;
+
+    var band = Math.max(3, Math.round(Math.min(w, h) * 0.02));
+    var sr = 0, sg = 0, sb = 0, n = 0;
+    function sample(x, y) {
+      var i = (y * w + x) * 4;
+      sr += d[i]; sg += d[i + 1]; sb += d[i + 2]; n++;
+    }
+    for (var y = 0; y < h; y++) {
+      for (var b = 0; b < band; b++) { sample(b, y); sample(w - 1 - b, y); }
+    }
+    for (var x = 0; x < w; x++) {
+      for (var b2 = 0; b2 < band; b2++) { sample(x, b2); sample(x, h - 1 - b2); }
+    }
+    var mr = sr / n, mg = sg / n, mb = sb / n;
+
+    var tol = +$("tol").value;
+    var t0 = tol * 0.55, t1 = tol * 1.75;
+
+    var a = new Float32Array(w * h);
+    for (var p = 0, q = 0; p < w * h; p++, q += 4) {
+      var dr = d[q] - mr, dg = d[q + 1] - mg, db = d[q + 2] - mb;
+      var dist = Math.sqrt(dr * dr + dg * dg + db * db);
+      var v = (dist - t0) / (t1 - t0);
+      a[p] = v <= 0 ? 0 : v >= 1 ? 1 : v * v * (3 - 2 * v);
+    }
+
+    keepLargest(a, w, h);
+    var sh = +$("shrink").value;
+    if (sh > 0) a = erode(a, w, h, sh);
+    var fe = +$("feather").value;
+    if (fe > 0) a = blur(a, w, h, fe);
+
+    var paint = state.paint;
+    if (paint) {
+      for (var k = 0; k < a.length; k++) {
+        if (paint[k] === 1) a[k] = 1;
+        else if (paint[k] === 2) a[k] = 0;
+      }
+    }
+    state.alpha = a;
+    state.layerKey = "";
+  }
+
+  /* alleen het grootste samenhangende gebied houden — weg met stofjes */
+  function keepLargest(a, w, h) {
+    var seen = new Uint8Array(w * h), stack = new Int32Array(w * h);
+    var best = null, bestN = 0;
+    for (var s = 0; s < w * h; s++) {
+      if (seen[s] || a[s] < 0.5) continue;
+      var top = 0, cnt = 0, cells = [];
+      stack[top++] = s; seen[s] = 1;
+      while (top > 0) {
+        var c = stack[--top]; cells.push(c); cnt++;
+        var cx = c % w, cy = (c / w) | 0;
+        if (cx > 0 && !seen[c - 1] && a[c - 1] >= 0.5) { seen[c - 1] = 1; stack[top++] = c - 1; }
+        if (cx < w - 1 && !seen[c + 1] && a[c + 1] >= 0.5) { seen[c + 1] = 1; stack[top++] = c + 1; }
+        if (cy > 0 && !seen[c - w] && a[c - w] >= 0.5) { seen[c - w] = 1; stack[top++] = c - w; }
+        if (cy < h - 1 && !seen[c + w] && a[c + w] >= 0.5) { seen[c + w] = 1; stack[top++] = c + w; }
+      }
+      if (cnt > bestN) { bestN = cnt; best = cells; }
+    }
+    if (!best || bestN < 40) return;
+    var keep = new Uint8Array(w * h);
+    for (var i = 0; i < best.length; i++) keep[best[i]] = 1;
+    for (var j = 0; j < a.length; j++) if (!keep[j] && a[j] < 0.999) a[j] = 0;
+  }
+
+  function erode(a, w, h, r) {
+    var out = new Float32Array(a.length), tmp = new Float32Array(a.length);
+    for (var y = 0; y < h; y++) for (var x = 0; x < w; x++) {
+      var m = 1;
+      for (var k = -r; k <= r; k++) {
+        var xx = x + k; if (xx < 0 || xx >= w) { m = 0; break; }
+        var v = a[y * w + xx]; if (v < m) m = v;
+      }
+      tmp[y * w + x] = m;
+    }
+    for (var y2 = 0; y2 < h; y2++) for (var x2 = 0; x2 < w; x2++) {
+      var m2 = 1;
+      for (var k2 = -r; k2 <= r; k2++) {
+        var yy = y2 + k2; if (yy < 0 || yy >= h) { m2 = 0; break; }
+        var v2 = tmp[yy * w + x2]; if (v2 < m2) m2 = v2;
+      }
+      out[y2 * w + x2] = m2;
+    }
+    return out;
+  }
+
+  function blur(a, w, h, r) {
+    var t = new Float32Array(a.length), o = new Float32Array(a.length);
+    var win = r * 2 + 1;
+    for (var y = 0; y < h; y++) {
+      var sum = 0;
+      for (var k = -r; k <= r; k++) sum += a[y * w + Math.min(w - 1, Math.max(0, k))];
+      for (var x = 0; x < w; x++) {
+        t[y * w + x] = sum / win;
+        var add = a[y * w + Math.min(w - 1, x + r + 1)];
+        var sub = a[y * w + Math.max(0, x - r)];
+        sum += add - sub;
+      }
+    }
+    for (var x2 = 0; x2 < w; x2++) {
+      var s2 = 0;
+      for (var k2 = -r; k2 <= r; k2++) s2 += t[Math.min(h - 1, Math.max(0, k2)) * w + x2];
+      for (var y2 = 0; y2 < h; y2++) {
+        o[y2 * w + x2] = s2 / win;
+        var ad = t[Math.min(h - 1, y2 + r + 1) * w + x2];
+        var su = t[Math.max(0, y2 - r) * w + x2];
+        s2 += ad - su;
+      }
+    }
+    return o;
+  }
+
+  /* ================= analyse ================= */
+  function analyseBackground(bg) {
+    var d = bg.data.data, w = bg.w, h = bg.h;
+    var r = 0, g = 0, b = 0, n = 0;
+    var lumL = 0, nL = 0, lumR = 0, nR = 0, lumT = 0, nT = 0, lumB = 0, nB = 0;
+    var step = Math.max(1, Math.round(Math.min(w, h) / 260));
+    for (var y = 0; y < h; y += step) {
+      for (var x = 0; x < w; x += step) {
+        var i = (y * w + x) * 4;
+        var R = d[i], G = d[i + 1], B = d[i + 2];
+        r += R; g += G; b += B; n++;
+        var L = 0.2126 * R + 0.7152 * G + 0.0722 * B;
+        if (x < w / 2) { lumL += L; nL++; } else { lumR += L; nR++; }
+        if (y < h / 2) { lumT += L; nT++; } else { lumB += L; nB++; }
+      }
+    }
+    var mean = [r / n, g / n, b / n];
+    var lum = 0.2126 * mean[0] + 0.7152 * mean[1] + 0.0722 * mean[2];
+    var dx = ((lumR / nR) - (lumL / nL)) / 128;   // >0: licht van rechts
+    var dy = ((lumB / nB) - (lumT / nT)) / 128;   // >0: licht van onder
+    return {
+      mean: mean, lum: lum,
+      dirX: Math.max(-1, Math.min(1, dx)),
+      dirY: Math.max(-1, Math.min(1, dy))
+    };
+  }
+
+  function analyseFigure() {
+    if (state.figStats) return state.figStats;
+    var f = state.fig, a = state.alpha, d = f.data.data;
+    var r = 0, g = 0, b = 0, wsum = 0;
+    var minX = f.w, maxX = 0, minY = f.h, maxY = 0;
+    for (var p = 0, q = 0; p < a.length; p++, q += 4) {
+      var al = a[p];
+      if (al > 0.02) {
+        r += d[q] * al; g += d[q + 1] * al; b += d[q + 2] * al; wsum += al;
+        if (al > 0.5) {
+          var x = p % f.w, y = (p / f.w) | 0;
+          if (x < minX) minX = x; if (x > maxX) maxX = x;
+          if (y < minY) minY = y; if (y > maxY) maxY = y;
+        }
+      }
+    }
+    if (!wsum) wsum = 1;
+    if (maxX < minX) { minX = 0; maxX = f.w - 1; minY = 0; maxY = f.h - 1; }
+    var mean = [r / wsum, g / wsum, b / wsum];
+    state.figStats = {
+      mean: mean,
+      lum: 0.2126 * mean[0] + 0.7152 * mean[1] + 0.0722 * mean[2],
+      box: { x: minX, y: minY, w: maxX - minX + 1, h: maxY - minY + 1 }
+    };
+    return state.figStats;
+  }
+
+  /* ================= figuurlaag ================= */
+  /* Alleen een lineaire correctie per kanaal + een vleugje omgevingskleur.
+     Geen vervorming, geen herschrijven van vorm of detail. */
+  function buildLayer() {
+    var integ = +$("integ").value / 100;
+    var spill = +$("spill").value / 100;
+    var key = [integ, spill, $("tol").value, $("shrink").value, $("feather").value].join("|");
+    if (state.layerCache && state.layerKey === key) return state.layerCache;
+
+    var f = state.fig, a = state.alpha, src = f.data.data;
+    var fs = analyseFigure(), bs = state.bgStats;
+
+    var gain = [1, 1, 1], add = [0, 0, 0];
+    if (bs) {
+      // belichting: hooguit een kwart van het verschil, en nooit extreem
+      var expo = 1 + Math.max(-0.35, Math.min(0.35, (bs.lum - fs.lum) / Math.max(30, fs.lum) * 0.28 * integ * 2));
+      // witbalans: schuif de kleurzweem van de achtergrond er heel licht in
+      var bl = Math.max(1, bs.lum), fl = Math.max(1, fs.lum);
+      for (var c = 0; c < 3; c++) {
+        var ratio = (bs.mean[c] / bl) / Math.max(0.001, fs.mean[c] / fl);
+        ratio = Math.pow(ratio, 0.22 * integ);           // sterk afgezwakt
+        gain[c] = expo * Math.max(0.82, Math.min(1.22, ratio));
+        add[c] = (bs.mean[c] - 128) * 0.05 * spill;      // milde omgevingskleur
+      }
+    }
+
+    var out = document.createElement("canvas");
+    out.width = f.w; out.height = f.h;
+    var octx = out.getContext("2d");
+    var img = octx.createImageData(f.w, f.h);
+    var o = img.data;
+    for (var p = 0, q = 0; p < a.length; p++, q += 4) {
+      var al = a[p];
+      if (al <= 0.002) { o[q + 3] = 0; continue; }
+      o[q]     = clamp(src[q] * gain[0] + add[0]);
+      o[q + 1] = clamp(src[q + 1] * gain[1] + add[1]);
+      o[q + 2] = clamp(src[q + 2] * gain[2] + add[2]);
+      o[q + 3] = Math.round(al * 255);
+    }
+    octx.putImageData(img, 0, 0);
+    state.layerCache = out; state.layerKey = key;
+    return out;
+  }
+  function clamp(v) { return v < 0 ? 0 : v > 255 ? 255 : v; }
+
+  /* ================= tekenen ================= */
+  function outputSize() {
+    var r = state.ratio, bw = state.bg ? state.bg.w : 1080, bh = state.bg ? state.bg.h : 1350;
+    if (r === "orig") {
+      var s = Math.min(1, 1600 / Math.max(bw, bh));
+      return { w: Math.round(bw * s), h: Math.round(bh * s) };
+    }
+    var map = { "4:5": [4, 5], "1:1": [1, 1], "3:4": [3, 4], "16:9": [16, 9] };
+    var m = map[r] || [4, 5];
+    var H = m[1] >= m[0] ? 1350 : Math.round(1350 * m[1] / m[0]);
+    var W = Math.round(H * m[0] / m[1]);
+    if (W > 1600) { W = 1600; H = Math.round(1600 * m[1] / m[0]); }
+    return { w: W, h: H };
+  }
+
+  function drawComposite(ctx, W, H, opts) {
+    opts = opts || {};
+    ctx.clearRect(0, 0, W, H);
+
+    // achtergrond, vullend
+    if (!opts.figureOnly && state.bg) {
+      var b = state.bg, s = Math.max(W / b.w, H / b.h);
+      var dw = b.w * s, dh = b.h * s;
+      var bl = +$("blur").value;
+      ctx.save();
+      if (bl > 0) ctx.filter = "blur(" + (bl / 100 * 18).toFixed(1) + "px)";
+      // iets ruimer tekenen zodat de blur geen lichte rand geeft
+      var pad = bl > 0 ? Math.ceil(bl / 100 * 18) * 2 : 0;
+      ctx.drawImage(b.canvas, (W - dw) / 2 - pad, (H - dh) / 2 - pad, dw + pad * 2, dh + pad * 2);
+      ctx.restore();
+    } else if (opts.figureOnly) {
+      ctx.fillStyle = "#c9ccd2";
+      ctx.fillRect(0, 0, W, H);
+    }
+
+    if (!state.fig || !state.alpha) return;
+
+    var layer = buildLayer();
+    var fs = analyseFigure(), box = fs.box;
+
+    // schaal: "grootte" is de hoogte van het figuur t.o.v. het doek
+    var target = (+$("scale").value / 100) * H;
+    var sc = target / box.h;
+    var dw2 = state.fig.w * sc, dh2 = state.fig.h * sc;
+    var footX = state.pos.x * W, footY = state.pos.y * H;
+    var dx = footX - (box.x + box.w / 2) * sc;
+    var dy = footY - (box.y + box.h) * sc;
+
+    // contactschaduw
+    var shStr = +$("shadow").value / 100;
+    if (shStr > 0 && state.bgStats && !opts.figureOnly) {
+      var sd = document.createElement("canvas");
+      sd.width = W; sd.height = H;
+      var sx = sd.getContext("2d");
+      var lean = -state.bgStats.dirX * 0.9;
+      sx.save();
+      sx.translate(footX, footY);
+      sx.transform(1, 0, lean, 0.22, 0, 0);          // platdrukken en meehellen
+      sx.translate(-footX, -footY);
+      sx.globalAlpha = 1;
+      sx.drawImage(layer, dx, dy, dw2, dh2);
+      sx.restore();
+      // silhouet zwart maken
+      sx.globalCompositeOperation = "source-in";
+      sx.fillStyle = "#000";
+      sx.fillRect(0, 0, W, H);
+
+      var soft = Math.max(3, Math.round(target * 0.045));
+      ctx.save();
+      ctx.filter = "blur(" + soft + "px)";
+      ctx.globalAlpha = 0.55 * shStr;
+      ctx.globalCompositeOperation = "multiply";
+      ctx.drawImage(sd, 0, 0);
+      ctx.restore();
+    }
+
+    ctx.drawImage(layer, dx, dy, dw2, dh2);
+
+    if (state.showMask && !opts.plain) {
+      // alleen het figuur inkleuren, niet het hele doek
+      var tint = document.createElement("canvas");
+      tint.width = W; tint.height = H;
+      var tx = tint.getContext("2d");
+      tx.drawImage(layer, dx, dy, dw2, dh2);
+      tx.globalCompositeOperation = "source-in";
+      tx.fillStyle = "#1B5CD9";
+      tx.fillRect(0, 0, W, H);
+      ctx.save();
+      ctx.globalAlpha = 0.5;
+      ctx.drawImage(tint, 0, 0);
+      ctx.restore();
+    }
+    state._place = { dx: dx, dy: dy, dw: dw2, dh: dh2, sc: sc };
+  }
+
+  function render() {
+    if (!state.fig || !state.bg) return;
+    var o = outputSize();
+    view.width = o.w; view.height = o.h;
+    view.style.width = "min(100%, " + Math.round(o.w * 0.62) + "px)";
+    drawComposite(vctx, o.w, o.h);
+    if ($("compare").classList.contains("on")) renderCompare();
+  }
+
+  /* ================= vergelijken ================= */
+  function renderCompare() {
+    var o = outputSize();
+    var bot = $("cmpBottom"), top = $("cmpTop");
+    bot.width = o.w; bot.height = o.h; bot.style.width = "100%";
+    top.width = o.w; top.height = o.h;
+    // onder: het eindresultaat
+    drawComposite(bot.getContext("2d"), o.w, o.h, { plain: true });
+    // boven: de originele foto, in exact dezelfde uitsnede en op dezelfde plek,
+    // zodat je bij het schuiven ziet dat het figuur niet verschoven of veranderd is
+    var tc = top.getContext("2d");
+    var pl = state._place;
+    tc.fillStyle = "#e7e8ea";
+    tc.fillRect(0, 0, o.w, o.h);
+    if (pl) tc.drawImage(state.fig.canvas, pl.dx, pl.dy, pl.dw, pl.dh);
+    else {
+      var f = state.fig, s = Math.max(o.w / f.w, o.h / f.h);
+      tc.drawImage(f.canvas, (o.w - f.w * s) / 2, (o.h - f.h * s) / 2, f.w * s, f.h * s);
+    }
+    requestAnimationFrame(function () { setSplit(+$("cmpSlider").value); });
+  }
+  function setSplit(v) {
+    var w = $("cmpBottom").getBoundingClientRect().width;
+    $("cmpTopWrap").style.width = v + "%";
+    if (w > 0) $("cmpTop").style.width = w + "px";
+  }
+  $("cmpSlider").addEventListener("input", function () { setSplit(+this.value); });
+  $("toggleCmp").addEventListener("click", function () {
+    var on = $("compare").classList.toggle("on");
+    $("holder").hidden = on;
+    $("cmpTags").hidden = !on;
+    this.textContent = on ? "Terug naar bewerken" : "Vergelijk met origineel";
+    this.classList.toggle("on", on);
+    if (on) renderCompare();
+  });
+
+  /* ================= slepen en kwasten ================= */
+  var dragging = false, painting = false, last = null;
+
+  function canvasPoint(e) {
+    var r = view.getBoundingClientRect();
+    return {
+      x: (e.clientX - r.left) / r.width,
+      y: (e.clientY - r.top) / r.height
+    };
+  }
+
+  view.addEventListener("pointerdown", function (e) {
+    view.setPointerCapture(e.pointerId);
+    var p = canvasPoint(e);
+    if (state.brush) { painting = true; last = p; paintAt(p); }
+    else { dragging = true; last = p; view.classList.add("dragging"); }
+  });
+  view.addEventListener("pointermove", function (e) {
+    if (!dragging && !painting) return;
+    var p = canvasPoint(e);
+    if (painting) { paintLine(last, p); last = p; }
+    else {
+      state.pos.x = Math.max(0, Math.min(1, state.pos.x + (p.x - last.x)));
+      state.pos.y = Math.max(0.15, Math.min(1.25, state.pos.y + (p.y - last.y)));
+      last = p; render();
+    }
+  });
+  ["pointerup", "pointercancel"].forEach(function (ev) {
+    view.addEventListener(ev, function () {
+      if (painting) { buildMask(); render(); }
+      dragging = painting = false; view.classList.remove("dragging");
+    });
+  });
+
+  function paintAt(p) {
+    var pl = state._place; if (!pl || !state.fig) return;
+    var fx = (p.x * view.width - pl.dx) / pl.sc;
+    var fy = (p.y * view.height - pl.dy) / pl.sc;
+    var r = (+$("brushSize").value / 2) / pl.sc;
+    var w = state.fig.w, h = state.fig.h, val = state.brush;
+    var x0 = Math.max(0, Math.floor(fx - r)), x1 = Math.min(w - 1, Math.ceil(fx + r));
+    var y0 = Math.max(0, Math.floor(fy - r)), y1 = Math.min(h - 1, Math.ceil(fy + r));
+    for (var y = y0; y <= y1; y++) for (var x = x0; x <= x1; x++) {
+      var ddx = x - fx, ddy = y - fy;
+      if (ddx * ddx + ddy * ddy <= r * r) state.paint[y * w + x] = val;
+    }
+  }
+  function paintLine(a, b) {
+    var steps = Math.max(1, Math.round(Math.hypot(b.x - a.x, b.y - a.y) * view.width / 6));
+    for (var i = 0; i <= steps; i++) {
+      paintAt({ x: a.x + (b.x - a.x) * i / steps, y: a.y + (b.y - a.y) * i / steps });
+    }
+    var keep = state.alpha;
+    if (keep) {
+      for (var k = 0; k < keep.length; k++) {
+        if (state.paint[k] === 1) keep[k] = 1; else if (state.paint[k] === 2) keep[k] = 0;
+      }
+      state.layerKey = "";
+      render();
+    }
+  }
+
+  /* ================= knoppen ================= */
+  function bindRange(id, label, fmt, cb) {
+    var el = $(id);
+    el.addEventListener("input", function () {
+      $(label).textContent = fmt ? fmt(el.value) : el.value;
+      if (cb) cb();
+      render();
+    });
+  }
+  var pct = function (v) { return v + "%"; };
+  bindRange("integ", "vInteg", pct, function () { state.layerKey = ""; });
+  bindRange("spill", "vSpill", pct, function () { state.layerKey = ""; });
+  bindRange("shadow", "vShadow", pct);
+  bindRange("blur", "vBlur", null);
+  bindRange("scale", "vScale", pct);
+  bindRange("brushSize", "vBrush", null);
+  ["tol", "shrink", "feather"].forEach(function (id) {
+    var lbl = { tol: "vTol", shrink: "vShrink", feather: "vFeather" }[id];
+    $(id).addEventListener("input", function () {
+      $(lbl).textContent = this.value;
+      state.figStats = null;
+      buildMask(); render();
+    });
+  });
+
+  function segBind(wrapId, apply) {
+    var wrap = $(wrapId);
+    wrap.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      Array.prototype.forEach.call(wrap.querySelectorAll("button"), function (o) {
+        o.setAttribute("aria-pressed", o === b ? "true" : "false");
+      });
+      apply(b);
+    });
+  }
+  segBind("ratio", function (b) { state.ratio = b.getAttribute("data-r"); render(); });
+  segBind("fmt", function (b) { state.fmt = b.getAttribute("data-f"); });
+
+  function setBrush(mode, btn) {
+    state.brush = mode;
+    [["brushOff", 0], ["brushAdd", 1], ["brushDel", 2]].forEach(function (p) {
+      $(p[0]).setAttribute("aria-pressed", p[1] === mode ? "true" : "false");
+      $(p[0]).classList.toggle("on", p[1] === mode && mode !== 0);
+    });
+    view.classList.toggle("brushing", mode !== 0);
+    $("hint").textContent = mode === 0
+      ? "Sleep het figuur om het te verplaatsen."
+      : (mode === 1 ? "Sleep over wat er weggevallen is." : "Sleep over wat weg moet.");
+  }
+  $("brushOff").addEventListener("click", function () { setBrush(0); });
+  $("brushAdd").addEventListener("click", function () { setBrush(1); });
+  $("brushDel").addEventListener("click", function () { setBrush(2); });
+  $("clearBrush").addEventListener("click", function () {
+    if (state.paint) state.paint.fill(0);
+    state.figStats = null; buildMask(); render();
+  });
+  $("showMask").addEventListener("click", function () {
+    state.showMask = !state.showMask;
+    this.classList.toggle("on", state.showMask);
+    this.textContent = state.showMask ? "Verberg masker" : "Toon masker";
+    render();
+  });
+
+  $("reset").addEventListener("click", function () {
+    var defs = { integ: 25, spill: 15, shadow: 40, blur: 0, scale: 70, tol: 30, shrink: 1, feather: 1 };
+    Object.keys(defs).forEach(function (k) { $(k).value = defs[k]; });
+    $("vInteg").textContent = "25%"; $("vSpill").textContent = "15%";
+    $("vShadow").textContent = "40%"; $("vBlur").textContent = "0";
+    $("vScale").textContent = "70%"; $("vTol").textContent = "30";
+    $("vShrink").textContent = "1"; $("vFeather").textContent = "1";
+    state.pos = { x: 0.5, y: 0.98 };
+    if (state.paint) state.paint.fill(0);
+    state.figStats = null; state.layerKey = "";
+    setBrush(0); buildMask(); render();
+  });
+
+  $("download").addEventListener("click", function () {
+    var o = outputSize();
+    var c = document.createElement("canvas");
+    c.width = o.w; c.height = o.h;
+    var wasMask = state.showMask; state.showMask = false;
+    drawComposite(c.getContext("2d"), o.w, o.h, { plain: true });
+    state.showMask = wasMask;
+    var type = state.fmt === "png" ? "image/png" : "image/jpeg";
+    c.toBlob(function (blob) {
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.href = url;
+      a.download = "cardback-" + Date.now() + (state.fmt === "png" ? ".png" : ".jpg");
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+    }, type, 0.92);
+  });
+
+  window.addEventListener("resize", function () {
+    if ($("compare").classList.contains("on")) setSplit(+$("cmpSlider").value);
+  });
+})();
+</script>
+</body>
+</html>

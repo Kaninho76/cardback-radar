@@ -876,10 +876,10 @@ h2.sec{
 
     /* de schrijftafel — die draait bij Claude, want daar zit het schrijven */
     var sW = el("section");
-    sW.appendChild(el("div", "eyebrow", "Bijschrift maken"));
-    sW.appendChild(el("h2", "sec", "Schrijftafel"));
+    sW.appendChild(el("div", "eyebrow", "Gereedschap"));
+    sW.appendChild(el("h2", "sec", "Maken"));
     sW.appendChild(el("p", "lede",
-      "Typ je aantekeningen, voeg eventueel de foto toe, en krijg er een bijschrift uit met vier hashtags en de woorden voor in beeld."));
+      "De schrijftafel maakt van je aantekeningen een bijschrift. De studio zet je figuur in een andere achtergrond, zonder dat het figuur verandert."));
     var deskLink = document.createElement("a");
     deskLink.className = "desk";
     deskLink.href = "https://claude.ai/code/artifact/d9966e59-e0ae-4e9d-bf67-771b4d6f674f";
@@ -893,6 +893,21 @@ h2.sec{
     deskLink.appendChild(dbody);
     deskLink.appendChild(el("div", "arrow", "\u2197"));
     sW.appendChild(deskLink);
+
+    var studioLink = document.createElement("a");
+    studioLink.className = "desk";
+    studioLink.style.borderLeftColor = "var(--blue)";
+    studioLink.style.marginTop = "10px";
+    studioLink.href = "studio/";
+    var cam = el("div", "pen"); cam.textContent = "\uD83D\uDCF7";
+    studioLink.appendChild(cam);
+    var sbody = el("div", "body");
+    sbody.appendChild(el("b", null, "Open de studio"));
+    sbody.appendChild(el("span", null, "Zet je lichtbakfoto in een andere achtergrond."));
+    studioLink.appendChild(sbody);
+    studioLink.appendChild(el("div", "arrow", "\u2192"));
+    sW.appendChild(studioLink);
+
     stack.appendChild(sW);
 
     /* tags en, belangrijker, de woorden in je bijschrift */
