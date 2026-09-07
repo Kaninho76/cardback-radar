@@ -1,16 +1,29 @@
 {
- "updatedISO": "2026-09-07T20:37:08+00:00",
+ "updatedISO": "2026-09-07T23:32:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "WizKids Games Marvel HeroClix Thunderbolts Booster Brick Review",
+   "url": "https://www.actionfigureinsider.com/marvel-heroclix-thunderbolts-review/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-07T22:33:17+00:00"
+  },
+  {
+   "title": "Court of the Dead 1:12 Mortighull Coming Soon from Boss Fight Studio",
+   "url": "https://bleedingcool.com/collectibles/court-of-the-dead-112-mortighull-coming-soon-from-boss-fight-studio/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-07T20:52:08+00:00"
+  },
   {
    "title": "Retro Cardback Flash GI Joe Classified Series In Hand Images",
    "url": "https://toyhabits.com/retro-cardback-flash-gi-joe-classified-series-in-hand-images/",
@@ -268,18 +281,6 @@
    "url": "https://toyhabits.com/marvel-legends-gamerverse-wolverine-vs-psylocke-preorder/",
    "source": "Toy Habits",
    "iso": "2026-09-03T19:25:56+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Professor Hulk Deluxe Figure Review",
-   "url": "https://toyhypeusa.com/2026/09/03/hasbro-marvel-legends-series-professor-hulk-deluxe-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-professor-hulk-deluxe-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-03T19:23:46+00:00"
-  },
-  {
-   "title": "I Am Elemental – First Company To Offer Action Figures For Girls Are Offering Tote Bags For 2026",
-   "url": "https://toyhypeusa.com/2026/09/03/i-am-elemental-first-company-to-offer-action-figures-for-girls-are-offering-tote-bags-for-2026/?utm_source=rss&utm_medium=rss&utm_campaign=i-am-elemental-first-company-to-offer-action-figures-for-girls-are-offering-tote-bags-for-2026",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-03T19:13:27+00:00"
   }
  ],
  "trends": {
