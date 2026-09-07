@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-09-07T04:48:46+00:00",
+ "updatedISO": "2026-09-07T10:25:45+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "Robosen Transformers Soundwave Flagship Auto-Converting Robot Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/09/07/robosen-transformers-soundwave-flagship-auto-converting-robot-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-soundwave-flagship-auto-converting-robot-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-07T09:00:34+00:00"
+  },
   {
    "title": "Destro and Quick Kick Ninja Force GI Joe ReAction+ Figures Coming",
    "url": "https://toyhabits.com/destro-and-quick-kick-ninja-force-gi-joe-reaction-figures-coming/",
@@ -274,12 +281,6 @@
    "url": "https://www.toyark.com/2026/09/03/batman-v-superman-inart-1-12-scale-superman-figure-598532",
    "source": "The Toyark",
    "iso": "2026-09-03T12:42:39+00:00"
-  },
-  {
-   "title": "Chogokin Mechagodzilla and S.H. MonsterArts Godzilla 1993 Poster Version",
-   "url": "https://www.toyark.com/2026/09/03/chogokin-mechagodzilla-and-s-h-monsterarts-godzilla-1993-poster-version-598510",
-   "source": "The Toyark",
-   "iso": "2026-09-03T12:29:57+00:00"
   }
  ],
  "trends": {
