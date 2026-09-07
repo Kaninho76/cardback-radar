@@ -1,17 +1,29 @@
 {
- "updatedISO": "2026-09-07T10:25:45+00:00",
+ "updatedISO": "2026-09-07T16:31:43+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Toy Habits: URLError"
+  "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "MAGIC: THE GATHERING PUTS THE PLAYTEST IN PLAYERS HANDS WITH SECRET LAIR x MSCHF: THE ZETA SET",
+   "url": "https://www.actionfigureinsider.com/magic-the-gathering-puts-the-playtest-in-players-hands-with-secret-lair-x-mschf-the-zeta-set/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-07T13:08:41+00:00"
+  },
+  {
+   "title": "New September 23rd MOTU Drop Appears on AU Mattel Creation Launch Calendar",
+   "url": "https://toyhabits.com/new-september-23rd-motu-drop-appears-on-au-mattel-creation-launch-calendar/",
+   "source": "Toy Habits",
+   "iso": "2026-09-07T11:45:32+00:00"
+  },
   {
    "title": "Robosen Transformers Soundwave Flagship Auto-Converting Robot Figure Available Now",
    "url": "https://toyhypeusa.com/2026/09/07/robosen-transformers-soundwave-flagship-auto-converting-robot-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-soundwave-flagship-auto-converting-robot-figure-available-now",
@@ -269,94 +281,82 @@
    "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-tamashii-nations-one-piece-sale-motu-transformers-more/",
    "source": "Action Figure Insider",
    "iso": "2026-09-03T12:54:29+00:00"
-  },
-  {
-   "title": "BBTS News – Tamashii Nations, One Piece Sale, MOTU, Transformers and More",
-   "url": "https://www.toyark.com/2026/09/03/bbts-news-tamashii-nations-one-piece-sale-motu-transformers-and-more-598558",
-   "source": "The Toyark",
-   "iso": "2026-09-03T12:48:02+00:00"
-  },
-  {
-   "title": "Batman v Superman – InArt 1/12 Scale Superman Figure",
-   "url": "https://www.toyark.com/2026/09/03/batman-v-superman-inart-1-12-scale-superman-figure-598532",
-   "source": "The Toyark",
-   "iso": "2026-09-03T12:42:39+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-06T23:59:48+00:00",
+  "updatedISO": "2026-09-07T16:31:43+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": 31
+    "change": 32
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 3150,
-    "change": 19
+    "perDay": 2985,
+    "change": 10
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1702,
-    "change": 3
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 875,
-    "change": 2
+    "perDay": 1715,
+    "change": 4
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 642,
+    "perDay": 634,
     "change": 2
    },
    {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2213,
-    "change": -6
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 864,
+    "change": 0
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 79,
-    "change": -7
+    "perDay": 81,
+    "change": -4
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 147,
+    "perDay": 151,
+    "change": -4
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2187,
     "change": -8
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 82,
-    "change": -24
+    "perDay": 88,
+    "change": -17
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 22256,
+    "perDay": 21561,
     "change": -53
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 1076,
+    "perDay": 1038,
     "change": -54
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1632,
+    "perDay": 1554,
     "change": -58
    }
   ],
