@@ -1,16 +1,41 @@
 {
- "updatedISO": "2026-09-08T18:46:04+00:00",
+ "updatedISO": "2026-09-08T21:54:07+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError",
+  "Toy Habits: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "BigBadToyStore News: Masters of the Universe: Origins, Chronicles & Masterverse Exclusive Figures",
+   "url": "https://toyhypeusa.com/2026/09/08/bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-08T21:51:12+00:00"
+  },
+  {
+   "title": "Jakks Pacific The Simpsons Treehouse of Horror 31-Day Advent Calendar Available Now",
+   "url": "https://toyhypeusa.com/2026/09/08/jakks-pacific-the-simpsons-treehouse-of-horror-31-day-advent-calendar-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=jakks-pacific-the-simpsons-treehouse-of-horror-31-day-advent-calendar-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-08T19:57:58+00:00"
+  },
+  {
+   "title": "JOSHUA IZZO NAMED PRESIDENT OF MCFARLANE TOYS, BRINGING NEW LEADERSHIP TO THE ICONIC COLLECTIBLES BRAND",
+   "url": "https://www.actionfigureinsider.com/joshua-izzo-named-president-of-mcfarlane-toys-bringing-new-leadership-to-the-iconic-collectibles-brand/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-08T19:57:37+00:00"
+  },
+  {
+   "title": "Hasbro Transformers: Age of the Primes Onslaught Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/09/08/hasbro-transformers-age-of-the-primes-onslaught-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-onslaught-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-08T19:39:55+00:00"
+  },
   {
    "title": "Hasbro Star Wars: The Black Series 6″ Zeb (The Mandalorian and Grogu) Figure Review",
    "url": "https://toyhypeusa.com/2026/09/08/hasbro-star-wars-tbs-zeb-the-mandalorian-and-grogu-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-zeb-the-mandalorian-and-grogu-figure-review",
@@ -256,30 +281,6 @@
    "url": "https://toyhypeusa.com/2026/09/04/super7-invincible-deluxe-wave-1-invincible-allen-the-alien-thragg-angstrom-levy-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=super7-invincible-deluxe-wave-1-invincible-allen-the-alien-thragg-angstrom-levy-figures-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-04T16:59:14+00:00"
-  },
-  {
-   "title": "Darkness Rises with Threezero's Marvel's Spider-Man 2 DLX Venom Figure",
-   "url": "https://bleedingcool.com/collectibles/darkness-rises-with-threezeros-marvels-spider-man-2-dlx-venom-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-04T16:23:09+00:00"
-  },
-  {
-   "title": "McFarlane Toys DC Retro Super Friends Wave 6 Figures Pre-Orders (Update)",
-   "url": "https://toyhypeusa.com/2026/09/04/mcfarlane-toys-dc-retro-super-friends-wave-6-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-retro-super-friends-wave-6-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-04T16:00:32+00:00"
-  },
-  {
-   "title": "Hot Toys Summons A God with New Avengers: Doomsday 1/6 Scale Thor",
-   "url": "https://bleedingcool.com/collectibles/hot-toys-summons-a-god-with-new-avengers-doomsday-1-6-scale-thor/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-04T15:52:09+00:00"
-  },
-  {
-   "title": "Entertainment Earth Offers Vault of Terror 20% Off Sale on Select Halloween Themed Items Until September 14th, 2026",
-   "url": "https://toyhypeusa.com/2026/09/04/entertainment-earth-offers-vault-of-terror-20-off-sale-select-halloween-themed-items-until-september-14th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=entertainment-earth-offers-vault-of-terror-20-off-sale-select-halloween-themed-items-until-september-14th-2026",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-04T15:38:25+00:00"
   }
  ],
  "trends": {
