@@ -1,22 +1,33 @@
 {
- "updatedISO": "2026-09-07T23:32:35+00:00",
+ "updatedISO": "2026-09-08T04:45:38+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Evil-Bae Flip-Or and the Champions of Nefarity Wave 2 Stretch Goal Reveal",
+   "url": "https://toyhabits.com/evil-bae-flip-or-and-the-champions-of-nefarity-wave-2-stretch-goal-reveal/",
+   "source": "Toy Habits",
+   "iso": "2026-09-08T04:32:05+00:00"
+  },
   {
    "title": "WizKids Games Marvel HeroClix Thunderbolts Booster Brick Review",
    "url": "https://www.actionfigureinsider.com/marvel-heroclix-thunderbolts-review/",
    "source": "Action Figure Insider",
    "iso": "2026-09-07T22:33:17+00:00"
+  },
+  {
+   "title": "Sgt Slaughter & The Triple T GI Joe Classified Series In Hand Images",
+   "url": "https://toyhabits.com/sgt-slaughter-the-triple-t-gi-joe-classified-series-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-07T21:49:48+00:00"
   },
   {
    "title": "Court of the Dead 1:12 Mortighull Coming Soon from Boss Fight Studio",
@@ -91,6 +102,12 @@
    "iso": "2026-09-07T11:45:32+00:00"
   },
   {
+   "title": "Target Fall Geek-Out 2026 Is Back With New Collectibles Dropping Every Friday",
+   "url": "https://toyhabits.com/target-fall-geek-out-2026-is-back-with-new-collectibles-dropping-every-friday/",
+   "source": "Toy Habits",
+   "iso": "2026-09-07T10:51:00+00:00"
+  },
+  {
    "title": "Robosen Transformers Soundwave Flagship Auto-Converting Robot Figure Available Now",
    "url": "https://toyhypeusa.com/2026/09/07/robosen-transformers-soundwave-flagship-auto-converting-robot-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-soundwave-flagship-auto-converting-robot-figure-available-now",
    "source": "Toy Hype USA",
@@ -137,12 +154,6 @@
    "url": "https://www.actionfigureinsider.com/cleveland-gaming-classic-ohios-3-day-event-for-gamers-collectors-and-fans-all-across-the-land-opens-friday-september-11-2026-produced-by-party411-events/",
    "source": "Action Figure Insider",
    "iso": "2026-09-05T13:00:43+00:00"
-  },
-  {
-   "title": "Target Fall Geek-Out 2026 Is Back With New Collectibles Dropping Every Friday",
-   "url": "https://toyhabits.com/target-fall-geek-out-2026-is-back-with-new-collectibles-dropping-every-friday/",
-   "source": "Toy Habits",
-   "iso": "2026-09-05T12:51:58+00:00"
   },
   {
    "title": "Destro Krang TMNT x GI Joe Crossover Review",
@@ -269,94 +280,82 @@
    "url": "https://toyhypeusa.com/2026/09/04/takara-tomy-transformers-missing-link-c-12-grimlock-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=takara-tomy-transformers-missing-link-c-12-grimlock-figure-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-04T04:01:11+00:00"
-  },
-  {
-   "title": "Teela MOTU Origins Movie In-Hand Images",
-   "url": "https://toyhabits.com/teela-motu-origins-movie-in-hand-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-03T22:39:49+00:00"
-  },
-  {
-   "title": "Marvel Legends Gamerverse Wolverine vs Psylocke Preorder",
-   "url": "https://toyhabits.com/marvel-legends-gamerverse-wolverine-vs-psylocke-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-03T19:25:56+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-07T16:31:43+00:00",
+  "updatedISO": "2026-09-08T04:45:38+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": 32
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2985,
-    "change": 10
+    "perDay": 4,
+    "change": 70
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1715,
-    "change": 4
+    "perDay": 1733,
+    "change": 5
    },
    {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 634,
-    "change": 2
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2867,
+    "change": 4
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 864,
-    "change": 0
+    "perDay": 868,
+    "change": 1
    },
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 81,
-    "change": -4
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 622,
+    "change": 0
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 151,
+    "perDay": 150,
     "change": -4
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
     "perDay": 2187,
-    "change": -8
+    "change": -7
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 79,
+    "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 88,
-    "change": -17
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 21561,
-    "change": -53
+    "perDay": 85,
+    "change": -21
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 1038,
+    "perDay": 997,
+    "change": -53
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 20695,
     "change": -54
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1554,
+    "perDay": 1476,
     "change": -58
    }
   ],
