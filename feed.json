@@ -1,17 +1,29 @@
 {
- "updatedISO": "2026-09-08T21:54:07+00:00",
+ "updatedISO": "2026-09-09T00:18:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError",
-  "Toy Habits: HTTP 403"
+  "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "Target Exclusive GI Joe Classified Series Ninja Force Snake Eyes and Jinx 2-pack Preorder Info & Official Images",
+   "url": "https://toyhabits.com/target-exclusive-gi-joe-classified-series-ninja-force-snake-eyes-and-jinx-2-pack-preorder-info-official-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-08T23:11:46+00:00"
+  },
+  {
+   "title": "Mystery Science Theater 3000 Returns to Cinemas for Two Nights Only with MST3K: The RiffTrax Experiments on September 9 & 13",
+   "url": "https://www.actionfigureinsider.com/mystery-science-theater-3000-returns-to-cinemas-for-two-nights-only-with-mst3k-the-rifftrax-experiments-on-september-9-13/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-08T22:00:07+00:00"
+  },
   {
    "title": "BigBadToyStore News: Masters of the Universe: Origins, Chronicles & Masterverse Exclusive Figures",
    "url": "https://toyhypeusa.com/2026/09/08/bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures",
@@ -269,18 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/s-h-monsterarts-godzilla-vs-mechagodzilla-ii-poster-figure-revealed/",
    "source": "Bleeding Cool",
    "iso": "2026-09-04T17:22:08+00:00"
-  },
-  {
-   "title": "Entertainment Earth News: G.I. Joe Classified, Transformers, Marvel, DC, Berserk, Star Wars, Court of the Dead, Fallout & KPop Demon Hunters",
-   "url": "https://toyhypeusa.com/2026/09/04/ee-gijoe-classified-transformers-marvel-dc-berserk-star-wars-court-of-the-dead-fallout-kpop-demon-hunters/?utm_source=rss&utm_medium=rss&utm_campaign=ee-gijoe-classified-transformers-marvel-dc-berserk-star-wars-court-of-the-dead-fallout-kpop-demon-hunters",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-04T17:00:16+00:00"
-  },
-  {
-   "title": "Super7 Invincible Deluxe Wave 1 – Invincible, Allen The Alien, Thragg & Angstrom Levy Figures Available Now & Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/04/super7-invincible-deluxe-wave-1-invincible-allen-the-alien-thragg-angstrom-levy-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=super7-invincible-deluxe-wave-1-invincible-allen-the-alien-thragg-angstrom-levy-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-04T16:59:14+00:00"
   }
  ],
  "trends": {
