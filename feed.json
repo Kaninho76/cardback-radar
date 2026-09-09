@@ -1,17 +1,34 @@
 {
- "updatedISO": "2026-09-09T09:51:28+00:00",
+ "updatedISO": "2026-09-09T14:38:51+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Hasbro G.I. Joe Classified Series 6″ Nemesis Immortal Figure (ReIssue) Pre-Orders (Update)",
+   "url": "https://toyhypeusa.com/2026/09/09/hasbro-gijoe-classified-series-nemesis-immortal-figure-reissue-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-nemesis-immortal-figure-reissue-pre-orders-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-09T13:36:30+00:00"
+  },
+  {
+   "title": "Delta Magnus C-11 Transformers Missing Link Review",
+   "url": "https://toyhabits.com/delta-magnus-c-11-transformers-missing-link-review/",
+   "source": "Toy Habits",
+   "iso": "2026-09-09T12:01:01+00:00"
+  },
+  {
+   "title": "Hasbro Reveals “The Legend of Zelda” Electronic Master Sword",
+   "url": "https://www.actionfigureinsider.com/hasbro-reveals-the-legend-of-zelda-electronic-master-sword/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-09T12:00:47+00:00"
+  },
   {
    "title": "Destro and Quick Kick Ninja Force GI Joe ReAction+ Figures In Hand Images",
    "url": "https://toyhabits.com/destro-and-quick-kick-ninja-force-gi-joe-reaction-figures-in-hand-images/",
@@ -53,6 +70,12 @@
    "url": "https://toyhypeusa.com/2026/09/08/bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures",
    "source": "Toy Hype USA",
    "iso": "2026-09-08T21:51:12+00:00"
+  },
+  {
+   "title": "RSVLTS Reaches The Final Frontier with First-Ever Star Trek Collection",
+   "url": "https://bleedingcool.com/collectibles/rsvlts-reaches-the-final-frontier-with-first-ever-star-trek-collection/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-08T20:00:08+00:00"
   },
   {
    "title": "Jakks Pacific The Simpsons Treehouse of Horror 31-Day Advent Calendar Available Now",
@@ -257,30 +280,6 @@
    "url": "https://www.actionfigureinsider.com/cleveland-gaming-classic-ohios-3-day-event-for-gamers-collectors-and-fans-all-across-the-land-opens-friday-september-11-2026-produced-by-party411-events/",
    "source": "Action Figure Insider",
    "iso": "2026-09-05T13:00:43+00:00"
-  },
-  {
-   "title": "Destro Krang TMNT x GI Joe Crossover Review",
-   "url": "https://toyhabits.com/destro-krang-tmnt-x-gi-joe-crossover-review/",
-   "source": "Toy Habits",
-   "iso": "2026-09-05T12:14:30+00:00"
-  },
-  {
-   "title": "DC Retro Wave 17 Super Friends + Warpland Superman McFarlane Preorder",
-   "url": "https://toyhabits.com/dc-retro-wave-17-super-friends-warpland-superman-mcfarlane-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-04T20:14:23+00:00"
-  },
-  {
-   "title": "Disco Skeletor Mondo MOTU 200X Official Images and Preoreder",
-   "url": "https://toyhabits.com/disco-skeletor-mondo-motu-200x-official-images-and-preoreder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-04T19:29:30+00:00"
-  },
-  {
-   "title": "The Blue Bomber is Back with Hiya Toys' New Mega Man 11 Figure",
-   "url": "https://bleedingcool.com/collectibles/the-blue-bomber-is-back-with-hiya-toys-new-mega-man-11-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-04T19:22:08+00:00"
   }
  ],
  "trends": {
