@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-09T04:52:49+00:00",
+ "updatedISO": "2026-09-09T09:51:28+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
@@ -284,26 +284,20 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-08T18:46:04+00:00",
+  "updatedISO": "2026-09-09T09:51:28+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 4,
-    "change": 70
+    "change": 57
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1733,
-    "change": 5
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2867,
-    "change": 4
+    "perDay": 1760,
+    "change": 6
    },
    {
     "label": "Kaiju",
@@ -312,52 +306,58 @@
     "change": 1
    },
    {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2788,
+    "change": 0
+   },
+   {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 622,
+    "perDay": 617,
     "change": 0
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 150,
-    "change": -4
+    "perDay": 152,
+    "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2187,
-    "change": -7
+    "perDay": 2200,
+    "change": -6
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 79,
-    "change": -7
+    "perDay": 77,
+    "change": -10
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 85,
-    "change": -21
+    "perDay": 88,
+    "change": -16
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 997,
-    "change": -53
+    "perDay": 986,
+    "change": -50
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 20695,
+    "perDay": 20008,
     "change": -54
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1476,
-    "change": -58
+    "perDay": 1463,
+    "change": -55
    }
   ],
   "missed": []
