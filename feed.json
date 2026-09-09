@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-09T18:40:13+00:00",
+ "updatedISO": "2026-09-09T21:43:53+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "GalaxyCon Set to Take Over Downtown Des Moines with Massive Celebration of Pop Culture",
+   "url": "https://www.actionfigureinsider.com/galaxycon-set-to-take-over-downtown-des-moines-with-massive-celebration-of-pop-culture/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-09T20:23:23+00:00"
+  },
   {
    "title": "Build Video Game Nostalgia with LEGO's PlayStation Near 1:1 Replica",
    "url": "https://bleedingcool.com/collectibles/build-video-game-nostalgia-with-legos-playstation-near-11-replica/",
@@ -274,12 +280,6 @@
    "url": "https://toyhabits.com/new-september-23rd-motu-drop-appears-on-au-mattel-creation-launch-calendar/",
    "source": "Toy Habits",
    "iso": "2026-09-07T11:45:32+00:00"
-  },
-  {
-   "title": "Target Fall Geek-Out 2026 Is Back With New Collectibles Dropping Every Friday",
-   "url": "https://toyhabits.com/target-fall-geek-out-2026-is-back-with-new-collectibles-dropping-every-friday/",
-   "source": "Toy Habits",
-   "iso": "2026-09-07T10:51:00+00:00"
   }
  ],
  "trends": {
