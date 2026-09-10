@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-09T21:43:53+00:00",
+ "updatedISO": "2026-09-10T00:18:52+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "BigBadToyStore News: Marvel, New Sales, Transformers, MOTU, Tamashii Nations & More",
+   "url": "https://toyhypeusa.com/2026/09/09/bbts-marvel-new-sales-transformers-motu-tamashii-nations/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-marvel-new-sales-transformers-motu-tamashii-nations",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-09T23:18:04+00:00"
+  },
+  {
+   "title": "Hasbro Transformers Studio Series ’86 Voyager Class Skywarp Figure Review",
+   "url": "https://toyhypeusa.com/2026/09/09/hasbro-transformers-studio-series-86-voyager-class-skywarp-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-studio-series-86-voyager-class-skywarp-figure-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-09T22:29:40+00:00"
+  },
   {
    "title": "GalaxyCon Set to Take Over Downtown Des Moines with Massive Celebration of Pop Culture",
    "url": "https://www.actionfigureinsider.com/galaxycon-set-to-take-over-downtown-des-moines-with-massive-celebration-of-pop-culture/",
@@ -268,95 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/boss-fight-studio-debuts-new-1-12-court-of-the-dead-gethsemoni/",
    "source": "Bleeding Cool",
    "iso": "2026-09-07T14:22:08+00:00"
-  },
-  {
-   "title": "MAGIC: THE GATHERING PUTS THE PLAYTEST IN PLAYERS HANDS WITH SECRET LAIR x MSCHF: THE ZETA SET",
-   "url": "https://www.actionfigureinsider.com/magic-the-gathering-puts-the-playtest-in-players-hands-with-secret-lair-x-mschf-the-zeta-set/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-07T13:08:41+00:00"
-  },
-  {
-   "title": "New September 23rd MOTU Drop Appears on AU Mattel Creation Launch Calendar",
-   "url": "https://toyhabits.com/new-september-23rd-motu-drop-appears-on-au-mattel-creation-launch-calendar/",
-   "source": "Toy Habits",
-   "iso": "2026-09-07T11:45:32+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-09T09:51:28+00:00",
+  "updatedISO": "2026-09-10T00:18:52+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 4,
-    "change": 57
+    "perDay": 3,
+    "change": 48
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1760,
-    "change": 6
+    "perDay": 1916,
+    "change": 15
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 868,
+    "perDay": 937,
+    "change": 9
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 158,
+    "change": 3
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 86,
     "change": 1
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2788,
-    "change": 0
+    "perDay": 2744,
+    "change": -2
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 617,
-    "change": 0
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 152,
+    "perDay": 605,
     "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2200,
-    "change": -6
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 77,
-    "change": -10
+    "perDay": 2214,
+    "change": -5
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 88,
-    "change": -16
+    "perDay": 82,
+    "change": -22
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 986,
-    "change": -50
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 20008,
-    "change": -54
+    "perDay": 982,
+    "change": -47
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1463,
-    "change": -55
+    "perDay": 1458,
+    "change": -52
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 19467,
+    "change": -54
    }
   ],
   "missed": []
