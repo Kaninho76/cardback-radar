@@ -1,17 +1,64 @@
 {
- "updatedISO": "2026-09-11T09:47:05+00:00",
+ "updatedISO": "2026-09-11T14:28:41+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "SPONSOR NEWS: BBTS News — Marvel, New Sales, Transformers, MOTU, Tamashii Nations & More!",
+   "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-marvel-new-sales-transformers-motu-tamashii-nations-more/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-11T13:41:11+00:00"
+  },
+  {
+   "title": "Monogram Announce #NYCC EXCLUSIVE #1 – K-POP DEMON HUNTERS’ HUNTR/X – 3D Foam Bag Clip 3 PC Set",
+   "url": "https://www.actionfigureinsider.com/monogram-announce-nycc-exclusive-1-k-pop-demon-hunters-huntr-x-3d-foam-bag-clip-3-pc-set/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-11T13:40:53+00:00"
+  },
+  {
+   "title": "Celebrate LEGO® Batman™ Day on LEGO.com!",
+   "url": "https://www.actionfigureinsider.com/celebrate-lego-batman-day-on-lego-com/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-11T13:00:38+00:00"
+  },
+  {
+   "title": "Pokemon Select Trainer Team and Five Nights At Freddy’s Target Fall Geek Out Drop 1 Preorder",
+   "url": "https://toyhabits.com/pokemon-select-trainer-team-and-five-nights-at-freddies-target-fall-geek-out-drop-1-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-11T12:58:16+00:00"
+  },
+  {
+   "title": "Aliens Xenomorph Queen NECA Deluxe Figure Review",
+   "url": "https://toyhabits.com/aliens-xenomorph-queen-neca-deluxe-figure-review/",
+   "source": "Toy Habits",
+   "iso": "2026-09-11T12:22:07+00:00"
+  },
+  {
+   "title": "Godzilla vs. Megaguirus – Hiya Toys Megaguirus Figure",
+   "url": "https://www.toyark.com/2026/09/11/godzilla-vs-megaguirus-hiya-toys-megaguirus-figure-598983",
+   "source": "The Toyark",
+   "iso": "2026-09-11T12:19:57+00:00"
+  },
+  {
+   "title": "Marvel’s Wolverine – Hot Toys Wolverine Video Game Figure",
+   "url": "https://www.toyark.com/2026/09/11/marvels-wolverine-hot-toys-wolverine-video-game-figure-598951",
+   "source": "The Toyark",
+   "iso": "2026-09-11T12:08:43+00:00"
+  },
+  {
+   "title": "Spider-Man: No Way Home – Hot Toys Spider-Man Final Swing Suit Deluxe Version",
+   "url": "https://www.toyark.com/2026/09/11/spider-man-no-way-home-hot-toys-spider-man-final-swing-suit-deluxe-version-598927",
+   "source": "The Toyark",
+   "iso": "2026-09-11T11:55:16+00:00"
+  },
   {
    "title": "Marvel Holiday Special Marvel Legends Spider-Man Official Images & Preorder Information",
    "url": "https://toyhabits.com/marvel-holiday-special-marvel-legends-spider-man-official-images-preorder-information/",
@@ -233,54 +280,6 @@
    "url": "https://toyhabits.com/delta-magnus-c-11-transformers-missing-link-review/",
    "source": "Toy Habits",
    "iso": "2026-09-09T12:01:01+00:00"
-  },
-  {
-   "title": "Hasbro Reveals “The Legend of Zelda” Electronic Master Sword",
-   "url": "https://www.actionfigureinsider.com/hasbro-reveals-the-legend-of-zelda-electronic-master-sword/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-09T12:00:47+00:00"
-  },
-  {
-   "title": "Destro and Quick Kick Ninja Force GI Joe ReAction+ Figures In Hand Images",
-   "url": "https://toyhabits.com/destro-and-quick-kick-ninja-force-gi-joe-reaction-figures-in-hand-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-09T03:27:56+00:00"
-  },
-  {
-   "title": "McFarlane Toys DC Retro Super Friends Wave 6 Figures Pre-Orders (Update 2)",
-   "url": "https://toyhypeusa.com/2026/09/08/mcfarlane-toys-dc-retro-super-friends-wave-6-figures-pre-orders-update-2/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-retro-super-friends-wave-6-figures-pre-orders-update-2",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-09T03:07:32+00:00"
-  },
-  {
-   "title": "Destro and Quick Kick Ninja Force Super7 GI Joe ReAction+ Card Back Images",
-   "url": "https://toyhabits.com/destro-and-quick-kick-ninja-force-super7-gi-joe-reaction-card-back-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-09T00:38:58+00:00"
-  },
-  {
-   "title": "Masters of the Universe Mattel Creations exclusives on BBTS",
-   "url": "https://toyhabits.com/masters-of-the-universe-mattel-creations-exclusives-on-bbts/",
-   "source": "Toy Habits",
-   "iso": "2026-09-09T00:34:08+00:00"
-  },
-  {
-   "title": "Target Exclusive GI Joe Classified Series Ninja Force Snake Eyes and Jinx 2-pack Preorder Info & Official Images",
-   "url": "https://toyhabits.com/target-exclusive-gi-joe-classified-series-ninja-force-snake-eyes-and-jinx-2-pack-preorder-info-official-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-08T23:11:46+00:00"
-  },
-  {
-   "title": "Mystery Science Theater 3000 Returns to Cinemas for Two Nights Only with MST3K: The RiffTrax Experiments on September 9 & 13",
-   "url": "https://www.actionfigureinsider.com/mystery-science-theater-3000-returns-to-cinemas-for-two-nights-only-with-mst3k-the-rifftrax-experiments-on-september-9-13/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-08T22:00:07+00:00"
-  },
-  {
-   "title": "BigBadToyStore News: Masters of the Universe: Origins, Chronicles & Masterverse Exclusive Figures",
-   "url": "https://toyhypeusa.com/2026/09/08/bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-08T21:51:12+00:00"
   }
  ],
  "trends": {
