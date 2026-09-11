@@ -1,16 +1,71 @@
 {
- "updatedISO": "2026-09-11T18:38:51+00:00",
+ "updatedISO": "2026-09-11T21:45:40+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Boss Fight Studio Summons New Dire Knight: Enchanted Armor Figure",
+   "url": "https://bleedingcool.com/collectibles/boss-fight-studio-summons-new-dire-knight-enchanted-armor-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-11T21:22:08+00:00"
+  },
+  {
+   "title": "Take A Shot with Hasbro's Upcoming Marvel Legends Hawkeye Figure",
+   "url": "https://bleedingcool.com/collectibles/take-a-shot-with-hasbros-upcoming-marvel-legends-hawkeye-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-11T20:52:08+00:00"
+  },
+  {
+   "title": "Elektra Goes Back to Basics with Hasbro's New Marvel Legends Release",
+   "url": "https://bleedingcool.com/collectibles/elektra-goes-back-to-basics-with-hasbros-new-marvel-legends-release/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-11T20:22:09+00:00"
+  },
+  {
+   "title": "Hasbro Pulse Fanstream Revealed New #MarvelLegends Series Action Figures",
+   "url": "https://www.actionfigureinsider.com/hasbro-pulse-fanstream-revealed-new-marvellegends-series-action-figures/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-11T20:06:23+00:00"
+  },
+  {
+   "title": "Monogram Announce NYCC EXCLUSIVE #2 – Absolute Batman – 3D Foam Bag Clip 3 PC Set",
+   "url": "https://www.actionfigureinsider.com/monogram-announce-nycc-exclusive-2-absolute-batman-3d-foam-bag-clip-3-pc-set/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-11T20:00:57+00:00"
+  },
+  {
+   "title": "Spider-Man Saves Christmas with Hasbro's New Holiday Marvel Legends",
+   "url": "https://bleedingcool.com/collectibles/spider-man-saves-christmas-with-hasbros-new-holiday-marvel-legends/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-11T19:52:09+00:00"
+  },
+  {
+   "title": "Marvel Comics Elsa Bloodstone Returns to Hasbro's Marvel Legends",
+   "url": "https://bleedingcool.com/collectibles/marvel-comics-elsa-bloodstone-returns-to-hasbros-marvel-legends/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-11T19:22:08+00:00"
+  },
+  {
+   "title": "Hasbro Unveils New Micronauts Marvel Legends Release with Acroyear",
+   "url": "https://bleedingcool.com/collectibles/hasbro-unveils-new-micronauts-marvel-legends-release-with-acroyear/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-11T18:52:08+00:00"
+  },
+  {
+   "title": "X-Men Marvel Legends Marvels Sentinels (Variants) 2 Pack Preorder",
+   "url": "https://toyhabits.com/x-men-marvel-legends-marvels-sentinels-variants-2-pack-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-11T18:45:15+00:00"
+  },
   {
    "title": "Spider-Man Takes On the Eight Scions of Cyttorak with Marvel Legends",
    "url": "https://bleedingcool.com/collectibles/spider-man-takes-on-the-eight-scions-of-cyttorak-with-marvel-legends/",
@@ -28,6 +83,12 @@
    "url": "https://toyhypeusa.com/2026/09/11/ee-dc-transformers-star-wars-marvel-court-of-the-dead-kamen-rider-kpop-demon-hunters-ultraman-thundercats/?utm_source=rss&utm_medium=rss&utm_campaign=ee-dc-transformers-star-wars-marvel-court-of-the-dead-kamen-rider-kpop-demon-hunters-ultraman-thundercats",
    "source": "Toy Hype USA",
    "iso": "2026-09-11T17:00:49+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ X-Men Marvel’s Sentinels (Variants) Figures Set Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/11/hasbro-marvel-legends-series-x-men-marvels-sentinels-variants-figures-set-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-marvels-sentinels-variants-figures-set-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-11T16:59:18+00:00"
   },
   {
    "title": "Prepare for Maximum Carnage with Hasbro's Next Marvel Legends Figure",
@@ -220,66 +281,6 @@
    "url": "https://toyhabits.com/ripper-bebop-gi-joe-tmnt-crossover-review/",
    "source": "Toy Habits",
    "iso": "2026-09-10T13:53:31+00:00"
-  },
-  {
-   "title": "BBTS News – Marvel, New Sales, Transformers, MOTU, Tamashii Nations and More",
-   "url": "https://www.toyark.com/2026/09/10/bbts-news-marvel-new-sales-transformers-motu-tamashii-nations-and-more-598818",
-   "source": "The Toyark",
-   "iso": "2026-09-10T12:28:22+00:00"
-  },
-  {
-   "title": "Marvel Hot Toys – Superior Iron Man, Spider-Man 3 Peter Parker, Avengers: Doomsday Dr. Doom",
-   "url": "https://www.toyark.com/2026/09/10/marvel-hot-toys-superior-iron-man-spider-man-3-peter-parker-avengers-doomsday-dr-doom-598754",
-   "source": "The Toyark",
-   "iso": "2026-09-10T12:21:20+00:00"
-  },
-  {
-   "title": "Target Fall Geek-Out 2026 Is Back With New Collectibles Dropping Every Friday",
-   "url": "https://toyhabits.com/target-fall-geek-out-2026-is-back-with-new-collectibles-dropping-every-friday/",
-   "source": "Toy Habits",
-   "iso": "2026-09-10T12:11:00+00:00"
-  },
-  {
-   "title": "InArt The Batman, Arkham Origins Deathstroke, Arkham Origins XE Suit Batman",
-   "url": "https://www.toyark.com/2026/09/10/inart-the-batman-arkham-origins-deathstroke-arkham-origins-xe-suit-batman-598708",
-   "source": "The Toyark",
-   "iso": "2026-09-10T12:07:58+00:00"
-  },
-  {
-   "title": "Marvel’s Midnight Suns – One:12 Collective Blade",
-   "url": "https://www.toyark.com/2026/09/10/marvels-midnight-suns-one12-collective-blade-598694",
-   "source": "The Toyark",
-   "iso": "2026-09-10T11:53:52+00:00"
-  },
-  {
-   "title": "BigBadToyStore News: Marvel, New Sales, Transformers, MOTU, Tamashii Nations & More",
-   "url": "https://toyhypeusa.com/2026/09/09/bbts-marvel-new-sales-transformers-motu-tamashii-nations/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-marvel-new-sales-transformers-motu-tamashii-nations",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-09T23:18:04+00:00"
-  },
-  {
-   "title": "Hasbro Transformers Studio Series ’86 Voyager Class Skywarp Figure Review",
-   "url": "https://toyhypeusa.com/2026/09/09/hasbro-transformers-studio-series-86-voyager-class-skywarp-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-studio-series-86-voyager-class-skywarp-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-09T22:29:40+00:00"
-  },
-  {
-   "title": "GalaxyCon Set to Take Over Downtown Des Moines with Massive Celebration of Pop Culture",
-   "url": "https://www.actionfigureinsider.com/galaxycon-set-to-take-over-downtown-des-moines-with-massive-celebration-of-pop-culture/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-09T20:23:23+00:00"
-  },
-  {
-   "title": "Build Video Game Nostalgia with LEGO's PlayStation Near 1:1 Replica",
-   "url": "https://bleedingcool.com/collectibles/build-video-game-nostalgia-with-legos-playstation-near-11-replica/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-09T18:22:08+00:00"
-  },
-  {
-   "title": "Mezco Toyz Marvel One:12 Collective Blade (Midnight Sons) Figure Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/09/mezco-toyz-marvel-one12-collective-blade-midnight-sons-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mezco-toyz-marvel-one12-collective-blade-midnight-sons-figure-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-09T17:42:05+00:00"
   }
  ],
  "trends": {
