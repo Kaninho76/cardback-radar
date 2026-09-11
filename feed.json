@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-09-10T21:40:30+00:00",
+ "updatedISO": "2026-09-11T00:14:10+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "BigBadLaunchPad – All Unlocks Available! NPC (Non-Playable Characters) 1/12 Scale Action Figures & Accessories",
+   "url": "https://toyhypeusa.com/2026/09/10/bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-10T23:30:17+00:00"
+  },
   {
    "title": "Hasbro G.I. Joe Classified Series 6″ Hydro-Viper Figure Review",
    "url": "https://toyhypeusa.com/2026/09/10/hasbro-g-i-joe-classified-series-hydro-viper-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-g-i-joe-classified-series-hydro-viper-figure-review",
@@ -274,12 +281,6 @@
    "url": "https://toyhypeusa.com/2026/09/08/hasbro-transformers-age-of-the-primes-onslaught-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-onslaught-figure-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-08T19:39:55+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars: The Black Series 6″ Zeb (The Mandalorian and Grogu) Figure Review",
-   "url": "https://toyhypeusa.com/2026/09/08/hasbro-star-wars-tbs-zeb-the-mandalorian-and-grogu-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-zeb-the-mandalorian-and-grogu-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-08T18:34:51+00:00"
   }
  ],
  "trends": {
