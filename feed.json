@@ -1,17 +1,41 @@
 {
- "updatedISO": "2026-09-11T00:14:10+00:00",
+ "updatedISO": "2026-09-11T04:47:56+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Toy Habits: URLError"
+  "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "Marvel Holiday Special Marvel Legends Spider-Man Official Images & Preorder Information",
+   "url": "https://toyhabits.com/marvel-holiday-special-marvel-legends-spider-man-official-images-preorder-information/",
+   "source": "Toy Habits",
+   "iso": "2026-09-11T03:20:07+00:00"
+  },
+  {
+   "title": "Hasbro Transformers: Power of the Primes – Throne of the Primes Optimal Optimus Figure (ReIssue) Available Now",
+   "url": "https://toyhypeusa.com/2026/09/10/hasbro-transformers-power-of-the-primes-throne-of-the-primes-optimal-optimus-figure-reissue-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-power-of-the-primes-throne-of-the-primes-optimal-optimus-figure-reissue-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-11T02:15:08+00:00"
+  },
+  {
+   "title": "Visionaries ReAction+ Super7 Leoric and Darkstorm In Stock",
+   "url": "https://toyhabits.com/visionaries-reaction-super7-leoric-and-darkstorm-in-stock/",
+   "source": "Toy Habits",
+   "iso": "2026-09-11T01:31:37+00:00"
+  },
+  {
+   "title": "Star Wars Rogue One The Vintage Collection Antoc Merrick’s X-Wing Fighter Preorder",
+   "url": "https://toyhabits.com/star-wars-rogue-one-the-vintage-collection-antoc-merricks-x-wing-fighter-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-11T00:58:28+00:00"
+  },
   {
    "title": "BigBadLaunchPad – All Unlocks Available! NPC (Non-Playable Characters) 1/12 Scale Action Figures & Accessories",
    "url": "https://toyhypeusa.com/2026/09/10/bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories",
@@ -257,106 +281,82 @@
    "url": "https://toyhypeusa.com/2026/09/08/bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadtoystore-news-masters-of-the-universe-origins-chronicles-masterverse-exclusive-figures",
    "source": "Toy Hype USA",
    "iso": "2026-09-08T21:51:12+00:00"
-  },
-  {
-   "title": "RSVLTS Reaches The Final Frontier with First-Ever Star Trek Collection",
-   "url": "https://bleedingcool.com/collectibles/rsvlts-reaches-the-final-frontier-with-first-ever-star-trek-collection/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-08T20:00:08+00:00"
-  },
-  {
-   "title": "Jakks Pacific The Simpsons Treehouse of Horror 31-Day Advent Calendar Available Now",
-   "url": "https://toyhypeusa.com/2026/09/08/jakks-pacific-the-simpsons-treehouse-of-horror-31-day-advent-calendar-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=jakks-pacific-the-simpsons-treehouse-of-horror-31-day-advent-calendar-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-08T19:57:58+00:00"
-  },
-  {
-   "title": "JOSHUA IZZO NAMED PRESIDENT OF MCFARLANE TOYS, BRINGING NEW LEADERSHIP TO THE ICONIC COLLECTIBLES BRAND",
-   "url": "https://www.actionfigureinsider.com/joshua-izzo-named-president-of-mcfarlane-toys-bringing-new-leadership-to-the-iconic-collectibles-brand/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-08T19:57:37+00:00"
-  },
-  {
-   "title": "Hasbro Transformers: Age of the Primes Onslaught Figure Available Now",
-   "url": "https://toyhypeusa.com/2026/09/08/hasbro-transformers-age-of-the-primes-onslaught-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-onslaught-figure-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-08T19:39:55+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-10T14:30:45+00:00",
+  "updatedISO": "2026-09-11T04:47:56+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": 48
+    "perDay": 4,
+    "change": 62
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1916,
-    "change": 15
+    "perDay": 2101,
+    "change": 25
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 937,
-    "change": 9
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 158,
-    "change": 3
+    "perDay": 1008,
+    "change": 17
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 86,
-    "change": 1
+    "perDay": 94,
+    "change": 11
    },
    {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2744,
-    "change": -2
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 605,
-    "change": -2
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 160,
+    "change": 5
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2214,
+    "perDay": 2226,
+    "change": -4
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2687,
+    "change": -4
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 589,
     "change": -5
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 82,
-    "change": -22
+    "perDay": 83,
+    "change": -19
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 982,
-    "change": -47
+    "perDay": 969,
+    "change": -46
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1458,
-    "change": -52
+    "perDay": 1421,
+    "change": -51
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 19467,
+    "perDay": 18853,
     "change": -54
    }
   ],
