@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-09-12T05:53:21+00:00",
+ "updatedISO": "2026-09-12T10:54:29+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "Boss Fight Studio Summons New Dire Knight: Enchanted Armor Figure",
@@ -284,79 +283,79 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-11T18:38:51+00:00",
+  "updatedISO": "2026-09-12T10:54:29+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 4,
-    "change": 62
+    "change": 58
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2101,
-    "change": 25
+    "perDay": 2199,
+    "change": 31
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1008,
-    "change": 17
+    "perDay": 1053,
+    "change": 22
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 94,
-    "change": 11
+    "perDay": 97,
+    "change": 15
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 160,
-    "change": 5
+    "perDay": 161,
+    "change": 4
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2226,
-    "change": -4
+    "perDay": 2237,
+    "change": -3
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2687,
-    "change": -4
+    "perDay": 2608,
+    "change": -7
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 589,
-    "change": -5
+    "perDay": 569,
+    "change": -9
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 83,
-    "change": -19
+    "perDay": 84,
+    "change": -17
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 969,
-    "change": -46
+    "perDay": 966,
+    "change": -44
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1421,
-    "change": -51
+    "perDay": 1409,
+    "change": -49
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 18853,
+    "perDay": 18396,
     "change": -54
    }
   ],
