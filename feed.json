@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-09-12T00:20:55+00:00",
+ "updatedISO": "2026-09-12T05:53:21+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
   {
    "title": "Boss Fight Studio Summons New Dire Knight: Enchanted Armor Figure",
