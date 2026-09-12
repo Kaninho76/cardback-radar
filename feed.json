@@ -1,16 +1,41 @@
 {
- "updatedISO": "2026-09-12T14:11:37+00:00",
+ "updatedISO": "2026-09-12T17:14:20+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Catcha-Pult Flip-Or and the Champions of Nefarity Wave 2 Companion Figure",
+   "url": "https://toyhabits.com/catcha-pult-flip-or-and-the-champions-of-nefarity-wave-2-companion-figure/",
+   "source": "Toy Habits",
+   "iso": "2026-09-12T16:12:25+00:00"
+  },
+  {
+   "title": "Flip-Or and the Champions of Nefarity Wave 2 MOTUFest 2026 Booth Images",
+   "url": "https://toyhabits.com/flip-or-and-the-champions-of-nefarity-wave-2-motufest-2026-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-12T15:25:43+00:00"
+  },
+  {
+   "title": "Ramen Toy MOTUFest 2026 Booth Images",
+   "url": "https://toyhabits.com/ramen-toy-motufest-2026-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-12T14:50:44+00:00"
+  },
+  {
+   "title": "Mondo MOTUFest 2026 Booth Images",
+   "url": "https://toyhabits.com/mondo-motufest-2026-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-12T14:15:07+00:00"
+  },
   {
    "title": "Nintendo Direct Reveals Metroid Ravenous, Kirby and the World Beyond, and More Games for Nintendo Switch 2 and Nintendo Switch",
    "url": "https://www.actionfigureinsider.com/nintendo-direct-reveals-metroid-ravenous-kirby-and-the-world-beyond-and-more-games-for-nintendo-switch-2-and-nintendo-switch/",
@@ -256,30 +281,6 @@
    "url": "https://www.toyark.com/2026/09/10/marvel-legends-fanstream-recap-comic-covers-spider-man-animated-holiday-spidey-598821",
    "source": "The Toyark",
    "iso": "2026-09-10T17:29:50+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars The Vintage Collection Antoc Merrick X-Wing Fighter Vehicle (ReIssue) Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/10/hasbro-star-wars-tvc-antoc-merrick-x-wing-fighter-vehicle-reissue-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tvc-antoc-merrick-x-wing-fighter-vehicle-reissue-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-10T17:09:58+00:00"
-  },
-  {
-   "title": "Two-Bad MOTU Origins Mattel Creations Exclusive Tease",
-   "url": "https://toyhabits.com/two-bad-motu-origins-mattel-creations-exclusive-tease/",
-   "source": "Toy Habits",
-   "iso": "2026-09-10T16:37:20+00:00"
-  },
-  {
-   "title": "Spider-Man 3 Bully Peter Parker 1/6-scale Coming Soon from Hot Toys",
-   "url": "https://bleedingcool.com/collectibles/spider-man-3-bully-peter-parker-1-6-scale-coming-soon-from-hot-toys/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-10T16:22:09+00:00"
-  },
-  {
-   "title": "McFarlane Toys DC Multiverse Green Lantern Corps Sinestro, & Plastic Man (The Terrifics) Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/10/mcfarlane-toys-dc-multiverse-green-lantern-corps-sinestro-plastic-man-the-terrifics-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-green-lantern-corps-sinestro-plastic-man-the-terrifics-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-10T16:00:11+00:00"
   }
  ],
  "trends": {
