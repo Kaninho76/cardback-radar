@@ -1,17 +1,23 @@
 {
- "updatedISO": "2026-09-13T06:15:15+00:00",
+ "updatedISO": "2026-09-13T11:58:07+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError",
   "Toy Habits: HTTP 403"
  ],
  "items": [
+  {
+   "title": "I Checked out GalaxyCon Des Moines 2026",
+   "url": "https://www.actionfigureinsider.com/i-checked-out-galaxycon-des-moines-2026/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-13T07:38:42+00:00"
+  },
   {
    "title": "Hasbro Transformers Age of the Primes Armada Jetfire Figure Shipping Update",
    "url": "https://toyhypeusa.com/2026/09/12/hasbro-transformers-age-of-the-primes-armada-jetfire-figure-shipping-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-armada-jetfire-figure-shipping-update",
@@ -275,12 +281,6 @@
    "url": "https://toyhabits.com/star-wars-rogue-one-the-vintage-collection-antoc-merricks-x-wing-fighter-preorder/",
    "source": "Toy Habits",
    "iso": "2026-09-11T00:58:28+00:00"
-  },
-  {
-   "title": "BigBadLaunchPad – All Unlocks Available! NPC (Non-Playable Characters) 1/12 Scale Action Figures & Accessories",
-   "url": "https://toyhypeusa.com/2026/09/10/bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-10T23:30:17+00:00"
   }
  ],
  "trends": {
