@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-09-13T01:05:45+00:00",
+ "updatedISO": "2026-09-13T06:15:15+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError",
+  "Toy Habits: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Hasbro Transformers Age of the Primes Armada Jetfire Figure Shipping Update",
+   "url": "https://toyhypeusa.com/2026/09/12/hasbro-transformers-age-of-the-primes-armada-jetfire-figure-shipping-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-armada-jetfire-figure-shipping-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-13T03:40:59+00:00"
+  },
   {
    "title": "Hiya Toys Unveils New Exquisite Godzilla vs. Megaguirus (2000) Figure",
    "url": "https://bleedingcool.com/collectibles/hiya-toys-unveils-new-exquisite-godzilla-vs-megaguirus-2000-figure/",
@@ -274,12 +281,6 @@
    "url": "https://toyhypeusa.com/2026/09/10/bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadlaunchpad-all-unlocks-available-npc-non-playable-characters-1-12-scale-action-figures-accessories",
    "source": "Toy Hype USA",
    "iso": "2026-09-10T23:30:17+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series 6″ Hydro-Viper Figure Review",
-   "url": "https://toyhypeusa.com/2026/09/10/hasbro-g-i-joe-classified-series-hydro-viper-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-g-i-joe-classified-series-hydro-viper-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-10T20:25:16+00:00"
   }
  ],
  "trends": {
