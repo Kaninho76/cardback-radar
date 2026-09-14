@@ -1,17 +1,29 @@
 {
- "updatedISO": "2026-09-14T01:11:25+00:00",
+ "updatedISO": "2026-09-14T06:24:04+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Toy Habits: URLError"
+  "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "BigBadWorkShop – Soldiers of Fortune Wave 2 The Agent/The Enemy 1/12 Scale Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/14/bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-14T04:01:37+00:00"
+  },
+  {
+   "title": "Ninja Force Destro and Quick Kick GI Joe ReAction+ Review",
+   "url": "https://toyhabits.com/ninja-force-destro-and-quick-kick-gi-joe-reaction-review/",
+   "source": "Toy Habits",
+   "iso": "2026-09-14T00:25:04+00:00"
+  },
   {
    "title": "McFarlane Toys Brings Back Sinestro (Green Lantern Corps) Figure",
    "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-brings-back-sinestro-green-lantern-corps-figure/",
@@ -269,95 +281,83 @@
    "url": "https://www.actionfigureinsider.com/monogram-announce-nycc-exclusive-1-k-pop-demon-hunters-huntr-x-3d-foam-bag-clip-3-pc-set/",
    "source": "Action Figure Insider",
    "iso": "2026-09-11T13:40:53+00:00"
-  },
-  {
-   "title": "Celebrate LEGO® Batman™ Day on LEGO.com!",
-   "url": "https://www.actionfigureinsider.com/celebrate-lego-batman-day-on-lego-com/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-11T13:00:38+00:00"
-  },
-  {
-   "title": "Pokemon Select Trainer Team and Five Nights At Freddy’s Target Fall Geek Out Drop 1 Preorder",
-   "url": "https://toyhabits.com/pokemon-select-trainer-team-and-five-nights-at-freddies-target-fall-geek-out-drop-1-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-11T12:58:16+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-13T16:25:05+00:00",
+  "updatedISO": "2026-09-14T06:24:04+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 4,
-    "change": 44
-   },
-   {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2317,
-    "change": 38
+    "perDay": 2753,
+    "change": 63
+   },
+   {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 3,
+    "change": 40
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1091,
-    "change": 27
+    "perDay": 1140,
+    "change": 33
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 97,
-    "change": 14
+    "perDay": 100,
+    "change": 19
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 164,
-    "change": 5
+    "perDay": 170,
+    "change": 8
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2230,
-    "change": -4
+    "perDay": 2256,
+    "change": -2
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 577,
+    "perDay": 576,
     "change": -7
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2493,
-    "change": -12
+    "perDay": 2449,
+    "change": -14
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 83,
-    "change": -17
+    "perDay": 85,
+    "change": -15
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 950,
-    "change": -43
+    "perDay": 919,
+    "change": -44
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1385,
+    "perDay": 1352,
     "change": -48
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 18003,
-    "change": -54
+    "perDay": 17861,
+    "change": -53
    }
   ],
   "missed": []
