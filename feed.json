@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-09-13T22:27:21+00:00",
+ "updatedISO": "2026-09-14T01:11:25+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
   {
    "title": "McFarlane Toys Brings Back Sinestro (Green Lantern Corps) Figure",
