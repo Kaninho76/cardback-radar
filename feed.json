@@ -1,16 +1,29 @@
 {
- "updatedISO": "2026-09-14T14:09:14+00:00",
+ "updatedISO": "2026-09-14T19:27:05+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Cobra-La Royal Guard Force Pack 3-Pack GI Joe ReAction+ BBTS Exclusive Coming Soon",
+   "url": "https://toyhabits.com/cobra-la-royal-guard-force-pack-3-pack-gi-joe-reaction-bbts-exclusive-coming-soon/",
+   "source": "Toy Habits",
+   "iso": "2026-09-14T18:03:26+00:00"
+  },
+  {
+   "title": "Entertainment Earth Offers Vault of Terror 20% Off Sale on Select Halloween Themed Items Ends Today",
+   "url": "https://toyhypeusa.com/2026/09/14/ee-offers-vault-of-terror-20-off-sale-on-select-halloween-themed-items-ends-today/?utm_source=rss&utm_medium=rss&utm_campaign=ee-offers-vault-of-terror-20-off-sale-on-select-halloween-themed-items-ends-today",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-14T15:13:40+00:00"
+  },
   {
    "title": "Tamashii Nations NYCC 2026 Exclusives Announced",
    "url": "https://www.toyark.com/2026/09/14/tamashii-nations-nycc-2026-exclusives-announced-598997",
@@ -268,22 +281,10 @@
    "url": "https://toyhypeusa.com/2026/09/11/hiya-toys-godzilla-vs-megaguirus-2000-megaguirus-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hiya-toys-godzilla-vs-megaguirus-2000-megaguirus-figure-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-09-11T15:15:10+00:00"
-  },
-  {
-   "title": "Update from @BigBadWorkshop on Project NPC (Non-Playable Characters) Wave 1",
-   "url": "https://www.actionfigureinsider.com/update-from-bigbadworkshop-on-project-npc-non-playable-characters-wave-1/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-11T15:08:30+00:00"
-  },
-  {
-   "title": "SPONSOR NEWS: BBTS News — Marvel, New Sales, Transformers, MOTU, Tamashii Nations & More!",
-   "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-marvel-new-sales-transformers-motu-tamashii-nations-more/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-11T13:41:11+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-14T06:24:04+00:00",
+  "updatedISO": "2026-09-14T19:27:05+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
