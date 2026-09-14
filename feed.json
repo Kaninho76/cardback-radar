@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-09-14T06:24:04+00:00",
+ "updatedISO": "2026-09-14T14:09:14+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Tamashii Nations NYCC 2026 Exclusives Announced",
+   "url": "https://www.toyark.com/2026/09/14/tamashii-nations-nycc-2026-exclusives-announced-598997",
+   "source": "The Toyark",
+   "iso": "2026-09-14T11:44:00+00:00"
+  },
   {
    "title": "BigBadWorkShop – Soldiers of Fortune Wave 2 The Agent/The Enemy 1/12 Scale Figures Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/14/bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders",
@@ -235,7 +240,7 @@
    "iso": "2026-09-11T17:00:49+00:00"
   },
   {
-   "title": "Hasbro Marvel Legends Series 6″ X-Men Marvel’s Sentinels (Variants) Figures Set Pre-Orders",
+   "title": "Hasbro Marvel Legends Series 6″ X-Men Marvel’s Sentinels (Variants) Figures Set Pre-Orders (Update)",
    "url": "https://toyhypeusa.com/2026/09/11/hasbro-marvel-legends-series-x-men-marvels-sentinels-variants-figures-set-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-marvels-sentinels-variants-figures-set-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-09-11T16:59:18+00:00"
@@ -275,12 +280,6 @@
    "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-marvel-new-sales-transformers-motu-tamashii-nations-more/",
    "source": "Action Figure Insider",
    "iso": "2026-09-11T13:41:11+00:00"
-  },
-  {
-   "title": "Monogram Announce #NYCC EXCLUSIVE #1 – K-POP DEMON HUNTERS’ HUNTR/X – 3D Foam Bag Clip 3 PC Set",
-   "url": "https://www.actionfigureinsider.com/monogram-announce-nycc-exclusive-1-k-pop-demon-hunters-huntr-x-3d-foam-bag-clip-3-pc-set/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-11T13:40:53+00:00"
   }
  ],
  "trends": {
