@@ -1,143 +1,145 @@
 {
-  "updatedISO": "2026-09-09T07:00:00+02:00",
-  "updatedLabel": "woensdag 9 september 2026",
+  "updatedISO": "2026-09-15T08:30:00+02:00",
+  "updatedLabel": "dinsdag 15 september 2026",
   "quiet": false,
   "quietNote": "",
   "waves": [
     {
+      "title": "Godzilla Minus Zero",
+      "when": "Wereldpremière 26 september op het New York Film Festival · Japan 3 november, Noord-Amerika 6 november",
+      "countdown": {
+        "date": "2026-09-26",
+        "mode": "until",
+        "unit": "dagen tot de première"
+      },
+      "body": "Op 9 september kwam de IMAX-trailer online en die eindigt met de schreeuw van King Ghidorah. Daarmee is de tegenstander van Yamazaki's vervolg officieel bekend, en het is de eerste Japanse productie die voor IMAX is gefilmd. Over elf dagen draait de film op het New York Film Festival en komen de eerste recensies binnen. Bandai heeft wel een S.H.MonsterArts Godzilla uit deze film, maar van een Ghidorah uit Minus Zero is nog niets aangekondigd.",
+      "do": "De aandacht gaat de komende elf dagen naar het monster dat nog geen figuur heeft. Wat jij wel hebt staan is Godzilla zelf, in meer versies dan de meeste mensen. Zet die op volgorde en laat de laatste plek leeg: dat gat is precies het gesprek dat nu loopt."
+    },
+    {
       "title": "Avengers: Doomsday",
-      "when": "Bioscoop 18 december 2026 · vandaag precies honderd dagen te gaan",
+      "when": "Bioscoop 18 december 2026 · eerstvolgende moment is 25 september",
       "countdown": {
         "date": "2026-12-18",
         "mode": "until",
         "unit": "dagen te gaan"
       },
-      "body": "De ronde getallen zijn zelf een aanleiding: vanaf vandaag is het nog honderd dagen. De Doomsday-golf Marvel Legends is sinds SDCC te bestellen en Hasbro heeft deze week de Future Foundation-tweepakken in de winkel gelegd. De piek van de onthullingen is voorbij, de aanloop naar de film begint pas.",
-      "do": "Je hebt de nieuwe figuren niet nodig. Wat mensen nu zoeken is het personage, niet de release — en dan wint een Doom uit de jaren tachtig het van elke preorder-foto. Zet je oudste naast je nieuwste en laat het verschil het werk doen."
-    },
-    {
-      "title": "Godzilla Minus Zero",
-      "when": "Japan 3 november, Noord-Amerika 6 november · Nederlandse datum nog niet bekend",
-      "countdown": {
-        "date": "2026-11-06",
-        "mode": "until",
-        "unit": "dagen te gaan"
-      },
-      "body": "Takashi Yamazaki maakt het vervolg op Minus One, spelend in 1949. Wereldpremière op 26 september op het New York Film Festival, daarna Japan en Noord-Amerika in november. De tweede teaser staat sinds juli online. Dit is de golf die op dit moment opbouwt, terwijl He-Man en MOTU na de streamingpiek juist hard terugzakken.",
-      "do": "Kaiju is de enige hoek in je kast waar de schaal zelf het verhaal is. Alles wat je aan Godzilla hebt staan wordt de komende twee maanden interessanter, en je hebt er geen nieuwe aankoop voor nodig — alleen een lagere camerapositie."
+      "body": "Nog vierennegentig dagen. De trailer staat sinds 20 juli online, op 14 augustus kwam er tijdens D23 een tweede special look bij. Het eerstvolgende harde moment is 25 september: Endgame keert dan terug in de bioscoop met een exclusieve blik op Doomsday erbij. Vanaf dat moment loopt er weer verse beeldmateriaal rond en gaat de zoekvraag omhoog.",
+      "do": "Rond die 25e zoekt iedereen op Doom, niet op een preorder. Jouw oudste Doom doet daar meer dan welke nieuwe figuur ook. Houd hem klaar en post op de dag dat het fragment rondgaat, niet erna."
     }
   ],
   "drops": [
     {
-      "maker": "McFarlane",
-      "what": "DC Retro Super Friends wave 6 — Joker, Apache Chief, The Atom",
-      "note": "6 inch, preorders sinds 4 september. Warpland Superman zit erin als platinum chase.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Mattel",
-      "what": "MOTU Origins — Q4-golf via BigBadToyStore",
-      "note": "Stonedar, Blast-Attak, Sting-Or, Despara, Dragstor Deluxe, Hurricane Hordak Deluxe. 19,99 tot 27,99 dollar, verzending vierde kwartaal.",
+      "maker": "Mondo",
+      "what": "MOTU 200X — Disco Skeletor 1/12",
+      "note": "Vandaag online, 12 uur Eastern, dus 18 uur onze tijd. 110 dollar. Vier verwisselbare schedelkoppen, drie paar handen, Havoc Staff, dubbelbladig zwaard en standaard. Debuteerde afgelopen weekend op MOTUFest.",
       "heat": "yours"
     },
     {
       "maker": "Mondo",
-      "what": "MOTU 200X — Disco Skeletor 1/12",
-      "note": "PowerCon-exclusief, officiële foto's en preorder deze week. Vier koppen, vier extra handen, Havoc Staff.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Bandai / Tamashii",
-      "what": "S.H.MonsterArts Godzilla (2026)",
-      "note": "De filmversie uit Minus Zero, 120 dollar. Preorder inmiddels dicht. De Enshrined Monsters Ex van 30 dollar staat nog open.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Playmates",
-      "what": "TMNT x G.I. Joe — Krang als Destro, Rocksteady als Buzzer",
-      "note": "4,5 tot 5,25 inch op een cardback die de TMNT- en Joe-kaarten uit de jaren tachtig door elkaar haalt. Reviews van de eerste losse figuren lopen binnen.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Super7",
-      "what": "G.I. Joe ReAction+ Ninja Force — Destro en Quick Kick",
-      "note": "In-hand-foto's en de kaartachterkanten zijn deze week verschenen. Voor wie op de kaart verzamelt is dit de interessantste van de week.",
+      "what": "MOTU 200X — Ice Armor He-Man en Fire Armor Skeletor",
+      "note": "Eén doos met beide figuren, 225 dollar, preorder open sinds 11 september. Limiet twee sets per bestelling, verzending in oktober. Doorzichtige oranje vlameffecten bij Skeletor, blauw ijs bij He-Man.",
       "heat": "yours"
     },
     {
       "maker": "Hasbro",
-      "what": "Marvel Legends — Future Foundation tweepakken",
-      "note": "Mister Fantastic met Spider-Man, en The Thing met Invisible Woman. Nu verkrijgbaar; Fantastic Four loopt mee op Doomsday.",
+      "what": "Marvel Legends — Retro Cardback Series",
+      "note": "Aunt May, Mary Jane Watson, Smythe en Carnage, uit Spider-Man: The Animated Series. Preorder 29 september om 13 uur Eastern, fan channel exclusive. Hasbro noemt de lijn letterlijk naar de kaart.",
       "heat": "yours"
     },
     {
       "maker": "Hasbro",
-      "what": "G.I. Joe Classified — Ninja Force Snake Eyes en Jinx 2-pack",
-      "note": "Target-exclusief, op 18 september als onderdeel van de Fall Geek-Out. Amerikaans, dus alleen via doorverkoop hier.",
-      "heat": "zijlijn"
+      "what": "Marvel Legends — mini-comic golf",
+      "note": "Hawkeye, Spider-Man in Doom Suit, Acroyear, Elektra, Captain America uit Earth X en Elsa Bloodstone. Gekaart, met mini-strip erbij. Preorder 6 oktober om 13 uur Eastern.",
+      "heat": "yours"
     },
     {
-      "maker": "Super7",
-      "what": "Invincible DELUXE wave 1",
-      "note": "Mark Grayson, Allen the Alien, Thragg en Angstrom Levy. Nieuwe lijn, geen kruispunt met jouw planken.",
+      "maker": "Hasbro",
+      "what": "Marvel Legends — Holiday Special Spider-Man",
+      "note": "Preorder 23 september om 13 uur Eastern, algemene release. Harde kerstjas met bontrand, losse muts, zak met twee ingepakte cadeaus en een mini-Spider-Man.",
+      "heat": "yours"
+    },
+    {
+      "maker": "McFarlane",
+      "what": "DC Multiverse — Sinestro (Green Lantern Corps) en Plastic Man (The Terrifics)",
+      "note": "26,99 dollar per stuk, preorder sinds 10 september, verzending oktober 2026.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hiya Toys",
+      "what": "Godzilla vs. Megaguirus (2000) — Megaguirus",
+      "note": "Bijna 25 centimeter lang, in twee uitvoeringen van 107,99 en 64,99 dollar. Preorder sinds 11 september, maar verzending pas vierde kwartaal 2027.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Mezco",
+      "what": "One:12 Collective — Blade (Midnight Sons)",
+      "note": "125 dollar, 16,5 centimeter, verzending mei 2027. Drie koppen, veertien handen, glaives, katana en drie staken.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hasbro",
+      "what": "Marvel Legends — X-Men Marvel's Sentinels (Variants)",
+      "note": "57,99 dollar, sinds 11 september niet langer winkelexclusief. Een hergebruik van de eerste paarse set in nieuwe kleuren, bedoeld als leger.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hasbro",
+      "what": "Transformers Age of the Primes — Armada Jetfire",
+      "note": "Commander Class, verzending start 29 september. Geen kruispunt met jouw planken, maar wel wat er deze week het meest over verzonden wordt.",
       "heat": "zijlijn"
     }
   ],
   "talk": [
     {
-      "title": "McFarlane heeft een president",
-      "body": "Joshua Izzo is maandag benoemd tot president van McFarlane Toys. Bijna dertig jaar in speelgoed en licenties, de laatste tien bij Lightstorm Entertainment van James Cameron, daarvoor Fox Consumer Products, Capcom, Hasbro en 4Kids. Todd McFarlane blijft aan het roer van het merk. De vraag die overal wordt gesteld: verandert dit iets aan de DC-lijnen, of aan de kwaliteitsklachten die het bedrijf al jaren meedraagt."
+      "title": "De kaart heeft nu een eigen productlijn",
+      "body": "Op de Hasbro Pulse Fanstream van 10 september kreeg de nieuwe Spider-Man-golf officieel de naam Retro Cardback Series. Daarnaast komt er een golf die gekaart wordt geleverd met een mini-strip erbij. Waar de verpakking eerst een argument was tussen verzamelaars, staat ze nu als productnaam op de doos. Voor een pagina die op de kaart verzamelt is dat geen detail maar de kern."
     },
     {
-      "title": "De kaart is het product geworden",
-      "body": "Drie dingen tegelijk deze week: Super7 laat de cardbacks van de nieuwe ReAction+ Joes apart zien, Playmates verkoopt de TMNT x G.I. Joe-crossover op een nagemaakte jaren-tachtig-kaart, en Hasbro zet retro-gekaarte figuren in als winkelexclusieven. De verpakking is niet langer wat je weggooit."
+      "title": "MOTU: gezakt in de zaal, nummer één op de bank",
+      "body": "De cijfers liggen nu naast elkaar en ze spreken elkaar tegen. De film kostte 170 miljoen dollar en haalde er wereldwijd 114 miljoen op, 65 miljoen in de Verenigde Staten en 49 daarbuiten. Sinds 22 juli staat hij op Prime Video en daar werd hij in de eerste week 1,17 miljard minuten bekeken, nummer één in 47 van de 52 gemeten landen. Een vervolg is niet aangekondigd. Praktisch: He-Man-publiek is er wel, het zit alleen thuis en niet in de zaal."
     },
     {
-      "title": "MOTU zakt, Godzilla klimt",
-      "body": "De belangstelling voor He-Man en Masters of the Universe is na de streamingdrop scherp teruggelopen, terwijl Godzilla en kaiju juist licht oplopen richting november. Voor de planning betekent dat: MOTU-posts hebben nu een goede aanleiding nodig, Godzilla-posts krijgen de wind mee."
+      "title": "MOTUFest was dit weekend",
+      "body": "Power-Con hield MOTUFest op 12 en 13 september in het Northern Kentucky Convention Center. Mondo liet er de wisselkoppen van de 200X Teela en Mer-Man in het echt zien, verkocht Disco Skeletor op de vloer en zette de Anti-Eternia He-Man klaar voor wie een badge had. De rest van de foto's druppelt deze week binnen via Instagram, niet via de persberichten."
+    },
+    {
+      "title": "Ghidorah zonder figuur",
+      "body": "De trailer van 9 september bevestigt King Ghidorah als tegenstander in Minus Zero. Tamashii heeft wel de Godzilla uit die film aangekondigd, maar nog geen Ghidorah. Dat gat duurt meestal niet lang; tot die tijd is elke Ghidorah die al bij iemand in de kast staat de enige die er is."
     }
   ],
   "ideas": [
     {
       "slot": "Op de golf",
-      "title": "Al je Doctor Dooms op een rij, oud naar nieuw, met de teller erbij",
-      "hook": "Beeld één is het masker van je oudste Doom, groot in beeld, met de regel “nog 100 dagen” eroverheen. Geen plank, geen aanloop.",
-      "why": "Vandaag is het precies honderd dagen tot 18 december. Doom is het hele marketingverhaal van die film en iedereen zoekt op het personage, niet op de release. Jouw kast heeft wat geen preorder-foto heeft: dezelfde schurk over veertig jaar heen.",
-      "send": "de vriend die volhoudt dat Doom de enige goede Marvel-schurk is",
-      "tags": "#doctordoom #marvellegends #actionfigures #toystagram",
+      "title": "Al je Godzilla's op volgorde, en de laatste plek blijft leeg",
+      "hook": "Beeld één is de kop van je oudste Godzilla, groot in beeld, van onderaf. Tekstregel: “Ghidorah is bevestigd”.",
+      "why": "De trailer van 9 september maakt King Ghidorah de tegenstander van Minus Zero en er bestaat nog geen figuur van. Over elf dagen draait de film op het New York Film Festival. Wie nu op Godzilla zoekt, zoekt eigenlijk naar wat er straks tegenover staat — en dat gat kun je letterlijk fotograferen.",
+      "send": "de vriend die je vorig jaar sms'te toen Minus One hier draaide",
+      "tags": "#godzilla #kaiju #actionfigures #toystagram",
       "shots": [
-        "Foto 1: close-up van het masker van je oudste Doom, staand (9:16), tot net onder de kap. Anderhalve seconde.",
+        "Foto 1: kop van je oudste Godzilla, staand (9:16), van onderaf, tot net onder de kaak. Anderhalve seconde.",
         "Foto 2: zelfde hoek, camera terug — hele figuur, sleet en verkleuring zichtbaar. Anderhalve seconde.",
-        "Foto 3: exact dezelfde uitsnede en hoogte, maar nu de volgende Doom in de rij. Die herhaling leest als een camerabeweging.",
-        "Foto 4: alle Dooms naast elkaar, links de oudste, rechts de nieuwste. Twee seconden.",
-        "Tekst in beeld: vanaf foto 1 “nog 100 dagen”, bij foto 4 het jaartal onder elke figuur."
+        "Foto 3: exact dezelfde uitsnede en hoogte, maar de volgende Godzilla in de rij. Herhaal dit voor een derde als je die hebt. Eén seconde per stuk.",
+        "Foto 4: alle Godzilla's naast elkaar, oud links, nieuw rechts, met rechts een lege plek op de plank. Twee seconden.",
+        "Tekst in beeld: vanaf foto 1 “Ghidorah is bevestigd”, bij foto 4 “hier staat nog niets” boven de lege plek."
       ]
     },
     {
       "slot": "Doorstuurbaar",
-      "title": "Je Godzilla loopt dwars door de rest van de kast",
-      "hook": "Eerste beeld van vloerhoogte: één Godzilla-voet, en er pal naast een 6-inch figuur die tot zijn enkel komt.",
-      "why": "Godzilla Minus Zero staat voor 3 en 6 november, de kaiju-aandacht kruipt omhoog terwijl MOTU juist wegzakt. Een absurde opstelling is in deze hoek het formaat dat wordt doorgestuurd: de kijker heeft binnen twee seconden iemand in zijn hoofd aan wie hij het laat zien.",
-      "send": "je broer, of wie er vroeger naast je zat bij de zondagmiddagfilm",
-      "tags": "#godzilla #kaiju #actionfigures #toystagram",
+      "title": "De achterkant van één oude kaart, en de vraag welke de kijker had",
+      "hook": "Beeld één is de fotorij op de achterkant van een vintage MOTU-kaart, vullend in beeld, met één figuur omcirkeld. Tekstregel: “welke had jij”.",
+      "why": "Hasbro doopt zijn nieuwe golf deze maand letterlijk Retro Cardback Series en de preorder valt op 29 september. De kaartachterkant is dus zelf het onderwerp van de maand. En die achterkant is een checklist: iedereen die hem ziet, zoekt binnen twee seconden zijn eigen exemplaar in het raster.",
+      "send": "de vriend die zijn kaarten heeft weggeknipt en er nog steeds over begint",
+      "tags": "#motu #mastersoftheuniverse #actionfigures #toystagram",
       "shots": [
-        "Foto 1: van vloerhoogte, staand (9:16). Alleen de voet van Godzilla en één klein figuur ernaast. Eén seconde.",
-        "Foto 2: zelfde standpunt, camera terug — been en staart, met drie kleine figuren die omhoog kijken. Anderhalve seconde.",
-        "Foto 3: nog verder terug, hele Godzilla die boven de plank uit komt. Twee seconden.",
-        "Foto 4: van boven gefotografeerd, de rij kleine figuren met de schaduw eroverheen. Twee seconden.",
-        "Tekst in beeld vanaf foto 1: “schaal klopt eigenlijk precies”."
+        "Foto 1: achterkant van de kaart, staand (9:16), zo dichtbij dat drie of vier figuurtjes uit het raster vullend in beeld staan. Eén seconde.",
+        "Foto 2: zelfde hoek, camera terug — de hele achterkant met het complete raster. Twee seconden.",
+        "Foto 3: de kaart in je hand, gedraaid, zodat de voorkant met de figuur erop zichtbaar wordt. Anderhalve seconde.",
+        "Foto 4: diezelfde figuur los, uit de kaart, naast de kaart gelegd. Twee seconden.",
+        "Tekst in beeld: vanaf foto 1 “welke had jij”, bij foto 4 het jaartal van de kaart en niets meer."
       ]
     }
   ],
   "sources": [
-    {
-      "label": "The Toyark",
-      "url": "https://www.toyark.com/"
-    },
-    {
-      "label": "Bleeding Cool Collectibles",
-      "url": "https://bleedingcool.com/collectibles/"
-    },
     {
       "label": "Toy Hype USA",
       "url": "https://toyhypeusa.com/"
@@ -147,24 +149,48 @@
       "url": "https://toyhabits.com/"
     },
     {
-      "label": "Action Figure Insider",
-      "url": "https://www.actionfigureinsider.com/"
+      "label": "The Toyark",
+      "url": "https://www.toyark.com/"
     },
     {
-      "label": "The Toy Book — benoeming Izzo",
-      "url": "https://toybook.com/mcfarlane-toys-joshua-izzo-news/"
+      "label": "Bleeding Cool Collectibles",
+      "url": "https://bleedingcool.com/collectibles/"
     },
     {
-      "label": "DCCollectors — Super Friends wave 6",
-      "url": "https://dccollectors.com/2026/09/04/mcfarlane-super-friends-wave-6-revealed-pre-order-date-character-lineup/"
+      "label": "Reactor — Ghidorah in de IMAX-trailer",
+      "url": "https://reactormag.com/godzilla-minus-zero-imax-trailer/"
     },
     {
       "label": "Wikipedia — Godzilla Minus Zero",
       "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
     },
     {
-      "label": "Godzilla.com — Minus Zero merchandise",
-      "url": "https://godzilla.com/collections/godzilla-minus-zero-2026"
+      "label": "Wikipedia — Masters of the Universe (2026)",
+      "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)"
+    },
+    {
+      "label": "heman.org — Mondo Disco Skeletor",
+      "url": "https://heman.org/movie/news/2026-09-12-mondo-disco-skeletor-official-images/"
+    },
+    {
+      "label": "heman.org — Mondo Ice en Fire Armor",
+      "url": "https://heman.org/movie/news/2026-09-11-mondo-fire-ice-armor-preorder-live/"
+    },
+    {
+      "label": "Laughing Place — Marvel Legends Fanstream 10 september",
+      "url": "https://www.laughingplace.com/disney-merchandise/hasbro-marvel-legends-new-figures-2026/"
+    },
+    {
+      "label": "Good Morning America — Avengers: Doomsday",
+      "url": "https://www.goodmorningamerica.com/culture/story/avengers-doomsday-trailer-release-date-marvel-movie-134860279"
+    },
+    {
+      "label": "Soeverein Lommel — Vintage Toys of the Universe",
+      "url": "https://www.soevereinlommel.be/agenda/vintage-toys-of-the-universe/"
+    },
+    {
+      "label": "Verzamelaarsjaarbeurs Utrecht",
+      "url": "https://www.verzamelaarsjaarbeurs.nl/"
     },
     {
       "label": "Popfiguren — speelgoedbeurzen 2026",
@@ -174,19 +200,29 @@
   "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf.",
   "agenda": [
     {
-      "date": "2026-09-11",
-      "label": "Target Fall Geek-Out gaat van start",
-      "note": "Elke vrijdag een drop, tot en met 2 oktober. Amerikaans, maar de retro-gekaarte exclusieven die hier uitkomen bepalen wel waar de doorverkoop het over heeft."
+      "date": "2026-09-23",
+      "label": "Preorder Holiday Special Spider-Man",
+      "note": "13 uur Eastern, dus 19 uur hier. Algemene release, dus geen haast, maar wel de eerste van drie Marvel-preorders op rij."
     },
     {
-      "date": "2026-09-12",
-      "label": "Toyplosion 4 in Castrop-Rauxel",
-      "note": "Zaterdag, anderhalf uur rijden vanaf de grens. Puur retro speelgoed; vorige editie trok zo'n vierduizend bezoekers."
+      "date": "2026-09-25",
+      "label": "Endgame terug in de bioscoop, met een blik op Doomsday",
+      "note": "Disney heeft een exclusief fragment aan de heruitgave gehangen. Vanaf die dag gaat er weer vers Doomsday-beeld rond."
     },
     {
       "date": "2026-09-26",
       "label": "Godzilla Minus Zero — wereldpremière",
-      "note": "New York Film Festival. Eerste recensies komen hier vandaan; het moment waarop de kaiju-aandacht een schok omhoog krijgt."
+      "note": "New York Film Festival. Hier komen de eerste recensies vandaan en hier krijgt de kaiju-aandacht zijn eerste schok."
+    },
+    {
+      "date": "2026-09-29",
+      "label": "Preorder Marvel Legends Retro Cardback Series",
+      "note": "13 uur Eastern. Fan channel exclusive, dus dit is er een waar je op tijd voor moet zijn."
+    },
+    {
+      "date": "2026-10-06",
+      "label": "Preorder Marvel Legends mini-comic golf",
+      "note": "13 uur Eastern. Zes gekaarte figuren met mini-strip, waaronder Acroyear uit de Micronauts."
     },
     {
       "date": "2026-11-03",
@@ -200,14 +236,6 @@
     }
   ],
   "fairs": [
-    {
-      "date": "2026-09-12",
-      "name": "Toyplosion 4",
-      "city": "Castrop-Rauxel",
-      "country": "DE",
-      "note": "Europahalle, vanaf 10 uur. Noemt zichzelf de most powerful retro toyshow en dat klopt ongeveer: puur oud speelgoed, geen modeltreinen.",
-      "url": "https://www.toyplosion.de/tickets/"
-    },
     {
       "date": "2026-09-26",
       "name": "Weekend of Hell",
@@ -237,7 +265,7 @@
       "name": "Vintage Toys of the Universe",
       "city": "Lommel",
       "country": "BE",
-      "note": "De Soeverein, vierhonderd tafels. Star Wars, Turtles, MOTU, Thundercats, M.A.S.K., G.I. Joe. Voor jou de beste van het najaar, kaarten vanaf 5,95 euro.",
+      "note": "De Soeverein, vierhonderd tafels op 6.000 vierkante meter. Star Wars, Turtles, Transformers, MOTU, G.I. Joe, Thundercats, M.A.S.K. Kaarten vanaf 5,95 euro. Voor jou de beste van het najaar.",
       "url": "https://www.soevereinlommel.be/agenda/vintage-toys-of-the-universe/"
     },
     {
@@ -245,7 +273,7 @@
       "name": "Collect-Hit & Brocantissimo",
       "city": "Groot-Bijgaarden bij Brussel",
       "country": "BE",
-      "note": "Vijfentwintigste editie, 180 standhouders uit 15 landen op 5.200 vierkante meter. Breed, maar met een stevige hoek oud speelgoed en comics.",
+      "note": "Internationale verzamelbeurs met oud speelgoed, film- en tv-speelgoed en comics naast de klassieke modelhoek.",
       "url": "https://www.toymarket.eu/en/collect-hit-brocantissimo/"
     },
     {
@@ -253,7 +281,7 @@
       "name": "Actionfigurado",
       "city": "Didam",
       "country": "NL",
-      "note": "Markthal Didam, zestig tafels. Let op: het zwaartepunt ligt op 9 tot 12 inch figuren en customs, niet op 6-inch lijnen.",
+      "note": "Markthal Didam bij Zevenaar, zestig tafels op ruim 300 vierkante meter. Let op: het zwaartepunt ligt op 9 tot 12 inch figuren en customs, niet op 6-inch lijnen.",
       "url": "https://actionfigurado.weebly.com/"
     },
     {
@@ -269,7 +297,7 @@
       "name": "FACTS",
       "city": "Gent",
       "country": "BE",
-      "note": "31 oktober en 1 november, Flanders Expo. Grootste pop-culture-beurs van België, met een fors handelaarsgedeelte.",
+      "note": "31 oktober en 1 november, Flanders Expo. Zaterdag 9 tot 19 uur, zondag 9 tot 17 uur. Grootste pop-culture-beurs van België, met een fors handelaarsgedeelte.",
       "url": "https://www.facts.be/en/"
     },
     {
@@ -285,7 +313,7 @@
       "name": "Verzamelaarsjaarbeurs",
       "city": "Utrecht",
       "country": "NL",
-      "note": "14 en 15 november de publieksdagen, 13 november handelaarsdag. Twaalfhonderd stands vintage, retro games, filmprops en speelgoed.",
+      "note": "14 en 15 november de publieksdagen, 13 november handelaarsdag. Twaalfhonderd stands over drie hallen, met speelgoed, film en sci-fi, retro games en vintage als eigen categorieën.",
       "url": "https://www.verzamelaarsjaarbeurs.nl/"
     },
     {
@@ -306,10 +334,10 @@
     },
     {
       "date": "2026-12-05",
-      "name": "German Film & Comic Con",
+      "name": "German Film & Comic Con Winter Edition",
       "city": "Dortmund",
       "country": "DE",
-      "note": "5 en 6 december, Messe Dortmund. Acteurs, tekenaars en veel handelaren; goed bereikbaar vanaf de oostgrens.",
+      "note": "5 en 6 december, Messe Dortmund, hallen 4 tot en met 7. Zaterdag 10 tot 18 uur, zondag 10 tot 17 uur. Goed bereikbaar vanaf de oostgrens.",
       "url": "https://germanfilmcomiccon.com/en/home/"
     }
   ]
