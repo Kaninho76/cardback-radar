@@ -1,17 +1,34 @@
 {
- "updatedISO": "2026-09-15T01:31:53+00:00",
+ "updatedISO": "2026-09-15T07:50:41+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Disney Parks Droid Factory R0-M1 & RJ-83",
+   "url": "https://www.actionfigureinsider.com/disney-parks-droid-factory/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-15T04:41:54+00:00"
+  },
+  {
+   "title": "WWE LJN Superstars Wave 5 WWE Shop Preorder",
+   "url": "https://toyhabits.com/wwe-ljn-superstars-wave-5-wweshop-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-15T01:53:12+00:00"
+  },
+  {
+   "title": "Marvel DLX Iron Man Mark 1",
+   "url": "https://www.toyark.com/2026/09/14/marvel-dlx-iron-man-mark-1-599022",
+   "source": "The Toyark",
+   "iso": "2026-09-15T00:00:55+00:00"
+  },
   {
    "title": "Mattel WWE Elite Wave 130 & Ultimate Edition 29 Figures Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/14/mattel-wwe-elite-wave-130-ultimate-edition-29-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-wwe-elite-wave-130-ultimate-edition-29-figures-pre-orders",
@@ -263,100 +280,82 @@
    "url": "https://toyhypeusa.com/2026/09/11/ee-dc-transformers-star-wars-marvel-court-of-the-dead-kamen-rider-kpop-demon-hunters-ultraman-thundercats/?utm_source=rss&utm_medium=rss&utm_campaign=ee-dc-transformers-star-wars-marvel-court-of-the-dead-kamen-rider-kpop-demon-hunters-ultraman-thundercats",
    "source": "Toy Hype USA",
    "iso": "2026-09-11T17:00:49+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ X-Men Marvel’s Sentinels (Variants) Figures Set Pre-Orders (Update)",
-   "url": "https://toyhypeusa.com/2026/09/11/hasbro-marvel-legends-series-x-men-marvels-sentinels-variants-figures-set-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-marvels-sentinels-variants-figures-set-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-11T16:59:18+00:00"
-  },
-  {
-   "title": "Prepare for Maximum Carnage with Hasbro's Next Marvel Legends Figure",
-   "url": "https://bleedingcool.com/collectibles/prepare-for-maximum-carnage-with-hasbros-next-marvel-legends-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-11T16:52:09+00:00"
-  },
-  {
-   "title": "Hot Toys Exclusive Avengers: Doomsday 1/6 Victor Von Doom Revealed",
-   "url": "https://bleedingcool.com/collectibles/hot-toys-exclusive-avengers-doomsday-1-6-victor-von-doom-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-11T16:23:10+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-14T19:27:05+00:00",
+  "updatedISO": "2026-09-15T07:50:41+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2753,
-    "change": 63
+    "perDay": 2949,
+    "change": 74
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 1165,
+    "change": 35
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 103,
+    "change": 23
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 177,
+    "change": 13
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": 40
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 1140,
-    "change": 33
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 100,
-    "change": 19
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 170,
     "change": 8
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2256,
-    "change": -2
+    "perDay": 2236,
+    "change": -3
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 576,
+    "perDay": 572,
     "change": -7
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2449,
-    "change": -14
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 85,
+    "perDay": 84,
     "change": -15
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2381,
+    "change": -17
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 919,
-    "change": -44
+    "perDay": 889,
+    "change": -43
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1352,
-    "change": -48
+    "perDay": 1328,
+    "change": -46
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 17861,
+    "perDay": 17606,
     "change": -53
    }
   ],
