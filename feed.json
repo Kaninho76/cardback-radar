@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-15T07:50:41+00:00",
+ "updatedISO": "2026-09-15T13:37:23+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Spider-Man: Across The Spider-Verse – SV-Action Miles G. Morales Figure",
+   "url": "https://www.toyark.com/2026/09/15/spider-man-across-the-spider-verse-sv-action-miles-g-morales-figure-599040",
+   "source": "The Toyark",
+   "iso": "2026-09-15T11:50:43+00:00"
+  },
   {
    "title": "Disney Parks Droid Factory R0-M1 & RJ-83",
    "url": "https://www.actionfigureinsider.com/disney-parks-droid-factory/",
@@ -274,12 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/marvel-legends-earth-x-captain-america-figure-revealed-by-hasbro/",
    "source": "Bleeding Cool",
    "iso": "2026-09-11T17:22:09+00:00"
-  },
-  {
-   "title": "Entertainment Earth News: DC, Transformers, Star Wars, Marvel, Court of the Dead, Kamen Rider, KPop Demon Hunters, Ultraman & ThunderCats",
-   "url": "https://toyhypeusa.com/2026/09/11/ee-dc-transformers-star-wars-marvel-court-of-the-dead-kamen-rider-kpop-demon-hunters-ultraman-thundercats/?utm_source=rss&utm_medium=rss&utm_campaign=ee-dc-transformers-star-wars-marvel-court-of-the-dead-kamen-rider-kpop-demon-hunters-ultraman-thundercats",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-11T17:00:49+00:00"
   }
  ],
  "trends": {
