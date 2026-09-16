@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-09-16T00:25:45+00:00",
+ "updatedISO": "2026-09-16T06:05:58+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Ellen Ripley & Power Loader Set Hot Toys Official Images",
+   "url": "https://toyhabits.com/ellen-ripley-power-loader-set-hot-toys-official-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-16T04:47:25+00:00"
+  },
   {
    "title": "Man-At-Arms Sketch MOTU Origins Book Series In-Hand Review",
    "url": "https://toyhabits.com/man-at-arms-sketch-motu-origins-book-series-in-hand-review/",
@@ -274,12 +281,6 @@
    "url": "https://toyhabits.com/ramen-toy-motufest-2026-booth-images/",
    "source": "Toy Habits",
    "iso": "2026-09-12T14:50:44+00:00"
-  },
-  {
-   "title": "Hasbro Unveils New Spider-Man: The Animated Series Smythe Cardback",
-   "url": "https://bleedingcool.com/collectibles/hasbro-unveils-new-spider-man-the-animated-series-smythe-cardback/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-12T14:22:08+00:00"
   }
  ],
  "trends": {
