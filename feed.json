@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-09-16T06:05:58+00:00",
+ "updatedISO": "2026-09-16T11:45:00+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "Ellen Ripley & Power Loader Set Hot Toys Official Images",
@@ -284,79 +283,79 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-15T21:26:50+00:00",
+  "updatedISO": "2026-09-16T11:45:00+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2949,
-    "change": 74
+    "perDay": 3035,
+    "change": 78
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1165,
-    "change": 35
+    "perDay": 1172,
+    "change": 36
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 103,
-    "change": 23
+    "perDay": 106,
+    "change": 28
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 177,
-    "change": 13
+    "perDay": 179,
+    "change": 14
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": 8
+    "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2236,
-    "change": -3
+    "perDay": 2191,
+    "change": -5
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 572,
+    "perDay": 571,
     "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 84,
-    "change": -15
+    "perDay": 85,
+    "change": -13
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2381,
-    "change": -17
+    "perDay": 2326,
+    "change": -19
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 889,
-    "change": -43
+    "perDay": 845,
+    "change": -42
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1328,
-    "change": -46
+    "perDay": 1269,
+    "change": -45
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 17606,
+    "perDay": 17141,
     "change": -53
    }
   ],
