@@ -1,16 +1,65 @@
 {
- "updatedISO": "2026-09-16T11:45:00+00:00",
+ "updatedISO": "2026-09-16T17:04:05+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Teenage Mutant Ninja Turtles Super7 ReAction+ Wave 2 Preorder",
+   "url": "https://toyhabits.com/teenage-mutant-ninja-turtles-super7-reaction-wave-2-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-16T16:58:52+00:00"
+  },
+  {
+   "title": "Marvel’s Wolverine Launches Worldwide, Exclusively on PlayStation®5",
+   "url": "https://www.actionfigureinsider.com/marvels-wolverine-launches-worldwide-exclusively-on-playstation5/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-16T14:42:11+00:00"
+  },
+  {
+   "title": "Mattel and BBC Studios Expand the World of Bluey Through Multi-Brand Global Licensing Partnership",
+   "url": "https://www.actionfigureinsider.com/mattel-and-bbc-studios-expand-the-world-of-bluey-through-multi-brand-global-licensing-partnership/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-16T14:18:05+00:00"
+  },
+  {
+   "title": "Wandering Planet Toys Unveils PLANETOID RAIDERS – Collectable Retro-Style Action Figures From Beyond Outer Space",
+   "url": "https://www.actionfigureinsider.com/wandering-planet-toys-unveils-planetoid-raiders-collectable-retro-style-action-figures-from-beyond-outer-space/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-16T13:25:47+00:00"
+  },
+  {
+   "title": "Hasbro G.I. Joe Classified x Tomb Raider Lara Croft Figure Pre-Orders (Update)",
+   "url": "https://toyhypeusa.com/2026/09/16/hasbro-gijoe-classified-x-tomb-raider-lara-croft-figure-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-x-tomb-raider-lara-croft-figure-pre-orders-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-16T13:20:02+00:00"
+  },
+  {
+   "title": "Fright Zone Ring Masters of the WWE Universe In-Hand Images",
+   "url": "https://toyhabits.com/fright-zone-ring-masters-of-the-wwe-universe-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-16T13:04:55+00:00"
+  },
+  {
+   "title": "Cartman, Kenny, Stan And Kyle Are Back As “South America” Season 29 Premieres After Winning Sixth EMMY®",
+   "url": "https://www.actionfigureinsider.com/cartman-kenny-stan-and-kyle-are-back-as-south-america-season-29-premieres-after-winning-sixth-emmy/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-16T13:04:45+00:00"
+  },
+  {
+   "title": "Aliens – Hot Toys Power Loader and Ripley with Power Loader Set",
+   "url": "https://www.toyark.com/2026/09/16/aliens-hot-toys-power-loader-and-ripley-with-power-loader-set-599057",
+   "source": "The Toyark",
+   "iso": "2026-09-16T12:37:13+00:00"
+  },
   {
    "title": "Ellen Ripley & Power Loader Set Hot Toys Official Images",
    "url": "https://toyhabits.com/ellen-ripley-power-loader-set-hot-toys-official-images/",
@@ -232,54 +281,6 @@
    "url": "https://toyhypeusa.com/2026/09/12/hasbro-transformers-age-of-the-primes-armada-jetfire-figure-shipping-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-armada-jetfire-figure-shipping-update",
    "source": "Toy Hype USA",
    "iso": "2026-09-13T03:40:59+00:00"
-  },
-  {
-   "title": "Remaining Vintage Figures Still to be Released in MOTU Origins as of Fall 2026",
-   "url": "https://toyhabits.com/remaining-vintage-figures-still-to-be-released-in-motu-origins-as-of-fall-2026/",
-   "source": "Toy Habits",
-   "iso": "2026-09-13T01:44:07+00:00"
-  },
-  {
-   "title": "Hiya Toys Unveils New Exquisite Godzilla vs. Megaguirus (2000) Figure",
-   "url": "https://bleedingcool.com/collectibles/hiya-toys-unveils-new-exquisite-godzilla-vs-megaguirus-2000-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-12T18:22:08+00:00"
-  },
-  {
-   "title": "Spider-Man: The Animated Series Aunt May Marvel Legends Returns",
-   "url": "https://bleedingcool.com/collectibles/spider-man-the-animated-series-aunt-may-marvel-legends-returns/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-12T17:22:09+00:00"
-  },
-  {
-   "title": "New Marvel's Wolverine 1/6-scale Figure Brings the Fury to Hot Toys",
-   "url": "https://bleedingcool.com/collectibles/new-marvels-wolverine-1-6-scale-figure-brings-the-fury-to-hot-toys/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-12T16:22:10+00:00"
-  },
-  {
-   "title": "Catcha-Pult Flip-Or and the Champions of Nefarity Wave 2 Companion Figure",
-   "url": "https://toyhabits.com/catcha-pult-flip-or-and-the-champions-of-nefarity-wave-2-companion-figure/",
-   "source": "Toy Habits",
-   "iso": "2026-09-12T16:12:25+00:00"
-  },
-  {
-   "title": "Flip-Or and the Champions of Nefarity Wave 2 MOTUFest 2026 Booth Images",
-   "url": "https://toyhabits.com/flip-or-and-the-champions-of-nefarity-wave-2-motufest-2026-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-12T15:25:43+00:00"
-  },
-  {
-   "title": "Hasbro Announces New Retro Spider-Man Mary Jane Watson Card Back",
-   "url": "https://bleedingcool.com/collectibles/hasbro-announces-new-retro-spider-man-mary-jane-watson-card-back/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-12T15:22:08+00:00"
-  },
-  {
-   "title": "Ramen Toy MOTUFest 2026 Booth Images",
-   "url": "https://toyhabits.com/ramen-toy-motufest-2026-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-12T14:50:44+00:00"
   }
  ],
  "trends": {
