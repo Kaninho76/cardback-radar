@@ -1,8 +1,8 @@
 {
-  "updatedISO": "2026-09-16T08:30:00+02:00",
-  "updatedLabel": "woensdag 16 september 2026",
-  "quiet": false,
-  "quietNote": "",
+  "updatedISO": "2026-09-17T08:30:00+02:00",
+  "updatedLabel": "donderdag 17 september 2026",
+  "quiet": true,
+  "quietNote": "Vandaag kwam er geen enkele nieuwe onthulling uit de speelgoedpers; het verste nieuws is de Super7-golf van gisteren, de rest is lopende preorders die de komende twee weken opengaan.",
   "waves": [
     {
       "title": "Batman Day",
@@ -12,8 +12,8 @@
         "mode": "until",
         "unit": "dagen tot Batman Day"
       },
-      "body": "DC zet zaterdag de hele Batman-catalogus in de etalage. De kern is de one-shot Batman of Two Worlds voor 2,99 dollar, met een verhaal uit het gewone universum en een uit Absolute Batman in één boekje. Deelnemende winkels delen vier papieren maskers uit, getekend door Ryan Sook: gewone Batman, Absolute Batman, Hush en The Dark Knight Returns. Daarnaast vijf hardcovers en een reeks gratis digitale strips. Geen enkele speelgoedfabrikant heeft er een exclusieve figuur aan gehangen, dus de aandacht loopt zaterdag helemaal via beeld en niet via een preorder.",
-      "do": "Dit is de enige dag van het jaar waarop een Batman-foto vanzelf publiek vindt, en er is geen nieuwe figuur die met je meeconcurreert. Zet je oudste Batman en je nieuwste naast elkaar klaar en post zaterdagochtend, niet 's avonds; de dag loopt met de Amerikaanse winkelopeningen mee."
+      "body": "Overmorgen zet DC de hele Batman-catalogus in de etalage. De kern is de one-shot Batman of Two Worlds voor 2,99 dollar, met een verhaal uit het gewone universum en een uit Absolute Batman in één boekje. Deelnemende winkels delen vier papieren maskers uit, getekend door Ryan Sook: gewone Batman, Absolute Batman, Hush en The Dark Knight Returns. Daarnaast vijf hardcovers en een reeks gratis digitale strips. Er is nog altijd geen enkele fabrikant die er een exclusieve figuur aan heeft gehangen. Wat er wel rondgaat is de Absolute Batman die McFarlane vorige week op Funda Expo liet zien, maar die heeft nog geen preorderdatum.",
+      "do": "Twee dagen om iets klaar te zetten. Er is geen nieuwe figuur die zaterdag met je meeconcurreert, dus de dag is van wie het beste beeld heeft. Zoek vanavond je oudste Batman op, poets hem niet, en post zaterdagochtend — de dag loopt met de Amerikaanse winkelopeningen mee, niet met de onze."
     },
     {
       "title": "Godzilla Minus Zero",
@@ -23,39 +23,33 @@
         "mode": "until",
         "unit": "dagen tot de première"
       },
-      "body": "Sinds de IMAX-trailer van 9 september is bekend dat King Ghidorah de tegenstander is; de trailer eindigt met zijn schreeuw. Deze week kwam daar bij dat het Tokyo International Film Festival de film als centerpiece heeft gekozen, na de wereldpremière in New York op 26 september. Twee festivalmomenten vóór de gewone release betekent twee golven recensies. Tamashii heeft wel een S.H.MonsterArts Godzilla uit deze film, maar van een Ghidorah uit Minus Zero is nog niets aangekondigd.",
-      "do": "De aandacht gaat de komende tien dagen naar het monster dat nog geen figuur heeft. Wat jij wel hebt staan is Godzilla zelf, in meer versies dan de meeste mensen. Zet die op volgorde en laat de laatste plek leeg: dat gat is precies het gesprek dat nu loopt."
+      "body": "Over negen dagen gaat de film in New York in première, daarna volgt Tokio als centerpiece en pas op 3 november de gewone Japanse release. Twee festivalmomenten vóór de release betekent twee golven recensies. Aan speelgoedkant staat er al van alles klaar: de S.H.MonsterArts Godzilla uit deze film kan besteld worden voor 119,99 dollar met levering december, Bandai heeft een Movie Monster Series First Look Ver. uit, en op 13 november komt er een Ichiban Kuji-serie. Van het nieuwe monster uit de trailers is nog geen enkele figuur aangekondigd.",
+      "do": "De aandacht komt in twee schokken, en de eerste is over negen dagen. Post niet nu, maar plan je Godzilla-beeld op de 26e zelf — dan lopen de eerste recensies binnen en zoekt iedereen tegelijk op dezelfde naam. Wat jij hebt staan is Godzilla in meer versies dan de meeste mensen, en dat is precies wat er die dag niet te koop is."
     }
   ],
   "drops": [
     {
+      "maker": "Super7",
+      "what": "TMNT ReAction+ Wave 2 — Leonardo, Michelangelo, Bebop en Rocksteady",
+      "note": "Gisteren opengegaan, 25 dollar per stuk (BigBadToyStore rekent 24,98). Gebouwd naar het vintage G.I. Joe o-ring-formaat uit de jaren tachtig. BigBadToyStore zegt november 2026, Entertainment Earth zegt maart 2027 — dat verschil is groot genoeg om bij één winkel te blijven.",
+      "heat": "yours"
+    },
+    {
       "maker": "Mattel",
       "what": "MOTU Origins — Two-Bad",
-      "note": "Mattel Creations exclusive, woensdag 23 september om 9 uur Pacific, dus 18 uur onze tijd. Club Grayskull-leden mogen er een etmaal eerder bij. Nieuwe torso, nieuw gesculpte benen, andere verhoudingen en een gloednieuwe mini-strip in de doos.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Hasbro",
-      "what": "Marvel Legends — Retro Cardback Carnage (Maximum Carnage)",
-      "note": "Preorder 29 september om 13 uur Eastern. Twee extra handen, losse ongemaskerde kop en een symbiote-tendril effectstuk. De kaart draagt originele Maximum Carnage-artwork. Levering najaar 2026.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Hasbro",
-      "what": "Marvel Legends — Retro Cardback Series",
-      "note": "Aunt May, Mary Jane Watson, Smythe en Carnage, uit Spider-Man: The Animated Series. Preorder 29 september om 13 uur Eastern, fan channel exclusive. Hasbro noemt de lijn letterlijk naar de kaart.",
-      "heat": "yours"
-    },
-    {
-      "maker": "NECA",
-      "what": "TMNT Adventures — Leatherhead (Mighty Mutanimals)",
-      "note": "38 dollar bij Target, in de winkel vanaf oktober. Ruim 15 centimeter, bruin vest en paarse broek, verwisselbare handen, polsmes, Turnstone-bol en twee vuurwapens. Op de kaart staat Ken Mitchroney-artwork met de hele Mutanimals-ploeg. Dit is de laatste figuur van de Adventures-lijn.",
+      "note": "Mattel Creations exclusive, woensdag 23 september om 9 uur Pacific, dus 18 uur onze tijd. Club Grayskull-leden mogen er een etmaal eerder bij. Nieuwe torso, nieuw gesculpte benen en een mini-strip in de doos; de teaser liet een gunmetal vuist en een oranje schild zien.",
       "heat": "yours"
     },
     {
       "maker": "Hasbro",
       "what": "Marvel Legends — Holiday Special Spider-Man",
-      "note": "Preorder 23 september om 13 uur Eastern, algemene release. Harde kerstjas met bontrand, losse muts, zak met twee ingepakte cadeaus en een mini-Spider-Man.",
+      "note": "Preorder woensdag 23 september om 13 uur Eastern op Hasbro Pulse, dus 19 uur hier. Twee extra handen, afneembare kerstmuts en een stoffen zak met vier mystery cadeaus plus een mini-figuur. Levering najaar 2026.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hasbro",
+      "what": "Marvel Legends — Retro Cardback Series (Spider-Man: TAS)",
+      "note": "Aunt May, Mary Jane Watson, Smythe en Carnage. Preorder dinsdag 29 september om 13 uur Eastern. Aunt May heeft twee extra handen, een handtas en een exemplaar van Models, Inc. met Mary Jane op de cover; ze was eerder alleen te krijgen in de VHS-tweepack uit 2023. De Carnage draagt originele Maximum Carnage-artwork op de kaart. Levering najaar 2026.",
       "heat": "yours"
     },
     {
@@ -65,128 +59,138 @@
       "heat": "yours"
     },
     {
-      "maker": "Mondo",
-      "what": "MOTU 200X — Disco Skeletor 1/12",
-      "note": "Sinds gisteren 12 uur Eastern online voor 110 dollar. Vier verwisselbare schedelkoppen, drie paar handen, Havoc Staff, dubbelbladig zwaard en standaard. Geen oplagegetal op de pagina. De Ice Armor- en Fire Armor-set van vorige week staat inmiddels op uitverkocht.",
+      "maker": "McFarlane Toys x DC Direct",
+      "what": "DC Super Powers Wave 16",
+      "note": "Martian Manhunter, The Flash (Silver Age), Wonder Girl, Deathstroke, Superman uit de Justice Society en een metallic Cyborg. 80 dollar voor de hele set bij Entertainment Earth, verzending oktober 2026. Ruim 11 centimeter met vijf articulatiepunten, op de klassieke Super Powers-blisterkaart met bijgewerkte artwork.",
       "heat": "yours"
     },
     {
       "maker": "McFarlane",
-      "what": "DC Multiverse — Sinestro (Green Lantern Corps) en Plastic Man (The Terrifics)",
-      "note": "26,99 dollar per stuk, preorder sinds 10 september, verzending oktober 2026.",
+      "what": "DC Multiverse — Absolute Batman en de Collector Edition-reeks",
+      "note": "Vorige week getoond op Funda Expo. Absolute Batman komt als Elite Edition en wordt in de VS een Walmart-exclusive, in Canada bij EB Games. Daarnaast een bebloede Arkham City Batman bij GameStop en Collector Edition-figuren van Mera, Wonder Girl (met zwarte chase), Raven en Black Manta. Preorders zijn nog niet open en er staan nog geen prijzen bij.",
       "heat": "yours"
     },
     {
-      "maker": "Hiya Toys",
-      "what": "Godzilla vs. Megaguirus (2000) — Megaguirus",
-      "note": "Bijna 25 centimeter lang, in twee uitvoeringen van 107,99 en 64,99 dollar. Preorder sinds 11 september, maar verzending pas vierde kwartaal 2027.",
+      "maker": "Tamashii Nations",
+      "what": "S.H.MonsterArts — Godzilla (Minus Zero)",
+      "note": "Preorder loopt, 119,99 dollar, levering december 2026. Zestien centimeter, ABS en PVC, geen losse accessoires. De eerste figuur uit de nieuwe film die daadwerkelijk te bestellen is.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Playmates",
+      "what": "TMNT x G.I. Joe — Turtle-Fly Copter met Raph als Wild Bill",
+      "note": "64,99 dollar, Amazon-exclusive versie, sinds dinsdag weer op voorraad en ook bij Entertainment Earth en BigBadToyStore te krijgen. Dit is nog gewoon Playmates — vanaf 2027 zit de licentie bij Mattel.",
       "heat": "yours"
     },
     {
       "maker": "Target",
       "what": "Fall Geek-Out 2026 — derde drop",
-      "note": "Vier vrijdagen op rij: 11, 18 en 25 september en 2 oktober. Wat er vrijdag valt is nog niet bekendgemaakt; de eerste drop was Five Nights at Freddy's en Pokémon. Twee stuks per item per bestelling. Alleen in de VS, dus voor jou vooral een moment waarop de tijdlijn vol loopt.",
+      "note": "Morgen, vrijdag 18 september, de derde van vier vrijdagen; de laatste is 2 oktober. Een G.I. Joe Classified Snake Eyes en Jinx Ninja Force-tweepack staat op het programma voor deze reeks. Alleen in de VS, dus voor jou vooral het moment waarop de tijdlijn vrijdagavond vol dozen staat.",
       "heat": "hot"
     }
   ],
   "talk": [
     {
-      "title": "NECA stopt eind dit jaar met Turtles",
-      "body": "Mattel neemt vanaf 2027 de master toy license voor TMNT over van Playmates, dat hem ruim veertig jaar had. De bestaande sublicenties lopen af aan het eind van 2026 en NECA heeft in juli bevestigd dat de lijn erop zit. De 1987-tekenfilmlijn krijgt nog een afsluiting, de 2012-lijn stopt halverwege, en geplande stukken zijn geschrapt. De Leatherhead die nu in oktober komt is de laatste van de Adventures-reeks. Voor jouw planken betekent dat: wat er nu nog in de winkel ligt, ligt er straks niet meer, en de tweedehandsprijzen weten dat al."
+      "title": "De Turtles wisselen drie keer van hand tegelijk",
+      "body": "NECA stopt eind dit jaar: de sublicenties lopen af op 31 december en Mattel neemt vanaf 2027 de master toy license over van Playmates, die hem ruim veertig jaar had. En midden in die overgang zet Super7 gisteren gewoon een tweede ReAction+-golf in de verkoop, met Leonardo, Michelangelo, Bebop en Rocksteady in vintage o-ring-formaat. Voor een verzamelaar betekent dat iets simpels: wat er nu in de winkel ligt komt van drie fabrikanten die over een paar maanden niet meer dezelfde rechten hebben. De tweedehandsprijzen van de NECA-lijnen weten dat al."
     },
     {
-      "title": "De kaart heeft nu een eigen productlijn",
-      "body": "Op de Hasbro Pulse Fanstream van 10 september kreeg de nieuwe Spider-Man-golf officieel de naam Retro Cardback Series, en er komt een aparte golf die gekaart wordt geleverd met een mini-strip erbij. Daar is nu de Carnage bijgekomen met originele Maximum Carnage-artwork op de kaart. Waar de verpakking eerst een argument was tussen verzamelaars, staat ze nu als productnaam op de doos. Voor een pagina die op de kaart verzamelt is dat geen detail maar de kern."
+      "title": "De kaart is nu een productnaam, en niet alleen bij Hasbro",
+      "body": "Hasbro heeft de nieuwe Spider-Man-golf officieel Retro Cardback Series gedoopt en zet de kaart daarmee letterlijk op de doos. Deze maand komt daar de DC Super Powers Wave 16 van McFarlane en DC Direct naast te staan, op de oude blisterkaart met bijgewerkte artwork. Twee grote fabrikanten verkopen tegelijk de verpakking in plaats van de figuur. Voor een pagina die op de kaart verzamelt is dat geen detail, dat is precies het argument dat je al jaren maakt."
     },
     {
-      "title": "Godzilla krijgt twee festivals vóór de release",
-      "body": "Eerst New York op 26 september, daarna Tokio in oktober als centerpiece, en pas op 3 november de gewone Japanse release. Dat is ongebruikelijk voor een Toho-film en het betekent dat de kaiju-aandacht in twee schokken komt in plaats van één. Een Nederlandse bioscoopdatum is er nog steeds niet."
+      "title": "De MOTU-film is in de bioscoop gezakt en op streaming ontploft",
+      "body": "De film kostte 170 miljoen dollar en haalde er wereldwijd 114 miljoen op: 65 miljoen in Noord-Amerika en 49 miljoen daarbuiten. Op Prime Video, waar hij sinds 22 juli staat, stond hij in 47 van de 52 gemeten landen op één en werd er in de eerste week 1,17 miljard minuten naar gekeken. Op 20 oktober komt hij op dvd, blu-ray en 4K. Dat verschil verklaart waarom de filmfiguren in de uitverkoop liggen terwijl de vintage Origins-lijn gewoon doorloopt — en waarom Mattel Creations zijn geld nu op stukken als Two-Bad zet in plaats van op de film."
     }
   ],
   "ideas": [
     {
       "slot": "Op de golf",
-      "title": "Je oudste Batman en je nieuwste, in dezelfde houding en dezelfde uitsnede",
-      "hook": "Beeld één is de kap van je oudste Batman, vullend in beeld, licht van onderaf. Tekstregel: “zaterdag is Batman Day”.",
-      "why": "Zaterdag 19 september is Batman Day en geen enkele fabrikant heeft er een exclusieve figuur aan gehangen. Iedereen zoekt dus op Batman en niemand verkoopt er iets bij — de aandacht is die dag van wie het mooiste beeld heeft, niet van wie het nieuwste stuk heeft. Toen-en-nu in één beweging is precies het formaat dat daar past.",
-      "send": "je broer, die als kind jouw Batman altijd eerst pakte",
+      "title": "Wie had deze ook — je oudste Batman, van de kap naar de hele figuur, met het jaartal pas aan het eind",
+      "hook": "Beeld één is alleen de kap en de ogen van je oudste Batman, vullend in beeld, van iets onderaf. Tekstregel: “wie had deze ook?”",
+      "why": "Zaterdag is Batman Day en er is nog steeds geen enkele fabrikant die er een exclusieve figuur aan heeft gehangen — de Absolute Batman die McFarlane vorige week toonde heeft niet eens een preorderdatum. Iedereen zoekt die dag dus op Batman en niemand verkoopt er iets bij. Dat maakt het de ene dag van het jaar waarop een oude figuur het wint van een nieuwe, en “wie had deze ook” is het formaat dat mensen niet in de reacties beantwoorden maar in de DM.",
+      "send": "de vriend van vroeger die precies dezelfde had en van wie jij weet dat hij hem heeft weggedaan",
       "tags": "#batman #dccomics #actionfigures #toystagram",
       "shots": [
-        "Foto 1: kap van je oudste Batman, staand (9:16), van onderaf, tot net onder de kin. Anderhalve seconde.",
-        "Foto 2: zelfde hoek en zelfde hoogte, camera terug — hele figuur, met de sleet en de verkleuring erop. Twee seconden.",
-        "Foto 3: je nieuwste Batman, exact dezelfde houding, exact dezelfde uitsnede als foto 1. Anderhalve seconde.",
-        "Foto 4: zelfde hoek, camera terug — de nieuwe figuur helemaal, zodat het knipt als één beweging. Twee seconden.",
-        "Foto 5: de twee naast elkaar, oud links. Tekst in beeld: vanaf foto 1 “zaterdag is Batman Day”, bij foto 5 de twee jaartallen onder elkaar en niets meer."
+        "Foto 1: alleen de kap en de ogen, staand (9:16), heel dichtbij, licht van iets onderaf. Anderhalve seconde.",
+        "Foto 2: zelfde hoek, camera een stap terug — hoofd en schouders, cape half in beeld. Eén seconde.",
+        "Foto 3: zelfde hoek, hele figuur, met de sleet, de verkleuring en het losse scharnier er gewoon op. Twee seconden.",
+        "Foto 4: de figuur in je hand, zodat de schaal klopt en het geen productfoto meer is. Twee seconden.",
+        "Tekst in beeld: vanaf foto 1 “wie had deze ook?”, en pas bij foto 4 het jaartal plus “zaterdag is Batman Day”. Verder niets — het jaartal is de clou en die geef je niet weg."
       ]
     },
     {
       "slot": "Doorstuurbaar",
-      "title": "De Turtles-plank, met de mededeling dat NECA er eind dit jaar mee stopt",
-      "hook": "Beeld één is het gezicht van één Turtle, zo dichtbij dat je de knoop van de band ziet. Tekstregel: “NECA stopt eind dit jaar met Turtles”.",
-      "why": "Mattel neemt de TMNT-licentie vanaf 2027 over en de sublicenties lopen af op 31 december. NECA heeft bevestigd dat de lijn erop zit en de Leatherhead van oktober is de laatste Adventures-figuur. Dit is nieuws dat verzamelaars elkaar in de DM sturen, niet in de reacties zetten — en jij hebt de planken om het te laten zien in plaats van te melden.",
-      "send": "de vriend die met jou voor de tv zat toen de tekenfilm hier op zaterdagochtend draaide",
-      "tags": "#tmnt #neca #actionfigures #toystagram",
+      "title": "Je Godzilla's op een rij in volgorde van jaartal, en aan het eind de mededeling dat het nieuwe monster nog niet bestaat",
+      "hook": "Beeld één is de kop van je oudste Godzilla, zo dichtbij dat je de rugplaten niet eens ziet. Tekstregel: “over negen dagen komt de nieuwe”.",
+      "why": "Godzilla Minus Zero gaat 26 september in New York in première en daarna nog een keer in Tokio, dus de aandacht komt in twee golven vóór de release van 3 november. De enige figuur die je nu kunt bestellen is de S.H.MonsterArts Godzilla van 119,99 dollar met levering december; van het nieuwe monster uit de trailers is nog niets aangekondigd. Jij hebt de versies die er al zijn, en dat is precies waar het gesprek nu over gaat.",
+      "send": "de vriend met wie je vroeger de oude Toho-films op tv of dvd keek en die nog steeds weet welke welke is",
+      "tags": "#godzilla #kaiju #shmonsterarts #toystagram",
       "shots": [
-        "Foto 1: gezicht van één Turtle, staand (9:16), heel dichtbij, tot net buiten de band. Eén seconde.",
-        "Foto 2: zelfde hoek, camera terug — die hele figuur, wapens erbij. Anderhalve seconde.",
-        "Foto 3: dezelfde uitsnede als foto 1, maar de volgende Turtle. Eén seconde. Herhaal voor de derde en vierde als je ze hebt.",
-        "Foto 4: alle vier naast elkaar, één brede staande foto van de plank. Twee seconden.",
-        "Tekst in beeld: vanaf foto 1 “NECA stopt eind dit jaar met Turtles”, bij foto 4 “vanaf 2027 is het Mattel” en verder niets."
+        "Foto 1: kop van je oudste Godzilla, staand (9:16), heel dichtbij, zijaanzicht. Eén seconde.",
+        "Foto 2: zelfde hoek en zelfde hoogte, camera terug — die hele figuur alleen, donkere achtergrond. Anderhalve seconde.",
+        "Foto 3: dezelfde uitsnede als foto 2, maar de volgende Godzilla. Anderhalve seconde. Herhaal voor elke versie die je hebt, steeds identiek gekaderd, zodat het als één camerabeweging leest.",
+        "Foto 4: alle Godzilla's naast elkaar op volgorde, oudste links, één brede staande foto. Twee seconden.",
+        "Tekst in beeld: vanaf foto 1 “over negen dagen komt de nieuwe”, bij elke figuur alleen het jaartal, en bij foto 4 “en het nieuwe monster heeft nog geen figuur”. Meer niet."
       ]
     }
   ],
   "sources": [
     {
-      "label": "Toy Hype USA",
-      "url": "https://toyhypeusa.com/"
+      "label": "Toy Hype USA — Super7 TMNT ReAction+ Wave 2",
+      "url": "https://toyhypeusa.com/2026/09/16/super7-tmnt-reaction-wave-2-figures-available-now-pre-orders/"
     },
     {
-      "label": "Toy Habits",
-      "url": "https://toyhabits.com/"
+      "label": "Toy Hype USA — DC Super Powers Wave 16",
+      "url": "https://toyhypeusa.com/2026/09/03/mcfarlane-toys-x-dc-direct-dc-super-powers-wave-16-figures-pre-orders/"
     },
     {
-      "label": "The Toyark",
-      "url": "https://www.toyark.com/"
+      "label": "Toy Hype USA — Playmates TMNT x G.I. Joe Turtle-Fly Copter",
+      "url": "https://toyhypeusa.com/2026/09/15/playmates-toys-tmnt-x-gijoe-turtle-fly-copter-with-raph-as-wild-bill-available-now/"
+    },
+    {
+      "label": "Bleeding Cool — Retro Cardback Aunt May",
+      "url": "https://bleedingcool.com/collectibles/spider-man-the-animated-series-aunt-may-marvel-legends-returns/"
+    },
+    {
+      "label": "Bleeding Cool — Holiday Special Spider-Man",
+      "url": "https://bleedingcool.com/collectibles/spider-man-saves-christmas-with-hasbros-new-holiday-marvel-legends/"
+    },
+    {
+      "label": "Bleeding Cool — Maximum Carnage Marvel Legends",
+      "url": "https://bleedingcool.com/collectibles/prepare-for-maximum-carnage-with-hasbros-next-marvel-legends-figure/"
+    },
+    {
+      "label": "DCCollectors — McFarlane op Funda Expo 2026",
+      "url": "https://dccollectors.com/2026/09/11/mcfarlane-toys-unveils-absolute-batman-and-new-collector-edition-figures-at-funda-expo-2026/"
     },
     {
       "label": "DC — Batman Day 2026",
       "url": "https://www.dc.com/blog/2026-09-02/batman-day-2026"
     },
     {
-      "label": "Bleeding Cool — Marvel Legends Maximum Carnage",
-      "url": "https://bleedingcool.com/collectibles/prepare-for-maximum-carnage-with-hasbros-next-marvel-legends-figure/"
+      "label": "he-man.org — MOTU Origins Two-Bad op 23 september",
+      "url": "https://www.he-man.org/motu-origins-two-bad-coming-to-mattel-creations-sept-23/"
     },
     {
-      "label": "Bleeding Cool — TMNT gaat naar Mattel",
-      "url": "https://bleedingcool.com/collectibles/tmnt-is-now-with-mattel-so-what-does-that-mean-for-everyone-else/"
-    },
-    {
-      "label": "The Nostalgia Spot — het TMNT-landschap verandert",
-      "url": "https://thenostalgiaspot.com/2026/07/31/the-tmnt-collector-landscape-is-about-to-change/"
-    },
-    {
-      "label": "The Nostalgia Spot — NECA TMNT Adventures Leatherhead",
-      "url": "https://thenostalgiaspot.com/2026/09/08/neca-tmnt-adventures-leatherhead/"
-    },
-    {
-      "label": "Toy Habits — Two-Bad MOTU Origins",
-      "url": "https://toyhabits.com/two-bad-motu-origins-mattel-creations-exclusive-tease/"
+      "label": "heman.org — filmnieuws en Mondo-preorders",
+      "url": "https://heman.org/movie/news/"
     },
     {
       "label": "Toy Habits — Target Fall Geek-Out 2026",
       "url": "https://toyhabits.com/target-fall-geek-out-2026-is-back-with-new-collectibles-dropping-every-friday/"
     },
     {
-      "label": "heman.org — Mondo Disco Skeletor",
-      "url": "https://heman.org/movie/news/2026-09-12-mondo-disco-skeletor-official-images/"
-    },
-    {
-      "label": "Variety — Godzilla Minus Zero centerpiece in Tokio",
-      "url": "https://variety.com/2026/film/festivals/godzilla-minus-zero-tokyo-centerpiece-sukiyaki-colony-1236847173/"
+      "label": "BigBadToyStore — S.H.MonsterArts Godzilla Minus Zero",
+      "url": "https://www.bigbadtoystore.com/product/godzilla-minus-zero-2026-shmonsterarts-godzilla-action-figure-193546"
     },
     {
       "label": "Wikipedia — Godzilla Minus Zero",
       "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
+    },
+    {
+      "label": "Wikipedia — Masters of the Universe (2026)",
+      "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)"
     },
     {
       "label": "Marvel — Endgame: Encore terug in de bioscoop",
@@ -201,8 +205,16 @@
       "url": "https://www.popfiguren.nl/speelgoedbeurzen-2026/"
     },
     {
-      "label": "Verzamelaarsjaarbeurs Utrecht",
-      "url": "https://www.verzamelaarsjaarbeurs.nl/"
+      "label": "Meuk is leuk — agenda verzamelbeurzen",
+      "url": "https://www.meukisleuk.nl/agenda/verzamelbeurs"
+    },
+    {
+      "label": "Old School Toys — beursagenda",
+      "url": "https://www.old-school-toys.nl/nl/beursagenda"
+    },
+    {
+      "label": "Retro Kalender — beurzen België",
+      "url": "https://www.retrokalender.be/"
     }
   ],
   "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf.",
@@ -210,7 +222,7 @@
     {
       "date": "2026-09-18",
       "label": "Target Fall Geek-Out — derde drop",
-      "note": "Derde van vier vrijdagen. Inhoud nog niet bekend. Amerikaans, maar het is wel het moment waarop de tijdlijn vrijdagavond vol staat met nieuwe dozen."
+      "note": "Derde van vier vrijdagen, de laatste is 2 oktober. Amerikaans, maar het is wel het moment waarop de tijdlijn vrijdagavond vol staat met nieuwe dozen."
     },
     {
       "date": "2026-09-19",
@@ -225,7 +237,7 @@
     {
       "date": "2026-09-25",
       "label": "Avengers: Endgame — Encore terug in de bioscoop",
-      "note": "Heruitgave met een exclusieve blik op Doomsday eraan vast. Vanaf die dag gaat er weer vers Doomsday-beeld rond."
+      "note": "Heruitgave met een exclusieve blik op Doomsday eraan vast. Doomsday zelf komt 18 december uit, dus vanaf die dag gaat er weer vers beeld rond."
     },
     {
       "date": "2026-09-26",
@@ -234,8 +246,8 @@
     },
     {
       "date": "2026-09-29",
-      "label": "Preorder Marvel Legends Retro Cardback Series en Maximum Carnage",
-      "note": "13 uur Eastern, dus 19 uur hier. Fan channel exclusive, dus dit is er een waar je op tijd voor moet zijn."
+      "label": "Preorder Marvel Legends Retro Cardback Series",
+      "note": "13 uur Eastern, dus 19 uur hier. Aunt May, Mary Jane, Smythe en Carnage, plus de Maximum Carnage-kaart."
     },
     {
       "date": "2026-10-06",
@@ -243,9 +255,9 @@
       "note": "13 uur Eastern. Zes gekaarte figuren met mini-strip, waaronder Acroyear uit de Micronauts."
     },
     {
-      "date": "2026-11-03",
-      "label": "Godzilla Minus Zero in Japan",
-      "note": "Drie dagen later Noord-Amerika. Een Nederlandse bioscoopdatum is nog niet aangekondigd."
+      "date": "2026-10-20",
+      "label": "Masters of the Universe op dvd, blu-ray en 4K",
+      "note": "Ruim vier maanden na de bioscooprelease en drie maanden na Prime Video. Het moment waarop de filmfiguren verder in prijs zakken."
     }
   ],
   "fairs": [
@@ -254,7 +266,7 @@
       "name": "Retro Games & Vintage Toys beurs",
       "city": "Maldegem",
       "country": "BE",
-      "note": "Derde editie, Eventhall-ME aan de Industrielaan, 10 tot 15 uur, 6 euro. Verkopers uit heel België en Nederland, retrogames naast vintage speelgoed. Kort dagje, dus vroeg komen.",
+      "note": "Derde editie, Eventhall-ME aan de Industrielaan 6/3, 10 tot 15 uur, 6 euro. Verkopers uit heel België en Nederland, retrogames naast vintage speelgoed, gratis gameroom. Kort dagje, dus vroeg komen.",
       "url": "https://www.maldegem.be/activiteiten/detail/1590/3-retro-games-vintage-toys-beurs-maldegem"
     },
     {
@@ -270,15 +282,15 @@
       "name": "Collect-a-Con",
       "city": "Egmond aan Zee",
       "country": "NL",
-      "note": "26 en 27 september, hotel Zuiderduin. Zwaartepunt ligt bij trading cards en Funko; er staan wel tafels met losse figuren en vintage games tussen.",
-      "url": "https://www.collectacon.nl/"
+      "note": "26 en 27 september, hotel Zuiderduin, 10 tot 16 uur. Zwaartepunt ligt bij trading cards en Funko; er staan wel tafels met losse figuren en vintage games tussen.",
+      "url": "https://www.popfiguren.nl/speelgoedbeurzen-2026/"
     },
     {
       "date": "2026-09-27",
       "name": "Grote Barbie Verzamelbeurs",
       "city": "Woudenberg",
       "country": "NL",
-      "note": "Poppen, geen actiefiguren — maar wel vintage Mattel onder één dak, en dat is soms waar de goedkope MOTU-onderdelen liggen.",
+      "note": "Sport- en Zalencentrum De Camp. Poppen, geen actiefiguren — maar wel vintage Mattel onder één dak, en dat is soms waar de goedkope MOTU-onderdelen liggen.",
       "url": "https://www.meukisleuk.nl/agenda/verzamelbeurs"
     },
     {
@@ -286,32 +298,32 @@
       "name": "Vintage Toys of the Universe",
       "city": "Lommel",
       "country": "BE",
-      "note": "De Soeverein, vierhonderd tafels op 6.000 vierkante meter. Star Wars, Turtles, Transformers, MOTU, G.I. Joe, Thundercats, M.A.S.K. Voor jou de beste van het najaar — en met NECA's Turtles die eind dit jaar ophouden ook de logische plek om te zoeken.",
-      "url": "https://www.soevereinlommel.be/agenda/vintage-toys-of-the-universe/"
-    },
-    {
-      "date": "2026-10-04",
-      "name": "Collect-Hit & Brocantissimo",
-      "city": "Groot-Bijgaarden bij Brussel",
-      "country": "BE",
-      "note": "Vijfentwintigste editie. Internationale verzamelbeurs met oud speelgoed, film- en tv-speelgoed en comics naast de klassieke modelhoek.",
-      "url": "https://www.toymarket.eu/en/collect-hit-brocantissimo/"
+      "note": "De Soeverein, 10.30 tot 15.30 uur, vierhonderd tafels. Star Wars, Turtles, Transformers, MOTU, G.I. Joe, Thundercats, M.A.S.K. Voor jou de beste van het najaar — en met NECA's Turtles die eind dit jaar ophouden ook de logische plek om te zoeken.",
+      "url": "https://www.old-school-toys.nl/nl/beursagenda"
     },
     {
       "date": "2026-10-10",
       "name": "Actionfigurado",
       "city": "Didam",
       "country": "NL",
-      "note": "Markthal Didam bij Zevenaar, zestig tafels op ruim 300 vierkante meter. Let op: het zwaartepunt ligt op 9 tot 12 inch figuren en customs, niet op 6-inch lijnen.",
+      "note": "Markthal Didam bij Zevenaar, 8 tot 14 uur. Let op: het zwaartepunt ligt op 9 tot 12 inch figuren en customs, niet op 6-inch lijnen.",
       "url": "https://actionfigurado.weebly.com/"
     },
     {
-      "date": "2026-10-11",
-      "name": "Fashion Doll und Actionfiguren Börse",
-      "city": "Gröbenzell bij München",
-      "country": "DE",
-      "note": "Wildmooshalle, 10 tot 16 uur, 5 euro entree. Zet actiefiguren letterlijk in de naam, al is de helft van de zaal Barbie.",
-      "url": "https://vintagebarbies.wixsite.com/vintage-barbie-in-de/barbie-b%C3%B6rsen-termine"
+      "date": "2026-10-17",
+      "name": "Gaming Collectors Beurs",
+      "city": "Aarschot",
+      "country": "BE",
+      "note": "17 en 18 oktober, Stadsfeestzaal. Vooral games en trading cards, maar de vintage-tafels nemen elk jaar toe. Anderhalf uur rijden vanaf de zuidgrens.",
+      "url": "https://www.aarschot.be/activiteiten/detail/855/gaming-collectors-beurs"
+    },
+    {
+      "date": "2026-10-24",
+      "name": "Comic Con Brussels",
+      "city": "Brussel",
+      "country": "BE",
+      "note": "24 en 25 oktober, Tour & Taxis, Havenlaan 86c. Zaterdag 10 tot 19 uur, zondag 10 tot 17 uur. Comics, cosplay, gaming en sci-fi, met een stevig handelaarsgedeelte.",
+      "url": "https://comicconbrussels.com/en/info-v2-en/"
     },
     {
       "date": "2026-10-31",
