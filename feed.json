@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-16T22:59:45+00:00",
+ "updatedISO": "2026-09-17T01:30:17+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
@@ -12,6 +12,12 @@
   "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "BigBadToyStore News: TMNT, DC sale, Transformers, StarCraft, Zelda, Nendoroids & More",
+   "url": "https://toyhypeusa.com/2026/09/16/bbts-tmnt-dc-sale-transformers-starcraft-zelda-nendoroids/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-tmnt-dc-sale-transformers-starcraft-zelda-nendoroids",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-16T23:17:34+00:00"
+  },
   {
    "title": "Super7 Teenage Mutant Ninja Turtles ReAction+ Wave 2 Figures Pre-Orders (Update)",
    "url": "https://toyhypeusa.com/2026/09/16/super7-tmnt-reaction-wave-2-figures-available-now-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-tmnt-reaction-wave-2-figures-available-now-pre-orders",
@@ -275,41 +281,35 @@
    "url": "https://www.actionfigureinsider.com/bow-before-monogram-internationals-nycc-exclusive-4-dr-doom-bank-exclusive/",
    "source": "Action Figure Insider",
    "iso": "2026-09-13T13:00:05+00:00"
-  },
-  {
-   "title": "I Checked out GalaxyCon Des Moines 2026",
-   "url": "https://www.actionfigureinsider.com/i-checked-out-galaxycon-des-moines-2026/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-13T07:38:42+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-16T11:45:00+00:00",
+  "updatedISO": "2026-09-17T01:30:17+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 3035,
-    "change": 78
+    "perDay": 2912,
+    "change": 66
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1172,
-    "change": 36
+    "perDay": 1097,
+    "change": 24
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 106,
-    "change": 28
+    "perDay": 100,
+    "change": 17
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 179,
-    "change": 14
+    "perDay": 174,
+    "change": 12
    },
    {
     "label": "Transformers",
@@ -318,45 +318,45 @@
     "change": -2
    },
    {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2191,
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 580,
     "change": -5
    },
    {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 571,
-    "change": -7
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2163,
+    "change": -6
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 85,
-    "change": -13
+    "perDay": 86,
+    "change": -10
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2326,
+    "perDay": 2312,
     "change": -19
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 845,
+    "perDay": 819,
     "change": -42
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1269,
-    "change": -45
+    "perDay": 1239,
+    "change": -44
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 17141,
+    "perDay": 16677,
     "change": -53
    }
   ],
