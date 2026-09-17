@@ -1,17 +1,29 @@
 {
- "updatedISO": "2026-09-17T07:44:59+00:00",
+ "updatedISO": "2026-09-17T13:33:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError"
+  "The Toyark: HTTP 403"
  ],
  "items": [
+  {
+   "title": "Jazwares Partners With Sanrio to Expand Its Hello Kitty and Friends Range to EMEA",
+   "url": "https://www.actionfigureinsider.com/jazwares-partners-with-sanrio-to-expand-its-hello-kitty-and-friends-range-to-emea/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-17T12:59:00+00:00"
+  },
+  {
+   "title": "The first ever Dejah Thoris 1:12 Scale Action Figure",
+   "url": "https://www.actionfigureinsider.com/the-first-ever-dejah-thoris-112-scale-action-figure/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-17T12:00:03+00:00"
+  },
   {
    "title": "Mattel WWE Ultimate Edition Jey Uso Figure Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/17/mattel-wwe-ultimate-edition-jey-uso-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-wwe-ultimate-edition-jey-uso-figure-pre-orders",
@@ -31,10 +43,22 @@
    "iso": "2026-09-16T23:17:34+00:00"
   },
   {
+   "title": "threezero Exits the Cave with New Marvel DLX Iron Man Mark 1 Figure",
+   "url": "https://bleedingcool.com/collectibles/threezero-exits-the-cave-with-new-marvel-dlx-iron-man-mark-1-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-16T18:22:10+00:00"
+  },
+  {
    "title": "Super7 Teenage Mutant Ninja Turtles ReAction+ Wave 2 Figures Pre-Orders (Update)",
    "url": "https://toyhypeusa.com/2026/09/16/super7-tmnt-reaction-wave-2-figures-available-now-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-tmnt-reaction-wave-2-figures-available-now-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-09-16T17:53:53+00:00"
+  },
+  {
+   "title": "Save the Universe with Hot Toys New 1/6 Aliens Ripley Power Loader Set",
+   "url": "https://bleedingcool.com/collectibles/save-the-universe-with-hot-toys-new-1-6-aliens-ripley-power-loader-set/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-16T17:22:09+00:00"
   },
   {
    "title": "Teenage Mutant Ninja Turtles Super7 ReAction+ Wave 2 Preorder",
@@ -43,10 +67,28 @@
    "iso": "2026-09-16T16:58:52+00:00"
   },
   {
+   "title": "Blokees Deploys Star Wars Champion Class Commander Cody into Battle",
+   "url": "https://bleedingcool.com/collectibles/blokees-deploys-star-wars-champion-class-commander-cody-into-battle/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-16T16:23:19+00:00"
+  },
+  {
+   "title": "Obi-Wan Kenobi Brings Balance to the Force with Star Wars Blokees",
+   "url": "https://bleedingcool.com/collectibles/obi-wan-kenobi-brings-balance-to-the-force-with-star-wars-blokees/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-16T15:23:21+00:00"
+  },
+  {
    "title": "Marvel’s Wolverine Launches Worldwide, Exclusively on PlayStation®5",
    "url": "https://www.actionfigureinsider.com/marvels-wolverine-launches-worldwide-exclusively-on-playstation5/",
    "source": "Action Figure Insider",
    "iso": "2026-09-16T14:42:11+00:00"
+  },
+  {
+   "title": "Sentinel Unveils Spider-Man: Across The Spider-Verse Miles G. Morales",
+   "url": "https://bleedingcool.com/collectibles/sentinel-unveils-spider-man-across-the-spider-verse-miles-g-morales/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-16T14:22:11+00:00"
   },
   {
    "title": "Mattel and BBC Studios Expand the World of Bluey Through Multi-Brand Global Licensing Partnership",
@@ -239,52 +281,10 @@
    "url": "https://www.toyark.com/2026/09/14/tamashii-nations-nycc-2026-exclusives-announced-598997",
    "source": "The Toyark",
    "iso": "2026-09-14T11:44:00+00:00"
-  },
-  {
-   "title": "BigBadWorkShop – Soldiers of Fortune Wave 2 The Agent/The Enemy 1/12 Scale Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/14/bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-14T04:01:37+00:00"
-  },
-  {
-   "title": "Ninja Force Destro and Quick Kick GI Joe ReAction+ Review",
-   "url": "https://toyhabits.com/ninja-force-destro-and-quick-kick-gi-joe-reaction-review/",
-   "source": "Toy Habits",
-   "iso": "2026-09-14T00:25:04+00:00"
-  },
-  {
-   "title": "McFarlane Toys Brings Back Sinestro (Green Lantern Corps) Figure",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-brings-back-sinestro-green-lantern-corps-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-13T18:22:08+00:00"
-  },
-  {
-   "title": "Make Room for the New Transformers Delta Magnus Primal Vanguard Set",
-   "url": "https://bleedingcool.com/collectibles/make-room-for-the-new-transformers-delta-magnus-primal-vanguard-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-13T16:22:09+00:00"
-  },
-  {
-   "title": "Transformers x Evangelion Synergenex Series Prime 02 Figure Unveiled",
-   "url": "https://bleedingcool.com/collectibles/transformers-x-evangelion-synergenex-series-prime-02-figure-unveiled/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-13T15:23:08+00:00"
-  },
-  {
-   "title": "Shop ATLUS Offers New Exclusive Persona 4 Revival Merchandise Bundles",
-   "url": "https://www.actionfigureinsider.com/shop-atlus-offers-new-exclusive-persona-4-revival-merchandise-bundles/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-13T15:00:51+00:00"
-  },
-  {
-   "title": "New Dinobot Island Part 1 Transformers Takara Tomy Set Revealed",
-   "url": "https://bleedingcool.com/collectibles/new-dinobot-island-part-1-transformers-takara-tomy-set-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-13T14:23:13+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-17T01:30:17+00:00",
+  "updatedISO": "2026-09-17T13:33:35+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
