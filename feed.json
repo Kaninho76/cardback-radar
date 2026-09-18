@@ -1,17 +1,58 @@
 {
- "updatedISO": "2026-09-18T16:28:51+00:00",
+ "updatedISO": "2026-09-18T19:41:58+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "“FAST & FURIOUS: HOLLYWOOD DRIFT” IS NOW OPEN!",
+   "url": "https://www.actionfigureinsider.com/fast-furious-hollywood-drift-is-now-open/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-18T19:09:37+00:00"
+  },
+  {
+   "title": "Celebrate Batman Day at Warner Bros. Studio Tour Hollywood",
+   "url": "https://www.actionfigureinsider.com/celebrate-batman-day-at-warner-bros-studio-tour-hollywood/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-18T18:51:52+00:00"
+  },
+  {
+   "title": "McFarlane Toys Debuts New DC Super Powers Retro Dr. Mid-Nite Figure",
+   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-debuts-new-dc-super-powers-retro-dr-mid-nite-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-18T18:51:08+00:00"
+  },
+  {
+   "title": "Entertainment Earth News: Star Wars, Kamen Rider, Transformers, DC, Marvel, Fallout, KPop Demon Hunters & Ultraman",
+   "url": "https://toyhypeusa.com/2026/09/18/ee-star-wars-kamen-rider-transformers-dc-marvel-fallout-kpop-demon-hunters-ultraman/?utm_source=rss&utm_medium=rss&utm_campaign=ee-star-wars-kamen-rider-transformers-dc-marvel-fallout-kpop-demon-hunters-ultraman",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-18T18:00:24+00:00"
+  },
+  {
+   "title": "Train Your DC Super Powers Collection with McFarlane's New Wildcat",
+   "url": "https://bleedingcool.com/collectibles/train-your-dc-super-powers-collection-with-mcfarlanes-new-wildcat/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-18T17:52:08+00:00"
+  },
+  {
+   "title": "DC Comics Wonder Girl Saves the Day with New McFarlane Toys Release",
+   "url": "https://bleedingcool.com/collectibles/dc-comics-wonder-girl-saves-the-day-with-new-mcfarlane-toys-release/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-18T16:52:08+00:00"
+  },
+  {
+   "title": "McFarlane Page Punchers Batman & Nightwing Preorders",
+   "url": "https://toyhabits.com/mcfarlane-page-punchers-batman-nightwing-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-09-18T16:39:19+00:00"
+  },
   {
    "title": "McFarlane Toys DC Multiverse – DC Page Punchers Batman & Nightwing Figures Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/18/mcfarlane-toys-dc-multiverse-dc-page-punchers-batman-nightwing-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-dc-page-punchers-batman-nightwing-figures-pre-orders",
@@ -83,6 +124,36 @@
    "url": "https://toyhabits.com/dire-hawk-gi-joe-classified-series-figure-discovered-on-ebay/",
    "source": "Toy Habits",
    "iso": "2026-09-18T12:54:51+00:00"
+  },
+  {
+   "title": "The Chosen Prime Newsletter September 18, 2026",
+   "url": "https://www.toyark.com/2026/09/18/the-chosen-prime-newsletter-september-18-2026-599172",
+   "source": "The Toyark",
+   "iso": "2026-09-18T12:38:58+00:00"
+  },
+  {
+   "title": "TMNT – Leonardo, Michelangelo, Bebop, and Rocksteady ReAction Figure Pre-Orders",
+   "url": "https://www.toyark.com/2026/09/18/tmnt-leonardo-michelangelo-bebop-and-rocksteady-reaction-figure-pre-orders-599160",
+   "source": "The Toyark",
+   "iso": "2026-09-18T12:35:46+00:00"
+  },
+  {
+   "title": "The Flash Movie – Hot Toys Batman Arctic Suit Figure",
+   "url": "https://www.toyark.com/2026/09/18/the-flash-movie-hot-toys-batman-arctic-suit-figure-599134",
+   "source": "The Toyark",
+   "iso": "2026-09-18T12:18:12+00:00"
+  },
+  {
+   "title": "McFarlane Toys DC Previews – DC Multiverse Gold Label Arkham City Batman, Batman Beyond Cowl, Page Punchers Batman, and Page Punchers Nightwing",
+   "url": "https://www.toyark.com/2026/09/18/mcfarlane-toys-dc-previews-dc-multiverse-gold-label-arkham-city-batman-batman-beyond-cowl-page-punchers-batman-and-page-punchers-nightwing-599126",
+   "source": "The Toyark",
+   "iso": "2026-09-18T12:07:08+00:00"
+  },
+  {
+   "title": "Elvira: Mistress of the Dark – NECA Ultimate Elvira Figure",
+   "url": "https://www.toyark.com/2026/09/18/elvira-mistress-of-the-dark-neca-ultimate-elvira-figure-599122",
+   "source": "The Toyark",
+   "iso": "2026-09-18T11:46:45+00:00"
   },
   {
    "title": "DC Multiverse McFarlane Collector Edition Wave 16 Preorders",
@@ -163,10 +234,40 @@
    "iso": "2026-09-17T12:59:00+00:00"
   },
   {
+   "title": "BBTS News – TMNT, DC sale, Transformers, StarCraft, Zelda, Nendoroids and More",
+   "url": "https://www.toyark.com/2026/09/17/bbts-news-tmnt-dc-sale-transformers-starcraft-zelda-nendoroids-and-more-599119",
+   "source": "The Toyark",
+   "iso": "2026-09-17T12:25:33+00:00"
+  },
+  {
+   "title": "DC Comics – Amazing Yamaguchi Revoltech Peacemaker Preview",
+   "url": "https://www.toyark.com/2026/09/17/dc-comics-amazing-yamaguchi-revoltech-peacemaker-preview-599116",
+   "source": "The Toyark",
+   "iso": "2026-09-17T12:21:28+00:00"
+  },
+  {
+   "title": "Ninja Gaiden – New Revoltech Previews",
+   "url": "https://www.toyark.com/2026/09/17/ninja-gaiden-new-revoltech-previews-599109",
+   "source": "The Toyark",
+   "iso": "2026-09-17T12:17:40+00:00"
+  },
+  {
+   "title": "Ultraman – S.H. Figuarts Jirahs",
+   "url": "https://www.toyark.com/2026/09/17/ultraman-s-h-figuarts-jirahs-599099",
+   "source": "The Toyark",
+   "iso": "2026-09-17T12:00:35+00:00"
+  },
+  {
    "title": "The first ever Dejah Thoris 1:12 Scale Action Figure",
    "url": "https://www.actionfigureinsider.com/the-first-ever-dejah-thoris-112-scale-action-figure/",
    "source": "Action Figure Insider",
    "iso": "2026-09-17T12:00:03+00:00"
+  },
+  {
+   "title": "DC Multiverse – DC Classic Mera, Black Manta, Wonder Girl, and Raven",
+   "url": "https://www.toyark.com/2026/09/17/dc-multiverse-dc-classic-mera-black-manta-wonder-girl-and-raven-599091",
+   "source": "The Toyark",
+   "iso": "2026-09-17T11:42:10+00:00"
   },
   {
    "title": "Mattel WWE Ultimate Edition Jey Uso Figure Pre-Orders",
@@ -179,112 +280,10 @@
    "url": "https://toyhypeusa.com/2026/09/16/hasbro-marvels-avengers-doomsday-actionverse-duo-of-doom-2-pack-with-doctor-doom-sentinel-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvels-avengers-doomsday-actionverse-duo-of-doom-2-pack-with-doctor-doom-sentinel-figures-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-17T02:46:24+00:00"
-  },
-  {
-   "title": "BigBadToyStore News: TMNT, DC sale, Transformers, StarCraft, Zelda, Nendoroids & More",
-   "url": "https://toyhypeusa.com/2026/09/16/bbts-tmnt-dc-sale-transformers-starcraft-zelda-nendoroids/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-tmnt-dc-sale-transformers-starcraft-zelda-nendoroids",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-16T23:17:34+00:00"
-  },
-  {
-   "title": "threezero Exits the Cave with New Marvel DLX Iron Man Mark 1 Figure",
-   "url": "https://bleedingcool.com/collectibles/threezero-exits-the-cave-with-new-marvel-dlx-iron-man-mark-1-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-16T18:22:10+00:00"
-  },
-  {
-   "title": "Super7 Teenage Mutant Ninja Turtles ReAction+ Wave 2 Figures Pre-Orders (Update)",
-   "url": "https://toyhypeusa.com/2026/09/16/super7-tmnt-reaction-wave-2-figures-available-now-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-tmnt-reaction-wave-2-figures-available-now-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-16T17:53:53+00:00"
-  },
-  {
-   "title": "Save the Universe with Hot Toys New 1/6 Aliens Ripley Power Loader Set",
-   "url": "https://bleedingcool.com/collectibles/save-the-universe-with-hot-toys-new-1-6-aliens-ripley-power-loader-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-16T17:22:09+00:00"
-  },
-  {
-   "title": "Teenage Mutant Ninja Turtles Super7 ReAction+ Wave 2 Preorder",
-   "url": "https://toyhabits.com/teenage-mutant-ninja-turtles-super7-reaction-wave-2-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-16T16:58:52+00:00"
-  },
-  {
-   "title": "Blokees Deploys Star Wars Champion Class Commander Cody into Battle",
-   "url": "https://bleedingcool.com/collectibles/blokees-deploys-star-wars-champion-class-commander-cody-into-battle/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-16T16:23:19+00:00"
-  },
-  {
-   "title": "Obi-Wan Kenobi Brings Balance to the Force with Star Wars Blokees",
-   "url": "https://bleedingcool.com/collectibles/obi-wan-kenobi-brings-balance-to-the-force-with-star-wars-blokees/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-16T15:23:21+00:00"
-  },
-  {
-   "title": "Marvel’s Wolverine Launches Worldwide, Exclusively on PlayStation®5",
-   "url": "https://www.actionfigureinsider.com/marvels-wolverine-launches-worldwide-exclusively-on-playstation5/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-16T14:42:11+00:00"
-  },
-  {
-   "title": "Sentinel Unveils Spider-Man: Across The Spider-Verse Miles G. Morales",
-   "url": "https://bleedingcool.com/collectibles/sentinel-unveils-spider-man-across-the-spider-verse-miles-g-morales/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-16T14:22:11+00:00"
-  },
-  {
-   "title": "Mattel and BBC Studios Expand the World of Bluey Through Multi-Brand Global Licensing Partnership",
-   "url": "https://www.actionfigureinsider.com/mattel-and-bbc-studios-expand-the-world-of-bluey-through-multi-brand-global-licensing-partnership/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-16T14:18:05+00:00"
-  },
-  {
-   "title": "Wandering Planet Toys Unveils PLANETOID RAIDERS – Collectable Retro-Style Action Figures From Beyond Outer Space",
-   "url": "https://www.actionfigureinsider.com/wandering-planet-toys-unveils-planetoid-raiders-collectable-retro-style-action-figures-from-beyond-outer-space/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-16T13:25:47+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified x Tomb Raider Lara Croft Figure Pre-Orders (Update)",
-   "url": "https://toyhypeusa.com/2026/09/16/hasbro-gijoe-classified-x-tomb-raider-lara-croft-figure-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-x-tomb-raider-lara-croft-figure-pre-orders-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-16T13:20:02+00:00"
-  },
-  {
-   "title": "Fright Zone Ring Masters of the WWE Universe In-Hand Images",
-   "url": "https://toyhabits.com/fright-zone-ring-masters-of-the-wwe-universe-in-hand-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-16T13:04:55+00:00"
-  },
-  {
-   "title": "Cartman, Kenny, Stan And Kyle Are Back As “South America” Season 29 Premieres After Winning Sixth EMMY®",
-   "url": "https://www.actionfigureinsider.com/cartman-kenny-stan-and-kyle-are-back-as-south-america-season-29-premieres-after-winning-sixth-emmy/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-16T13:04:45+00:00"
-  },
-  {
-   "title": "Aliens – Hot Toys Power Loader and Ripley with Power Loader Set",
-   "url": "https://www.toyark.com/2026/09/16/aliens-hot-toys-power-loader-and-ripley-with-power-loader-set-599057",
-   "source": "The Toyark",
-   "iso": "2026-09-16T12:37:13+00:00"
-  },
-  {
-   "title": "Ellen Ripley & Power Loader Set Hot Toys Official Images",
-   "url": "https://toyhabits.com/ellen-ripley-power-loader-set-hot-toys-official-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-16T04:47:25+00:00"
-  },
-  {
-   "title": "Man-At-Arms Sketch MOTU Origins Book Series In-Hand Review",
-   "url": "https://toyhabits.com/man-at-arms-sketch-motu-origins-book-series-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-09-15T23:03:01+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-18T06:00:25+00:00",
+  "updatedISO": "2026-09-18T19:41:58+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
