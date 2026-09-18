@@ -1,17 +1,29 @@
 {
- "updatedISO": "2026-09-18T00:24:12+00:00",
+ "updatedISO": "2026-09-18T06:00:25+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError",
   "The Toyark: HTTP 403"
  ],
  "items": [
+  {
+   "title": "DC Multiverse McFarlane Collector Edition Wave 16 Preorders",
+   "url": "https://toyhabits.com/dc-multiverse-mcfarlane-collector-edition-wave-16-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-09-18T03:47:25+00:00"
+  },
+  {
+   "title": "Snake Eyes & Jinx Ninja Force 2-Pack Target Fall Geek-Out 2026 Preorder",
+   "url": "https://toyhabits.com/snake-eyes-jinx-ninja-force-2-pack-target-fall-geek-out-2026-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-18T00:58:16+00:00"
+  },
   {
    "title": "Hasbro Marvel Legends Series 6″ The Thunderbolts – The Void & Valentina Allegra De Fontaine Figures 2-Pack Available Now",
    "url": "https://toyhypeusa.com/2026/09/17/hasbro-marvel-legends-series-the-thunderbolts-the-void-valentina-allegra-de-fontaine-figures-2-pack-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-the-thunderbolts-the-void-valentina-allegra-de-fontaine-figures-2-pack-available-now",
@@ -269,94 +281,82 @@
    "url": "https://bleedingcool.com/collectibles/set-sail-with-mcdonalds-new-spongebob-x-one-piece-happy-meal/",
    "source": "Bleeding Cool",
    "iso": "2026-09-15T15:23:10+00:00"
-  },
-  {
-   "title": "S.H.MonsterArts Burning Millennium Godzilla Brings Heat to NYCC 2026",
-   "url": "https://bleedingcool.com/collectibles/s-h-monsterarts-burning-millennium-godzilla-brings-heat-to-nycc-2026/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-15T14:52:08+00:00"
-  },
-  {
-   "title": "Downton Abbey makes a grand debut in LEGO® brick form",
-   "url": "https://www.actionfigureinsider.com/downton-abbey-makes-a-grand-debut-in-lego-brick-form/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-15T14:21:42+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-17T13:33:35+00:00",
+  "updatedISO": "2026-09-18T06:00:25+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2912,
-    "change": 66
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 1097,
-    "change": 24
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 100,
-    "change": 17
+    "perDay": 2800,
+    "change": 56
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 174,
-    "change": 12
+    "perDay": 190,
+    "change": 22
    },
    {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": -2
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 1023,
+    "change": 13
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 92,
+    "change": 5
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 580,
-    "change": -5
+    "perDay": 614,
+    "change": 1
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2163,
+    "perDay": 2153,
     "change": -6
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 86,
-    "change": -10
+    "perDay": 84,
+    "change": -11
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2312,
+    "perDay": 2315,
     "change": -19
+   },
+   {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 2,
+    "change": -21
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 819,
+    "perDay": 792,
     "change": -42
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1239,
-    "change": -44
+    "perDay": 1232,
+    "change": -42
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 16677,
+    "perDay": 16374,
     "change": -53
    }
   ],
