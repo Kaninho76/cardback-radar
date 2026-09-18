@@ -1,17 +1,23 @@
 {
- "updatedISO": "2026-09-17T21:29:43+00:00",
+ "updatedISO": "2026-09-18T00:24:12+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
+  "Bleeding Cool: ParseError",
   "The Toyark: HTTP 403"
  ],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Series 6″ The Thunderbolts – The Void & Valentina Allegra De Fontaine Figures 2-Pack Available Now",
+   "url": "https://toyhypeusa.com/2026/09/17/hasbro-marvel-legends-series-the-thunderbolts-the-void-valentina-allegra-de-fontaine-figures-2-pack-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-the-thunderbolts-the-void-valentina-allegra-de-fontaine-figures-2-pack-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-17T23:17:44+00:00"
+  },
   {
    "title": "Hasbro Star Wars The Black Series 6″ Jedi Temple Guards Figure Set Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/17/hasbro-star-wars-tbs-jedi-temple-guards-figure-set-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-jedi-temple-guards-figure-set-pre-orders",
@@ -275,12 +281,6 @@
    "url": "https://www.actionfigureinsider.com/downton-abbey-makes-a-grand-debut-in-lego-brick-form/",
    "source": "Action Figure Insider",
    "iso": "2026-09-15T14:21:42+00:00"
-  },
-  {
-   "title": "Spider-Man: Across The Spider-Verse – SV-Action Miles G. Morales Figure",
-   "url": "https://www.toyark.com/2026/09/15/spider-man-across-the-spider-verse-sv-action-miles-g-morales-figure-599040",
-   "source": "The Toyark",
-   "iso": "2026-09-15T11:50:43+00:00"
   }
  ],
  "trends": {
