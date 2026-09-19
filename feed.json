@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-09-19T05:58:00+00:00",
+ "updatedISO": "2026-09-19T11:07:20+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "MOTU Chronicles Movie Beast Man Figure Early Look",
@@ -29,6 +28,12 @@
    "url": "https://toyhabits.com/man-at-arms-v2-motu-chroniles-in-box-images/",
    "source": "Toy Habits",
    "iso": "2026-09-19T01:25:28+00:00"
+  },
+  {
+   "title": "ReedPop Is To Close Its Popverse Website This Month",
+   "url": "https://bleedingcool.com/pop-culture/reedpop-is-to-close-its-popverse-website-this-month/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-18T23:42:09+00:00"
   },
   {
    "title": "“FAST & FURIOUS: HOLLYWOOD DRIFT” IS NOW OPEN!",
@@ -275,88 +280,82 @@
    "url": "https://www.toyark.com/2026/09/17/ultraman-s-h-figuarts-jirahs-599099",
    "source": "The Toyark",
    "iso": "2026-09-17T12:00:35+00:00"
-  },
-  {
-   "title": "The first ever Dejah Thoris 1:12 Scale Action Figure",
-   "url": "https://www.actionfigureinsider.com/the-first-ever-dejah-thoris-112-scale-action-figure/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-17T12:00:03+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-18T19:41:58+00:00",
+  "updatedISO": "2026-09-19T11:07:20+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2800,
-    "change": 56
+    "perDay": 2754,
+    "change": 50
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 190,
-    "change": 22
+    "perDay": 189,
+    "change": 20
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1023,
-    "change": 13
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 92,
-    "change": 5
+    "perDay": 988,
+    "change": 8
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 614,
+    "perDay": 617,
     "change": 1
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 87,
+    "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2153,
-    "change": -6
+    "perDay": 2126,
+    "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 84,
-    "change": -11
+    "change": -12
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2315,
-    "change": -19
+    "perDay": 2316,
+    "change": -18
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -21
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 792,
-    "change": -42
+    "change": -28
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1232,
+    "perDay": 1217,
+    "change": -41
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 771,
     "change": -42
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 16374,
+    "perDay": 16060,
     "change": -53
    }
   ],
