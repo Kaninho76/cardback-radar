@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-09-19T20:45:42+00:00",
+ "updatedISO": "2026-09-19T23:12:07+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "Frazetta Girls Debuts New ICON Collectibles Dejah Thoris Figure",
@@ -283,7 +284,7 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-19T11:07:20+00:00",
+  "updatedISO": "2026-09-19T23:12:07+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
