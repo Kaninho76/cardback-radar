@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-09-19T01:13:52+00:00",
+ "updatedISO": "2026-09-19T05:58:00+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "MOTU Chronicles Movie Beast Man Figure Early Look",
+   "url": "https://toyhabits.com/motu-chronicles-movie-beast-man-figure-early-look/",
+   "source": "Toy Habits",
+   "iso": "2026-09-19T04:29:59+00:00"
+  },
+  {
+   "title": "MOTU Chronicles Wave 4 In-Box Images",
+   "url": "https://toyhabits.com/motu-chronicles-wave-4-in-box-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-19T03:56:38+00:00"
+  },
+  {
+   "title": "Man-At-Arms v2 MOTU Chronicles In-Box Images",
+   "url": "https://toyhabits.com/man-at-arms-v2-motu-chroniles-in-box-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-19T01:25:28+00:00"
+  },
   {
    "title": "“FAST & FURIOUS: HOLLYWOOD DRIFT” IS NOW OPEN!",
    "url": "https://www.actionfigureinsider.com/fast-furious-hollywood-drift-is-now-open/",
@@ -262,24 +281,6 @@
    "url": "https://www.actionfigureinsider.com/the-first-ever-dejah-thoris-112-scale-action-figure/",
    "source": "Action Figure Insider",
    "iso": "2026-09-17T12:00:03+00:00"
-  },
-  {
-   "title": "DC Multiverse – DC Classic Mera, Black Manta, Wonder Girl, and Raven",
-   "url": "https://www.toyark.com/2026/09/17/dc-multiverse-dc-classic-mera-black-manta-wonder-girl-and-raven-599091",
-   "source": "The Toyark",
-   "iso": "2026-09-17T11:42:10+00:00"
-  },
-  {
-   "title": "Mattel WWE Ultimate Edition Jey Uso Figure Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/17/mattel-wwe-ultimate-edition-jey-uso-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-wwe-ultimate-edition-jey-uso-figure-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-17T04:01:11+00:00"
-  },
-  {
-   "title": "Hasbro Marvel’s Avengers: Doomsday ActionVerse Duo of Doom 2-Pack with Doctor Doom & Sentinel Figures Available Now",
-   "url": "https://toyhypeusa.com/2026/09/16/hasbro-marvels-avengers-doomsday-actionverse-duo-of-doom-2-pack-with-doctor-doom-sentinel-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvels-avengers-doomsday-actionverse-duo-of-doom-2-pack-with-doctor-doom-sentinel-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-17T02:46:24+00:00"
   }
  ],
  "trends": {
