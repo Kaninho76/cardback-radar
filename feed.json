@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-19T18:04:34+00:00",
+ "updatedISO": "2026-09-19T20:45:42+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Frazetta Girls Debuts New ICON Collectibles Dejah Thoris Figure",
+   "url": "https://bleedingcool.com/collectibles/frazetta-girls-debuts-new-icon-collectibles-dejah-thoris-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-19T18:22:08+00:00"
+  },
   {
    "title": "Exclusive Spider-Man: No Way Home 1/6 Figure Revealed by Hot Toys",
    "url": "https://bleedingcool.com/collectibles/exclusive-spider-man-no-way-home-1-6-figure-revealed-by-hot-toys/",
@@ -274,12 +280,6 @@
    "url": "https://www.actionfigureinsider.com/kayou-returns-to-new-york-comic-con-with-a-superfan-sized-birthday-bash-celebrating-one-year-in-the-u-s-nycc/",
    "source": "Action Figure Insider",
    "iso": "2026-09-17T15:26:35+00:00"
-  },
-  {
-   "title": "@HASBRO CELEBRATES #TRANSFORMERSDAY WITH A TRIBUTE TO PETER CULLEN, GLOBAL THEATRICAL EVENT AND NEW REVEALS #TFDay",
-   "url": "https://www.actionfigureinsider.com/hasbro-celebrates-transformersday-with-a-tribute-to-peter-cullen-global-theatrical-event-and-new-reveals-tfday/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-17T15:00:55+00:00"
   }
  ],
  "trends": {
