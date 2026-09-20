@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-09-20T06:21:39+00:00",
+ "updatedISO": "2026-09-20T12:27:50+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "MONOGRAM ANNOUCE THEIR 6th and FINAL #NYCC EXCLUSIVE – New York Knicks – 3D Foam Bag Clip 6 Pack Set",
+   "url": "https://www.actionfigureinsider.com/monogram-annouce-their-6th-and-final-nycc-exclusive-new-york-knicks-3d-foam-bag-clip-6-pack-set/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-20T12:00:31+00:00"
+  },
   {
    "title": "Frazetta Girls Debuts New ICON Collectibles Dejah Thoris Figure",
    "url": "https://bleedingcool.com/collectibles/frazetta-girls-debuts-new-icon-collectibles-dejah-thoris-figure/",
@@ -275,88 +280,82 @@
    "url": "https://toyhypeusa.com/2026/09/17/mcfarlane-toys-dc-multiverse-raven-wonder-girl-black-manta-mera-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-raven-wonder-girl-black-manta-mera-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-09-17T16:03:27+00:00"
-  },
-  {
-   "title": "KAYOU Returns to New York Comic Con with a Superfan-Sized Birthday Bash Celebrating One Year in the U.S. #NYCC",
-   "url": "https://www.actionfigureinsider.com/kayou-returns-to-new-york-comic-con-with-a-superfan-sized-birthday-bash-celebrating-one-year-in-the-u-s-nycc/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-17T15:26:35+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-19T23:12:07+00:00",
+  "updatedISO": "2026-09-20T12:27:50+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2754,
-    "change": 50
+    "perDay": 2698,
+    "change": 45
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 189,
-    "change": 20
+    "perDay": 179,
+    "change": 12
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 988,
-    "change": 8
+    "perDay": 962,
+    "change": 4
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 617,
+    "perDay": 615,
     "change": 1
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 87,
-    "change": -2
+    "perDay": 88,
+    "change": 1
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2126,
+    "perDay": 2132,
     "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 84,
-    "change": -12
+    "perDay": 80,
+    "change": -15
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2316,
+    "perDay": 2312,
     "change": -18
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -28
+    "change": -33
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1217,
+    "perDay": 1201,
     "change": -41
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 771,
+    "perDay": 752,
     "change": -42
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 16060,
+    "perDay": 15837,
     "change": -53
    }
   ],
