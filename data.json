@@ -1,61 +1,49 @@
 {
-  "updatedISO": "2026-09-19T07:30:00+02:00",
-  "updatedLabel": "zaterdag 19 september 2026",
-  "quiet": false,
-  "quietNote": "",
+  "updatedISO": "2026-09-20T08:00:00+02:00",
+  "updatedLabel": "zondag 20 september 2026",
+  "quiet": true,
+  "quietNote": "Zaterdag leverde in jouw hoeken niets nieuws op — geen reveal, geen preorder die openging; alles wat hieronder staat is nog de lijst van donderdag en vrijdag, met de klok die verder loopt.",
   "waves": [
     {
-      "title": "Batman Day",
-      "when": "Vandaag, zaterdag 19 september · wereldwijd, ook bij de stripwinkels hier",
-      "countdown": {
-        "date": "2026-09-19",
-        "mode": "until",
-        "unit": "dagen tot Batman Day"
-      },
-      "body": "Het is vandaag. De kern is de one-shot Batman of Two Worlds voor 2,99 dollar, met een nieuw verhaal van Matt Fraction uit het gewone universum en een van Scott Snyder uit Absolute Batman in één boekje. Deelnemende winkels delen vier papieren maskers uit die Ryan Sook in vier verschillende stijlen tekende: gewone Batman, Absolute Batman, Hush en The Dark Knight Returns. Daarnaast vijf hardcovers, gratis Batman op DC Universe Infinite (Absolute Batman 1 tot 3 en de hele Wayne Family Adventures) en in-game spullen in LEGO Batman. Wat er nog altijd niet is: één enkele exclusieve figuur, van welke fabrikant dan ook. Het dichtstbijzijnde is wat McFarlane gisteren opende — DC Page Punchers Batman en Nightwing, 27,99 dollar, met een strip in de doos.",
-      "do": "Vandaag is de dag en je hebt geen concurrentie van een nieuwe figuur. De Amerikaanse tijdlijn wordt rond een uur of vier onze tijd wakker; post ruim daarvoor, zodat je er al staat als het zoekverkeer op gang komt. Pak wat je hebt, niet wat je zou willen hebben — het idee hieronder gaat uit van je plank zoals die nu is."
-    },
-    {
       "title": "Godzilla Minus Zero",
-      "when": "Wereldpremière 26 september op het New York Film Festival · Japan 3 november, Noord-Amerika 6 november",
+      "when": "Wereldpremière zaterdag 26 september op het New York Film Festival · Japan 3 november, Noord-Amerika 6 november",
       "countdown": {
         "date": "2026-09-26",
         "mode": "until",
         "unit": "dagen tot de première"
       },
-      "body": "Over een week gaat de film van Takashi Yamazaki in New York in première; de gewone Japanse release volgt pas op 3 november. Het verhaal begint in 1949, twee jaar na Minus One, met Ryunosuke Kamiki en Minami Hamabe terug, en het is de eerste Japanse productie die speciaal voor IMAX is opgenomen. Aan speelgoedkant is er deze week iets veranderd: bij Godzilla Store US staan de S.H.MonsterArts Godzilla (120 dollar) en de Ichibansho Zero's Heartbeat (75 dollar) allebei op pre-order gesloten. BigBadToyStore neemt de S.H.MonsterArts nog wel aan voor 119,99 dollar met levering december. Wat er nieuw bij kwam zijn de goedkopere dingen: twee Movie Monster Series-versies van 38 dollar en een Enshrined Monsters Ex van 30 dollar.",
-      "do": "De aandacht komt in twee schokken en de eerste is over een week. Post niet nu, maar zet je Godzilla-opstelling klaar voor de 26e — dan lopen de eerste recensies binnen en zoekt iedereen tegelijk op dezelfde naam. Dat de eerste pre-orders nu al dichtgaan terwijl de film nog niet draait, is trouwens op zichzelf een zin die je die dag kunt gebruiken."
+      "body": "Over zes dagen draait de film van Takashi Yamazaki voor het eerst, op het New York Film Festival; de gewone Japanse release volgt pas 3 november en de Noord-Amerikaanse op de 6e. Het verhaal begint in 1949, twee jaar na Minus One, met de familie Shikishima, en Ryunosuke Kamiki en Minami Hamabe zijn terug. Honderdvijfendertig minuten, en de eerste Japanse productie die helemaal voor IMAX is opgenomen. Aan speelgoedkant is de eerste ronde al voorbij voordat er iemand de film heeft gezien: bij Godzilla Store US staan de S.H.MonsterArts van 120 dollar en de Ichibansho Zero's Heartbeat van 75 dollar allebei op pre-order gesloten. BigBadToyStore neemt de S.H.MonsterArts nog aan voor 119,99 met levering december.",
+      "do": "Dit is de enige golf van deze week die echt van jou is, en hij komt zaterdag. Post niet nu — zet je kaiju-plank deze week klaar en laat hem zaterdag los, want dan lopen de eerste recensies binnen en zoekt iedereen tegelijk op dezelfde naam. Wat je vandaag al kunt doen is de foto's maken; zaterdag heb je geen tijd meer om te bouwen."
+    },
+    {
+      "title": "Avengers: Endgame — Encore",
+      "when": "Vrijdag 25 september terug in de bioscoop, met een eerste blik op Avengers: Doomsday",
+      "countdown": {
+        "date": "2026-09-25",
+        "mode": "until",
+        "unit": "dagen tot de heruitgave"
+      },
+      "body": "Endgame gaat vrijdag opnieuw draaien, met een exclusieve vooruitblik op Avengers: Doomsday eraan vast — die film komt 18 december. Wie in IMAX of op een Infinity Vision-scherm zit krijgt er nog een stukje bij. Praktisch betekent dat: vanaf vrijdagavond staat de tijdlijn weer vol Marvel, zonder dat er één nieuwe figuur bij hoort. Dat is precies het soort golf waar een plank het wint van een persbericht — er is aandacht en er is niets te koop.",
+      "do": "Je Marvel-kast is groter dan je Godzilla-kast, dus hier heb je de meeste keuze. Kies één personage dat in die film iets betekende en waarvan je meerdere versies hebt staan, en houd het bij dat ene personage. Vrijdagavond vroeg posten, niet zaterdag: zaterdag is Godzilla."
     }
   ],
   "drops": [
     {
       "maker": "Hasbro",
       "what": "Marvel Legends — Cypher op een retro Uncanny X-Men-kaart, plus No Way Home Spider-Man",
-      "note": "Gisteren om 9 uur Eastern opengegaan bij Target, 27,99 dollar per stuk, levering najaar 2026. Cypher is de eerste officiële figuur van het personage en komt met vier extra handen en een techno-organisch zwaard; de kaart is een oude Uncanny X-Men-cardback. Onderdeel van Targets Fall Geek-Out. Alleen VS, in het VK loopt het via de fan channel.",
+      "note": "Donderdag om 9 uur Eastern opengegaan bij Target, 27,99 dollar per stuk, levering najaar 2026. Cypher is de eerste officiële figuur van het personage en komt met vier extra handen en een techno-organisch zwaard; de kaart is een oude Uncanny X-Men-cardback. Onderdeel van Targets Fall Geek-Out. Alleen VS, in het VK loopt het via de fan channel.",
       "heat": "hot"
-    },
-    {
-      "maker": "McFarlane Toys",
-      "what": "DC Page Punchers — Batman (Batman #1) en Nightwing (Nightwing #81)",
-      "note": "Gisteren opengegaan, 27,99 dollar per figuur, verzending oktober 2026, bij Entertainment Earth, BigBadToyStore, Amazon en GameStop. Bij elke figuur zit de bijbehorende strip in de doos. Eén dag voor Batman Day, en uit een licentie die eind dit jaar bij McFarlane weggaat.",
-      "heat": "yours"
-    },
-    {
-      "maker": "McFarlane Toys",
-      "what": "DC Multiverse Collector Edition — Raven, Wonder Girl, Black Manta en Mera",
-      "note": "Sinds woensdag te bestellen, 34,99 dollar per figuur, verzending oktober 2026, bij Entertainment Earth, BigBadToyStore, Amazon en GameStop. De Absolute Batman uit dezelfde presentatie heeft nog steeds geen preorderdatum.",
-      "heat": "yours"
     },
     {
       "maker": "Mattel",
       "what": "MOTU Origins — Two-Bad",
-      "note": "Mattel Creations exclusive, 22 dollar. Club Grayskull-leden mogen erbij vanaf woensdag 23 september 9 uur Pacific (18 uur hier) tot donderdag 24 september 8.59 uur Pacific; daarna gaat hij open voor iedereen, zolang de voorraad strekt. Nieuwe torso, nieuw gesculpte benen en een mini-strip in de doos.",
+      "note": "Mattel Creations exclusive, 22 dollar. Club Grayskull-leden mogen erbij vanaf woensdag 23 september 9 uur Pacific (18 uur hier) tot donderdag 24 september 8.59 uur Pacific; daarna open voor iedereen, zolang de voorraad strekt. Nieuwe torso, nieuw gesculpte benen en een mini-strip in de doos. De eerstvolgende preorder die je zelf kunt halen.",
       "heat": "yours"
     },
     {
       "maker": "Hasbro",
       "what": "Marvel Legends — Marvel Holiday Special Spider-Man",
-      "note": "Preorder woensdag 23 september om 13 uur Eastern, dus 19 uur hier, bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Acht accessoires: twee extra handen, een kerstmuts en een stoffen zak met vier cadeautjes erin. Onthuld op de Fanstream van 10 september.",
+      "note": "Preorder woensdag 23 september om 13 uur Eastern, dus 19 uur hier, bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Acht accessoires: twee extra handen, een kerstmuts en een stoffen zak met vier cadeautjes erin. Onthuld op de Fanstream van 10 september. Zelfde dag als Two-Bad, een uur later.",
       "heat": "yours"
     },
     {
@@ -67,7 +55,13 @@
     {
       "maker": "Hasbro",
       "what": "Marvel Legends — mini-comic golf",
-      "note": "Hawkeye, Spider-Man in Doom Suit, Acroyear uit de Micronauts, Elektra, Captain America uit Earth X en Elsa Bloodstone. Gekaart, met mini-strip erbij. Preorder 6 oktober om 13 uur Eastern.",
+      "note": "Hawkeye, Spider-Man in Doom Suit, Acroyear uit de Micronauts, Elektra, Captain America uit Earth X en Elsa Bloodstone. Gekaart, met mini-strip erbij. Preorder dinsdag 6 oktober om 13 uur Eastern (19 uur hier).",
+      "heat": "yours"
+    },
+    {
+      "maker": "McFarlane Toys",
+      "what": "DC Page Punchers — Batman (Batman #1) en Nightwing (Nightwing #81)",
+      "note": "Donderdag opengegaan, 27,99 dollar per figuur, verzending oktober 2026, bij Entertainment Earth, BigBadToyStore, Amazon en GameStop. Bij elke figuur zit de bijbehorende strip in de doos. Eén dag voor Batman Day, en uit een licentie die eind dit jaar bij McFarlane weggaat.",
       "heat": "yours"
     },
     {
@@ -92,174 +86,63 @@
   "talk": [
     {
       "title": "De retro-kaart is nu bij drie fabrikanten tegelijk het product",
-      "body": "Hasbro heeft de nieuwe Spider-Man-golf officieel Retro Cardback Series gedoopt en zette gisteren daarnaast Cypher bij Target neer op een oude Uncanny X-Men-cardback — de eerste figuur van het personage ooit, en het eerste wat je erover leest is de kaart, niet de figuur. Diezelfde maand loopt bij McFarlane en DC Direct de DC Super Powers Wave 16 af op de oude blisterkaart met bijgewerkte artwork, meteen ook de laatste golf van die lijn, en zet Super7 zijn TMNT ReAction+ bewust in het vintage o-ring-formaat weg. Drie fabrikanten verkopen tegelijk de verpakking in plaats van de figuur. Voor een pagina die op de kaart verzamelt is dat geen detail, dat is precies het argument dat je al jaren maakt."
+      "body": "Hasbro heeft de nieuwe Spider-Man-golf officieel Retro Cardback Series gedoopt en zette donderdag daarnaast Cypher bij Target neer op een oude Uncanny X-Men-cardback — de eerste figuur van het personage ooit, en het eerste wat je erover leest is de kaart, niet de figuur. Diezelfde maand liep bij McFarlane en DC Direct de DC Super Powers Wave 16 op de oude blisterkaart met bijgewerkte artwork, meteen ook de laatste golf van die lijn, en zet Super7 zijn TMNT ReAction+ bewust in het vintage o-ring-formaat weg. Drie fabrikanten verkopen tegelijk de verpakking in plaats van de figuur. Voor een pagina die op de kaart verzamelt is dat geen detail, dat is precies het argument dat je al jaren maakt."
     },
     {
-      "title": "Mattel pakt in 2027 DC én de Turtles, en dat is nu geen gerucht meer maar een agenda",
-      "body": "Twee overnames die los van elkaar begonnen, komen op dezelfde datum uit. McFarlanes DC-licentie loopt eind 2026 af: Super Powers Wave 16 is officieel de laatste golf, en DC Multiverse gaat dezelfde kant op — de preorders die deze week nog opengingen, Page Punchers en de Collector Edition-vier, komen dus uit een lijn die wordt afgebouwd. Mattels DC Collector-lijn start wereldwijd op 1 januari 2027, in 6,5 inch met pinloze scharnieren en stoffen capes, en het eerste stuk staat donderdag 8 oktober om 12 uur Eastern op de NYCC-stand met de preorder er meteen bij. Bij de Turtles gebeurt hetzelfde: Playmates raakte de master toy license kwijt aan Mattel per 2027 en de NECA-sublicenties lopen op 31 december af."
+      "title": "Over achttien dagen gaat op de DC-stand in New York de deur naar 2027 open",
+      "body": "Mattel zet zijn eerste DC Collector-stuk op donderdag 8 oktober om 12 uur Eastern op de officiële DC-stand op New York Comic Con neer, met de preorder bij Mattel Creations meteen erna. Wat het is houdt Mattel bewust dicht: geen personage, geen schaal, geen prijs, en er gaat zelfs een slag om de arm of het wel een actiefiguur is en niet iets als een prop replica. De lijn zelf begint pas op 1 januari 2027. Aan de andere kant loopt McFarlanes DC-licentie eind dit jaar af — Super Powers Wave 16 was officieel de laatste golf, en de Page Punchers en Collector Edition-preorders van deze week komen dus uit een lijn die wordt afgebouwd. Bij de Turtles gebeurt hetzelfde per 2027: Playmates raakte de master toy license kwijt aan Mattel en de NECA-sublicenties lopen op 31 december af."
     },
     {
       "title": "Godzilla verkoopt uit terwijl de film nog niet eens draait",
-      "body": "Bij Godzilla Store US staan twee van de duurdere stukken uit Minus Zero nu op pre-order gesloten: de S.H.MonsterArts van 120 dollar en de Ichibansho Zero's Heartbeat van 75 dollar. De première is pas over een week, de Japanse release pas over zes. BigBadToyStore neemt de S.H.MonsterArts nog aan voor 119,99 met een aanbetaling van twaalf dollar en levering december, dus weg is hij niet — maar de eerste ronde is voorbij voordat er ook maar iemand de film heeft gezien. Wat er nog wel gewoon ligt zijn de kleine dingen: twee Movie Monster Series-versies van 38 dollar en een Enshrined Monsters Ex van 30. Voor wie er nu instapt is dat het verschil tussen meedoen en wachten op de tweede ronde."
+      "body": "Bij Godzilla Store US staan twee van de duurdere stukken uit Minus Zero op pre-order gesloten: de S.H.MonsterArts van 120 dollar en de Ichibansho Zero's Heartbeat van 75 dollar. De première is pas zaterdag, de Japanse release pas over zes weken. BigBadToyStore neemt de S.H.MonsterArts nog aan voor 119,99 met levering december, dus weg is hij niet — maar de eerste ronde is voorbij voordat er ook maar iemand de film heeft gezien. Wat er nog wel gewoon ligt zijn de kleine dingen: twee Movie Monster Series-versies van 38 dollar en een Enshrined Monsters Ex van 30. Voor wie er nu instapt is dat het verschil tussen meedoen en wachten op de tweede ronde."
     }
   ],
   "ideas": [
     {
       "slot": "Op de golf",
-      "title": "Elke Batman die je hebt, één voor één in dezelfde uitsnede, en aan het eind de vraag welke van de kijker was",
-      "hook": "Beeld één is alleen de kap en de ogen van je oudste Batman, vullend in beeld. Tekstregel: “het is Batman Day”.",
-      "why": "Batman Day is vandaag en er hangt van geen enkele fabrikant een exclusieve figuur aan. Iedereen zoekt vandaag op Batman en niemand verkoopt er iets bij — dat maakt het de ene dag van het jaar waarop een plank het wint van een persbericht. De vraag aan het eind is het hele punt: “welke was van jou” is geen bijschrift maar een opdracht, en dat is wat er in een DM belandt in plaats van in de reacties.",
-      "send": "je broer, die precies weet welke van die koppen bij hem thuis op de kast stond",
-      "tags": "#batman #dccomics #actionfigures #toystagram",
+      "title": "Je oudste kaart en de nieuwste retro-kaart in precies dezelfde uitsnede, en de vraag welke van de twee nieuw is",
+      "hook": "Beeld één is de bovenrand van je oudste kaart, zo dichtbij dat je alleen het logo en het ophanggat ziet. Tekstregel: “een van deze twee is van dit jaar”.",
+      "why": "Drie fabrikanten verkopen deze maand de verpakking in plaats van de figuur: Hasbro doopte de nieuwe Spider-Man-golf letterlijk Retro Cardback Series en zette Cypher op een oude Uncanny X-Men-kaart, McFarlane sloot DC Super Powers af op de oude blisterkaart, Super7 kiest voor het vintage o-ring-formaat. De preorder van die Hasbro-golf is dinsdag 29 september. Jij verzamelt al jaren op de kaart — dit is de week waarin de rest van de markt jouw argument overneemt, en dat is een sterker verhaal dan welke losse figuur dan ook.",
+      "send": "de vriend die zijn kaarten wél heeft weggegooid en daar sindsdien niet over ophoudt",
+      "tags": "#cardback #vintagetoys #actionfigures #toystagram",
       "shots": [
-        "Foto 1: alleen de kap en de ogen van je oudste Batman, staand (9:16), heel dichtbij, licht van iets onderaf. Anderhalve seconde.",
-        "Foto 2: exact dezelfde uitsnede, dezelfde hoogte, dezelfde afstand — maar de volgende Batman uit je kast. Eén seconde. De camera mag nergens bewegen, alleen de figuur wisselt.",
-        "Foto 3: nog een keer dezelfde uitsnede, de derde. Eén seconde. Vier of vijf koppen achter elkaar in hetzelfde kader leest als één camerabeweging langs de plank.",
-        "Foto 4: camera helemaal terug, alle Batmans naast elkaar op één staande foto, oudste links, donkere achtergrond zodat de silhouetten los van elkaar blijven. Twee seconden.",
-        "Tekst in beeld: bij foto 1 alleen “het is Batman Day”, bij elke kop het jaartal klein in de hoek, en bij foto 4 groot “welke was van jou?”. Verder niets — die ene vraag doet het werk."
+        "Foto 1: de bovenrand van je oudste kaart, staand (9:16), heel dichtbij — alleen logo en ophanggat, de figuur nog niet in beeld. Anderhalve seconde.",
+        "Foto 2: exact dezelfde uitsnede, dezelfde hoogte, dezelfde afstand, maar nu een moderne retro-kaart uit je kast. Anderhalve seconde. De camera mag nergens bewegen; alleen de kaart wisselt.",
+        "Foto 3: camera een stap terug, allebei de kaarten naast elkaar, nog steeds staand, zijlicht zodat je het verschil in karton ziet. Twee seconden.",
+        "Foto 4: helemaal terug, de twee kaarten schuin tegen elkaar met de jaartallen leesbaar. Twee seconden.",
+        "Tekst in beeld: bij foto 1 alleen “een van deze twee is van dit jaar”, bij foto 3 niets, en bij foto 4 groot “welke dacht jij?” met de twee jaartallen klein eronder."
       ]
     },
     {
       "slot": "Doorstuurbaar",
-      "title": "Je Godzilla boven een rij van je kleinste figuren, gefotografeerd vanaf de grond, met de première die over een week is",
-      "hook": "Beeld één is de kop van je Godzilla schuin van onderaf, zo dichtbij dat hij het hele kader vult. Tekstregel: “over een week begint het weer”.",
-      "why": "De wereldpremière van Godzilla Minus Zero is 26 september, precies over een week, en daarna komt er tot november niets meer tussen. Er is nu al geen ruimte meer bij de duurdere figuren — de S.H.MonsterArts en de Ichibansho staan bij Godzilla Store US allebei op gesloten — dus wie iets wil zien moet naar iemands plank kijken. Jij hebt Godzilla in meer maten staan dan de meeste mensen, en de schaal is hier het hele grapje: een absurde opstelling wordt doorgestuurd, een nette plank niet.",
-      "send": "de vriend met wie je vroeger op zondagmiddag de oude films keek en die nog niet weet dat er een nieuwe aankomt",
-      "tags": "#godzilla #kaiju #actionfigures #toystagram",
+      "title": "Twee van je MOTU-schurken die op één rots ruzie staan te maken, als een stripje van vier beeldjes",
+      "hook": "Beeld één is twee schurkenkoppen vlak naast elkaar, allebei half in beeld, alsof ze midden in een zin zitten. Tekstregel: “woensdag krijgen ze er een derde kop bij”.",
+      "why": "Woensdag 23 september om 18 uur hier gaat Two-Bad open bij Mattel Creations voor 22 dollar — een figuur die letterlijk uit twee ruziënde helften bestaat, met een nieuwe torso en een mini-strip in de doos. Club Grayskull-leden mogen een dag eerder. Jij hoeft daar niets voor te bezitten wat je niet al hebt: twee schurken uit je eigen kast doen precies hetzelfde grapje, en een absurde opstelling wordt doorgestuurd waar een nette plank dat niet wordt. Het is bovendien de enige preorder van deze week die jij zelf kunt halen.",
+      "send": "de vriend met wie je vroeger ruzie maakte over wie Skeletor mocht zijn",
+      "tags": "#motu #mastersoftheuniverse #actionfigures #toystagram",
       "shots": [
-        "Foto 1: kop van je grootste Godzilla schuin van onderaf, staand (9:16), vullend in beeld, één lichtbron van opzij. Anderhalve seconde.",
-        "Foto 2: camera een stap terug en laag bij de grond, zodat je onder hem een rijtje van je kleinste figuren ziet staan, allemaal met de rug naar je toe alsof ze omhoogkijken. Twee seconden.",
-        "Foto 3: vanaf achter die kleine figuren gefotografeerd, lens op tafelhoogte, Godzilla groot en onscherp op de achtergrond. Twee seconden.",
-        "Foto 4: helemaal terug, de hele opstelling in één staande foto, ruimte boven zijn kop vrijlaten. Twee seconden. Tekst in beeld: bij foto 1 alleen “over een week begint het weer”, bij foto 4 “26 september première, 3 november in Japan” — geen uitleg erbij."
+        "Foto 1: twee schurkenkoppen vlak naast elkaar, staand (9:16), allebei half uit beeld lopend, één lamp van opzij. Anderhalve seconde.",
+        "Foto 2: zelfde opstelling, maar draai de koppen een kwartslag naar elkaar toe alsof de een de ander aankijkt. Eén seconde — het verschil met foto 1 is klein en dat is precies waarom het als beweging leest.",
+        "Foto 3: camera laag bij de rots, van onderaf, zodat ze allebei boven je uitkomen en de armen elkaar in de weg zitten. Twee seconden.",
+        "Foto 4: helemaal terug, de hele opstelling staand in beeld met ruimte boven de koppen vrij. Twee seconden. Tekst in beeld: bij foto 1 alleen “woensdag krijgen ze er een derde kop bij”, bij foto 4 “Two-Bad, woensdag 18:00, Mattel Creations” — verder geen uitleg."
       ]
     }
   ],
-  "sources": [
-    {
-      "label": "Toy Hype USA — McFarlane DC Page Punchers Batman & Nightwing",
-      "url": "https://toyhypeusa.com/2026/09/18/mcfarlane-toys-dc-multiverse-dc-page-punchers-batman-nightwing-figures-pre-orders/"
-    },
-    {
-      "label": "Marvel Toy News — Cypher & No Way Home Spider-Man Target-exclusives",
-      "url": "https://marveltoynews.com/marvel-legends-cypher-no-way-home-spider-man-target-exclusives/"
-    },
-    {
-      "label": "Marvelous News — preorderinfo Cypher en No Way Home Spider-Man",
-      "url": "https://marvelousnews.com/252-39162"
-    },
-    {
-      "label": "Mephitsu — Cypher op een retro Uncanny X-Men-cardback",
-      "url": "https://www.mephitsu.co.uk/post/marvel-legends-uncanny-x-men-retro-carded-cypher"
-    },
-    {
-      "label": "Marvelous News — Retro Cardback Spider-Man: TAS en Maximum Carnage",
-      "url": "https://marvelousnews.com/23-39127"
-    },
-    {
-      "label": "Marvelous News — Marvel Holiday Special Spider-Man",
-      "url": "https://marvelousnews.com/252-39128"
-    },
-    {
-      "label": "Toy Hype USA — McFarlane DC Multiverse Raven, Wonder Girl, Black Manta & Mera",
-      "url": "https://toyhypeusa.com/2026/09/17/mcfarlane-toys-dc-multiverse-raven-wonder-girl-black-manta-mera-figures-pre-orders/"
-    },
-    {
-      "label": "he-man.org — MOTU Origins Two-Bad op 23 september",
-      "url": "https://www.he-man.org/motu-origins-two-bad-coming-to-mattel-creations-sept-23/"
-    },
-    {
-      "label": "Toy Hype USA — Super7 TMNT ReAction+ Wave 2",
-      "url": "https://toyhypeusa.com/2026/09/16/super7-tmnt-reaction-wave-2-figures-available-now-pre-orders/"
-    },
-    {
-      "label": "The Toyark — TMNT ReAction preorders",
-      "url": "https://www.toyark.com/2026/09/18/tmnt-leonardo-michelangelo-bebop-and-rocksteady-reaction-figure-pre-orders-599160"
-    },
-    {
-      "label": "DC — Batman Day 2026",
-      "url": "https://www.dc.com/blog/2026-09-02/batman-day-2026"
-    },
-    {
-      "label": "Godzilla Store — Movie Monster Series Godzilla (2026) exclusives",
-      "url": "https://godzilla.com/blogs/news/exclusive-godzilla-2026-movie-monster-series-figures-coming-to-godzilla-store-us"
-    },
-    {
-      "label": "Godzilla Store — collectie Godzilla Minus Zero (2026)",
-      "url": "https://godzilla.com/collections/godzilla-minus-zero-2026"
-    },
-    {
-      "label": "BigBadToyStore — S.H.MonsterArts Godzilla Minus Zero",
-      "url": "https://www.bigbadtoystore.com/product/godzilla-minus-zero-2026-shmonsterarts-godzilla-action-figure-193546"
-    },
-    {
-      "label": "Bleeding Cool — S.H.MonsterArts Burning Millennium Godzilla op NYCC",
-      "url": "https://bleedingcool.com/collectibles/s-h-monsterarts-burning-millennium-godzilla-brings-heat-to-nycc-2026/"
-    },
-    {
-      "label": "The Toyark — Tamashii Nations NYCC 2026-exclusives",
-      "url": "https://www.toyark.com/2026/09/14/tamashii-nations-nycc-2026-exclusives-announced-598997"
-    },
-    {
-      "label": "Bleeding Cool — DC Multiverse eindigt, Mattel neemt over",
-      "url": "https://bleedingcool.com/collectibles/the-dc-multiverse-ends-as-dc-comics-debuts-new-mattel-partnership/"
-    },
-    {
-      "label": "Bleeding Cool — de Turtles gaan per 2027 weg bij Playmates",
-      "url": "https://bleedingcool.com/collectibles/teenage-mutant-ninja-turtles-are-moving-away-from-playmates-in-2027/"
-    },
-    {
-      "label": "New York Comic Con — 8 tot 11 oktober 2026",
-      "url": "https://www.newyorkcomiccon.com/"
-    },
-    {
-      "label": "Marvel — Endgame: Encore terug in de bioscoop",
-      "url": "https://www.marvel.com/articles/movies/marvel-studios-avengers-endgame-returns-to-theaters-2026"
-    },
-    {
-      "label": "Wikipedia — Godzilla Minus Zero",
-      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
-    },
-    {
-      "label": "Wikipedia — Masters of the Universe (2026)",
-      "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)"
-    },
-    {
-      "label": "Eventhall-ME — Retro Games & Vintage Toys beurs Maldegem",
-      "url": "https://tickets.eventhall-me.be/event/retrogames-vintagetoys-beurs-maldegem/"
-    },
-    {
-      "label": "Retro Kalender — beurzen België",
-      "url": "https://www.retrokalender.be/"
-    },
-    {
-      "label": "Meuk is leuk — agenda verzamelbeurzen",
-      "url": "https://www.meukisleuk.nl/agenda/verzamelbeurs"
-    },
-    {
-      "label": "Old School Toys — beursagenda",
-      "url": "https://www.old-school-toys.nl/nl/beursagenda"
-    },
-    {
-      "label": "De Soeverein Lommel — Vintage Toys of the Universe",
-      "url": "https://www.soevereinlommel.be/agenda/vintage-toys-of-the-universe/"
-    }
-  ],
-  "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf.",
   "agenda": [
     {
       "date": "2026-09-23",
       "label": "Twee preorders op één dag: Two-Bad en Holiday Spider-Man",
-      "note": "Two-Bad om 9 uur Pacific (18 uur hier) bij Mattel Creations, eerst alleen voor Club Grayskull-leden tot donderdagochtend. Spider-Man om 13 uur Eastern (19 uur hier) bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon."
+      "note": "Two-Bad om 9 uur Pacific (18 uur hier) bij Mattel Creations, eerst alleen voor Club Grayskull-leden tot donderdagochtend. Holiday Spider-Man om 13 uur Eastern (19 uur hier) bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Eén uur ertussen."
     },
     {
       "date": "2026-09-25",
       "label": "Avengers: Endgame — Encore terug in de bioscoop",
-      "note": "Heruitgave met nieuw materiaal eraan vast. Vanaf die dag gaat er weer vers Marvel-beeld rond op de tijdlijn."
+      "note": "Heruitgave met een exclusieve vooruitblik op Avengers: Doomsday, die 18 december komt. Vanaf vrijdagavond gaat er weer vers Marvel-beeld rond op de tijdlijn, zonder dat er een nieuwe figuur bij hoort."
     },
     {
       "date": "2026-09-26",
       "label": "Godzilla Minus Zero — wereldpremière",
-      "note": "New York Film Festival. Hier komen de eerste recensies vandaan en hier krijgt de kaiju-aandacht zijn eerste schok; de Japanse release is pas 3 november."
+      "note": "New York Film Festival. Hier komen de eerste recensies vandaan en hier krijgt de kaiju-aandacht zijn eerste schok; de Japanse release is pas 3 november, Noord-Amerika 6 november."
     },
     {
       "date": "2026-09-29",
@@ -267,41 +150,33 @@
       "note": "13 uur Eastern, dus 19 uur hier. Aunt May, Mary Jane, Smythe en Carnage, bij de fan-channelwinkels."
     },
     {
-      "date": "2026-10-02",
-      "label": "Target Fall Geek-Out — laatste van vier vrijdagen",
-      "note": "Alleen in de VS, maar het is wel het moment waarop de tijdlijn vrijdagavond nog één keer vol nieuwe dozen staat. Cypher kwam uit deze reeks."
+      "date": "2026-10-03",
+      "label": "Vintage Toys of the Universe in Lommel",
+      "note": "Vierhonderd tafels, de beste beurs van je najaar en de enige in de buurt die echt op actiefiguren zit. Zie ook de beurzenlijst hieronder."
     },
     {
       "date": "2026-10-06",
       "label": "Preorder Marvel Legends mini-comic golf",
-      "note": "13 uur Eastern. Zes gekaarte figuren met mini-strip, waaronder Acroyear uit de Micronauts."
+      "note": "13 uur Eastern (19 uur hier). Zes gekaarte figuren met mini-strip, waaronder Acroyear uit de Micronauts."
     },
     {
       "date": "2026-10-08",
-      "label": "NYCC opent — Mattels eerste DC Collector-stuk",
-      "note": "8 tot en met 11 oktober in het Javits Center. Donderdag om 12 uur Eastern staat Mattels eerste DC Collector-item op de DC-stand met de preorder meteen open; Tamashii debuteert er de Burning Millennium Godzilla."
+      "label": "NYCC opent — Mattels eerste DC Collector-stuk, en zondag Hasbro",
+      "note": "8 tot en met 11 oktober in het Javits Center. Donderdag om 12 uur Eastern staat Mattels eerste DC Collector-item op de officiële DC-stand met de preorder bij Mattel Creations er meteen achteraan; Tamashii debuteert er de Burning Millennium Godzilla; zondag 11 oktober om 11 uur Eastern is het Hasbro Action Brands-panel."
     },
     {
       "date": "2026-10-20",
       "label": "Masters of the Universe (2026) op dvd, blu-ray en 4K",
-      "note": "De film liep in de bioscoop niet (114 miljoen wereldwijd op een budget van 170), maar stond na de Prime-release in 47 van de 52 gemeten landen op één. De schijfjesrelease is de volgende keer dat MOTU vanzelf weer in de tijdlijn komt."
+      "note": "De film liep in de bioscoop niet, maar stond na de streamingrelease wekenlang hoog. De schijfjesrelease is de volgende keer dat MOTU vanzelf weer in de tijdlijn komt."
     }
   ],
   "fairs": [
-    {
-      "date": "2026-09-19",
-      "name": "Retro Games & Vintage Toys beurs",
-      "city": "Maldegem",
-      "country": "BE",
-      "note": "Vandaag. Derde editie, Eventhall-ME aan de Industrielaan 6/3, 10 tot 15 uur. Zes euro online met fastlane en een drankje, acht euro aan de kassa. Verkopers uit heel België en Nederland, retrogames naast vintage speelgoed. Morgen is in dezelfde zaal Cardfest — dat is kaarten, geen figuren.",
-      "url": "https://tickets.eventhall-me.be/event/retrogames-vintagetoys-beurs-maldegem/"
-    },
     {
       "date": "2026-09-26",
       "name": "Weekend of Hell",
       "city": "Neuss bij Düsseldorf",
       "country": "DE",
-      "note": "26 en 27 september, Crowne Plaza. Horror en pop culture; sterk voor NECA en alles wat met filmmonsters te maken heeft — en dat is het laatste najaar dat NECA de Turtles nog heeft.",
+      "note": "26 en 27 september, Crowne Plaza Düsseldorf–Neuss aan de Rheinallee 1, beide dagen 10 tot 18 uur. Horror en pop culture; sterk voor NECA en alles wat met filmmonsters te maken heeft — en dit is het laatste najaar dat NECA de Turtles nog heeft.",
       "url": "https://weekend-of-hell.com/en/home-2/"
     },
     {
@@ -309,7 +184,7 @@
       "name": "Collect-a-Con",
       "city": "Egmond aan Zee",
       "country": "NL",
-      "note": "26 en 27 september, hotel Zuiderduin, beide dagen 10 tot 16 uur. Zwaartepunt ligt bij trading cards en Funko; er staan wel tafels met losse figuren en vintage speelgoed tussen.",
+      "note": "26 en 27 september, hotel Zuiderduin, beide dagen 10 tot 16 uur, twee verdiepingen met honderden tafels. Zwaartepunt ligt bij trading cards en Funko; er staan wel tafels met losse figuren, Star Wars en retro gaming tussen.",
       "url": "https://www.collectacon.nl/"
     },
     {
@@ -325,7 +200,7 @@
       "name": "Vintage Toys of the Universe",
       "city": "Lommel",
       "country": "BE",
-      "note": "De Soeverein, Sportveldenstraat 10, vierhonderd tafels, tickets vanaf 5,95 euro. Star Wars, Turtles, Transformers, MOTU, G.I. Joe, Thundercats, M.A.S.K. Voor jou de beste van het najaar — en met NECA's Turtles die op 31 december ophouden ook de logische plek om te zoeken.",
+      "note": "De Soeverein, Sportveldenstraat 10, vierhonderd tafels op 6.000 vierkante meter, tickets vanaf 5,95 euro. Star Wars, Turtles, Transformers, MOTU, G.I. Joe, Thundercats, M.A.S.K., plus een retro-gamemarkt. Voor jou de beste van het najaar — en met NECA's Turtles die op 31 december ophouden ook de logische plek om te zoeken.",
       "url": "https://www.soevereinlommel.be/agenda/vintage-toys-of-the-universe/"
     },
     {
@@ -408,5 +283,104 @@
       "note": "5 en 6 december, Messe Dortmund, hallen 4 tot en met 7. Zaterdag 10 tot 18 uur, zondag 10 tot 17 uur. Goed bereikbaar vanaf de oostgrens.",
       "url": "https://germanfilmcomiccon.com/en/home/"
     }
-  ]
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia — Godzilla Minus Zero (releasedata, cast, IMAX)",
+      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
+    },
+    {
+      "label": "Marvel — Avengers: Endgame Encore vanaf 25 september",
+      "url": "https://www.marvel.com/articles/movies/marvel-studios-avengers-endgame-returns-to-theaters-2026"
+    },
+    {
+      "label": "DCCollectors — Mattels eerste DC Collector-stuk op NYCC, 8 oktober 12 uur ET",
+      "url": "https://dccollectors.com/2026/09/18/mattel-to-unveil-first-dc-collector-item-at-nycc-2026-preorder-and-reveal-details/"
+    },
+    {
+      "label": "Marvelous News — Hasbro NYCC-panel op zondag 11 oktober",
+      "url": "https://marvelousnews.com/252-39038"
+    },
+    {
+      "label": "Action Figure Insider — Hasbro's preorders voor Targets Fall Geek-Out, 18 september 9 uur ET",
+      "url": "https://www.actionfigureinsider.com/hasbro-announces-g-i-joe-and-marvel-pre-orders-for-targets-fall-geek-out-pre-orders-go-live-tomorrow-september-18-at-9am-et/"
+    },
+    {
+      "label": "Marvel Toy News — Cypher & No Way Home Spider-Man Target-exclusives",
+      "url": "https://marveltoynews.com/marvel-legends-cypher-no-way-home-spider-man-target-exclusives/"
+    },
+    {
+      "label": "Mephitsu — Cypher op een retro Uncanny X-Men-cardback",
+      "url": "https://www.mephitsu.co.uk/post/marvel-legends-uncanny-x-men-retro-carded-cypher"
+    },
+    {
+      "label": "Marvelous News — Retro Cardback Spider-Man: TAS en Maximum Carnage",
+      "url": "https://marvelousnews.com/23-39127"
+    },
+    {
+      "label": "Marvelous News — Marvel Holiday Special Spider-Man",
+      "url": "https://marvelousnews.com/252-39128"
+    },
+    {
+      "label": "Toy Hype USA — McFarlane DC Page Punchers Batman & Nightwing",
+      "url": "https://toyhypeusa.com/2026/09/18/mcfarlane-toys-dc-multiverse-dc-page-punchers-batman-nightwing-figures-pre-orders/"
+    },
+    {
+      "label": "Toy Hype USA — McFarlane x DC Direct Super Powers Wave 16, de laatste golf",
+      "url": "https://toyhypeusa.com/2026/09/03/mcfarlane-toys-x-dc-direct-dc-super-powers-wave-16-figures-pre-orders/"
+    },
+    {
+      "label": "he-man.org — MOTU Origins Two-Bad op 23 september",
+      "url": "https://www.he-man.org/motu-origins-two-bad-coming-to-mattel-creations-sept-23/"
+    },
+    {
+      "label": "Toy Hype USA — Super7 TMNT ReAction+ Wave 2",
+      "url": "https://toyhypeusa.com/2026/09/16/super7-tmnt-reaction-wave-2-figures-available-now-pre-orders/"
+    },
+    {
+      "label": "Godzilla Store — Movie Monster Series Godzilla (2026) exclusives",
+      "url": "https://godzilla.com/blogs/news/exclusive-godzilla-2026-movie-monster-series-figures-coming-to-godzilla-store-us"
+    },
+    {
+      "label": "BigBadToyStore — S.H.MonsterArts Godzilla Minus Zero",
+      "url": "https://www.bigbadtoystore.com/product/godzilla-minus-zero-2026-shmonsterarts-godzilla-action-figure-193546"
+    },
+    {
+      "label": "Bleeding Cool — S.H.MonsterArts Burning Millennium Godzilla op NYCC",
+      "url": "https://bleedingcool.com/collectibles/s-h-monsterarts-burning-millennium-godzilla-brings-heat-to-nycc-2026/"
+    },
+    {
+      "label": "Bleeding Cool — DC Multiverse eindigt, Mattel neemt over",
+      "url": "https://bleedingcool.com/collectibles/the-dc-multiverse-ends-as-dc-comics-debuts-new-mattel-partnership/"
+    },
+    {
+      "label": "Bleeding Cool — de Turtles gaan per 2027 weg bij Playmates",
+      "url": "https://bleedingcool.com/collectibles/teenage-mutant-ninja-turtles-are-moving-away-from-playmates-in-2027/"
+    },
+    {
+      "label": "Weekend of Hell — 26 en 27 september in Neuss",
+      "url": "https://weekend-of-hell.com/en/home-2/"
+    },
+    {
+      "label": "Collect-a-Con NL — 26 en 27 september in Egmond aan Zee",
+      "url": "https://www.collectacon.nl/"
+    },
+    {
+      "label": "De Soeverein Lommel — Vintage Toys of the Universe, 3 oktober",
+      "url": "https://www.soevereinlommel.be/agenda/vintage-toys-of-the-universe/"
+    },
+    {
+      "label": "Meuk is leuk — agenda verzamelbeurzen",
+      "url": "https://www.meukisleuk.nl/agenda/verzamelbeurs"
+    },
+    {
+      "label": "Old School Toys — beursagenda",
+      "url": "https://www.old-school-toys.nl/nl/beursagenda"
+    },
+    {
+      "label": "Toymarkt.de — Duitse beurzenagenda",
+      "url": "https://www.toymarkt.de/termine.html"
+    }
+  ],
+  "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf."
 }
