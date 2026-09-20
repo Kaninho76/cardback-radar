@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-09-20T19:29:49+00:00",
+ "updatedISO": "2026-09-20T22:29:57+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Iron Man (Extremis) & Mandarin Figures Pre-Orders (Update)",
+   "url": "https://toyhypeusa.com/2026/09/20/hasbro-marvel-legends-iron-man-extremis-mandarin-figures-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-iron-man-extremis-mandarin-figures-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-20T20:07:02+00:00"
+  },
   {
    "title": "GI Joe Classified Series Haslab Snow C.A.T In Hand Review",
    "url": "https://toyhabits.com/gi-joe-classified-series-haslab-snow-cat-in-hand-review/",
@@ -274,12 +281,6 @@
    "url": "https://www.toyark.com/2026/09/18/mcfarlane-toys-dc-previews-dc-multiverse-gold-label-arkham-city-batman-batman-beyond-cowl-page-punchers-batman-and-page-punchers-nightwing-599126",
    "source": "The Toyark",
    "iso": "2026-09-18T12:07:08+00:00"
-  },
-  {
-   "title": "Elvira: Mistress of the Dark – NECA Ultimate Elvira Figure",
-   "url": "https://www.toyark.com/2026/09/18/elvira-mistress-of-the-dark-neca-ultimate-elvira-figure-599122",
-   "source": "The Toyark",
-   "iso": "2026-09-18T11:46:45+00:00"
   }
  ],
  "trends": {
