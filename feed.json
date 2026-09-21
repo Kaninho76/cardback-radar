@@ -1,17 +1,28 @@
 {
- "updatedISO": "2026-09-20T22:29:57+00:00",
+ "updatedISO": "2026-09-21T01:11:49+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Boss Fight Studio Hero H.A.C.K.S. 1/18 Scale Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/20/boss-fight-studio-hero-h-a-c-k-s-1-18-scale-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-hero-h-a-c-k-s-1-18-scale-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-21T00:38:00+00:00"
+  },
+  {
+   "title": "Robosen – Transformers Optimus Prime Trailer Kit Available Now",
+   "url": "https://toyhypeusa.com/2026/09/20/robosen-transformers-optimus-prime-trailer-kit-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-optimus-prime-trailer-kit-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-20T22:53:58+00:00"
+  },
   {
    "title": "Hasbro Marvel Legends Iron Man (Extremis) & Mandarin Figures Pre-Orders (Update)",
    "url": "https://toyhypeusa.com/2026/09/20/hasbro-marvel-legends-iron-man-extremis-mandarin-figures-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-iron-man-extremis-mandarin-figures-update",
@@ -269,94 +280,82 @@
    "url": "https://www.toyark.com/2026/09/18/tmnt-leonardo-michelangelo-bebop-and-rocksteady-reaction-figure-pre-orders-599160",
    "source": "The Toyark",
    "iso": "2026-09-18T12:35:46+00:00"
-  },
-  {
-   "title": "The Flash Movie – Hot Toys Batman Arctic Suit Figure",
-   "url": "https://www.toyark.com/2026/09/18/the-flash-movie-hot-toys-batman-arctic-suit-figure-599134",
-   "source": "The Toyark",
-   "iso": "2026-09-18T12:18:12+00:00"
-  },
-  {
-   "title": "McFarlane Toys DC Previews – DC Multiverse Gold Label Arkham City Batman, Batman Beyond Cowl, Page Punchers Batman, and Page Punchers Nightwing",
-   "url": "https://www.toyark.com/2026/09/18/mcfarlane-toys-dc-previews-dc-multiverse-gold-label-arkham-city-batman-batman-beyond-cowl-page-punchers-batman-and-page-punchers-nightwing-599126",
-   "source": "The Toyark",
-   "iso": "2026-09-18T12:07:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-20T12:27:50+00:00",
+  "updatedISO": "2026-09-21T01:11:49+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2698,
-    "change": 45
+    "perDay": 2316,
+    "change": 17
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 179,
-    "change": 12
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 962,
-    "change": 4
+    "perDay": 165,
+    "change": 2
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 615,
+    "perDay": 616,
     "change": 1
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 928,
+    "change": 0
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 88,
-    "change": 1
+    "perDay": 86,
+    "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2132,
-    "change": -7
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 80,
-    "change": -15
+    "perDay": 2106,
+    "change": -8
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2312,
-    "change": -18
+    "perDay": 2293,
+    "change": -17
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -33
+    "change": -19
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 74,
+    "change": -22
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1201,
-    "change": -41
+    "perDay": 1195,
+    "change": -40
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 752,
+    "perDay": 739,
     "change": -42
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 15837,
+    "perDay": 15539,
     "change": -53
    }
   ],
