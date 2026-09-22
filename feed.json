@@ -1,17 +1,52 @@
 {
- "updatedISO": "2026-09-22T07:46:46+00:00",
+ "updatedISO": "2026-09-22T13:27:01+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError",
-  "Toy Habits: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "TFSource News! Customer Appreciation Month, Everything is Back! Save up to $300 Off!",
+   "url": "https://www.toyark.com/2026/09/22/tfsource-news-customer-appreciation-month-everything-is-back-save-up-to-300-off-599267",
+   "source": "The Toyark",
+   "iso": "2026-09-22T12:19:18+00:00"
+  },
+  {
+   "title": "X-Men: The Animated Series – Mondo Jean Grey Figure",
+   "url": "https://www.toyark.com/2026/09/22/x-men-the-animated-series-mondo-jean-grey-figure-599219",
+   "source": "The Toyark",
+   "iso": "2026-09-22T12:13:36+00:00"
+  },
+  {
+   "title": "KAYOU KPop Demon Hunters Mini Cards Now Available",
+   "url": "https://www.actionfigureinsider.com/kayou-kpop-demon-hunters-mini-cards-now-available/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-22T12:00:24+00:00"
+  },
+  {
+   "title": "Mega Man – ThreeZero MDLX Bass Figure",
+   "url": "https://www.toyark.com/2026/09/22/mega-man-threezero-mdlx-bass-figure-599200",
+   "source": "The Toyark",
+   "iso": "2026-09-22T11:59:22+00:00"
+  },
+  {
+   "title": "Hasbro Street Fighter The Movie Figures found at Walmart",
+   "url": "https://toyhabits.com/hasbro-street-fighter-the-movie-figures-found-at-walmart/",
+   "source": "Toy Habits",
+   "iso": "2026-09-22T03:10:58+00:00"
+  },
+  {
+   "title": "GI Joe Classified Series D.I.R.E. Tech Hawk shows up at Walmart",
+   "url": "https://toyhabits.com/gi-joe-classified-series-dire-tech-hawk-shows-up-at-walmart/",
+   "source": "Toy Habits",
+   "iso": "2026-09-22T02:30:51+00:00"
+  },
   {
    "title": "Hasbro G.I. Joe Classified Series Crankcase & A.W.E. Striker Vehicle Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/21/hasbro-gijoe-classified-series-crankcase-awe-striker-vehicle-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-crankcase-awe-striker-vehicle-pre-orders",
@@ -245,42 +280,6 @@
    "url": "https://www.actionfigureinsider.com/monogram-annouce-their-5th-nycc-exclusive-one-piece-lanyard-pins-set/",
    "source": "Action Figure Insider",
    "iso": "2026-09-19T12:00:35+00:00"
-  },
-  {
-   "title": "MOTU Chronicles Movie Beast Man Figure Early Look",
-   "url": "https://toyhabits.com/motu-chronicles-movie-beast-man-figure-early-look/",
-   "source": "Toy Habits",
-   "iso": "2026-09-19T04:29:59+00:00"
-  },
-  {
-   "title": "MOTU Chronicles Wave 4 In-Box Images",
-   "url": "https://toyhabits.com/motu-chronicles-wave-4-in-box-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-19T03:56:38+00:00"
-  },
-  {
-   "title": "Man-At-Arms v2 MOTU Chronicles In-Box Images",
-   "url": "https://toyhabits.com/man-at-arms-v2-motu-chroniles-in-box-images/",
-   "source": "Toy Habits",
-   "iso": "2026-09-19T01:25:28+00:00"
-  },
-  {
-   "title": "ReedPop Is To Close Its Popverse Website This Month",
-   "url": "https://bleedingcool.com/pop-culture/reedpop-is-to-close-its-popverse-website-this-month/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-18T23:42:09+00:00"
-  },
-  {
-   "title": "“FAST & FURIOUS: HOLLYWOOD DRIFT” IS NOW OPEN!",
-   "url": "https://www.actionfigureinsider.com/fast-furious-hollywood-drift-is-now-open/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-18T19:09:37+00:00"
-  },
-  {
-   "title": "Celebrate Batman Day at Warner Bros. Studio Tour Hollywood",
-   "url": "https://www.actionfigureinsider.com/celebrate-batman-day-at-warner-bros-studio-tour-hollywood/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-18T18:51:52+00:00"
   }
  ],
  "trends": {
