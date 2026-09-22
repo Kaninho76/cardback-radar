@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-22T18:08:18+00:00",
+ "updatedISO": "2026-09-22T21:24:46+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
@@ -12,6 +12,12 @@
   "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "Hasbro Unveils New Bumblebee Action Figure Inspired by “Optimus Prime: Awakening”",
+   "url": "https://www.actionfigureinsider.com/hasbro-unveils-new-bumblebee-action-figure-inspired-by-optimus-prime-awakening/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-22T20:55:11+00:00"
+  },
   {
    "title": "Hasbro Transformers Studio Series Optimus Prime: Awakening Bumblebee Figure Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/22/hasbro-transformers-studio-series-optimus-prime-awakening-bumblebee-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-studio-series-optimus-prime-awakening-bumblebee-figure-pre-orders",
@@ -275,16 +281,10 @@
    "url": "https://bleedingcool.com/collectibles/exclusive-spider-man-no-way-home-1-6-figure-revealed-by-hot-toys/",
    "source": "Bleeding Cool",
    "iso": "2026-09-19T17:22:10+00:00"
-  },
-  {
-   "title": "Batman Day 2026 Hot Toys Showcase — Hell Bows Before Batman",
-   "url": "https://bleedingcool.com/collectibles/batman-day-2026-hot-toys-showcase-hellbat-bows-before-batman/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-19T16:23:11+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-22T07:46:46+00:00",
+  "updatedISO": "2026-09-22T21:24:46+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
