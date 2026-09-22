@@ -1,16 +1,47 @@
 {
- "updatedISO": "2026-09-22T13:27:01+00:00",
+ "updatedISO": "2026-09-22T18:08:18+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro Transformers Studio Series Optimus Prime: Awakening Bumblebee Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/22/hasbro-transformers-studio-series-optimus-prime-awakening-bumblebee-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-studio-series-optimus-prime-awakening-bumblebee-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-22T17:01:25+00:00"
+  },
+  {
+   "title": "Jada Toys Ultra Street Fighter II Balrog (Player 2) 1:12 Scale Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/22/jada-toys-ultra-street-fighter-ii-balrog-player-2-112-scale-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=jada-toys-ultra-street-fighter-ii-balrog-player-2-112-scale-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-22T16:11:17+00:00"
+  },
+  {
+   "title": "Snake Eyes & Varmint ATV and Cobra Stealth Viper & Stealth Flight Pod Official Images & Walmart Listing",
+   "url": "https://toyhabits.com/snake-eyes-varmint-atv-and-cobra-stealth-viper-stealth-flight-pod-official-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-22T15:15:03+00:00"
+  },
+  {
+   "title": "Snake Eyes & Varmint ATV Cobra Stealth Viper & Stealth Flight Pod Hitting Walmart",
+   "url": "https://toyhabits.com/snake-eyes-varmint-atv-cobra-stealth-viper-stealth-flight-pod-hitting-walmart/",
+   "source": "Toy Habits",
+   "iso": "2026-09-22T14:16:57+00:00"
+  },
+  {
+   "title": "Where is MOTU Chronicles Beast Man and When Is He Coming?",
+   "url": "https://toyhabits.com/where-is-motu-chronicles-beast-man-and-when-is-he-coming/",
+   "source": "Toy Habits",
+   "iso": "2026-09-22T13:39:07+00:00"
+  },
   {
    "title": "TFSource News! Customer Appreciation Month, Everything is Back! Save up to $300 Off!",
    "url": "https://www.toyark.com/2026/09/22/tfsource-news-customer-appreciation-month-everything-is-back-save-up-to-300-off-599267",
@@ -250,36 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/batman-day-2026-hot-toys-showcase-hellbat-bows-before-batman/",
    "source": "Bleeding Cool",
    "iso": "2026-09-19T16:23:11+00:00"
-  },
-  {
-   "title": "Mondo Unveils New X-Men: The Animated Series 1/6-scale Jean Grey",
-   "url": "https://bleedingcool.com/collectibles/mondo-unveils-new-x-men-the-animated-series-1-6-scale-jean-grey/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-19T15:22:09+00:00"
-  },
-  {
-   "title": "Mattel Announces All-New Thomas & Friends Animated Series With “Really Helpful Engines” Special",
-   "url": "https://www.actionfigureinsider.com/mattel-announces-all-new-thomas-friends-animated-series-with-really-helpful-engines-special/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-19T15:00:43+00:00"
-  },
-  {
-   "title": "McFarlane Toys Enters the Future with DC Super Powers Batman Beyond",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-enters-the-future-with-dc-super-powers-batman-beyond/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-19T14:22:08+00:00"
-  },
-  {
-   "title": "Masterverse Vintage Collection Evil-Lyn Hitting Walmart Stores",
-   "url": "https://toyhabits.com/masterverse-vintage-collection-evil-lyn-hitting-walmart-stores/",
-   "source": "Toy Habits",
-   "iso": "2026-09-19T13:40:27+00:00"
-  },
-  {
-   "title": "MONOGRAM ANNOUCE THEIR 5th #NYCC EXCLUSIVE – One Piece – Lanyard & Pins Set",
-   "url": "https://www.actionfigureinsider.com/monogram-annouce-their-5th-nycc-exclusive-one-piece-lanyard-pins-set/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-19T12:00:35+00:00"
   }
  ],
  "trends": {
