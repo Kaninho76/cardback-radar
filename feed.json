@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-23T06:02:15+00:00",
+ "updatedISO": "2026-09-23T11:45:59+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -283,80 +283,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-22T21:24:46+00:00",
+  "updatedISO": "2026-09-23T11:45:59+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2152,
-    "change": 6
+    "perDay": 2089,
+    "change": 2
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 619,
+    "perDay": 616,
     "change": 1
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 87,
-    "change": 0
+    "perDay": 86,
+    "change": -1
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 160,
-    "change": -2
+    "perDay": 158,
+    "change": -3
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 915,
-    "change": -3
+    "perDay": 901,
+    "change": -4
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2113,
-    "change": -7
+    "perDay": 2137,
+    "change": -5
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2296,
+    "perDay": 2270,
     "change": -16
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 70,
+    "change": -24
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -21
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 73,
-    "change": -22
+    "change": -29
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1171,
-    "change": -39
+    "perDay": 1161,
+    "change": -36
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 719,
-    "change": -42
+    "perDay": 701,
+    "change": -40
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 15586,
-    "change": -47
+    "perDay": 15784,
+    "change": -41
    }
   ],
   "missed": []
