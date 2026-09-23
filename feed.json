@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-09-23T20:27:36+00:00",
+ "updatedISO": "2026-09-23T23:45:00+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "BigBadToyStore News: Hellboy, Marvel & Dragon Ball sales, DC, Transformers, Anime & More",
+   "url": "https://toyhypeusa.com/2026/09/23/bbts-hellboy-marvel-dragon-ball-sales-dc-transformers-anime/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-hellboy-marvel-dragon-ball-sales-dc-transformers-anime",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-23T23:25:08+00:00"
+  },
   {
    "title": "Forbidden Planet 4k Review",
    "url": "https://www.actionfigureinsider.com/forbidden-planet-4k-review/",
@@ -29,6 +34,12 @@
    "url": "https://toyhypeusa.com/2026/09/23/hasbro-transformers-age-of-the-primes-voyager-class-vector-prime-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-voyager-class-vector-prime-figure-review",
    "source": "Toy Hype USA",
    "iso": "2026-09-23T18:48:51+00:00"
+  },
+  {
+   "title": "The Amazing Spider-Man Marvel Legends Holiday Special Preorder",
+   "url": "https://toyhabits.com/the-amazing-spider-man-marvel-legends-holiday-special-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-23T17:35:17+00:00"
   },
   {
    "title": "Hasbro Marvel Legends Series 6″ Spider-Man (Marvel Holiday Special) Figure Pre-Orders",
@@ -269,18 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/its-clobberin-time-with-sideshows-marvel-comics-the-thing-statue/",
    "source": "Bleeding Cool",
    "iso": "2026-09-21T17:57:09+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series 6″ Mad Marauders Footloose, Mutt & Junkyard Figure Set Available Now",
-   "url": "https://toyhypeusa.com/2026/09/21/hasbro-gijoe-classified-series-mad-marauders-footloose-mutt-junkyard-figure-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-mad-marauders-footloose-mutt-junkyard-figure-set-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-21T17:11:26+00:00"
-  },
-  {
-   "title": "GIVING BACK WITH ‘THE REAL GHOSTBUSTERS’: A 40TH ANNIVERSARY CELEBRATION TO BRING CAST MEMBERS, LIVE MUSIC AND SPECIAL SCREENING TO DYNASTY TYPEWRITER",
-   "url": "https://www.actionfigureinsider.com/giving-back-with-the-real-ghostbusters-a-40th-anniversary-celebration-to-bring-cast-members-live-music-and-special-screening-to-dynasty-typewriter/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-21T16:25:06+00:00"
   }
  ],
  "trends": {
