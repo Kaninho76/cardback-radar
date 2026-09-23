@@ -1,22 +1,51 @@
 {
- "updatedISO": "2026-09-22T21:24:46+00:00",
+ "updatedISO": "2026-09-23T00:38:27+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Playmates Teenage Mutant Ninja Turtles Figures & Vehicles on BBTS",
+   "url": "https://toyhabits.com/playmates-teenage-mutant-ninja-turtles-figures-vehicles-on-bbts/",
+   "source": "Toy Habits",
+   "iso": "2026-09-23T00:06:08+00:00"
+  },
+  {
+   "title": "Balrog Player II Ultra Street Fighter II by Jada Toys Entertainment Earth Exclusive Preorder & Official Images",
+   "url": "https://toyhabits.com/balrog-player-ii-ultra-street-fighter-ii-by-jada-toys-entertainment-earth-exclusive-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-22T22:11:18+00:00"
+  },
+  {
+   "title": "Hasbro Transformers Deluxe Class Star Eagle Figure (ReIssue) Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/22/hasbro-transformers-deluxe-class-star-eagle-figure-reissue-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-deluxe-class-star-eagle-figure-reissue-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-22T21:43:19+00:00"
+  },
   {
    "title": "Hasbro Unveils New Bumblebee Action Figure Inspired by “Optimus Prime: Awakening”",
    "url": "https://www.actionfigureinsider.com/hasbro-unveils-new-bumblebee-action-figure-inspired-by-optimus-prime-awakening/",
    "source": "Action Figure Insider",
    "iso": "2026-09-22T20:55:11+00:00"
+  },
+  {
+   "title": "Reunite the Bat-Family with McFarlane Toys DC Page Punchers Tim Drake",
+   "url": "https://bleedingcool.com/collectibles/reunite-the-bat-family-with-mcfarlane-toys-dc-page-punchers-tim-drake/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-22T18:52:08+00:00"
+  },
+  {
+   "title": "Red Platinum DC Comics Page Punchers: Dick Grayson (Robin) Revealed",
+   "url": "https://bleedingcool.com/collectibles/red-platinum-dc-comics-page-punchers-dick-grayson-robin-revealed/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-22T17:52:08+00:00"
   },
   {
    "title": "Hasbro Transformers Studio Series Optimus Prime: Awakening Bumblebee Figure Pre-Orders",
@@ -25,16 +54,46 @@
    "iso": "2026-09-22T17:01:25+00:00"
   },
   {
+   "title": "Dick Grayson Returns with DC Page Punchers: Nightwing #81 Figure",
+   "url": "https://bleedingcool.com/collectibles/dick-grayson-returns-with-dc-page-punchers-nightwing-81-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-22T16:52:09+00:00"
+  },
+  {
    "title": "Jada Toys Ultra Street Fighter II Balrog (Player 2) 1:12 Scale Figure Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/22/jada-toys-ultra-street-fighter-ii-balrog-player-2-112-scale-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=jada-toys-ultra-street-fighter-ii-balrog-player-2-112-scale-figure-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-09-22T16:11:17+00:00"
   },
   {
+   "title": "New DC Page Punchers: Batman #1 Figure Revealed by McFarlane",
+   "url": "https://bleedingcool.com/collectibles/new-dc-page-punchers-batman-1-figure-revealed-by-mcfarlane/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-22T15:53:08+00:00"
+  },
+  {
+   "title": "Hot Toys Exclusive 1/6-Scale Arctic Suit Batman Figure Coming Soon",
+   "url": "https://bleedingcool.com/collectibles/hot-toys-exclusive-1-6-scale-arctic-suit-batman-figure-coming-soon/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-22T15:22:12+00:00"
+  },
+  {
    "title": "Snake Eyes & Varmint ATV and Cobra Stealth Viper & Stealth Flight Pod Official Images & Walmart Listing",
    "url": "https://toyhabits.com/snake-eyes-varmint-atv-and-cobra-stealth-viper-stealth-flight-pod-official-images/",
    "source": "Toy Habits",
    "iso": "2026-09-22T15:15:03+00:00"
+  },
+  {
+   "title": "Exclusive Marvel Legends X-Men Cypher Figure Revealed by Hasbro",
+   "url": "https://bleedingcool.com/collectibles/exclusive-marvel-legends-x-men-cypher-figure-revealed-by-hasbro/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-22T14:52:09+00:00"
+  },
+  {
+   "title": "McFarlane Toys Announces New Batman Beyond 1:1 Scale Cowl Replica",
+   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-announces-new-batman-beyond-11-scale-cowl-replica/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-22T14:22:11+00:00"
   },
   {
    "title": "Snake Eyes & Varmint ATV Cobra Stealth Viper & Stealth Flight Pod Hitting Walmart",
@@ -101,12 +160,6 @@
    "url": "https://toyhabits.com/gi-joe-classified-series-mad-marauders-footloose-mutt-junkyard-3-pack-in-stock-on-bbts/",
    "source": "Toy Habits",
    "iso": "2026-09-21T23:41:44+00:00"
-  },
-  {
-   "title": "Balrog Player II Ultra Street Fighter II by Jada Toys Entertainment Earth Exclusive Preorder & Official Images",
-   "url": "https://toyhabits.com/balrog-player-ii-ultra-street-fighter-ii-by-jada-toys-entertainment-earth-exclusive-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-21T23:04:11+00:00"
   },
   {
    "title": "Mattel DC Collector Figure Line NYCC 2026 Booth Info Update",
@@ -227,60 +280,6 @@
    "url": "https://www.actionfigureinsider.com/dc-heroclix-starter-set-2026-review/",
    "source": "Action Figure Insider",
    "iso": "2026-09-20T16:58:25+00:00"
-  },
-  {
-   "title": "McFarlane Toys Unveils New DC Classic Collector Edition Mera Figure",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-unveils-new-dc-classic-collector-edition-mera-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-20T16:52:08+00:00"
-  },
-  {
-   "title": "Take Control of the Seven Seas with McFarlane Toys' New Black Manta",
-   "url": "https://bleedingcool.com/collectibles/take-control-of-the-seven-seas-with-mcfarlane-toys-new-black-manta/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-20T15:22:08+00:00"
-  },
-  {
-   "title": "Festive fun begins as the @LEGO Group builds up to the holidays",
-   "url": "https://www.actionfigureinsider.com/festive-fun-begins-as-the-lego-group-builds-up-to-the-holidays/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-20T15:00:01+00:00"
-  },
-  {
-   "title": "Godzilla Singular Point – Hiya Toys Godzilla Ultima Version",
-   "url": "https://www.toyark.com/2026/09/20/godzilla-singular-point-hiya-toys-godzilla-ultima-version-599174",
-   "source": "The Toyark",
-   "iso": "2026-09-20T14:44:13+00:00"
-  },
-  {
-   "title": "Build Up the Teen Titans with McFarlane's DC Super Powers Raven",
-   "url": "https://bleedingcool.com/collectibles/build-up-the-teen-titans-with-mcfarlanes-dc-super-powers-raven/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-20T14:22:09+00:00"
-  },
-  {
-   "title": "DC Comics Starfire Joins McFarlane Toys DC Super Powers Collection",
-   "url": "https://bleedingcool.com/collectibles/dc-comics-starfire-joins-mcfarlane-toys-dc-super-powers-collection/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-20T13:22:08+00:00"
-  },
-  {
-   "title": "MONOGRAM ANNOUCE THEIR 6th and FINAL #NYCC EXCLUSIVE – New York Knicks – 3D Foam Bag Clip 6 Pack Set",
-   "url": "https://www.actionfigureinsider.com/monogram-annouce-their-6th-and-final-nycc-exclusive-new-york-knicks-3d-foam-bag-clip-6-pack-set/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-20T12:00:31+00:00"
-  },
-  {
-   "title": "Frazetta Girls Debuts New ICON Collectibles Dejah Thoris Figure",
-   "url": "https://bleedingcool.com/collectibles/frazetta-girls-debuts-new-icon-collectibles-dejah-thoris-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-19T18:22:08+00:00"
-  },
-  {
-   "title": "Exclusive Spider-Man: No Way Home 1/6 Figure Revealed by Hot Toys",
-   "url": "https://bleedingcool.com/collectibles/exclusive-spider-man-no-way-home-1-6-figure-revealed-by-hot-toys/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-19T17:22:10+00:00"
   }
  ],
  "trends": {
