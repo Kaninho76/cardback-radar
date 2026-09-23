@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-09-23T17:08:23+00:00",
+ "updatedISO": "2026-09-23T20:27:36+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "Forbidden Planet 4k Review",
+   "url": "https://www.actionfigureinsider.com/forbidden-planet-4k-review/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-23T19:52:09+00:00"
+  },
+  {
+   "title": "Dungeon Masters – D&D: World of Warcraft Campaign Premieres Tonight",
+   "url": "https://www.actionfigureinsider.com/dungeon-masters-dd-world-of-warcraft-campaign-premieres-tonight/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-23T19:15:02+00:00"
+  },
+  {
+   "title": "Hasbro Transformers: Age of the Primes Voyager Class Vector Prime Figure Review",
+   "url": "https://toyhypeusa.com/2026/09/23/hasbro-transformers-age-of-the-primes-voyager-class-vector-prime-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-voyager-class-vector-prime-figure-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-23T18:48:51+00:00"
+  },
   {
    "title": "Hasbro Marvel Legends Series 6″ Spider-Man (Marvel Holiday Special) Figure Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/23/hasbro-marvel-legends-series-spider-man-marvel-holiday-special-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-marvel-holiday-special-figure-pre-orders",
@@ -262,24 +281,6 @@
    "url": "https://www.actionfigureinsider.com/giving-back-with-the-real-ghostbusters-a-40th-anniversary-celebration-to-bring-cast-members-live-music-and-special-screening-to-dynasty-typewriter/",
    "source": "Action Figure Insider",
    "iso": "2026-09-21T16:25:06+00:00"
-  },
-  {
-   "title": "Maestro Media partners with Grimoire Garage for future REWIND titles",
-   "url": "https://www.actionfigureinsider.com/maestro-media-partners-with-grimoire-garage-for-future-rewind-titles/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-21T16:03:11+00:00"
-  },
-  {
-   "title": "LAAT/i Republic Gunship Star Wars HasLab In-Hand Review",
-   "url": "https://toyhabits.com/laat-i-republic-gunship-star-wars-haslab-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-09-21T12:19:05+00:00"
-  },
-  {
-   "title": "Street Fighter 6 – Revoltech Cammy and Chun-Li Announced",
-   "url": "https://www.toyark.com/2026/09/21/street-fighter-6-revoltech-cammy-and-chun-li-announced-599194",
-   "source": "The Toyark",
-   "iso": "2026-09-21T12:15:59+00:00"
   }
  ],
  "trends": {
