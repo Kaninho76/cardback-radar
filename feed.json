@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-23T23:45:00+00:00",
+ "updatedISO": "2026-09-24T04:59:23+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Skeletor v2 MOTU Chronicles Wave 4 In Hand Review",
+   "url": "https://toyhabits.com/skeletor-v2-motu-chronicles-wave-4-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-09-24T02:04:08+00:00"
+  },
+  {
+   "title": "Man-At-Arms v2 MOTU Chronicles Wave 4 In Hand Review",
+   "url": "https://toyhabits.com/man-at-arms-v2-motu-chronicles-wave-4-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-09-24T00:28:32+00:00"
+  },
   {
    "title": "BigBadToyStore News: Hellboy, Marvel & Dragon Ball sales, DC, Transformers, Anime & More",
    "url": "https://toyhypeusa.com/2026/09/23/bbts-hellboy-marvel-dragon-ball-sales-dc-transformers-anime/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-hellboy-marvel-dragon-ball-sales-dc-transformers-anime",
@@ -268,95 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/exclusive-gold-label-batman-arkham-city-dc-multiverse-figure-revealed/",
    "source": "Bleeding Cool",
    "iso": "2026-09-21T19:22:08+00:00"
-  },
-  {
-   "title": "Hiya Toys Unleashes New Godzilla Singular Point (Ultima Version)",
-   "url": "https://bleedingcool.com/collectibles/hiya-toys-unleashes-new-godzilla-singular-point-ultima-version/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-21T18:22:09+00:00"
-  },
-  {
-   "title": "It's Clobberin' Time with Sideshow's Marvel Comics The Thing Statue",
-   "url": "https://bleedingcool.com/collectibles/its-clobberin-time-with-sideshows-marvel-comics-the-thing-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-21T17:57:09+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-23T11:45:59+00:00",
+  "updatedISO": "2026-09-24T04:59:23+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2089,
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 617,
     "change": 2
    },
    {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 616,
-    "change": 1
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2063,
+    "change": 0
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 160,
+    "change": -1
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
     "perDay": 86,
-    "change": -1
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 158,
-    "change": -3
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 901,
-    "change": -4
+    "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2137,
+    "perDay": 2150,
+    "change": -4
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 891,
     "change": -5
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2270,
-    "change": -16
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 70,
-    "change": -24
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 2,
-    "change": -29
+    "perDay": 3,
+    "change": -12
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2254,
+    "change": -17
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 71,
+    "change": -22
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1161,
-    "change": -36
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 701,
-    "change": -40
+    "perDay": 1151,
+    "change": -34
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 15784,
-    "change": -41
+    "perDay": 15969,
+    "change": -37
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 685,
+    "change": -40
    }
   ],
   "missed": []
