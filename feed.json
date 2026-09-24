@@ -1,16 +1,41 @@
 {
- "updatedISO": "2026-09-24T15:11:17+00:00",
+ "updatedISO": "2026-09-24T19:16:33+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError",
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "BLINK-182 Officially Licensed Action Figures Released to Celebrate 25 Years of ‘Take Off Your Pants And Jacket’",
+   "url": "https://www.actionfigureinsider.com/blink-182-officially-licensed-action-figures-released-to-celebrate-25-years-of-take-off-your-pants-and-jacket/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-24T18:49:29+00:00"
+  },
+  {
+   "title": "Hasbro Star Wars The Vintage Collection – Attack of the Clones Plo Koon Figure Review",
+   "url": "https://toyhypeusa.com/2026/09/24/hasbro-star-wars-the-vintage-collection-attack-of-the-clones-plo-koon-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-the-vintage-collection-attack-of-the-clones-plo-koon-figure-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-24T18:27:12+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Fantastic Four Super-Skrull Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/24/hasbro-marvel-legends-series-fantastic-four-super-skrull-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-fantastic-four-super-skrull-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-24T15:59:48+00:00"
+  },
+  {
+   "title": "Bandai Namco Toys & Collectibles America Ignites Fan Excitement at New York Comic Con 2026 #NYCC",
+   "url": "https://www.actionfigureinsider.com/bandai-namco-toys-collectibles-america-ignites-fan-excitement-at-new-york-comic-con-2026-nycc/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-24T15:53:26+00:00"
+  },
   {
    "title": "Boss Fight Studios Unveils Hero H.A.C.K.S. Captain John Bradford",
    "url": "https://bleedingcool.com/collectibles/boss-fight-studios-unveils-hero-h-a-c-k-s-captain-john-bradford/",
@@ -256,34 +281,10 @@
    "url": "https://toyhabits.com/where-is-motu-chronicles-beast-man-and-when-is-he-coming/",
    "source": "Toy Habits",
    "iso": "2026-09-22T13:39:07+00:00"
-  },
-  {
-   "title": "TFSource News! Customer Appreciation Month, Everything is Back! Save up to $300 Off!",
-   "url": "https://www.toyark.com/2026/09/22/tfsource-news-customer-appreciation-month-everything-is-back-save-up-to-300-off-599267",
-   "source": "The Toyark",
-   "iso": "2026-09-22T12:19:18+00:00"
-  },
-  {
-   "title": "X-Men: The Animated Series – Mondo Jean Grey Figure",
-   "url": "https://www.toyark.com/2026/09/22/x-men-the-animated-series-mondo-jean-grey-figure-599219",
-   "source": "The Toyark",
-   "iso": "2026-09-22T12:13:36+00:00"
-  },
-  {
-   "title": "KAYOU KPop Demon Hunters Mini Cards Now Available",
-   "url": "https://www.actionfigureinsider.com/kayou-kpop-demon-hunters-mini-cards-now-available/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-22T12:00:24+00:00"
-  },
-  {
-   "title": "Mega Man – ThreeZero MDLX Bass Figure",
-   "url": "https://www.toyark.com/2026/09/22/mega-man-threezero-mdlx-bass-figure-599200",
-   "source": "The Toyark",
-   "iso": "2026-09-22T11:59:22+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-24T04:59:23+00:00",
+  "updatedISO": "2026-09-24T19:16:33+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
