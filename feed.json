@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-25T01:34:28+00:00",
+ "updatedISO": "2026-09-25T07:55:50+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -283,80 +283,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-24T19:16:33+00:00",
+  "updatedISO": "2026-09-25T07:55:50+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 617,
-    "change": 2
-   },
    {
     "label": "Godzilla",
     "article": "Godzilla",
     "perDay": 2063,
-    "change": 0
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 160,
     "change": -1
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 86,
-    "change": -2
+    "perDay": 87,
+    "change": -1
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2150,
-    "change": -4
+    "perDay": 2169,
+    "change": -3
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 599,
+    "change": -3
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 891,
+    "perDay": 898,
     "change": -5
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": -12
+    "change": -8
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 143,
+    "change": -14
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2254,
-    "change": -17
+    "perDay": 2265,
+    "change": -16
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 71,
-    "change": -22
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 1151,
-    "change": -34
+    "perDay": 72,
+    "change": -20
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 15969,
-    "change": -37
+    "perDay": 17569,
+    "change": -26
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 1145,
+    "change": -33
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 685,
-    "change": -40
+    "perDay": 676,
+    "change": -39
    }
   ],
   "missed": []
