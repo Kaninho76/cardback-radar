@@ -1,16 +1,95 @@
 {
- "updatedISO": "2026-09-25T13:52:53+00:00",
+ "updatedISO": "2026-09-25T18:40:49+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "An Invasion with Four Horsemen Studios' New Cosmic Legions Brainer",
+   "url": "https://bleedingcool.com/collectibles/an-invasion-with-four-horsemen-studios-new-cosmic-legions-brainer/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T18:22:09+00:00"
+  },
+  {
+   "title": "Super7 Micronauts ReAction+ Wave 6 Preorders",
+   "url": "https://toyhabits.com/super7-micronauts-reaction-wave-6-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-09-25T17:29:13+00:00"
+  },
+  {
+   "title": "Playmates Reveals Dungeon Crawler Carl Highlights Blind-Box Statues",
+   "url": "https://bleedingcool.com/collectibles/playmates-reveals-dungeon-crawler-carl-highlights-blind-box-statues/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T17:22:07+00:00"
+  },
+  {
+   "title": "Entertainment Earth News: Marvel, Street Fighter, Transformers, Star Wars, DC, Hero H.A.C.K.S., KPop Demon Hunter, Godzilla & Visionaries",
+   "url": "https://toyhypeusa.com/2026/09/25/ee-marvel-street-fighter-transformers-star-wars-dc-hero-hacks-kpop-demon-hunter-godzilla-visionaries/?utm_source=rss&utm_medium=rss&utm_campaign=ee-marvel-street-fighter-transformers-star-wars-dc-hero-hacks-kpop-demon-hunter-godzilla-visionaries",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-25T17:00:49+00:00"
+  },
+  {
+   "title": "New Gods DC Multiverse Darkseid vs. Orion McFarlane 2 Pack Preorder",
+   "url": "https://toyhabits.com/new-gods-dc-multiverse-darkseid-vs-orion-mcfarlane-2-pack-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-09-25T16:29:12+00:00"
+  },
+  {
+   "title": "Blokees Reveals Transformers Action Edition 07 Optimus Prime (Ver.EVO)",
+   "url": "https://bleedingcool.com/collectibles/blokees-reveals-transformers-action-edition-07-optimus-prime-ver-evo/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T16:23:21+00:00"
+  },
+  {
+   "title": "Super7 Micronauts ReAction+ Wave 6 – Acroyear & Time Traveler Clear Figures Available Now & Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/25/super7-micronauts-reaction-wave-6-acroyear-time-traveler-clear-figures-available-now-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-micronauts-reaction-wave-6-acroyear-time-traveler-clear-figures-available-now-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-25T16:14:54+00:00"
+  },
+  {
+   "title": "McFarlane Toys DC Multiverse – Darkseid Vs Orion 2-pack Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/25/mcfarlane-toys-dc-multiverse-darkseid-vs-orion-2-pack-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-darkseid-vs-orion-2-pack-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-25T16:01:43+00:00"
+  },
+  {
+   "title": "Build Your Own Robotic Army with Four Horsemen Studios' Cosmic Legions",
+   "url": "https://bleedingcool.com/collectibles/build-your-own-robotic-army-with-four-horsemen-studios-cosmic-legions/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T15:22:08+00:00"
+  },
+  {
+   "title": "Bring Home Wolverine's Cowl with McFarlane Toys Newest 1:3 Replica",
+   "url": "https://bleedingcool.com/collectibles/bring-home-wolverines-cowl-with-mcfarlane-toys-newest-13-replica/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T14:52:09+00:00"
+  },
+  {
+   "title": "Four Horsemen Studios Unveils Cosmic Legions Dr. Zajjarii Figure",
+   "url": "https://bleedingcool.com/collectibles/four-horsemen-studios-unveils-cosmic-legions-dr-zajjarii-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T14:22:12+00:00"
+  },
+  {
+   "title": "FiGGYZ reveals Demon Slayer Box Set 1",
+   "url": "https://www.actionfigureinsider.com/figgyz-reveals-demon-slayer-box-set-1/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-25T14:18:30+00:00"
+  },
+  {
+   "title": "Jett Steelblade Joins Boss Fight Studio 1/18 Hero H.A.C.K.S. Line",
+   "url": "https://bleedingcool.com/collectibles/jett-steelblade-joins-boss-fight-studio-1-18-hero-h-a-c-k-s-line/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T13:53:08+00:00"
+  },
   {
    "title": "Hero H.A.C.K.S. Debuts Stellar Guard: Cosmic Defender of Accord",
    "url": "https://bleedingcool.com/collectibles/hero-h-a-c-k-s-debuts-stellar-guard-cosmic-defender-of-accord/",
@@ -202,84 +281,6 @@
    "url": "https://toyhabits.com/skeletor-v2-motu-chronicles-wave-4-in-hand-review/",
    "source": "Toy Habits",
    "iso": "2026-09-24T02:04:08+00:00"
-  },
-  {
-   "title": "Man-At-Arms v2 MOTU Chronicles Wave 4 In Hand Review",
-   "url": "https://toyhabits.com/man-at-arms-v2-motu-chronicles-wave-4-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-09-24T00:28:32+00:00"
-  },
-  {
-   "title": "BigBadToyStore News: Hellboy, Marvel & Dragon Ball sales, DC, Transformers, Anime & More",
-   "url": "https://toyhypeusa.com/2026/09/23/bbts-hellboy-marvel-dragon-ball-sales-dc-transformers-anime/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-hellboy-marvel-dragon-ball-sales-dc-transformers-anime",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-23T23:25:08+00:00"
-  },
-  {
-   "title": "Forbidden Planet 4k Review",
-   "url": "https://www.actionfigureinsider.com/forbidden-planet-4k-review/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-23T19:52:09+00:00"
-  },
-  {
-   "title": "Dungeon Masters – D&D: World of Warcraft Campaign Premieres Tonight",
-   "url": "https://www.actionfigureinsider.com/dungeon-masters-dd-world-of-warcraft-campaign-premieres-tonight/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-23T19:15:02+00:00"
-  },
-  {
-   "title": "Hasbro Transformers: Age of the Primes Voyager Class Vector Prime Figure Review",
-   "url": "https://toyhypeusa.com/2026/09/23/hasbro-transformers-age-of-the-primes-voyager-class-vector-prime-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-voyager-class-vector-prime-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-23T18:48:51+00:00"
-  },
-  {
-   "title": "The Amazing Spider-Man Marvel Legends Holiday Special Preorder",
-   "url": "https://toyhabits.com/the-amazing-spider-man-marvel-legends-holiday-special-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-09-23T17:35:17+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Spider-Man (Marvel Holiday Special) Figure Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/23/hasbro-marvel-legends-series-spider-man-marvel-holiday-special-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-marvel-holiday-special-figure-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-23T17:00:16+00:00"
-  },
-  {
-   "title": "WizKids Games Dungeons & Dragons Ravenloft Icons Of The Realms Review",
-   "url": "https://www.actionfigureinsider.com/dungeons-dragons-ravenloft-icons-realms/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-23T16:29:50+00:00"
-  },
-  {
-   "title": "McFarlane Elite Edition Absolute Batman Figure Teased for October",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-elite-edition-absolute-batman-figure-teased-for-october/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-23T16:22:09+00:00"
-  },
-  {
-   "title": "The Noble Collection Partners with Hasbro for Transformers Product Line",
-   "url": "https://www.actionfigureinsider.com/the-noble-collection-partners-with-hasbro-for-transformers-product-line/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-23T15:38:49+00:00"
-  },
-  {
-   "title": "Hasbro Drops Spider-Man: No Way Home 'Final Swing' Marvel Legends",
-   "url": "https://bleedingcool.com/collectibles/hasbro-drops-spider-man-no-way-home-final-swing-marvel-legends/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-23T15:22:07+00:00"
-  },
-  {
-   "title": "Avengers: Age of Ultron – Hot Toys Black Widow Artisan Edition",
-   "url": "https://www.toyark.com/2026/09/23/avengers-age-of-ultron-hot-toys-black-widow-artisan-edition-599293",
-   "source": "The Toyark",
-   "iso": "2026-09-23T12:40:40+00:00"
-  },
-  {
-   "title": "Death Stranding 2: On the Beach – Hot Toys Tomorrow Figure",
-   "url": "https://www.toyark.com/2026/09/23/death-stranding-2-on-the-beach-hot-toys-tomorrow-figure-599274",
-   "source": "The Toyark",
-   "iso": "2026-09-23T12:32:04+00:00"
   }
  ],
  "trends": {
