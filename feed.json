@@ -1,17 +1,58 @@
 {
- "updatedISO": "2026-09-25T18:40:49+00:00",
+ "updatedISO": "2026-09-25T22:26:56+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "The Chosen Prime Newsletter September 25, 2026",
+   "url": "https://www.toyark.com/2026/09/25/the-chosen-prime-newsletter-september-25-2026-599493",
+   "source": "The Toyark",
+   "iso": "2026-09-25T21:30:39+00:00"
+  },
+  {
+   "title": "Micronauts ReAction+ Figures – Clear Time Traveler and Acroyear",
+   "url": "https://www.toyark.com/2026/09/25/micronauts-reaction-figures-clear-time-traveler-and-acroyear-599488",
+   "source": "The Toyark",
+   "iso": "2026-09-25T21:23:02+00:00"
+  },
+  {
+   "title": "ACADEMY MUSEUM OF MOTION PICTURES PRESENTS THE HORROR SHOW AND ZOMBIES!",
+   "url": "https://www.actionfigureinsider.com/academy-museum-of-motion-pictures-presents-the-horror-show-and-zombies/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-25T19:23:55+00:00"
+  },
+  {
+   "title": "Bow Before Zorrtexx: Four Horsemen Studios' New Cosmic Legions Wave",
+   "url": "https://bleedingcool.com/collectibles/bow-before-zorrtexx-four-horsemen-studios-new-cosmic-legions-wave/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-25T19:22:10+00:00"
+  },
+  {
+   "title": "M.A.S.K. Hologram Editions SDCC 2026 Exclusives Now In Stock!",
+   "url": "https://toyhabits.com/mask-hologram-editions-sdcc-2026-exclusives-now-in-stock/",
+   "source": "Toy Habits",
+   "iso": "2026-09-25T18:56:25+00:00"
+  },
+  {
+   "title": "DC Comics – Peacemaker Revoltech Photos and Details",
+   "url": "https://www.toyark.com/2026/09/25/dc-comics-peacemaker-revoltech-photos-and-details-599472",
+   "source": "The Toyark",
+   "iso": "2026-09-25T18:35:46+00:00"
+  },
+  {
+   "title": "Ninja Gaiden – New Revoltech Ryu, Yakumo, and Momiji Photos and Info",
+   "url": "https://www.toyark.com/2026/09/25/ninja-gaiden-new-revoltech-ryu-yakumo-and-momiji-photos-and-info-599429",
+   "source": "The Toyark",
+   "iso": "2026-09-25T18:28:08+00:00"
+  },
   {
    "title": "An Invasion with Four Horsemen Studios' New Cosmic Legions Brainer",
    "url": "https://bleedingcool.com/collectibles/an-invasion-with-four-horsemen-studios-new-cosmic-legions-brainer/",
@@ -239,52 +280,10 @@
    "url": "https://www.toyark.com/2026/09/24/bbts-news-hellboy-marvel-dragon-ball-sales-dc-transformers-anime-and-more-599396",
    "source": "The Toyark",
    "iso": "2026-09-24T12:59:30+00:00"
-  },
-  {
-   "title": "Killer Klowns From Outer Space Figures by Syndicate Collectibles",
-   "url": "https://www.toyark.com/2026/09/24/killer-klowns-from-outer-space-figures-by-syndicate-collectibles-599385",
-   "source": "The Toyark",
-   "iso": "2026-09-24T12:53:04+00:00"
-  },
-  {
-   "title": "SPONSOR NEWS: BBTS News — Hellboy, Marvel & Dragon Ball sales, DC, Transformers, anime & more!",
-   "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-hellboy-marvel-dragon-ball-sales-dc-transformers-anime-more/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-24T12:50:15+00:00"
-  },
-  {
-   "title": "Ninja Gaiden 2 Black – Revoltech Rachel Announced",
-   "url": "https://www.toyark.com/2026/09/24/ninja-gaiden-2-black-revoltech-rachel-announced-599382",
-   "source": "The Toyark",
-   "iso": "2026-09-24T12:40:43+00:00"
-  },
-  {
-   "title": "DC Comics – InArt The Joker Figure",
-   "url": "https://www.toyark.com/2026/09/24/dc-comics-inart-the-joker-figure-599354",
-   "source": "The Toyark",
-   "iso": "2026-09-24T12:30:35+00:00"
-  },
-  {
-   "title": "MAFEX Batman, Batgirl, and Neo Pre-Orders",
-   "url": "https://www.toyark.com/2026/09/24/mafex-batman-batgirl-and-neo-pre-orders-599312",
-   "source": "The Toyark",
-   "iso": "2026-09-24T12:19:43+00:00"
-  },
-  {
-   "title": "Minecraft’s Alex, Enderman, and Zombified Piglin Join the TUBBZ Collection",
-   "url": "https://www.actionfigureinsider.com/minecrafts-alex-enderman-and-zombified-piglin-join-the-tubbz-collection/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-24T12:00:06+00:00"
-  },
-  {
-   "title": "Skeletor v2 MOTU Chronicles Wave 4 In Hand Review",
-   "url": "https://toyhabits.com/skeletor-v2-motu-chronicles-wave-4-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-09-24T02:04:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-25T07:55:50+00:00",
+  "updatedISO": "2026-09-25T22:26:56+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
