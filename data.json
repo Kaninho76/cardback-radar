@@ -1,73 +1,79 @@
 {
-  "updatedISO": "2026-09-24T07:00:00+02:00",
-  "updatedLabel": "donderdag 24 september 2026",
-  "quiet": false,
-  "quietNote": "",
+  "updatedISO": "2026-09-25T07:00:00+02:00",
+  "updatedLabel": "vrijdag 25 september 2026",
+  "quiet": true,
+  "quietNote": "Aan speelgoedkant is er vandaag bijna niets nieuws: de laatste echte preorders waren woensdag en donderdag, en de eerstvolgende opent pas dinsdag — dit weekend gaat over twee films, niet over producten.",
   "waves": [
     {
-      "title": "Godzilla Minus Zero — en hij is R",
-      "when": "Wereldpremière zaterdag 26 september op het New York Film Festival · Japan 3 november, Noord-Amerika 6 november",
+      "title": "Avengers: Endgame — Encore draait vanaf vandaag",
+      "when": "Vanaf vandaag, vrijdag 25 september, in de bioscoop · Avengers: Doomsday komt 18 december",
+      "countdown": {
+        "date": "2026-09-25",
+        "mode": "since",
+        "unit": "dagen sinds de heruitgave"
+      },
+      "body": "Endgame is vanaf vandaag terug in de zaal, met vier nieuwe scènes eraan vast die naar Avengers: Doomsday toewerken — onder meer een uitgebreid slot en scènes met Doctor Doom. Gisteren kwam het cijfer waar het deze week om draaide: bijna 15 miljoen dollar aan voorverkoop in Noord-Amerika, het hoogste ooit voor een heruitgave, boven de twintigjarige Revenge of the Sith. Analisten rekenen op 25 tot 30 miljoen dit openingsweekend, genoeg voor de eerste plaats. Voor jou is het belangrijkste wat er níet bij zit: er hangt geen enkele nieuwe figuur aan deze heruitgave. Een heel weekend Marvel-aandacht, en niets te bestellen.",
+      "do": "Post vanavond, niet zaterdag — zaterdag is Godzilla. Gebruik figuren die je in 2019 al had; dat is precies het verhaal dat deze heruitgave oproept en dat een nieuwsaccount niet kan vertellen. Houd het spoilervrij: de vier nieuwe scènes worden dit weekend overal doorverteld, en een post die alleen over jouw kast gaat is het enige Marvel-beeld dat veilig is om door te sturen. Zie het eerste idee hieronder."
+    },
+    {
+      "title": "Godzilla Minus Zero — morgen de wereldpremière, en hij is R",
+      "when": "Morgen, zaterdag 26 september, 18 uur New Yorkse tijd op het New York Film Festival · Japan 3 november, Noord-Amerika 6 november",
       "countdown": {
         "date": "2026-09-26",
         "mode": "until",
         "unit": "dagen tot de première"
       },
-      "body": "Gisteren kwam het nieuws waar de hele kaiju-hoek sindsdien over praat: Godzilla Minus Zero heeft in de Verenigde Staten een R gekregen, voor \"some violent content/bloody image\". Dat is in zeventig jaar Godzilla nooit eerder gebeurd. Zaterdag draait de film van Takashi Yamazaki voor het eerst, als wereldpremière op het New York Film Festival; daarna is hij centerpiece van het Tokyo International Film Festival, en de gewone release volgt op 3 november in Japan en 6 november in Noord-Amerika. Honderdvijfendertig minuten, met Ryunosuke Kamiki en Minami Hamabe terug, en de eerste Japanse productie die helemaal voor IMAX is opgenomen. Aan speelgoedkant is de eerste ronde voorbij: de S.H.MonsterArts van 120 dollar en de Ichibansho Zero's Heartbeat van 75 dollar staan bij Godzilla Store US op pre-order gesloten.",
-      "do": "Zaterdag is de dag, en de R geeft je er een haak bij die je gisteren nog niet had: de nieuwe film is voor volwassenen, jouw eerste Godzilla was speelgoed. Maak vandaag en morgen de foto's, laat de Reel zaterdagavond los als de eerste recensies uit New York binnenlopen. Zie het tweede idee hieronder."
-    },
-    {
-      "title": "Avengers: Endgame — Encore",
-      "when": "Morgen, vrijdag 25 september, terug in de bioscoop met een exclusieve vooruitblik op Avengers: Doomsday",
-      "countdown": {
-        "date": "2026-09-25",
-        "mode": "until",
-        "unit": "dagen tot de heruitgave"
-      },
-      "body": "Endgame draait vanaf morgen opnieuw, met een vooruitblik op Avengers: Doomsday eraan vast — die film komt 18 december. Wie in IMAX of op een Infinity Vision-scherm zit krijgt er nog een stukje bij. De beschrijvingen van de nieuwe post-creditsscènes zijn deze week al gelekt en gaan sinds gisteren rond, dus de tijdlijn staat vanaf vanavond al vol Marvel — mét spoilerwaarschuwingen. Praktisch betekent dat: veel aandacht, en geen enkele nieuwe figuur die eraan vastzit. Dat is precies het soort golf waar een plank het wint van een persbericht.",
-      "do": "Morgenavond vroeg posten, niet zaterdag: zaterdag is Godzilla. En houd het spoilervrij — juist nu iedereen de gelekte scènes ontwijkt, is een post die alleen over de figuren gaat veilig om door te sturen. Zie het eerste idee hieronder."
+      "body": "Morgenavond draait Godzilla Minus Zero voor het eerst, als Spotlight Gala en wereldpremière op het New York Film Festival, met Takashi Yamazaki, Ryunosuke Kamiki en Minami Hamabe bij de Q&A. Zondag volgt een tweede vertoning, woensdag een derde. Daarna is hij centerpiece op het Tokyo International Film Festival, en de gewone release is 3 november in Japan en 6 november in Noord-Amerika. Honderdvijfendertig minuten, verder met de familie Shikishima in 1949, en de eerste Japanse productie die helemaal voor IMAX is opgenomen. En sinds woensdag het feit waar de hele kaiju-hoek het over heeft: in de Verenigde Staten is hij R gekeurd, voor \"some violent content/bloody image\" — de eerste R in zeventig jaar Godzilla.",
+      "do": "Maak de foto's vandaag, laat de Reel morgenavond los als de eerste reacties uit New York binnenkomen. Aan speelgoedkant valt er niets te halen dat je tijdlijn nodig heeft: de S.H.MonsterArts staat bij BigBadToyStore voor 119,99 dollar met levering december, en verder is het wachten. Je eigen Godzilla's zijn hier het materiaal. Zie het tweede idee hieronder."
     }
   ],
   "drops": [
     {
-      "maker": "Mattel",
-      "what": "MOTU Origins — Two Bad (Creations-exclusief)",
-      "note": "Sinds gisteren 9 uur Pacific live bij Mattel Creations voor 22 dollar. Het eerste etmaal is alleen voor Club Grayskull-leden (lidmaatschap 9,99 dollar per jaar) en dat venster loopt vandaag af; daarna zolang de voorraad strekt. Staat nu op backorder met levering rond 13 november. 5,5 inch, zestien punten, twee kleuren torso en een mini-strip in de doos.",
+      "maker": "Hasbro",
+      "what": "Marvel Legends — Retro Cardback Wave 3 (Spider-Man: The Animated Series + Maximum Carnage)",
+      "note": "Aunt May, Mary Jane Watson, Smythe en Carnage. Preorder dinsdag 29 september om 13 uur Eastern, dus 19 uur hier, bij Hasbro Pulse, BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Zes inch; Aunt May en Mary Jane met vier accessoires, Smythe met wisselhanden, Carnage met een los ongemaskerd hoofd, symbiote-tendrils en een eigen kaart. Fan channel exclusive, en de kaart in de stijl van de VHS-banden is het eigenlijke product.",
       "heat": "hot"
     },
     {
       "maker": "Hasbro",
-      "what": "Marvel Legends — Retro Cardback / Mini Comics Wave 3 (Spider-Man: The Animated Series + Maximum Carnage)",
-      "note": "Aunt May, Mary Jane Watson, Smythe en Carnage. Preorder dinsdag 29 september om 13 uur Eastern, dus 19 uur hier, bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Zes inch, met accessoires, op een kaart in de stijl van de VHS-banden uit de jaren negentig — je koopt hier letterlijk de verpakking.",
-      "heat": "hot"
-    },
-    {
-      "maker": "Mattel",
-      "what": "MOTU Chronicles — Evil-Lyn los verkrijgbaar",
-      "note": "Sinds gisteren bij Mattel Creations voor 27 dollar, backorder met levering 16 oktober. 6,5 inch, dertig punten, magische staf en wisselhanden. BigBadToyStore vraagt 26,99 maar heeft alleen een wachtlijst, Entertainment Earth 29,99 voor oktober. Er zit één Evil-Lyn per case, en dat is precies waarom ze bij de winkels meteen weg zijn.",
+      "what": "Marvel Legends — Fantastic Four Super-Skrull (herdruk)",
+      "note": "Gisteren opengegaan. Zes inch, zeven accessoires: twee wisselhanden, twee wisselhoofden, een vlameffect en twee losse armen voor de uitrekarm van Mr. Fantastic en de rotsarm van The Thing. Eerst een maand alleen voor Hasbro Pulse Premium-leden, daarna breder in de winkel vanaf 3 november — nu al te vinden bij BigBadToyStore, Entertainment Earth en Nerdzoic.",
       "heat": "yours"
     },
     {
-      "maker": "Mattel",
-      "what": "MOTU Origins 200X Cartoon Collection — Sorceress, Trap Jaw, Sy-Klone en Man-E-Faces",
-      "note": "Gisteren samen met Two Bad en Evil-Lyn weer op de winkel gezet bij Mattel Creations: 20 dollar per stuk, Man-E-Faces als deluxe voor 25. De golf liep in augustus al bij de gewone winkels, dus dit is je tweede kans op de losse stukken die je toen miste.",
+      "maker": "Playmates",
+      "what": "TMNT x Godzilla Wave 2 — Donatello x Jet Jaguar, Splinter x King Caesar en Shredder x Megagodzilla",
+      "note": "Sinds deze maand in de Amerikaanse Target-winkels en online, 14,99 dollar per stuk, ongeveer 5 inch, Splinter met een boomvormige stok. Target-exclusief in de VS, dus hier alleen via BigBadToyStore, Entertainment Earth of Amazon. Goedkoopste manier om Turtles en kaiju in één figuur te hebben, precies in het weekend dat Godzilla volwassen wordt verklaard.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hasbro",
+      "what": "Marvel Legends — Spider-Man (Marvel Holiday Special)",
+      "note": "34,99 dollar, preorder sinds woensdag, levering december 2026. Kerstmuts, kerstjas, twee wisselhanden en een stoffen zak met vier cadeautjes erin. Te bestellen bij Entertainment Earth, BigBadToyStore, Amazon, GameStop en Zavvi. Het soort figuur dat in december vanzelf een foto wordt.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Bandai / Tamashii Nations",
+      "what": "Godzilla Minus Zero — S.H.MonsterArts Godzilla (2026)",
+      "note": "Bij Godzilla Store US staat de pre-order dicht, maar BigBadToyStore neemt hem nog aan voor 119,99 dollar met 12 dollar aanbetaling en levering december 2026. Zestien centimeter hoog. Dat is vanaf hier de makkelijkste route naar de figuur van de film die morgen in première gaat.",
       "heat": "yours"
     },
     {
       "maker": "Hasbro",
       "what": "Marvel Legends — mini-comic golf",
-      "note": "Hawkeye, Spider-Man in Doom Suit, Acroyear uit de Micronauts, Elektra, Captain America uit Earth X en Elsa Bloodstone. Gekaart met mini-strip, niet in een doos. Preorder dinsdag 6 oktober om 13 uur Eastern (19 uur hier) bij Hasbro Pulse, Amazon en de rest.",
+      "note": "Hawkeye, Elsa Bloodstone, Captain America uit Earth X, Elektra, Spider-Man in Doom Suit en Acroyear uit de Micronauts. Gekaart met mini-strip, niet in een doos. Preorder dinsdag 6 oktober om 13 uur Eastern, dus 19 uur hier, bij Hasbro Pulse, Amazon en de rest. Levering dit najaar.",
       "heat": "yours"
     },
     {
       "maker": "McFarlane Toys",
       "what": "DC Multiverse — Absolute Batman (McFarlane Elite Edition)",
-      "note": "Twee previewfoto's van een Absolute Batman op 7-inch schaal. Preorder gaat open op vrijdag 9 oktober, midden in New York Comic Con. Een prijs is er nog niet. Let op de context: McFarlanes DC-licentie loopt eind dit jaar af, dus dit is een van de laatste rondes.",
+      "note": "Aangekondigd voor oktober, met de preorder op vrijdag 9 oktober, midden in New York Comic Con. Zeven inch, prijs nog niet bekend. De context telt mee: McFarlanes DC-licentie loopt eind dit jaar af, dus dit is een van de laatste rondes.",
       "heat": "yours"
     },
     {
-      "maker": "Godzilla Store US / Bandai",
-      "what": "Godzilla Minus Zero — wat er nog open staat",
-      "note": "Dicht: de S.H.MonsterArts van 120 dollar en de Ichibansho Zero's Heartbeat van 75. Nog wél te bestellen: de Movie Monster Series Metallic Black van 38 dollar, een Desktop Monster van 98 en een Enshrined Monsters Ex van 30. BigBadToyStore neemt de S.H.MonsterArts nog aan voor 119,99 met levering december — dat is nu de makkelijkste route vanaf hier.",
+      "maker": "Mattel",
+      "what": "MOTU Chronicles — Evil-Lyn los verkrijgbaar",
+      "note": "Sinds woensdag bij Mattel Creations voor 27 dollar, backorder met levering 16 oktober. 6,5 inch, dertig punten, magische staf en wisselhanden. Bij BigBadToyStore en Entertainment Earth meteen weg, en dat komt door de caseverdeling: er zit er één per doos. Bij Mattel zelf staat hij gewoon nog.",
       "heat": "yours"
     },
     {
@@ -75,84 +81,66 @@
       "what": "TMNT ReAction+ Wave 2 — Leonardo, Michelangelo, Bebop en Rocksteady",
       "note": "25 dollar per stuk (BigBadToyStore 24,98), in het vintage G.I. Joe o-ring-formaat. BigBadToyStore zegt november 2026, Entertainment Earth maart 2027 — blijf bij één winkel, anders betaal je twee keer verzending voor dezelfde golf.",
       "heat": "yours"
-    },
-    {
-      "maker": "Hiya Toys",
-      "what": "Godzilla Ultima (Godzilla Singular Point) — EXQUISITE BASIC",
-      "note": "Gisteren als nieuwe preorder opgedoken in de BigBadToyStore-nieuwsbrief. Kleine schaal, lage prijs, en het enige verse kaiju-item van deze week dat niet met Minus Zero te maken heeft.",
-      "heat": "yours"
-    },
-    {
-      "maker": "NECA",
-      "what": "New York Comic Con 2026-exclusief — Blue Big Bird (Sesame Street)",
-      "note": "Gisteren aangekondigd als beursexclusief voor NYCC, 8 tot en met 11 oktober. Niet jouw hoek, maar het zegt wel iets: NECA zet zijn NYCC-kruit in Sesamstraat en niet in Turtles, en dat past bij een sublicentie die op 31 december afloopt.",
-      "heat": "zijlijn"
     }
   ],
   "talk": [
     {
-      "title": "Voor het eerst in zeventig jaar is een Godzilla-film R",
-      "body": "Gisteren werd bekend dat Godzilla Minus Zero in de Verenigde Staten een R heeft gekregen, voor \"some violent content/bloody image\". In de hele geschiedenis van de franchise is dat niet eerder gebeurd — niet in de Showa-jaren, niet bij de Amerikaanse MonsterVerse-films, en ook niet bij Minus One, dat gewoon PG-13 was. Voor een verzamelaarspagina is dat meer dan een trivia-weetje. Godzilla is zeventig jaar lang een merk geweest waar speelgoed vanzelfsprekend bij hoorde: vinyl, bath toys, Movie Monster Series van veertig dollar. Een R-rating zegt dat de film nu iets anders wil zijn dan de plank waar hij uit voortkomt. Dat contrast — kinderspeelgoed toen, volwassenenfilm nu — is precies het soort spanning waar een foto van jouw oudste Godzilla harder op landt dan welk persbericht ook."
+      "title": "Een heruitgave die het voorverkooprecord breekt, zonder één nieuwe figuur",
+      "body": "Endgame Encore haalde bijna 15 miljoen dollar aan voorverkoop in Noord-Amerika: het hoogste bedrag ooit voor een heruitgave in de bioscoop, boven de twintigjarige Revenge of the Sith. Analisten rekenen op 25 tot 30 miljoen dit weekend. Dat gebeurt zeven jaar na de film zelf, op basis van vier nieuwe scènes die naar Doomsday toewerken. Voor een verzamelaarspagina is de interessante kant wat er niet gebeurt: Hasbro heeft er niets aan vastgehaakt. Geen golf, geen exclusive, geen preorder. Dat betekent dat elke post over Endgame dit weekend uit een kast komt en niet uit een persbericht, en dat is precies het terrein waar jij wint van een nieuwsaccount."
     },
     {
-      "title": "Twee dagen film, en pas dinsdag weer een winkel",
-      "body": "Morgen Endgame terug in de bioscoop, zaterdag de wereldpremière van Minus Zero in New York. Daarna is het tot dinsdag 29 september stil: dan pas gaat de Retro Cardback-golf open om 19 uur onze tijd, en op 6 oktober de mini-comic golf. Er zijn dus vier dagen waarin er heel veel aandacht is en helemaal niets te bestellen. Dat gat is geen probleem maar een kans: wat er in die dagen op je tijdlijn komt, komt van planken en niet van preorders, en dat is precies het terrein waar jij het van de nieuwsaccounts wint."
+      "title": "Godzilla wordt morgen volwassen verklaard, en staat tegelijk als Turtle bij Target",
+      "body": "Woensdag kreeg Godzilla Minus Zero als eerste film in zeventig jaar franchise een R, voor \"some violent content/bloody image\". Morgen is de wereldpremière in New York. In dezelfde maand zet Playmates wave 2 van TMNT x Godzilla in de Amerikaanse winkels: Donatello als Jet Jaguar, Splinter als King Caesar, Shredder als Megagodzilla, 14,99 dollar per stuk, vijf inch. Dat is het hele verhaal van dit merk in één beeld. Hetzelfde monster is tegelijk een film met een leeftijdsgrens en een kinderfiguur van vijftien dollar met een boomvormige stok erbij. Die spanning is geen probleem maar je onderwerp: elke verzamelaar in deze hoek is ooit binnengekomen via het speelgoed, niet via de film."
     },
     {
-      "title": "Mattel Creations zette dinsdag vijf MOTU-stukken tegelijk neer — en één regel verklaart de rest",
-      "body": "Two Bad voor 22 dollar, Chronicles Evil-Lyn voor 27, en de vier 200X Cartoon Collection-figuren van 20 tot 25 dollar, allemaal op dezelfde dag. Wat eronder ligt is de zin die heman.org erbij zette: er zit één Evil-Lyn per case. Winkels kopen cases, geen losse figuren, dus een personage dat één keer per doos zit is bij BigBadToyStore en Entertainment Earth binnen een dag weg terwijl Mattel Creations hem gewoon op backorder blijft verkopen. Voor jou is dat een praktische les die op meer lijnen werkt: als een figuur overal uitverkocht is maar bij de fabrikant zelf nog staat, is het meestal geen hype maar een caseverdeling."
+      "title": "Vier dagen aandacht, nul dagen winkel",
+      "body": "De laatste preorders van betekenis waren woensdag en donderdag: Holiday Spider-Man, Super-Skrull en Chronicles Evil-Lyn. De eerstvolgende is dinsdag 29 september om 19 uur, de Retro Cardback-golf, en daarna 6 oktober voor de mini-comic golf. Tussen nu en dinsdag is er dus een openingsweekend van Endgame, een wereldpremière van Godzilla, twee beurzen in de buurt — en niets te bestellen. Dat gat is geen stille week maar je beste venster: alles wat er dit weekend op tijdlijnen komt, komt van planken."
     },
     {
       "title": "De retro-kaart is nu bij vier fabrikanten tegelijk het product",
-      "body": "Hasbro noemt zijn nieuwe Spider-Man-golf officieel Retro Cardback Series — repacks waarvan de kaart het enige nieuwe is — en zette vorige week bij Target een Cypher neer op een oude X-Men-cardback. McFarlane liep deze maand met DC Super Powers Wave 16 op de oude blisterkaart, meteen ook de laatste golf van die lijn. Super7 zet zijn TMNT ReAction+ bewust in het vintage o-ring-formaat weg. En de DC Page Punchers verkopen een figuur met een herdrukt stripboek eraan vast. Vier fabrikanten verkopen tegelijk de verpakking in plaats van de figuur. Voor een pagina die op de kaart verzamelt is dat geen detail, dat is het argument dat je al jaren maakt."
+      "body": "Hasbro noemt zijn nieuwe Spider-Man-golf officieel Retro Cardback Series — repacks waarvan de kaart het enige nieuwe is — en zette vorige week bij Target een Cypher neer op een oude X-Men-cardback. McFarlane liep deze maand met DC Super Powers op de oude blisterkaart. Super7 zet zijn TMNT ReAction+ bewust in het vintage o-ring-formaat weg. En de DC Page Punchers verkopen een figuur met een herdrukt stripboek eraan vast. Vier fabrikanten verkopen tegelijk de verpakking in plaats van de figuur. Voor een pagina die op de kaart verzamelt is dat geen detail, dat is het argument dat je al jaren maakt."
     }
   ],
   "ideas": [
     {
       "slot": "Op de golf",
-      "title": "Bouw met je eigen Marvel-figuren het portaalshot uit Endgame na, van laag bij de grond gefotografeerd",
-      "hook": "Beeld één is één held, van vlak boven de vloer gefotografeerd, gezicht scherp en de rest van de rij vaag erachter. Tekstregel: \"morgen draait hij weer. dit is mijn versie van dat shot.\"",
-      "why": "Endgame komt morgen, vrijdag 25 september, terug in de bioscoop met een vooruitblik op Doomsday, en de beschrijvingen van de nieuwe post-creditsscènes zijn al gelekt. Dat betekent twee dingen: de tijdlijn staat vol Marvel, en iedereen loopt tegelijk om spoilers heen. Een post die alleen over jouw figuren gaat is dan het enige Marvel-beeld dat veilig is om door te sturen. Er hoort bovendien geen nieuwe figuur bij deze golf — er valt niets te bestellen, dus een plank met een opstelling erop heeft het veld voor zich alleen.",
+      "title": "De Marvel-figuur die je in 2019 kocht, naast dezelfde figuur zoals hij nu in je kast staat",
+      "hook": "Beeld één is alleen het gezicht van je oudste Endgame-figuur, zo dichtbij dat je de gebruikssporen en de oude verf ziet. Tekstregel: \"deze kocht ik in 2019 toen ik uit de zaal kwam.\"",
+      "why": "Endgame draait vanaf vandaag weer, en dat is geen gewone heruitgave: bijna 15 miljoen dollar aan voorverkoop, het hoogste ooit voor een heruitgave, en 25 tot 30 miljoen verwacht dit weekend. Er zit geen enkele nieuwe figuur aan vast, dus iedereen die er iets over post, post over de film. Jij kunt over de kast posten. En omdat de vier nieuwe scènes dit hele weekend worden doorverteld, is een spoilervrije post over speelgoed het enige Marvel-beeld dat mensen zonder risico kunnen doorsturen.",
       "send": "de vriend met wie je in 2019 in de zaal zat en die nog weet hoe hard die zaal ging",
       "tags": "#marvellegends #avengers #actionfigures #toystagram",
       "shots": [
-        "Foto 1: één figuur, camera vlak boven de vloer, staand (9:16), scherp op het gezicht met de rest van de rij onscherp erachter. Anderhalve seconde.",
-        "Foto 2: exact dezelfde hoogte en lens, één stap achteruit, zodat er drie of vier figuren naast elkaar staan. Eén seconde — samen met beeld 1 leest dat als een camera die terugrijdt.",
-        "Foto 3: nog een stap terug, de hele opstelling in beeld, van links naar rechts opgebouwd van klein naar groot zodat er diepte in zit. Twee seconden.",
-        "Foto 4: één close-up van het figuur dat helemaal achteraan stond, hetzelfde lage standpunt, zodat het beeld dichtklapt op één gezicht. Twee seconden. Tekst in beeld: bij foto 1 \"morgen draait hij weer. dit is mijn versie van dat shot.\", bij foto 3 \"geen CGI, gewoon de kast\", bij foto 4 \"wie mist er in jouw rij?\""
+        "Foto 1: het gezicht van je oudste Endgame-figuur, staand (9:16), heel dichtbij, één lamp schuin van opzij zodat de slijtage textuur krijgt. Twee seconden — hier zit de haak.",
+        "Foto 2: dezelfde figuur helemaal in beeld, zelfde lamp, zelfde hoogte, één stap terug. Eén seconde; samen met foto 1 leest dat als uitzoomen.",
+        "Foto 3: een nieuwere versie van datzelfde personage, exact dezelfde afstand en hoogte als foto 2, zodat alleen de figuur verandert. Anderhalve seconde.",
+        "Foto 4: de twee naast elkaar, camera vlak boven de tafel, de oude links en de nieuwe rechts. Twee seconden. Tekst in beeld: bij foto 1 \"deze kocht ik in 2019 toen ik uit de zaal kwam.\", bij foto 3 \"en dit is wat er sindsdien bij kwam\", bij foto 4 \"wie kocht er in 2019 ook meteen een?\""
       ]
     },
     {
       "slot": "Doorstuurbaar",
-      "title": "Je oudste Godzilla naast je nieuwste, met de R-rating als grap eronder",
-      "hook": "Beeld één is alleen de kop van je oudste Godzilla, zo dichtbij dat de slijtage en de vrolijke bek het eerste zijn wat je ziet. Tekstregel: \"de nieuwe film is voor het eerst in 70 jaar R.\"",
-      "why": "Gisteren werd bekend dat Godzilla Minus Zero een R heeft gekregen, de eerste in zeventig jaar franchise, en zaterdag 26 september is de wereldpremière op het New York Film Festival — daar komen de eerste recensies vandaan. Aan speelgoedkant valt er niets te halen: de S.H.MonsterArts en de Ichibansho staan bij Godzilla Store US op pre-order gesloten. Veel aandacht, bijna niets te kopen, en een nieuwsfeit dat vanzelf een grap is: het monster waar ze zeventig jaar lang kleuterspeelgoed van maakten, krijgt nu een leeftijdsgrens. Toen-en-nu in één beweging is bovendien het formaat dat in deze hoek het vaakst wordt doorgestuurd.",
+      "title": "Al je Godzilla's op één rij van klein naar groot, met de R-rating als laatste regel",
+      "hook": "Beeld één is je kleinste Godzilla, alleen hij, zo dichtbij dat hij groot lijkt. Tekstregel: \"morgen première. eerste R in 70 jaar Godzilla.\"",
+      "why": "Morgenavond is de wereldpremière van Godzilla Minus Zero op het New York Film Festival, en woensdag werd bekend dat hij als eerste in zeventig jaar franchise een R heeft gekregen. Te koop valt er bijna niets: de S.H.MonsterArts staat alleen nog bij BigBadToyStore voor 119,99 dollar met levering december. Veel aandacht, niets te bestellen, en een nieuwsfeit dat vanzelf een grap is — het monster waar ze zeventig jaar lang kinderspeelgoed van maakten, krijgt nu een leeftijdsgrens. Een rij van klein naar groot laat die zeventig jaar in vier beelden zien zonder dat je één zin hoeft uit te leggen.",
       "send": "de vriend die als kind met jou de oude Godzilla-films op de late zaterdagavond zag",
       "tags": "#godzilla #kaiju #actionfigures #toystagram",
       "shots": [
-        "Foto 1: de kop van je oudste Godzilla, staand (9:16), heel dichtbij, één lamp schuin van opzij zodat de verf en de slijtage textuur krijgen. Twee seconden, want hier zit de grap.",
-        "Foto 2: hetzelfde figuur helemaal in beeld, zelfde lamp, zelfde hoek, één stap terug. Eén seconde — die twee beelden samen lezen als uitzoomen.",
-        "Foto 3: je nieuwste Godzilla, op exact dezelfde afstand en hoogte als foto 2, zodat alleen het monster verandert. Anderhalve seconde.",
-        "Foto 4: close-up van de kop van die nieuwste, spiegelbeeld van foto 1, zelfde uitsnede. Anderhalve seconde.",
-        "Foto 5: de twee naast elkaar, van laag vooraan gefotografeerd, staand in beeld met ruimte boven en onder. Twee seconden. Tekst in beeld: bij foto 1 \"de nieuwe film is voor het eerst in 70 jaar R.\", bij foto 4 \"dit is wat ze er nu van maken\", bij foto 5 \"welke was jouw eerste?\""
+        "Foto 1: je kleinste Godzilla alleen, staand (9:16), camera op ooghoogte van het figuur, één lamp van opzij. Twee seconden.",
+        "Foto 2: dezelfde hoek en hoogte, nu met de tweede en derde erbij ernaast. Eén seconde — dezelfde hoek houden is wat het als een camerabeweging laat lezen.",
+        "Foto 3: nog een stap terug, de hele rij van klein naar groot in beeld, van links naar rechts oplopend. Anderhalve seconde.",
+        "Foto 4: close-up van de kop van de grootste, spiegelbeeld van foto 1, zelfde uitsnede en zelfde lamp. Twee seconden. Tekst in beeld: bij foto 1 \"morgen première. eerste R in 70 jaar Godzilla.\", bij foto 3 \"zeventig jaar speelgoed\", bij foto 4 \"welke was jouw eerste?\""
       ]
     }
   ],
   "agenda": [
     {
-      "date": "2026-09-25",
-      "label": "Avengers: Endgame — Encore terug in de bioscoop",
-      "note": "Heruitgave met een exclusieve vooruitblik op Avengers: Doomsday, die 18 december komt. De beschrijvingen van de nieuwe post-creditsscènes lekten deze week al uit, dus reken op een tijdlijn vol spoilerwaarschuwingen. Zelfde dag: de voorlaatste Target Fall Geek-Out-drop in de VS."
-    },
-    {
       "date": "2026-09-26",
       "label": "Godzilla Minus Zero — wereldpremière, en twee beurzen",
-      "note": "New York Film Festival; hier komen de eerste recensies vandaan, en de film is net als eerste in de franchise R gekeurd. Dezelfde dag beginnen Collect-a-Con in Egmond aan Zee en Weekend of Hell in Neuss, allebei twee dagen."
+      "note": "18 uur New Yorkse tijd, Spotlight Gala op het New York Film Festival, met Q&A van Yamazaki, Kamiki en Hamabe; zondag een tweede vertoning, woensdag 30 september een derde. Hier komen de eerste reacties vandaan. Dezelfde dag beginnen Collect-a-Con in Egmond aan Zee en Weekend of Hell in Neuss, allebei twee dagen."
     },
     {
       "date": "2026-09-29",
-      "label": "Preorder Marvel Legends Retro Cardback / Mini Comics Wave 3",
-      "note": "13 uur Eastern, dus 19 uur hier. Aunt May, Mary Jane, Smythe en Carnage, via BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon."
+      "label": "Preorder Marvel Legends Retro Cardback Wave 3",
+      "note": "13 uur Eastern, dus 19 uur hier. Aunt May, Mary Jane, Smythe en Carnage, via Hasbro Pulse, BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Fan channel exclusive."
     },
     {
       "date": "2026-10-02",
@@ -167,17 +155,22 @@
     {
       "date": "2026-10-06",
       "label": "Preorder Marvel Legends mini-comic golf",
-      "note": "13 uur Eastern (19 uur hier). Zes gekaarte figuren met mini-strip, waaronder Acroyear uit de Micronauts."
+      "note": "13 uur Eastern (19 uur hier). Zes gekaarte figuren met mini-strip, waaronder Acroyear uit de Micronauts en Spider-Man in Doom Suit."
     },
     {
       "date": "2026-10-08",
-      "label": "NYCC opent — Mattels eerste DC Collector-stuk, en 9 oktober Absolute Batman",
-      "note": "8 tot en met 11 oktober in het Javits Center. Donderdag om 12 uur Eastern staat Mattels eerste DC Collector-item op de officiële DC-stand met de preorder bij Mattel Creations er meteen achteraan; vrijdag 9 oktober gaat bij McFarlane de Absolute Batman-preorder open. NECA brengt een Blue Big Bird als beursexclusief mee."
+      "label": "NYCC opent — en 9 oktober de Absolute Batman-preorder",
+      "note": "8 tot en met 11 oktober in het Javits Center. Vrijdag 9 oktober gaat bij McFarlane de preorder van de Elite Edition Absolute Batman open, midden in de beurs. NECA brengt een Blue Big Bird als beursexclusief mee."
     },
     {
       "date": "2026-10-20",
       "label": "Masters of the Universe (2026) op dvd, blu-ray en 4K",
-      "note": "De schijfjesrelease van MGM. Dat is de volgende keer dat MOTU vanzelf weer in de tijdlijn komt, zonder dat er een preorder aan vastzit."
+      "note": "De schijfjesrelease van MGM, ruim na de streamingstart op Prime Video in juli. Dat is de volgende keer dat MOTU vanzelf weer in de tijdlijn komt, zonder dat er een preorder aan vastzit."
+    },
+    {
+      "date": "2026-11-03",
+      "label": "Godzilla Minus Zero in de Japanse bioscoop — en Super-Skrull breed in de winkel",
+      "note": "Japan 3 november, Noord-Amerika 6 november. Dezelfde dag loopt het Pulse Premium-venster van de Marvel Legends Super-Skrull af en gaat hij naar de gewone winkels."
     }
   ],
   "fairs": [
@@ -304,72 +297,76 @@
   ],
   "sources": [
     {
+      "label": "Murphy's Multiverse — Endgame Encore breekt het voorverkooprecord voor heruitgaven",
+      "url": "https://www.murphysmultiverse.com/avengers-endgame-encore-smashes-re-release-records-ahead-of-massive-25m-opening-weekend/"
+    },
+    {
+      "label": "Marvel — Avengers: Endgame Encore vanaf 25 september terug in de bioscoop",
+      "url": "https://www.marvel.com/articles/movies/marvel-studios-avengers-endgame-returns-to-theaters-2026"
+    },
+    {
+      "label": "Film at Lincoln Center — vertoningsdata Godzilla Minus Zero op NYFF64, met de wereldpremière op 26 september",
+      "url": "https://www.filmlinc.org/nyff2026/films/godzilla-minus-zero/"
+    },
+    {
+      "label": "Wikipedia — Godzilla Minus Zero (premièredata, releasedata, speelduur, cast, IMAX)",
+      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
+    },
+    {
       "label": "The Playlist — Godzilla Minus Zero krijgt als eerste in de franchise een R",
       "url": "https://theplaylist.net/nyff-bound-godzilla-minus-zero-is-r-rated-20260923/"
     },
     {
-      "label": "World of Reel — R-rating, een primeur in zeventig jaar Godzilla",
-      "url": "https://www.worldofreel.com/blog/2026/9/23/godzilla-minus-zero-is-rated-r-a-first-for-the-franchise-in-its-70-year-history"
-    },
-    {
-      "label": "Wikipedia — Godzilla Minus Zero (premièredatum, NYFF, IMAX, cast, speelduur)",
-      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
-    },
-    {
-      "label": "Godzilla Store US — volledige Minus Zero-productlijst met prijzen en preorderstatus",
-      "url": "https://godzilla.com/collections/godzilla-minus-zero-2026"
-    },
-    {
-      "label": "BigBadToyStore — S.H.MonsterArts Godzilla (2026), 119,99 dollar, levering december",
+      "label": "BigBadToyStore — S.H.MonsterArts Godzilla Minus Zero, 119,99 dollar, 16 cm, levering december 2026",
       "url": "https://www.bigbadtoystore.com/product/godzilla-minus-zero-2026-shmonsterarts-godzilla-action-figure-193546"
     },
     {
-      "label": "Mattel Creations — MOTU Origins Two Bad, 22 dollar, Club Grayskull-venster 23–24 september",
-      "url": "https://creations.mattel.com/products/masters-of-the-universe-origins-two-bad-figure-jhk20"
+      "label": "Bleeding Cool — Playmates TMNT x Godzilla, Splinter als King Caesar, 14,99 dollar bij Target",
+      "url": "https://bleedingcool.com/collectibles/master-splinter-is-king-caesar-with-playmates-tmnt-x-godzilla-line/"
     },
     {
-      "label": "heman.org — Chronicles Evil-Lyn live bij Mattel Creations voor 27 dollar, en de vijf MOTU-stukken van dinsdag",
-      "url": "https://heman.org/movie/news/2026-09-23-chronicles-evil-lyn-mattel-creations/"
+      "label": "Toy Hype USA — review van TMNT x Godzilla Wave 2 (Donatello x Jet Jaguar, Splinter x King Caesar, Shredder x Megagodzilla)",
+      "url": "https://toyhypeusa.com/2026/09/14/playmates-toys-tmnt-x-godzilla-wave-2-donnie-x-jet-jaguar-splinter-x-king-caesar-shredder-x-megagodzilla-figures-review/"
     },
     {
-      "label": "Marvelous News — officiële beelden en preorderdatum Retro Cardback Spider-Man Animated en Maximum Carnage",
+      "label": "Marvelous News — Marvel Legends Fantastic Four Super-Skrull, preorder 24 september",
+      "url": "https://marvelousnews.com/252-39184"
+    },
+    {
+      "label": "Toy Hype USA — Marvel Legends Spider-Man (Marvel Holiday Special), 34,99 dollar, levering december",
+      "url": "https://toyhypeusa.com/2026/09/23/hasbro-marvel-legends-series-spider-man-marvel-holiday-special-figure-pre-orders/"
+    },
+    {
+      "label": "Marvelous News — Retro Cardback Wave 3, preorder 29 september om 13 uur Eastern",
       "url": "https://marvelousnews.com/23-39127"
     },
     {
-      "label": "Mephitsu — alle reveals van de Marvel Legends Fan Stream, met preorderdata",
+      "label": "Mephitsu — alle reveals van de Marvel Legends Fan Stream, met de preorderdata van 23 september, 29 september en 6 oktober",
       "url": "https://www.mephitsu.co.uk/post/marvel-legends-fan-stream-september-2026-includes-reveals-for-a-new-mini-comic-wave-holiday-spider"
     },
     {
-      "label": "Toy Hype USA — BigBadToyStore-nieuwsbrief van 23 september, met de Hiya Godzilla Ultima-preorder",
-      "url": "https://toyhypeusa.com/2026/09/23/bbts-hellboy-marvel-dragon-ball-sales-dc-transformers-anime/"
+      "label": "heman.org — Chronicles Evil-Lyn live bij Mattel Creations voor 27 dollar",
+      "url": "https://heman.org/movie/news/2026-09-23-chronicles-evil-lyn-mattel-creations/"
     },
     {
-      "label": "The Toyark — NECA NYCC 2026-exclusief Blue Big Bird",
-      "url": "https://www.toyark.com/2026/09/23/sesame-street-neca-nycc-2026-exclusive-blue-big-bird-599270"
+      "label": "Wikipedia — Masters of the Universe (2026): bioscooprelease en streamingstart op Prime Video",
+      "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)"
     },
     {
-      "label": "Marvel — Avengers: Endgame Encore vanaf 25 september",
-      "url": "https://www.marvel.com/articles/movies/marvel-studios-avengers-endgame-returns-to-theaters-2026"
+      "label": "Screen Connections — Masters of the Universe op 4K, blu-ray en dvd vanaf 20 oktober",
+      "url": "https://screen-connections.com/2026/07/27/masters-of-the-universe-2026-4k-uhd-blu-ray-dvd-release-details/"
     },
     {
-      "label": "TechRadar — gelekte beschrijvingen van de post-creditsscènes van Endgame Encore",
-      "url": "https://www.techradar.com/streaming/entertainment/marvel-suffers-fresh-leak-as-avenger-endgame-encore-end-credits-scenes-descriptions-appear-online-ahead-of-september-25-release-heres-how-they-set-up-avengers-doomsday"
+      "label": "Collect-a-Con — 26 en 27 september in Egmond aan Zee, 10 tot 16 uur",
+      "url": "https://www.collectacon.nl/"
     },
     {
-      "label": "Marvelous News — data van de Target Fall Geek-Out 2026, elke vrijdag tot 2 oktober",
-      "url": "https://marvelousnews.com/252-39096"
-    },
-    {
-      "label": "Bleeding Cool — McFarlanes DC-licentie loopt eind 2026 af",
-      "url": "https://bleedingcool.com/collectibles/green-lantern-naut-ke-loi-joins-mcfarlane-toys-dc-multiverse-line/"
+      "label": "Old School Toys — beursagenda, met Vintage Toys of the Universe op 3 oktober in Lommel",
+      "url": "https://www.old-school-toys.nl/nl/beursagenda"
     },
     {
       "label": "Weekend of Hell — 26 en 27 september in Neuss",
       "url": "https://weekend-of-hell.com/en/home-2/"
-    },
-    {
-      "label": "Collect-a-Con — data en tijden Egmond aan Zee",
-      "url": "https://www.collectacon.nl/"
     }
   ],
   "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf."
