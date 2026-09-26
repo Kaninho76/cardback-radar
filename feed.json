@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-26T07:47:22+00:00",
+ "updatedISO": "2026-09-26T13:11:04+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "#NYCC 2026 EXCLUSIVE OVERVIEW for Monogram International",
+   "url": "https://www.actionfigureinsider.com/nycc-2026-exclusive-overview-for-monogram-international/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-26T12:00:23+00:00"
+  },
+  {
+   "title": "Dungeon Crawler Carl Figures In The Daily LITG, 26th September 2026",
+   "url": "https://bleedingcool.com/collectibles/dungeon-crawler-carl-figures-in-the-daily-litg-26th-september-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-26T08:28:09+00:00"
+  },
   {
    "title": "MOTU Origins Two-Bad Mattel Creations Exclusive In Hand Images",
    "url": "https://toyhabits.com/motu-origins-two-bad-mattel-creations-exclusive-in-hand-images/",
@@ -268,35 +280,29 @@
    "url": "https://bleedingcool.com/collectibles/master-splinter-is-king-caesar-with-playmates-tmnt-x-godzilla-line/",
    "source": "Bleeding Cool",
    "iso": "2026-09-24T15:22:09+00:00"
-  },
-  {
-   "title": "Boss Fight Studios Unveils Hero H.A.C.K.S. Captain John Bradford",
-   "url": "https://bleedingcool.com/collectibles/boss-fight-studios-unveils-hero-h-a-c-k-s-captain-john-bradford/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-24T14:52:07+00:00"
-  },
-  {
-   "title": "Spin Master and Universal Expand Licensing Relationship with New Multi-Property Plush Deal Across EMEA",
-   "url": "https://www.actionfigureinsider.com/spin-master-and-universal-expand-licensing-relationship-with-new-multi-property-plush-deal-across-emea/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-24T13:14:49+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-25T22:26:56+00:00",
+  "updatedISO": "2026-09-26T13:11:04+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2063,
-    "change": -1
-   },
-   {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 87,
-    "change": -1
+    "perDay": 89,
+    "change": 3
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2045,
+    "change": -2
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 602,
+    "change": -2
    },
    {
     "label": "TMNT",
@@ -305,28 +311,28 @@
     "change": -3
    },
    {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 599,
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 3,
     "change": -3
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 898,
+    "perDay": 891,
     "change": -5
    },
    {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": -8
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 19716,
+    "change": -13
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 143,
-    "change": -14
+    "perDay": 140,
+    "change": -15
    },
    {
     "label": "Power Rangers",
@@ -337,26 +343,20 @@
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 72,
-    "change": -20
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 17569,
-    "change": -26
+    "perDay": 68,
+    "change": -23
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1145,
-    "change": -33
+    "perDay": 1128,
+    "change": -32
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 676,
-    "change": -39
+    "perDay": 670,
+    "change": -38
    }
   ],
   "missed": []
