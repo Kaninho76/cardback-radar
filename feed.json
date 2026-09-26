@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-09-26T01:37:51+00:00",
+ "updatedISO": "2026-09-26T07:47:22+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "MOTU Origins Two-Bad Mattel Creations Exclusive In Hand Images",
+   "url": "https://toyhabits.com/motu-origins-two-bad-mattel-creations-exclusive-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-26T03:30:35+00:00"
+  },
   {
    "title": "The Chosen Prime Newsletter September 25, 2026",
    "url": "https://www.toyark.com/2026/09/25/the-chosen-prime-newsletter-september-25-2026-599493",
@@ -275,12 +280,6 @@
    "url": "https://www.actionfigureinsider.com/spin-master-and-universal-expand-licensing-relationship-with-new-multi-property-plush-deal-across-emea/",
    "source": "Action Figure Insider",
    "iso": "2026-09-24T13:14:49+00:00"
-  },
-  {
-   "title": "BBTS News – Hellboy, Marvel & Dragon Ball sales, DC, Transformers, anime and more",
-   "url": "https://www.toyark.com/2026/09/24/bbts-news-hellboy-marvel-dragon-ball-sales-dc-transformers-anime-and-more-599396",
-   "source": "The Toyark",
-   "iso": "2026-09-24T12:59:30+00:00"
   }
  ],
  "trends": {
