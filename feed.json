@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-09-26T22:55:45+00:00",
+ "updatedISO": "2026-09-27T01:32:49+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "DIRE Hawk GI Joe Classified Series In Stock on Walmart",
@@ -283,80 +284,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-26T13:11:04+00:00",
+  "updatedISO": "2026-09-27T01:32:49+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 3,
+    "change": 12
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 22814,
+    "change": 4
+   },
+   {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 89,
-    "change": 3
+    "perDay": 90,
+    "change": 4
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2045,
-    "change": -2
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 602,
+    "perDay": 2050,
     "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2169,
-    "change": -3
-   },
-   {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": -3
+    "perDay": 2148,
+    "change": -4
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 891,
-    "change": -5
+    "perDay": 899,
+    "change": -4
    },
    {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 19716,
-    "change": -13
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 594,
+    "change": -4
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
     "perDay": 140,
-    "change": -15
+    "change": -14
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2265,
+    "perDay": 2250,
     "change": -16
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 68,
-    "change": -23
+    "change": -22
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1128,
+    "perDay": 1115,
     "change": -32
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 670,
-    "change": -38
+    "perDay": 663,
+    "change": -37
    }
   ],
   "missed": []
