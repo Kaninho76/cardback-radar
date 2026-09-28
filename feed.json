@@ -1,16 +1,47 @@
 {
- "updatedISO": "2026-09-28T15:33:51+00:00",
+ "updatedISO": "2026-09-28T22:07:49+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro Transformers: Age of the Primes Leader Class Herald of Unicron Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/09/28/hasbro-transformers-age-of-the-primes-leader-class-herald-of-unicron-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-leader-class-herald-of-unicron-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-28T20:06:55+00:00"
+  },
+  {
+   "title": "Wave 10 + Tiger Force Jinx GI Joe ReAction+ Updated Images",
+   "url": "https://toyhabits.com/wave-10-tiger-force-jinx-gi-joe-reaction-updated-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-28T19:46:58+00:00"
+  },
+  {
+   "title": "Hasbro Star Wars: The Black Series 6″ Darth Maul (Maul – Shadow Lord) Figure Review",
+   "url": "https://toyhypeusa.com/2026/09/28/hasbro-star-wars-tbs-darth-maul-maul-shadow-lord-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-darth-maul-maul-shadow-lord-figure-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-28T19:38:13+00:00"
+  },
+  {
+   "title": "Atlanime Fest Returns to Atlanta for Its Second Year, Now a Four-Day Weekend Where Hip-Hop and Anime Collide – October 15–18",
+   "url": "https://www.actionfigureinsider.com/atlanime-fest-returns-to-atlanta-for-its-second-year-now-a-four-day-weekend-where-hip-hop-and-anime-collide-october-15-18/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-28T18:55:42+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Gamerverse (Marvel vs Capcom) Iron Man Vs. Marvel’s Spiral Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/09/28/hasbro-marvel-legends-series-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-28T17:48:38+00:00"
+  },
   {
    "title": "Gambit is Unleashed with New X-Men 1/10 Statue from Iron Studios",
    "url": "https://bleedingcool.com/collectibles/gambit-is-unleashed-with-new-x-men-1-10-statue-from-iron-studios/",
@@ -250,40 +281,10 @@
    "url": "https://www.toyark.com/2026/09/25/dc-comics-peacemaker-revoltech-photos-and-details-599472",
    "source": "The Toyark",
    "iso": "2026-09-25T18:35:46+00:00"
-  },
-  {
-   "title": "Ninja Gaiden – New Revoltech Ryu, Yakumo, and Momiji Photos and Info",
-   "url": "https://www.toyark.com/2026/09/25/ninja-gaiden-new-revoltech-ryu-yakumo-and-momiji-photos-and-info-599429",
-   "source": "The Toyark",
-   "iso": "2026-09-25T18:28:08+00:00"
-  },
-  {
-   "title": "An Invasion with Four Horsemen Studios' New Cosmic Legions Brainer",
-   "url": "https://bleedingcool.com/collectibles/an-invasion-with-four-horsemen-studios-new-cosmic-legions-brainer/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-25T18:22:09+00:00"
-  },
-  {
-   "title": "Super7 Micronauts ReAction+ Wave 6 Preorders",
-   "url": "https://toyhabits.com/super7-micronauts-reaction-wave-6-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-09-25T17:29:13+00:00"
-  },
-  {
-   "title": "Playmates Reveals Dungeon Crawler Carl Highlights Blind-Box Statues",
-   "url": "https://bleedingcool.com/collectibles/playmates-reveals-dungeon-crawler-carl-highlights-blind-box-statues/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-25T17:22:07+00:00"
-  },
-  {
-   "title": "Entertainment Earth News: Marvel, Street Fighter, Transformers, Star Wars, DC, Hero H.A.C.K.S., KPop Demon Hunter, Godzilla & Visionaries",
-   "url": "https://toyhypeusa.com/2026/09/25/ee-marvel-street-fighter-transformers-star-wars-dc-hero-hacks-kpop-demon-hunter-godzilla-visionaries/?utm_source=rss&utm_medium=rss&utm_campaign=ee-marvel-street-fighter-transformers-star-wars-dc-hero-hacks-kpop-demon-hunter-godzilla-visionaries",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-25T17:00:49+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-28T07:01:39+00:00",
+  "updatedISO": "2026-09-28T22:07:49+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
