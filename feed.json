@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-09-28T00:51:36+00:00",
+ "updatedISO": "2026-09-28T07:01:39+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "WizKids Games Marvel HeroClix Iconix Giant-Size X-Men And Wolverine First Appearance Review",
+   "url": "https://www.actionfigureinsider.com/marvel-heroclix-iconix-giant-size-xmen-review/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-28T02:36:12+00:00"
+  },
   {
    "title": "Jazwares Stranger Things: Tales from ‘85 HIC Flashlight (Dustin Henderson) Figure Pre-Orders",
    "url": "https://toyhypeusa.com/2026/09/27/jazwares-stranger-things-tales-from-85-hic-flashlight-dustin-henderson-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=jazwares-stranger-things-tales-from-85-hic-flashlight-dustin-henderson-figure-pre-orders",
@@ -274,89 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/bring-home-wolverines-cowl-with-mcfarlane-toys-newest-13-replica/",
    "source": "Bleeding Cool",
    "iso": "2026-09-25T14:52:09+00:00"
-  },
-  {
-   "title": "Four Horsemen Studios Unveils Cosmic Legions Dr. Zajjarii Figure",
-   "url": "https://bleedingcool.com/collectibles/four-horsemen-studios-unveils-cosmic-legions-dr-zajjarii-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-25T14:22:12+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-27T14:04:36+00:00",
+  "updatedISO": "2026-09-28T07:01:39+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 26074,
+    "change": 22
+   },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": 12
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 22814,
-    "change": 4
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 90,
-    "change": 4
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2050,
-    "change": -2
+    "change": 5
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2148,
+    "perDay": 2158,
+    "change": -3
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 599,
+    "change": -3
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 85,
+    "change": -3
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2034,
     "change": -4
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 899,
-    "change": -4
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 594,
-    "change": -4
+    "perDay": 893,
+    "change": -5
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 140,
-    "change": -14
+    "perDay": 145,
+    "change": -10
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2250,
-    "change": -16
+    "perDay": 2214,
+    "change": -17
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 68,
-    "change": -22
+    "perDay": 70,
+    "change": -19
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1115,
-    "change": -32
+    "perDay": 1079,
+    "change": -33
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 663,
-    "change": -37
+    "perDay": 647,
+    "change": -38
    }
   ],
   "missed": []
