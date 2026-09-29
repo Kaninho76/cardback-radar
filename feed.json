@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-09-29T02:01:37+00:00",
+ "updatedISO": "2026-09-29T08:37:14+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro G.I. Joe Classified Series 6″ Snake Eyes & Varmint ATV Vs. Stealth Viper & Cobra Stealth Flight Pod (Trubble Bubble) Set Available Now",
+   "url": "https://toyhypeusa.com/2026/09/29/hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-29T04:01:02+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Spider-Man: No Way Home – Green Goblin Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/09/29/hasbro-marvel-legends-series-spider-man-no-way-home-green-goblin-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-no-way-home-green-goblin-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-29T04:00:52+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Avengers: Doomsday Wave 1 Figures Shipping Update",
+   "url": "https://toyhypeusa.com/2026/09/28/hasbro-marvel-legends-series-avengers-doomsday-wave-1-figures-shipping-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-avengers-doomsday-wave-1-figures-shipping-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-29T02:25:07+00:00"
+  },
   {
    "title": "Iron Studios Summons New Dungeons & Dragons Tarrasque Statue",
    "url": "https://bleedingcool.com/collectibles/iron-studios-summons-new-dungeons-dragons-tarrasque-statue/",
@@ -66,7 +85,7 @@
    "iso": "2026-09-28T17:52:14+00:00"
   },
   {
-   "title": "Hasbro Marvel Legends Series 6″ Gamerverse (Marvel vs Capcom) Iron Man Vs. Marvel’s Spiral Figures Available Now",
+   "title": "Hasbro Marvel Legends Series 6″ Gamerverse (Marvel vs Capcom) Iron Man Vs. Marvel’s Spiral Figures Available Now (Update)",
    "url": "https://toyhypeusa.com/2026/09/28/hasbro-marvel-legends-series-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-28T17:48:38+00:00"
@@ -262,24 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/rocksteady-joins-super7s-teenage-mutant-ninja-turtles-reaction/",
    "source": "Bleeding Cool",
    "iso": "2026-09-26T13:52:09+00:00"
-  },
-  {
-   "title": "New Bebop Teenage Mutant Ninja Turtles ReAction+ Figure Revealed",
-   "url": "https://bleedingcool.com/collectibles/new-bebop-teenage-mutant-ninja-turtles-reaction-figure-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T13:22:09+00:00"
-  },
-  {
-   "title": "#NYCC 2026 EXCLUSIVE OVERVIEW for Monogram International",
-   "url": "https://www.actionfigureinsider.com/nycc-2026-exclusive-overview-for-monogram-international/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-26T12:00:23+00:00"
-  },
-  {
-   "title": "Dungeon Crawler Carl Figures In The Daily LITG, 26th September 2026",
-   "url": "https://bleedingcool.com/collectibles/dungeon-crawler-carl-figures-in-the-daily-litg-26th-september-2026/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T08:28:09+00:00"
   }
  ],
  "trends": {
