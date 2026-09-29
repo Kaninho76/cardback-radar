@@ -1,17 +1,94 @@
 {
- "updatedISO": "2026-09-29T08:37:14+00:00",
+ "updatedISO": "2026-09-29T15:58:06+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "MAFEX Unveils New DC Comics MAFEX Batman (Recollection Blue Ver.)",
+   "url": "https://bleedingcool.com/collectibles/mafex-unveils-new-dc-comics-mafex-batman-recollection-blue-ver/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-29T15:23:08+00:00"
+  },
+  {
+   "title": "Storm Collectibles Street Fighter Alpha 3 Storm Arena Balrog 1/12 Scale Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/09/29/storm-collectibles-street-fighter-alpha-3-storm-arena-balrog-1-12-scale-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=storm-collectibles-street-fighter-alpha-3-storm-arena-balrog-1-12-scale-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-29T15:16:31+00:00"
+  },
+  {
+   "title": "New Kitty Pryde & Lockheed 1/10 X-Men Statue Revealed by Iron Studios",
+   "url": "https://bleedingcool.com/collectibles/new-kitty-pryde-lockheed-1-10-x-men-statue-revealed-by-iron-studios/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-29T14:22:09+00:00"
+  },
+  {
+   "title": "Paladone WeCool strengthens US leadership team with new appointment",
+   "url": "https://www.actionfigureinsider.com/paladone-wecool-strengthens-us-leadership-team-with-new-appointment/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-29T14:13:26+00:00"
+  },
+  {
+   "title": "DIRE HAWK GI Joe Classified Series In-Hand Review",
+   "url": "https://toyhabits.com/dire-hawk-gi-joe-classified-series-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-09-29T13:57:02+00:00"
+  },
+  {
+   "title": "The Chosen One Comes to MAFEX with New The Matrix Neo Figure",
+   "url": "https://bleedingcool.com/collectibles/the-chosen-one-comes-to-mafex-with-new-the-matrix-neo-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-29T13:52:09+00:00"
+  },
+  {
+   "title": "Pocahontas Embraces the Colors of the Wind with New 1/10 Statue",
+   "url": "https://bleedingcool.com/collectibles/pocahontas-embraces-the-colors-of-the-wind-with-new-1-10-statue/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-29T13:22:09+00:00"
+  },
+  {
+   "title": "Spin Master and Universal Announce Licensing Agreement for a Preschool Line Inspired by the Jurassic World Franchise from Universal Pictures and Amblin Entertainment",
+   "url": "https://www.actionfigureinsider.com/spin-master-and-universal-announce-licensing-agreement-for-a-preschool-line-inspired-by-the-jurassic-world-franchise-from-universal-pictures-and-amblin-entertainment/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-29T13:06:51+00:00"
+  },
+  {
+   "title": "Spider-Man: Across the Spider-Verse – S.H. Figuarts Spider-Man 2099 and Miles G. Morales",
+   "url": "https://www.toyark.com/2026/09/29/spider-man-across-the-spider-verse-s-h-figuarts-spider-man-2099-and-miles-g-morales-599530",
+   "source": "The Toyark",
+   "iso": "2026-09-29T12:06:27+00:00"
+  },
+  {
+   "title": "MAGIC: THE GATHERING ANNOUNCES SECRET LAIR COMMANDER DECK: ODDS AND ENDS",
+   "url": "https://www.actionfigureinsider.com/magic-the-gathering-announces-secret-lair-commander-deck-odds-and-ends/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-29T12:00:14+00:00"
+  },
+  {
+   "title": "Joy Toy Announces Super Street Fighter II Turbo License",
+   "url": "https://www.toyark.com/2026/09/29/joy-toy-announces-super-street-fighter-ii-turbo-license-599527",
+   "source": "The Toyark",
+   "iso": "2026-09-29T11:58:09+00:00"
+  },
+  {
+   "title": "Batman Forever – Hot Toys The Riddler Figure",
+   "url": "https://www.toyark.com/2026/09/29/batman-forever-hot-toys-the-riddler-figure-599502",
+   "source": "The Toyark",
+   "iso": "2026-09-29T11:50:24+00:00"
+  },
+  {
+   "title": "Hasbro G.I. Joe Classified Series 6″ MARS S.N.A.K.E. Battle Suit Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/09/29/hasbro-gijoe-classified-series-mars-s-n-a-k-e-battle-suit-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-mars-s-n-a-k-e-battle-suit-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-29T04:02:47+00:00"
+  },
   {
    "title": "Hasbro G.I. Joe Classified Series 6″ Snake Eyes & Varmint ATV Vs. Stealth Viper & Cobra Stealth Flight Pod (Trubble Bubble) Set Available Now",
    "url": "https://toyhypeusa.com/2026/09/29/hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now",
@@ -203,161 +280,83 @@
    "url": "https://www.actionfigureinsider.com/dollar-general-helps-families-stretch-holiday-budgets-with-toy-deals-new-items-and-everyday-low-prices/",
    "source": "Action Figure Insider",
    "iso": "2026-09-27T14:00:54+00:00"
-  },
-  {
-   "title": "NECA Celebrates the 45th Anniversary of Elvira: Mistress of the Dark",
-   "url": "https://bleedingcool.com/collectibles/neca-celebrates-the-45th-anniversary-of-elvira-mistress-of-the-dark/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-27T13:22:08+00:00"
-  },
-  {
-   "title": "Barbie Brings the Ultimate Fashion Styling Experience to Roblox with Barbie DreamStyle",
-   "url": "https://www.actionfigureinsider.com/barbie-brings-the-ultimate-fashion-styling-experience-to-roblox-with-barbie-dreamstyle/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-27T12:00:17+00:00"
-  },
-  {
-   "title": "DIRE Hawk GI Joe Classified Series In Stock on Walmart",
-   "url": "https://toyhabits.com/dire-hawk-gi-joe-classified-series-in-stock-on-walmart/",
-   "source": "Toy Habits",
-   "iso": "2026-09-26T22:10:04+00:00"
-  },
-  {
-   "title": "GI Joe Classified Series Ninja Force Scarlett and T’Jbang Now In Stock on Target",
-   "url": "https://toyhabits.com/gi-joe-classified-series-ninja-force-scarlett-and-tjbang-now-in-stock-on-target/",
-   "source": "Toy Habits",
-   "iso": "2026-09-26T21:21:24+00:00"
-  },
-  {
-   "title": "Unleash Fury of Four Horsemen Studios' Cosmic Legions: Globulon Krunn",
-   "url": "https://bleedingcool.com/collectibles/unleash-fury-of-four-horsemen-studios-cosmic-legions-globulon-krunn/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T18:22:08+00:00"
-  },
-  {
-   "title": "The Labyrinthian Warrior Joins Boss Fight's 1/18 Hero H.A.C.K.S. Line",
-   "url": "https://bleedingcool.com/collectibles/the-labyrinthian-warrior-joins-boss-fights-1-18-hero-h-a-c-k-s-line/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T17:22:07+00:00"
-  },
-  {
-   "title": "Blokees Prepares for the Holidays with Transformers Advent Calendar",
-   "url": "https://bleedingcool.com/collectibles/blokees-prepares-for-the-holidays-with-transformers-advent-calendar/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T16:22:08+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified x Tomb Raider Lara Croft Figure Pre-Orders (Update 2)",
-   "url": "https://toyhypeusa.com/2026/09/26/hasbro-gijoe-classified-x-tomb-raider-lara-croft-figure-pre-orders-update-2/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-x-tomb-raider-lara-croft-figure-pre-orders-update-2",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-26T15:56:59+00:00"
-  },
-  {
-   "title": "Super7 Unveils Teenage Mutant Ninja Turtles ReAction+ Michelangelo",
-   "url": "https://bleedingcool.com/collectibles/super7-unveils-teenage-mutant-ninja-turtles-reaction-michelangelo/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T15:52:08+00:00"
-  },
-  {
-   "title": "Leonardo Joins Super7's Teenage Mutant Ninja Turtles ReAction+ Line",
-   "url": "https://bleedingcool.com/collectibles/leonardo-joins-super7s-teenage-mutant-ninja-turtles-reaction-line/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T15:22:10+00:00"
-  },
-  {
-   "title": "Salvage the Galaxy with the 1/18 Hero H.A.C.K.S. Galactic Prospectors",
-   "url": "https://bleedingcool.com/collectibles/salvage-the-galaxy-with-the-1-18-hero-h-a-c-k-s-galactic-prospectors/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T14:22:08+00:00"
-  },
-  {
-   "title": "Halloween & Costume Association Announces Finalists for 3rd Annual Spooky Awards #TheHPE27",
-   "url": "https://www.actionfigureinsider.com/halloween-costume-association-announces-finalists-for-3rd-annual-spooky-awards-thehpe27/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-26T14:00:31+00:00"
-  },
-  {
-   "title": "Rocksteady Joins Super7's Teenage Mutant Ninja Turtles ReAction+",
-   "url": "https://bleedingcool.com/collectibles/rocksteady-joins-super7s-teenage-mutant-ninja-turtles-reaction/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-26T13:52:09+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-28T22:07:49+00:00",
+  "updatedISO": "2026-09-29T15:58:06+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 26074,
-    "change": 22
+    "perDay": 28934,
+    "change": 40
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 967,
+    "change": 2
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2140,
+    "change": 1
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": 5
+    "change": 1
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2158,
+    "perDay": 2153,
     "change": -3
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 599,
-    "change": -3
+    "perDay": 594,
+    "change": -4
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 85,
-    "change": -3
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2034,
-    "change": -4
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 893,
+    "perDay": 83,
     "change": -5
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 145,
-    "change": -10
+    "perDay": 144,
+    "change": -11
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2214,
-    "change": -17
+    "perDay": 2223,
+    "change": -16
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 70,
-    "change": -19
+    "perDay": 71,
+    "change": -17
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1079,
-    "change": -33
+    "perDay": 1049,
+    "change": -32
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 647,
-    "change": -38
+    "perDay": 632,
+    "change": -37
    }
   ],
   "missed": []
