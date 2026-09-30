@@ -1,16 +1,29 @@
 {
- "updatedISO": "2026-09-30T00:31:29+00:00",
+ "updatedISO": "2026-09-30T06:48:56+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "GI Joe Classified Series Vamp Mark II & Clutch In Hand Images",
+   "url": "https://toyhabits.com/gi-joe-classified-series-vamp-mark-ii-clutch-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-09-30T03:32:14+00:00"
+  },
+  {
+   "title": "Tiger Orange 2.0 General Lee Ramen Racer & Good Ol Boys Preorders",
+   "url": "https://toyhabits.com/tiger-orange-2-0-general-lee-ramen-racer-good-ol-boys-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-09-30T02:46:30+00:00"
+  },
   {
    "title": "Jada Toys Ultra Street Fighter II Zangief 1:12 Scale Figure Available Now",
    "url": "https://toyhypeusa.com/2026/09/29/jada-toys-ultra-street-fighter-ii-zangief-112-scale-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=jada-toys-ultra-street-fighter-ii-zangief-112-scale-figure-available-now",
@@ -268,95 +281,83 @@
    "url": "https://www.toyark.com/2026/09/28/street-fighter-alpha-3-storm-arena-balrog-preview-599498",
    "source": "The Toyark",
    "iso": "2026-09-28T12:22:55+00:00"
-  },
-  {
-   "title": "Marvel Gameverse S.H. Figuarts Venom Preview",
-   "url": "https://www.toyark.com/2026/09/28/marvel-gameverse-s-h-figuarts-venom-preview-599495",
-   "source": "The Toyark",
-   "iso": "2026-09-28T12:20:00+00:00"
-  },
-  {
-   "title": "AMC GLOBAL MEDIA RETURNS TO NEW YORK COMIC CON’S MAIN STAGE WITH STANDOUT PANELS AND NEVER-BEFORE-SEEN PREVIEWS FOR NEW AND RETURNING FAN-FAVORITE SERIES #NYCC",
-   "url": "https://www.actionfigureinsider.com/amc-global-media-returns-to-new-york-comic-cons-main-stage-with-standout-panels-and-never-before-seen-previews-for-new-and-returning-fan-favorite-series-nycc/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-28T12:00:16+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-29T15:58:06+00:00",
+  "updatedISO": "2026-09-30T06:48:56+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 28934,
-    "change": 40
+    "perDay": 31757,
+    "change": 58
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 967,
-    "change": 2
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2140,
-    "change": 1
+    "perDay": 1034,
+    "change": 9
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": 1
+    "change": 4
    },
    {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2153,
-    "change": -3
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2195,
+    "change": 3
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 594,
-    "change": -4
+    "perDay": 601,
+    "change": -2
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2134,
+    "change": -3
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
     "perDay": 83,
-    "change": -5
+    "change": -6
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 144,
-    "change": -11
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2223,
-    "change": -16
+    "perDay": 149,
+    "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 71,
-    "change": -17
+    "perDay": 72,
+    "change": -14
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2213,
+    "change": -16
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1049,
-    "change": -32
+    "perDay": 1017,
+    "change": -31
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 632,
-    "change": -37
+    "perDay": 622,
+    "change": -35
    }
   ],
   "missed": []
