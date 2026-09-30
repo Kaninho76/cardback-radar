@@ -1,16 +1,41 @@
 {
- "updatedISO": "2026-09-30T19:27:15+00:00",
+ "updatedISO": "2026-09-30T23:54:36+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "BigBadToyStore News: Tomb Raider, Fallout, TMNT & anime sales, Street Fighter, KPop Demon Hunters & More",
+   "url": "https://toyhypeusa.com/2026/09/30/bbts-tomb-raider-fallout-tmnt-anime-sales-street-fighter-kpop-demon-hunters/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-tomb-raider-fallout-tmnt-anime-sales-street-fighter-kpop-demon-hunters",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-30T23:30:54+00:00"
+  },
+  {
+   "title": "The LEGO Group and Toei Animation unite for the first time to summon the epic LEGO® Icons Dragon Ball Shenron & Goku set",
+   "url": "https://www.actionfigureinsider.com/the-lego-group-and-toei-animation-unite-for-the-first-time-to-summon-the-epic-lego-icons-dragon-ball-shenron-goku-set/",
+   "source": "Action Figure Insider",
+   "iso": "2026-09-30T20:55:52+00:00"
+  },
+  {
+   "title": "Boss Fight Studio Garfield x Teenage Mutant Ninja Turtles Garfield & Sidekick Odie Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/09/30/boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-09-30T20:54:16+00:00"
+  },
+  {
+   "title": "TMNT Movie 5 Pack & 1988 Classic Figures Re-Release Early Look",
+   "url": "https://toyhabits.com/tmnt-movie-5-pack-1988-classic-figures-re-release-early-look/",
+   "source": "Toy Habits",
+   "iso": "2026-09-30T19:33:39+00:00"
+  },
   {
    "title": "Mattel DC Legacy Collection Retailer Listings Reveals Possible Lineup",
    "url": "https://toyhabits.com/mattel-dc-legacy-collection-lineup-revealed-through-retailer-listings/",
@@ -256,30 +281,6 @@
    "url": "https://toyhypeusa.com/2026/09/29/hasbro-gijoe-classified-series-mars-s-n-a-k-e-battle-suit-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-mars-s-n-a-k-e-battle-suit-figure-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-29T04:02:47+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series 6″ Snake Eyes & Varmint ATV Vs. Stealth Viper & Cobra Stealth Flight Pod (Trubble Bubble) Set Available Now",
-   "url": "https://toyhypeusa.com/2026/09/29/hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-29T04:01:02+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Spider-Man: No Way Home – Green Goblin Figure Available Now",
-   "url": "https://toyhypeusa.com/2026/09/29/hasbro-marvel-legends-series-spider-man-no-way-home-green-goblin-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-no-way-home-green-goblin-figure-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-29T04:00:52+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Avengers: Doomsday Wave 1 Figures Shipping Update",
-   "url": "https://toyhypeusa.com/2026/09/28/hasbro-marvel-legends-series-avengers-doomsday-wave-1-figures-shipping-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-avengers-doomsday-wave-1-figures-shipping-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-29T02:25:07+00:00"
-  },
-  {
-   "title": "Iron Studios Summons New Dungeons & Dragons Tarrasque Statue",
-   "url": "https://bleedingcool.com/collectibles/iron-studios-summons-new-dungeons-dragons-tarrasque-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-28T20:52:07+00:00"
   }
  ],
  "trends": {
