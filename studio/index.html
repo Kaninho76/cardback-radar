@@ -20,6 +20,7 @@
   --shadow:0 1px 0 rgba(20,23,31,.05), 0 8px 20px -15px rgba(20,23,31,.5);
   --safe-top:env(safe-area-inset-top,0px);
   --safe-bot:env(safe-area-inset-bottom,0px);
+  --barh:64px; --vcap:42vh;
 }
 @media (prefers-color-scheme: dark){
   :root{
@@ -214,6 +215,54 @@ details.adv .inner{padding:0 16px 16px}
 @media (min-width:900px){
   .work{display:grid;grid-template-columns:1.15fr .85fr;gap:20px;align-items:start}
 }
+
+/* ---------- meescrollend beeld ---------- */
+.viewcol{position:relative}
+@media (max-width:899px){
+  .viewcol{
+    position:sticky;top:var(--barh);z-index:20;
+    background:var(--paper);padding-bottom:10px;
+    box-shadow:0 14px 18px -16px rgba(0,0,0,.55);
+  }
+  canvas.view,.compare canvas{max-height:var(--vcap)}
+  .compare .top canvas{max-height:none}
+}
+@media (min-width:900px){
+  .viewcol{position:sticky;top:calc(var(--barh) + 14px)}
+}
+canvas.view,.compare canvas{max-height:var(--vcap)}
+.compare .top canvas{max-height:none}
+.viewbar{display:flex;gap:7px;align-items:stretch;margin-top:11px;flex-wrap:wrap}
+.viewbar .btn.primary{flex:1 1 auto}
+.btn.tiny{padding:8px 11px;font-size:13px;border-radius:8px;white-space:nowrap}
+@media (max-width:460px){
+  .viewbar{gap:6px}
+  .viewbar .btn.primary{padding:11px 12px;font-size:14px;letter-spacing:.03em}
+  .btn.tiny{padding:8px 8px;font-size:12.5px}
+}
+
+/* ---------- extra bediening ---------- */
+.swatches{display:flex;gap:8px;flex-wrap:wrap}
+.swatch{
+  width:36px;height:36px;border-radius:9px;border:2px solid var(--line);
+  cursor:pointer;padding:0;box-shadow:inset 0 0 0 2px var(--card);
+}
+.swatch[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 2px var(--card),0 0 0 2px var(--ink)}
+textarea.cap{
+  width:100%;min-height:76px;resize:vertical;background:var(--paper);
+  border:1.5px solid var(--line);border-radius:9px;padding:10px 12px;
+  font-size:14.5px;font-family:inherit;line-height:1.4;
+}
+.presets{display:grid;gap:8px;grid-template-columns:1fr 1fr}
+.presets button{
+  background:var(--paper);border:1.5px solid var(--line);border-radius:9px;
+  padding:9px 11px;cursor:pointer;text-align:left;line-height:1.25;
+}
+.presets button:hover{border-color:var(--ink)}
+.presets button b{display:block;font-size:13.5px;font-weight:600;color:var(--ink)}
+.presets button span{display:block;font-size:11.5px;color:var(--ink-soft);margin-top:2px}
+@media (max-width:420px){.presets{grid-template-columns:1fr}}
+
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
@@ -259,7 +308,7 @@ details.adv .inner{padding:0 16px 16px}
     </section>
 
     <section class="work" id="work" hidden>
-      <div>
+      <div class="viewcol" id="viewcol">
         <div class="stage">
           <div class="holder" id="holder">
             <canvas class="view" id="view"></canvas>
@@ -279,14 +328,29 @@ details.adv .inner{padding:0 16px 16px}
           <p class="hint" id="hint">Sleep het figuur om het te verplaatsen.</p>
         </div>
 
-        <div class="rowbtn" style="margin-top:12px">
+        <div class="viewbar">
           <button class="btn primary" id="download" type="button">Bewaar foto</button>
-          <button class="btn" id="toggleCmp" type="button">Vergelijk met origineel</button>
-          <button class="btn" id="reset" type="button">Alles terug</button>
+          <button class="btn tiny" id="bigger" type="button">Groter</button>
+          <button class="btn tiny" id="toggleCmp" type="button">Vergelijk</button>
+          <button class="btn tiny" id="reset" type="button">Opnieuw</button>
         </div>
       </div>
 
       <div>
+        <div class="panel">
+          <h3>Sfeer in één knop</h3>
+          <p class="why">Zet alle schuiven in één keer op een sfeer die werkt. Daarna stel je nog los bij — een preset is
+            een startpunt, geen slot.</p>
+          <div class="presets" id="presets">
+            <button type="button" data-p="street"><b>Straat 's nachts</b><span>nevel, gloed, regen, koel tegenlicht</span></button>
+            <button type="button" data-p="room90"><b>Jaren-90 kamer</b><span>warm, veel korrel, zacht licht</span></button>
+            <button type="button" data-p="clean"><b>Strak op wit</b><span>alles uit, alleen een schaduw</span></button>
+            <button type="button" data-p="dust"><b>Stof en zon</b><span>tegenlicht, warme walm, korrel</span></button>
+            <button type="button" data-p="kaiju"><b>Kaiju-mist</b><span>veel rook, hard contrast, donkere hoeken</span></button>
+            <button type="button" data-p="card"><b>Als op de kaart</b><span>hard licht, bijna geen sfeer</span></button>
+          </div>
+        </div>
+
         <div class="panel">
           <h3>Sfeer</h3>
           <p class="why">Dit is wat een plakwerkje in een foto verandert: licht van de omgeving dat over de randen
@@ -342,10 +406,201 @@ details.adv .inner{padding:0 16px 16px}
             <label>Beeldverhouding</label>
             <div class="seg" id="ratio">
               <button type="button" data-r="orig">Origineel</button>
+              <button type="button" data-r="9:16">9:16 Reel</button>
               <button type="button" data-r="4:5" aria-pressed="true">4:5</button>
+              <button type="button" data-r="2:3">2:3</button>
               <button type="button" data-r="1:1">1:1</button>
               <button type="button" data-r="3:4">3:4</button>
               <button type="button" data-r="16:9">16:9</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Rook</h3>
+          <p class="why">Echte rook, in je browser opgebouwd uit ruis — geen plaatje dat eroverheen gaat. Rook <b>achter</b>
+            het figuur duwt hem naar voren; rook <b>voor</b> zijn voeten geeft diepte. Elke vorm is anders.</p>
+          <div class="ctl">
+            <label for="smoke">Hoeveelheid <b id="vSmoke">0%</b></label>
+            <input type="range" id="smoke" min="0" max="100" value="0">
+          </div>
+          <div class="ctl">
+            <label for="smokeH">Hoe hoog hij komt <b id="vSmokeH">45%</b></label>
+            <input type="range" id="smokeH" min="5" max="100" value="45">
+          </div>
+          <div class="ctl">
+            <label for="smokeSoft">Grof of fijn <b id="vSmokeSoft">50</b></label>
+            <input type="range" id="smokeSoft" min="0" max="100" value="50">
+          </div>
+          <div class="ctl">
+            <label for="smokeDrift">Zijwaarts drijven <b id="vSmokeDrift">0</b></label>
+            <input type="range" id="smokeDrift" min="-100" max="100" value="0">
+          </div>
+          <div class="ctl">
+            <label>Waar hij opkomt</label>
+            <div class="seg" id="smokeFrom">
+              <button type="button" data-v="left">Links</button>
+              <button type="button" data-v="mid" aria-pressed="true">Midden</button>
+              <button type="button" data-v="right">Rechts</button>
+              <button type="button" data-v="all">Overal</button>
+            </div>
+          </div>
+          <div class="ctl">
+            <label>Voor of achter het figuur</label>
+            <div class="seg" id="smokeDepth">
+              <button type="button" data-v="back" aria-pressed="true">Achter</button>
+              <button type="button" data-v="front">Voor</button>
+              <button type="button" data-v="both">Beide</button>
+            </div>
+          </div>
+          <div class="ctl">
+            <label>Kleur</label>
+            <div class="seg" id="smokeTint">
+              <button type="button" data-v="auto" aria-pressed="true">Uit de scene</button>
+              <button type="button" data-v="white">Wit</button>
+              <button type="button" data-v="grey">Grijs</button>
+              <button type="button" data-v="warm">Walm</button>
+              <button type="button" data-v="green">Gifgroen</button>
+            </div>
+          </div>
+          <div class="rowbtn">
+            <button class="btn" id="smokeShuffle" type="button">Andere rookvorm</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Het figuur zelf</h3>
+          <p class="why">Alleen het uitgeknipte figuur, los van de achtergrond en los van de automatische lichtaanpassing.
+            Spiegelen en kantelen mag; uitrekken niet — de verhoudingen blijven gelijk.</p>
+          <div class="ctl">
+            <div class="rowbtn" style="margin-top:0">
+              <button class="btn" id="figFlip" type="button">Spiegelen</button>
+            </div>
+          </div>
+          <div class="ctl">
+            <label for="figRot">Kantelen <b id="vFigRot">0°</b></label>
+            <input type="range" id="figRot" min="-25" max="25" value="0">
+          </div>
+          <div class="ctl">
+            <label for="figBright">Helderheid <b id="vFigBright">0</b></label>
+            <input type="range" id="figBright" min="-60" max="60" value="0">
+          </div>
+          <div class="ctl">
+            <label for="figContrast">Contrast <b id="vFigContrast">0</b></label>
+            <input type="range" id="figContrast" min="-50" max="60" value="0">
+          </div>
+          <div class="ctl">
+            <label for="figSat">Verzadiging <b id="vFigSat">0</b></label>
+            <input type="range" id="figSat" min="-100" max="80" value="0">
+          </div>
+          <div class="ctl">
+            <label for="figWarm">Warmte <b id="vFigWarm">0</b></label>
+            <input type="range" id="figWarm" min="-50" max="50" value="0">
+          </div>
+          <div class="ctl">
+            <label for="rim">Tegenlicht op de rand <b id="vRim">0%</b></label>
+            <input type="range" id="rim" min="0" max="100" value="0">
+          </div>
+          <div class="ctl">
+            <label>Kleur van dat tegenlicht</label>
+            <div class="swatches" id="rimCol">
+              <button class="swatch" type="button" data-v="#FFFFFF" style="background:#FFFFFF" aria-pressed="true" aria-label="Wit"></button>
+              <button class="swatch" type="button" data-v="#FFD27A" style="background:#FFD27A" aria-label="Warm"></button>
+              <button class="swatch" type="button" data-v="#7FB4FF" style="background:#7FB4FF" aria-label="Koel"></button>
+              <button class="swatch" type="button" data-v="#FF6A4D" style="background:#FF6A4D" aria-label="Rood"></button>
+              <button class="swatch" type="button" data-v="#5BE0A8" style="background:#5BE0A8" aria-label="Groen"></button>
+            </div>
+          </div>
+          <div class="ctl">
+            <label for="rimDir">Kant waar het licht vandaan komt <b id="vRimDir">links</b></label>
+            <input type="range" id="rimDir" min="-100" max="100" value="-60">
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>De achtergrond</h3>
+          <p class="why">Inzoomen en verschuiven om de goede uitsnede te pakken. Het figuur blijft staan waar je het hebt
+            neergezet; alleen de achtergrond beweegt.</p>
+          <div class="ctl">
+            <label for="bgZoom">Inzoomen <b id="vBgZoom">100%</b></label>
+            <input type="range" id="bgZoom" min="100" max="260" value="100">
+          </div>
+          <div class="ctl">
+            <label for="bgX">Verschuiven links-rechts <b id="vBgX">0</b></label>
+            <input type="range" id="bgX" min="-100" max="100" value="0">
+          </div>
+          <div class="ctl">
+            <label for="bgY">Verschuiven omhoog-omlaag <b id="vBgY">0</b></label>
+            <input type="range" id="bgY" min="-100" max="100" value="0">
+          </div>
+          <div class="ctl">
+            <label for="bgBright">Helderheid <b id="vBgBright">0</b></label>
+            <input type="range" id="bgBright" min="-60" max="60" value="0">
+          </div>
+          <div class="ctl">
+            <div class="rowbtn" style="margin-top:0">
+              <button class="btn" id="bgFlip" type="button">Achtergrond spiegelen</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Afwerking</h3>
+          <p class="why">De twee ingrepen die een plakwerkje het meest als één foto laten lezen: donkere hoeken, en een
+            beetje korrel over álles heen — dus ook over het figuur.</p>
+          <div class="ctl">
+            <label for="vign">Donkere hoeken <b id="vVign">0%</b></label>
+            <input type="range" id="vign" min="0" max="100" value="0">
+          </div>
+          <div class="ctl">
+            <label for="grain">Korrel <b id="vGrain">0%</b></label>
+            <input type="range" id="grain" min="0" max="100" value="0">
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Tekst in beeld</h3>
+          <p class="why">De regel die bij deze foto hoort. Eén of twee korte regels werken het best. Zet hem niet te laag:
+            de onderste strook van een Reel gaat onder de knoppen van Instagram schuil.</p>
+          <div class="ctl">
+            <label for="capTxt">Tekst · enter is een nieuwe regel</label>
+            <textarea class="cap" id="capTxt" rows="2" placeholder="de nieuwe Doom is al uitverkocht"></textarea>
+          </div>
+          <div class="ctl">
+            <label for="capSize">Grootte <b id="vCapSize">7%</b></label>
+            <input type="range" id="capSize" min="3" max="16" value="7">
+          </div>
+          <div class="ctl">
+            <label>Lettertype</label>
+            <div class="seg" id="capFont">
+              <button type="button" data-v="anton" aria-pressed="true">Radar-kop</button>
+              <button type="button" data-v="barlow">Gewoon</button>
+              <button type="button" data-v="mono">Typemachine</button>
+            </div>
+          </div>
+          <div class="ctl">
+            <label>Plek</label>
+            <div class="seg" id="capPos">
+              <button type="button" data-v="top" aria-pressed="true">Boven</button>
+              <button type="button" data-v="mid">Midden</button>
+              <button type="button" data-v="bot">Onder</button>
+            </div>
+          </div>
+          <div class="ctl">
+            <label>Stijl</label>
+            <div class="seg" id="capStyle">
+              <button type="button" data-v="shadow" aria-pressed="true">Wit met schaduw</button>
+              <button type="button" data-v="black">Zwarte balk</button>
+              <button type="button" data-v="white">Witte balk</button>
+              <button type="button" data-v="red">Rode balk</button>
+            </div>
+          </div>
+          <div class="ctl">
+            <label>Uitlijnen</label>
+            <div class="seg" id="capAlign">
+              <button type="button" data-v="left">Links</button>
+              <button type="button" data-v="center" aria-pressed="true">Midden</button>
+              <button type="button" data-v="right">Rechts</button>
             </div>
           </div>
         </div>
@@ -406,8 +661,9 @@ details.adv .inner{padding:0 16px 16px}
         <b>Wat hier wel en niet met AI gebeurt.</b> Er draait een model in je browser, maar dat doet één ding:
         bepalen wat figuur is en wat achtergrond. Het levert een masker, geen pixels. Jouw verzamelstuk komt daarna
         ongewijzigd uit je eigen foto — dezelfde verf, dezelfde sleet, hetzelfde gezicht. Alles wat je daarna ziet
-        gebeuren is fotobewerking: belichting, nevel, gloed, schaduw, regen en kleur. Alles op je eigen toestel;
-        je foto's gaan nergens heen.
+        gebeuren is fotobewerking die je zelf in de hand hebt: belichting, nevel, gloed, schaduw, regen, rook,
+        korrel, tegenlicht, kleur en de tekst die je erover zet. De rook wordt ter plekke uit ruis opgebouwd, dus
+        ook dat is geen plaatje van buiten. Alles op je eigen toestel; je foto's gaan nergens heen.
       </div>
     </section>
 
@@ -436,7 +692,12 @@ details.adv .inner{padding:0 16px 16px}
     pos: { x: 0.5, y: 0.97 },      // voetpunt van het figuur, in fracties van het doek
     ratio: "4:5", fmt: "jpg",
     brush: 0, showMask: false,
-    layerCache: null, layerKey: ""
+    layerCache: null, layerKey: "",
+    figFlip: false, bgFlip: false, rimCol: "#FFFFFF",
+    smokeFrom: "mid", smokeDepth: "back", smokeTint: "auto",
+    smokeSeed: 20260930, smokeCache: null, smokeKey: "",
+    capFont: "anton", capPos: "top", capStyle: "shadow", capAlign: "center",
+    big: false
   };
 
   var view = $("view"), vctx = view.getContext("2d");
@@ -804,7 +1065,12 @@ details.adv .inner{padding:0 16px 16px}
      Geen vervorming, geen herschrijven van vorm of detail. */
   function buildLayer() {
     var integ = +$("integ").value / 100;
-    var key = [integ, state.method, $("tol").value, $("shrink").value, $("feather").value].join("|");
+    var fBright = +$("figBright").value;
+    var fContr = 1 + (+$("figContrast").value) / 100;
+    var fSat = 1 + (+$("figSat").value) / 100;
+    var fWarm = +$("figWarm").value * 0.7;
+    var key = [integ, state.method, $("tol").value, $("shrink").value, $("feather").value,
+               fBright, fContr, fSat, fWarm, state.figFlip ? 1 : 0].join("|");
     if (state.layerCache && state.layerKey === key) return state.layerCache;
 
     var f = state.fig, a = state.alpha, src = f.data.data;
@@ -829,17 +1095,51 @@ details.adv .inner{padding:0 16px 16px}
     var octx = out.getContext("2d");
     var img = octx.createImageData(f.w, f.h);
     var o = img.data;
+    var plain = (fBright === 0 && fContr === 1 && fSat === 1 && fWarm === 0);
     for (var p = 0, q = 0; p < a.length; p++, q += 4) {
       var al = a[p];
       if (al <= 0.002) { o[q + 3] = 0; continue; }
-      o[q]     = clamp(src[q] * gain[0] + add[0]);
-      o[q + 1] = clamp(src[q + 1] * gain[1] + add[1]);
-      o[q + 2] = clamp(src[q + 2] * gain[2] + add[2]);
+      var R = src[q] * gain[0] + add[0];
+      var G = src[q + 1] * gain[1] + add[1];
+      var B = src[q + 2] * gain[2] + add[2];
+      if (!plain) {
+        R += fBright + fWarm; G += fBright; B += fBright - fWarm;
+        R = (R - 128) * fContr + 128;
+        G = (G - 128) * fContr + 128;
+        B = (B - 128) * fContr + 128;
+        var lu = 0.2126 * R + 0.7152 * G + 0.0722 * B;
+        R = lu + (R - lu) * fSat; G = lu + (G - lu) * fSat; B = lu + (B - lu) * fSat;
+      }
+      o[q] = clamp(R); o[q + 1] = clamp(G); o[q + 2] = clamp(B);
       o[q + 3] = Math.round(al * 255);
     }
     octx.putImageData(img, 0, 0);
+    if (state.figFlip) {
+      var fl = tmpC(f.w, f.h), flx = fl.getContext("2d");
+      flx.translate(f.w, 0); flx.scale(-1, 1);
+      flx.drawImage(out, 0, 0);
+      out = fl;
+    }
     state.layerCache = out; state.layerKey = key;
     return out;
+  }
+
+  /* het omhullende kader van het figuur, gespiegeld meegerekend */
+  function placeBox() {
+    var b = analyseFigure().box;
+    if (!state.figFlip) return b;
+    return { x: state.fig.w - (b.x + b.w), y: b.y, w: b.w, h: b.h };
+  }
+  /* het figuur neerzetten, met de kanteling om het voetpunt */
+  function putLayer(c, layer, pl) {
+    var rot = +$("figRot").value;
+    if (!rot) { c.drawImage(layer, pl.dx, pl.dy, pl.dw, pl.dh); return; }
+    c.save();
+    c.translate(pl.footX, pl.footY);
+    c.rotate(rot * Math.PI / 180);
+    c.translate(-pl.footX, -pl.footY);
+    c.drawImage(layer, pl.dx, pl.dy, pl.dw, pl.dh);
+    c.restore();
   }
   function clamp(v) { return v < 0 ? 0 : v > 255 ? 255 : v; }
   function tmpC(W, H) { var c = document.createElement("canvas"); c.width = W; c.height = H; return c; }
@@ -851,12 +1151,24 @@ details.adv .inner{padding:0 16px 16px}
       var s = Math.min(1, 1600 / Math.max(bw, bh));
       return { w: Math.round(bw * s), h: Math.round(bh * s) };
     }
-    var map = { "4:5": [4, 5], "1:1": [1, 1], "3:4": [3, 4], "16:9": [16, 9] };
+    var map = { "9:16": [9, 16], "4:5": [4, 5], "2:3": [2, 3], "1:1": [1, 1], "3:4": [3, 4], "16:9": [16, 9] };
     var m = map[r] || [4, 5];
-    var H = m[1] >= m[0] ? 1350 : Math.round(1350 * m[1] / m[0]);
-    var W = Math.round(H * m[0] / m[1]);
-    if (W > 1600) { W = 1600; H = Math.round(1600 * m[1] / m[0]); }
+    // vaste oppervlakte, zodat elke verhouding even snel rekent
+    var H = Math.round(Math.sqrt(1500000 * m[1] / m[0]) / 2) * 2;
+    var W = Math.round(H * m[0] / m[1] / 2) * 2;
     return { w: W, h: H };
+  }
+
+  /* waar de achtergrond komt: vullend, plus zoomen en verschuiven */
+  function bgPlace(W, H) {
+    var b = state.bg, fit = Math.max(W / b.w, H / b.h);
+    var zoom = +$("bgZoom").value / 100;
+    var px = +$("bgX").value / 100, py = +$("bgY").value / 100;
+    var need = Math.max(Math.abs(px), Math.abs(py));
+    // verschuiven mag nooit een gat aan de rand geven: zo nodig iets bijzoomen
+    var s = fit * Math.max(zoom, 1 + 0.3 * need);
+    var dw = b.w * s, dh = b.h * s;
+    return { s: s, dw: dw, dh: dh, ox: px * Math.max(0, dw - W) / 2, oy: py * Math.max(0, dh - H) / 2 };
   }
 
   function drawComposite(ctx, W, H, opts) {
@@ -865,14 +1177,20 @@ details.adv .inner{padding:0 16px 16px}
 
     // achtergrond, vullend
     if (!opts.figureOnly && state.bg) {
-      var b = state.bg, s = Math.max(W / b.w, H / b.h);
-      var dw = b.w * s, dh = b.h * s;
-      var bl = +$("blur").value;
+      var bp = bgPlace(W, H);
+      var bl = +$("blur").value, bbr = +$("bgBright").value;
       ctx.save();
-      if (bl > 0) ctx.filter = "blur(" + (bl / 100 * 18).toFixed(1) + "px)";
+      var filt = [];
+      if (bl > 0) filt.push("blur(" + (bl / 100 * 18).toFixed(1) + "px)");
+      if (bbr) filt.push("brightness(" + (1 + bbr / 100).toFixed(3) + ")");
+      if (filt.length) ctx.filter = filt.join(" ");
       // iets ruimer tekenen zodat de blur geen lichte rand geeft
       var pad = bl > 0 ? Math.ceil(bl / 100 * 18) * 2 : 0;
-      ctx.drawImage(b.canvas, (W - dw) / 2 - pad, (H - dh) / 2 - pad, dw + pad * 2, dh + pad * 2);
+      var box = bp.ox;
+      if (state.bgFlip) { ctx.translate(W, 0); ctx.scale(-1, 1); box = -box; }
+      ctx.drawImage(state.bg.canvas,
+        (W - bp.dw) / 2 + box - pad, (H - bp.dh) / 2 + bp.oy - pad,
+        bp.dw + pad * 2, bp.dh + pad * 2);
       ctx.restore();
     }
 
@@ -889,10 +1207,16 @@ details.adv .inner{padding:0 16px 16px}
       ctx.fillRect(0, 0, W, H);
     }
 
+    /* rook achter het figuur */
+    var smk = +$("smoke").value / 100;
+    if (smk > 0 && (state.smokeDepth === "back" || state.smokeDepth === "both")) {
+      drawSmoke(ctx, W, H, smk * (state.smokeDepth === "both" ? 0.75 : 1));
+    }
+
     if (!state.fig || !state.alpha) { state._place = null; return; }
 
     var layer = buildLayer();
-    var fs = analyseFigure(), box = fs.box;
+    var box = placeBox();
 
     // schaal: "grootte" is de hoogte van het figuur t.o.v. het doek
     var target = (+$("scale").value / 100) * H;
@@ -901,6 +1225,7 @@ details.adv .inner{padding:0 16px 16px}
     var footX = state.pos.x * W, footY = state.pos.y * H;
     var dx = footX - (box.x + box.w / 2) * sc;
     var dy = footY - (box.y + box.h) * sc;
+    var pl = { dx: dx, dy: dy, dw: dw2, dh: dh2, sc: sc, footX: footX, footY: footY };
 
     // contactschaduw
     var shStr = +$("shadow").value / 100;
@@ -914,7 +1239,7 @@ details.adv .inner{padding:0 16px 16px}
       sx.transform(1, 0, lean, 0.22, 0, 0);          // platdrukken en meehellen
       sx.translate(-footX, -footY);
       sx.globalAlpha = 1;
-      sx.drawImage(layer, dx, dy, dw2, dh2);
+      putLayer(sx, layer, pl);
       sx.restore();
       // silhouet zwart maken
       sx.globalCompositeOperation = "source-in";
@@ -930,8 +1255,8 @@ details.adv .inner{padding:0 16px 16px}
       ctx.restore();
     }
 
-    ctx.drawImage(layer, dx, dy, dw2, dh2);
-    state._place = { dx: dx, dy: dy, dw: dw2, dh: dh2, sc: sc };
+    putLayer(ctx, layer, pl);
+    state._place = pl;
 
     /* licht om de randen: de omgeving die op het figuur valt.
        Dit is de ingreep die een uitgeknipte foto in een scene laat horen. */
@@ -939,15 +1264,15 @@ details.adv .inner{padding:0 16px 16px}
     if (wr > 0 && state.bg && !opts.quick) {
       var rr = Math.max(4, Math.round(Math.min(W, H) * 0.018));
       var band = tmpC(W, H), bx = band.getContext("2d");
-      bx.drawImage(layer, dx, dy, dw2, dh2);
+      putLayer(bx, layer, pl);
       bx.globalCompositeOperation = "destination-out";
       bx.filter = "blur(" + rr + "px)";
-      bx.drawImage(layer, dx, dy, dw2, dh2);
+      putLayer(bx, layer, pl);
 
       var wrapC = tmpC(W, H), wx = wrapC.getContext("2d");
-      var bb = state.bg, ss = Math.max(W / bb.w, H / bb.h);
+      var wp = bgPlace(W, H);
       wx.filter = "blur(" + (rr * 2) + "px)";
-      wx.drawImage(bb.canvas, (W - bb.w * ss) / 2, (H - bb.h * ss) / 2, bb.w * ss, bb.h * ss);
+      wx.drawImage(state.bg.canvas, (W - wp.dw) / 2 + wp.ox, (H - wp.dh) / 2 + wp.oy, wp.dw, wp.dh);
       wx.filter = "none";
       wx.globalCompositeOperation = "destination-in";
       wx.drawImage(band, 0, 0);
@@ -959,12 +1284,44 @@ details.adv .inner{padding:0 16px 16px}
       ctx.restore();
     }
 
+    /* tegenlicht: een gekleurde streep langs één kant van het figuur.
+       Dit is de goedkoopste manier om een uitknipsel diepte te geven. */
+    var rimK = +$("rim").value / 100;
+    if (rimK > 0 && !opts.quick) {
+      var rd = Math.max(3, Math.round(Math.min(W, H) * 0.013));
+      var dir = +$("rimDir").value / 100;
+      var rb = tmpC(W, H), rx = rb.getContext("2d");
+      putLayer(rx, layer, pl);
+      rx.globalCompositeOperation = "destination-out";
+      rx.filter = "blur(" + rd + "px)";
+      rx.save();
+      rx.translate(dir * rd * 2.1, -rd * 0.8);
+      putLayer(rx, layer, pl);
+      rx.restore();
+      rx.filter = "none";
+      rx.globalCompositeOperation = "source-in";
+      rx.fillStyle = state.rimCol;
+      rx.fillRect(0, 0, W, H);
+
+      ctx.save();
+      ctx.globalCompositeOperation = "screen";
+      ctx.globalAlpha = Math.min(1, 1.05 * rimK);
+      ctx.filter = "blur(" + Math.max(1, Math.round(rd * 0.45)) + "px)";
+      ctx.drawImage(rb, 0, 0);
+      ctx.restore();
+    }
+
+    /* rook vóór het figuur */
+    if (smk > 0 && (state.smokeDepth === "front" || state.smokeDepth === "both")) {
+      drawSmoke(ctx, W, H, smk * (state.smokeDepth === "both" ? 0.55 : 1));
+    }
+
     if (state.showMask && !opts.plain) {
       // alleen het figuur inkleuren, niet het hele doek
       var tint = document.createElement("canvas");
       tint.width = W; tint.height = H;
       var tx = tint.getContext("2d");
-      tx.drawImage(layer, dx, dy, dw2, dh2);
+      putLayer(tx, layer, pl);
       tx.globalCompositeOperation = "source-in";
       tx.fillStyle = "#1B5CD9";
       tx.fillRect(0, 0, W, H);
@@ -974,7 +1331,7 @@ details.adv .inner{padding:0 16px 16px}
       ctx.restore();
       return;
     }
-    if (opts.quick) return;
+    if (opts.quick) { drawCaption(ctx, W, H); return; }
 
     /* gloed uit de lichte delen van de scene */
     var bloom = +$("bloom").value / 100;
@@ -1002,6 +1359,199 @@ details.adv .inner{padding:0 16px 16px}
 
     var gr = +$("grade").value / 100;
     if (gr > 0 && state.bgStats) applyGrade(ctx, W, H, gr, state.bgStats);
+
+    var vg = +$("vign").value / 100;
+    if (vg > 0) {
+      var rg = ctx.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.30,
+                                        W / 2, H / 2, Math.max(W, H) * 0.74);
+      rg.addColorStop(0, "rgba(0,0,0,0)");
+      rg.addColorStop(1, "rgba(0,0,0," + (0.78 * vg).toFixed(3) + ")");
+      ctx.save(); ctx.fillStyle = rg; ctx.fillRect(0, 0, W, H); ctx.restore();
+    }
+
+    var gn = +$("grain").value / 100;
+    if (gn > 0) drawGrain(ctx, W, H, gn);
+
+    drawCaption(ctx, W, H);
+  }
+
+  /* ================= rook ================= */
+  /* Vier lagen ruis over elkaar, daarna een verticale opbouw en een zijmasker.
+     Het resultaat wordt bewaard en alleen opnieuw gemaakt als er aan de
+     rookschuiven zelf gedraaid is — niet bij elk hertekenen. */
+  function smokeTexture(W, H) {
+    var key = [W, H, $("smokeSoft").value, $("smokeH").value, $("smokeDrift").value,
+               state.smokeFrom, state.smokeSeed].join("|");
+    if (state.smokeCache && state.smokeKey === key) return state.smokeCache;
+
+    var sw = Math.max(90, Math.round(W / 5)), sh = Math.max(90, Math.round(H / 5));
+    var c = tmpC(sw, sh), x = c.getContext("2d", { willReadFrequently: true });
+    var seed = state.smokeSeed >>> 0;
+    function rnd() { seed = (seed * 1664525 + 1013904223) % 4294967296; return seed / 4294967296; }
+
+    var soft = +$("smokeSoft").value / 100;
+    var base = Math.max(3, Math.round(3 + soft * 9));
+    x.fillStyle = "#000"; x.fillRect(0, 0, sw, sh);
+    x.globalCompositeOperation = "lighter";
+    x.imageSmoothingEnabled = true;
+    if ("imageSmoothingQuality" in x) x.imageSmoothingQuality = "high";
+    for (var o = 0; o < 4; o++) {
+      var gw = base * (1 << o);
+      var gh = Math.max(2, Math.round(gw * sh / sw));
+      var g = tmpC(gw, gh), gx = g.getContext("2d");
+      var gi = gx.createImageData(gw, gh), gd = gi.data;
+      for (var i = 0; i < gd.length; i += 4) {
+        var v = (rnd() * 255) | 0;
+        gd[i] = gd[i + 1] = gd[i + 2] = v; gd[i + 3] = 255;
+      }
+      gx.putImageData(gi, 0, 0);
+      x.globalAlpha = 0.6 / (o + 1);
+      x.drawImage(g, 0, 0, sw, sh);
+    }
+    x.globalCompositeOperation = "source-over"; x.globalAlpha = 1;
+
+    var im = x.getImageData(0, 0, sw, sh), d = im.data;
+    var hgt = +$("smokeH").value / 100, drift = +$("smokeDrift").value / 100;
+    var from = state.smokeFrom;
+    var cxs = from === "left" ? 0.14 : from === "right" ? 0.86 : 0.5;
+    for (var y = 0; y < sh; y++) {
+      var up = 1 - y / (sh - 1);                       // 0 vloer, 1 bovenkant
+      var t = Math.max(0, (up - 0.01)) / Math.max(0.06, hgt);
+      var vert = t >= 1 ? 0 : 1 - t * t;               // uitdoven naar boven
+      for (var xx = 0; xx < sw; xx++) {
+        var nx = xx / (sw - 1);
+        var side = 1;
+        if (from !== "all") {
+          var off = (nx - cxs - drift * up * 0.45) / (0.30 + 0.35 * up);
+          side = Math.max(0, 1 - off * off);
+        }
+        var q = (y * sw + xx) * 4;
+        var a = d[q] / 255;
+        a = (a - 0.40) / 0.60;                         // wolkjes losmaken
+        if (a < 0) a = 0;
+        a = a * a * vert * side;
+        d[q] = d[q + 1] = d[q + 2] = 255;
+        d[q + 3] = Math.round(Math.min(1, a) * 255);
+      }
+    }
+    x.putImageData(im, 0, 0);
+    state.smokeCache = c; state.smokeKey = key;
+    return c;
+  }
+
+  function smokeColor() {
+    var m = { white: "#FFFFFF", grey: "#B9BEC7", warm: "#E9C48F", green: "#A2DBA2" };
+    if (m[state.smokeTint]) return m[state.smokeTint];
+    var bs = state.bgStats;
+    if (!bs) return "#FFFFFF";
+    return "rgb(" + Math.round(Math.min(255, bs.mean[0] * 0.7 + 90)) + "," +
+                    Math.round(Math.min(255, bs.mean[1] * 0.7 + 90)) + "," +
+                    Math.round(Math.min(255, bs.mean[2] * 0.7 + 90)) + ")";
+  }
+
+  function drawSmoke(ctx, W, H, k) {
+    var tex = smokeTexture(W, H);
+    var lay = tmpC(W, H), lx = lay.getContext("2d");
+    lx.filter = "blur(" + Math.max(1, Math.round(Math.min(W, H) * 0.005)) + "px)";
+    lx.drawImage(tex, 0, 0, W, H);
+    lx.filter = "none";
+    lx.globalCompositeOperation = "source-in";
+    lx.fillStyle = smokeColor();
+    lx.fillRect(0, 0, W, H);
+    ctx.save();
+    ctx.globalAlpha = Math.min(1, 1.15 * k);
+    ctx.drawImage(lay, 0, 0);
+    ctx.restore();
+  }
+
+  /* ================= korrel ================= */
+  var grainTile = null;
+  function drawGrain(ctx, W, H, k) {
+    if (!grainTile) {
+      grainTile = tmpC(192, 192);
+      var gx = grainTile.getContext("2d");
+      var gi = gx.createImageData(192, 192), gd = gi.data, sd = 987654321;
+      for (var i = 0; i < gd.length; i += 4) {
+        sd = (sd * 1664525 + 1013904223) % 4294967296;
+        var v = 128 + Math.round((sd / 4294967296 - 0.5) * 210);
+        gd[i] = gd[i + 1] = gd[i + 2] = v < 0 ? 0 : v > 255 ? 255 : v;
+        gd[i + 3] = 255;
+      }
+      gx.putImageData(gi, 0, 0);
+    }
+    var pat = ctx.createPattern(grainTile, "repeat");
+    if (!pat) return;
+    ctx.save();
+    ctx.globalCompositeOperation = "overlay";
+    ctx.globalAlpha = Math.min(0.6, 0.6 * k);
+    ctx.fillStyle = pat;
+    ctx.fillRect(0, 0, W, H);
+    ctx.restore();
+  }
+
+  /* ================= tekst in beeld ================= */
+  function drawCaption(ctx, W, H) {
+    var raw = ($("capTxt").value || "").replace(/\r/g, "");
+    var lines = raw.split("\n").filter(function (t) { return t.trim() !== ""; }).slice(0, 4);
+    if (!lines.length) return;
+
+    var size = (+$("capSize").value / 100) * H;
+    var anton = state.capFont === "anton";
+    var font = anton ? size + "px Anton, \"Arial Narrow\", Impact, sans-serif"
+             : state.capFont === "mono" ? "500 " + size + "px \"IBM Plex Mono\", monospace"
+             : "600 " + size + "px Barlow, Arial, sans-serif";
+    var L = lines.map(function (t) { return anton ? t.toUpperCase() : t; });
+
+    ctx.save();
+    ctx.font = font;
+    ctx.textBaseline = "alphabetic";
+    ctx.textAlign = state.capAlign === "left" ? "left"
+                  : state.capAlign === "right" ? "right" : "center";
+
+    var pad = size * 0.40;
+    var maxw = 0, i;
+    for (i = 0; i < L.length; i++) maxw = Math.max(maxw, ctx.measureText(L[i]).width);
+    // niets mag buiten beeld vallen: te brede regels krimpen mee
+    var room = W * 0.88 - (state.capStyle === "shadow" ? 0 : pad * 2);
+    if (maxw > room && maxw > 0) {
+      size = size * (room / maxw);
+      pad = size * 0.40;
+      font = anton ? size + "px Anton, \"Arial Narrow\", Impact, sans-serif"
+           : state.capFont === "mono" ? "500 " + size + "px \"IBM Plex Mono\", monospace"
+           : "600 " + size + "px Barlow, Arial, sans-serif";
+      ctx.font = font;
+      maxw = 0;
+      for (i = 0; i < L.length; i++) maxw = Math.max(maxw, ctx.measureText(L[i]).width);
+    }
+    var lh = size * (anton ? 1.08 : 1.26);
+    var blockH = lh * L.length;
+    var margin = H * 0.055;
+    var top = state.capPos === "top" ? margin
+            : state.capPos === "mid" ? (H - blockH) / 2
+            : H - margin - blockH;
+    var ax = state.capAlign === "left" ? W * 0.055
+           : state.capAlign === "right" ? W * 0.945 : W / 2;
+
+    if (state.capStyle === "shadow") {
+      ctx.fillStyle = "#FFFFFF";
+      ctx.shadowColor = "rgba(0,0,0,.75)";
+      ctx.shadowBlur = size * 0.38;
+      ctx.shadowOffsetY = size * 0.05;
+    } else {
+      var bandCol = state.capStyle === "black" ? "rgba(12,14,18,.84)"
+                  : state.capStyle === "white" ? "rgba(255,255,255,.93)" : "#C92A20";
+      var bw = Math.min(W, maxw + pad * 2);
+      var bx = ctx.textAlign === "left" ? ax - pad
+             : ctx.textAlign === "right" ? ax - bw + pad : (W - bw) / 2;
+      bx = Math.max(0, Math.min(W - bw, bx));
+      ctx.fillStyle = bandCol;
+      ctx.fillRect(bx, top - pad * 0.5, bw, blockH + pad);
+      ctx.fillStyle = state.capStyle === "white" ? "#14171F" : "#FFFFFF";
+    }
+    for (var j = 0; j < L.length; j++) {
+      ctx.fillText(L[j], ax, top + lh * (j + 1) - lh * (anton ? 0.22 : 0.30));
+    }
+    ctx.restore();
   }
 
   /* regen met een vaste reeks, zodat hij niet flikkert bij elk hertekenen */
@@ -1101,7 +1651,7 @@ details.adv .inner{padding:0 16px 16px}
     var on = $("compare").classList.toggle("on");
     $("holder").hidden = on;
     $("cmpTags").hidden = !on;
-    this.textContent = on ? "Terug naar bewerken" : "Vergelijk met origineel";
+    this.textContent = on ? "Bewerken" : "Vergelijk";
     this.classList.toggle("on", on);
     if (on) renderCompare();
   });
@@ -1142,8 +1692,17 @@ details.adv .inner{padding:0 16px 16px}
 
   function paintAt(p) {
     var pl = state._place; if (!pl || !state.fig) return;
-    var fx = (p.x * view.width - pl.dx) / pl.sc;
-    var fy = (p.y * view.height - pl.dy) / pl.sc;
+    var X = p.x * view.width, Y = p.y * view.height;
+    var rot = +$("figRot").value;
+    if (rot) {                                   // de kanteling terugrekenen
+      var a = -rot * Math.PI / 180;
+      var ox = X - pl.footX, oy = Y - pl.footY;
+      X = pl.footX + ox * Math.cos(a) - oy * Math.sin(a);
+      Y = pl.footY + ox * Math.sin(a) + oy * Math.cos(a);
+    }
+    var fx = (X - pl.dx) / pl.sc;
+    var fy = (Y - pl.dy) / pl.sc;
+    if (state.figFlip) fx = state.fig.w - fx;    // en de spiegeling
     var r = (+$("brushSize").value / 2) / pl.sc;
     var w = state.fig.w, h = state.fig.h, val = state.brush;
     var x0 = Math.max(0, Math.floor(fx - r)), x1 = Math.min(w - 1, Math.ceil(fx + r));
@@ -1178,16 +1737,43 @@ details.adv .inner{padding:0 16px 16px}
     });
   }
   var pct = function (v) { return v + "%"; };
-  bindRange("wrap", "vWrap", pct);
-  bindRange("haze", "vHaze", pct);
-  bindRange("bloom", "vBloom", pct);
-  bindRange("grade", "vGrade", pct);
-  bindRange("rain", "vRain", pct);
-  bindRange("integ", "vInteg", pct, function () { state.layerKey = ""; });
-  bindRange("shadow", "vShadow", pct);
-  bindRange("blur", "vBlur", null);
-  bindRange("scale", "vScale", pct);
-  bindRange("brushSize", "vBrush", null);
+  var deg = function (v) { return v + "\u00b0"; };
+  var dirTxt = function (v) {
+    v = +v;
+    return v < -55 ? "links" : v < -12 ? "links-voor"
+         : v <= 12 ? "recht van voren" : v <= 55 ? "rechts-voor" : "rechts";
+  };
+
+  /* id, labelspan, opmaak, standaardwaarde */
+  var RANGES = [
+    ["wrap", "vWrap", pct, 45], ["haze", "vHaze", pct, 30], ["bloom", "vBloom", pct, 30],
+    ["grade", "vGrade", pct, 35], ["rain", "vRain", pct, 0],
+    ["integ", "vInteg", pct, 30], ["shadow", "vShadow", pct, 45], ["blur", "vBlur", null, 15],
+    ["scale", "vScale", pct, 72], ["brushSize", "vBrush", null, 40],
+    ["smoke", "vSmoke", pct, 0], ["smokeH", "vSmokeH", pct, 45],
+    ["smokeSoft", "vSmokeSoft", null, 50], ["smokeDrift", "vSmokeDrift", null, 0],
+    ["figRot", "vFigRot", deg, 0], ["figBright", "vFigBright", null, 0],
+    ["figContrast", "vFigContrast", null, 0], ["figSat", "vFigSat", null, 0],
+    ["figWarm", "vFigWarm", null, 0],
+    ["rim", "vRim", pct, 0], ["rimDir", "vRimDir", dirTxt, -60],
+    ["bgZoom", "vBgZoom", pct, 100], ["bgX", "vBgX", null, 0], ["bgY", "vBgY", null, 0],
+    ["bgBright", "vBgBright", null, 0],
+    ["vign", "vVign", pct, 0], ["grain", "vGrain", pct, 0],
+    ["capSize", "vCapSize", pct, 7]
+  ];
+  var LAYERKEYS = { integ: 1, figBright: 1, figContrast: 1, figSat: 1, figWarm: 1 };
+  RANGES.forEach(function (r) {
+    bindRange(r[0], r[1], r[2], LAYERKEYS[r[0]] ? function () { state.layerKey = ""; } : null);
+  });
+  function setRange(id, val) {
+    for (var i = 0; i < RANGES.length; i++) {
+      if (RANGES[i][0] === id) {
+        $(id).value = val;
+        $(RANGES[i][1]).textContent = RANGES[i][2] ? RANGES[i][2](val) : String(val);
+        return;
+      }
+    }
+  }
   ["tol", "shrink", "feather"].forEach(function (id) {
     var lbl = { tol: "vTol", shrink: "vShrink", feather: "vFeather" }[id];
     $(id).addEventListener("input", function () {
@@ -1208,6 +1794,115 @@ details.adv .inner{padding:0 16px 16px}
   }
   segBind("ratio", function (b) { state.ratio = b.getAttribute("data-r"); render(); });
   segBind("fmt", function (b) { state.fmt = b.getAttribute("data-f"); });
+
+  function segState(wrapId, key, after) {
+    segBind(wrapId, function (b) {
+      state[key] = b.getAttribute("data-v");
+      if (after) after();
+      render();
+    });
+  }
+  function setSeg(wrapId, val, attr) {
+    var w = $(wrapId); if (!w) return;
+    Array.prototype.forEach.call(w.querySelectorAll("button"), function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute(attr || "data-v") === val ? "true" : "false");
+    });
+  }
+  segState("smokeFrom", "smokeFrom");
+  segState("smokeDepth", "smokeDepth");
+  segState("smokeTint", "smokeTint");
+  segState("rimCol", "rimCol");
+  segState("capFont", "capFont");
+  segState("capPos", "capPos");
+  segState("capStyle", "capStyle");
+  segState("capAlign", "capAlign");
+
+  $("smokeShuffle").addEventListener("click", function () {
+    state.smokeSeed = (Math.random() * 4294967295) >>> 0;
+    state.smokeKey = "";
+    render();
+  });
+
+  function toggleBtn(id, key, onTxt, offTxt, after) {
+    $(id).addEventListener("click", function () {
+      state[key] = !state[key];
+      this.classList.toggle("on", state[key]);
+      this.textContent = state[key] ? onTxt : offTxt;
+      if (after) after();
+      render();
+    });
+  }
+  toggleBtn("figFlip", "figFlip", "Gespiegeld", "Spiegelen", function () { state.layerKey = ""; });
+  toggleBtn("bgFlip", "bgFlip", "Achtergrond gespiegeld", "Achtergrond spiegelen");
+
+  var capTimer = null;
+  $("capTxt").addEventListener("input", function () {
+    clearTimeout(capTimer);
+    capTimer = setTimeout(function () { render(); }, 140);
+  });
+
+  /* ---------- sfeer-presets ---------- */
+  var PRESETS = {
+    street: { v: { wrap: 60, haze: 38, bloom: 55, grade: 55, rain: 35, integ: 45, shadow: 55, blur: 28,
+                   vign: 38, grain: 22, smoke: 32, smokeH: 40, smokeSoft: 45, rim: 38, figWarm: -8,
+                   figContrast: 6, figSat: 0, figBright: 0 },
+              s: { rimCol: "#7FB4FF", smokeTint: "grey", smokeDepth: "back" } },
+    room90: { v: { wrap: 40, haze: 16, bloom: 22, grade: 42, rain: 0, integ: 35, shadow: 50, blur: 20,
+                   vign: 30, grain: 40, smoke: 0, smokeH: 45, smokeSoft: 50, rim: 16, figWarm: 12,
+                   figContrast: 0, figSat: -6, figBright: 4 },
+              s: { rimCol: "#FFD27A", smokeTint: "warm", smokeDepth: "back" } },
+    clean:  { v: { wrap: 14, haze: 0, bloom: 8, grade: 8, rain: 0, integ: 12, shadow: 40, blur: 0,
+                   vign: 0, grain: 0, smoke: 0, smokeH: 45, smokeSoft: 50, rim: 0, figWarm: 0,
+                   figContrast: 8, figSat: 4, figBright: 2 },
+              s: { rimCol: "#FFFFFF", smokeTint: "white", smokeDepth: "back" } },
+    dust:   { v: { wrap: 55, haze: 30, bloom: 48, grade: 48, rain: 0, integ: 40, shadow: 45, blur: 22,
+                   vign: 32, grain: 30, smoke: 24, smokeH: 62, smokeSoft: 70, rim: 58, figWarm: 16,
+                   figContrast: 4, figSat: 0, figBright: 0 },
+              s: { rimCol: "#FFD27A", smokeTint: "warm", smokeDepth: "both" } },
+    kaiju:  { v: { wrap: 55, haze: 45, bloom: 34, grade: 62, rain: 15, integ: 45, shadow: 62, blur: 30,
+                   vign: 48, grain: 26, smoke: 72, smokeH: 78, smokeSoft: 34, rim: 32, figWarm: -6,
+                   figContrast: 14, figSat: -8, figBright: -4 },
+              s: { rimCol: "#5BE0A8", smokeTint: "green", smokeDepth: "both" } },
+    card:   { v: { wrap: 20, haze: 0, bloom: 10, grade: 14, rain: 0, integ: 18, shadow: 35, blur: 0,
+                   vign: 8, grain: 8, smoke: 0, smokeH: 45, smokeSoft: 50, rim: 0, figWarm: 0,
+                   figContrast: 10, figSat: 10, figBright: 0 },
+              s: { rimCol: "#FFFFFF", smokeTint: "white", smokeDepth: "back" } }
+  };
+  $("presets").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    var pr = PRESETS[b.getAttribute("data-p")]; if (!pr) return;
+    Object.keys(pr.v).forEach(function (k) { setRange(k, pr.v[k]); });
+    Object.keys(pr.s).forEach(function (k) { state[k] = pr.s[k]; });
+    setSeg("rimCol", state.rimCol);
+    setSeg("smokeTint", state.smokeTint);
+    setSeg("smokeDepth", state.smokeDepth);
+    state.layerKey = ""; state.smokeKey = "";
+    render();
+  });
+
+  /* ---------- hoe groot het beeld in beeld blijft ---------- */
+  function sizeView() {
+    var bar = document.querySelector(".bar");
+    var bh = bar ? Math.round(bar.getBoundingClientRect().height) : 64;
+    var vh = window.innerHeight || 700;
+    var wide = (window.innerWidth || 0) >= 900;
+    var cap = wide
+      ? (state.big ? Math.max(300, vh - bh - 110) : Math.max(260, vh - bh - 205))
+      : (state.big ? Math.max(240, vh - bh - 175) : Math.max(170, Math.min(Math.round(vh * 0.42), 560)));
+    var rs = document.documentElement.style;
+    rs.setProperty("--barh", bh + "px");
+    rs.setProperty("--vcap", cap + "px");
+  }
+  $("bigger").addEventListener("click", function () {
+    state.big = !state.big;
+    this.classList.toggle("on", state.big);
+    this.textContent = state.big ? "Kleiner" : "Groter";
+    sizeView();
+    if ($("compare").classList.contains("on")) {
+      requestAnimationFrame(function () { setSplit(+$("cmpSlider").value); });
+    }
+  });
+  sizeView();
 
   function setBrush(mode, btn) {
     state.brush = mode;
@@ -1239,15 +1934,22 @@ details.adv .inner{padding:0 16px 16px}
   });
 
   $("reset").addEventListener("click", function () {
-    var defs = { wrap: 45, haze: 30, bloom: 30, grade: 35, rain: 0,
-                 integ: 30, shadow: 45, blur: 15, scale: 72, tol: 30, shrink: 1, feather: 1 };
-    Object.keys(defs).forEach(function (k) { $(k).value = defs[k]; });
-    [["vWrap", "45%"], ["vHaze", "30%"], ["vBloom", "30%"], ["vGrade", "35%"], ["vRain", "0%"],
-     ["vInteg", "30%"], ["vShadow", "45%"], ["vBlur", "15"], ["vScale", "72%"],
-     ["vTol", "30"], ["vShrink", "1"], ["vFeather", "1"]].forEach(function (q) {
-      $(q[0]).textContent = q[1];
+    RANGES.forEach(function (r) { setRange(r[0], r[3]); });
+    [["tol", 30, "vTol"], ["shrink", 1, "vShrink"], ["feather", 1, "vFeather"]].forEach(function (q) {
+      $(q[0]).value = q[1]; $(q[2]).textContent = String(q[1]);
     });
     state.pos = { x: 0.5, y: 0.97 };
+    state.figFlip = false; state.bgFlip = false;
+    state.rimCol = "#FFFFFF";
+    state.smokeFrom = "mid"; state.smokeDepth = "back"; state.smokeTint = "auto";
+    state.capFont = "anton"; state.capPos = "top"; state.capStyle = "shadow"; state.capAlign = "center";
+    $("figFlip").textContent = "Spiegelen"; $("figFlip").classList.remove("on");
+    $("bgFlip").textContent = "Achtergrond spiegelen"; $("bgFlip").classList.remove("on");
+    setSeg("rimCol", "#FFFFFF");
+    setSeg("smokeFrom", "mid"); setSeg("smokeDepth", "back"); setSeg("smokeTint", "auto");
+    setSeg("capFont", "anton"); setSeg("capPos", "top");
+    setSeg("capStyle", "shadow"); setSeg("capAlign", "center");
+    state.layerKey = ""; state.smokeKey = "";
     if (state.paint) state.paint.fill(0);
     setBrush(0); finishMask(false);
   });
@@ -1271,8 +1973,17 @@ details.adv .inner{padding:0 16px 16px}
   });
 
   window.addEventListener("resize", function () {
+    sizeView();
     if ($("compare").classList.contains("on")) setSplit(+$("cmpSlider").value);
   });
+  if (window.visualViewport) window.visualViewport.addEventListener("resize", sizeView);
+
+  /* de koptekstletter moet binnen zijn voordat tekst in beeld klopt */
+  if (document.fonts && document.fonts.load) {
+    Promise.all([document.fonts.load("16px Anton"), document.fonts.load("600 16px Barlow")])
+      .then(function () { if (state.fig && state.bg) render(); })
+      .catch(function () {});
+  }
 
   /* het model alvast binnenhalen terwijl je de foto's kiest */
   if (navigator.onLine !== false) setTimeout(function () { loadModel().then(function () { busy(false); }); }, 500);
