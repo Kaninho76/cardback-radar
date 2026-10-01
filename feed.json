@@ -1,17 +1,34 @@
 {
- "updatedISO": "2026-10-01T13:27:42+00:00",
+ "updatedISO": "2026-10-01T19:35:06+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError",
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "@Mattel and @JiffyLube Team Up for an Exclusive Matchbox The Movie Die-cast Vehicle!",
+   "url": "https://www.actionfigureinsider.com/mattel-and-jiffylube-team-up-for-an-exclusive-matchbox-the-movie-die-cast-vehicle/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-01T15:00:08+00:00"
+  },
+  {
+   "title": "SPONSOR NEWS: BBTS News — Tomb Raider, Fallout, TMNT & anime sales, Street Fighter, KPop Demon Hunters & More!",
+   "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-tomb-raider-fallout-tmnt-anime-sales-street-fighter-kpop-demon-hunters-more/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-01T14:37:44+00:00"
+  },
+  {
+   "title": "DIRE Hawk GI Joe Classified Series Officially Goes On Sale at Walmart & Hasbro Pulse Today",
+   "url": "https://toyhabits.com/dire-hawk-gi-joe-classified-series-officially-goes-on-sale-at-walmart-hasbro-pulse-today/",
+   "source": "Toy Habits",
+   "iso": "2026-10-01T12:40:17+00:00"
+  },
   {
    "title": "BBTS News – Tomb Raider, Fallout, TMNT & anime sales, Street Fighter, KPop Demon Hunters and More",
    "url": "https://www.toyark.com/2026/10/01/bbts-news-tomb-raider-fallout-tmnt-anime-sales-street-fighter-kpop-demon-hunters-and-more-599626",
@@ -55,6 +72,12 @@
    "iso": "2026-10-01T11:32:52+00:00"
   },
   {
+   "title": "Jim Carrey Returns As The Riddler In The Daily LITG 1st October 2026",
+   "url": "https://bleedingcool.com/collectibles/jim-carrey-returns-as-the-riddler-in-the-daily-litg-1st-october-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-01T08:54:08+00:00"
+  },
+  {
    "title": "Hasbro Star Wars The Black Series 6″ The Mandalorian & Grogu – Mercenary Guard Droid & STAP Set Available Now",
    "url": "https://toyhypeusa.com/2026/09/30/hasbro-star-wars-tbs-the-mandalorian-grogu-mercenary-guard-droid-stap-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-the-mandalorian-grogu-mercenary-guard-droid-stap-set-available-now",
    "source": "Toy Hype USA",
@@ -67,6 +90,12 @@
    "iso": "2026-09-30T23:30:54+00:00"
   },
   {
+   "title": "Storm Collectibles Unveils Street Fighter Alpha 3 Storm Arena Balrog",
+   "url": "https://bleedingcool.com/collectibles/storm-collectibles-unveils-street-fighter-alpha-3-storm-arena-balrog/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-30T21:52:08+00:00"
+  },
+  {
    "title": "The LEGO Group and Toei Animation unite for the first time to summon the epic LEGO® Icons Dragon Ball Shenron & Goku set",
    "url": "https://www.actionfigureinsider.com/the-lego-group-and-toei-animation-unite-for-the-first-time-to-summon-the-epic-lego-icons-dragon-ball-shenron-goku-set/",
    "source": "Action Figure Insider",
@@ -77,6 +106,12 @@
    "url": "https://toyhypeusa.com/2026/09/30/boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-30T20:54:16+00:00"
+  },
+  {
+   "title": "Mystery K-Pop Demon Hunters \"Your Idol\" Saja Boys Funko Pops Debut",
+   "url": "https://bleedingcool.com/collectibles/mystery-k-pop-demon-hunters-your-idol-saja-boys-funko-pops-debut/",
+   "source": "Bleeding Cool",
+   "iso": "2026-09-30T20:52:08+00:00"
   },
   {
    "title": "TMNT Movie 5 Pack & 1988 Classic Figures Re-Release Early Look",
@@ -245,42 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/dc-comics-batgirl-recollection-ver-mafex-figure-revealed/",
    "source": "Bleeding Cool",
    "iso": "2026-09-29T16:22:09+00:00"
-  },
-  {
-   "title": "The Loyal Subjects M.A.S.K. Wave 2 Figures & Vehicles Pre-Orders (Update)",
-   "url": "https://toyhypeusa.com/2026/09/29/the-loyal-subjects-mask-wave-2-figures-vehicles-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=the-loyal-subjects-mask-wave-2-figures-vehicles-pre-orders-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-29T16:00:08+00:00"
-  },
-  {
-   "title": "MAFEX Unveils New DC Comics MAFEX Batman (Recollection Blue Ver.)",
-   "url": "https://bleedingcool.com/collectibles/mafex-unveils-new-dc-comics-mafex-batman-recollection-blue-ver/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-29T15:23:08+00:00"
-  },
-  {
-   "title": "Storm Collectibles Street Fighter Alpha 3 Storm Arena Balrog 1/12 Scale Figure Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/09/29/storm-collectibles-street-fighter-alpha-3-storm-arena-balrog-1-12-scale-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=storm-collectibles-street-fighter-alpha-3-storm-arena-balrog-1-12-scale-figure-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-29T15:16:31+00:00"
-  },
-  {
-   "title": "New Kitty Pryde & Lockheed 1/10 X-Men Statue Revealed by Iron Studios",
-   "url": "https://bleedingcool.com/collectibles/new-kitty-pryde-lockheed-1-10-x-men-statue-revealed-by-iron-studios/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-29T14:22:09+00:00"
-  },
-  {
-   "title": "Paladone WeCool strengthens US leadership team with new appointment",
-   "url": "https://www.actionfigureinsider.com/paladone-wecool-strengthens-us-leadership-team-with-new-appointment/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-29T14:13:26+00:00"
-  },
-  {
-   "title": "DIRE HAWK GI Joe Classified Series In-Hand Review",
-   "url": "https://toyhabits.com/dire-hawk-gi-joe-classified-series-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-09-29T13:57:02+00:00"
   }
  ],
  "trends": {
