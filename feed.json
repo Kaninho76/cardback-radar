@@ -1,17 +1,59 @@
 {
- "updatedISO": "2026-10-01T06:03:17+00:00",
+ "updatedISO": "2026-10-01T13:27:42+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError"
+  "Bleeding Cool: ParseError",
+  "Toy Habits: URLError"
  ],
  "items": [
+  {
+   "title": "BBTS News – Tomb Raider, Fallout, TMNT & anime sales, Street Fighter, KPop Demon Hunters and More",
+   "url": "https://www.toyark.com/2026/10/01/bbts-news-tomb-raider-fallout-tmnt-anime-sales-street-fighter-kpop-demon-hunters-and-more-599626",
+   "source": "The Toyark",
+   "iso": "2026-10-01T12:24:12+00:00"
+  },
+  {
+   "title": "Street Fighter Alpha 3 – Storm Arena Balrog Pre-Order",
+   "url": "https://www.toyark.com/2026/10/01/street-fighter-alpha-3-storm-arena-balrog-pre-order-599603",
+   "source": "The Toyark",
+   "iso": "2026-10-01T12:09:23+00:00"
+  },
+  {
+   "title": "Spider-Man: Across the Spider-Verse – S.H. Figuarts Spider-Man 2099 and Miles G. Morales Update",
+   "url": "https://www.toyark.com/2026/10/01/spider-man-across-the-spider-verse-s-h-figuarts-spider-man-2099-and-miles-g-morales-update-599588",
+   "source": "The Toyark",
+   "iso": "2026-10-01T12:01:28+00:00"
+  },
+  {
+   "title": "Alliance Entertainment’s popmarket Brings 16 Exclusives to New York #NYCC",
+   "url": "https://www.actionfigureinsider.com/alliance-entertainments-popmarket-brings-16-exclusives-to-new-york-nycc/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-01T12:00:10+00:00"
+  },
+  {
+   "title": "Shin Godzilla – Nendoroid Godzilla 2nd Form",
+   "url": "https://www.toyark.com/2026/10/01/shin-godzilla-nendoroid-godzilla-2nd-form-599580",
+   "source": "The Toyark",
+   "iso": "2026-10-01T11:51:12+00:00"
+  },
+  {
+   "title": "Marvel Gameverse S.H. Figuarts Venom Images and Details",
+   "url": "https://www.toyark.com/2026/10/01/marvel-gameverse-s-h-figuarts-venom-images-and-details-599571",
+   "source": "The Toyark",
+   "iso": "2026-10-01T11:43:03+00:00"
+  },
+  {
+   "title": "Tomb Raider: Legacy of Atlantis – McFarlane Elite Edition Lara Croft Deluxe Action Figure",
+   "url": "https://www.toyark.com/2026/10/01/tomb-raider-legacy-of-atlantis-mcfarlane-elite-edition-lara-croft-deluxe-action-figure-599565",
+   "source": "The Toyark",
+   "iso": "2026-10-01T11:32:52+00:00"
+  },
   {
    "title": "Hasbro Star Wars The Black Series 6″ The Mandalorian & Grogu – Mercenary Guard Droid & STAP Set Available Now",
    "url": "https://toyhypeusa.com/2026/09/30/hasbro-star-wars-tbs-the-mandalorian-grogu-mercenary-guard-droid-stap-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-the-mandalorian-grogu-mercenary-guard-droid-stap-set-available-now",
@@ -239,125 +281,83 @@
    "url": "https://toyhabits.com/dire-hawk-gi-joe-classified-series-in-hand-review/",
    "source": "Toy Habits",
    "iso": "2026-09-29T13:57:02+00:00"
-  },
-  {
-   "title": "The Chosen One Comes to MAFEX with New The Matrix Neo Figure",
-   "url": "https://bleedingcool.com/collectibles/the-chosen-one-comes-to-mafex-with-new-the-matrix-neo-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-29T13:52:09+00:00"
-  },
-  {
-   "title": "Pocahontas Embraces the Colors of the Wind with New 1/10 Statue",
-   "url": "https://bleedingcool.com/collectibles/pocahontas-embraces-the-colors-of-the-wind-with-new-1-10-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-29T13:22:09+00:00"
-  },
-  {
-   "title": "Spin Master and Universal Announce Licensing Agreement for a Preschool Line Inspired by the Jurassic World Franchise from Universal Pictures and Amblin Entertainment",
-   "url": "https://www.actionfigureinsider.com/spin-master-and-universal-announce-licensing-agreement-for-a-preschool-line-inspired-by-the-jurassic-world-franchise-from-universal-pictures-and-amblin-entertainment/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-29T13:06:51+00:00"
-  },
-  {
-   "title": "Spider-Man: Across the Spider-Verse – S.H. Figuarts Spider-Man 2099 and Miles G. Morales",
-   "url": "https://www.toyark.com/2026/09/29/spider-man-across-the-spider-verse-s-h-figuarts-spider-man-2099-and-miles-g-morales-599530",
-   "source": "The Toyark",
-   "iso": "2026-09-29T12:06:27+00:00"
-  },
-  {
-   "title": "MAGIC: THE GATHERING ANNOUNCES SECRET LAIR COMMANDER DECK: ODDS AND ENDS",
-   "url": "https://www.actionfigureinsider.com/magic-the-gathering-announces-secret-lair-commander-deck-odds-and-ends/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-29T12:00:14+00:00"
-  },
-  {
-   "title": "Joy Toy Announces Super Street Fighter II Turbo License",
-   "url": "https://www.toyark.com/2026/09/29/joy-toy-announces-super-street-fighter-ii-turbo-license-599527",
-   "source": "The Toyark",
-   "iso": "2026-09-29T11:58:09+00:00"
-  },
-  {
-   "title": "Batman Forever – Hot Toys The Riddler Figure",
-   "url": "https://www.toyark.com/2026/09/29/batman-forever-hot-toys-the-riddler-figure-599502",
-   "source": "The Toyark",
-   "iso": "2026-09-29T11:50:24+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-09-30T19:27:15+00:00",
+  "updatedISO": "2026-10-01T13:27:42+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 31757,
-    "change": 58
+    "perDay": 34108,
+    "change": 74
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1034,
-    "change": 9
-   },
-   {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": 4
+    "perDay": 1058,
+    "change": 12
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2195,
+    "perDay": 2214,
     "change": 3
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 601,
-    "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2134,
+    "perDay": 2135,
+    "change": -3
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 596,
     "change": -3
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 83,
-    "change": -6
+    "perDay": 80,
+    "change": -9
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 149,
-    "change": -7
+    "perDay": 147,
+    "change": -9
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 72,
+    "perDay": 71,
     "change": -14
+   },
+   {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 2,
+    "change": -15
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2213,
+    "perDay": 2205,
     "change": -16
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 1017,
+    "perDay": 992,
     "change": -31
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 622,
-    "change": -35
+    "perDay": 617,
+    "change": -33
    }
   ],
   "missed": []
