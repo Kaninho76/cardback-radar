@@ -1,17 +1,40 @@
 {
- "updatedISO": "2026-10-02T05:47:23+00:00",
+ "updatedISO": "2026-10-02T12:43:48+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Marvel Gameverse S.H. Figuarts Venom Images and Details – UPDATE",
+   "url": "https://www.toyark.com/2026/10/02/marvel-gameverse-s-h-figuarts-venom-images-and-details-599571",
+   "source": "The Toyark",
+   "iso": "2026-10-02T12:01:03+00:00"
+  },
+  {
+   "title": "Kong: Survivor Instinct inspired by Legendary’s Monsterverse® blockbuster is now available on Nintendo Switch as both digital and physical editions!",
+   "url": "https://www.actionfigureinsider.com/kong-survivor-instinct-inspired-by-legendarys-monsterverse-blockbuster-is-now-available-on-nintendo-switch-as-both-digital-and-physical-editions/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-02T12:00:52+00:00"
+  },
+  {
+   "title": "Spider-Man: Across the Spider-Verse – S.H. Figuarts Spider-Man 2099 and Miles G. Morales Pre-Orders",
+   "url": "https://www.toyark.com/2026/10/02/spider-man-across-the-spider-verse-s-h-figuarts-spider-man-2099-and-miles-g-morales-update-599588",
+   "source": "The Toyark",
+   "iso": "2026-10-02T11:59:28+00:00"
+  },
+  {
+   "title": "Avengers: Doomsday – Hot Toys Steve Rogers Figure",
+   "url": "https://www.toyark.com/2026/10/02/avengers-doomsday-hot-toys-steve-rogers-figure-599629",
+   "source": "The Toyark",
+   "iso": "2026-10-02T11:55:48+00:00"
+  },
   {
    "title": "McFarlane Toys DC Multiverse – Darkseid Vs Orion 2-pack Figures Available Now",
    "url": "https://toyhypeusa.com/2026/10/01/mcfarlane-toys-dc-multiverse-darkseid-vs-orion-2-pack-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-darkseid-vs-orion-2-pack-figures-available-now",
@@ -257,30 +280,6 @@
    "url": "https://toyhabits.com/gi-joe-classified-series-vamp-mark-ii-clutch-in-hand-images/",
    "source": "Toy Habits",
    "iso": "2026-09-30T03:32:14+00:00"
-  },
-  {
-   "title": "Tiger Orange 2.0 General Lee Ramen Racer & Good Ol Boys Preorders",
-   "url": "https://toyhabits.com/tiger-orange-2-0-general-lee-ramen-racer-good-ol-boys-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-09-30T02:46:30+00:00"
-  },
-  {
-   "title": "Jada Toys Ultra Street Fighter II Zangief 1:12 Scale Figure Available Now",
-   "url": "https://toyhypeusa.com/2026/09/29/jada-toys-ultra-street-fighter-ii-zangief-112-scale-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=jada-toys-ultra-street-fighter-ii-zangief-112-scale-figure-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-29T21:56:54+00:00"
-  },
-  {
-   "title": "Mattel Creations x DC Event at NYCC – Get Ready!",
-   "url": "https://www.toyark.com/2026/09/29/mattel-creations-x-dc-event-at-nycc-get-ready-599536",
-   "source": "The Toyark",
-   "iso": "2026-09-29T20:32:58+00:00"
-  },
-  {
-   "title": "Jango Fett Takes On His Next Bounty with New Star Wars 1/10 Statue",
-   "url": "https://bleedingcool.com/collectibles/jango-fett-takes-on-his-next-bounty-with-new-star-wars-1-10-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-29T19:23:10+00:00"
   }
  ],
  "trends": {
