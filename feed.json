@@ -1,16 +1,41 @@
 {
- "updatedISO": "2026-10-01T23:55:31+00:00",
+ "updatedISO": "2026-10-02T05:47:23+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "McFarlane Toys DC Multiverse – Darkseid Vs Orion 2-pack Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/10/01/mcfarlane-toys-dc-multiverse-darkseid-vs-orion-2-pack-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-darkseid-vs-orion-2-pack-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-02T03:17:31+00:00"
+  },
+  {
+   "title": "Playmates 1988 Remastered TMNT Single Packs Reissued with Smooth Skin",
+   "url": "https://toyhabits.com/playmates-1988-remastered-tmnt-single-packs-reissued-with-smooth-skin/",
+   "source": "Toy Habits",
+   "iso": "2026-10-02T01:56:11+00:00"
+  },
+  {
+   "title": "TMNT Cowabunga Forever 1988 Classic Figure 2 Packs First Look",
+   "url": "https://toyhabits.com/tmnt-cowabunga-forever-1988-classic-figure-2-packs-first-look/",
+   "source": "Toy Habits",
+   "iso": "2026-10-02T01:38:46+00:00"
+  },
+  {
+   "title": "Super7 250th GI Joe ReAction+ Wave 8 Listings Discovered on Walmart",
+   "url": "https://toyhabits.com/super7-250th-gi-joe-reaction-wave-8-listings-discovered-on-walmart/",
+   "source": "Toy Habits",
+   "iso": "2026-10-02T00:31:11+00:00"
+  },
   {
    "title": "Tamashii Nations: Marvel, One Piece, Legend of Zelda, Demon Slayer, Sgt. Frog, Kamen Rider Figure Pre-Orders For October 1st, 2026",
    "url": "https://toyhypeusa.com/2026/10/01/tamashii-nations-marvel-one-piece-legend-of-zelda-demon-slayer-sgt-frog-kamen-rider-figure-pre-orders-for-october-1st-2026/?utm_source=rss&utm_medium=rss&utm_campaign=tamashii-nations-marvel-one-piece-legend-of-zelda-demon-slayer-sgt-frog-kamen-rider-figure-pre-orders-for-october-1st-2026",
@@ -256,106 +281,82 @@
    "url": "https://bleedingcool.com/collectibles/jango-fett-takes-on-his-next-bounty-with-new-star-wars-1-10-statue/",
    "source": "Bleeding Cool",
    "iso": "2026-09-29T19:23:10+00:00"
-  },
-  {
-   "title": "Marvel Legends Mary Jane Aunt May Smythe & Carnage Reissues!",
-   "url": "https://marveltoynews.com/marvel-legends-mary-jane-aunt-may-smythe-carnage-reissues/",
-   "source": "Marvel Toy News",
-   "iso": "2026-09-29T19:11:35+00:00"
-  },
-  {
-   "title": "Transformers MPG-27 Twincast & Rewind Officially Revealed by Takara Tomy",
-   "url": "https://toyhabits.com/transformers-mpg-27-twincast-rewind-officially-revealed-by-takara-tomy/",
-   "source": "Toy Habits",
-   "iso": "2026-09-29T19:07:10+00:00"
-  },
-  {
-   "title": "Super7 G.I. Joe ReAction+ Fatal Fluffy Force Pack Figure Three-Pack Review",
-   "url": "https://toyhypeusa.com/2026/09/29/super7-gijoe-reaction-fatal-fluffy-force-pack-figure-three-pack-review/?utm_source=rss&utm_medium=rss&utm_campaign=super7-gijoe-reaction-fatal-fluffy-force-pack-figure-three-pack-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-29T18:53:45+00:00"
-  },
-  {
-   "title": "Peacemaker Kills for Peace with New DC Comics Revoltech Release",
-   "url": "https://bleedingcool.com/collectibles/peacemaker-kills-for-peace-with-new-dc-comics-revoltech-release/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-29T18:22:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-01T13:27:42+00:00",
+  "updatedISO": "2026-10-02T05:47:23+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 34108,
-    "change": 74
+    "perDay": 34449,
+    "change": 77
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1058,
+    "perDay": 1059,
     "change": 12
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2214,
-    "change": 3
+    "perDay": 2204,
+    "change": 2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2135,
+    "perDay": 2121,
     "change": -3
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 596,
-    "change": -3
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 80,
-    "change": -9
+    "perDay": 592,
+    "change": -4
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 147,
-    "change": -9
+    "perDay": 149,
+    "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 71,
-    "change": -14
+    "perDay": 72,
+    "change": -12
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 77,
+    "change": -13
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2132,
+    "change": -19
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 622,
+    "change": -31
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 966,
+    "change": -31
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -15
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2205,
-    "change": -16
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 992,
-    "change": -31
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 617,
     "change": -33
    }
   ],
