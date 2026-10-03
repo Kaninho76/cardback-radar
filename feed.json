@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-03T02:02:33+00:00",
+ "updatedISO": "2026-10-03T08:14:14+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "New Star Wars Vintage Collection R2-D2, C-3PO & Lothal Rebels 3-Pack Revealed Coming 2027",
+   "url": "https://toyhabits.com/star-wars-vintage-collection-october-2026-live-stream-coverage/",
+   "source": "Toy Habits",
+   "iso": "2026-10-03T04:47:37+00:00"
+  },
   {
    "title": "Star Wars Stream for October 26 – 2027 New Era Reveals and More",
    "url": "https://www.toyark.com/2026/10/02/star-wars-stream-for-october-26-2027-new-era-reveals-and-more-599654",
@@ -274,53 +281,47 @@
    "url": "https://bleedingcool.com/collectibles/mystery-k-pop-demon-hunters-your-idol-saja-boys-funko-pops-debut/",
    "source": "Bleeding Cool",
    "iso": "2026-09-30T20:52:08+00:00"
-  },
-  {
-   "title": "TMNT Movie 5 Pack & 1988 Classic Figures Re-Release Early Look",
-   "url": "https://toyhabits.com/tmnt-movie-5-pack-1988-classic-figures-re-release-early-look/",
-   "source": "Toy Habits",
-   "iso": "2026-09-30T19:33:39+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-02T18:29:41+00:00",
+  "updatedISO": "2026-10-03T08:14:14+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 34449,
-    "change": 77
+    "perDay": 34061,
+    "change": 75
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1059,
-    "change": 12
+    "perDay": 1078,
+    "change": 14
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 631,
+    "change": 3
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2204,
+    "perDay": 2210,
     "change": 2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2121,
-    "change": -3
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 592,
-    "change": -4
+    "perDay": 2184,
+    "change": 0
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
     "perDay": 149,
-    "change": -7
+    "change": -6
    },
    {
     "label": "Marvel Legends",
@@ -329,34 +330,34 @@
     "change": -12
    },
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 77,
-    "change": -13
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 3,
+    "change": -16
    },
    {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2132,
-    "change": -19
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 74,
+    "change": -16
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 622,
-    "change": -31
+    "perDay": 713,
+    "change": -19
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2081,
+    "change": -20
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 966,
-    "change": -31
-   },
-   {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 2,
-    "change": -33
+    "perDay": 975,
+    "change": -29
    }
   ],
   "missed": []
