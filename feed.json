@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-10-03T08:14:14+00:00",
+ "updatedISO": "2026-10-03T13:27:00+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Mattel Appoints Mario Giampaolo, Global Head of Content Distribution, Mattel Studios",
+   "url": "https://www.actionfigureinsider.com/mattel-appoints-mario-giampaolo-global-head-of-content-distribution-mattel-studios/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-03T12:00:01+00:00"
+  },
   {
    "title": "New Star Wars Vintage Collection R2-D2, C-3PO & Lothal Rebels 3-Pack Revealed Coming 2027",
    "url": "https://toyhabits.com/star-wars-vintage-collection-october-2026-live-stream-coverage/",
@@ -275,12 +280,6 @@
    "url": "https://toyhypeusa.com/2026/09/30/boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now",
    "source": "Toy Hype USA",
    "iso": "2026-09-30T20:54:16+00:00"
-  },
-  {
-   "title": "Mystery K-Pop Demon Hunters \"Your Idol\" Saja Boys Funko Pops Debut",
-   "url": "https://bleedingcool.com/collectibles/mystery-k-pop-demon-hunters-your-idol-saja-boys-funko-pops-debut/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-30T20:52:08+00:00"
   }
  ],
  "trends": {
