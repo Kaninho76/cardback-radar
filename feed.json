@@ -1,17 +1,40 @@
 {
- "updatedISO": "2026-10-03T17:59:28+00:00",
+ "updatedISO": "2026-10-03T21:23:52+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "GI Joe x Tomb Raider Classified Series Lara Croft Preorder",
+   "url": "https://toyhabits.com/gi-joe-x-tomb-raider-classified-series-lara-croft-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-10-03T20:51:28+00:00"
+  },
+  {
+   "title": "Regal Robot Debuts New Indiana Jones Kingdom of the Crystal Skull Prop",
+   "url": "https://bleedingcool.com/collectibles/regal-robot-debuts-new-indiana-jones-kingdom-of-the-crystal-skull-prop/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-03T16:22:09+00:00"
+  },
+  {
+   "title": "The Mandalorian Rides Into Star Wars: The Black Series STAP 2-Pack",
+   "url": "https://bleedingcool.com/collectibles/the-mandalorian-rides-into-star-wars-the-black-series-stap-2-pack/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-03T15:22:10+00:00"
+  },
+  {
+   "title": "Foot Soldiers March Into Action with Mezco Toyz's TMNT Army Set",
+   "url": "https://bleedingcool.com/collectibles/foot-soldiers-march-into-action-with-mezco-toyzs-tmnt-army-set/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-03T14:23:08+00:00"
+  },
   {
    "title": "Collect Major Founders Enter the Marvel Universe on The Amazing Spider-Man #1001 Variant Cover",
    "url": "https://www.actionfigureinsider.com/collect-major-founders-enter-the-marvel-universe-on-the-amazing-spider-man-1001-variant-cover/",
@@ -257,34 +280,10 @@
    "url": "https://bleedingcool.com/collectibles/jim-carrey-returns-as-the-riddler-in-the-daily-litg-1st-october-2026/",
    "source": "Bleeding Cool",
    "iso": "2026-10-01T08:54:08+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars The Black Series 6″ The Mandalorian & Grogu – Mercenary Guard Droid & STAP Set Available Now",
-   "url": "https://toyhypeusa.com/2026/09/30/hasbro-star-wars-tbs-the-mandalorian-grogu-mercenary-guard-droid-stap-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-the-mandalorian-grogu-mercenary-guard-droid-stap-set-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-01T02:38:03+00:00"
-  },
-  {
-   "title": "BigBadToyStore News: Tomb Raider, Fallout, TMNT & anime sales, Street Fighter, KPop Demon Hunters & More",
-   "url": "https://toyhypeusa.com/2026/09/30/bbts-tomb-raider-fallout-tmnt-anime-sales-street-fighter-kpop-demon-hunters/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-tomb-raider-fallout-tmnt-anime-sales-street-fighter-kpop-demon-hunters",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-30T23:30:54+00:00"
-  },
-  {
-   "title": "Storm Collectibles Unveils Street Fighter Alpha 3 Storm Arena Balrog",
-   "url": "https://bleedingcool.com/collectibles/storm-collectibles-unveils-street-fighter-alpha-3-storm-arena-balrog/",
-   "source": "Bleeding Cool",
-   "iso": "2026-09-30T21:52:08+00:00"
-  },
-  {
-   "title": "The LEGO Group and Toei Animation unite for the first time to summon the epic LEGO® Icons Dragon Ball Shenron & Goku set",
-   "url": "https://www.actionfigureinsider.com/the-lego-group-and-toei-animation-unite-for-the-first-time-to-summon-the-epic-lego-icons-dragon-ball-shenron-goku-set/",
-   "source": "Action Figure Insider",
-   "iso": "2026-09-30T20:55:52+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-03T08:14:14+00:00",
+  "updatedISO": "2026-10-03T21:23:52+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
