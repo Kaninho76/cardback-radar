@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-03T13:27:00+00:00",
+ "updatedISO": "2026-10-03T17:59:28+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Collect Major Founders Enter the Marvel Universe on The Amazing Spider-Man #1001 Variant Cover",
+   "url": "https://www.actionfigureinsider.com/collect-major-founders-enter-the-marvel-universe-on-the-amazing-spider-man-1001-variant-cover/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-03T14:00:25+00:00"
+  },
   {
    "title": "Mattel Appoints Mario Giampaolo, Global Head of Content Distribution, Mattel Studios",
    "url": "https://www.actionfigureinsider.com/mattel-appoints-mario-giampaolo-global-head-of-content-distribution-mattel-studios/",
@@ -274,12 +281,6 @@
    "url": "https://www.actionfigureinsider.com/the-lego-group-and-toei-animation-unite-for-the-first-time-to-summon-the-epic-lego-icons-dragon-ball-shenron-goku-set/",
    "source": "Action Figure Insider",
    "iso": "2026-09-30T20:55:52+00:00"
-  },
-  {
-   "title": "Boss Fight Studio Garfield x Teenage Mutant Ninja Turtles Garfield & Sidekick Odie Figures Available Now",
-   "url": "https://toyhypeusa.com/2026/09/30/boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-garfield-x-tmnt-garfield-sidekick-odie-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-09-30T20:54:16+00:00"
   }
  ],
  "trends": {
