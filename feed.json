@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-10-04T06:59:23+00:00",
+ "updatedISO": "2026-10-04T13:16:34+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Skip the Scary Movie: It’s Time for a Killer Game Night with @Hasbro",
+   "url": "https://www.actionfigureinsider.com/skip-the-scary-movie-its-time-for-a-killer-game-night-with-hasbro/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-04T12:00:21+00:00"
+  },
   {
    "title": "Hasbro G.I. Joe Classified Series Arctic B.A.T. Figure Available Now",
    "url": "https://toyhypeusa.com/2026/10/03/hasbro-gijoe-classified-series-arctic-bat-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-arctic-bat-figure-available-now",
@@ -275,88 +280,82 @@
    "url": "https://www.toyark.com/2026/10/01/shin-godzilla-nendoroid-godzilla-2nd-form-599580",
    "source": "The Toyark",
    "iso": "2026-10-01T11:51:12+00:00"
-  },
-  {
-   "title": "Marvel Gameverse S.H. Figuarts Venom Images and Details",
-   "url": "https://www.toyark.com/2026/10/01/marvel-gameverse-s-h-figuarts-venom-images-and-details-599571",
-   "source": "The Toyark",
-   "iso": "2026-10-01T11:43:03+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-03T21:23:52+00:00",
+  "updatedISO": "2026-10-04T13:16:34+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 34061,
-    "change": 75
+    "perDay": 32338,
+    "change": 63
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1078,
-    "change": 14
+    "perDay": 1106,
+    "change": 16
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 631,
-    "change": 3
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2210,
-    "change": 2
+    "perDay": 698,
+    "change": 14
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2184,
-    "change": 0
+    "perDay": 2229,
+    "change": 2
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2201,
+    "change": 1
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 149,
-    "change": -6
+    "perDay": 154,
+    "change": -2
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 72,
-    "change": -12
-   },
-   {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": -16
+    "perDay": 74,
+    "change": -8
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 74,
-    "change": -16
+    "perDay": 75,
+    "change": -15
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 713,
-    "change": -19
+    "perDay": 727,
+    "change": -16
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2081,
-    "change": -20
+    "perDay": 2085,
+    "change": -19
+   },
+   {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 2,
+    "change": -23
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 975,
+    "perDay": 960,
     "change": -29
    }
   ],
