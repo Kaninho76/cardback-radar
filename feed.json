@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-04T00:42:31+00:00",
+ "updatedISO": "2026-10-04T06:59:23+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro G.I. Joe Classified Series Arctic B.A.T. Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/10/03/hasbro-gijoe-classified-series-arctic-bat-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-arctic-bat-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-04T03:35:19+00:00"
+  },
   {
    "title": "Amazon Prime Days October 2026 Edition Toy Sales",
    "url": "https://toyhabits.com/amazon-prime-days-october-2026-edition-toy-sales/",
@@ -274,12 +281,6 @@
    "url": "https://www.toyark.com/2026/10/01/marvel-gameverse-s-h-figuarts-venom-images-and-details-599571",
    "source": "The Toyark",
    "iso": "2026-10-01T11:43:03+00:00"
-  },
-  {
-   "title": "Tomb Raider: Legacy of Atlantis – McFarlane Elite Edition Lara Croft Deluxe Action Figure",
-   "url": "https://www.toyark.com/2026/10/01/tomb-raider-legacy-of-atlantis-mcfarlane-elite-edition-lara-croft-deluxe-action-figure-599565",
-   "source": "The Toyark",
-   "iso": "2026-10-01T11:32:52+00:00"
   }
  ],
  "trends": {
