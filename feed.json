@@ -1,16 +1,29 @@
 {
- "updatedISO": "2026-10-04T13:16:34+00:00",
+ "updatedISO": "2026-10-04T17:37:10+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Make Halloween Extra Spooky With These Collectible Gift Picks",
+   "url": "https://bleedingcool.com/collectibles/make-halloween-extra-spooky-with-these-collectible-gift-picks/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-04T16:22:11+00:00"
+  },
+  {
+   "title": "Walmart Collector Con October 2026 Preview",
+   "url": "https://toyhabits.com/walmart-collector-con-october-2026-preview/",
+   "source": "Toy Habits",
+   "iso": "2026-10-04T13:21:48+00:00"
+  },
   {
    "title": "Skip the Scary Movie: It’s Time for a Killer Game Night with @Hasbro",
    "url": "https://www.actionfigureinsider.com/skip-the-scary-movie-its-time-for-a-killer-game-night-with-hasbro/",
@@ -268,18 +281,6 @@
    "url": "https://www.toyark.com/2026/10/01/spider-man-across-the-spider-verse-s-h-figuarts-spider-man-2099-and-miles-g-morales-update-599588",
    "source": "The Toyark",
    "iso": "2026-10-01T12:01:28+00:00"
-  },
-  {
-   "title": "Alliance Entertainment’s popmarket Brings 16 Exclusives to New York #NYCC",
-   "url": "https://www.actionfigureinsider.com/alliance-entertainments-popmarket-brings-16-exclusives-to-new-york-nycc/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-01T12:00:10+00:00"
-  },
-  {
-   "title": "Shin Godzilla – Nendoroid Godzilla 2nd Form",
-   "url": "https://www.toyark.com/2026/10/01/shin-godzilla-nendoroid-godzilla-2nd-form-599580",
-   "source": "The Toyark",
-   "iso": "2026-10-01T11:51:12+00:00"
   }
  ],
  "trends": {
