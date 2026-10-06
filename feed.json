@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-06T03:02:59+00:00",
+ "updatedISO": "2026-10-06T10:25:51+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Amazon Prime Day Sales For October 2026",
+   "url": "https://toyhypeusa.com/2026/10/05/amazon-prime-day-sales-for-october-2026/?utm_source=rss&utm_medium=rss&utm_campaign=amazon-prime-day-sales-for-october-2026",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-06T03:09:40+00:00"
+  },
   {
    "title": "Legends of Dragonore Terreptor In Hand Review",
    "url": "https://toyhabits.com/legends-of-dragonore-terreptor-in-hand-review/",
@@ -274,12 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/get-an-exclusive-matchbox-the-movie-die-cast-car-with-jiffy-lube/",
    "source": "Bleeding Cool",
    "iso": "2026-10-02T15:52:10+00:00"
-  },
-  {
-   "title": "Takara-Tomy – Transformers Dramatic Capture Series, Masterpiece & New Legends Figures Pre-Orders For October 2nd, 2026",
-   "url": "https://toyhypeusa.com/2026/10/02/takara-tomy-transformers-dramatic-capture-series-masterpiece-new-legends-figures-pre-orders-for-october-2nd-2026/?utm_source=rss&utm_medium=rss&utm_campaign=takara-tomy-transformers-dramatic-capture-series-masterpiece-new-legends-figures-pre-orders-for-october-2nd-2026",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-02T15:26:19+00:00"
   }
  ],
  "trends": {
