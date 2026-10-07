@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-07T01:36:18+00:00",
+ "updatedISO": "2026-10-07T08:47:06+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Hasbro Street Fighter The Movie Wave 2 Revealed",
+   "url": "https://toyhabits.com/hasbro-street-fighter-the-movie-wave-2-revealed/",
+   "source": "Toy Habits",
+   "iso": "2026-10-07T01:48:54+00:00"
+  },
   {
    "title": "Ghostface Gets a Killer Makeover for the New Doll Haus of Dread Line",
    "url": "https://bleedingcool.com/collectibles/ghostface-gets-a-killer-makeover-for-the-new-doll-haus-of-dread-line/",
@@ -274,89 +280,83 @@
    "url": "https://toyhabits.com/gi-joe-classified-series-cobra-commander-with-throne-set-in-hand-images/",
    "source": "Toy Habits",
    "iso": "2026-10-05T02:57:14+00:00"
-  },
-  {
-   "title": "GI Joe Classified 2026 Fall Favorites In Stock Now!",
-   "url": "https://toyhabits.com/gi-joe-classified-2026-fall-favorites-in-stock-now/",
-   "source": "Toy Habits",
-   "iso": "2026-10-04T20:29:00+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-06T17:16:09+00:00",
+  "updatedISO": "2026-10-07T08:47:06+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 28726,
-    "change": 38
+    "perDay": 27217,
+    "change": 28
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 742,
-    "change": 23
+    "perDay": 750,
+    "change": 25
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2353,
+    "change": 9
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 992,
+    "change": 0
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 3,
-    "change": 9
-   },
-   {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2328,
-    "change": 7
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 1044,
-    "change": 7
+    "change": -1
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 150,
-    "change": -5
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2073,
-    "change": -7
+    "perDay": 146,
+    "change": -8
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 71,
+    "perDay": 70,
     "change": -11
    },
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 76,
-    "change": -13
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 1993,
+    "change": -11
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
     "perDay": 706,
-    "change": -15
+    "change": -12
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 77,
+    "change": -12
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2023,
-    "change": -19
+    "perDay": 2013,
+    "change": -17
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 924,
-    "change": -29
+    "perDay": 912,
+    "change": -27
    }
   ],
   "missed": []
