@@ -1,17 +1,28 @@
 {
- "updatedISO": "2026-10-08T02:00:07+00:00",
+ "updatedISO": "2026-10-08T09:04:12+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Playmates Toys Teenage Mutant Ninja Turtles x Godzilla Wave 2 – Donnie x Jet Jaguar, Splinter x King Caesar & Shredder x Megagodzilla Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/10/08/playmates-toys-tmnt-x-godzilla-wave-2-donnie-x-jet-jaguar-splinter-x-king-caesar-shredder-x-megagodzilla-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=playmates-toys-tmnt-x-godzilla-wave-2-donnie-x-jet-jaguar-splinter-x-king-caesar-shredder-x-megagodzilla-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-08T08:00:17+00:00"
+  },
+  {
+   "title": "GI Joe Classified Series Legacy Collection Action Joe Avalanche Response In Hand Review",
+   "url": "https://toyhabits.com/gi-joe-classified-series-legacy-collection-action-joe-avalanche-response-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-10-08T04:28:21+00:00"
+  },
   {
    "title": "Spider Man Mego Set 2 Worlds Greatest Super Heroes Now In Stock on Disney",
    "url": "https://toyhabits.com/spider-man-mego-set-2-worlds-greatest-super-heroes-now-in-stock-on-disney/",
@@ -269,18 +280,6 @@
    "url": "https://toyhabits.com/six-new-motu-origins-listings-point-to-new-build-a-figure-wave/",
    "source": "Toy Habits",
    "iso": "2026-10-06T15:09:41+00:00"
-  },
-  {
-   "title": "Hasbro Unveils Brand New Star Wars: The Vintage Collection C-3PO",
-   "url": "https://bleedingcool.com/collectibles/hasbro-unveils-brand-new-star-wars-the-vintage-collection-c-3po/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-06T14:22:09+00:00"
-  },
-  {
-   "title": "R2-D2 Returns to Hasbro with New 3.75\" Star Wars: TVC Figure",
-   "url": "https://bleedingcool.com/collectibles/r2-d2-returns-to-hasbro-with-new-3-75-star-wars-tvc-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-06T13:23:08+00:00"
   }
  ],
  "trends": {
