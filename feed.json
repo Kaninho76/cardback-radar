@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-09T02:14:04+00:00",
+ "updatedISO": "2026-10-09T09:12:17+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Entertainment Earth News: Gundam, Marvel, Street Fighter, Transformers, Tomb Raider & DC",
+   "url": "https://toyhypeusa.com/2026/10/09/ee-gundam-marvel-street-fighter-transformers-tomb-raider-dc/?utm_source=rss&utm_medium=rss&utm_campaign=ee-gundam-marvel-street-fighter-transformers-tomb-raider-dc",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-09T04:10:58+00:00"
+  },
   {
    "title": "GI Joe Classified Series Mainline 2027 NYCC 2026 In-Box Images",
    "url": "https://toyhabits.com/gi-joe-classified-series-mainline-2027-nycc-2026-in-box-images/",
@@ -274,47 +281,41 @@
    "url": "https://toyhypeusa.com/2026/10/07/bbts-the-tick-horror-sale-cas-autograph-series-marvel-one-piece-pokemon/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-the-tick-horror-sale-cas-autograph-series-marvel-one-piece-pokemon",
    "source": "Toy Hype USA",
    "iso": "2026-10-08T00:21:22+00:00"
-  },
-  {
-   "title": "X-Men ’97 Marvel Legends – Bolivar Trask and Bastion Nimrod",
-   "url": "https://www.toyark.com/2026/10/07/x-men-97-marvel-legends-bolivar-trask-and-bastion-nimrod-600069",
-   "source": "The Toyark",
-   "iso": "2026-10-07T23:34:30+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-08T16:34:50+00:00",
+  "updatedISO": "2026-10-09T09:12:17+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 4,
+    "change": 33
+   },
+   {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 758,
-    "change": 26
+    "perDay": 748,
+    "change": 25
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 25992,
-    "change": 20
-   },
-   {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": 14
-   },
-   {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2358,
-    "change": 9
+    "perDay": 25187,
+    "change": 16
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 89,
-    "change": 1
+    "perDay": 98,
+    "change": 13
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2361,
+    "change": 9
    },
    {
     "label": "Kaiju",
@@ -325,37 +326,37 @@
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 146,
-    "change": -8
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 701,
-    "change": -10
+    "perDay": 149,
+    "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 69,
-    "change": -12
+    "change": -11
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 686,
+    "change": -11
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1994,
+    "perDay": 1987,
     "change": -12
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2012,
-    "change": -16
+    "perDay": 2053,
+    "change": -13
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 901,
+    "perDay": 890,
     "change": -26
    }
   ],
