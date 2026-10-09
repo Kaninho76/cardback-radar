@@ -1,16 +1,53 @@
 {
- "updatedISO": "2026-10-09T16:17:04+00:00",
+ "updatedISO": "2026-10-09T20:59:27+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "NYCC 2026 – Hasbro G.I. Joe Classified 6″ Figures Revealed",
+   "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-hasbro-gijoe-classified-figures-revealed/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-hasbro-gijoe-classified-figures-revealed",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-09T20:00:28+00:00"
+  },
+  {
+   "title": "NYCC 2026 – FanHome Booth Coverage",
+   "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-fanhome-booth-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-fanhome-booth-coverage",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-09T19:44:42+00:00"
+  },
+  {
+   "title": "NYCC 2026 – LEGO Booth Coverage – New Batman Sets Revealed",
+   "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-lego-booth-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-lego-booth-coverage",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-09T19:26:14+00:00"
+  },
+  {
+   "title": "McFarlane Toys DC Multiverse Green Lantern Corps Sinestro, & Plastic Man (The Terrifics) Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/10/09/mcfarlane-toys-dc-multiverse-green-lantern-corps-sinestro-plastic-man-the-terrifics-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-green-lantern-corps-sinestro-plastic-man-the-terrifics-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-09T18:26:30+00:00"
+  },
+  {
+   "title": "LEGO Announces New Micro-Marvel Skyline Set with Galactus Minifig",
+   "url": "https://bleedingcool.com/collectibles/lego-announces-new-micro-marvel-skyline-set-with-galactus-minifig/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-09T17:23:08+00:00"
+  },
+  {
+   "title": "Mattel Unveils New DC Premium Batman: Hush Rooftop Diorama Set",
+   "url": "https://bleedingcool.com/collectibles/mattel-unveils-new-dc-premium-batman-hush-rooftop-diorama-set/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-09T16:22:09+00:00"
+  },
   {
    "title": "Hasbro Star Wars The Black Series 6″ Jedi Temple Guards Figure Set Available Now",
    "url": "https://toyhypeusa.com/2026/10/09/hasbro-star-wars-tbs-jedi-temple-guards-figure-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-jedi-temple-guards-figure-set-available-now",
@@ -244,42 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/dunkin-teams-up-with-marvel-studios-for-new-avengers-doomsday-menu/",
    "source": "Bleeding Cool",
    "iso": "2026-10-08T17:52:09+00:00"
-  },
-  {
-   "title": "DC Premium Batman Hush Rooftop Bat-Signal Diorama Set Mattel Creations Preorder",
-   "url": "https://toyhabits.com/dc-premium-batman-hush-rooftop-bat-signal-diorama-set-mattel-creations-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-10-08T17:37:39+00:00"
-  },
-  {
-   "title": "Teenage Mutant Ninja Turtles x Godzilla Cross-Overs In Stock",
-   "url": "https://toyhabits.com/teenage-mutant-ninja-turtles-x-godzilla-cross-overs-in-stock/",
-   "source": "Toy Habits",
-   "iso": "2026-10-08T17:37:12+00:00"
-  },
-  {
-   "title": "NYCC 2026 – Diamond Select Brands Booth Images",
-   "url": "https://www.toyark.com/2026/10/08/nycc-2026-diamond-select-brands-booth-images-600567",
-   "source": "The Toyark",
-   "iso": "2026-10-08T17:33:14+00:00"
-  },
-  {
-   "title": "NYCC 2026 – NECA Booth Images",
-   "url": "https://www.toyark.com/2026/10/08/nycc-2026-neca-booth-images-599784",
-   "source": "The Toyark",
-   "iso": "2026-10-08T17:26:04+00:00"
-  },
-  {
-   "title": "RSVLTS Takes Fans Back to Santa Carla with The Lost Boys Collection",
-   "url": "https://bleedingcool.com/collectibles/rsvlts-takes-fans-back-to-santa-carla-with-the-lost-boys-collection/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-08T17:22:12+00:00"
-  },
-  {
-   "title": "DC Mattel Figure Design Prototype Booth Preview & Hush Rooftop Bat-Signal DC Premium Batman Diorama Set Reveal at NYCC 2026",
-   "url": "https://toyhabits.com/dc-mattel-figure-design-prototype-booth-preview-hush-rooftop-bat-signal-dc-premium-batman-diorama-set-nycc-2026/",
-   "source": "Toy Habits",
-   "iso": "2026-10-08T17:06:58+00:00"
   }
  ],
  "trends": {
