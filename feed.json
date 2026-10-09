@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-08T22:08:11+00:00",
+ "updatedISO": "2026-10-09T02:14:04+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,24 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "GI Joe Classified Series Mainline 2027 NYCC 2026 In-Box Images",
+   "url": "https://toyhabits.com/gi-joe-classified-series-mainline-2027-nycc-2026-in-box-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T01:42:14+00:00"
+  },
+  {
+   "title": "Hasbro New York Comic-Con 2026 – Transformers Panel Coverage",
+   "url": "https://toyhypeusa.com/2026/10/08/hasbro-new-york-comic-con-2026-transformers-panel-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-new-york-comic-con-2026-transformers-panel-coverage",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-09T01:34:12+00:00"
+  },
+  {
+   "title": "GI Joe Classified Series NYCC 2026 Panel Reveals and Info",
+   "url": "https://toyhabits.com/gi-joe-classified-series-nycc-2026-panel-reveals-and-info/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T00:56:51+00:00"
+  },
   {
    "title": "NYCC 2026 – HIYA TOYS Booth Images",
    "url": "https://www.toyark.com/2026/10/08/nycc-2026-hiya-toys-booth-images-599788",
@@ -262,24 +280,6 @@
    "url": "https://www.toyark.com/2026/10/07/x-men-97-marvel-legends-bolivar-trask-and-bastion-nimrod-600069",
    "source": "The Toyark",
    "iso": "2026-10-07T23:34:30+00:00"
-  },
-  {
-   "title": "Hasbro New York Comic-Con 2026 Press Event Coverage (Update)",
-   "url": "https://toyhypeusa.com/2026/10/07/hasbro-new-york-comic-con-2026-press-event-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-new-york-comic-con-2026-press-event-coverage",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-07T22:11:21+00:00"
-  },
-  {
-   "title": "Wandering Planet Toys Pays Tribute to Showa Era Tokusatsu with New Figure",
-   "url": "https://www.actionfigureinsider.com/wandering-planet-toys-pays-tribute-to-showa-era-tokusatsu-with-new-figure/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-07T20:55:11+00:00"
-  },
-  {
-   "title": "NYCC 2026 – Hasbro Event Marvel Legends Display",
-   "url": "https://www.toyark.com/2026/10/07/nycc-2026-hasbro-event-marvel-legends-display-599751",
-   "source": "The Toyark",
-   "iso": "2026-10-07T20:50:10+00:00"
   }
  ],
  "trends": {
