@@ -1,22 +1,45 @@
 {
- "updatedISO": "2026-10-09T20:59:27+00:00",
+ "updatedISO": "2026-10-10T00:57:45+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "GI Joe Classified Series NYCC 2026 Official Images",
+   "url": "https://toyhabits.com/gi-joe-classified-series-nycc-2026-offial-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T23:27:54+00:00"
+  },
+  {
+   "title": "Ducktails & Darkwing Duck NECA NYCC 2026 Booth Images",
+   "url": "https://toyhabits.com/ducktails-darkwing-duck-neca-nycc-2026-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T21:04:54+00:00"
+  },
+  {
+   "title": "Mondo 200X Mer-Man 1/12 Scale Figure Timed Edition Preorder and Official Images",
+   "url": "https://toyhabits.com/mondo-200x-mer-man-1-12-scale-figure-timed-edition-preorder-and-official-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T20:30:35+00:00"
+  },
   {
    "title": "NYCC 2026 – Hasbro G.I. Joe Classified 6″ Figures Revealed",
    "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-hasbro-gijoe-classified-figures-revealed/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-hasbro-gijoe-classified-figures-revealed",
    "source": "Toy Hype USA",
    "iso": "2026-10-09T20:00:28+00:00"
+  },
+  {
+   "title": "NYCC 2026 NECA Muppet Babies Booth Images",
+   "url": "https://toyhabits.com/nycc-2026-neca-muppet-babies-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T19:50:58+00:00"
   },
   {
    "title": "NYCC 2026 – FanHome Booth Coverage",
@@ -25,10 +48,28 @@
    "iso": "2026-10-09T19:44:42+00:00"
   },
   {
+   "title": "NYCC 2026 NECA Muppets Booth Images",
+   "url": "https://toyhabits.com/nycc-2026-neca-muppets-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T19:31:47+00:00"
+  },
+  {
    "title": "NYCC 2026 – LEGO Booth Coverage – New Batman Sets Revealed",
    "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-lego-booth-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-lego-booth-coverage",
    "source": "Toy Hype USA",
    "iso": "2026-10-09T19:26:14+00:00"
+  },
+  {
+   "title": "Alien NECA NYCC 2026 Booth Images",
+   "url": "https://toyhabits.com/alien-neca-nycc-2026-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T19:14:29+00:00"
+  },
+  {
+   "title": "Sesame Street NYCC 2026 NECA Booth Images",
+   "url": "https://toyhabits.com/sesame-street-nycc-2026-neca-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T18:31:44+00:00"
   },
   {
    "title": "McFarlane Toys DC Multiverse Green Lantern Corps Sinestro, & Plastic Man (The Terrifics) Figures Available Now",
@@ -41,6 +82,12 @@
    "url": "https://bleedingcool.com/collectibles/lego-announces-new-micro-marvel-skyline-set-with-galactus-minifig/",
    "source": "Bleeding Cool",
    "iso": "2026-10-09T17:23:08+00:00"
+  },
+  {
+   "title": "Select Hasbro Toys On Display at NYCC 2026",
+   "url": "https://toyhabits.com/select-hasbro-toys-on-display-at-nycc-2026/",
+   "source": "Toy Habits",
+   "iso": "2026-10-09T16:39:51+00:00"
   },
   {
    "title": "Mattel Unveils New DC Premium Batman: Hush Rooftop Diorama Set",
@@ -233,131 +280,83 @@
    "url": "https://toyhypeusa.com/2026/10/08/nycc-2026-storm-collectibles-street-fighter-darkstalker-figures/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-storm-collectibles-street-fighter-darkstalker-figures",
    "source": "Toy Hype USA",
    "iso": "2026-10-08T20:07:26+00:00"
-  },
-  {
-   "title": "NECA McDonalds Ultimate Hamburglar Preorder & NYCC Images",
-   "url": "https://toyhabits.com/neca-mcdonalds-ultimate-hamburglar-preorder-nycc-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-08T20:02:45+00:00"
-  },
-  {
-   "title": "NECA's Friday the 13th: The Game Ultimate Savini Jason Figure Returns",
-   "url": "https://bleedingcool.com/collectibles/necas-friday-the-13th-the-game-ultimate-savini-jason-figure-returns/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-08T19:23:08+00:00"
-  },
-  {
-   "title": "Nacelle Toys Makes our Crossover Dreams Come True with new Biker Mice From Mars x Judge Dredd Crossover Figure!! #NYCC",
-   "url": "https://www.actionfigureinsider.com/nacelle-makes-our-crossover-dreams-come-true-with-new-biker-mice-from-mars-x-judge-dredd-crossover-figure/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-08T19:21:16+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series 6″ Snake Eyes & Varmint ATV Vs. Stealth Viper & Cobra Stealth Flight Pod (Trubble Bubble) Set Available Now (Update)",
-   "url": "https://toyhypeusa.com/2026/10/08/hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-snake-eyes-varmint-atv-vs-stealth-viper-cobra-stealth-flight-pod-trubble-bubble-set-available-now-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-08T18:56:42+00:00"
-  },
-  {
-   "title": "MONOPOLY is Back as the Hit Game Returns to McDonald's Restaurants",
-   "url": "https://bleedingcool.com/collectibles/monopoly-is-back-as-the-hit-game-returns-to-mcdonalds-restaurants/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-08T18:52:08+00:00"
-  },
-  {
-   "title": "DC Multiverse Batman & Spawn Collector Edition Gold Label Revealed",
-   "url": "https://bleedingcool.com/collectibles/dc-multiverse-batman-spawn-collector-edition-gold-label-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-08T18:22:10+00:00"
-  },
-  {
-   "title": "NYCC 2026 – Mezco Toyz Booth Images",
-   "url": "https://www.toyark.com/2026/10/08/nycc-2026-mezco-toyz-booth-images-599782",
-   "source": "The Toyark",
-   "iso": "2026-10-08T17:56:56+00:00"
-  },
-  {
-   "title": "Dunkin' Teams Up with Marvel Studios for New Avengers: Doomsday Menu",
-   "url": "https://bleedingcool.com/collectibles/dunkin-teams-up-with-marvel-studios-for-new-avengers-doomsday-menu/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-08T17:52:09+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-09T09:12:17+00:00",
+  "updatedISO": "2026-10-10T00:57:45+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 4,
-    "change": 33
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 105,
+    "change": 21
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 748,
-    "change": 25
+    "perDay": 702,
+    "change": 16
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 25187,
-    "change": 16
+    "perDay": 24443,
+    "change": 11
    },
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 98,
-    "change": 13
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 3,
+    "change": 10
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2361,
-    "change": 9
+    "perDay": 2312,
+    "change": 6
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 991,
+    "perDay": 996,
     "change": 0
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 149,
-    "change": -7
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 69,
-    "change": -11
+    "perDay": 72,
+    "change": -7
    },
    {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 686,
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 148,
+    "change": -8
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2075,
     "change": -11
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 1987,
+    "perDay": 2004,
     "change": -12
    },
    {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2053,
-    "change": -13
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 582,
+    "change": -25
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 890,
-    "change": -26
+    "perDay": 861,
+    "change": -27
    }
   ],
   "missed": []
