@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-11T08:59:05+00:00",
+ "updatedISO": "2026-10-11T15:47:12+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "New Ways to Shop, Holiday Traditions to Keep: Walmart is Ready for the Season",
+   "url": "https://www.actionfigureinsider.com/new-ways-to-shop-holiday-traditions-to-keep-walmart-is-ready-for-the-season/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-11T12:00:00+00:00"
+  },
   {
    "title": "Sneak Attack Toys NYCC 2026 Booth Images",
    "url": "https://toyhabits.com/sneak-attack-toys-nycc-2026-booth-images/",
@@ -274,16 +280,10 @@
    "url": "https://bleedingcool.com/collectibles/beast-kingdom-batman-returns-the-penguin-available-for-pre-order/",
    "source": "Bleeding Cool",
    "iso": "2026-10-09T13:25:10+00:00"
-  },
-  {
-   "title": "Transformers NYCC 2026 Panel Reveals and Info",
-   "url": "https://toyhabits.com/transformers-nycc-2026-panel-reveals-and-info/",
-   "source": "Toy Habits",
-   "iso": "2026-10-09T13:15:03+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-11T01:59:05+00:00",
+  "updatedISO": "2026-10-11T15:47:12+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
