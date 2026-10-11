@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-11T01:59:05+00:00",
+ "updatedISO": "2026-10-11T08:59:05+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Sneak Attack Toys NYCC 2026 Booth Images",
+   "url": "https://toyhabits.com/sneak-attack-toys-nycc-2026-booth-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-11T03:51:34+00:00"
+  },
   {
    "title": "Super7 TMNT Foot Ninja Wave 1 ReAction+ In Hand Review",
    "url": "https://toyhabits.com/super7-tmnt-foot-ninja-wave-1-reaction-in-hand-review/",
@@ -274,12 +280,6 @@
    "url": "https://toyhabits.com/transformers-nycc-2026-panel-reveals-and-info/",
    "source": "Toy Habits",
    "iso": "2026-10-09T13:15:03+00:00"
-  },
-  {
-   "title": "Nacelle Judge Dredd x Biker Mice from Mars Crossover Pre-Orders",
-   "url": "https://www.toyark.com/2026/10/09/nacelle-judge-dredd-x-biker-mice-from-mars-crossover-pre-orders-601100",
-   "source": "The Toyark",
-   "iso": "2026-10-09T12:18:59+00:00"
   }
  ],
  "trends": {
