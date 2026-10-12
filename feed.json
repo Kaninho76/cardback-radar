@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-11T20:21:06+00:00",
+ "updatedISO": "2026-10-12T00:36:20+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Your Friendly Neighborhood Spider-Man & Rhino 2 Pack Official Reveal",
+   "url": "https://toyhabits.com/hasbro-marvel-legends-your-friendly-neighborhood-spider-man-rhino-2-pack-official-reveal/",
+   "source": "Toy Habits",
+   "iso": "2026-10-11T22:21:43+00:00"
+  },
   {
    "title": "GI Joe Classified Series Mad Marauders Footloose, Mutt & Junkyard In Hand Review",
    "url": "https://toyhabits.com/gi-joe-classified-series-mad-marauders-footloose-mutt-junkyard-in-hand-review/",
@@ -274,12 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/embrace-the-winter-with-necas-exclusive-tmnt-x-usagi-yojimbo-set/",
    "source": "Bleeding Cool",
    "iso": "2026-10-09T14:22:10+00:00"
-  },
-  {
-   "title": "All-New Marvel Spidey and his Amazing Friends SuperRollers by @Hasbro",
-   "url": "https://www.actionfigureinsider.com/all-new-marvel-spidey-and-his-amazing-friends-superrollers-by-hasbro/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-09T14:09:02+00:00"
   }
  ],
  "trends": {
