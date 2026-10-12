@@ -1,17 +1,35 @@
 {
- "updatedISO": "2026-10-12T00:36:20+00:00",
+ "updatedISO": "2026-10-12T07:27:13+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "The Toyark: HTTP 403"
+  "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "Beast Kingdom – Star Trek Egg Attack Floating EAF-012 U.S.S. Enterprise NCC-1701 Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/12/beast-kingdom-star-trek-egg-attack-floating-eaf-012-uss-enterprise-ncc-1701-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=beast-kingdom-star-trek-egg-attack-floating-eaf-012-uss-enterprise-ncc-1701-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-12T04:10:09+00:00"
+  },
+  {
+   "title": "NYCC 2026 – Star Wars Panel Official Images & Details",
+   "url": "https://www.toyark.com/2026/10/11/nycc-2026-star-wars-panel-official-images-details-601180",
+   "source": "The Toyark",
+   "iso": "2026-10-12T00:55:44+00:00"
+  },
+  {
+   "title": "NYCC 2026 – Marvel Legends Panel Official Images & Details",
+   "url": "https://www.toyark.com/2026/10/11/nycc-2026-marvel-legends-panel-official-images-details-601179",
+   "source": "The Toyark",
+   "iso": "2026-10-12T00:50:27+00:00"
+  },
   {
    "title": "Hasbro Marvel Legends Your Friendly Neighborhood Spider-Man & Rhino 2 Pack Official Reveal",
    "url": "https://toyhabits.com/hasbro-marvel-legends-your-friendly-neighborhood-spider-man-rhino-2-pack-official-reveal/",
@@ -263,101 +281,83 @@
    "url": "https://toyhypeusa.com/2026/10/09/bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders-ends-today/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders-ends-today",
    "source": "Toy Hype USA",
    "iso": "2026-10-09T15:07:17+00:00"
-  },
-  {
-   "title": "NECA's Ultimate Santa's Slay Ghost Face Returns with Wider Release",
-   "url": "https://bleedingcool.com/collectibles/necas-ultimate-santas-slay-ghost-face-returns-with-wider-release/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-09T14:52:08+00:00"
-  },
-  {
-   "title": "Walmart Collector Con October 2026 Preview",
-   "url": "https://toyhabits.com/walmart-collector-con-october-2026-preview/",
-   "source": "Toy Habits",
-   "iso": "2026-10-09T14:45:58+00:00"
-  },
-  {
-   "title": "Embrace the Winter with NECA's Exclusive TMNT x Usagi Yojimbo Set",
-   "url": "https://bleedingcool.com/collectibles/embrace-the-winter-with-necas-exclusive-tmnt-x-usagi-yojimbo-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-09T14:22:10+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-11T15:47:12+00:00",
+  "updatedISO": "2026-10-12T07:27:13+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 112,
-    "change": 28
+    "perDay": 120,
+    "change": 38
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 23908,
-    "change": 8
+    "perDay": 23420,
+    "change": 5
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2295,
-    "change": 5
+    "perDay": 2251,
+    "change": 2
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 634,
-    "change": 2
+    "perDay": 601,
+    "change": -4
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 970,
-    "change": -4
-   },
-   {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 3,
-    "change": -5
+    "perDay": 951,
+    "change": -6
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 70,
-    "change": -9
+    "perDay": 71,
+    "change": -7
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2066,
+    "perDay": 2072,
+    "change": -9
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2064,
     "change": -10
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 144,
-    "change": -10
+    "perDay": 142,
+    "change": -11
    },
    {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2024,
-    "change": -12
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 2,
+    "change": -22
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 856,
-    "change": -27
+    "perDay": 834,
+    "change": -28
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 553,
-    "change": -29
+    "perDay": 534,
+    "change": -31
    }
   ],
   "missed": []
