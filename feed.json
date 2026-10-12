@@ -1,17 +1,100 @@
 {
- "updatedISO": "2026-10-12T07:27:13+00:00",
+ "updatedISO": "2026-10-12T17:59:38+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Exclusive Star Wars: TBS Dewback & Sandtrooper 2-Pack Revealed",
+   "url": "https://bleedingcool.com/collectibles/exclusive-star-wars-tbs-dewback-sandtrooper-2-pack-revealed/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T17:53:10+00:00"
+  },
+  {
+   "title": "Marvel Legends Avengers: Doomsday Marvel's Beast Figure Revealed",
+   "url": "https://bleedingcool.com/collectibles/marvel-legends-avengers-doomsday-marvels-beast-figure-revealed/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T16:53:10+00:00"
+  },
+  {
+   "title": "D&D x Star Wars books revealed at New York Comic Con #NYCC 2026",
+   "url": "https://www.actionfigureinsider.com/dd-x-star-wars-books-revealed-at-new-york-comic-con-nycc-2026/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-12T16:30:55+00:00"
+  },
+  {
+   "title": "Nightcrawler Joins Hasbro's Avengers: Doomsday Marvel Legends Line",
+   "url": "https://bleedingcool.com/collectibles/nightcrawler-joins-hasbros-avengers-doomsday-marvel-legends-line/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T16:22:10+00:00"
+  },
+  {
+   "title": "#NYCC 2026 – @Hasbro #Transformers Panel Reveals",
+   "url": "https://www.actionfigureinsider.com/nycc-2026-hasbro-transformers-panel-reveals/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-12T16:18:18+00:00"
+  },
+  {
+   "title": "McFarlane Toys Spawn Warlock from Diablo Immortal 7″ Elite Edition Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/12/mcfarlane-toys-spawn-warlock-from-diablo-immortal-elite-edition-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-spawn-warlock-from-diablo-immortal-elite-edition-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-12T16:00:41+00:00"
+  },
+  {
+   "title": "Hasbro Debuts Avengers: Doomsday Concept Series Lord Doom Figure",
+   "url": "https://bleedingcool.com/collectibles/hasbro-debuts-avengers-doomsday-concept-series-lord-doom-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T15:53:09+00:00"
+  },
+  {
+   "title": "Hasbro Transformers Age of the Primes Armada Jetfire Figure Available Now & Shipping Update 2",
+   "url": "https://toyhypeusa.com/2026/10/12/hasbro-transformers-age-of-the-primes-armada-jetfire-figure-available-now-shipping-update-2/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-armada-jetfire-figure-available-now-shipping-update-2",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-12T15:52:10+00:00"
+  },
+  {
+   "title": "New Friendly Neighborhood Spider-Man vs. Rhino Marvel Legends Debuts",
+   "url": "https://bleedingcool.com/collectibles/new-friendly-neighborhood-spider-man-vs-rhino-marvel-legends-debuts/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T15:22:09+00:00"
+  },
+  {
+   "title": "Ghost Face Goes Deluxe with NECA's New ULTRAmate Series",
+   "url": "https://bleedingcool.com/collectibles/ghost-face-goes-deluxe-with-necas-new-ultramate-series/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T14:52:08+00:00"
+  },
+  {
+   "title": "Mer-Man Joins Mondo's Masters of the Universe 200X 1/12-Scale Line",
+   "url": "https://bleedingcool.com/collectibles/mer-man-joins-mondos-masters-of-the-universe-200x-1-12-scale-line/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T14:22:08+00:00"
+  },
+  {
+   "title": "Lord Doom Concept Series Marvel Legends Avengers Doomsday Official Images",
+   "url": "https://toyhabits.com/lord-doom-concept-series-marvel-legends-avengers-doomsday-official-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-12T14:17:14+00:00"
+  },
+  {
+   "title": "Detective Comics #880 Facsimile, Selling For $60 Thanks To LEGO",
+   "url": "https://bleedingcool.com/comics/detective-comics-880-facsimile-selling-for-60-thanks-to-lego/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T13:57:12+00:00"
+  },
+  {
+   "title": "New Star Wars: The Vintage Collection The Mandalorian 3-Pack Revealed",
+   "url": "https://bleedingcool.com/collectibles/new-star-wars-the-vintage-collection-the-mandalorian-3-pack-revealed/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-12T13:52:10+00:00"
+  },
   {
    "title": "Beast Kingdom – Star Trek Egg Attack Floating EAF-012 U.S.S. Enterprise NCC-1701 Pre-Orders",
    "url": "https://toyhypeusa.com/2026/10/12/beast-kingdom-star-trek-egg-attack-floating-eaf-012-uss-enterprise-ncc-1701-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=beast-kingdom-star-trek-egg-attack-floating-eaf-012-uss-enterprise-ncc-1701-pre-orders",
@@ -151,6 +234,12 @@
    "iso": "2026-10-10T14:19:58+00:00"
   },
   {
+   "title": "‘HELLUVA BOSS: THE SEVEN SIGILS’ BOARD GAME TO BEGIN CROWDFUNDING",
+   "url": "https://www.actionfigureinsider.com/helluva-boss-the-seven-sigils-board-game-to-begin-crowdfunding/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-10T14:00:25+00:00"
+  },
+  {
    "title": "Sonic Forces Rival Rush Brings High-Energy Races to Nex Playground",
    "url": "https://www.actionfigureinsider.com/sonic-forces-rival-rush-brings-high-energy-races-to-nex-playground/",
    "source": "Action Figure Insider",
@@ -191,96 +280,6 @@
    "url": "https://toyhabits.com/mondo-200x-mer-man-1-12-scale-figure-timed-edition-preorder-and-official-images/",
    "source": "Toy Habits",
    "iso": "2026-10-09T20:30:35+00:00"
-  },
-  {
-   "title": "NYCC 2026 – Hasbro G.I. Joe Classified 6″ Figures Revealed",
-   "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-hasbro-gijoe-classified-figures-revealed/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-hasbro-gijoe-classified-figures-revealed",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-09T20:00:28+00:00"
-  },
-  {
-   "title": "NYCC 2026 NECA Muppet Babies Booth Images",
-   "url": "https://toyhabits.com/nycc-2026-neca-muppet-babies-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-09T19:50:58+00:00"
-  },
-  {
-   "title": "NYCC 2026 – FanHome Booth Coverage",
-   "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-fanhome-booth-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-fanhome-booth-coverage",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-09T19:44:42+00:00"
-  },
-  {
-   "title": "NYCC 2026 NECA Muppets Booth Images",
-   "url": "https://toyhabits.com/nycc-2026-neca-muppets-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-09T19:31:47+00:00"
-  },
-  {
-   "title": "NYCC 2026 – LEGO Booth Coverage – New Batman Sets Revealed",
-   "url": "https://toyhypeusa.com/2026/10/09/nycc-2026-lego-booth-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-lego-booth-coverage",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-09T19:26:14+00:00"
-  },
-  {
-   "title": "Alien NECA NYCC 2026 Booth Images",
-   "url": "https://toyhabits.com/alien-neca-nycc-2026-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-09T19:14:29+00:00"
-  },
-  {
-   "title": "Sesame Street NYCC 2026 NECA Booth Images",
-   "url": "https://toyhabits.com/sesame-street-nycc-2026-neca-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-09T18:31:44+00:00"
-  },
-  {
-   "title": "McFarlane Toys DC Multiverse Green Lantern Corps Sinestro, & Plastic Man (The Terrifics) Figures Available Now",
-   "url": "https://toyhypeusa.com/2026/10/09/mcfarlane-toys-dc-multiverse-green-lantern-corps-sinestro-plastic-man-the-terrifics-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-green-lantern-corps-sinestro-plastic-man-the-terrifics-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-09T18:26:30+00:00"
-  },
-  {
-   "title": "LEGO Announces New Micro-Marvel Skyline Set with Galactus Minifig",
-   "url": "https://bleedingcool.com/collectibles/lego-announces-new-micro-marvel-skyline-set-with-galactus-minifig/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-09T17:23:08+00:00"
-  },
-  {
-   "title": "Select Hasbro Toys On Display at NYCC 2026",
-   "url": "https://toyhabits.com/select-hasbro-toys-on-display-at-nycc-2026/",
-   "source": "Toy Habits",
-   "iso": "2026-10-09T16:39:51+00:00"
-  },
-  {
-   "title": "Mattel Unveils New DC Premium Batman: Hush Rooftop Diorama Set",
-   "url": "https://bleedingcool.com/collectibles/mattel-unveils-new-dc-premium-batman-hush-rooftop-diorama-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-09T16:22:09+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars The Black Series 6″ Jedi Temple Guards Figure Set Available Now",
-   "url": "https://toyhypeusa.com/2026/10/09/hasbro-star-wars-tbs-jedi-temple-guards-figure-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-jedi-temple-guards-figure-set-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-09T15:58:47+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars: The Vintage Collection Mos Eisely Exclusive Figure Set Available Now",
-   "url": "https://toyhypeusa.com/2026/10/09/hasbro-star-wars-the-vintage-collection-mos-eisely-exclusive-figure-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-the-vintage-collection-mos-eisely-exclusive-figure-set-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-09T15:30:19+00:00"
-  },
-  {
-   "title": "McFarlane Toys Unveils Exclusive Elite Edition Absolute Batman Figure",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-unveils-exclusive-elite-edition-absolute-batman-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-09T15:22:10+00:00"
-  },
-  {
-   "title": "BigBadWorkShop – Soldiers of Fortune Wave 2 The Agent/The Enemy 1/12 Scale Figures Pre-Orders Ends Today",
-   "url": "https://toyhypeusa.com/2026/10/09/bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders-ends-today/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-soldiers-of-fortune-wave-2-the-agent-the-enemy-1-12-scale-figures-pre-orders-ends-today",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-09T15:07:17+00:00"
   }
  ],
  "trends": {
