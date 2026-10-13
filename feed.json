@@ -1,16 +1,89 @@
 {
- "updatedISO": "2026-10-13T07:46:46+00:00",
+ "updatedISO": "2026-10-13T16:05:20+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Jada Toys Ultra Street Fighter II Vega (Player 2) 1:12 Scale Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/13/jada-toys-ultra-street-fighter-ii-vega-player-2-112-scale-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=jada-toys-ultra-street-fighter-ii-vega-player-2-112-scale-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-13T16:03:37+00:00"
+  },
+  {
+   "title": "KRISPY KREME® Brings Fans a New Halloween Experiment with Limited-Time Looney Tunes™ Lab Dozen",
+   "url": "https://www.actionfigureinsider.com/krispy-kreme-brings-fans-a-new-halloween-experiment-with-limited-time-looney-tunes-lab-dozen/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-13T16:01:23+00:00"
+  },
+  {
+   "title": "New Marvel Legends X-Men '97 Havok Figure Revealed by Hasbro",
+   "url": "https://bleedingcool.com/collectibles/new-marvel-legends-x-men-97-havok-figure-revealed-by-hasbro/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-13T15:52:10+00:00"
+  },
+  {
+   "title": "All-New G.I. Joe Classified Series Revealed at New York Comic Con #NYCC 2026",
+   "url": "https://www.actionfigureinsider.com/all-new-g-i-joe-classified-series-revealed-at-new-york-comic-con-nycc-2026/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-13T15:26:53+00:00"
+  },
+  {
+   "title": "Star Wars: The Black Series Saesee Tiin Announced from Hasbro",
+   "url": "https://bleedingcool.com/collectibles/star-wars-the-black-series-saesee-tiin-announced-from-hasbro/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-13T14:52:10+00:00"
+  },
+  {
+   "title": "New Usagi Yojimbo x TMNT Spring Edition Collector's Set Revealed",
+   "url": "https://bleedingcool.com/collectibles/new-usagi-yojimbo-x-tmnt-spring-edition-collectors-set-revealed/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-13T14:22:09+00:00"
+  },
+  {
+   "title": "Mattel Supports the American Red Cross and Everyday Heroes with Global Giveback Campaign for Matchbox The Movie",
+   "url": "https://www.actionfigureinsider.com/mattel-supports-the-american-red-cross-and-everyday-heroes-with-global-giveback-campaign-for-matchbox-the-movie/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-13T13:39:10+00:00"
+  },
+  {
+   "title": "Zabrak Jedi Master Agen Kolar Coming to Star Wars: The Black Series",
+   "url": "https://bleedingcool.com/collectibles/zabrak-jedi-master-agen-kolar-coming-to-star-wars-the-black-series/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-13T13:22:10+00:00"
+  },
+  {
+   "title": "TFSource News! MPG-20 Hot Rod, Movie Masterpiece, Dramatic Capture, New Legends and More!",
+   "url": "https://www.toyark.com/2026/10/13/tfsource-news-mpg-20-hot-rod-movie-masterpiece-dramatic-capture-new-legends-and-more-601379",
+   "source": "The Toyark",
+   "iso": "2026-10-13T12:12:59+00:00"
+  },
+  {
+   "title": "Panini’s Mangaverse Football Brings Anime Art to the Gridiron",
+   "url": "https://www.actionfigureinsider.com/paninis-mangaverse-football-brings-anime-art-to-the-gridiron/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-13T12:00:33+00:00"
+  },
+  {
+   "title": "Diablo Immortal – Spawn Warlock McFarlane Elite Edition",
+   "url": "https://www.toyark.com/2026/10/13/diablo-immortal-spawn-warlock-mcfarlane-elite-edition-601361",
+   "source": "The Toyark",
+   "iso": "2026-10-13T11:58:43+00:00"
+  },
+  {
+   "title": "NECA ULTRAmate Ghost Face Figure",
+   "url": "https://www.toyark.com/2026/10/13/neca-ultramate-ghost-face-figure-601334",
+   "source": "The Toyark",
+   "iso": "2026-10-13T11:49:02+00:00"
+  },
   {
    "title": "Transformers Studio Series 2027 Wave 1 Official Images Revealed",
    "url": "https://toyhabits.com/transformers-studio-series-2027-wave-1-official-images-revealed/",
@@ -208,82 +281,10 @@
    "url": "https://toyhabits.com/gi-joe-classified-series-mad-marauders-footloose-mutt-junkyard-in-hand-review/",
    "source": "Toy Habits",
    "iso": "2026-10-11T18:32:21+00:00"
-  },
-  {
-   "title": "Hasbro New York Comic-Con 2026 Marvel & Star Wars Reveals",
-   "url": "https://toyhypeusa.com/2026/10/11/hasbro-nycc-2026-marvel-star-wars-reveals/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-nycc-2026-marvel-star-wars-reveals",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-11T17:16:40+00:00"
-  },
-  {
-   "title": "New Ways to Shop, Holiday Traditions to Keep: Walmart is Ready for the Season",
-   "url": "https://www.actionfigureinsider.com/new-ways-to-shop-holiday-traditions-to-keep-walmart-is-ready-for-the-season/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-11T12:00:00+00:00"
-  },
-  {
-   "title": "Sneak Attack Toys NYCC 2026 Booth Images",
-   "url": "https://toyhabits.com/sneak-attack-toys-nycc-2026-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-11T03:51:34+00:00"
-  },
-  {
-   "title": "Super7 TMNT Foot Ninja Wave 1 ReAction+ In Hand Review",
-   "url": "https://toyhabits.com/super7-tmnt-foot-ninja-wave-1-reaction-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-10-11T00:57:24+00:00"
-  },
-  {
-   "title": "NYCC 2026 – Bandai Namco Booth Coverage & Interview With David Edmundson",
-   "url": "https://toyhypeusa.com/2026/10/10/nycc-2026-bandai-namco-booth-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-bandai-namco-booth-coverage",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-11T00:26:28+00:00"
-  },
-  {
-   "title": "NYCC 2026 – McFarlane Toys Panel Coverage",
-   "url": "https://toyhypeusa.com/2026/10/10/nycc-2026-mcfarlane-toys-panel-coverage/?utm_source=rss&utm_medium=rss&utm_campaign=nycc-2026-mcfarlane-toys-panel-coverage",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-11T00:14:10+00:00"
-  },
-  {
-   "title": "Super7 Thundercats Deluxe Wave 5 Early Look",
-   "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-early-look/",
-   "source": "Toy Habits",
-   "iso": "2026-10-10T23:36:35+00:00"
-  },
-  {
-   "title": "NYCC: Marvel X Star Wars: Hope Assembles Adds An Issue & LEGO Spin-Off",
-   "url": "https://bleedingcool.com/comics/nycc-marvel-x-star-wars-hope-assembles-adds-an-issue-lego-spin-off/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-10T21:57:16+00:00"
-  },
-  {
-   "title": "DC Comics Blackest Night Superman Rises with Beast Kingdom Exclusive",
-   "url": "https://bleedingcool.com/collectibles/dc-comics-blackest-night-superman-rises-with-beast-kingdom-exclusive/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-10T18:22:08+00:00"
-  },
-  {
-   "title": "NECA Debuts Prey's Feral Predator as the First ULTRAmate Figure",
-   "url": "https://bleedingcool.com/collectibles/neca-debuts-preys-feral-predator-as-the-first-ultramate-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-10T17:22:07+00:00"
-  },
-  {
-   "title": "Batman and Joker Mezco NYCC 2026 Booth Images",
-   "url": "https://toyhabits.com/batman-and-joker-mezco-nycc-2026-booth-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-10T16:38:19+00:00"
-  },
-  {
-   "title": "From Endgame Encore to Doomsday: The Ultimate Avengers Gift Guide",
-   "url": "https://bleedingcool.com/collectibles/from-endgame-encore-to-doomsday-the-ultimate-avengers-gift-guide/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-10T16:22:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-13T00:47:59+00:00",
+  "updatedISO": "2026-10-13T16:05:20+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
