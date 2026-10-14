@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-14T20:46:40+00:00",
+ "updatedISO": "2026-10-14T23:57:16+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "BigBadToyStore News: Transformers, Marvel, My Hero Academia, The Tick, Coraline & More",
+   "url": "https://toyhypeusa.com/2026/10/14/bbts-transformers-marvel-my-hero-academia-the-tick-coraline/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-transformers-marvel-my-hero-academia-the-tick-coraline",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-14T23:16:27+00:00"
+  },
   {
    "title": "@Hasbro Unveils Epic New #MarvelLegends Reveals at New York Comic Con 2026 #NYCC",
    "url": "https://www.actionfigureinsider.com/hasbro-unveils-epic-new-marvellegends-reveals-at-new-york-comic-con-2026-nycc/",
@@ -272,12 +278,6 @@
   {
    "title": "Transformers Studio Series 2027 Wave 1 Official Images & Preorders",
    "url": "https://toyhabits.com/transformers-studio-series-2027-wave-1-official-images-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-10-13T04:37:14+00:00"
-  },
-  {
-   "title": "Transformers Studio Series 2027 Wave 1 Official Images Revealed",
-   "url": "https://toyhabits.com/transformers-studio-series-2027-wave-1-official-images-revealed/",
    "source": "Toy Habits",
    "iso": "2026-10-13T04:37:14+00:00"
   }
