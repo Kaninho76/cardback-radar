@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-14T23:57:16+00:00",
+ "updatedISO": "2026-10-15T04:47:33+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Laser Light Skeletor MOTU Origins Mattel Creations Exclusive In Hand Images",
+   "url": "https://toyhabits.com/laser-light-skeletor-motu-origins-mattel-creations-exclusive-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-15T00:26:23+00:00"
+  },
   {
    "title": "BigBadToyStore News: Transformers, Marvel, My Hero Academia, The Tick, Coraline & More",
    "url": "https://toyhypeusa.com/2026/10/14/bbts-transformers-marvel-my-hero-academia-the-tick-coraline/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-transformers-marvel-my-hero-academia-the-tick-coraline",
@@ -274,12 +281,6 @@
    "url": "https://www.toyark.com/2026/10/13/neca-ultramate-ghost-face-figure-601334",
    "source": "The Toyark",
    "iso": "2026-10-13T11:49:02+00:00"
-  },
-  {
-   "title": "Transformers Studio Series 2027 Wave 1 Official Images & Preorders",
-   "url": "https://toyhabits.com/transformers-studio-series-2027-wave-1-official-images-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-10-13T04:37:14+00:00"
   }
  ],
  "trends": {
