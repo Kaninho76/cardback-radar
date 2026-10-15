@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-10-15T04:47:33+00:00",
+ "updatedISO": "2026-10-15T10:01:58+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Mattel Masters of the Universe (2026) Battle for Eternia Playset Now $54.99",
+   "url": "https://toyhypeusa.com/2026/10/15/mattel-motu-2026-battle-for-eternia-playset-now-54-99-2/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-motu-2026-battle-for-eternia-playset-now-54-99-2",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-15T09:43:47+00:00"
+  },
   {
    "title": "Laser Light Skeletor MOTU Origins Mattel Creations Exclusive In Hand Images",
    "url": "https://toyhabits.com/laser-light-skeletor-motu-origins-mattel-creations-exclusive-in-hand-images/",
@@ -275,89 +280,83 @@
    "url": "https://www.toyark.com/2026/10/13/diablo-immortal-spawn-warlock-mcfarlane-elite-edition-601361",
    "source": "The Toyark",
    "iso": "2026-10-13T11:58:43+00:00"
-  },
-  {
-   "title": "NECA ULTRAmate Ghost Face Figure",
-   "url": "https://www.toyark.com/2026/10/13/neca-ultramate-ghost-face-figure-601334",
-   "source": "The Toyark",
-   "iso": "2026-10-13T11:49:02+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-14T20:46:40+00:00",
+  "updatedISO": "2026-10-15T10:01:58+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 128,
-    "change": 47
+    "perDay": 118,
+    "change": 30
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 75,
-    "change": 0
+    "perDay": 77,
+    "change": 4
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2192,
+    "perDay": 2174,
     "change": -1
    },
    {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 22031,
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2116,
     "change": -4
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2195,
+    "perDay": 2198,
     "change": -5
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 21581,
+    "change": -6
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 969,
-    "change": -5
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2088,
+    "perDay": 965,
     "change": -6
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 142,
-    "change": -10
+    "perDay": 138,
+    "change": -12
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 562,
-    "change": -11
+    "perDay": 552,
+    "change": -13
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 852,
+    "change": -21
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 546,
+    "change": -23
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -11
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 836,
     "change": -25
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 541,
-    "change": -26
    }
   ],
   "missed": []
