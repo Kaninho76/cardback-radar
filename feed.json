@@ -1,16 +1,29 @@
 {
- "updatedISO": "2026-10-15T15:05:18+00:00",
+ "updatedISO": "2026-10-15T19:12:33+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro Star Wars The Black Series 6″ Figures Pre-Orders For October 15th, 2026",
+   "url": "https://toyhypeusa.com/2026/10/15/hasbro-star-wars-the-black-series-figures-pre-orders-for-october-15th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-the-black-series-figures-pre-orders-for-october-15th-2026",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-15T17:02:57+00:00"
+  },
+  {
+   "title": "BigBadWorkShop – The Tick Longbox Heroes Prestige Wave 2 – The Terror & Man-Eating Cow Figures Unlocked & Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/15/bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-multiple-santa-figure-unlocked-pre-orders-2/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-multiple-santa-figure-unlocked-pre-orders-2",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-15T16:40:51+00:00"
+  },
   {
    "title": "Cyclops Hits the Streets with New Marvel Legends X-Men '97 Figure",
    "url": "https://bleedingcool.com/collectibles/cyclops-hits-the-streets-with-new-marvel-legends-x-men-97-figure/",
@@ -268,18 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/new-usagi-yojimbo-x-tmnt-spring-edition-collectors-set-revealed/",
    "source": "Bleeding Cool",
    "iso": "2026-10-13T14:22:09+00:00"
-  },
-  {
-   "title": "Mattel Supports the American Red Cross and Everyday Heroes with Global Giveback Campaign for Matchbox The Movie",
-   "url": "https://www.actionfigureinsider.com/mattel-supports-the-american-red-cross-and-everyday-heroes-with-global-giveback-campaign-for-matchbox-the-movie/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-13T13:39:10+00:00"
-  },
-  {
-   "title": "Zabrak Jedi Master Agen Kolar Coming to Star Wars: The Black Series",
-   "url": "https://bleedingcool.com/collectibles/zabrak-jedi-master-agen-kolar-coming-to-star-wars-the-black-series/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-13T13:22:10+00:00"
   }
  ],
  "trends": {
