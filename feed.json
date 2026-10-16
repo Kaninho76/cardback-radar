@@ -1,17 +1,41 @@
 {
- "updatedISO": "2026-10-16T07:15:27+00:00",
+ "updatedISO": "2026-10-16T12:30:44+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
   "The Toyark",
-  "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError"
+  "Bleeding Cool: ParseError",
+  "The Fwoosh: HTTP 500"
  ],
  "items": [
+  {
+   "title": "Ultra Street Fighter II – Jada Toys Vega Player 2 Entertainment Earth Exclusive",
+   "url": "https://www.toyark.com/2026/10/16/ultra-street-fighter-ii-jada-toys-vega-player-2-entertainment-earth-exclusive-601524",
+   "source": "The Toyark",
+   "iso": "2026-10-16T12:06:03+00:00"
+  },
+  {
+   "title": "TeeTurtle — creator of the patented Reversible Plush — is bringing the Justice League to Walmart stores",
+   "url": "https://www.actionfigureinsider.com/teeturtle-creator-of-the-patented-reversible-plush-is-bringing-the-justice-league-to-walmart-stores/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-16T12:00:47+00:00"
+  },
+  {
+   "title": "DC Comics – Beast Kingdom Absolute Batman Images and Details",
+   "url": "https://www.toyark.com/2026/10/16/dc-comics-beast-kingdom-absolute-batman-images-and-details-601511",
+   "source": "The Toyark",
+   "iso": "2026-10-16T11:53:39+00:00"
+  },
+  {
+   "title": "Godzilla: Final Wars – S.H. MonsterArts Keizer Ghidorah – Pre-Orders Available Now",
+   "url": "https://www.toyark.com/2026/10/16/godzilla-final-wars-s-h-monsterarts-keizer-ghidorah-601412",
+   "source": "The Toyark",
+   "iso": "2026-10-16T11:35:02+00:00"
+  },
   {
    "title": "Star Wars Black Series New Era 2027 Wave 1 + Multipack Live",
    "url": "https://www.toyark.com/2026/10/15/star-wars-black-series-new-era-2027-wave-1-multipack-live-601489",
@@ -257,107 +281,83 @@
    "url": "https://www.actionfigureinsider.com/fast-furious-hollywood-drift-review/",
    "source": "Action Figure Insider",
    "iso": "2026-10-13T21:22:47+00:00"
-  },
-  {
-   "title": "Hiya Toys Debuts New Godzilla 2000: Millennium (Final Battle) Figure",
-   "url": "https://bleedingcool.com/collectibles/hiya-toys-debuts-new-godzilla-2000-millennium-final-battle-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-13T19:22:08+00:00"
-  },
-  {
-   "title": "Exclusive Transformers Retro G1-Inspired Decepticon Exhaust Revealed",
-   "url": "https://bleedingcool.com/collectibles/exclusive-transformers-retro-g1-inspired-decepticon-exhaust-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-13T18:22:09+00:00"
-  },
-  {
-   "title": "New Marvel Comics Vindicator Marvel Legends Figure Coming Soon",
-   "url": "https://bleedingcool.com/collectibles/new-marvel-comics-vindicator-marvel-legends-figure-coming-soon/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-13T17:23:09+00:00"
-  },
-  {
-   "title": "Hasbro Transformers Studio Series Figures Pre-Orders For October 13th, 2026",
-   "url": "https://toyhypeusa.com/2026/10/13/hasbro-transformers-studio-series-figures-pre-orders-for-october-13th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-studio-series-figures-pre-orders-for-october-13th-2026",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-13T17:06:15+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-15T22:25:21+00:00",
+  "updatedISO": "2026-10-16T12:30:44+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 118,
-    "change": 30
+    "perDay": 112,
+    "change": 24
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 77,
-    "change": 4
+    "perDay": 79,
+    "change": 6
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2174,
-    "change": -1
+    "perDay": 2164,
+    "change": -2
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2116,
-    "change": -4
+    "perDay": 2120,
+    "change": -3
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2198,
+    "perDay": 2205,
+    "change": -4
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 958,
     "change": -5
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 21581,
-    "change": -6
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 965,
-    "change": -6
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 138,
-    "change": -12
+    "perDay": 21190,
+    "change": -9
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 552,
+    "perDay": 558,
+    "change": -12
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 136,
     "change": -13
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 852,
-    "change": -21
+    "perDay": 865,
+    "change": -18
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 546,
-    "change": -23
+    "perDay": 542,
+    "change": -22
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -25
+    "change": -42
    }
   ],
   "missed": []
