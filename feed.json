@@ -1,17 +1,76 @@
 {
- "updatedISO": "2026-10-16T12:30:44+00:00",
+ "updatedISO": "2026-10-16T17:28:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
+  "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError",
-  "The Fwoosh: HTTP 500"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Hasbro Reveals Star Wars: The Black Series Saga Collection Multipack",
+   "url": "https://bleedingcool.com/collectibles/hasbro-reveals-star-wars-the-black-series-saga-collection-multipack/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-16T17:23:08+00:00"
+  },
+  {
+   "title": "Boss Fight Studio – Hellboy Box Full of Evil 1:12 Scale Deluxe Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/16/boss-fight-studio-hellboy-box-full-of-evil-112-scale-deluxe-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-hellboy-box-full-of-evil-112-scale-deluxe-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-16T17:08:36+00:00"
+  },
+  {
+   "title": "Batman Goes Shirtless for Exclusive McFarlane Toys DC Multiverse Set",
+   "url": "https://bleedingcool.com/collectibles/batman-goes-shirtless-for-exclusive-mcfarlane-toys-dc-multiverse-set/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-16T16:22:09+00:00"
+  },
+  {
+   "title": "Jada Toys Ultra Street Fighter II: The Final Challengers Zangief (Player 2 Version) 1/12 Scale Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/16/jada-toys-ultra-street-fighter-ii-the-final-challengers-zangief-player-2-version-1-12-scale-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=jada-toys-ultra-street-fighter-ii-the-final-challengers-zangief-player-2-version-1-12-scale-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-16T16:18:11+00:00"
+  },
+  {
+   "title": "Zangief Player 2 BBTS Exclusive Ultra Street Fighter II by Jada Toys In Hand Review",
+   "url": "https://toyhabits.com/zangief-player-2-bbts-exclusive-ultra-street-fighter-ii-by-jada-toys-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-10-16T16:08:53+00:00"
+  },
+  {
+   "title": "Zangief Player 2 Ultra Street Fighter II by Jada Toys Preorder & Official Images",
+   "url": "https://toyhabits.com/zangief-player-2-ultra-street-fighter-ii-by-jada-toys-preorder-official-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-16T16:00:56+00:00"
+  },
+  {
+   "title": "Hot Toys Reveals New 1/6 Scale Avengers: Doomsday Beast Figure",
+   "url": "https://bleedingcool.com/collectibles/hot-toys-reveals-new-1-6-scale-avengers-doomsday-beast-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-16T15:23:08+00:00"
+  },
+  {
+   "title": "McFarlane Elite Edition Spawn Warlock x Diablo Immortal Figure Debuts",
+   "url": "https://bleedingcool.com/collectibles/mcfarlane-elite-edition-spawn-warlock-x-diablo-immortal-figure-debuts/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-16T14:22:08+00:00"
+  },
+  {
+   "title": "The Batman Who Laughs Returns to McFarlane Toys with New Exclusive",
+   "url": "https://bleedingcool.com/collectibles/the-batman-who-laughs-returns-to-mcfarlane-toys-with-new-exclusive/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-16T13:23:09+00:00"
+  },
+  {
+   "title": "Hasbro Star Wars: The Black Series Saga Collection Multipack Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/16/hasbro-star-wars-the-black-series-saga-collection-multipack-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-the-black-series-saga-collection-multipack-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-16T13:12:26+00:00"
+  },
   {
    "title": "Ultra Street Fighter II – Jada Toys Vega Player 2 Entertainment Earth Exclusive",
    "url": "https://www.toyark.com/2026/10/16/ultra-street-fighter-ii-jada-toys-vega-player-2-entertainment-earth-exclusive-601524",
@@ -221,66 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/the-muppet-show-the-great-gonzo-is-coming-soon-to-neca/",
    "source": "Bleeding Cool",
    "iso": "2026-10-14T13:22:08+00:00"
-  },
-  {
-   "title": "Godzilla: Final Wars – S.H. MonsterArts Keizer Ghidorah",
-   "url": "https://www.toyark.com/2026/10/14/godzilla-final-wars-s-h-monsterarts-keizer-ghidorah-601412",
-   "source": "The Toyark",
-   "iso": "2026-10-14T12:14:02+00:00"
-  },
-  {
-   "title": "Avengers: Doomsday – Hot Toys Beast Figure",
-   "url": "https://www.toyark.com/2026/10/14/avengers-doomsday-hot-toys-beast-figure-601382",
-   "source": "The Toyark",
-   "iso": "2026-10-14T12:02:14+00:00"
-  },
-  {
-   "title": "“Mike Judge’s Beavis and Butt-Head” Returns Wednesday, October 14th at 10:30 pm ET/PT on Comedy Central",
-   "url": "https://www.actionfigureinsider.com/mike-judges-beavis-and-butt-head-returns-wednesday-october-14th-at-1030-pm-et-pt-on-comedy-central/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-14T12:00:32+00:00"
-  },
-  {
-   "title": "BigBadWorkShop – The Tick Longbox Heroes Prestige Wave 2 – Multiple Santa Figure Unlocked & Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/14/bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-multiple-santa-figure-unlocked-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-multiple-santa-figure-unlocked-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-14T06:23:34+00:00"
-  },
-  {
-   "title": "52TOYS Alien Lightning Dance Series Xenomorph Special Edition Preorder",
-   "url": "https://toyhabits.com/52toys-alien-lightning-dance-series-xenomorph-special-edition-figure-up-for-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-10-14T00:42:06+00:00"
-  },
-  {
-   "title": "Flip-Or and the Champions of Nefarity Wave 2 Kickstarter Is Live",
-   "url": "https://toyhabits.com/flip-or-and-the-champions-of-nefarity-wave-2-kickstarter-is-live/",
-   "source": "Toy Habits",
-   "iso": "2026-10-13T23:43:50+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series 6″ King Cobra Commander with Throne Set Available Now",
-   "url": "https://toyhypeusa.com/2026/10/13/hasbro-gijoe-classified-series-king-cobra-commander-with-throne-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-king-cobra-commander-with-throne-set-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-13T22:08:04+00:00"
-  },
-  {
-   "title": "The Last Boy Scout 4K (Arrow Video) Review!",
-   "url": "https://www.actionfigureinsider.com/the-last-boy-scout-4k-arrow-video-review/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-13T21:59:09+00:00"
-  },
-  {
-   "title": "Flame Toys Transformers Kuro Kara Kuri Ultra Magnus (White Version) Figure Now $299",
-   "url": "https://toyhypeusa.com/2026/10/13/flame-toys-transformers-kuro-kara-kuri-ultra-magnus-white-version-figure-now-299/?utm_source=rss&utm_medium=rss&utm_campaign=flame-toys-transformers-kuro-kara-kuri-ultra-magnus-white-version-figure-now-299",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-13T21:58:36+00:00"
-  },
-  {
-   "title": "Fast & Furious: Hollywood Drift Review",
-   "url": "https://www.actionfigureinsider.com/fast-furious-hollywood-drift-review/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-13T21:22:47+00:00"
   }
  ],
  "trends": {
