@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-16T01:25:42+00:00",
+ "updatedISO": "2026-10-16T07:15:27+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Star Wars Black Series New Era 2027 Wave 1 + Multipack Live",
+   "url": "https://www.toyark.com/2026/10/15/star-wars-black-series-new-era-2027-wave-1-multipack-live-601489",
+   "source": "The Toyark",
+   "iso": "2026-10-16T01:48:13+00:00"
+  },
   {
    "title": "The Star Wars Black Series Saga Edition Multipack Preorders",
    "url": "https://toyhabits.com/the-star-wars-black-series-saga-edition-multipack-preorders/",
@@ -274,12 +281,6 @@
    "url": "https://toyhypeusa.com/2026/10/13/hasbro-transformers-studio-series-figures-pre-orders-for-october-13th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-studio-series-figures-pre-orders-for-october-13th-2026",
    "source": "Toy Hype USA",
    "iso": "2026-10-13T17:06:15+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified 6″ H.E.A.T. Viper, Daina, Shipwreck, Althea & Hardball Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/13/hasbro-gijoe-classified-heatt-viper-daina-shipwreck-althea-hardball-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-heatt-viper-daina-shipwreck-althea-hardball-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-13T17:04:37+00:00"
   }
  ],
  "trends": {
