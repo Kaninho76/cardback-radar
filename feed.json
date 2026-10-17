@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-10-17T04:36:19+00:00",
+ "updatedISO": "2026-10-17T09:26:40+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "McFarlane Toys MLB SportsPicks Wave 2 Figures Up for Preorder",
