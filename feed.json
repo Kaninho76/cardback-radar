@@ -1,17 +1,34 @@
 {
- "updatedISO": "2026-10-17T09:26:40+00:00",
+ "updatedISO": "2026-10-17T13:46:43+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "MOTU Chronicles Version 2 He-Man Official Images Finally Surface",
+   "url": "https://toyhabits.com/motu-chronicles-version-2-he-man-official-images-finally-surface/",
+   "source": "Toy Habits",
+   "iso": "2026-10-17T13:08:56+00:00"
+  },
+  {
+   "title": "BigBadToyStore – Save 26-47% on Select Heatboys Teenage Mutant Ninja Turtles Figures",
+   "url": "https://toyhypeusa.com/2026/10/17/bigbadtoystore-save-26-47-on-select-heatboys-teenage-mutant-ninja-turtles-figures/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadtoystore-save-26-47-on-select-heatboys-teenage-mutant-ninja-turtles-figures",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-17T12:37:15+00:00"
+  },
+  {
+   "title": "Nintendo Kicks off Holiday Season With a Chance to Win a Trip to Visit Nintendo New York",
+   "url": "https://www.actionfigureinsider.com/nintendo-kicks-off-holiday-season-with-a-chance-to-win-a-trip-to-visit-nintendo-new-york/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-17T12:00:41+00:00"
+  },
   {
    "title": "McFarlane Toys MLB SportsPicks Wave 2 Figures Up for Preorder",
    "url": "https://toyhabits.com/mcfarlane-toys-mlb-sportspicks-wave-2-figures-up-for-preorder/",
@@ -263,24 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/neca-fully-reveals-new-elvira-mistress-of-the-dark-ultimate-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-10-14T17:22:08+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Avengers: Doomsday Lord Doom, Beast & Nightcrawler Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/14/hasbro-marvel-legends-series-avengers-doomsday-dr-doom-variant-beast-nightcrawler-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-avengers-doomsday-dr-doom-variant-beast-nightcrawler-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-14T17:02:57+00:00"
-  },
-  {
-   "title": "NYCC 2026: Marvel Legends Avengers Doomsday Wave 2 Figures! Beast! Nightcrawler!",
-   "url": "https://marveltoynews.com/nycc-2026-marvel-legends-avengers-doomsday-wave-2-figures-beast-nightcrawler/",
-   "source": "Marvel Toy News",
-   "iso": "2026-10-14T17:02:31+00:00"
-  },
-  {
-   "title": "VisionQuest Is Here! A Closer Look at Hot Toys' White Vision Figure",
-   "url": "https://bleedingcool.com/collectibles/visionquest-is-here-a-closer-look-at-hot-toys-white-vision-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-14T16:23:10+00:00"
   }
  ],
  "trends": {
