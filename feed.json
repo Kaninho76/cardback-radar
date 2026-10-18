@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-18T06:00:17+00:00",
+ "updatedISO": "2026-10-18T11:15:18+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Star Wars: The Black Series Saga in The Daily LITG, 18th October 2026",
+   "url": "https://bleedingcool.com/collectibles/star-wars-the-black-series-saga-in-the-daily-litg-18th-october-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-18T09:57:09+00:00"
+  },
   {
    "title": "Hasbro Marvel Legends Series 6″ X-Men ’97 Beast Figure Pre-Orders (Update 3)",
    "url": "https://toyhypeusa.com/2026/10/17/hasbro-marvel-legends-series-x-men-97-beast-figure-pre-orders-update-3/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-97-beast-figure-pre-orders-update-3",
@@ -274,12 +280,6 @@
    "url": "https://toyhypeusa.com/2026/10/14/bbts-transformers-marvel-my-hero-academia-the-tick-coraline/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-transformers-marvel-my-hero-academia-the-tick-coraline",
    "source": "Toy Hype USA",
    "iso": "2026-10-14T23:16:27+00:00"
-  },
-  {
-   "title": "@Hasbro Unveils Epic New #MarvelLegends Reveals at New York Comic Con 2026 #NYCC",
-   "url": "https://www.actionfigureinsider.com/hasbro-unveils-epic-new-marvellegends-reveals-at-new-york-comic-con-2026-nycc/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-14T20:15:19+00:00"
   }
  ],
  "trends": {
