@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-18T01:07:36+00:00",
+ "updatedISO": "2026-10-18T06:00:17+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Series 6″ X-Men ’97 Beast Figure Pre-Orders (Update 3)",
+   "url": "https://toyhypeusa.com/2026/10/17/hasbro-marvel-legends-series-x-men-97-beast-figure-pre-orders-update-3/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-97-beast-figure-pre-orders-update-3",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-18T03:49:58+00:00"
+  },
+  {
+   "title": "Hasbro Street Fighter The Movie Figures Wave 1 In Stock On Walmart",
+   "url": "https://toyhabits.com/hasbro-street-fighter-the-movie-figures-wave-1-in-stock-on-walmart/",
+   "source": "Toy Habits",
+   "iso": "2026-10-18T02:16:24+00:00"
+  },
   {
    "title": "@Hasbro Launches Priorities ACOTAR Edition Ahead of Book 6 Launch",
    "url": "https://www.actionfigureinsider.com/hasbro-launches-priorities-acotar-edition-ahead-of-book-6-launch/",
@@ -268,35 +280,23 @@
    "url": "https://www.actionfigureinsider.com/hasbro-unveils-epic-new-marvellegends-reveals-at-new-york-comic-con-2026-nycc/",
    "source": "Action Figure Insider",
    "iso": "2026-10-14T20:15:19+00:00"
-  },
-  {
-   "title": "Hasbro Transformers: Age of the Primes Leader Class Megazarak Figure Review",
-   "url": "https://toyhypeusa.com/2026/10/14/hasbro-transformers-age-of-the-primes-leader-class-megazarak-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-leader-class-megazarak-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-14T19:59:48+00:00"
-  },
-  {
-   "title": "Marvel Legends Avengers Doomsday NYCC Reveals Live",
-   "url": "https://www.toyark.com/2026/10/14/marvel-legends-avengers-doomsday-nycc-reveals-live-601426",
-   "source": "The Toyark",
-   "iso": "2026-10-14T19:14:33+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-17T17:17:14+00:00",
+  "updatedISO": "2026-10-18T06:00:17+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
     "perDay": 108,
-    "change": 21
+    "change": 22
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 79,
-    "change": 7
+    "change": 8
    },
    {
     "label": "Godzilla",
@@ -320,13 +320,13 @@
     "label": "Kaiju",
     "article": "Kaiju",
     "perDay": 945,
-    "change": -5
+    "change": -4
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
     "perDay": 20891,
-    "change": -10
+    "change": -11
    },
    {
     "label": "Actiefiguren",
@@ -338,7 +338,7 @@
     "label": "G.I. Joe",
     "article": "G.I._Joe",
     "perDay": 557,
-    "change": -12
+    "change": -13
    },
    {
     "label": "He-Man",
@@ -356,7 +356,7 @@
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -58
+    "change": -57
    }
   ],
   "missed": []
