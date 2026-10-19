@@ -1,17 +1,58 @@
 {
- "updatedISO": "2026-10-19T07:53:25+00:00",
+ "updatedISO": "2026-10-19T15:40:54+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Hello Kitty Gets the Royal Treatment with New Burger King Kids' Meal",
+   "url": "https://bleedingcool.com/collectibles/hello-kitty-gets-the-royal-treatment-with-new-burger-king-kids-meal/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-19T15:22:09+00:00"
+  },
+  {
+   "title": "The LEGO Group invites fans to mash-up STAR WARS™ and MARVEL universes for the first time ever in LEGO Ideas® challenge",
+   "url": "https://www.actionfigureinsider.com/the-lego-group-invites-fans-to-mash-up-star-wars-and-marvel-universes-for-the-first-time-ever-in-lego-ideas-challenge/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-19T15:00:24+00:00"
+  },
+  {
+   "title": "The Nacelle Company Biker Mice From Mars – Judge Dredd x Biker Mice From Mars Throttle’s Martian Lawmonster Figure & Vehicle Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/19/the-nacelle-company-biker-mice-from-mars-judge-dredd-x-biker-mice-from-mars-throttles-martian-lawmonster-figure-vehicle-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=the-nacelle-company-biker-mice-from-mars-judge-dredd-x-biker-mice-from-mars-throttles-martian-lawmonster-figure-vehicle-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-19T14:15:02+00:00"
+  },
+  {
+   "title": "McFarlane Toys Announces Licensing Agreement with Crystal Dynamics for Lara Croft Action Figures",
+   "url": "https://www.actionfigureinsider.com/mcfarlane-toys-announces-licensing-agreement-with-crystal-dynamics-for-lara-croft-action-figures/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-19T14:11:17+00:00"
+  },
+  {
+   "title": "HIKARU SULU ACTION FIGURE RENDER REVEALED FROM WAVE THREE OF NACELLE’S ACCLAIMED STAR TREK ACTION FIGURE LINE",
+   "url": "https://www.actionfigureinsider.com/hikaru-sulu-action-figure-render-revealed-from-wave-three-of-nacelles-acclaimed-star-trek-action-figure-line/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-19T12:00:26+00:00"
+  },
+  {
+   "title": "Hasbro Transformers: Age of the Primes Autobot Blanker Figure Review",
+   "url": "https://toyhypeusa.com/2026/10/19/hasbro-transformers-age-of-the-primes-autobot-blanker-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-autobot-blanker-figure-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-19T09:42:33+00:00"
+  },
+  {
+   "title": "Star Wars: The Black Series Saga in The Daily LITG, 19th October 2026",
+   "url": "https://bleedingcool.com/collectibles/star-wars-the-black-series-saga-in-the-daily-litg-19th-october-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-19T09:14:07+00:00"
+  },
   {
    "title": "Mezco Toyz Marvel One:12 Collective Doctor Octopus Figure (ReIssue) Pre-Orders",
    "url": "https://toyhypeusa.com/2026/10/18/mezco-toyz-marvel-one12-collective-doctor-octopus-figure-reissue-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mezco-toyz-marvel-one12-collective-doctor-octopus-figure-reissue-pre-orders",
@@ -239,48 +280,6 @@
    "url": "https://www.toyark.com/2026/10/15/star-wars-black-series-new-era-2027-wave-1-multipack-live-601489",
    "source": "The Toyark",
    "iso": "2026-10-16T01:48:13+00:00"
-  },
-  {
-   "title": "The Star Wars Black Series Saga Edition Multipack Preorders",
-   "url": "https://toyhabits.com/the-star-wars-black-series-saga-edition-multipack-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-10-15T23:54:01+00:00"
-  },
-  {
-   "title": "SPONSOR NEWS: BBTS News — Transformers, Marvel, My Hero Academia, The Tick, Coraline & More!",
-   "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-transformers-marvel-my-hero-academia-the-tick-coraline-more/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-15T20:38:58+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars The Black Series & The Vintage Collection Rotta The Hutt Figures Available Now",
-   "url": "https://toyhypeusa.com/2026/10/15/hasbro-star-wars-tbs-tvc-rotta-the-hutt-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-tvc-rotta-the-hutt-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-15T20:37:59+00:00"
-  },
-  {
-   "title": "The Arrow Films Shocktober 2026 Sale Is Officially Live!",
-   "url": "https://www.actionfigureinsider.com/the-arrow-films-shocktober-2026-sale-is-officially-live/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-15T19:32:12+00:00"
-  },
-  {
-   "title": "Hasbro Transformers: Age of the Primes Deluxe Class Autobot Joyride Figure Review",
-   "url": "https://toyhypeusa.com/2026/10/15/hasbro-transformers-age-of-the-primes-deluxe-class-autobot-joyride-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-deluxe-class-autobot-joyride-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-15T19:29:24+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars The Black Series 6″ Figures Pre-Orders For October 15th, 2026",
-   "url": "https://toyhypeusa.com/2026/10/15/hasbro-star-wars-the-black-series-figures-pre-orders-for-october-15th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-the-black-series-figures-pre-orders-for-october-15th-2026",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-15T17:02:57+00:00"
-  },
-  {
-   "title": "BigBadWorkShop – The Tick Longbox Heroes Prestige Wave 2 – The Terror & Man-Eating Cow Figures Unlocked & Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/15/bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-multiple-santa-figure-unlocked-pre-orders-2/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-multiple-santa-figure-unlocked-pre-orders-2",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-15T16:40:51+00:00"
   }
  ],
  "trends": {
