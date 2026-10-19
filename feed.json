@@ -1,16 +1,41 @@
 {
- "updatedISO": "2026-10-19T15:40:54+00:00",
+ "updatedISO": "2026-10-19T21:08:30+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Killer Klowns from Outer Space – Mezco One:12 Collective Jumbo",
+   "url": "https://www.toyark.com/2026/10/19/killer-klowns-from-outer-space-mezco-one12-collective-jumbo-601566",
+   "source": "The Toyark",
+   "iso": "2026-10-19T20:37:36+00:00"
+  },
+  {
+   "title": "Super7 G.I. Joe ReAction+ Wave 10 Now In Stock",
+   "url": "https://toyhabits.com/super7-g-i-joe-reaction-wave-10-now-in-stock/",
+   "source": "Toy Habits",
+   "iso": "2026-10-19T19:03:08+00:00"
+  },
+  {
+   "title": "Ankama’s Welsh & Shedar Arrives Worldwide on the Krosmoz YouTube Channel this November",
+   "url": "https://www.actionfigureinsider.com/ankamas-welsh-shedar-arrives-worldwide-on-the-krosmoz-youtube-channel-this-november/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-19T18:59:05+00:00"
+  },
+  {
+   "title": "Super7 G.I. Joe ReAction+ Wave 10 – Flint, Shipwreck, Baroness (Arctic) & SNAKE Armor Figures Available Now & Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/19/super7-gijoe-reaction-wave-10-flint-shipwreck-baroness-arctic-snake-armor-figures-available-now-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-gijoe-reaction-wave-10-flint-shipwreck-baroness-arctic-snake-armor-figures-available-now-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-19T16:17:35+00:00"
+  },
   {
    "title": "Hello Kitty Gets the Royal Treatment with New Burger King Kids' Meal",
    "url": "https://bleedingcool.com/collectibles/hello-kitty-gets-the-royal-treatment-with-new-burger-king-kids-meal/",
@@ -256,47 +281,23 @@
    "url": "https://www.toyark.com/2026/10/16/ultra-street-fighter-ii-jada-toys-vega-player-2-entertainment-earth-exclusive-601524",
    "source": "The Toyark",
    "iso": "2026-10-16T12:06:03+00:00"
-  },
-  {
-   "title": "TeeTurtle — creator of the patented Reversible Plush — is bringing the Justice League to Walmart stores",
-   "url": "https://www.actionfigureinsider.com/teeturtle-creator-of-the-patented-reversible-plush-is-bringing-the-justice-league-to-walmart-stores/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-16T12:00:47+00:00"
-  },
-  {
-   "title": "DC Comics – Beast Kingdom Absolute Batman Images and Details",
-   "url": "https://www.toyark.com/2026/10/16/dc-comics-beast-kingdom-absolute-batman-images-and-details-601511",
-   "source": "The Toyark",
-   "iso": "2026-10-16T11:53:39+00:00"
-  },
-  {
-   "title": "Godzilla: Final Wars – S.H. MonsterArts Keizer Ghidorah – Pre-Orders Available Now",
-   "url": "https://www.toyark.com/2026/10/16/godzilla-final-wars-s-h-monsterarts-keizer-ghidorah-601412",
-   "source": "The Toyark",
-   "iso": "2026-10-16T11:35:02+00:00"
-  },
-  {
-   "title": "Star Wars Black Series New Era 2027 Wave 1 + Multipack Live",
-   "url": "https://www.toyark.com/2026/10/15/star-wars-black-series-new-era-2027-wave-1-multipack-live-601489",
-   "source": "The Toyark",
-   "iso": "2026-10-16T01:48:13+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-19T07:53:25+00:00",
+  "updatedISO": "2026-10-19T21:08:30+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 108,
-    "change": 21
-   },
-   {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 79,
-    "change": 8
+    "perDay": 80,
+    "change": 9
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 93,
+    "change": 1
    },
    {
     "label": "Godzilla",
@@ -307,56 +308,56 @@
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2141,
-    "change": -2
-   },
-   {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2140,
+    "perDay": 2118,
     "change": -3
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 945,
+    "perDay": 938,
     "change": -4
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2085,
+    "change": -6
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 139,
-    "change": -10
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 20891,
-    "change": -12
+    "perDay": 143,
+    "change": -7
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 557,
+    "perDay": 558,
+    "change": -12
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 20514,
     "change": -13
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 872,
-    "change": -16
+    "perDay": 882,
+    "change": -14
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 547,
-    "change": -20
+    "perDay": 548,
+    "change": -18
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 1,
-    "change": -58
+    "perDay": 2,
+    "change": -40
    }
   ],
   "missed": []
