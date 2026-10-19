@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-10-19T01:22:19+00:00",
+ "updatedISO": "2026-10-19T07:53:25+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "Mezco Toyz Marvel One:12 Collective Doctor Octopus Figure (ReIssue) Pre-Orders",
@@ -283,14 +284,14 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-18T18:11:12+00:00",
+  "updatedISO": "2026-10-19T07:53:25+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
     "perDay": 108,
-    "change": 22
+    "change": 21
    },
    {
     "label": "Marvel Legends",
@@ -323,16 +324,16 @@
     "change": -4
    },
    {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 20891,
-    "change": -11
-   },
-   {
     "label": "Actiefiguren",
     "article": "Action_figure",
     "perDay": 139,
-    "change": -11
+    "change": -10
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 20891,
+    "change": -12
    },
    {
     "label": "G.I. Joe",
@@ -344,7 +345,7 @@
     "label": "He-Man",
     "article": "He-Man",
     "perDay": 872,
-    "change": -17
+    "change": -16
    },
    {
     "label": "Masters of the Universe",
@@ -356,7 +357,7 @@
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -57
+    "change": -58
    }
   ],
   "missed": []
