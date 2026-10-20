@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-10-19T21:08:30+00:00",
+ "updatedISO": "2026-10-20T00:24:31+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "Killer Klowns from Outer Space – Mezco One:12 Collective Jumbo",
@@ -29,6 +28,18 @@
    "url": "https://www.actionfigureinsider.com/ankamas-welsh-shedar-arrives-worldwide-on-the-krosmoz-youtube-channel-this-november/",
    "source": "Action Figure Insider",
    "iso": "2026-10-19T18:59:05+00:00"
+  },
+  {
+   "title": "Doctor Who: Want to Own a Piece of The TARDIS? Here's How You Can",
+   "url": "https://bleedingcool.com/tv/doctor-who-want-to-own-a-piece-of-the-tardis-heres-how-you-can/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-19T16:37:09+00:00"
+  },
+  {
+   "title": "Disney Villains Take Over McDonald's with New Halloween Boo Buckets",
+   "url": "https://bleedingcool.com/collectibles/disney-villains-take-over-mcdonalds-with-new-halloween-boo-buckets/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-19T16:22:47+00:00"
   },
   {
    "title": "Super7 G.I. Joe ReAction+ Wave 10 – Flint, Shipwreck, Baroness (Arctic) & SNAKE Armor Figures Available Now & Pre-Orders",
@@ -269,18 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/the-batman-who-laughs-returns-to-mcfarlane-toys-with-new-exclusive/",
    "source": "Bleeding Cool",
    "iso": "2026-10-16T13:23:09+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars: The Black Series Saga Collection Multipack Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/16/hasbro-star-wars-the-black-series-saga-collection-multipack-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-the-black-series-saga-collection-multipack-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-16T13:12:26+00:00"
-  },
-  {
-   "title": "Ultra Street Fighter II – Jada Toys Vega Player 2 Entertainment Earth Exclusive",
-   "url": "https://www.toyark.com/2026/10/16/ultra-street-fighter-ii-jada-toys-vega-player-2-entertainment-earth-exclusive-601524",
-   "source": "The Toyark",
-   "iso": "2026-10-16T12:06:03+00:00"
   }
  ],
  "trends": {
