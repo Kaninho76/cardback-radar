@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-10-20T00:24:31+00:00",
+ "updatedISO": "2026-10-20T06:05:48+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "Killer Klowns from Outer Space – Mezco One:12 Collective Jumbo",
