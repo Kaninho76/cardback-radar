@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-20T20:39:02+00:00",
+ "updatedISO": "2026-10-20T23:57:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Fantastic Four Super-Skrull (ReIssue) Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/10/20/hasbro-marvel-legends-series-fantastic-four-super-skrull-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-fantastic-four-super-skrull-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-20T22:24:11+00:00"
+  },
   {
    "title": "LEGO DC Arkham Batman Batmobile 67009 & Batman Returns Batmobile & Duck 67008 Sets Pre-Orders",
    "url": "https://toyhypeusa.com/2026/10/20/lego-dc-arkham-batman-batmobile-67009-batman-returns-batmobile-duck-67008-sets-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=lego-dc-arkham-batman-batmobile-67009-batman-returns-batmobile-duck-67008-sets-pre-orders",
@@ -274,16 +281,10 @@
    "url": "https://toyhypeusa.com/2026/10/16/boss-fight-studio-hellboy-box-full-of-evil-112-scale-deluxe-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-hellboy-box-full-of-evil-112-scale-deluxe-figure-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-16T17:08:36+00:00"
-  },
-  {
-   "title": "Batman Goes Shirtless for Exclusive McFarlane Toys DC Multiverse Set",
-   "url": "https://bleedingcool.com/collectibles/batman-goes-shirtless-for-exclusive-mcfarlane-toys-dc-multiverse-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-16T16:22:09+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-20T11:47:05+00:00",
+  "updatedISO": "2026-10-20T23:57:35+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
