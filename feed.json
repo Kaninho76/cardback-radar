@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-10-20T06:05:48+00:00",
+ "updatedISO": "2026-10-20T11:47:05+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Star Wars: The Black Series Saga in The Daily LITG, 20th October 2026",
+   "url": "https://bleedingcool.com/collectibles/star-wars-the-black-series-saga-in-the-daily-litg-20th-october-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-20T09:58:08+00:00"
+  },
   {
    "title": "Killer Klowns from Outer Space – Mezco One:12 Collective Jumbo",
    "url": "https://www.toyark.com/2026/10/19/killer-klowns-from-outer-space-mezco-one12-collective-jumbo-601566",
@@ -275,89 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/mcfarlane-elite-edition-spawn-warlock-x-diablo-immortal-figure-debuts/",
    "source": "Bleeding Cool",
    "iso": "2026-10-16T14:22:08+00:00"
-  },
-  {
-   "title": "The Batman Who Laughs Returns to McFarlane Toys with New Exclusive",
-   "url": "https://bleedingcool.com/collectibles/the-batman-who-laughs-returns-to-mcfarlane-toys-with-new-exclusive/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-16T13:23:09+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-19T21:08:30+00:00",
+  "updatedISO": "2026-10-20T11:47:05+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 80,
+    "perDay": 79,
     "change": 9
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 93,
-    "change": 1
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2203,
-    "change": -2
+    "perDay": 2168,
+    "change": 0
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2118,
+    "perDay": 2110,
     "change": -3
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 938,
-    "change": -4
-   },
-   {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2085,
-    "change": -6
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 143,
+    "perDay": 146,
+    "change": -3
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 90,
+    "change": -4
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 916,
+    "change": -6
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2051,
     "change": -7
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 558,
-    "change": -12
+    "perDay": 569,
+    "change": -10
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 20514,
-    "change": -13
+    "perDay": 20370,
+    "change": -14
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 882,
+    "perDay": 877,
     "change": -14
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 548,
-    "change": -18
+    "perDay": 538,
+    "change": -19
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -40
+    "change": -42
    }
   ],
   "missed": []
