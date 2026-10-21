@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-10-20T23:57:35+00:00",
+ "updatedISO": "2026-10-21T04:56:17+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "Hasbro Marvel Legends Series 6″ Fantastic Four Super-Skrull (ReIssue) Figure Available Now",
