@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-10-21T15:20:24+00:00",
+ "updatedISO": "2026-10-21T19:23:01+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError",
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "NYCC 2026: Marvel Legends X-Men 97 Wave 4 Figures Up for Order! Polaris! Havok! Death!",
+   "url": "https://marveltoynews.com/nycc-2026-marvel-legends-x-men-97-wave-4-figures-up-for-order-polaris-havok-death/",
+   "source": "Marvel Toy News",
+   "iso": "2026-10-21T17:06:58+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ X-Men ’97 Wave 4 Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-xmen-97-wave-4-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-xmen-97-wave-4-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-21T17:00:41+00:00"
+  },
+  {
+   "title": "McFarlane Toys God of War Wave 2 – Kratos & Zeus Gaming Edition, God of War Ragnarok Kratos Elite Edition Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/21/mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-21T16:05:34+00:00"
+  },
   {
    "title": "BroToys – Resident Evil Agent Wang 1/12 Scale Figure Pre-Orders",
    "url": "https://toyhypeusa.com/2026/10/21/brotoys-resident-evil-agent-wang-1-12-scale-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=brotoys-resident-evil-agent-wang-1-12-scale-figure-pre-orders",
@@ -262,24 +281,6 @@
    "url": "https://toyhabits.com/motu-chronicles-version-2-he-man-official-images-finally-surface/",
    "source": "Toy Habits",
    "iso": "2026-10-17T13:08:56+00:00"
-  },
-  {
-   "title": "BigBadToyStore – Save 26-47% on Select Heatboys Teenage Mutant Ninja Turtles Figures",
-   "url": "https://toyhypeusa.com/2026/10/17/bigbadtoystore-save-26-47-on-select-heatboys-teenage-mutant-ninja-turtles-figures/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadtoystore-save-26-47-on-select-heatboys-teenage-mutant-ninja-turtles-figures",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-17T12:37:15+00:00"
-  },
-  {
-   "title": "Nintendo Kicks off Holiday Season With a Chance to Win a Trip to Visit Nintendo New York",
-   "url": "https://www.actionfigureinsider.com/nintendo-kicks-off-holiday-season-with-a-chance-to-win-a-trip-to-visit-nintendo-new-york/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-17T12:00:41+00:00"
-  },
-  {
-   "title": "McFarlane Toys MLB SportsPicks Wave 2 Figures Up for Preorder",
-   "url": "https://toyhabits.com/mcfarlane-toys-mlb-sportspicks-wave-2-figures-up-for-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-10-16T21:14:47+00:00"
   }
  ],
  "trends": {
