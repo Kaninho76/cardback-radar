@@ -1,17 +1,40 @@
 {
- "updatedISO": "2026-10-21T19:23:01+00:00",
+ "updatedISO": "2026-10-21T23:24:33+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError",
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Cel Shaded Spider-Man Retro (The Animated Series) Figure (ReIssue) Pre-Orders (Update)",
+   "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-cel-shaded-spider-man-retro-the-animated-series-figure-reissue-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-cel-shaded-spider-man-retro-the-animated-series-figure-reissue-pre-orders-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-21T20:15:05+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Avengers: The Crossing – Vision & Scarlet Witch Figures Review",
+   "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-avengers-the-crossing-vision-scarlet-witch-figures-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-avengers-the-crossing-vision-scarlet-witch-figures-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-21T20:11:10+00:00"
+  },
+  {
+   "title": "X-Men ’97 Marvel Legends Season 2 Preorders",
+   "url": "https://toyhabits.com/x-men-97-marvel-legends-season-2-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-10-21T17:54:11+00:00"
+  },
+  {
+   "title": "Mezco Toyz's One:12 Collective Adds Jumbo from Killer Klowns",
+   "url": "https://bleedingcool.com/collectibles/mezco-toyzs-one12-collective-adds-jumbo-from-killer-klowns/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-21T17:22:08+00:00"
+  },
   {
    "title": "NYCC 2026: Marvel Legends X-Men 97 Wave 4 Figures Up for Order! Polaris! Havok! Death!",
    "url": "https://marveltoynews.com/nycc-2026-marvel-legends-x-men-97-wave-4-figures-up-for-order-polaris-havok-death/",
@@ -25,10 +48,22 @@
    "iso": "2026-10-21T17:00:41+00:00"
   },
   {
+   "title": "Regal Robot Announces Life-Sized Star Wars Wicket Ewok Collectibles",
+   "url": "https://bleedingcool.com/collectibles/regal-robot-announces-life-sized-star-wars-wicket-ewok-collectibles/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-21T16:22:09+00:00"
+  },
+  {
    "title": "McFarlane Toys God of War Wave 2 – Kratos & Zeus Gaming Edition, God of War Ragnarok Kratos Elite Edition Figures Pre-Orders",
    "url": "https://toyhypeusa.com/2026/10/21/mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-21T16:05:34+00:00"
+  },
+  {
+   "title": "Blokees Reveals Transformers Jet Wing Optimus Prime (Black Ver.) Kit",
+   "url": "https://bleedingcool.com/collectibles/blokees-reveals-transformers-jet-wing-optimus-prime-black-ver-kit/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-21T15:22:07+00:00"
   },
   {
    "title": "BroToys – Resident Evil Agent Wang 1/12 Scale Figure Pre-Orders",
@@ -245,42 +280,6 @@
    "url": "https://www.actionfigureinsider.com/laliga-north-america-panini-america-extend-partnership-to-further-engage-soccers-growing-fanbase-in-u-s-through-gaming-grassroots/",
    "source": "Action Figure Insider",
    "iso": "2026-10-18T12:00:15+00:00"
-  },
-  {
-   "title": "Star Wars: The Black Series Saga in The Daily LITG, 18th October 2026",
-   "url": "https://bleedingcool.com/collectibles/star-wars-the-black-series-saga-in-the-daily-litg-18th-october-2026/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-18T09:57:09+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ X-Men ’97 Beast Figure Pre-Orders (Update 3)",
-   "url": "https://toyhypeusa.com/2026/10/17/hasbro-marvel-legends-series-x-men-97-beast-figure-pre-orders-update-3/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-97-beast-figure-pre-orders-update-3",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-18T03:49:58+00:00"
-  },
-  {
-   "title": "Hasbro Street Fighter The Movie Figures Wave 1 In Stock On Walmart",
-   "url": "https://toyhabits.com/hasbro-street-fighter-the-movie-figures-wave-1-in-stock-on-walmart/",
-   "source": "Toy Habits",
-   "iso": "2026-10-18T02:16:24+00:00"
-  },
-  {
-   "title": "@Hasbro Launches Priorities ACOTAR Edition Ahead of Book 6 Launch",
-   "url": "https://www.actionfigureinsider.com/hasbro-launches-priorities-acotar-edition-ahead-of-book-6-launch/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-17T15:00:41+00:00"
-  },
-  {
-   "title": "First 4 Figures reveals The Legend of Zelda™: Tears of the Kingdom – Zelda statue",
-   "url": "https://www.actionfigureinsider.com/first-4-figures-reveals-the-legend-of-zelda-tears-of-the-kingdom-zelda-statue/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-17T15:00:26+00:00"
-  },
-  {
-   "title": "MOTU Chronicles Version 2 He-Man Official Images Finally Surface",
-   "url": "https://toyhabits.com/motu-chronicles-version-2-he-man-official-images-finally-surface/",
-   "source": "Toy Habits",
-   "iso": "2026-10-17T13:08:56+00:00"
   }
  ],
  "trends": {
