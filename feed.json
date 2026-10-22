@@ -1,22 +1,63 @@
 {
- "updatedISO": "2026-10-22T20:12:31+00:00",
+ "updatedISO": "2026-10-22T23:26:04+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Star Wars Vintage Collection Razor Crest Encounter 3-Pack Preorder",
+   "url": "https://toyhabits.com/star-wars-vintage-collection-razor-crest-encounter-3-pack-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-10-22T22:01:40+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Gamerverse (Marvel vs Capcom) Iron Man Vs. Marvel’s Spiral Figures Review",
+   "url": "https://toyhypeusa.com/2026/10/22/hasbro-marvel-legends-series-6-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-6-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-22T20:41:58+00:00"
+  },
+  {
+   "title": "McFarlane Toys Debuts New Avengers: Doomsday The Thing Statue",
+   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-debuts-new-avengers-doomsday-the-thing-statue/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-22T19:22:08+00:00"
+  },
+  {
+   "title": "Slay this Halloween with Some of These Must-Have Horror Collectibles",
+   "url": "https://bleedingcool.com/collectibles/slay-this-halloween-with-some-of-these-must-have-horror-collectibles/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-22T17:52:08+00:00"
+  },
   {
    "title": "Hasbro Star Wars The Vintage Collection Razor Crest Encounter 3-Pack Figures Pre-Orders",
    "url": "https://toyhypeusa.com/2026/10/22/hasbro-star-wars-tvc-razor-crest-encounter-3-pack-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tvc-razor-crest-encounter-3-pack-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-22T17:01:52+00:00"
+  },
+  {
+   "title": "Mezco Toyz Debuts One:12 Collective Hopping Vampire: Jiangshi Figure",
+   "url": "https://bleedingcool.com/collectibles/mezco-toyz-debuts-one12-collective-hopping-vampire-jiangshi-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-22T16:52:09+00:00"
+  },
+  {
+   "title": "McFarlane Gaming Edition God of War Kratos Figure Announced",
+   "url": "https://bleedingcool.com/collectibles/mcfarlane-gaming-edition-god-of-war-kratos-figure-announced/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-22T16:22:07+00:00"
+  },
+  {
+   "title": "Blokees Reveals Transformers: Energon Universe Optimus Prime Kit",
+   "url": "https://bleedingcool.com/collectibles/blokees-reveals-transformers-energon-universe-optimus-prime-kit/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-22T15:22:08+00:00"
   },
   {
    "title": "Blokees Reveals Transformers Energon Universe Starscream Model Kit",
@@ -239,48 +280,6 @@
    "url": "https://www.actionfigureinsider.com/the-lego-group-invites-fans-to-mash-up-star-wars-and-marvel-universes-for-the-first-time-ever-in-lego-ideas-challenge/",
    "source": "Action Figure Insider",
    "iso": "2026-10-19T15:00:24+00:00"
-  },
-  {
-   "title": "The Nacelle Company Biker Mice From Mars – Judge Dredd x Biker Mice From Mars Throttle’s Martian Lawmonster Figure & Vehicle Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/19/the-nacelle-company-biker-mice-from-mars-judge-dredd-x-biker-mice-from-mars-throttles-martian-lawmonster-figure-vehicle-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=the-nacelle-company-biker-mice-from-mars-judge-dredd-x-biker-mice-from-mars-throttles-martian-lawmonster-figure-vehicle-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-19T14:15:02+00:00"
-  },
-  {
-   "title": "McFarlane Toys Announces Licensing Agreement with Crystal Dynamics for Lara Croft Action Figures",
-   "url": "https://www.actionfigureinsider.com/mcfarlane-toys-announces-licensing-agreement-with-crystal-dynamics-for-lara-croft-action-figures/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-19T14:11:17+00:00"
-  },
-  {
-   "title": "HIKARU SULU ACTION FIGURE RENDER REVEALED FROM WAVE THREE OF NACELLE’S ACCLAIMED STAR TREK ACTION FIGURE LINE",
-   "url": "https://www.actionfigureinsider.com/hikaru-sulu-action-figure-render-revealed-from-wave-three-of-nacelles-acclaimed-star-trek-action-figure-line/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-19T12:00:26+00:00"
-  },
-  {
-   "title": "Hasbro Transformers: Age of the Primes Autobot Blanker Figure Review",
-   "url": "https://toyhypeusa.com/2026/10/19/hasbro-transformers-age-of-the-primes-autobot-blanker-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-autobot-blanker-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-19T09:42:33+00:00"
-  },
-  {
-   "title": "Star Wars: The Black Series Saga in The Daily LITG, 19th October 2026",
-   "url": "https://bleedingcool.com/collectibles/star-wars-the-black-series-saga-in-the-daily-litg-19th-october-2026/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-19T09:14:07+00:00"
-  },
-  {
-   "title": "Mezco Toyz Marvel One:12 Collective Doctor Octopus Figure (ReIssue) Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/18/mezco-toyz-marvel-one12-collective-doctor-octopus-figure-reissue-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mezco-toyz-marvel-one12-collective-doctor-octopus-figure-reissue-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-18T23:07:53+00:00"
-  },
-  {
-   "title": "McFarlane Toys Previews Three Upcoming God of War Figures",
-   "url": "https://www.toyark.com/2026/10/18/mcfarlane-toys-previews-three-upcoming-god-of-war-figures-601559",
-   "source": "The Toyark",
-   "iso": "2026-10-18T21:58:16+00:00"
   }
  ],
  "trends": {
