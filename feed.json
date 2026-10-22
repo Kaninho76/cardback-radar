@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-22T15:20:50+00:00",
+ "updatedISO": "2026-10-22T20:12:31+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro Star Wars The Vintage Collection Razor Crest Encounter 3-Pack Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/22/hasbro-star-wars-tvc-razor-crest-encounter-3-pack-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tvc-razor-crest-encounter-3-pack-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-22T17:01:52+00:00"
+  },
   {
    "title": "Blokees Reveals Transformers Energon Universe Starscream Model Kit",
    "url": "https://bleedingcool.com/collectibles/blokees-reveals-transformers-energon-universe-starscream-model-kit/",
@@ -274,16 +281,10 @@
    "url": "https://www.toyark.com/2026/10/18/mcfarlane-toys-previews-three-upcoming-god-of-war-figures-601559",
    "source": "The Toyark",
    "iso": "2026-10-18T21:58:16+00:00"
-  },
-  {
-   "title": "Jada Toys Reveals Exclusive Player 2 Ultra Street Fighter II Vega",
-   "url": "https://bleedingcool.com/collectibles/jada-toys-reveals-exclusive-player-2-ultra-street-fighter-ii-vega/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-18T20:52:07+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-22T04:58:03+00:00",
+  "updatedISO": "2026-10-22T20:12:31+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
