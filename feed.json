@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-10-21T23:24:33+00:00",
+ "updatedISO": "2026-10-22T04:58:03+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "New Super7 G.I. Joe ReAction+ 2027 Leaked Listings Reveal New Waves, Ninja Force, and Mirrored Tomax & Xamot Arctic 2-Pack",
+   "url": "https://toyhabits.com/new-super7-g-i-joe-reaction-2027-leaked-listings-reveal-new-waves-ninja-force-and-mirrored-tomax-xamot-arctic-2-pack/",
+   "source": "Toy Habits",
+   "iso": "2026-10-22T02:48:14+00:00"
+  },
+  {
+   "title": "Hasbro Street Fighter The Movie Figures Ryu vs Ken In Hand Review",
+   "url": "https://toyhabits.com/hasbro-street-fighter-the-movie-figures-ryu-vs-ken-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-10-22T02:41:07+00:00"
+  },
+  {
+   "title": "BigBadToyStore News: X-Men, Anime sale, Street Fighter, Gundam, The Ring & More",
+   "url": "https://toyhypeusa.com/2026/10/21/bbts-x-men-anime-sale-street-fighter-gundam-the-ring/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-x-men-anime-sale-street-fighter-gundam-the-ring",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-21T23:26:00+00:00"
+  },
   {
    "title": "Hasbro Marvel Legends Series 6″ Cel Shaded Spider-Man Retro (The Animated Series) Figure (ReIssue) Pre-Orders (Update)",
    "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-cel-shaded-spider-man-retro-the-animated-series-figure-reissue-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-cel-shaded-spider-man-retro-the-animated-series-figure-reissue-pre-orders-update",
@@ -262,101 +281,83 @@
    "url": "https://bleedingcool.com/collectibles/beast-kingdom-fully-reveals-dc-comics-absolute-batman-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-10-18T16:51:08+00:00"
-  },
-  {
-   "title": "Anti-Eternia Mr. Home Arcade Limited Edition Custom Figure In-Hand Review",
-   "url": "https://toyhabits.com/anti-eternia-mr-home-arcade-limited-edition-custom-figure-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-10-18T15:12:30+00:00"
-  },
-  {
-   "title": "Catch up on Years of Dungeons & Dragons Online Content on Us!​",
-   "url": "https://www.actionfigureinsider.com/catch-up-on-years-of-dungeons-dragons-online-content-on-us/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-18T15:00:18+00:00"
-  },
-  {
-   "title": "LALIGA North America, Panini America Extend Partnership to Further Engage Soccer’s Growing Fanbase in U.S. Through Gaming, Grassroots",
-   "url": "https://www.actionfigureinsider.com/laliga-north-america-panini-america-extend-partnership-to-further-engage-soccers-growing-fanbase-in-u-s-through-gaming-grassroots/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-18T12:00:15+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-21T15:20:24+00:00",
+  "updatedISO": "2026-10-22T04:58:03+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 75,
-    "change": 4
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 150,
+    "change": 2
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2132,
+    "perDay": 2110,
     "change": 0
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2150,
-    "change": 0
+    "perDay": 2129,
+    "change": -1
    },
    {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 145,
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 70,
     "change": -3
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 89,
-    "change": -5
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 902,
-    "change": -7
+    "perDay": 91,
+    "change": -3
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2028,
+    "perDay": 2019,
     "change": -8
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 886,
+    "change": -9
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 568,
-    "change": -10
+    "perDay": 575,
+    "change": -9
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 855,
+    "perDay": 842,
     "change": -14
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 19630,
-    "change": -18
+    "perDay": 19172,
+    "change": -20
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 515,
-    "change": -20
+    "perDay": 501,
+    "change": -22
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -40
+    "change": -25
    }
   ],
   "missed": []
