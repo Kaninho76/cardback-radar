@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-10-23T04:58:25+00:00",
+ "updatedISO": "2026-10-23T10:10:43+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "Super7 ThunderCats Panthro Deluxe Early Preorder on Entertainment Earth",
@@ -284,80 +283,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-22T20:12:31+00:00",
+  "updatedISO": "2026-10-23T10:10:43+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 150,
-    "change": 2
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2110,
-    "change": 0
+    "perDay": 149,
+    "change": 1
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2129,
-    "change": -1
+    "perDay": 2138,
+    "change": 0
    },
    {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 70,
-    "change": -3
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2105,
+    "change": -1
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 91,
-    "change": -3
+    "perDay": 88,
+    "change": -5
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 67,
+    "change": -8
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2019,
+    "perDay": 2015,
     "change": -8
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 886,
-    "change": -9
+    "perDay": 878,
+    "change": -10
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 575,
-    "change": -9
+    "perDay": 566,
+    "change": -10
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 842,
+    "perDay": 833,
     "change": -14
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 19172,
-    "change": -20
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 501,
+    "perDay": 508,
+    "change": -19
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 18841,
     "change": -22
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -25
+    "change": -24
    }
   ],
   "missed": []
