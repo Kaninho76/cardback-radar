@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-10-22T23:26:04+00:00",
+ "updatedISO": "2026-10-23T04:58:25+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Super7 ThunderCats Panthro Deluxe Early Preorder on Entertainment Earth",
+   "url": "https://toyhabits.com/super7-thundercats-panthro-deluxe-early-preorder-on-entertainment-earth/",
+   "source": "Toy Habits",
+   "iso": "2026-10-23T02:33:51+00:00"
+  },
+  {
+   "title": "Super7 Astral Moat Monster Preorder Early Look",
+   "url": "https://toyhabits.com/super7-astral-moat-monster-preorder-early-look/",
+   "source": "Toy Habits",
+   "iso": "2026-10-23T01:25:38+00:00"
+  },
+  {
+   "title": "Super7 The Transformers: The Movie Deluxe Megatron (Metallic) Deluxe Action Figure (VHS) Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/22/super7-the-transformers-the-movie-deluxe-megatron-metallic-deluxe-action-figure-vhs-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-the-transformers-the-movie-deluxe-megatron-metallic-deluxe-action-figure-vhs-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-22T23:47:35+00:00"
+  },
   {
    "title": "Star Wars Vintage Collection Razor Crest Encounter 3-Pack Preorder",
    "url": "https://toyhabits.com/star-wars-vintage-collection-razor-crest-encounter-3-pack-preorder/",
@@ -262,24 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/disney-villains-take-over-mcdonalds-with-new-halloween-boo-buckets/",
    "source": "Bleeding Cool",
    "iso": "2026-10-19T16:22:47+00:00"
-  },
-  {
-   "title": "Super7 G.I. Joe ReAction+ Wave 10 – Flint, Shipwreck, Baroness (Arctic) & SNAKE Armor Figures Available Now & Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/19/super7-gijoe-reaction-wave-10-flint-shipwreck-baroness-arctic-snake-armor-figures-available-now-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-gijoe-reaction-wave-10-flint-shipwreck-baroness-arctic-snake-armor-figures-available-now-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-19T16:17:35+00:00"
-  },
-  {
-   "title": "Hello Kitty Gets the Royal Treatment with New Burger King Kids' Meal",
-   "url": "https://bleedingcool.com/collectibles/hello-kitty-gets-the-royal-treatment-with-new-burger-king-kids-meal/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-19T15:22:09+00:00"
-  },
-  {
-   "title": "The LEGO Group invites fans to mash-up STAR WARS™ and MARVEL universes for the first time ever in LEGO Ideas® challenge",
-   "url": "https://www.actionfigureinsider.com/the-lego-group-invites-fans-to-mash-up-star-wars-and-marvel-universes-for-the-first-time-ever-in-lego-ideas-challenge/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-19T15:00:24+00:00"
   }
  ],
  "trends": {
