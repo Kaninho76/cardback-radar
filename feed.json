@@ -1,16 +1,47 @@
 {
- "updatedISO": "2026-10-23T10:10:43+00:00",
+ "updatedISO": "2026-10-23T15:09:08+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "1970s TEEN IDOL, SHAZAM! TV STAR MICHAEL GRAY PASSES AWAY AT 75",
+   "url": "https://www.actionfigureinsider.com/1970s-teen-idol-shazam-tv-star-michael-gray-passes-away-at-75/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-23T14:24:40+00:00"
+  },
+  {
+   "title": "Builders After All: The LEGO Group and DAFT PUNK™ announce partnership – blending worlds of music, culture and creative experimentation",
+   "url": "https://www.actionfigureinsider.com/builders-after-all-the-lego-group-and-daft-punk-announce-partnership-blending-worlds-of-music-culture-and-creative-experimentation/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-23T12:43:25+00:00"
+  },
+  {
+   "title": "Captain Commando – FigLiteDX Captain Commando and Carol New Photos by 52Toys",
+   "url": "https://www.toyark.com/2026/10/23/captain-commando-figlitedx-captain-commando-and-carol-new-photos-by-52toys-601618",
+   "source": "The Toyark",
+   "iso": "2026-10-23T12:28:48+00:00"
+  },
+  {
+   "title": "The Exorcist – Sideshow Regan MacNeil Pre-Order",
+   "url": "https://www.toyark.com/2026/10/23/the-exorcist-sideshow-regan-macneil-pre-order-601602",
+   "source": "The Toyark",
+   "iso": "2026-10-23T12:15:01+00:00"
+  },
+  {
+   "title": "Spin Master’s Hellbreak™ Trading Card Game Adds Paramount Pictures to Its Monster Universe",
+   "url": "https://www.actionfigureinsider.com/spin-masters-hellbreak-trading-card-game-adds-paramount-pictures-to-its-monster-universe/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-23T12:00:37+00:00"
+  },
   {
    "title": "Super7 ThunderCats Panthro Deluxe Early Preorder on Entertainment Earth",
    "url": "https://toyhabits.com/super7-thundercats-panthro-deluxe-early-preorder-on-entertainment-earth/",
@@ -250,36 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/star-wars-the-black-series-saga-in-the-daily-litg-20th-october-2026/",
    "source": "Bleeding Cool",
    "iso": "2026-10-20T09:58:08+00:00"
-  },
-  {
-   "title": "Killer Klowns from Outer Space – Mezco One:12 Collective Jumbo",
-   "url": "https://www.toyark.com/2026/10/19/killer-klowns-from-outer-space-mezco-one12-collective-jumbo-601566",
-   "source": "The Toyark",
-   "iso": "2026-10-19T20:37:36+00:00"
-  },
-  {
-   "title": "Super7 G.I. Joe ReAction+ Wave 10 Now In Stock",
-   "url": "https://toyhabits.com/super7-g-i-joe-reaction-wave-10-now-in-stock/",
-   "source": "Toy Habits",
-   "iso": "2026-10-19T19:03:08+00:00"
-  },
-  {
-   "title": "Ankama’s Welsh & Shedar Arrives Worldwide on the Krosmoz YouTube Channel this November",
-   "url": "https://www.actionfigureinsider.com/ankamas-welsh-shedar-arrives-worldwide-on-the-krosmoz-youtube-channel-this-november/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-19T18:59:05+00:00"
-  },
-  {
-   "title": "Doctor Who: Want to Own a Piece of The TARDIS? Here's How You Can",
-   "url": "https://bleedingcool.com/tv/doctor-who-want-to-own-a-piece-of-the-tardis-heres-how-you-can/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-19T16:37:09+00:00"
-  },
-  {
-   "title": "Disney Villains Take Over McDonald's with New Halloween Boo Buckets",
-   "url": "https://bleedingcool.com/collectibles/disney-villains-take-over-mcdonalds-with-new-halloween-boo-buckets/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-19T16:22:47+00:00"
   }
  ],
  "trends": {
