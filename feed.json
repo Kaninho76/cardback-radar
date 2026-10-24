@@ -1,17 +1,23 @@
 {
- "updatedISO": "2026-10-24T12:45:16+00:00",
+ "updatedISO": "2026-10-24T16:39:04+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError",
-  "Toy Habits: HTTP 403"
+  "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "Nektropos Castle Opens in EverQuest Legends, Adding an Endgame Dungeon and a New Playable Race",
+   "url": "https://www.actionfigureinsider.com/nektropos-castle-opens-in-everquest-legends-adding-an-endgame-dungeon-and-a-new-playable-race/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-24T14:00:45+00:00"
+  },
   {
    "title": "Toybox Built a Four-Color 3D Printer and Platform a First-Grader Can Run",
    "url": "https://www.actionfigureinsider.com/toybox-built-a-four-color-3d-printer-and-platform-a-first-grader-can-run/",
@@ -275,12 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/regal-robot-announces-life-sized-star-wars-wicket-ewok-collectibles/",
    "source": "Bleeding Cool",
    "iso": "2026-10-21T16:22:09+00:00"
-  },
-  {
-   "title": "McFarlane Toys God of War Wave 2 – Kratos & Zeus Gaming Edition, God of War Ragnarok Kratos Elite Edition Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/21/mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-21T16:05:34+00:00"
   }
  ],
  "trends": {
