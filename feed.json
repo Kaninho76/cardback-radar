@@ -1,15 +1,15 @@
 {
- "updatedISO": "2026-10-24T01:38:34+00:00",
+ "updatedISO": "2026-10-24T07:21:44+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError"
+  "Bleeding Cool: ParseError",
+  "Toy Habits: HTTP 403"
  ],
  "items": [
   {
