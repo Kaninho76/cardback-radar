@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-24T07:21:44+00:00",
+ "updatedISO": "2026-10-24T12:45:16+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
@@ -12,6 +12,12 @@
   "Toy Habits: HTTP 403"
  ],
  "items": [
+  {
+   "title": "Toybox Built a Four-Color 3D Printer and Platform a First-Grader Can Run",
+   "url": "https://www.actionfigureinsider.com/toybox-built-a-four-color-3d-printer-and-platform-a-first-grader-can-run/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-24T12:00:58+00:00"
+  },
   {
    "title": "Super7 Thundercats Deluxe Wave 5 Now In Stock On Walmart",
    "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-now-in-stock-on-walmart/",
@@ -275,88 +281,82 @@
    "url": "https://toyhypeusa.com/2026/10/21/mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-god-of-war-wave-2-kratos-zeus-gaming-edition-god-of-war-ragnarok-kratos-elite-edition-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-21T16:05:34+00:00"
-  },
-  {
-   "title": "Blokees Reveals Transformers Jet Wing Optimus Prime (Black Ver.) Kit",
-   "url": "https://bleedingcool.com/collectibles/blokees-reveals-transformers-jet-wing-optimus-prime-black-ver-kit/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-21T15:22:07+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-23T22:23:08+00:00",
+  "updatedISO": "2026-10-24T12:45:16+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 149,
+    "perDay": 146,
     "change": 1
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2138,
+    "perDay": 2137,
     "change": 0
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2105,
+    "perDay": 2090,
     "change": -1
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 88,
-    "change": -5
+    "perDay": 90,
+    "change": -3
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 67,
-    "change": -8
+    "change": -9
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2015,
-    "change": -8
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 878,
-    "change": -10
+    "perDay": 2008,
+    "change": -9
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 566,
+    "perDay": 559,
     "change": -10
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 865,
+    "change": -11
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 833,
+    "perDay": 830,
     "change": -14
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 508,
-    "change": -19
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 18841,
-    "change": -22
+    "perDay": 497,
+    "change": -21
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
+    "change": -23
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 18605,
     "change": -24
    }
   ],
