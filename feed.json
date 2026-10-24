@@ -1,15 +1,16 @@
 {
- "updatedISO": "2026-10-23T22:23:08+00:00",
+ "updatedISO": "2026-10-24T01:38:34+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
   {
    "title": "Super7 Thundercats Deluxe Wave 5 Now In Stock On Walmart",
