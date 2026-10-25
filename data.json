@@ -1,174 +1,165 @@
 {
-  "updatedISO": "2026-10-24T07:00:00+02:00",
-  "updatedLabel": "zaterdag 24 oktober 2026",
+  "updatedISO": "2026-10-25T08:00:00+01:00",
+  "updatedLabel": "zondag 25 oktober 2026",
   "quiet": true,
-  "quietNote": "Rustige nieuwsdag: bij Toy Hype USA, Toy Habits, Marvel Toy News, The Fwoosh en Action Figure Insider staat vanochtend geen enkele nieuwe aankondiging uit jouw hoek, dus dit is geen nieuwsdag maar een beursdag met twee preorderdeadlines die zichzelf tegenspreken.",
+  "quietNote": "Tweede rustige nieuwsdag op rij: bij Toy Hype USA staat het nieuwste bericht nog op 23 oktober, bij Marvel Toy News op 21 oktober, en bij Toy Habits, The Fwoosh en Action Figure Insider is er niets nieuws uit jouw lijnen. Het werk van vandaag zat dus niet in nieuwe aankondigingen maar in twee datums die elkaar tegenspraken en nu beide rond zijn — en in een beurs die vandaag niet doorgaat.",
   "waves": [
     {
-      "title": "Vier beurzen in twee dagen, en vannacht gaat de klok een uur terug",
-      "when": "Vandaag zaterdag 24 oktober: Comic Con Brussels (10 tot 19 uur) en Retroboerse Oberhausen · vannacht 3 uur: de klok gaat hier een uur terug · morgen zondag 25 oktober: Comic Con Brussels dag twee (10 tot 17 uur), Gaming Universe Hengelo (9 tot 15 uur, 7 euro) en Retro Game Beurs Aarschot (11 tot 15.30 uur, 5 euro) · maandag 26 of woensdag 28 oktober 18 uur hier: het Astonishing X-Men-tweepak, en de bronnen zijn het oneens over welke van de twee · zondag 1 november 7.59 uur hier: einde van de Mattel Creations-korting",
+      "title": "Beide tegenstrijdige datums zijn rond, en je wint er twee keer tijd mee",
+      "when": "Astonishing X-Men-tweepak: woensdag 28 oktober, 13 uur Eastern, hier 18 uur — drie bronnen, geen tegenspraak meer, dus je hoeft morgen niet klaar te zitten · made-to-order Trask en Bastion Nimrod: sluit 20 november 23.59 uur Eastern, hier zaterdag 21 november 5.59 uur, met 7 december als laatste annuleermoment · zondag 1 november 7.59 uur hier: einde van de Mattel Creations-korting, en dat is nu de eerste echte deadline die je haalt of mist",
       "countdown": {
-        "date": "2026-10-25",
+        "date": "2026-10-28",
         "mode": "until",
-        "unit": "morgen gaat de klok terug, en daarmee verschuift elk Amerikaans preorderuur een week lang naar 18 uur hier"
+        "unit": "dagen tot het Astonishing-tweepak opengaat, woensdag 18 uur hier"
       },
-      "body": "Er is vanochtend niets nieuws aangekondigd in jouw lijnen, dus het weekend zelf is het nieuws. Comic Con Brussels staat vandaag en morgen in Tour & Taxis en is van de vier de enige met echte figuren in vitrines; de Retroboerse in Oberhausen is vandaag en staat alleen op de Retrokalender, die zelf zegt voor het laatst op 9 oktober te zijn bijgewerkt. Morgen zijn Hengelo en Aarschot er, beide retrogames met vintage speelgoed op de losse tafels. En vannacht om 3 uur gaat de klok terug terwijl Amerika nog tot 1 november op zomertijd blijft. Dat is geen detail: in die tussenweek is 13 uur Eastern hier 18 uur en niet 19, en in die week valt precies de preorder waar je op zit te wachten.",
-      "do": "Kies voor vandaag Brussel boven Oberhausen als je één rit doet: daar staan de figuren, en de kaartprijzen staan niet op hun infopagina maar op een aparte kaartpagina, dus kijk die na voordat je rijdt. Bel of mail Oberhausen eerst, want openingstijden en toegangsprijs staan nergens en de enige agenda die hem heeft is twee weken oud. En zet voor volgende week je alarm op 18 uur en niet op 19 — vanaf morgen tot 1 november klopt je gewoonte van 19 uur niet meer."
+      "body": "Gisteren stond hier dat je maandag om 18 uur voor de zekerheid moest klaarzitten omdat Bleeding Cool in één artikel 26 en 28 oktober door elkaar gebruikte. Die zekerheid is er nu. MarvelousNews, dat de officiele Hasbro-informatie en -beelden heeft, houdt het op 28 oktober 13 uur Eastern bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon; de productbeschrijving bij Bleeding Cool zegt hetzelfde; en Funko POP News zet het op 10 uur Pacific op 28 oktober, wat precies hetzelfde moment is. Drie bronnen, één datum, en de 26e staat alleen nog in die ene inleiding. Bij het tweede tweepak werkt het net zo. Marvel Toy News noemde 1 november als sluiting van de made-to-order preorder van Bolivar Trask en Bastion Nimrod, MarvelousNews noemde 20 november 23.59 uur Eastern, negentien dagen ertussen. Bleeding Cool lost dat op zonder een datum te noemen: het schrijft op 10 oktober dat de preorder tweeenveertig dagen openstaat. Tweeenveertig dagen vanaf de opening rond 9 oktober komt uit op 20 november, en dat is waar MarvelousNews op zit. Die 1 november van Marvel Toy News is de fout.",
+      "do": "Haal maandag 26 oktober uit je hoofd en zet je alarm op woensdag 28 oktober, 18 uur hier. En haal bij Trask en Bastion de haast eruit: je hebt er bijna vier weken voor, dus je hoeft de 75 dollar niet in dezelfde week uit te geven als de Mattel-korting. Dat laat precies één echte deadline staan voor de komende week, en dat is de Mattel Creations-korting van zondag 7.59 uur. Begin daarmee."
     },
     {
-      "title": "Twee preorderdeadlines spreken zichzelf tegen, en bij beide is de vroegste datum de veilige",
-      "when": "Astonishing X-Men-tweepak: Bleeding Cool noemt in de inleiding 26 oktober 13 uur Eastern en in de productbeschrijving 28 oktober 13 uur Eastern, MarvelousNews houdt het op 28 oktober 13 uur Eastern · made-to-order Trask en Bastion Nimrod: Marvel Toy News noemt 1 november met 75 dollar, MarvelousNews noemt 20 november 23.59 uur Eastern met 7 december als laatste annuleermoment",
+      "title": "Van de drie beurzen die hier gisteren voor vandaag stonden, gaan er twee door",
+      "when": "Vandaag zondag 25 oktober: Comic Con Brussels dag twee, Tour & Taxis, 10 tot 17 uur · Gaming Universe in Hengelo, de Waarbeek, 9 tot 15 uur, 7 euro · Retro Game Beurs Aarschot: afgelast · vannacht is de klok hier een uur teruggegaan, Amerika pas op 1 november",
       "countdown": {
-        "date": "2026-10-26",
+        "date": "2026-11-01",
         "mode": "until",
-        "unit": "dagen tot de vroegste datum die voor het tweepak genoemd wordt — maandag, 18 uur hier"
+        "unit": "dagen tot de Mattel Creations-korting sluit, zondagochtend 7.59 uur hier"
       },
-      "body": "Dit is het eigenlijke werk van vandaag. Bij het Astonishing-tweepak van Cyclops en Wolverine zet Bleeding Cool in één artikel twee datums neer: de inleiding zegt 26 oktober om 1 uur 's middags Eastern, de productbeschrijving eronder zegt 28 oktober om 1 uur 's middags Eastern. MarvelousNews, dat de officiele Hasbro-informatie en -beelden heeft, houdt het op de 28e bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Geen van beide noemt een prijs; een forumreactie onder MarvelousNews gokt 70 dollar, en twee losse golf-4-figuren kosten samen 55,98. Bij het made-to-order tweepak van Bolivar Trask en Bastion Nimrod is het verschil groter: Marvel Toy News zegt dat de preorder op Hasbro Pulse tot 1 november loopt, 75 dollar kost en pas eind 2027 verzendt, terwijl MarvelousNews 20 november 23.59 uur Eastern noemt. Made-to-order betekent dat er gemaakt wordt wat besteld is, dus te laat is echt te laat.",
-      "do": "Neem bij beide de vroegste datum als jouw datum. Voor het tweepak: zit maandag 26 oktober om 18 uur klaar bij BigBadToyStore of Entertainment Earth, en als er dan niets opengaat, doe je het woensdag om 18 uur nog een keer — dat kost je tien minuten en de omgekeerde fout kost je de set. Voor Trask en Bastion: bestel voor zondag 1 november en niet in de week erna, want als Marvel Toy News klopt is 20 november acht dagen te laat en bij made-to-order komt er geen tweede ronde. En kijk bij Hasbro Pulse eerst of ze naar Nederland verzenden voordat je op die 75 dollar rekent."
+      "body": "De Retro Game Beurs in Aarschot, die gisteren in deze radar nog als doorgaand stond, is afgelast. RetroGameBeurzen zet \"Afgelast\" bij de eigen evenementpagina van 25 oktober zonder reden of nieuwe datum, en de Gaming Collectors Beurs die diezelfde dag in Aarschot zou staan meldt los daarvan dat hij niet plaatsvindt. Twee bronnen, dezelfde dag, dezelfde stad: dat is geen vergissing van één agenda. Wat er overblijft voor vandaag is Brussel en Hengelo. Comic Con Brussels heeft zijn tweede dag van 10 tot 17 uur in Tour & Taxis en is van de twee de enige met echte figuren in vitrines; Gaming Universe in Hengelo is 9 tot 15 uur voor 7 euro en is een retrogamebeurs met vintage speelgoed op de losse tafels. En de klok is vannacht teruggegaan terwijl Amerika nog tot 1 november op zomertijd blijft, dus deze week is 13 uur Eastern hier 18 uur en niet de 19 uur die je gewend bent — precies de week waarin het tweepak opengaat.",
+      "do": "Rijd vandaag niet naar Aarschot. Als je nog een rit doet: Brussel sluit om 17 uur en Hengelo om 15 uur, dus Hengelo is alleen nog zinvol als je in het oosten zit en nu vertrekt. En reken vanmiddag de Mattel Creations-korting af in plaats van vanavond: vijf of meer Origins-figuren via die ene collectielink levert automatisch 20 procent op, en de vijf achttiendollarfiguren samen zijn 72 dollar in plaats van 90. Die actie sluit zondagochtend en is de enige deadline deze week die niet opgeschoven of verlengd kan worden."
     }
   ],
   "drops": [
     {
       "maker": "Hasbro",
-      "what": "Marvel Legends X-Men '97 golf 4: nog drie van de zes te bestellen bij BigBadToyStore, alle drie op 27,99 dollar",
-      "note": "Vanochtend zelf nagekeken op de losse productpagina's. Nog open met een gewone bestelknop: Cyclops, Vindicator en Death Gambit. Op PRE-ORDER SOLD OUT met een wachtlijstknop: Polaris, Havok en Jean Grey. Bij Death Gambit en Vindicator staat de Mint Pro-variant al op wachtlijst terwijl de gewone Mint-versie nog gaat. Prijs bij alle zes 27,99 dollar, verwachte aankomst januari 2027, en dat getal is nu belangrijker dan het leek: Marvel Toy News schrijft dat Hasbro de adviesprijs voor een standaard zes-inch Marvel Legends naar 29,99 dollar heeft getild. BigBadToyStore zit daar dus twee dollar onder. Dezelfde bron noemt Vindicator het figuur dat traag zal lopen omdat Morph daar maar kort in beeld is — wat verklaart waarom juist die twee nog staan.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Hasbro",
-      "what": "Marvel Legends Astonishing X-Men tweepak Cyclops en Wolverine — maandag 26 of woensdag 28 oktober, 13 uur Eastern, hier 18 uur",
-      "note": "De datum is niet rond. Bleeding Cool noemt in de inleiding van hetzelfde artikel 26 oktober 13 uur Eastern en in de productbeschrijving 28 oktober 13 uur Eastern, en lost dat niet op. MarvelousNews, met de officiele Hasbro-informatie en -beelden, houdt het op 28 oktober 13 uur Eastern bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon; Bleeding Cool noemt Hasbro Pulse en ongenoemde andere winkels en zet de verzending op najaar 2026. Acht accessoires in totaal: Cyclops met twee wisselhanden en een wisselkop, Wolverine met vier wisselhanden en een gemaskerde wisselkop. Geen officiele prijs. Omdat de klok hier vannacht terugloopt en in Amerika pas op 1 november, is 13 uur Eastern deze week 18 uur hier — niet de 19 uur die je van Hasbro gewend bent.",
+      "what": "Marvel Legends Astonishing X-Men tweepak Cyclops en Wolverine — woensdag 28 oktober, 13 uur Eastern, hier 18 uur, en de datum is nu rond",
+      "note": "De tegenspraak van gisteren is weg. MarvelousNews, met de officiele Hasbro-informatie en -beelden, noemt 28 oktober 13 uur Eastern bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon; de productbeschrijving bij Bleeding Cool noemt dezelfde datum en tijd; en Funko POP News kondigt hem aan op 28 oktober, 10 uur Pacific, wat hetzelfde moment is. De 26 oktober die Bleeding Cool in zijn inleiding gebruikte staat nergens anders. Acht accessoires: Cyclops met twee wisselhanden en een wisselkop, Wolverine met vier wisselhanden en een gemaskerde wisselkop. Nog steeds geen officiele prijs; een forumreactie onder MarvelousNews gokt 70 dollar en twee losse golf-4-figuren kosten samen 55,98. Let op het uur: de klok is hier vannacht teruggegaan en in Amerika pas op 1 november, dus deze week is 13 uur Eastern 18 uur hier.",
       "heat": "hot"
     },
     {
       "maker": "Hasbro",
-      "what": "Made-to-order X-Men '97-tweepak Bolivar Trask en Bastion Nimrod — alleen bij Hasbro Pulse, en de sluitdatum verschilt per bron met negentien dagen",
-      "note": "Marvel Toy News zet de preorder op 75 dollar, zegt dat hij tot 1 november op Hasbro Pulse loopt en dat de set pas eind 2027 verzendt. MarvelousNews noemt 20 november 23.59 uur Eastern als sluiting met 7 december 23.59 uur Eastern als laatste annuleermoment, en noemt geen prijs. Allebei de bronnen dragen officiele Hasbro-informatie, dus kies niet — neem 1 november. Tien accessoires: Bastion Nimrod met wisselkop, vier wisselhanden, twee aankoppelbare effectstukken en een Prime Sentinel-wisselkop, Trask met wisselkop en twee wisselarmstukken. Marvel Toy News noemt die 75 dollar zelf een prijs die verzamelaars moeilijk zullen slikken, en bij made-to-order wordt er gemaakt wat besteld is: geen tweede ronde, geen doorverkoop tegen winkelprijs.",
+      "what": "Marvel Legends X-Men '97 golf 4: Death Gambit staat nog open bij BigBadToyStore op 27,99 dollar, aankomst januari 2027",
+      "note": "Vanochtend zelf nagekeken op de productpagina: de gewone BBTS Mint-uitvoering heeft nog een gewone bestelknop op 27,99 dollar met januari 2027 als verwachte aankomst, Mint Pro staat op wachtlijst en Substandard is uitverkocht. Er is geen betaling nodig tot verzending. Marvel Toy News schrijft in zijn golf-4-bericht van 21 oktober dat Hasbro de adviesprijs voor een standaard zes-inch Marvel Legends de week daarvoor naar 29,99 dollar heeft getild, dus die 27,99 zit er twee dollar onder. De zes van deze golf zijn Death Gambit, Havok, Polaris, Cyclops en Jean Grey in de New X-Men-kostuums van Grant Morrison, en Vindicator, dat Morph is; dezelfde bron noemt Vindicator het figuur dat het traagst zal lopen. De golf verzendt volgens Marvel Toy News deze winter, volgens BigBadToyStore januari.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hasbro",
+      "what": "Made-to-order X-Men '97-tweepak Bolivar Trask en Bastion Nimrod — 74,99 dollar bij Hasbro Pulse, sluit 20 november en niet 1 november",
+      "note": "De negentien dagen verschil tussen de bronnen zijn opgelost, en in jouw voordeel. MarvelousNews noemt 20 november 23.59 uur Eastern als sluiting met 7 december 23.59 uur Eastern als laatste annuleermoment, AFTimes noemt ook 20 november, en Bleeding Cool schrijft op 10 oktober dat de preorder tweeenveertig dagen openstaat — vanaf de opening rond 9 oktober komt dat precies op 20 november uit. De 1 november van Marvel Toy News klopt dus niet. Prijs 74,99 dollar bij Bleeding Cool, 75 bij Marvel Toy News: hetzelfde getal. Verzending november 2027 volgens Bleeding Cool, eind 2027 volgens Marvel Toy News. Tien accessoires: Bastion Nimrod met wisselkop, vier wisselhanden en twee aankoppelbare effectstukken, Trask met wisselkop en twee wisselarmstukken. Made-to-order blijft made-to-order, dus er komt geen tweede ronde — maar je hebt er nu bijna vier weken voor. Kijk wel eerst of Hasbro Pulse naar Nederland verzendt.",
       "heat": "yours"
     },
     {
       "maker": "Mattel",
-      "what": "Masters of the Universe Origins: 20 procent eraf bij vijf figuren op Mattel Creations, nog zeven dagen",
-      "note": "Vanochtend opnieuw zelf gecontroleerd en nog actief, met de banner YOU HAVE THE POWER erboven: koop vijf of meer Origins-figuren en er gaat automatisch 20 procent af, geen code, van 12 oktober 9 uur Pacific tot 31 oktober 23.59 uur Pacific — hier dus tot zondagochtend 1 november 7.59 uur. De voorwaarden zijn strak: de korting geldt alleen voor artikelen die je via die collectielink in je mandje legt, niet te combineren met andere acties, zolang de voorraad strekt en met mogelijke stuklimieten. Wat er staat en wat het kost: Orko, Fang Man, Grizzlor, Sharella, Despara, He-Ro en Vultak op 20 dollar, Frosta, Buzz-Off, Invisible Skeletor, Catra, Leech en Faker op 18, Hurricane Hordak op 25. Vijf van de achttiendollarfiguren is 72 dollar in plaats van 90. De Fright Zone-playset van 92 dollar en de Snake Lair-crowdfund van 300 staan er ook, maar een crowdfundartikel moet apart afgerekend worden en telt dus niet mee in je vijf.",
+      "what": "Masters of the Universe Origins: 20 procent eraf bij vijf figuren op Mattel Creations, sluit zondagochtend 7.59 uur hier",
+      "note": "Vanochtend opnieuw gecontroleerd en nog actief: de banner \"20% off when you purchase five or more Masters of the Universe Origins figures\" staat erboven en op de losse productpagina's staat een BUY 5, SAVE 20% badge. De actie loopt van 12 tot 31 oktober met de korting automatisch in het mandje, maar alleen voor artikelen die je via die ene Origins-collectielink toevoegt, niet te combineren met andere acties en zolang de voorraad strekt. 31 oktober 23.59 uur Pacific is hier zondagochtend 1 november 7.59 uur — de klok is hier al terug en in Amerika nog niet, dus dat uur klopt deze week. Vijf van de achttiendollarfiguren is 72 dollar in plaats van 90. De Deluxe Laser Light Skeletor die Mattel op 12 en 13 oktober opende staat er los naast op 33 dollar: vijf en een halve inch, oplichtende ogen en rechterhand, afneembare stoffen cape, doorschijnende Havoc Staff en zestien bewegende punten.",
       "heat": "yours"
     },
     {
       "maker": "McFarlane",
-      "what": "DC Multiverse Collector Edition golf 16 — Raven, Mera, Black Manta en Wonder Girl op 34,99 dollar, de doos is al pre-sold out",
-      "note": "Toy Hype USA's Entertainment Earth-overzicht van gisteren zet golf 16 bij de hot new releases: Wonder Girl DC Classic nummer 66, Mera nummer 67, Black Manta nummer 68 en Raven nummer 69, alle vier op 34,99 dollar. Ik heb de doos van zes er zelf bijgehaald: 209,99 dollar, zes stuks waarvan drie chase-varianten (Wonder Girl chase, Mera plus Mera chase, Black Manta chase, Raven plus Raven chase), verwachte aankomst november 2026, en die staat op pre-sold out met alleen een voorraadmelder. Daaronder zet dezelfde bron de Vault Collection golf 1 Wonder Woman Classic op 26,99. Dit is de laatste normale najaarsgolf van een licentie met een einddatum: McFarlane houdt DC tot eind 2026, en Mattel maakt pas op 1 januari 2027 in een livestream bekend wat er daarna komt.",
+      "what": "DC Multiverse Collector Edition golf 16 — Raven, Mera, Black Manta en Wonder Girl op 34,99 dollar per stuk",
+      "note": "Golf 16 van de Collector Edition staat als Wonder Girl DC Classic nummer 66, Mera nummer 67, Black Manta nummer 68 en Raven nummer 69, alle vier op 34,99 dollar, en Toy Hype USA zette ze bij zijn Entertainment Earth-overzicht onder de hot new releases. De doos van zes met de drie chase-varianten staat op 209,99 dollar met november 2026 als aankomst en is pre-sold out met alleen een voorraadmelder. Dit blijft de laatste normale najaarsgolf van een licentie met een einddatum: McFarlane houdt DC tot eind 2026 en Mattel maakt pas op 1 januari 2027 in een livestream bekend wat er daarna komt. Tot die livestream is er aan de nieuwe DC-lijn niets te missen, dus wat je in DC nog wilt hebben van McFarlane koop je dit najaar of op de tweedehandsmarkt.",
+      "heat": "yours"
+    },
+    {
+      "maker": "McFarlane",
+      "what": "DC Multiverse New Gods tweepak Darkseid tegen Orion — 69,99 dollar, verzending deze maand",
+      "note": "Toy Habits meldde dit tweepak op 25 september met open preorders bij BigBadToyStore, Entertainment Earth, Amazon en Walmart op 69,99 dollar, met oktober 2026 als verzendmaand. Die maand is nu bijna om, dus dit is er een waar je niet lang meer over hoeft te denken: wat deze maand verzendt, is al gemaakt. Zet het naast golf 16: een tweepak van twee grote figuren op 69,99 is 35 per stuk, exact dezelfde prijs per figuur als een losse Collector Edition, en dat is in deze lijn ongebruikelijk gunstig voor een set met Darkseid erin. Het is ook een van de laatste DC-sets die McFarlane onder de aflopende licentie nog in de dozen krijgt.",
       "heat": "yours"
     },
     {
       "maker": "Hasbro",
       "what": "Marvel Legends Cel Shaded Spider-Man Retro uit de tekenfilmserie is opnieuw te bestellen — 34,99 dollar bij BigBadToyStore, december",
-      "note": "Toy Hype USA meldde dinsdag in een update dat de heruitgave van de zes-inch Spider-Man Retro, naar Spider-Man: The Animated Series, opnieuw open staat bij BigBadToyStore op 34,99 dollar met december 2026 als verwachte maand. Entertainment Earth heeft hem ook in de lijst, en Amazon, GameStop en Zavvi voeren de bredere serie. Dat 34,99 is zeven dollar boven de 27,99 van golf 4 en vijf boven de nieuwe adviesprijs van 29,99 — je betaalt hier voor de cel-shaded afwerking en voor het feit dat hij eerder uitverkocht was. Een heruitgave zonder genoemd aantal, dus naar het patroon van dit najaar is wachten hier goedkoper dan haasten.",
+      "note": "Toy Hype USA zette op 21 oktober een update bij de heruitgave van de zes-inch Spider-Man Retro naar Spider-Man: The Animated Series: opnieuw open bij BigBadToyStore op 34,99 dollar met december 2026 als verwachte maand, en ook in de lijst bij Entertainment Earth. Dat is vijf dollar boven de nieuwe Hasbro-adviesprijs van 29,99 en zeven boven de 27,99 van golf 4; je betaalt hier voor de cel-shaded afwerking en voor het feit dat hij eerder uitverkocht was. Een heruitgave zonder genoemd aantal, dus naar het patroon van dit najaar is wachten hier goedkoper dan haasten.",
       "heat": "yours"
     },
     {
       "maker": "Hasbro",
       "what": "Marvel Legends Scorpion uit Spider-Man: Brand New Day verzendt dinsdag al — 27,99 dollar, alleen bij Amazon",
-      "note": "Toy Hype USA meldde gisteren dat de verzending van 1 november naar 27 oktober is gehaald: dat is aanstaande dinsdag. Zes inch, 27,99 dollar, en volgens dat bericht uitsluitend bij Amazon te bestellen; er worden geen accessoires opgesomd. Naar voren gehaalde verzending is in deze hoek bijna altijd goed nieuws over het aantal: wat eerder dan verwacht in de dozen zit, is er genoeg van. Het blijft een filmfiguur uit een lijn die je niet compleet hoeft te hebben, maar op 27,99 zit hij onder de nieuwe Hasbro-adviesprijs.",
+      "note": "Toy Hype USA meldde op 23 oktober dat de verzending van 1 november naar 27 oktober is gehaald: dat is overmorgen. Zes inch, 27,99 dollar, en volgens dat bericht uitsluitend bij Amazon te bestellen; er worden geen accessoires opgesomd. Naar voren gehaalde verzending is in deze hoek bijna altijd goed nieuws over het aantal: wat eerder dan verwacht in de dozen zit, is er genoeg van. Het blijft een filmfiguur uit een lijn die je niet compleet hoeft te hebben, maar op 27,99 zit hij onder de nieuwe adviesprijs van 29,99.",
       "heat": "yours"
     },
     {
       "maker": "Bandai",
-      "what": "S.H.MonsterArts Godzilla uit Minus Zero op 119,99 dollar, december — en de film staat hier over twaalf dagen",
-      "note": "Onveranderd sinds gisteren en dat is hier het punt: bij BigBadToyStore nog een open preorder op 119,99 dollar met een aanbetaling van 12 dollar die niet terug te krijgen is, verwachte aankomst december 2026, zestien centimeter en volgens de doosinhoud zonder losse accessoires. De Substandard-variant is daar uitverkocht en Mint Pro staat op wachtlijst. Nieuw erbij vandaag: de Nederlandse distributeur Piece of Magic brengt de film in zesenveertig markten uit, vanaf 4 november, met Nederland in het rijtje en de grote markten op 5 en 6 november. Dat is de volgorde die je wilt — eerst de film op 5 november, de figuur pas in december. Ter vergelijking staat de S.H.MonsterArts Odo Island Monster uit Minus One bij dezelfde winkel op 109,99.",
+      "what": "S.H.MonsterArts Godzilla uit Minus Zero op 119,99 dollar, december — en de film staat hier over elf dagen",
+      "note": "Vanochtend opnieuw nagekeken bij BigBadToyStore: nog een open preorder op 119,99 dollar met een aanbetaling van 12 dollar die niet terug te krijgen is, verwachte aankomst december 2026. Zestien centimeter, ABS en PVC, en de doos bevat volgens de inhoudsopgave alleen het figuur zonder losse accessoires. De Substandard-variant is uitverkocht en Mint Pro staat op wachtlijst. De volgorde blijft de goede kant op staan: de film eerst, de figuur pas daarna. Volgens Wikizilla is dat Japan op 3 november, Belgie en Frankrijk op 4 november, Nederland en Duitsland op 5 november en Amerika op 6 november, met daar op 3 november al een vroege IMAX-ronde. Ter vergelijking staat de S.H.MonsterArts Odo Island Monster uit Minus One bij dezelfde winkel op 109,99.",
       "heat": "yours"
     },
     {
       "maker": "NECA",
       "what": "Turtles 2012 Ultimate Casey Jones staat in preorder bij NECA zelf — 37,99 dollar, vierde kwartaal",
-      "note": "Vanochtend zelf nagekeken in de NECA-winkel: open preorder op 37,99 dollar met Q4 2026 als verwachte verzendmaand, zeven inch, uit de 2012-tekenfilmlijn. Geen besteldeadline genoemd. NECA waarschuwt op die pagina zelf dat een order pas vertrekt als alle preorderstukken erin binnen zijn, dus zet voorraadartikelen in een aparte bestelling als je niet tot volgend jaar wilt wachten. Zet het naast de Cartoon Collection die al op voorraad staat bij Entertainment Earth: NECA zet de Turtles gewoon door terwijl Playmates op 31 december stopt, en dat maakt elke NECA-preorder dit najaar een stuk minder spannend dan hij lijkt.",
+      "note": "Open preorder in de NECA-winkel op 37,99 dollar met Q4 2026 als verwachte verzendmaand, zeven inch, uit de 2012-tekenfilmlijn; de figuur werd in mei aangekondigd en er staat geen besteldeadline bij. NECA waarschuwt op die pagina zelf dat een order pas vertrekt als alle preorderstukken erin binnen zijn, dus zet voorraadartikelen in een aparte bestelling als je niet tot volgend jaar wilt wachten. En dit is het stuk dat de Turtles-klok relativeert: Playmates stopt op 31 december, maar NECA zet zijn lijnen gewoon door, dus de schaarste die je dit najaar voelt zit bij Playmates en niet hier.",
       "heat": "yours"
-    },
-    {
-      "maker": "Super7",
-      "what": "ThunderCats Deluxe golf 5 staat op voorraad bij Walmart op 34,97 dollar, en de Astral Moat Monster van 195 dollar is nog niet live",
-      "note": "Zijlijn, maar wel de buurman van je eigen hoek. Toy Habits meldde gisteren dat golf 5 van de ThunderCats Deluxe-lijn bij Walmart op voorraad staat en direct verzendt: Panthro in de pinless uitvoering, Vultureman en Mumm-Ra the Ever Living, 34,97 dollar per stuk met gratis verzending binnen Amerika. BigBadToyStore, Entertainment Earth en Super7 zelf hebben ze nog als preorder, dus Walmart loopt daar voor. Daarnaast staat er een Astral Moat Monster van veertien inch aan te komen in de ThunderCats Ultimates-lijn op 195 dollar met december als verzendmaand; de preorderpagina was gisteravond nog niet open en Super7 zet dat soort pagina's zonder aankondiging live. ThunderCats is niet jouw lijn, maar het is wel dezelfde zaterdagochtend en dezelfde doelgroep — handig om te weten wat je buren kopen.",
-      "heat": "zijlijn"
     }
   ],
   "talk": [
     {
+      "title": "Twee tegenstrijdige deadlines, en de rekensom die ze beide oploste",
+      "body": "Gisteren stonden hier twee datums die elkaar tegenspraken en kon je ze niet oplossen. Vandaag wel, en de manier waarop is het bruikbaarste wat deze week langskwam. Bij het Astonishing-tweepak ging het om een bron tegen zichzelf: Bleeding Cool noemde 26 oktober in de inleiding en 28 oktober in de productbeschrijving van hetzelfde artikel. Dat lost je op door te tellen hoeveel onafhankelijke bronnen op welke datum zitten. MarvelousNews zegt 28 oktober 13 uur Eastern, de productbeschrijving zegt 28 oktober 13 uur Eastern, Funko POP News zegt 28 oktober 10 uur Pacific — dat is hetzelfde moment, drie keer. De 26e staat op één plek. Bij het made-to-order tweepak van Trask en Bastion werkte dat niet, want daar stonden twee verschillende sites tegenover elkaar met negentien dagen ertussen. Daar hielp een bron die zelf geen datum noemde: Bleeding Cool schreef op 10 oktober dat de preorder tweeenveertig dagen openstaat. Tweeenveertig dagen vanaf 9 oktober is 20 november, en daarmee is de 1 november van Marvel Toy News uitgesloten zonder dat je hoeft te gokken welke redactie zorgvuldiger is. Dat is de regel om te onthouden: als twee datums elkaar tegenspreken, zoek niet de betere bron maar het getal dat er onafhankelijk naast staat — een duur in dagen, een annuleerdatum, een verzendmaand. Een preorder die tweeenveertig dagen openstaat en een annuleermoment op 7 december passen alleen bij elkaar als de sluiting 20 november is."
+    },
+    {
       "title": "Playmates verliest de Turtles en krijgt de Power Rangers — hetzelfde bedrijf, twee tegengestelde klokken",
-      "body": "De twee grootste lijnwisselingen in jouw hoek hebben één naam gemeen. Paramount en Playmates beeindigen de Turtles-licentie per 31 december 2026, met daarna negentig dagen om de voorraad uit te verkopen, na achtendertig jaar sinds 1988. En tegelijk is Playmates de partij die de Power Rangers van Hasbro heeft overgenomen: Bleeding Cool meldde die overname voor 2025, en inmiddels staat er een Collector Series waarvan de Zeo Gold Ranger de eerste is — zes inch, tweeentwintig bewegende punten, 19,97 dollar bij Walmart, preorder opengegaan op 24 juli en snel weg. Hasbro zelf heeft bij de overname gezegd dat het om het ontbreken van winst op Power Rangers ging. Wat dat voor je kast betekent is niet symmetrisch. Bij de Turtles loopt een lijn met achtendertig jaar aan tooling af, en dan is NECA de enige die nog nieuwe maakt. Bij de Power Rangers is het omgekeerd: de Lightning Collection van 33,99 dollar maakt plaats voor een collectorlijn van 19,97, dus daar is het nieuws dat de instap de helft goedkoper wordt. De vraag is alleen of vierentwintig bewegende punten minder ook twintig dollar minder waard zijn, en dat kun je pas in de hand zien."
+      "body": "De twee grootste lijnwisselingen in jouw hoek hebben één naam gemeen. Paramount en Playmates beeindigen de Turtles-licentie per 31 december 2026, met daarna negentig dagen om de voorraad uit te verkopen, na achtendertig jaar sinds 1988. En tegelijk is Playmates de partij die de Power Rangers van Hasbro heeft overgenomen: er staat inmiddels een Collector Series waarvan de Zeo Gold Ranger de eerste is, zes inch, tweeentwintig bewegende punten, 19,97 dollar bij Walmart, en die preorder was snel weg. Hasbro zelf noemde bij de overdracht het ontbreken van winst op Power Rangers als reden. Voor je kast is dat niet symmetrisch. Bij de Turtles loopt een lijn met achtendertig jaar aan tooling af en is NECA daarna de enige die nog nieuwe maakt — en NECA zet door, dus wat verdwijnt is de Playmates-schaal en niet de Turtles zelf. Bij de Power Rangers is het omgekeerd: de Lightning Collection van rond de 34 dollar maakt plaats voor een collectorlijn van 19,97, dus daar wordt de instap de helft goedkoper. De vraag is of je vierentwintig bewegende punten minder ook twintig dollar minder waard vindt, en dat kun je pas in de hand zien."
     },
     {
-      "title": "De standaardprijs van een Marvel Legends staat nu op 29,99 — en dat maakt golf 4 met terugwerkende kracht goedkoop",
-      "body": "Marvel Toy News schrijft in het bericht over golf 4 dat Hasbro de adviesprijs voor een standaard zes-inch Marvel Legends naar 29,99 dollar heeft getild, en dat dat op flink verzet is gestuit. Dat getal verandert hoe je naar de rest van je najaar kijkt. De zes figuren van X-Men '97 golf 4 staan bij BigBadToyStore op 27,99: twee dollar onder de nieuwe adviesprijs, terwijl ze drie dagen geleden gewoon normaal geprijsd leken. De heruitgave van Cel Shaded Spider-Man staat op 34,99, vijf dollar erboven. En de kritiek die dezelfde bron bij Vindicator noemt, dat niemand dertig dollar wil betalen voor een personage dat kort in beeld is, is nu letterlijk de rekensom van deze golf: het is geen prijs die verzamelaars vervelend vinden, het is een grens die een paar figuren niet halen. Praktisch gevolg: een Marvel Legends onder de 28 dollar is vanaf nu een aanbieding, ook als er geen aanbiedingssticker op zit, en een prijs boven de 35 vraagt een reden die in de doos moet zitten en niet in de licentie."
-    },
-    {
-      "title": "Twee bronnen, twee datums, en de regel die je er vandaag uithaalt",
-      "body": "Het is binnen één week twee keer gebeurd. Bij het Astonishing-tweepak zet Bleeding Cool in één en hetzelfde artikel 26 oktober in de inleiding en 28 oktober in de productbeschrijving; MarvelousNews houdt het op de 28e. Bij het made-to-order tweepak van Trask en Bastion noemt Marvel Toy News 1 november en MarvelousNews 20 november, met negentien dagen ertussen. Allebei die sites dragen officiele Hasbro-informatie, dus dit is geen kwestie van een goede en een slechte bron. Waar het vandaan komt is bekend: Hasbro geeft op NYCC datums door die later per winkel verschuiven, en een redactie die het bericht later bijwerkt laat soms de oude regel staan. Wat je er aan praktijk uithaalt is simpel en kost niets: bij een opening neem je de vroegste genoemde datum, want te vroeg klaarzitten kost tien minuten en te laat kost de set. Bij een sluiting doe je hetzelfde, om dezelfde reden omgekeerd. En zet er vanaf morgen tot 1 november een extra controle bij, want in die week is 13 uur Eastern hier 18 uur en niet 19."
-    },
-    {
-      "title": "De film van juni is alweer op schijf, en daarmee is de MOTU-golf van 2026 compleet rond",
-      "body": "Even de hele boog van dit jaar, omdat je er in december wat aan hebt. De Masters of the Universe-film van Travis Knight ging op 5 juni in Amerika in de bioscoop, haalde volgens Wikipedia tot 19 juli honderdveertien miljoen dollar wereldwijd op een budget van honderdzeventig, stond op 22 juli al op Prime Video en was in de week van 20 tot 26 juli de best bekeken streamingtitel volgens Nielsen. Sinds 20 oktober staat hij in Amerika ook op 4K, Blu-ray en dvd. Dat is in vier maanden van bioscoop naar schijf, en het is de kortste route die een MOTU-film ooit heeft afgelegd. Voor je kast betekent dat twee dingen. Een: de filmfiguren die Mattel eraan heeft gehangen hebben hun piek gehad en daar zit vanaf nu de afprijzing in, niet de schaarste. Twee: wat er bij Mattel nog spanning heeft, zit in de Origins-lijn en niet in de film — en op de launchkalender van Mattel Creations staat na de korting van 31 oktober geen enkele MOTU-datum meer. De eerstvolgende harde MOTU-klok in je agenda is daarmee niet Mattel maar Limited Run Games, op 22 november."
+      "title": "Nederland ziet Godzilla een dag voor Amerika, en dat is deze keer geen toeval",
+      "body": "Godzilla Minus Zero komt hier op 5 november in de bioscoop, en in Amerika pas op 6 november. Volgens Wikizilla is de volgorde Japan op 3 november, Belgie en Frankrijk op 4 november, Nederland en Duitsland op 5 november, Amerika op 6 november, met daar op 3 november al een vroege IMAX-ronde. Dat Europa voorgaat komt doordat de Nederlandse distributeur Piece of Magic de film in zesenveertig markten uitbrengt en zijn eigen weekend kiest; in Amerika zit GKIDS eraan vast. Takashi Yamazaki schreef, regisseerde en deed de visual effects, de speelduur is honderdvijfendertig minuten, en de wereldpremiere was op 26 september op het New York Film Festival. De S.H.MonsterArts uit de film komt pas in december, dus deze maand is de film het nieuws en niet de figuur. En dat is precies de volgorde die je in je voordeel kunt gebruiken: Pathe heeft hem in twee versies in de agenda, Japans met Engelse ondertitels en Nederlands ondertiteld, dus let op welke je boekt. Wie hem op 5 november ziet, heeft hem gezien voordat de Amerikaanse verzamelaars er iets over te zeggen hebben."
     }
   ],
   "ideas": [
     {
       "slot": "Op de golf",
-      "title": "Elke Cyclops die je in huis hebt op één rij, met de vraag hoeveel versies van één man genoeg zijn",
-      "hook": "Beeld een is een extreme close-up van één visor: alleen de rode streep en het masker in beeld, zodat niemand ziet welke Cyclops het is. Tekstregel: \"deze week komt er nummer zoveel bij\"",
-      "why": "Dit is precies het verhaal van deze week en het is er een met een grap in. Van X-Men '97 golf 4 zijn Polaris, Havok en Jean Grey in drie dagen uitverkocht bij BigBadToyStore, en Cyclops staat er nog — niet omdat hij slecht is, maar omdat er al meerdere van hem bestaan en er maandag of woensdag nog een derde bijkomt in het Astonishing-tweepak. Dat is een feit dat elke verzamelaar herkent en waar iedere niet-verzamelaar om moet lachen: de held met de meeste versies is de held die niemand meer nodig heeft. Je hebt er alleen dingen voor nodig die al in je kast staan, en de telling werkt met twee stuks net zo goed als met vijf. Het eindigt op een vraag over het eigen tekort van de kijker, en dat is een DM en geen reactie.",
+      "title": "Je oudste Playmates-Turtle naast je nieuwste, met de mededeling dat het bedrijf er na achtendertig jaar mee stopt",
+      "hook": "Beeld een is een extreme close-up van de voet van je oudste Playmates-Turtle, zo dicht dat je het afgesleten plastic en de PLAYMATES-stempel in de zool ziet staan. Tekstregel: \"deze naam verdwijnt op 31 december\"",
+      "why": "Dit is het enige nieuws uit jouw hoek met een harde einddatum die geen preorder is, en daarmee het enige dat ook werkt bij mensen die nooit iets bestellen. Paramount en Playmates beeindigen de Turtles-licentie per 31 december 2026, na achtendertig jaar sinds 1988, met daarna negentig dagen om de voorraad uit te verkopen. Iedereen van jouw leeftijd heeft een Playmates-Turtle in handen gehad zonder ooit die naam gelezen te hebben, en dat is de grap en het verhaal in één: het merk waar je nooit op hebt gelet gaat weg. Het is een toen-en-nu in één beweging met stukken die je zeker hebt, de stempel in de zool is het bewijs dat je niet hoeft uit te leggen, en het eindigt op een datum waar de kijker zelf iets mee moet. Dat is een DM naar iemand die hem ook had, en geen reactie onder de post.",
       "shots": [
-        "Foto 1: extreme close-up van één visor, zo dicht dat alleen de rode streep en een stuk masker in beeld staan, staand (9:16), lamp laag van rechts, achtergrond donker en effen. Twee seconden — hier zit de haak.",
-        "Foto 2: zelfde hoogte en zelfde licht, een stap achteruit zodat die ene hele Cyclops in beeld staat, links in het kader, rechts bewust ruimte open. Anderhalve seconde.",
-        "Foto 3: zelfde hoogte, zelfde licht, al je andere Cyclopsen eráán gezet in die open ruimte, op gelijke hoogte en op gelijke afstand van elkaar, allemaal naar de camera. Twee seconden.",
-        "Foto 4: zelfde hoogte, zelfde licht, een stap verder achteruit met rechts van de rij één lege plek erbij in beeld — niets erin zetten. Twee seconden.",
-        "Tekst in beeld: bij foto 1 \"deze week komt er nummer zoveel bij\", bij foto 2 \"dit is de eerste\", bij foto 3 \"en dit zijn de rest\", bij foto 4 \"woensdag komt er nog één. Van welk figuur heb jij er stiekem te veel?\""
+        "Foto 1: extreme close-up van de zool van je oudste Playmates-Turtle met de stempel leesbaar in beeld, staand (9:16), lamp laag van opzij zodat de letters schaduw pakken, achtergrond donker en effen. Twee seconden — hier zit de haak.",
+        "Foto 2: zelfde hoogte en zelfde licht, een stap achteruit zodat die hele oude Turtle rechtop in beeld staat, links in het kader, rechts bewust ruimte open. Anderhalve seconde.",
+        "Foto 3: zelfde hoogte, zelfde licht, je nieuwste Turtle in die open ruimte ernaast gezet, beide naar de camera en op gelijke hoogte, zodat het verschil in verf en maat in één blik te zien is. Twee seconden.",
+        "Foto 4: zelfde hoogte, zelfde licht, een stap verder achteruit met rechts van de twee één lege plek in beeld — niets erin zetten. Twee seconden.",
+        "Tekst in beeld: bij foto 1 \"deze naam verdwijnt op 31 december\", bij foto 2 \"deze is van toen\", bij foto 3 \"deze van nu, zelfde bedrijf\", bij foto 4 \"na achtendertig jaar stopt Playmates met de Turtles. Welke had jij?\""
       ],
-      "send": "de vriend die alleen de tekenfilm van de jaren negentig kende en denkt dat er één Cyclops is",
-      "tags": "#marvellegends #xmen97 #cyclops #actionfigures"
+      "send": "de vriend of neef die in 1990 dezelfde Turtle in de hand had en hem allang kwijt is",
+      "tags": "#tmnt #playmates #vintagetoys #toystagram"
     },
     {
       "slot": "Doorstuurbaar",
-      "title": "Je kleinste Godzilla naast je grootste, aftellend naar 5 november in de bioscoop",
-      "hook": "Beeld een is een extreme close-up van de rugplaten van je kleinste Godzilla, van onderaf gefotografeerd zodat dat kleine ding er enorm uitziet. Tekstregel: \"5 november\"",
-      "why": "Over twaalf dagen staat Godzilla Minus Zero in de Nederlandse bioscoop: Belgie op de 4e, Nederland en Duitsland op de 5e, Amerika pas op de 6e, dus wij zijn een dag voor op de Amerikanen. De Nederlandse distributeur Piece of Magic brengt hem in zesenveertig markten uit, en het is de eerste Japanse film die voor IMAX is opgenomen. Dat is een datum die iedereen aangaat en geen aankondiging die je moet uitleggen, en Godzilla is van alles in je kast het stuk dat ook werkt bij mensen die nooit een figuur hebben gekocht — iedereen heeft een Godzilla gezien. Het truukje van onderaf fotograferen doet de rest: een kleine Godzilla die er groot uitziet en dan toch klein blijkt is een camerabeweging die je met twee foto's maakt. De figuur uit de film komt pas in december, dus dit is de maand waarin de film het nieuws is en de kast de bijdrage.",
+      "title": "Al je kleine helden op een rij met Godzilla erachter, aftellend naar 5 november — de dag dat wij hem eerder zien dan Amerika",
+      "hook": "Beeld een is een extreme close-up van één kleine held die omhoog kijkt, scherp op zijn gezicht, met achter hem iets groots en donkers onscherp. Tekstregel: \"5 november\"",
+      "why": "Over elf dagen staat Godzilla Minus Zero hier in de bioscoop, en Amerika krijgt hem pas op 6 november: Japan de 3e, Belgie en Frankrijk de 4e, Nederland en Duitsland de 5e, Amerika de 6e. Dat laatste feit is het doorstuurbare deel — een Nederlander die iets eerder mag dan Amerika is zeldzaam genoeg om te melden, en het vraagt geen uitleg over verzamelen. Godzilla is bovendien van alles in je kast het stuk dat ook werkt bij mensen die nooit een figuur hebben gekocht, en een absurde opstelling waarin tien superhelden samen niets kunnen beginnen tegen één monster is een grap die je in één beeld ziet. Je hebt er alleen dingen voor nodig die al in je kast staan, het werkt met zes helden net zo goed als met vijftien, en de figuur uit de film komt pas in december — dus deze maand is de film het nieuws en jouw kast de bijdrage.",
       "shots": [
-        "Foto 1: extreme close-up van de rugplaten van je kleinste Godzilla, van vlak onder de ooghoogte van het figuur omhoog gefotografeerd, staand (9:16), lamp hard van achter zodat de platen oplichten, achtergrond donker. Twee seconden — hier zit de haak.",
-        "Foto 2: zelfde hoek van onderaf, zelfde licht, een stap achteruit zodat die hele kleine Godzilla in beeld staat en nog steeds groot lijkt. Anderhalve seconde.",
-        "Foto 3: camera recht op ooghoogte van de tafel, dezelfde kleine Godzilla nu naast je grootste gezet, beide scherp — hier valt het formaatverschil pas op. Twee seconden.",
-        "Foto 4: zelfde ooghoogte, een stap achteruit met rechts van de twee één lege plek in beeld, leeg gelaten. Anderhalve seconde.",
-        "Tekst in beeld: bij foto 1 \"5 november\", bij foto 2 \"dit was mijn eerste\", bij foto 3 \"en dit is dezelfde kerel\", bij foto 4 \"de nieuwe uit de film komt pas in december. Ga je mee naar de bioscoop?\""
+        "Foto 1: extreme close-up van één kleine Marvel- of DC-held die omhoog kijkt, scherp op het gezicht, met je Godzilla er vlak achter maar onscherp, staand (9:16), lamp hard van achter zodat Godzilla alleen een donkere vorm is. Twee seconden — hier zit de haak.",
+        "Foto 2: zelfde hoek en zelfde licht, een stap achteruit zodat je al je kleine helden op een rij voor Godzilla staan, allemaal naar hem toe gedraaid en niet naar de camera. Twee seconden.",
+        "Foto 3: zelfde hoogte, zelfde licht, een stap verder achteruit zodat Godzilla nu scherp is en de hele rij helden klein onder hem staat. Twee seconden.",
+        "Foto 4: camera recht van achter de rij helden, over hun schouders omhoog naar Godzilla, zodat je kijkt zoals zij kijken. Anderhalve seconde.",
+        "Tekst in beeld: bij foto 1 \"5 november\", bij foto 2 \"iedereen is opgeroepen\", bij foto 3 \"dit gaat niet goed aflopen\", bij foto 4 \"5 november hier, 6 november in Amerika. Wij zijn een dag voor. Ga je mee?\""
       ],
       "send": "je broer of de vriend met wie je de oude monsterfilms op zondagmiddag op tv zag",
-      "tags": "#godzilla #kaiju #monsterarts #toystagram"
+      "tags": "#godzilla #kaiju #actionfigures #toyphotography"
     }
   ],
   "agenda": [
     {
-      "date": "2026-10-25",
-      "label": "De klok gaat hier een uur terug, en Comic Con Brussels, Hengelo en Aarschot staan alle drie open",
-      "note": "Europa gaat in de nacht van zaterdag op zondag om 3 uur op wintertijd, Amerika pas op 1 november. In die tussenweek is 13 uur Eastern hier 18 uur en niet 19, en in die week valt het Astonishing X-Men-tweepak. Zelfde dag: Comic Con Brussels dag twee (10 tot 17 uur, Tour & Taxis), Gaming Universe in Hengelo (de Waarbeek, 9 tot 15 uur, 7 euro) en de Retro Game Beurs in Aarschot (11 tot 15.30 uur, 5 euro). Je hebt die ochtend een uur extra."
-    },
-    {
-      "date": "2026-10-26",
-      "label": "Vroegste datum die voor het Astonishing X-Men-tweepak genoemd wordt — maandag, 18 uur hier",
-      "note": "Bleeding Cool noemt in de inleiding van zijn artikel 26 oktober 13 uur Eastern, terwijl de productbeschrijving in datzelfde artikel en MarvelousNews beide 28 oktober 13 uur Eastern noemen. Omdat te vroeg klaarzitten niets kost en te laat de set kost, is dit je eerste controlemoment: maandag 18 uur hier bij BigBadToyStore of Entertainment Earth. Acht accessoires in totaal, geen officiele prijs genoemd; twee losse golf-4-figuren kosten samen 55,98 dollar en een forumreactie gokt 70."
-    },
-    {
       "date": "2026-10-28",
-      "label": "Astonishing X-Men tweepak Cyclops en Wolverine volgens MarvelousNews — 13 uur Eastern, hier 18 uur",
-      "note": "MarvelousNews, dat de officiele Hasbro-informatie en -beelden heeft, noemt woensdag 28 oktober 13 uur Eastern bij BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon; Bleeding Cool noemt Hasbro Pulse en zet de verzending op najaar 2026. Cyclops komt met twee wisselhanden en een wisselkop, Wolverine met vier wisselhanden en een gemaskerde wisselkop. Dit is de datum waar de meeste bronnen op uitkomen, maar maandag is de datum waarop je hem voor het eerst nakijkt."
+      "label": "Astonishing X-Men tweepak Cyclops en Wolverine gaat open — 13 uur Eastern, hier 18 uur",
+      "note": "Nu bevestigd door drie bronnen: MarvelousNews met de officiele Hasbro-informatie, de productbeschrijving bij Bleeding Cool, en Funko POP News met 10 uur Pacific op dezelfde dag. Winkels: BigBadToyStore, Entertainment Earth, Nerdzoic en Amazon. Acht accessoires in totaal, geen officiele prijs genoemd; twee losse golf-4-figuren kosten samen 55,98 dollar en een forumreactie gokt 70. De 26 oktober die eerder in de inleiding bij Bleeding Cool stond kun je laten vallen. Let op het uur: de klok is hier terug en in Amerika pas op 1 november, dus deze week is 13 uur Eastern 18 uur hier en niet 19."
     },
     {
       "date": "2026-11-01",
-      "label": "Einde Mattel Creations-korting (7.59 uur hier), vroegste sluiting van het made-to-order tweepak, en dag twee van FACTS",
-      "note": "Drie dingen op één zondag. De 20 procent-korting op vijf Masters of the Universe Origins-figuren loopt tot 31 oktober 23.59 uur Pacific, hier dus tot zondagochtend 7.59 uur, en daarna staat er op de launchkalender van Mattel Creations geen MOTU-datum meer. Marvel Toy News noemt 1 november als sluiting van de made-to-order preorder voor Bolivar Trask en Bastion Nimrod op Hasbro Pulse, 75 dollar, verzending eind 2027 — MarvelousNews houdt het op 20 november, dus neem deze. En FACTS in Gent heeft zijn tweede dag, 9 tot 17 uur in Flanders Expo."
+      "label": "Einde Mattel Creations-korting om 7.59 uur hier, en dag twee van FACTS in Gent",
+      "note": "De 20 procent-korting op vijf of meer Masters of the Universe Origins-figuren loopt tot 31 oktober 23.59 uur Pacific, hier dus tot zondagochtend 7.59 uur, en alleen voor artikelen die je via de Origins-collectielink in je mandje legt. Vijf van de achttiendollarfiguren is 72 dollar in plaats van 90. Dit is de enige harde deadline van de komende week die niet kan opschuiven. Zelfde dag heeft FACTS in Gent zijn tweede dag, 9 tot 17 uur in Flanders Expo, en gaat Amerika pas op wintertijd — vanaf maandag 2 november is 13 uur Eastern hier weer 19 uur."
     },
     {
       "date": "2026-11-05",
-      "label": "Godzilla Minus Zero in de Nederlandse bioscoop",
-      "note": "De Nederlandse distributeur Piece of Magic brengt de film in zesenveertig markten uit vanaf 4 november, met Nederland in dat rijtje en de grote markten op 5 en 6 november: Belgie dus de 4e, Nederland en Duitsland de 5e, het Verenigd Koninkrijk en Amerika de 6e, Japan op 3 november. Takashi Yamazaki schreef, regisseerde en deed de visual effects, en het is de eerste Japanse film die voor IMAX is opgenomen. Na de premiere op het New York Film Festival op 26 september staat hij op 95 procent bij Rotten Tomatoes, met als terugkerende kritiek dat de mensen zwakker zijn dan in Minus One en dat Godzilla zelf weinig in beeld is. Speelduur 135 minuten volgens Wikipedia. Pathe heeft hem in twee versies in de agenda, Japans met Engelse ondertitels en Nederlands ondertiteld, dus let op welke je boekt. De S.H.MonsterArts uit de film staat op 119,99 dollar met december als maand."
+      "label": "Godzilla Minus Zero in de Nederlandse bioscoop — een dag voor Amerika",
+      "note": "Volgens Wikizilla: Japan 3 november, Belgie en Frankrijk 4 november, Nederland en Duitsland 5 november, Amerika 6 november met daar op 3 november al een vroege IMAX-ronde. De Nederlandse distributeur Piece of Magic brengt de film in zesenveertig markten uit. Takashi Yamazaki schreef, regisseerde en deed de visual effects; speelduur honderdvijfendertig minuten; wereldpremiere 26 september op het New York Film Festival. Pathe heeft hem in twee versies in de agenda, Japans met Engelse ondertitels en Nederlands ondertiteld, dus let op welke je boekt. De S.H.MonsterArts uit de film staat op 119,99 dollar met december als maand."
     },
     {
       "date": "2026-11-20",
-      "label": "Late sluiting van het made-to-order tweepak volgens MarvelousNews, en twee dagen later die van het He-Man-spel",
-      "note": "MarvelousNews noemt 20 november 23.59 uur Eastern als sluiting van de Hasbro Pulse-preorder voor Trask en Bastion Nimrod, met 7 december 23.59 uur Eastern als laatste annuleermoment; hier is dat sluitingsmoment zaterdag 21 november 5.59 uur, dus praktisch vrijdagavond. Reken er niet op: Marvel Toy News noemt 1 november. Twee dagen later, 22 november 23.59 uur Eastern, sluit bij Limited Run Games de preorder van He-Man and the Masters of the Universe: Dragon Pearl of Destruction — standaard 29,99 dollar, Collector's Edition 99,99, en de gratis MOTU Origins He-Man voor de eerste 2.250 bestellers is op alle drie platforms al weg. Het spel zelf komt 4 februari 2027."
+      "label": "Sluiting van het made-to-order tweepak Trask en Bastion Nimrod — 23.59 uur Eastern, hier zaterdag 21 november 5.59 uur",
+      "note": "Dit is nu de datum om aan te houden en niet 1 november. MarvelousNews noemt 20 november 23.59 uur Eastern met 7 december 23.59 uur Eastern als laatste annuleermoment, AFTimes noemt ook 20 november, en Bleeding Cool schrijft dat de preorder tweeenveertig dagen openstaat — vanaf 9 oktober geteld komt dat op 20 november uit. Prijs 74,99 dollar bij Hasbro Pulse, verzending november 2027. Omdat Amerika dan op wintertijd staat, is 23.59 uur Eastern hier 5.59 uur de volgende ochtend, dus praktisch vrijdagavond. Made-to-order betekent dat er gemaakt wordt wat besteld is: geen tweede ronde."
+    },
+    {
+      "date": "2026-11-22",
+      "label": "Preorder van het He-Man-spel sluit bij Limited Run Games — 23.59 uur Eastern",
+      "note": "He-Man and the Masters of the Universe: Dragon Pearl of Destruction voor Switch komt op 4 februari 2027 uit. Bij Limited Run Games is de standaardeditie 30 pond met foliehoes, de Collector's Edition 100 pond met lunchtrommelverpakking, steelcase, pins, een Power Sword-replica met standaard, een acryl standee en een mini-strip; bij Clear River Games is de gewone editie 25 pond. De gratis vijfeneenhalve-inch He-Man-figuur voor de eerste 2.250 Collector's Edition-bestellers is al weg. De preorder sluit 22 november om 23.59 uur Eastern."
     },
     {
       "date": "2026-12-31",
@@ -178,40 +169,24 @@
     {
       "date": "2027-01-01",
       "label": "Mattel-livestream over DC: volledige golven, karakterlijsten en preorderdatums",
-      "note": "Tot dan is er aan de nieuwe DC-lijn niets te missen. Mattel heeft op NYCC de prijzen neergezet — DC Core op 12,99 dollar in zes en een halve inch bij Target, Walmart en de grote webwinkels, en het Batman: Hush Rooftop Bat-Signal Diorama Set op 100 dollar bij Mattel Creations — maar geen enkele golfsamenstelling en geen enkele preorderdatum, en op de launchkalender van Mattel Creations staat bij de DC-artikelen nog geen datum. Die komen hier. De enige DC-klok die tot dan loopt is die van McFarlane: die licentie eindigt eind 2026, en golf 16 van de Collector Edition met Raven, Mera, Black Manta en Wonder Girl op 34,99 dollar is de laatste normale najaarsgolf."
+      "note": "Tot dan is er aan de nieuwe DC-lijn niets te missen. Mattel heeft op NYCC de prijzen neergezet — DC Core op 12,99 dollar in zes en een halve inch en het Batman: Hush Rooftop Bat-Signal Diorama Set op 100 dollar bij Mattel Creations — maar geen enkele golfsamenstelling en geen enkele preorderdatum. Die komen hier. De enige DC-klok die tot dan loopt is die van McFarlane: die licentie eindigt eind 2026, en golf 16 van de Collector Edition met Raven, Mera, Black Manta en Wonder Girl op 34,99 dollar plus het New Gods-tweepak van 69,99 zijn wat daar nog uit komt."
     }
   ],
   "fairs": [
     {
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "name": "Comic Con Brussels",
       "city": "Brussel",
       "country": "BE",
-      "note": "Vandaag en morgen, Tour & Taxis, Havenlaan 86c, 1000 Brussel. Op de eigen site: zaterdag 10 tot 19 uur, zondag 10 tot 17 uur. Comics, cosplay, gaming en sci-fi met een stevig handelaarsgedeelte — van de vier beurzen dit weekend de enige waar je echt figuren in vitrines vindt. Kaartprijzen staan niet op de infopagina maar op een aparte kaartpagina, dus kijk die na voordat je rijdt. Zelfde dag als Retroboerse Oberhausen, dus kiezen — en dit is de betere van de twee.",
+      "note": "Vandaag de tweede en laatste dag, 10 tot 17 uur, Tour & Taxis, Havenlaan 86c, 1000 Brussel; vanochtend op de eigen infopagina bevestigd. Comics, cosplay, gaming en sci-fi met een stevig handelaarsgedeelte, en van de twee beurzen die vandaag nog doorgaan de enige waar je echt figuren in vitrines vindt. Kaartprijzen staan niet op de infopagina maar op een aparte kaartpagina, dus kijk die na voordat je rijdt.",
       "url": "https://comicconbrussels.com/en/info-v2-en/"
-    },
-    {
-      "date": "2026-10-24",
-      "name": "Retroboerse Oberhausen",
-      "city": "Oberhausen",
-      "country": "DE",
-      "note": "Vandaag, Zentrum Altenberg; zo op de Retrokalender, die zelf aangeeft voor het laatst op 9 oktober te zijn bijgewerkt en de enige bron is die hem heeft. Retrobeurs net over de oostgrens en de kortste rit van alle Duitse beurzen op deze lijst. Zwaartepunt op retrogames, met vintage speelgoed op de losse tafels. Openingstijden en toegangsprijs staan nergens, dus bel of mail de organisator voordat je gaat.",
-      "url": "https://www.retrokalender.be/"
     },
     {
       "date": "2026-10-25",
       "name": "Gaming Universe",
       "city": "Hengelo",
       "country": "NL",
-      "note": "Morgen, achtste editie, de Waarbeek in Hengelo, 9 tot 15 uur, 7 euro; vanochtend opnieuw zo op de agenda van RetroGameBeurzen en ook op de Retrokalender. Retrogames staan vooraan; vintage speelgoed en figuren zitten bij dit soort beurzen op de losse tafels. Dicht bij de oostgrens en de enige Nederlandse beurs dat weekend. Dit is de dag dat de klok een uur terug gaat, dus je hebt die ochtend een uur extra.",
-      "url": "https://retrogamebeurzen.nl/events/"
-    },
-    {
-      "date": "2026-10-25",
-      "name": "Retro Game Beurs Aarschot",
-      "city": "Aarschot",
-      "country": "BE",
-      "note": "Morgen, 11 tot 15.30 uur, 5 euro; vanochtend opnieuw bevestigd op RetroGameBeurzen. Op de Retrokalender staat hij niet, dus hou het bij de ene bron die hem wel heeft en controleer de zaal bij de organisator. Retrogames en consoles staan vooraan en vintage speelgoed komt mee op de losse tafels. Zelfde dag als Gaming Universe in Hengelo; die is niet beter voor jouw hoek maar wel een kortere rit als je in het oosten zit.",
+      "note": "Vandaag, achtste editie, de Waarbeek in Hengelo, 9 tot 15 uur, 7 euro; vanochtend opnieuw zo op de agenda van RetroGameBeurzen en ook op de Retrokalender. Retrogames staan vooraan; vintage speelgoed en figuren zitten bij dit soort beurzen op de losse tafels. De enige Nederlandse beurs dit weekend en hij sluit om 15 uur, dus dit is alleen nog zinvol als je in het oosten zit en nu vertrekt.",
       "url": "https://retrogamebeurzen.nl/events/"
     },
     {
@@ -219,7 +194,7 @@
       "name": "FACTS",
       "city": "Gent",
       "country": "BE",
-      "note": "31 oktober en 1 november, Flanders Expo; vanochtend op de eigen site bevestigd met zaterdag 9 tot 19 uur en zondag 9 tot 17 uur. Kaartprijzen staan niet op de voorpagina maar op hun eigen kaartpagina. Grootste pop-culture-beurs van Belgie met een fors handelaarsgedeelte; op de Retrokalender staat hij als Facts Fall. Van alles in deze lijst de beurs met de meeste kans op nieuwe figuren naast de vintage. Zelfde weekend loopt de Mattel Creations-korting af — die sluit hier pas zondagochtend 7.59 uur, dus je kunt dat na de eerste beursdag nog thuis afrekenen.",
+      "note": "31 oktober en 1 november, Flanders Expo; op de eigen site bevestigd met zaterdag 9 tot 19 uur en zondag 9 tot 17 uur. Kaartprijzen staan op hun eigen kaartpagina. Grootste pop-culture-beurs van Belgie met een fors handelaarsgedeelte; op de Retrokalender staat hij als Facts Fall. Van alles in deze lijst de beurs met de meeste kans op nieuwe figuren naast de vintage. De Mattel Creations-korting sluit pas zondagochtend 7.59 uur, dus die kun je na de eerste beursdag nog thuis afrekenen.",
       "url": "https://www.facts.be/en/"
     },
     {
@@ -232,18 +207,26 @@
     },
     {
       "date": "2026-11-01",
-      "name": "Bourse Rétrogaming Dour",
+      "name": "Bourse Retrogaming Dour",
       "city": "Dour",
       "country": "BE",
-      "note": "Twaalfde editie, zondag in het Centre Culturel in Dour, 10 tot 17 uur en gratis toegang; vanochtend opnieuw zo op RetroGameBeurzen en ook op de Retrokalender. Henegouwen, dus de verste Belgische rit op deze lijst en het is een retrogamebeurs, dus zet je verwachting voor figuren laag. Gratis naar binnen maakt het wel de goedkoopste gok van het seizoen. Zelfde dag als de tweede dag van FACTS in Gent, en die is voor jouw hoek duidelijk beter.",
+      "note": "Twaalfde editie, zondag in het Centre Culturel in Dour, 10 tot 17 uur en gratis toegang; vanochtend opnieuw zo op RetroGameBeurzen en ook op de Retrokalender. Henegouwen, dus de verste Belgische rit op deze lijst, en het is een retrogamebeurs, dus zet je verwachting voor figuren laag. Gratis naar binnen maakt het wel de goedkoopste gok van het seizoen. Zelfde dag als de tweede dag van FACTS in Gent, en die is voor jouw hoek duidelijk beter.",
       "url": "https://retrogamebeurzen.nl/events/"
+    },
+    {
+      "date": "2026-11-07",
+      "name": "Retroboerse Neuss",
+      "city": "Neuss",
+      "country": "DE",
+      "note": "Nieuw op deze lijst en de kortste Duitse rit erop: zaterdag 7 november, 10 tot 15 uur, Gare du Neuss, Karl-Arnold-Strasse 3-5. Beschreven als sammlermarkt voor videospellen, consoles, trading cards en retro-speelgoed, ruim 1.500 vierkante meter met handelaren uit heel Duitsland, binnen en met parkeren naast de deur. Toegangsprijs staat er niet bij; de Keulse editie van dezelfde organisator vraagt 10 euro, dus reken daarop. De dag erna staat in dezelfde zaal de Filmboerse Neuss, 10 tot 15 uur, als je er een weekend van maakt.",
+      "url": "https://filmboersen.de/termine"
     },
     {
       "date": "2026-11-07",
       "name": "RetroCon Saar",
       "city": "Voelklingen bij Saarbruecken",
       "country": "DE",
-      "note": "7 en 8 november, Hermann Neuberger Halle, 11 tot 18 uur; vanochtend opnieuw op de Retrokalender. Dagkaart 8 euro, weekendkaart 12, kinderen tot 12 gratis. Tweeduizend vierkante meter over twee verdiepingen, en actiefiguren en speelgoed staan expliciet in de categorieenlijst naast retrogames, comics en trading cards. Zeventiende editie, thema Villains & Misfits. Verste rit op deze lijst, dus alleen als je er een dag voor uittrekt.",
+      "note": "7 en 8 november, Hermann Neuberger Halle, Stadionstrasse, 11 tot 18 uur beide dagen; vanochtend op de eigen site bevestigd. Dagkaart 8 euro, weekendkaart 12, kinderen tot 12 gratis en ook gratis met een zware-handicapkaart plus begeleider. Figuren en speelgoed staan expliciet in de categorieenlijst naast videospellen, computers, trading cards, comics, anime en films. Tweeduizend vierkante meter over twee verdiepingen. Verste rit op deze lijst, dus alleen als je er een dag voor uittrekt — Neuss is dezelfde dag en veel dichterbij.",
       "url": "https://www.retrosaar.de/retroboerse/"
     },
     {
@@ -251,7 +234,7 @@
       "name": "Verzamelaarsjaarbeurs",
       "city": "Utrecht",
       "country": "NL",
-      "note": "14 en 15 november de publieksdagen, 13 november de handelarendag; zaterdag 9 tot 17 uur, zondag 9 tot 16 uur. Jaarbeurs Utrecht over drie hallen, met Speelgoed, Vintage, Pop Culture, Film & Sci-Fi, Games en Retro als eigen categorieen naast antiek, curiosa, vinyl, kleding, posters en boeken. De site zegt zelf dat het aanbod per editie verschilt. Dit is je grootste kans van het jaar op losse vintage figuren dicht bij huis, en met Playmates die op 31 december stopt ook de beste plek om je Turtles-gaten aan te pakken voordat de uitverkoop begint. Kaarten gaan online.",
+      "note": "14 en 15 november de publieksdagen, 13 november de handelarendag; zaterdag 9 tot 17 uur, zondag 9 tot 16 uur, Jaarbeurs Utrecht, hallen 9 tot 12 met ingang bij hal 10 en op loopafstand van Utrecht Centraal. Speelgoed, Vintage, Pop Culture, Film & Sci-Fi, Games en Retro staan als eigen categorieen in de lijst naast antiek, curiosa, vinyl, kleding, posters en boeken; de site zegt zelf dat het aanbod per editie verschilt. Dit is je grootste kans van het jaar op losse vintage figuren dicht bij huis, en met Playmates die op 31 december stopt ook de beste plek om je Turtles-gaten aan te pakken.",
       "url": "https://www.verzamelaarsjaarbeurs.nl/"
     },
     {
@@ -259,15 +242,23 @@
       "name": "Geek Village: The Con",
       "city": "Hasselt",
       "country": "BE",
-      "note": "14 en 15 november, Trixxo Arena; vanochtend opnieuw op de Retrokalender. Brede pop-culture-beurs met standhouders over alle categorieen. Zelfde weekend als de Verzamelaarsjaarbeurs in Utrecht, dus kiezen — en Utrecht heeft meer losse vintage.",
+      "note": "14 en 15 november, Trixxo Arena; op de Retrokalender genoteerd. Brede pop-culture-beurs met standhouders over alle categorieen. Zelfde weekend als de Verzamelaarsjaarbeurs in Utrecht, dus kiezen — en Utrecht heeft meer losse vintage. Controleer tijden en kaartprijzen op de eigen site voordat je rijdt, want de Retrokalender noteert deze alleen met datum en plaats.",
       "url": "https://geekvillage.be/"
+    },
+    {
+      "date": "2026-11-15",
+      "name": "Filmboerse Koeln - Das Original",
+      "city": "Keulen",
+      "country": "DE",
+      "note": "Zondag, 12 tot 16 uur, Stadthalle Koeln-Muelheim, Jan-Wellem-Strasse 2. Film- en tv-beurs: dvd, blu-ray, soundtracks, posters en merchandise, met speelgoed en figuren uit films op de losse tafels. Een kortere middag dan de andere Duitse beurzen hier en een kortere rit dan Saarbruecken. Toegangsprijs staat niet in de agenda, dus vraag die bij de organisator na. De week erna staat in dezelfde zaal niets, dus dit is in november je enige Keulse moment.",
+      "url": "https://filmboersen.de/termine"
     },
     {
       "date": "2026-11-21",
       "name": "Heroes Dutch Comic Con Winter",
       "city": "Utrecht",
       "country": "NL",
-      "note": "21 en 22 november, Jaarbeurs, Jaarbeursplein 15, beide dagen 10 tot 18 uur, met toegang tot de vloer vanaf 9 uur voor VIP-kaarten. Grootste van Nederland, en de merchandisevloer is er belangrijker dan de gastenlijst. Let op het betalingsverkeer: zaal, catering en garderobe nemen alleen pin, terwijl de meeste standhouders cash prefereren — er staat een geldautomaat in de gang, met rij. Late tickets gingen op 25 september in de verkoop, dus controleer de kaartpagina voordat je erop rekent.",
+      "note": "21 en 22 november, Jaarbeurs, Jaarbeursplein 15, beide dagen 10 tot 18 uur, met toegang tot de vloer vanaf 9 uur voor VIP-kaarten; vanochtend op de eigen site bevestigd. Grootste van Nederland, en de merchandisevloer is er belangrijker dan de gastenlijst. Let op het betalingsverkeer: zaal, catering en garderobe nemen alleen pin, terwijl de meeste standhouders cash prefereren — er staat een geldautomaat in de gang, met rij. Kaarten gaan online; de site duwt op dit moment op zondagkaarten.",
       "url": "https://www.dutchcomiccon.com/"
     },
     {
@@ -275,8 +266,8 @@
       "name": "In the Toyzone Holiday Edition",
       "city": "Haarlem",
       "country": "NL",
-      "note": "Zaterdag, Kennemer Sportcenter, IJsbaanlaan 4A, 11 tot 17 uur; vanochtend opnieuw op de agenda van Meuk is Leuk, daar als speciale feestelijke editie. Vorig jaar negentig tafels over duizend vierkante meter met vintage speelgoed, comics en trading cards, handelaren uit Nederland, Belgie, Duitsland en het VK, en die editie was uitverkocht. Kaarten gaan alleen online vooraf, niet aan de deur. Na Utrecht de beste beurs op deze lijst voor jouw hoek, en je kunt hem nu al vastleggen.",
-      "url": "https://www.meukisleuk.nl/agenda/verzamelbeurs"
+      "note": "Zaterdag, Kennemer Sportcenter, IJsbaanlaan 4A, 11 tot 17 uur; vanochtend bevestigd bij de zaalbeheerder en opnieuw op de agenda van Meuk is Leuk. Duizend vierkante meter met speelgoed, collectibles en veel bekende verkopers, en het is volgens de organisatie volgeboekt met standhouders. Kaarten alleen online vooraf in drie soorten: Early Bird, Normal en Fashionably Late, dus de vroege kaart bepaalt wie het eerst in de kratten zit. Na Utrecht de beste beurs op deze lijst voor jouw hoek.",
+      "url": "https://sro.nl/sporthal-kennemer-sportcenter/agenda/the-toy-zone/"
     },
     {
       "date": "2026-11-29",
@@ -291,7 +282,7 @@
       "name": "German Film & Comic Con Winter Edition",
       "city": "Dortmund",
       "country": "DE",
-      "note": "5 en 6 december, Messe Dortmund, Rheinlanddamm 200, ingang via het nieuwe noordelijke forum. Zaterdag 10 tot 18 uur, zondag 10 tot 17 uur. Goed bereikbaar vanaf de oostgrens en de laatste grote beurs van het jaar op deze lijst. Zelfde weekend staat op Toymarkt de Ulmer Spielzeugmarkt in Ulm op 6 december (11 tot 16 uur, Ulm-Messe, onder voorbehoud van goedkeuring), maar dat blijft een gecombineerde speelgoed- en modelbeurs met oude modelauto's en oud speelgoed, en het is veel verder rijden.",
+      "note": "5 en 6 december, Messe Dortmund, Rheinlanddamm 200, ingang via het nieuwe noordelijke forum. Zaterdag 10 tot 18 uur, zondag 10 tot 17 uur. Goed bereikbaar vanaf de oostgrens en de laatste grote beurs van het jaar op deze lijst. Zelfde dag staat in Houten de NAMAC-beurs (10 tot 15 uur, Expo Houten), maar dat is een modelautobeurs waar vintage speelgoed slechts meekomt, dus Dortmund is voor jouw hoek de duidelijke keuze.",
       "url": "https://germanfilmcomiccon.com/en/home/"
     },
     {
@@ -299,154 +290,150 @@
       "name": "Retrogamebeurs Kalken",
       "city": "Kalken",
       "country": "BE",
-      "note": "Zondag, Zaal Skala, 10 tot 15 uur, 5 euro, en de laatste beurs voor de kerst op deze agenda; vanochtend opnieuw bevestigd op RetroGameBeurzen, dat Laarne als gemeente noemt, en ook op de Retrokalender. Retrogames staan vooraan, dus zet je verwachting laag voor figuren — maar bij een kleine Vlaamse retrobeurs komt vintage speelgoed mee op de losse tafels, en het is een korte rit. Daarna is de eerstvolgende die het noteren waard is GlitchMania in Herzele op 20 februari (9 tot 16 uur, 5 euro), de enige Vlaamse beurs met Toy Fair in de naam.",
+      "note": "Zondag, Zaal Skala, 10 tot 15 uur, 5 euro, en de laatste beurs voor de kerst op deze agenda; vanochtend opnieuw bevestigd op RetroGameBeurzen, dat Laarne als gemeente noemt, en ook op de Retrokalender. Retrogames staan vooraan, dus zet je verwachting laag voor figuren — maar bij een kleine Vlaamse retrobeurs komt vintage speelgoed mee op de losse tafels, en het is een korte rit. Daarna is de eerstvolgende die het noteren waard is GlitchMania in Herzele op 20 februari, 9 tot 16 uur, 5 euro: de enige Vlaamse beurs met Toy Fair in de naam.",
       "url": "https://retrogamebeurzen.nl/events/"
     }
   ],
   "sources": [
     {
-      "label": "BigBadToyStore — X-Men '97 Marvel Legends Cyclops (Season 2)",
-      "url": "https://www.bigbadtoystore.com/product/x-men-97-marvel-legends-cyclops-season-2-action-figure-199118"
+      "label": "Toy Hype USA - voorpagina, nieuwste bericht 23 oktober",
+      "url": "https://toyhypeusa.com/"
     },
     {
-      "label": "BigBadToyStore — X-Men '97 Marvel Legends Vindicator (Season 2)",
-      "url": "https://www.bigbadtoystore.com/product/x-men-97-marvel-legends-marvels-vindicator-season-2-action-figure-199114"
-    },
-    {
-      "label": "BigBadToyStore — X-Men '97 Marvel Legends Death Gambit (Season 2)",
-      "url": "https://www.bigbadtoystore.com/product/x-men-97-marvel-legends-death-gambit-season-2-action-figure-199119"
-    },
-    {
-      "label": "BigBadToyStore — X-Men '97 Marvel Legends Polaris (Season 2), uitverkocht",
-      "url": "https://www.bigbadtoystore.com/product/x-men-97-marvel-legends-marvels-polaris-season-2-action-figure-199115"
-    },
-    {
-      "label": "BigBadToyStore — X-Men '97 Marvel Legends Havok (Season 2), uitverkocht",
-      "url": "https://www.bigbadtoystore.com/product/x-men-97-marvel-legends-marvels-havok-season-2-action-figure-199116"
-    },
-    {
-      "label": "BigBadToyStore — X-Men '97 Marvel Legends Jean Grey (Season 2), uitverkocht",
-      "url": "https://www.bigbadtoystore.com/product/x-men-97-marvel-legends-jean-grey-season-2-action-figure-199117"
-    },
-    {
-      "label": "Marvel Toy News — X-Men '97 golf 4 en de nieuwe adviesprijs van 29,99 dollar",
-      "url": "https://marveltoynews.com/nycc-2026-marvel-legends-x-men-97-wave-4-figures-up-for-order-polaris-havok-death/"
-    },
-    {
-      "label": "MarvelousNews — officiele info Astonishing X-Men Wolverine en Cyclops tweepak",
-      "url": "https://marvelousnews.com/252-39295"
-    },
-    {
-      "label": "Bleeding Cool — Astonishing X-Men tweepak, met twee tegenstrijdige datums",
-      "url": "https://bleedingcool.com/collectibles/astonishing-x-men-marvel-legends-wolverine-cyclops-2-pack-debuts/"
-    },
-    {
-      "label": "MarvelousNews — made-to-order Bolivar Trask en Bastion Nimrod tweepak",
-      "url": "https://marvelousnews.com/252-39268"
-    },
-    {
-      "label": "Mattel Creations — Masters of the Universe-collectie met de 20 procent-actie",
-      "url": "https://creations.mattel.com/collections/masters-of-the-universe"
-    },
-    {
-      "label": "Toy Hype USA — Entertainment Earth-nieuws van 23 oktober, met DC golf 16",
-      "url": "https://toyhypeusa.com/2026/10/23/ee-star-wars-marvel-god-of-war-gundam-street-fighter-transformers-demon-slayer-dc-gijoe-classified/"
-    },
-    {
-      "label": "Entertainment Earth — DC Multiverse McFarlane Collector Edition golf 16, doos van zes",
-      "url": "https://www.entertainmentearth.com/product/dc-multiverse-mcfarlane-collector-edition-wave-16-7inch-scale-action-figure-case-of-6/mf18065a"
-    },
-    {
-      "label": "Toy Hype USA — Cel Shaded Spider-Man Retro heruitgave opnieuw in preorder",
-      "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-cel-shaded-spider-man-retro-the-animated-series-figure-reissue-pre-orders-update/"
-    },
-    {
-      "label": "Toy Hype USA — Spider-Man: Brand New Day Scorpion verzendt eerder",
+      "label": "Toy Hype USA - Marvel Legends Scorpion verzendt eerder",
       "url": "https://toyhypeusa.com/2026/10/23/hasbro-marvel-legends-series-spider-man-brand-new-day-scorpion-figure-shipping-soon/"
     },
     {
-      "label": "BigBadToyStore — S.H.MonsterArts Godzilla uit Minus Zero",
+      "label": "Marvel Toy News - voorpagina, nieuwste bericht 21 oktober",
+      "url": "https://marveltoynews.com/"
+    },
+    {
+      "label": "Marvel Toy News - X-Men '97 golf 4 en de nieuwe adviesprijs",
+      "url": "https://marveltoynews.com/nycc-2026-marvel-legends-x-men-97-wave-4-figures-up-for-order-polaris-havok-death/"
+    },
+    {
+      "label": "MarvelousNews - officiele info Astonishing X-Men tweepak, 28 oktober",
+      "url": "https://marvelousnews.com/252-39295"
+    },
+    {
+      "label": "MarvelousNews - made-to-order Trask en Bastion Nimrod, sluiting 20 november",
+      "url": "https://marvelousnews.com/252-39268"
+    },
+    {
+      "label": "Bleeding Cool - made-to-order Trask en Nimrod, 74,99 dollar en tweeenveertig dagen open",
+      "url": "https://bleedingcool.com/collectibles/marvel-legends-made-to-order-x-men-97-trask-and-nimrod-revealed/"
+    },
+    {
+      "label": "AFTimes - Trask en Nimrod, sluiting 20 november",
+      "url": "https://www.aftimes.com/post/nycc26-new-x-men-97-figures-revealed-for-limited-pre-order"
+    },
+    {
+      "label": "Funko POP News - Astonishing X-Men tweepak op 28 oktober, 10 uur Pacific",
+      "url": "https://www.threads.com/@funkopopsnews/post/DeXmUStkd7y/first-look-astonishing-x-men-wolverine-and-cyclops-pack-dropping-am-pt-links/"
+    },
+    {
+      "label": "BigBadToyStore - X-Men '97 Death Gambit, 27,99 dollar",
+      "url": "https://www.bigbadtoystore.com/product/x-men-97-marvel-legends-death-gambit-season-2-action-figure-199119"
+    },
+    {
+      "label": "BigBadToyStore - S.H.MonsterArts Godzilla Minus Zero, 119,99 dollar",
       "url": "https://www.bigbadtoystore.com/product/godzilla-minus-zero-2026-shmonsterarts-godzilla-action-figure-193546"
     },
     {
-      "label": "Piece of Magic — Godzilla Minus Zero in zesenveertig markten, vanaf 4 november",
-      "url": "https://www.pieceofmagic.com/news/piece-of-magic-entertainment-to-bring-godzilla-minus-zero-to-cinemas-across-46-markets-in-europe-and-beyond/"
+      "label": "Mattel Creations - MOTU Origins Two Bad en de 20-procentbanner",
+      "url": "https://creations.mattel.com/products/masters-of-the-universe-origins-two-bad-figure-jhk20"
     },
     {
-      "label": "Wikipedia — Godzilla Minus Zero",
+      "label": "Toy Habits - Laser Light Skeletor, 33 dollar en preorderdatums",
+      "url": "https://toyhabits.com/laser-light-skeletor-motu-origins-mattel-creations-official-images-and-preorder-info/"
+    },
+    {
+      "label": "Toy Habits - DC Multiverse New Gods Darkseid tegen Orion, 69,99 dollar",
+      "url": "https://toyhabits.com/new-gods-dc-multiverse-darkseid-vs-orion-mcfarlane-2-pack-preorder/"
+    },
+    {
+      "label": "Toy Hype USA - McFarlane DC Multiverse golf 16 preorders",
+      "url": "https://toyhypeusa.com/2026/09/17/mcfarlane-toys-dc-multiverse-raven-wonder-girl-black-manta-mera-figures-pre-orders/"
+    },
+    {
+      "label": "Nintendo Life - He-Man Dragon Pearl of Destruction, prijzen en sluiting 22 november",
+      "url": "https://www.nintendolife.com/news/2026/10/he-mans-gorgeous-beat-em-up-finally-gets-a-new-date-pre-orders-now-live"
+    },
+    {
+      "label": "Wikizilla - Godzilla Minus Zero, releasedata per land",
+      "url": "https://wikizilla.org/wiki/Godzilla_Minus_Zero"
+    },
+    {
+      "label": "Wikipedia - Godzilla Minus Zero, speelduur en premiere",
       "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero"
     },
     {
-      "label": "NECA — Turtles 2012 Ultimate Casey Jones preorder",
-      "url": "https://store.necaonline.com/products/teenage-mutant-ninja-turtles-2012-cartoon-ultimate-casey-jones-7-inch-scale-action-figure"
-    },
-    {
-      "label": "Toy Hype USA — NECA Turtles Cartoon Collection nu op voorraad",
-      "url": "https://toyhypeusa.com/2026/10/05/neca-toys-tmnt-cartoon-collection-tattoo-wyrm-panda-khan-space-adventure-samurai-turtles-lab-coat-hazmat-suit-professor-perry-figures-available-now/"
-    },
-    {
-      "label": "The Toy Book — Playmates en Paramount beeindigen de TMNT-licentie",
-      "url": "https://toybook.com/playmates-toys-paramount-end-tmnt-licensing-news/"
-    },
-    {
-      "label": "Bleeding Cool — Playmates neemt de Power Rangers-licentie over van Hasbro",
-      "url": "https://bleedingcool.com/collectibles/playmates-acquires-the-power-rangers-license-from-hasbro-for-2025/"
-    },
-    {
-      "label": "The Fan Club — Zeo Gold Ranger opent de Playmates Power Rangers Collector Series",
-      "url": "https://thefanclub.blog/2026/09/04/zeo-gold-ranger-leads-the-new-playmates-power-rangers-collector-series/"
-    },
-    {
-      "label": "Toy Habits — Super7 ThunderCats Deluxe golf 5 op voorraad bij Walmart",
-      "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-now-in-stock-on-walmart/"
-    },
-    {
-      "label": "Toy Habits — Super7 Astral Moat Monster, eerste blik",
-      "url": "https://toyhabits.com/super7-astral-moat-monster-preorder-early-look/"
-    },
-    {
-      "label": "Wikipedia — Masters of the Universe (film, 2026)",
-      "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)"
-    },
-    {
-      "label": "Screen Connections — MOTU-film op 4K, Blu-ray en dvd vanaf 20 oktober",
-      "url": "https://screen-connections.com/2026/07/27/masters-of-the-universe-2026-4k-uhd-blu-ray-dvd-release-details/"
-    },
-    {
-      "label": "heman.org — Dragon Pearl of Destruction: preorders en Collector's Edition",
-      "url": "https://heman.org/news/dragon-pearl-of-destruction-physical-pre-orders-collectors-edition/"
-    },
-    {
-      "label": "DC Collectors — Mattels DC-collectorlijn start 1 januari 2027",
-      "url": "https://dccollectors.com/2026/07/25/mattel-dc-collector-line-launching-january-1-2027-on-mattel-creations/"
-    },
-    {
-      "label": "Comic Con Brussels — praktische info",
-      "url": "https://comicconbrussels.com/en/info-v2-en/"
-    },
-    {
-      "label": "FACTS — Gent, 31 oktober en 1 november",
-      "url": "https://www.facts.be/en/"
-    },
-    {
-      "label": "RetroGameBeurzen — agenda",
+      "label": "RetroGameBeurzen - agenda, met Aarschot als afgelast",
       "url": "https://retrogamebeurzen.nl/events/"
     },
     {
-      "label": "Retrokalender — beursagenda (laatste update 9 oktober 2026)",
+      "label": "RetroGameBeurzen - evenementpagina Aarschot 25 oktober, afgelast",
+      "url": "https://retrogamebeurzen.nl/events/retro-game-beurs-aarschot-25-10-2026/"
+    },
+    {
+      "label": "PokeRadar - Gaming Collectors Beurs Aarschot gaat niet door",
+      "url": "https://www.pokeradar.nl/evenement/gaming-collectors-beurs-aarschot-25-oktober-2026"
+    },
+    {
+      "label": "Retrokalender - overzicht retro- en vintagebeurzen Benelux",
       "url": "https://www.retrokalender.be/"
     },
     {
-      "label": "Meuk is Leuk — agenda verzamelbeurzen",
+      "label": "Comic Con Brussels - tijden en zaal",
+      "url": "https://comicconbrussels.com/en/info-v2-en/"
+    },
+    {
+      "label": "FACTS - tijden Flanders Expo",
+      "url": "https://www.facts.be/en/"
+    },
+    {
+      "label": "Meuk is Leuk - agenda verzamelbeurzen",
       "url": "https://www.meukisleuk.nl/agenda/verzamelbeurs"
     },
     {
-      "label": "Toymarkt — termine",
-      "url": "https://www.toymarkt.de/termine.html"
+      "label": "Toy Paradise - tijden Verzamelaarsjaarbeurs en In the Toyzone",
+      "url": "https://toyparadise.nl/nieuws/"
     },
     {
-      "label": "Popfiguren — speelgoedbeurzen 2026",
-      "url": "https://www.popfiguren.nl/speelgoedbeurzen-2026"
+      "label": "Verzamelaarsjaarbeurs - data en categorieen",
+      "url": "https://www.verzamelaarsjaarbeurs.nl/"
+    },
+    {
+      "label": "SRO - In the Toyzone Haarlem, 28 november 11 tot 17 uur",
+      "url": "https://sro.nl/sporthal-kennemer-sportcenter/agenda/the-toy-zone/"
+    },
+    {
+      "label": "Heroes Dutch Comic Con - tijden en betalingsverkeer",
+      "url": "https://www.dutchcomiccon.com/"
+    },
+    {
+      "label": "Filmboersen.de - termijnen Neuss en Keulen",
+      "url": "https://filmboersen.de/termine"
+    },
+    {
+      "label": "Meine Flohmarkt Termine - Retroboerse Neuss, 7 november",
+      "url": "https://meine-flohmarkt-termine.de/retroborse-neuss-videospiele-konsolen-trading-cards-spielzeuge-mit-kultstatus-uvm/23791599/details"
+    },
+    {
+      "label": "RetroCon Saar - tijden, prijzen en categorieen",
+      "url": "https://www.retrosaar.de/retroboerse/"
+    },
+    {
+      "label": "Toymarkt - Duitse speelgoed- en modelbeurzen",
+      "url": "https://toymarkt.de/termine.html"
+    },
+    {
+      "label": "Popfiguren - overzicht popcultuurevenementen",
+      "url": "https://www.popfiguren.nl/en/popcultuur-evenementen/"
+    },
+    {
+      "label": "Bleeding Cool - Playmates Power Rangers Zeo Gold Ranger",
+      "url": "https://bleedingcool.com/collectibles/playmates-announces-new-power-rangers-zeo-gold-ranger-figure/"
     }
   ],
   "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf."
