@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-24T22:31:52+00:00",
+ "updatedISO": "2026-10-25T01:15:42+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,36 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "The Real Ghostbusters Mondo Winston & Sandman Preorder",
+   "url": "https://toyhabits.com/the-real-ghostbusters-mondo-winston-sandman-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-10-25T00:15:56+00:00"
+  },
+  {
+   "title": "Super7 Thundercats Deluxe Wave 5 Vultureman In Hand Images",
+   "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-vultureman-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-24T23:47:46+00:00"
+  },
+  {
+   "title": "Super7 ThunderCats Deluxe Wave 5 Panthro In Hand Images",
+   "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-panthro-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-24T23:22:19+00:00"
+  },
+  {
+   "title": "Super7 Thundercats Deluxe Wave 5 Mumm-Ra In Hand Images",
+   "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-mumm-ra-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-10-24T23:01:28+00:00"
+  },
+  {
+   "title": "BigBadWorkShop – The Tick Longbox Heroes Prestige Wave 2: Hedge Ninja Figure Unlocked & Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/24/bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-hedge-ninja-figure-unlocked-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-the-tick-longbox-heroes-prestige-wave-2-hedge-ninja-figure-unlocked-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-24T22:46:01+00:00"
+  },
   {
    "title": "Nektropos Castle Opens in EverQuest Legends, Adding an Endgame Dungeon and a New Playable Race",
    "url": "https://www.actionfigureinsider.com/nektropos-castle-opens-in-everquest-legends-adding-an-endgame-dungeon-and-a-new-playable-race/",
@@ -250,113 +280,83 @@
    "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-avengers-the-crossing-vision-scarlet-witch-figures-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-avengers-the-crossing-vision-scarlet-witch-figures-review",
    "source": "Toy Hype USA",
    "iso": "2026-10-21T20:11:10+00:00"
-  },
-  {
-   "title": "X-Men ’97 Marvel Legends Season 2 Preorders",
-   "url": "https://toyhabits.com/x-men-97-marvel-legends-season-2-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-10-21T17:54:11+00:00"
-  },
-  {
-   "title": "Mezco Toyz's One:12 Collective Adds Jumbo from Killer Klowns",
-   "url": "https://bleedingcool.com/collectibles/mezco-toyzs-one12-collective-adds-jumbo-from-killer-klowns/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-21T17:22:08+00:00"
-  },
-  {
-   "title": "NYCC 2026: Marvel Legends X-Men 97 Wave 4 Figures Up for Order! Polaris! Havok! Death!",
-   "url": "https://marveltoynews.com/nycc-2026-marvel-legends-x-men-97-wave-4-figures-up-for-order-polaris-havok-death/",
-   "source": "Marvel Toy News",
-   "iso": "2026-10-21T17:06:58+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ X-Men ’97 Wave 4 Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-xmen-97-wave-4-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-xmen-97-wave-4-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-21T17:00:41+00:00"
-  },
-  {
-   "title": "Regal Robot Announces Life-Sized Star Wars Wicket Ewok Collectibles",
-   "url": "https://bleedingcool.com/collectibles/regal-robot-announces-life-sized-star-wars-wicket-ewok-collectibles/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-21T16:22:09+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-24T12:45:16+00:00",
+  "updatedISO": "2026-10-25T01:15:42+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 146,
-    "change": 1
-   },
-   {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2137,
+    "perDay": 2130,
     "change": 0
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2090,
+    "perDay": 2089,
+    "change": -1
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 143,
     "change": -1
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 90,
-    "change": -3
+    "perDay": 92,
+    "change": -2
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 67,
+    "perDay": 66,
     "change": -9
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2008,
-    "change": -9
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 559,
+    "perDay": 1984,
     "change": -10
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 865,
-    "change": -11
+    "perDay": 873,
+    "change": -10
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 558,
+    "change": -10
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 830,
+    "perDay": 826,
     "change": -14
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 497,
-    "change": -21
+    "perDay": 496,
+    "change": -20
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 18931,
+    "change": -23
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": -23
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 18605,
-    "change": -24
+    "change": -29
    }
   ],
   "missed": []
