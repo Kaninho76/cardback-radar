@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-25T01:15:42+00:00",
+ "updatedISO": "2026-10-25T06:12:15+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "WizKids Games DC HeroClix Iconix: Fortress of Solitude Vol. 1 Review",
+   "url": "https://www.actionfigureinsider.com/heroclix-iconix-fortress-of-solitude/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-25T05:39:59+00:00"
+  },
   {
    "title": "The Real Ghostbusters Mondo Winston & Sandman Preorder",
    "url": "https://toyhabits.com/the-real-ghostbusters-mondo-winston-sandman-preorder/",
@@ -274,12 +281,6 @@
    "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-cel-shaded-spider-man-retro-the-animated-series-figure-reissue-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-cel-shaded-spider-man-retro-the-animated-series-figure-reissue-pre-orders-update",
    "source": "Toy Hype USA",
    "iso": "2026-10-21T20:15:05+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Avengers: The Crossing – Vision & Scarlet Witch Figures Review",
-   "url": "https://toyhypeusa.com/2026/10/21/hasbro-marvel-legends-series-avengers-the-crossing-vision-scarlet-witch-figures-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-avengers-the-crossing-vision-scarlet-witch-figures-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-21T20:11:10+00:00"
   }
  ],
  "trends": {
