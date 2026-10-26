@@ -1,17 +1,76 @@
 {
- "updatedISO": "2026-10-26T14:20:51+00:00",
+ "updatedISO": "2026-10-26T20:34:38+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Jedi Master Yoda Comes to Life with New Plush Palm Puppetronic Figure",
+   "url": "https://bleedingcool.com/collectibles/jedi-master-yoda-comes-to-life-with-new-plush-palm-puppetronic-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-26T20:22:08+00:00"
+  },
+  {
+   "title": "Super7 ThunderCats Deluxe Panthro, Mumm-Ra (The Ever Living) & Vultureman Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/26/super7-thundercats-deluxe-panthro-mumm-ra-the-ever-living-vultureman-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-thundercats-deluxe-panthro-mumm-ra-the-ever-living-vultureman-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-26T20:15:48+00:00"
+  },
+  {
+   "title": "Hasbro G.I. Joe Classified Series Dusty & Coyote Sandstorm Figures Set Review",
+   "url": "https://toyhypeusa.com/2026/10/26/hasbro-gijoe-classified-series-dusty-coyote-sandstorm-figures-set-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-dusty-coyote-sandstorm-figures-set-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-26T19:58:20+00:00"
+  },
+  {
+   "title": "Mego Spider-Man Set 2 Brings Back Four Classic Marvel Figures",
+   "url": "https://bleedingcool.com/collectibles/mego-spider-man-set-2-brings-back-four-classic-marvel-figures/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-26T19:52:08+00:00"
+  },
+  {
+   "title": "New Disney Cinderella Doll Celebrates 55 Years of Walt Disney World",
+   "url": "https://bleedingcool.com/collectibles/new-disney-cinderella-doll-celebrates-55-years-of-walt-disney-world/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-26T19:25:07+00:00"
+  },
+  {
+   "title": "Spin Master founder crisscrossing North America inspiring student entrepreneurs",
+   "url": "https://www.actionfigureinsider.com/spin-master-founder-crisscrossing-north-america-inspiring-student-entrepreneurs/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-26T19:19:34+00:00"
+  },
+  {
+   "title": "Super7 ThunderCats Ultimates! Jackalman, Top-Spinner & Tug-Mug (Cartoon-Inspired) Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/26/super7-thundercats-ultimates-jackalman-top-spinner-tug-mug-cartoon-inspired-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-thundercats-ultimates-jackalman-top-spinner-tug-mug-cartoon-inspired-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-26T19:07:57+00:00"
+  },
+  {
+   "title": "McFarlane Superman The Movie Clark Kent EliteEdition Early Look",
+   "url": "https://toyhabits.com/mcfarlane-superman-the-movie-clark-kent-elite-edition-early-look/",
+   "source": "Toy Habits",
+   "iso": "2026-10-26T16:46:13+00:00"
+  },
+  {
+   "title": "McFarlane Toys DC Multiverse Deluxe Theatrical Edition Wave 6 – Penguin, Batgirl & Batman Unmasked Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/26/mcfarlane-toys-dc-multiverse-deluxe-theatrical-edition-wave-6-penguin-batgirl-batman-unmasked-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-deluxe-theatrical-edition-wave-6-penguin-batgirl-batman-unmasked-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-26T16:02:32+00:00"
+  },
+  {
+   "title": "Medicom – MAFEX: Punisher, Daredevil, & The Flash Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/26/medicom-mafex-punisher-daredevil-the-flash-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=medicom-mafex-punisher-daredevil-the-flash-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-26T15:50:40+00:00"
+  },
   {
    "title": "Batman Batgirl and Penguin McFarlane DC Multiverse Deluxe Theatrical Edition Preorders",
    "url": "https://toyhabits.com/batman-batgirl-and-penguin-mcfarlane-dc-multiverse-deluxe-theatrical-edition-preorders/",
@@ -221,70 +280,10 @@
    "url": "https://bleedingcool.com/collectibles/zeus-brings-wrath-to-mcfarlane-toys-with-new-god-of-war-7-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-10-23T12:51:08+00:00"
-  },
-  {
-   "title": "Builders After All: The LEGO Group and DAFT PUNK™ announce partnership – blending worlds of music, culture and creative experimentation",
-   "url": "https://www.actionfigureinsider.com/builders-after-all-the-lego-group-and-daft-punk-announce-partnership-blending-worlds-of-music-culture-and-creative-experimentation/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-23T12:43:25+00:00"
-  },
-  {
-   "title": "Captain Commando – FigLiteDX Captain Commando and Carol New Photos by 52Toys",
-   "url": "https://www.toyark.com/2026/10/23/captain-commando-figlitedx-captain-commando-and-carol-new-photos-by-52toys-601618",
-   "source": "The Toyark",
-   "iso": "2026-10-23T12:28:48+00:00"
-  },
-  {
-   "title": "The Exorcist – Sideshow Regan MacNeil Pre-Order",
-   "url": "https://www.toyark.com/2026/10/23/the-exorcist-sideshow-regan-macneil-pre-order-601602",
-   "source": "The Toyark",
-   "iso": "2026-10-23T12:15:01+00:00"
-  },
-  {
-   "title": "Spin Master’s Hellbreak™ Trading Card Game Adds Paramount Pictures to Its Monster Universe",
-   "url": "https://www.actionfigureinsider.com/spin-masters-hellbreak-trading-card-game-adds-paramount-pictures-to-its-monster-universe/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-23T12:00:37+00:00"
-  },
-  {
-   "title": "Super7 ThunderCats Panthro Deluxe Early Preorder on Entertainment Earth",
-   "url": "https://toyhabits.com/super7-thundercats-panthro-deluxe-early-preorder-on-entertainment-earth/",
-   "source": "Toy Habits",
-   "iso": "2026-10-23T02:33:51+00:00"
-  },
-  {
-   "title": "Super7 Astral Moat Monster Preorder Early Look",
-   "url": "https://toyhabits.com/super7-astral-moat-monster-preorder-early-look/",
-   "source": "Toy Habits",
-   "iso": "2026-10-23T01:25:38+00:00"
-  },
-  {
-   "title": "Super7 The Transformers: The Movie Deluxe Megatron (Metallic) Deluxe Action Figure (VHS) Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/22/super7-the-transformers-the-movie-deluxe-megatron-metallic-deluxe-action-figure-vhs-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-the-transformers-the-movie-deluxe-megatron-metallic-deluxe-action-figure-vhs-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-22T23:47:35+00:00"
-  },
-  {
-   "title": "Star Wars Vintage Collection Razor Crest Encounter 3-Pack Preorder",
-   "url": "https://toyhabits.com/star-wars-vintage-collection-razor-crest-encounter-3-pack-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-10-22T22:01:40+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Gamerverse (Marvel vs Capcom) Iron Man Vs. Marvel’s Spiral Figures Review",
-   "url": "https://toyhypeusa.com/2026/10/22/hasbro-marvel-legends-series-6-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-6-gamerverse-marvel-vs-capcom-iron-man-vs-marvels-spiral-figures-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-22T20:41:58+00:00"
-  },
-  {
-   "title": "McFarlane Toys Debuts New Avengers: Doomsday The Thing Statue",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-debuts-new-avengers-doomsday-the-thing-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-22T19:22:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-26T06:21:53+00:00",
+  "updatedISO": "2026-10-26T20:34:38+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
