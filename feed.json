@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-26T06:21:53+00:00",
+ "updatedISO": "2026-10-26T14:20:51+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
@@ -9,9 +9,33 @@
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError"
+  "Bleeding Cool: URLError"
  ],
  "items": [
+  {
+   "title": "Batman Batgirl and Penguin McFarlane DC Multiverse Deluxe Theatrical Edition Preorders",
+   "url": "https://toyhabits.com/batman-batgirl-and-penguin-mcfarlane-dc-multiverse-deluxe-theatrical-edition-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-10-26T13:32:14+00:00"
+  },
+  {
+   "title": "Beast Kingdom: DC DAH Batman Returns The Penguin & Catwoman Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/26/beast-kingdom-dc-dah-batman-returns-the-penguin-catwoman-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=beast-kingdom-dc-dah-batman-returns-the-penguin-catwoman-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-26T12:52:46+00:00"
+  },
+  {
+   "title": "Batman Returns – DAH Penguin and Catwoman New Pre-Orders",
+   "url": "https://www.toyark.com/2026/10/26/batman-returns-dah-penguin-and-catwoman-new-pre-orders-601635",
+   "source": "The Toyark",
+   "iso": "2026-10-26T12:36:01+00:00"
+  },
+  {
+   "title": "DC Multiverse – Batman, Batgirl, and Penguin",
+   "url": "https://www.toyark.com/2026/10/26/dc-multiverse-batman-batgirl-and-penguin-601629",
+   "source": "The Toyark",
+   "iso": "2026-10-26T11:48:16+00:00"
+  },
   {
    "title": "Super7 GI Joe ReAction+ Wave 10 In Hand Images",
    "url": "https://toyhabits.com/super7-gi-joe-reaction-wave-10-in-hand-images/",
@@ -257,30 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-debuts-new-avengers-doomsday-the-thing-statue/",
    "source": "Bleeding Cool",
    "iso": "2026-10-22T19:22:08+00:00"
-  },
-  {
-   "title": "Slay this Halloween with Some of These Must-Have Horror Collectibles",
-   "url": "https://bleedingcool.com/collectibles/slay-this-halloween-with-some-of-these-must-have-horror-collectibles/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-22T17:52:08+00:00"
-  },
-  {
-   "title": "Hasbro Star Wars The Vintage Collection Razor Crest Encounter 3-Pack Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/22/hasbro-star-wars-tvc-razor-crest-encounter-3-pack-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tvc-razor-crest-encounter-3-pack-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-22T17:01:52+00:00"
-  },
-  {
-   "title": "Mezco Toyz Debuts One:12 Collective Hopping Vampire: Jiangshi Figure",
-   "url": "https://bleedingcool.com/collectibles/mezco-toyz-debuts-one12-collective-hopping-vampire-jiangshi-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-22T16:52:09+00:00"
-  },
-  {
-   "title": "McFarlane Gaming Edition God of War Kratos Figure Announced",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-gaming-edition-god-of-war-kratos-figure-announced/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-22T16:22:07+00:00"
   }
  ],
  "trends": {
