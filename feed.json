@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-10-27T00:30:40+00:00",
+ "updatedISO": "2026-10-27T06:21:17+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Spider-Man: Brand New Day – Scorpion Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/10/27/hasbro-marvel-legends-series-6-spider-man-brand-new-day-scorpion-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-6-spider-man-brand-new-day-scorpion-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-27T04:01:15+00:00"
+  },
   {
    "title": "Four Horsemen Studios Figura Obscura Thoth & Mythic Legions: Legacies of Mythoss Sir Valgard 2 & Scaphoid 2 Figures Available Now",
    "url": "https://toyhypeusa.com/2026/10/26/four-horsemen-studios-figura-obscura-thoth-mythic-legions-legacies-of-mythoss-sir-valgard-2-scaphoid-2-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=four-horsemen-studios-figura-obscura-thoth-mythic-legions-legacies-of-mythoss-sir-valgard-2-scaphoid-2-figures-available-now",
@@ -274,12 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/destroy-the-competition-with-hasbros-street-fighter-guile-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-10-23T15:22:10+00:00"
-  },
-  {
-   "title": "Bow Before M. Bison with Hasbro's New Street Fighter (2026) Figure",
-   "url": "https://bleedingcool.com/collectibles/bow-before-m-bison-with-hasbros-new-street-fighter-2026-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-23T14:52:10+00:00"
   }
  ],
  "trends": {
