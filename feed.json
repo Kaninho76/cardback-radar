@@ -1,17 +1,40 @@
 {
- "updatedISO": "2026-10-27T06:21:17+00:00",
+ "updatedISO": "2026-10-27T13:19:01+00:00",
  "sourcesOk": [
   "Toy Hype USA",
+  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Bleeding Cool: ParseError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "TMNT 2003 Ultimates – Nightmare Turtles by Super7",
+   "url": "https://www.toyark.com/2026/10/27/tmnt-2003-ultimates-nightmare-turtles-by-super7-601722",
+   "source": "The Toyark",
+   "iso": "2026-10-27T12:15:17+00:00"
+  },
+  {
+   "title": "MAFEX Daredevil, Punisher, and The Flash – UPDATE – Pre-Orders Live",
+   "url": "https://www.toyark.com/2026/10/27/mafex-daredevil-punisher-and-the-flash-601584",
+   "source": "The Toyark",
+   "iso": "2026-10-27T11:58:15+00:00"
+  },
+  {
+   "title": "Rob Zombie’s Halloween – One:12 Collective Michael Myers",
+   "url": "https://www.toyark.com/2026/10/27/rob-zombies-halloween-one12-collective-michael-myers-601684",
+   "source": "The Toyark",
+   "iso": "2026-10-27T11:49:16+00:00"
+  },
+  {
+   "title": "New Trailer for Mrbeast Animated Series",
+   "url": "https://www.actionfigureinsider.com/new-trailer-for-mrbeast-animated-series/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-27T11:00:38+00:00"
+  },
   {
    "title": "Hasbro Marvel Legends Series 6″ Spider-Man: Brand New Day – Scorpion Figure Available Now",
    "url": "https://toyhypeusa.com/2026/10/27/hasbro-marvel-legends-series-6-spider-man-brand-new-day-scorpion-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-6-spider-man-brand-new-day-scorpion-figure-available-now",
@@ -257,107 +280,83 @@
    "url": "https://toyhabits.com/dreadnok-thunder-machine-gi-joe-classified-series-made-to-order-preorder-ends-today/",
    "source": "Toy Habits",
    "iso": "2026-10-23T16:39:08+00:00"
-  },
-  {
-   "title": "Kratos Returns to McFarlane with New God of War Ragnarök Figure",
-   "url": "https://bleedingcool.com/collectibles/kratos-returns-to-mcfarlane-with-new-god-of-war-ragnarok-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-23T16:22:12+00:00"
-  },
-  {
-   "title": "GI Joe Classified Series Arctic BAT Reissue NOW IN STOCK",
-   "url": "https://toyhabits.com/gi-joe-classified-series-arctic-bat-reissue-now-in-stock/",
-   "source": "Toy Habits",
-   "iso": "2026-10-23T16:17:46+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Spider-Man: Brand New Day – Scorpion Figure Shipping Soon",
-   "url": "https://toyhypeusa.com/2026/10/23/hasbro-marvel-legends-series-spider-man-brand-new-day-scorpion-figure-shipping-soon/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-brand-new-day-scorpion-figure-shipping-soon",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-23T15:44:28+00:00"
-  },
-  {
-   "title": "Destroy the Competition with Hasbro's Street Fighter Guile Figure",
-   "url": "https://bleedingcool.com/collectibles/destroy-the-competition-with-hasbros-street-fighter-guile-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-23T15:22:10+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-26T20:34:38+00:00",
+  "updatedISO": "2026-10-27T13:19:01+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2151,
+    "perDay": 2143,
     "change": 1
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2069,
-    "change": -3
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 140,
-    "change": -4
+    "perDay": 143,
+    "change": -2
    },
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 88,
-    "change": -6
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2063,
+    "change": -3
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1987,
-    "change": -10
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 65,
-    "change": -11
+    "perDay": 2019,
+    "change": -8
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 873,
-    "change": -11
+    "perDay": 889,
+    "change": -9
    },
    {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 544,
-    "change": -12
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 84,
+    "change": -10
    },
    {
     "label": "He-Man",
     "article": "He-Man",
     "perDay": 817,
+    "change": -13
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 532,
     "change": -14
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 20031,
-    "change": -19
+    "perDay": 21161,
+    "change": -15
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 62,
+    "change": -16
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 504,
-    "change": -19
+    "perDay": 514,
+    "change": -16
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -55
+    "change": -66
    }
   ],
   "missed": []
