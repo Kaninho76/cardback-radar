@@ -1,16 +1,41 @@
 {
- "updatedISO": "2026-10-27T18:45:40+00:00",
+ "updatedISO": "2026-10-27T22:59:09+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Bleeding Cool: ParseError"
+ ],
  "items": [
+  {
+   "title": "The Frighteners 4K (Arrow Video) – Review",
+   "url": "https://www.actionfigureinsider.com/the-frighteners-4k-arrow-video-review/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-27T22:54:34+00:00"
+  },
+  {
+   "title": "Hasbro Transformers: Age of the Primes – Autobot Mirage, Ironhide & Bluestreak 3-Pack Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/10/27/hasbro-transformers-age-of-the-primes-autobot-mirage-ironhide-bluestreak-3-pack-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-autobot-mirage-ironhide-bluestreak-3-pack-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-27T21:00:30+00:00"
+  },
+  {
+   "title": "#Thrilljoy Introduces PIXL Panoramix, a New Collectible Display Experience",
+   "url": "https://www.actionfigureinsider.com/thrilljoy-introduces-pixl-panoramix-a-new-collectible-display-experience/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-27T20:45:14+00:00"
+  },
+  {
+   "title": "Mattel Masters of the Universe – He-Man’s Birthday PR Box Unboxing & Review",
+   "url": "https://toyhypeusa.com/2026/10/27/mattel-masters-of-the-universe-he-mans-birthday-pr-box-unboxing-review/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-masters-of-the-universe-he-mans-birthday-pr-box-unboxing-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-27T19:29:27+00:00"
+  },
   {
    "title": "Mezco Toyz Unveils Rob Zombie's Halloween One:12 Michael Myers",
    "url": "https://bleedingcool.com/collectibles/mezco-toyz-unveils-rob-zombies-halloween-one12-michael-myers/",
@@ -256,30 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/mafex-takes-aim-with-new-punisher-figure-from-daredevil-born-again/",
    "source": "Bleeding Cool",
    "iso": "2026-10-25T16:22:07+00:00"
-  },
-  {
-   "title": "Medicom Reveals New Marvel Studios' Daredevil: Born Again MAFEX",
-   "url": "https://bleedingcool.com/collectibles/medicom-reveals-new-marvel-studios-daredevil-born-again-mafex/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-25T15:22:09+00:00"
-  },
-  {
-   "title": "McFarlane DC Multiverse Deluxe Theatrical Edition Batman Returns Batgirl & Penguin Figures Revealed",
-   "url": "https://toyhabits.com/mcfarlane-dc-multiverse-deluxe-theatrical-edition-batman-batgirl-and-penguin-figures-revealed/",
-   "source": "Toy Habits",
-   "iso": "2026-10-25T13:49:08+00:00"
-  },
-  {
-   "title": "Battle for Subternia MOTU Origins 4-Pack Hi-Res Packaging Artwork Revealed",
-   "url": "https://toyhabits.com/battle-for-subternia-motu-origins-4-pack-hi-res-packaging-artwork-revealed/",
-   "source": "Toy Habits",
-   "iso": "2026-10-25T12:39:39+00:00"
-  },
-  {
-   "title": "Walmart Bets Bigger on Pudgy Penguins Following Retail Breakout, Holiday Plush Bouquet lands in 40M homes across USA",
-   "url": "https://www.actionfigureinsider.com/walmart-bets-bigger-on-pudgy-penguins-following-retail-breakout-holiday-plush-bouquet-lands-in-40m-homes-across-usa/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-25T12:00:44+00:00"
   }
  ],
  "trends": {
