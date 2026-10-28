@@ -1,17 +1,101 @@
 {
- "updatedISO": "2026-10-28T09:46:28+00:00",
+ "updatedISO": "2026-10-28T16:43:18+00:00",
  "sourcesOk": [
   "Toy Hype USA",
-  "Marvel Toy News",
+  "Bleeding Cool",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
  "sourcesFailed": [
-  "Bleeding Cool: ParseError"
+  "Marvel Toy News: TimeoutError"
  ],
  "items": [
+  {
+   "title": "Super7 ThunderCats Ultimates! Jackalman, Top-Spinner & Tug-Mug (Cartoon-Inspired) Figures Pre-Orders (Update)",
+   "url": "https://toyhypeusa.com/2026/10/28/super7-thundercats-ultimates-jackalman-top-spinner-tug-mug-cartoon-inspired-figures-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=super7-thundercats-ultimates-jackalman-top-spinner-tug-mug-cartoon-inspired-figures-pre-orders-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-28T16:31:53+00:00"
+  },
+  {
+   "title": "Beware Green Lantern's Light with McFarlane's Newest Page Punchers",
+   "url": "https://bleedingcool.com/collectibles/beware-green-lanterns-light-with-mcfarlanes-newest-page-punchers/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-28T16:23:07+00:00"
+  },
+  {
+   "title": "McFarlane Toys Mortal Kombat Klassic Wave 6 – Jax, Tsung & Klao 7″ Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/10/28/mcfarlane-toys-mortal-kombat-klassic-wave-6-jax-tsung-klao-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-mortal-kombat-klassic-wave-6-jax-tsung-klao-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-28T16:03:23+00:00"
+  },
+  {
+   "title": "Leonardo is a Nightmare with Super7's New TMNT ULTIMATES! Figure",
+   "url": "https://bleedingcool.com/collectibles/leonardo-is-a-nightmare-with-super7s-new-tmnt-ultimates-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-28T14:51:13+00:00"
+  },
+  {
+   "title": "New Limited Edition Nightmare TMNT Mikey Figure Revealed by Super7",
+   "url": "https://bleedingcool.com/collectibles/new-limited-edition-nightmare-tmnt-mikey-figure-revealed-by-super7/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-28T14:23:08+00:00"
+  },
+  {
+   "title": "New Batman Returns Unmasked Batman Figure Debuts from McFarlane",
+   "url": "https://bleedingcool.com/collectibles/new-batman-returns-unmasked-batman-figure-debuts-from-mcfarlane/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-28T13:52:09+00:00"
+  },
+  {
+   "title": "The Tick: LongBox Heroes: Prestige Continues with Multiple Santa",
+   "url": "https://bleedingcool.com/collectibles/the-tick-longbox-heroes-prestige-continues-with-multiple-santa/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-28T13:22:08+00:00"
+  },
+  {
+   "title": "Cthulhu and Mothman Go Toe To Toe in CRYPTID COMBAT from Wandering Planet Toys on Backerkit Now!",
+   "url": "https://www.actionfigureinsider.com/cthulhu-and-mothman-go-toe-to-toe-in-cryptid-combat-from-wandering-planet-toys-on-backerkit-now/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-28T13:08:48+00:00"
+  },
+  {
+   "title": "New The Tick Figure Two-Pack Debuts with The Terror & Man-Eating Cow",
+   "url": "https://bleedingcool.com/collectibles/new-the-tick-figure-two-pack-debuts-with-the-terror-man-eating-cow/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-28T12:52:08+00:00"
+  },
+  {
+   "title": "Jack in the Box Prepares for Marvel Studios’ “Avengers: Doomsday” With a Dipping Experience Built for Assembling",
+   "url": "https://www.actionfigureinsider.com/jack-in-the-box-prepares-for-marvel-studios-avengers-doomsday-with-a-dipping-experience-built-for-assembling/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-28T12:43:42+00:00"
+  },
+  {
+   "title": "Avengers: Doomsday – Hot Toys Sentinel Jumbo Sofvi Figure",
+   "url": "https://www.toyark.com/2026/10/28/avengers-doomsday-hot-toys-sentinel-jumbo-sofvi-figure-601747",
+   "source": "The Toyark",
+   "iso": "2026-10-28T12:20:39+00:00"
+  },
+  {
+   "title": "McFarlane Toys Mortal Kombat Klassic Baraka, Jax, Shang Tsung, Kung Lao and New 2-Packs",
+   "url": "https://www.toyark.com/2026/10/28/mcfarlane-toys-mortal-kombat-klassic-baraka-jax-shang-tsung-kung-lao-and-new-2-packs-601737",
+   "source": "The Toyark",
+   "iso": "2026-10-28T12:10:51+00:00"
+  },
+  {
+   "title": "Transformers Missing Link Megatron and Starscream Rumored for Future Releases",
+   "url": "https://toyhabits.com/transformers-missing-link-megatron-and-starscream-rumored-for-future-releases/",
+   "source": "Toy Habits",
+   "iso": "2026-10-28T12:07:35+00:00"
+  },
+  {
+   "title": "Hasbro Names Dan Ayoub President of Wizards of the Coast & Hasbro Digital Games",
+   "url": "https://www.actionfigureinsider.com/hasbro-names-dan-ayoub-president-of-wizards-of-the-coast-hasbro-digital-games/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-28T11:00:40+00:00"
+  },
   {
    "title": "Super7 Thundercats Deluxe Wave 5 Preorders on BBTS & EE",
    "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-preorders-on-bbts-ee/",
@@ -47,6 +131,12 @@
    "url": "https://toyhypeusa.com/2026/10/27/mattel-masters-of-the-universe-he-mans-birthday-pr-box-unboxing-review/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-masters-of-the-universe-he-mans-birthday-pr-box-unboxing-review",
    "source": "Toy Hype USA",
    "iso": "2026-10-27T19:29:27+00:00"
+  },
+  {
+   "title": "Barry Hubris Joins The Tick's LongBox Heroes: Prestige Collection",
+   "url": "https://bleedingcool.com/collectibles/barry-hubris-joins-the-ticks-longbox-heroes-prestige-collection/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-27T19:22:08+00:00"
   },
   {
    "title": "Mezco Toyz Unveils Rob Zombie's Halloween One:12 Michael Myers",
@@ -191,100 +281,10 @@
    "url": "https://toyhypeusa.com/2026/10/26/super7-thundercats-deluxe-panthro-mumm-ra-the-ever-living-vultureman-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-thundercats-deluxe-panthro-mumm-ra-the-ever-living-vultureman-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-26T20:15:48+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series Dusty & Coyote Sandstorm Figures Set Review",
-   "url": "https://toyhypeusa.com/2026/10/26/hasbro-gijoe-classified-series-dusty-coyote-sandstorm-figures-set-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-dusty-coyote-sandstorm-figures-set-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-26T19:58:20+00:00"
-  },
-  {
-   "title": "Mego Spider-Man Set 2 Brings Back Four Classic Marvel Figures",
-   "url": "https://bleedingcool.com/collectibles/mego-spider-man-set-2-brings-back-four-classic-marvel-figures/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-26T19:52:08+00:00"
-  },
-  {
-   "title": "New Disney Cinderella Doll Celebrates 55 Years of Walt Disney World",
-   "url": "https://bleedingcool.com/collectibles/new-disney-cinderella-doll-celebrates-55-years-of-walt-disney-world/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-26T19:25:07+00:00"
-  },
-  {
-   "title": "Spin Master founder crisscrossing North America inspiring student entrepreneurs",
-   "url": "https://www.actionfigureinsider.com/spin-master-founder-crisscrossing-north-america-inspiring-student-entrepreneurs/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-26T19:19:34+00:00"
-  },
-  {
-   "title": "Super7 ThunderCats Ultimates! Jackalman, Top-Spinner & Tug-Mug (Cartoon-Inspired) Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/26/super7-thundercats-ultimates-jackalman-top-spinner-tug-mug-cartoon-inspired-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-thundercats-ultimates-jackalman-top-spinner-tug-mug-cartoon-inspired-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-26T19:07:57+00:00"
-  },
-  {
-   "title": "McFarlane Superman The Movie Clark Kent EliteEdition Early Look",
-   "url": "https://toyhabits.com/mcfarlane-superman-the-movie-clark-kent-elite-edition-early-look/",
-   "source": "Toy Habits",
-   "iso": "2026-10-26T16:46:13+00:00"
-  },
-  {
-   "title": "McFarlane Toys DC Multiverse Deluxe Theatrical Edition Wave 6 – Penguin, Batgirl & Batman Unmasked Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/26/mcfarlane-toys-dc-multiverse-deluxe-theatrical-edition-wave-6-penguin-batgirl-batman-unmasked-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-deluxe-theatrical-edition-wave-6-penguin-batgirl-batman-unmasked-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-26T16:02:32+00:00"
-  },
-  {
-   "title": "Medicom – MAFEX: Punisher, Daredevil, & The Flash Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/26/medicom-mafex-punisher-daredevil-the-flash-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=medicom-mafex-punisher-daredevil-the-flash-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-26T15:50:40+00:00"
-  },
-  {
-   "title": "Batman Batgirl and Penguin McFarlane DC Multiverse Deluxe Theatrical Edition Preorders",
-   "url": "https://toyhabits.com/batman-batgirl-and-penguin-mcfarlane-dc-multiverse-deluxe-theatrical-edition-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-10-26T13:32:14+00:00"
-  },
-  {
-   "title": "Beast Kingdom: DC DAH Batman Returns The Penguin & Catwoman Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/26/beast-kingdom-dc-dah-batman-returns-the-penguin-catwoman-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=beast-kingdom-dc-dah-batman-returns-the-penguin-catwoman-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-26T12:52:46+00:00"
-  },
-  {
-   "title": "Batman Returns – DAH Penguin and Catwoman New Pre-Orders",
-   "url": "https://www.toyark.com/2026/10/26/batman-returns-dah-penguin-and-catwoman-new-pre-orders-601635",
-   "source": "The Toyark",
-   "iso": "2026-10-26T12:36:01+00:00"
-  },
-  {
-   "title": "DC Multiverse – Batman, Batgirl, and Penguin",
-   "url": "https://www.toyark.com/2026/10/26/dc-multiverse-batman-batgirl-and-penguin-601629",
-   "source": "The Toyark",
-   "iso": "2026-10-26T11:48:16+00:00"
-  },
-  {
-   "title": "Super7 GI Joe ReAction+ Wave 10 In Hand Images",
-   "url": "https://toyhabits.com/super7-gi-joe-reaction-wave-10-in-hand-images/",
-   "source": "Toy Habits",
-   "iso": "2026-10-25T18:40:49+00:00"
-  },
-  {
-   "title": "Race Into Action with New The Flash (Batman Suit) MAFEX Figure",
-   "url": "https://bleedingcool.com/collectibles/race-into-action-with-new-the-flash-batman-suit-mafex-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-25T18:22:08+00:00"
-  },
-  {
-   "title": "Sideshow Collectibles Unveils The Exorcist Regan MacNeil 1/6 Figure",
-   "url": "https://bleedingcool.com/collectibles/sideshow-collectibles-unveils-the-exorcist-regan-macneil-1-6-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-25T17:22:09+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-28T02:22:24+00:00",
+  "updatedISO": "2026-10-28T16:43:18+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
