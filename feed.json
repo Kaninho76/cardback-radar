@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-27T22:59:09+00:00",
+ "updatedISO": "2026-10-28T02:22:24+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Marvel Toy News",
@@ -12,6 +12,18 @@
   "Bleeding Cool: ParseError"
  ],
  "items": [
+  {
+   "title": "Super7 Thundercats Deluxe Wave 5 Preorders on BBTS & EE",
+   "url": "https://toyhabits.com/super7-thundercats-deluxe-wave-5-preorders-on-bbts-ee/",
+   "source": "Toy Habits",
+   "iso": "2026-10-28T00:30:37+00:00"
+  },
+  {
+   "title": "The Real Ghostbusters Boogieman Glow in the Dark Limited Edition Preorder",
+   "url": "https://toyhabits.com/the-real-ghostbusters-boogieman-glow-in-the-dark-limited-edition-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-10-28T00:03:26+00:00"
+  },
   {
    "title": "The Frighteners 4K (Arrow Video) – Review",
    "url": "https://www.actionfigureinsider.com/the-frighteners-4k-arrow-video-review/",
@@ -269,95 +281,83 @@
    "url": "https://bleedingcool.com/collectibles/sideshow-collectibles-unveils-the-exorcist-regan-macneil-1-6-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-10-25T17:22:09+00:00"
-  },
-  {
-   "title": "Ramen Toy Tiger Orange 2.0 Blows Through Another Goal as New Unlock Is Teased",
-   "url": "https://toyhabits.com/ramen-toy-tiger-orange-2-0-blows-through-another-goal-as-new-unlock-is-teased/",
-   "source": "Toy Habits",
-   "iso": "2026-10-25T17:01:58+00:00"
-  },
-  {
-   "title": "MAFEX Takes Aim with New Punisher Figure from Daredevil: Born Again",
-   "url": "https://bleedingcool.com/collectibles/mafex-takes-aim-with-new-punisher-figure-from-daredevil-born-again/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-25T16:22:07+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-27T13:19:01+00:00",
+  "updatedISO": "2026-10-28T02:22:24+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2143,
-    "change": 1
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 143,
-    "change": -2
+    "perDay": 2099,
+    "change": -1
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2063,
-    "change": -3
+    "perDay": 2090,
+    "change": -2
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 142,
+    "change": -2
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2019,
-    "change": -8
+    "perDay": 2065,
+    "change": -5
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 889,
-    "change": -9
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 84,
-    "change": -10
+    "perDay": 901,
+    "change": -7
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 817,
-    "change": -13
+    "perDay": 822,
+    "change": -10
    },
    {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 532,
-    "change": -14
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 85,
+    "change": -10
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 21161,
-    "change": -15
+    "perDay": 21846,
+    "change": -12
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 62,
-    "change": -16
+    "perDay": 63,
+    "change": -14
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 514,
-    "change": -16
+    "perDay": 512,
+    "change": -14
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 528,
+    "change": -15
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -66
+    "change": -65
    }
   ],
   "missed": []
