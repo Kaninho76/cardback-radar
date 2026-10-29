@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-29T01:50:55+00:00",
+ "updatedISO": "2026-10-29T08:37:26+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "McFarlane Mortal Kombat Klassic Preorder",
+   "url": "https://toyhabits.com/mcfarlane-mortal-kombat-klassic-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-10-29T02:13:42+00:00"
+  },
   {
    "title": "Ben Cooper Costume Kids McDonaldland Set of 3 Preorder",
    "url": "https://toyhabits.com/ben-cooper-costume-kids-mcdonaldland-set-of-3-preorder/",
@@ -274,89 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/disney-unveils-limited-edition-avengers-campus-iron-spider-spider-bot/",
    "source": "Bleeding Cool",
    "iso": "2026-10-27T13:52:07+00:00"
-  },
-  {
-   "title": "New Disney The Little Mermaid Ariel Designer Collection Doll Revealed",
-   "url": "https://bleedingcool.com/collectibles/new-disney-the-little-mermaid-ariel-designer-collection-doll-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-27T13:22:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-28T16:43:18+00:00",
+  "updatedISO": "2026-10-29T08:37:26+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2099,
-    "change": -1
-   },
-   {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2090,
-    "change": -2
+    "perDay": 2128,
+    "change": 0
    },
    {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 142,
-    "change": -2
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2093,
+    "change": -1
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2065,
-    "change": -5
+    "perDay": 2099,
+    "change": -3
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 901,
+    "perDay": 912,
+    "change": -6
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 137,
+    "change": -6
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 67,
     "change": -7
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 822,
-    "change": -10
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 85,
-    "change": -10
+    "perDay": 829,
+    "change": -8
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 21846,
-    "change": -12
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 63,
-    "change": -14
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 512,
-    "change": -14
+    "perDay": 22297,
+    "change": -10
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 528,
-    "change": -15
+    "perDay": 548,
+    "change": -11
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 517,
+    "change": -13
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 82,
+    "change": -13
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -65
+    "change": -70
    }
   ],
   "missed": []
