@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-30T19:27:17+00:00",
+ "updatedISO": "2026-10-30T23:51:59+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,24 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "BigBadToyStore News: Cult & Classic Movie sale, The Tick, Thundercats, DC, Marvel & More",
+   "url": "https://toyhypeusa.com/2026/10/30/bbts-cult-classic-movie-sale-the-tick-thundercats-dc-marvel/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-cult-classic-movie-sale-the-tick-thundercats-dc-marvel",
+   "source": "Toy Hype USA",
+   "iso": "2026-10-30T21:27:45+00:00"
+  },
+  {
+   "title": "Johnny Cage Battles Shang Tsung with New Mortal Kombat Klassic 2-Pack",
+   "url": "https://bleedingcool.com/collectibles/johnny-cage-battles-shang-tsung-with-new-mortal-kombat-klassic-2-pack/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-30T20:22:09+00:00"
+  },
+  {
+   "title": "Mattel’s DC Legacy – Premium HUSH Batman In-Hand",
+   "url": "https://www.toyark.com/2026/10/30/mattels-dc-legacy-premium-hush-batman-in-hand-601997",
+   "source": "The Toyark",
+   "iso": "2026-10-30T19:57:53+00:00"
+  },
   {
    "title": "The Superman of Earth-2 Flies In with New McFarlane Toys Figure",
    "url": "https://bleedingcool.com/collectibles/the-superman-of-earth-2-flies-in-with-new-mcfarlane-toys-figure/",
@@ -262,24 +280,6 @@
    "url": "https://www.toyark.com/2026/10/29/thundercats-deluxe-wave-5-and-ultimates-wave-16-601885",
    "source": "The Toyark",
    "iso": "2026-10-29T12:27:00+00:00"
-  },
-  {
-   "title": "McDonald’s x Ben Cooper Figures by NECA",
-   "url": "https://www.toyark.com/2026/10/29/mcdonalds-x-ben-cooper-figures-by-neca-601872",
-   "source": "The Toyark",
-   "iso": "2026-10-29T12:11:41+00:00"
-  },
-  {
-   "title": "McFarlane Toys Mortal Kombat Klassic Baraka, Jax, Shang Tsung, Kung Lao and New 2-Packs – UPDATED",
-   "url": "https://www.toyark.com/2026/10/29/mcfarlane-toys-mortal-kombat-klassic-baraka-jax-shang-tsung-kung-lao-and-new-2-packs-601737",
-   "source": "The Toyark",
-   "iso": "2026-10-29T11:57:51+00:00"
-  },
-  {
-   "title": "Berserk – Chestnut Puck Statue by Gecco",
-   "url": "https://www.toyark.com/2026/10/29/berserk-chestnut-puck-statue-by-gecco-601771",
-   "source": "The Toyark",
-   "iso": "2026-10-29T11:41:17+00:00"
   }
  ],
  "trends": {
