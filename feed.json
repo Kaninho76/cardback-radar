@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-10-30T07:13:32+00:00",
+ "updatedISO": "2026-10-30T14:17:21+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,42 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Beware the Hedge Ninja from The Tick LongBox Heroes: Prestige line",
+   "url": "https://bleedingcool.com/collectibles/beware-the-hedge-ninja-from-the-tick-longbox-heroes-prestige-line/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-30T13:52:08+00:00"
+  },
+  {
+   "title": "Disney Spreads Holiday Cheer with Limited Jasmine Holiday Edition Doll",
+   "url": "https://bleedingcool.com/collectibles/disney-spreads-holiday-cheer-with-limited-jasmine-holiday-edition-doll/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-30T13:22:07+00:00"
+  },
+  {
+   "title": "DC Multiverse – Batman, Batman, Batman, Batman, and Bruce Wayne",
+   "url": "https://www.toyark.com/2026/10/30/dc-multiverse-batman-batman-batman-batman-and-bruce-wayne-601989",
+   "source": "The Toyark",
+   "iso": "2026-10-30T12:24:47+00:00"
+  },
+  {
+   "title": "New DC Multiverse Pre-Orders – Val-Zod, Mary Shazam, Star Sapphire",
+   "url": "https://www.toyark.com/2026/10/30/new-dc-multiverse-pre-orders-val-zod-mary-shazam-star-sapphire-601959",
+   "source": "The Toyark",
+   "iso": "2026-10-30T12:13:25+00:00"
+  },
+  {
+   "title": "Aliens – Hot Toys Corporal Hicks Figure",
+   "url": "https://www.toyark.com/2026/10/30/aliens-hot-toys-corporal-hicks-figure-601938",
+   "source": "The Toyark",
+   "iso": "2026-10-30T11:56:33+00:00"
+  },
+  {
+   "title": "Most Valuable Batmobile Batman Returns Hero Car, Cowls + Iconic Gotham Treasures Head to Julien’s & TCM Ultimate Batmobile Auction",
+   "url": "https://www.actionfigureinsider.com/most-valuable-batmobile-batman-returns-hero-car-cowls-iconic-gotham-treasures-head-to-juliens-tcm-ultimate-batmobile-auction/",
+   "source": "Action Figure Insider",
+   "iso": "2026-10-30T11:00:07+00:00"
+  },
   {
    "title": "SH Figuarts Star Wars A New Hope Darth Vader, Luke Sykwalker & Princess Leia Reveal & Preorders",
    "url": "https://toyhabits.com/sh-figuarts-star-wars-a-new-hope-darth-vader-luke-sykwalker-princess-leia-reveal-preorders/",
@@ -244,119 +280,83 @@
    "url": "https://toyhypeusa.com/2026/10/28/mcfarlane-toys-mortal-kombat-klassic-wave-6-jax-tsung-klao-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-mortal-kombat-klassic-wave-6-jax-tsung-klao-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-28T16:03:23+00:00"
-  },
-  {
-   "title": "Leonardo is a Nightmare with Super7's New TMNT ULTIMATES! Figure",
-   "url": "https://bleedingcool.com/collectibles/leonardo-is-a-nightmare-with-super7s-new-tmnt-ultimates-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-28T14:51:13+00:00"
-  },
-  {
-   "title": "New Limited Edition Nightmare TMNT Mikey Figure Revealed by Super7",
-   "url": "https://bleedingcool.com/collectibles/new-limited-edition-nightmare-tmnt-mikey-figure-revealed-by-super7/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-28T14:23:08+00:00"
-  },
-  {
-   "title": "New Batman Returns Unmasked Batman Figure Debuts from McFarlane",
-   "url": "https://bleedingcool.com/collectibles/new-batman-returns-unmasked-batman-figure-debuts-from-mcfarlane/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-28T13:52:09+00:00"
-  },
-  {
-   "title": "The Tick: LongBox Heroes: Prestige Continues with Multiple Santa",
-   "url": "https://bleedingcool.com/collectibles/the-tick-longbox-heroes-prestige-continues-with-multiple-santa/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-28T13:22:08+00:00"
-  },
-  {
-   "title": "Cthulhu and Mothman Go Toe To Toe in CRYPTID COMBAT from Wandering Planet Toys on Backerkit Now!",
-   "url": "https://www.actionfigureinsider.com/cthulhu-and-mothman-go-toe-to-toe-in-cryptid-combat-from-wandering-planet-toys-on-backerkit-now/",
-   "source": "Action Figure Insider",
-   "iso": "2026-10-28T13:08:48+00:00"
-  },
-  {
-   "title": "New The Tick Figure Two-Pack Debuts with The Terror & Man-Eating Cow",
-   "url": "https://bleedingcool.com/collectibles/new-the-tick-figure-two-pack-debuts-with-the-terror-man-eating-cow/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-28T12:52:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-29T21:13:18+00:00",
+  "updatedISO": "2026-10-30T14:17:21+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2128,
-    "change": 0
+    "perDay": 2139,
+    "change": 1
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2093,
+    "perDay": 2094,
     "change": -1
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2099,
-    "change": -3
+    "perDay": 2119,
+    "change": -2
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 912,
-    "change": -6
+    "perDay": 936,
+    "change": -3
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
     "perDay": 137,
-    "change": -6
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 67,
-    "change": -7
+    "change": -5
    },
    {
     "label": "He-Man",
     "article": "He-Man",
     "perDay": 829,
+    "change": -7
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 66,
     "change": -8
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 22297,
-    "change": -10
+    "perDay": 22984,
+    "change": -8
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 548,
+    "perDay": 554,
+    "change": -10
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 83,
     "change": -11
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 517,
-    "change": -13
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 82,
-    "change": -13
+    "perDay": 518,
+    "change": -12
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -70
+    "change": -62
    }
   ],
   "missed": []
