@@ -1,16 +1,29 @@
 {
- "updatedISO": "2026-10-31T17:48:06+00:00",
+ "updatedISO": "2026-10-31T21:42:48+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "It's Baraka vs Smoke with McFarlane's New Mortal Kombat Klassic 2-Pack",
+   "url": "https://bleedingcool.com/collectibles/its-baraka-vs-smoke-with-mcfarlanes-new-mortal-kombat-klassic-2-pack/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-31T19:22:08+00:00"
+  },
+  {
+   "title": "Boss Fight Studio Debuts Bleached Remnants EPIC H.A.C.K.S. Skeleton",
+   "url": "https://bleedingcool.com/collectibles/boss-fight-studio-debuts-bleached-remnants-epic-h-a-c-k-s-skeleton/",
+   "source": "Bleeding Cool",
+   "iso": "2026-10-31T18:22:08+00:00"
+  },
   {
    "title": "Mortal Kombat Klassic Jax vs Kung Lao Figure 2-Pack Coming Soon",
    "url": "https://bleedingcool.com/collectibles/mortal-kombat-klassic-jax-vs-kung-lao-figure-2-pack-coming-soon/",
@@ -268,22 +281,10 @@
    "url": "https://toyhypeusa.com/2026/10/29/mcfarlane-toys-dc-multiverse-star-sapphire-green-lantern-superman-earth-2-mary-shazam-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-star-sapphire-green-lantern-superman-earth-2-mary-shazam-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-29T16:02:28+00:00"
-  },
-  {
-   "title": "Super7 Sends Donatello Into a Nightmare in TMNT ULTIMATES! Wave 16",
-   "url": "https://bleedingcool.com/collectibles/super7-sends-donatello-into-a-nightmare-in-tmnt-ultimates-wave-16/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-29T15:22:09+00:00"
-  },
-  {
-   "title": "New DC Page Punchers: The New Batman Adventures Figure Revealed",
-   "url": "https://bleedingcool.com/collectibles/new-dc-page-punchers-the-new-batman-adventures-figure-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-29T14:52:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-31T05:53:16+00:00",
+  "updatedISO": "2026-10-31T21:42:48+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
