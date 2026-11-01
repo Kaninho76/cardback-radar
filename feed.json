@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-01T07:37:10+00:00",
+ "updatedISO": "2026-11-01T15:16:32+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Aliens 40th Anniversary Ultimate Xenomorph Warrior NECA In-Hand Review",
+   "url": "https://toyhabits.com/aliens-40th-anniversary-ultimate-xenomorph-warrior-neca-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-11-01T12:21:23+00:00"
+  },
+  {
+   "title": "Atari Hotels Breaks Ground on Debut Immersive Venue in Phoenix",
+   "url": "https://www.actionfigureinsider.com/atari-hotels-breaks-ground-on-debut-immersive-venue-in-phoenix/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-01T12:00:07+00:00"
+  },
   {
    "title": "It's Baraka vs Smoke with McFarlane's New Mortal Kombat Klassic 2-Pack",
    "url": "https://bleedingcool.com/collectibles/its-baraka-vs-smoke-with-mcfarlanes-new-mortal-kombat-klassic-2-pack/",
@@ -268,95 +280,83 @@
    "url": "https://toyhypeusa.com/2026/10/29/hasbro-star-wars-tbs-episode-2-attack-of-the-clones-agen-kolar-saesee-tin-zam-wesell-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-star-wars-tbs-episode-2-attack-of-the-clones-agen-kolar-saesee-tin-zam-wesell-figures-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-10-29T17:03:27+00:00"
-  },
-  {
-   "title": "Hot Toys Debuts New Avengers: Doomsday Sentinel Jumbo Sofvi Figure",
-   "url": "https://bleedingcool.com/collectibles/hot-toys-debuts-new-avengers-doomsday-sentinel-jumbo-sofvi-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-10-29T16:22:09+00:00"
-  },
-  {
-   "title": "McFarlane Toys DC Multiverse Star Sapphire Green Lantern, Superman Earth 2, & Mary (Shazam!) Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/10/29/mcfarlane-toys-dc-multiverse-star-sapphire-green-lantern-superman-earth-2-mary-shazam-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-dc-multiverse-star-sapphire-green-lantern-superman-earth-2-mary-shazam-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-29T16:02:28+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-10-31T21:42:48+00:00",
+  "updatedISO": "2026-11-01T15:16:32+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 32339,
-    "change": 31
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2172,
-    "change": 2
+    "perDay": 40549,
+    "change": 66
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2166,
-    "change": 0
+    "perDay": 2272,
+    "change": 5
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2210,
+    "change": 4
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 969,
-    "change": 0
+    "perDay": 1006,
+    "change": 4
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2087,
-    "change": -1
+    "perDay": 2166,
+    "change": 3
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 844,
-    "change": -5
+    "perDay": 863,
+    "change": -2
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 137,
-    "change": -6
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 557,
-    "change": -9
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 64,
-    "change": -11
+    "perDay": 139,
+    "change": -4
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 522,
-    "change": -11
+    "perDay": 528,
+    "change": -9
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 552,
+    "change": -9
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 80,
+    "perDay": 81,
+    "change": -14
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 61,
     "change": -15
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -68
+    "change": -53
    }
   ],
   "missed": []
