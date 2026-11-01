@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-10-31T21:42:48+00:00",
+ "updatedISO": "2026-11-01T01:15:32+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "It's Baraka vs Smoke with McFarlane's New Mortal Kombat Klassic 2-Pack",
