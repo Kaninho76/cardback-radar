@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-01T23:39:32+00:00",
+ "updatedISO": "2026-11-02T06:18:42+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,24 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Hasbro Marvel Legends Your Friendly Neighborhood Spider-Man & Rhino 2 Pack IN STOCK NOW",
+   "url": "https://toyhabits.com/hasbro-marvel-legends-your-friendly-neighborhood-spider-man-rhino-2-pack-in-stock/",
+   "source": "Toy Habits",
+   "iso": "2026-11-02T02:56:53+00:00"
+  },
+  {
+   "title": "Super7 GI Joe ReAction+ Tiger Force Jinx Showing up at Target & In Hand Images",
+   "url": "https://toyhabits.com/super7-gi-joe-reaction-tiger-force-jinx-showing-up-at-target-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-11-02T01:16:04+00:00"
+  },
+  {
+   "title": "Formo Toys Warriors of the Galaxy & Legends of Dragonore, Savage World of Frazetta Reveals",
+   "url": "https://toyhabits.com/formo-toys-warriors-of-the-galaxy-legends-of-dragonore-savage-world-of-frazetta-reveals/",
+   "source": "Toy Habits",
+   "iso": "2026-11-02T00:50:42+00:00"
+  },
   {
    "title": "Mattel WWE Top Picks Elite, Main Event & Ultimate Edition Figure Pre-Orders For November 1st, 2026",
    "url": "https://toyhypeusa.com/2026/11/01/mattel-wwe-top-picks-elite-main-event-ultimate-edition-figure-pre-orders-for-november-1st-2026/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-wwe-top-picks-elite-main-event-ultimate-edition-figure-pre-orders-for-november-1st-2026",
@@ -262,71 +280,53 @@
    "url": "https://toyhabits.com/sh-figuarts-star-wars-a-new-hope-darth-vader-luke-sykwalker-princess-leia-reveal-preorders/",
    "source": "Toy Habits",
    "iso": "2026-10-30T02:10:39+00:00"
-  },
-  {
-   "title": "DC Multiverse Star Sapphire Green Lantern, Superman (Val-Zod), Mary Shazam Collector Edition Preorders",
-   "url": "https://toyhabits.com/dc-multiverse-star-sapphire-green-lantern-superman-val-zod-mary-shazam-collector-edition-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-10-30T01:24:49+00:00"
-  },
-  {
-   "title": "Super7 ThunderCats Astral Moat Monster Preorder is LIVE",
-   "url": "https://toyhabits.com/super7-thundercats-astral-moat-monster-preorder-live/",
-   "source": "Toy Habits",
-   "iso": "2026-10-30T00:55:00+00:00"
-  },
-  {
-   "title": "Mondo The Real Ghostbusters Winston Zeddemore Figure Available Now",
-   "url": "https://toyhypeusa.com/2026/10/29/mondo-the-real-ghostbusters-winston-zeddemore-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mondo-the-real-ghostbusters-winston-zeddemore-figure-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-10-29T23:46:26+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-01T15:16:32+00:00",
+  "updatedISO": "2026-11-02T06:18:42+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 40549,
-    "change": 66
+    "perDay": 41364,
+    "change": 72
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2272,
-    "change": 5
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 2210,
-    "change": 4
+    "perDay": 2386,
+    "change": 11
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1006,
-    "change": 4
+    "perDay": 1037,
+    "change": 7
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 2250,
+    "change": 6
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2166,
-    "change": 3
+    "perDay": 2234,
+    "change": 6
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 863,
-    "change": -2
+    "perDay": 886,
+    "change": 1
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 139,
-    "change": -4
+    "perDay": 138,
+    "change": -5
    },
    {
     "label": "Masters of the Universe",
@@ -337,26 +337,26 @@
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 552,
+    "perDay": 553,
     "change": -9
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 81,
-    "change": -14
+    "perDay": 83,
+    "change": -11
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 61,
-    "change": -15
+    "change": -16
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -53
+    "change": -50
    }
   ],
   "missed": []
