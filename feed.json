@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-11-04T18:01:49+00:00",
+ "updatedISO": "2026-11-04T23:46:27+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
-  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Toy Habits: URLError"
+ ],
  "items": [
+  {
+   "title": "Bandai Namco – Dragon Ball Super Dragon Stars Super Saiyan Blue Goku vs. Hit, Frieza 4th Form Power Up Pack Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/04/bandai-namco-dragon-ball-super-dragon-stars-super-saiyan-blue-goku-vs-hit-frieza-4th-form-power-up-pack-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bandai-namco-dragon-ball-super-dragon-stars-super-saiyan-blue-goku-vs-hit-frieza-4th-form-power-up-pack-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-04T21:28:00+00:00"
+  },
+  {
+   "title": "#Mattel Brick Shop Introduces New $4.99 #HotWheels Building Sets",
+   "url": "https://www.actionfigureinsider.com/mattel-brick-shop-introduces-new-4-99-hotwheels-building-sets/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-04T19:19:08+00:00"
+  },
+  {
+   "title": "Blooms by Play-Doh unveils A Court of Thorns and Roses bouquet kit",
+   "url": "https://www.actionfigureinsider.com/blooms-by-play-doh-unveils-a-court-of-thorns-and-roses-bouquet-kit/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-04T18:49:05+00:00"
+  },
   {
    "title": "Iron Studios Reveals Alien's 40th Anniversary 1/10 Art Scale Statue",
    "url": "https://bleedingcool.com/collectibles/iron-studios-reveals-aliens-40th-anniversary-1-10-art-scale-statue/",
@@ -262,28 +281,10 @@
    "url": "https://www.toyark.com/2026/11/02/mcfarlane-toys-vox-and-necroplasm-spawn-602102",
    "source": "The Toyark",
    "iso": "2026-11-02T13:31:46+00:00"
-  },
-  {
-   "title": "Dragon Ball Z – S.H. Figuarts Z-Fighter Tien Shinhan and Chiaotzu",
-   "url": "https://www.toyark.com/2026/11/02/dragon-ball-z-s-h-figuarts-z-fighter-tien-shinhan-and-chiaotzu-602079",
-   "source": "The Toyark",
-   "iso": "2026-11-02T13:21:34+00:00"
-  },
-  {
-   "title": "Star Wars: A New Hope – S.H. Figuarts Darth Vader, Luke Skywalker, and Princess Leia",
-   "url": "https://www.toyark.com/2026/11/02/star-wars-a-new-hope-s-h-figuarts-darth-vader-luke-skywalker-and-princess-leia-602062",
-   "source": "The Toyark",
-   "iso": "2026-11-02T13:09:13+00:00"
-  },
-  {
-   "title": "Step Into Candy Land: First-Ever Immersive Candy Land Retail Experience Opens in NYC This Holiday Season",
-   "url": "https://www.actionfigureinsider.com/step-into-candy-land-first-ever-immersive-candy-land-retail-experience-opens-in-nyc-this-holiday-season/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-02T12:00:46+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-04T09:24:40+00:00",
+  "updatedISO": "2026-11-04T23:46:27+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
