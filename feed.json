@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-04T01:26:30+00:00",
+ "updatedISO": "2026-11-04T09:24:40+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "LEGO Icons 11390 Dragon Ball: Shenron & Goku Set",
+   "url": "https://toyhypeusa.com/2026/11/04/lego-icons-11390-dragon-ball-shenron-goku-set/?utm_source=rss&utm_medium=rss&utm_campaign=lego-icons-11390-dragon-ball-shenron-goku-set",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-04T05:01:45+00:00"
+  },
+  {
+   "title": "MOTU Chronicles 2027 Wave 1 In-Package Images on eBay",
+   "url": "https://toyhabits.com/motu-chronicles-2027-wave-1-in-package-images-on-ebay/",
+   "source": "Toy Habits",
+   "iso": "2026-11-04T04:47:22+00:00"
+  },
   {
    "title": "Thundercats Ultimates Hammerhand Cartoon First Appearance EE Preorder",
    "url": "https://toyhabits.com/thundercats-ultimates-hammerhand-cartoon-first-appearance-ee-preorder/",
@@ -268,95 +280,83 @@
    "url": "https://toyhypeusa.com/2026/11/01/mattel-masters-of-the-universe-chronicles-origins-figures-pre-orders-for-november-1st-2026/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-masters-of-the-universe-chronicles-origins-figures-pre-orders-for-november-1st-2026",
    "source": "Toy Hype USA",
    "iso": "2026-11-01T19:21:37+00:00"
-  },
-  {
-   "title": "TMNT Cowabunga Forever 90s Movie Figures 5 Pack on Target",
-   "url": "https://toyhabits.com/tmnt-cowabunga-forever-90s-movie-figures-5-pack-on-target/",
-   "source": "Toy Habits",
-   "iso": "2026-11-01T16:16:44+00:00"
-  },
-  {
-   "title": "Aliens 40th Anniversary Ultimate Xenomorph Warrior NECA In-Hand Review",
-   "url": "https://toyhabits.com/aliens-40th-anniversary-ultimate-xenomorph-warrior-neca-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-11-01T12:21:23+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-03T15:17:04+00:00",
+  "updatedISO": "2026-11-04T09:24:40+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 41566,
-    "change": 75
-   },
-   {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2429,
-    "change": 13
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 961,
-    "change": 10
+    "perDay": 42055,
+    "change": 81
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1076,
-    "change": 10
+    "perDay": 1124,
+    "change": 18
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 980,
+    "change": 14
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 2315,
-    "change": 9
+    "perDay": 2415,
+    "change": 14
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2303,
-    "change": 9
+    "perDay": 2356,
+    "change": 13
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 2420,
+    "change": 12
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 590,
-    "change": 2
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 548,
-    "change": -9
+    "perDay": 612,
+    "change": 8
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 133,
+    "perDay": 132,
     "change": -9
    },
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 84,
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 539,
     "change": -10
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 62,
-    "change": -13
+    "perDay": 63,
+    "change": -11
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 81,
+    "change": -14
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -49
+    "change": -56
    }
   ],
   "missed": []
