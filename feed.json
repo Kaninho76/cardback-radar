@@ -1,16 +1,83 @@
 {
- "updatedISO": "2026-11-05T15:33:57+00:00",
+ "updatedISO": "2026-11-05T22:04:26+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
-  "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Fwoosh: HTTP 500"
+ ],
  "items": [
+  {
+   "title": "Takara-Tomy Transformers New Legends NL-01 Green Lioconvoy Figure Review",
+   "url": "https://toyhypeusa.com/2026/11/05/takara-tomy-transformers-new-legends-nl-01-green-lioconvoy-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=takara-tomy-transformers-new-legends-nl-01-green-lioconvoy-figure-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-05T20:02:10+00:00"
+  },
+  {
+   "title": "Pre-Orders Arrive for Blokees Jurassic World T-Rex 1:35 Scale Model",
+   "url": "https://bleedingcool.com/collectibles/pre-orders-arrive-for-blokees-jurassic-world-t-rex-135-scale-model/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-05T18:52:07+00:00"
+  },
+  {
+   "title": "Eldor MOTU Origins Mattel Creations Exclusive Official Images and Details",
+   "url": "https://toyhabits.com/eldor-motu-origins-mattel-creations-exclusive-official-images-and-details/",
+   "source": "Toy Habits",
+   "iso": "2026-11-05T18:50:10+00:00"
+  },
+  {
+   "title": "Takara-Tomy Transformers Overgear, Missing Link, New Legends & Adamas Machina Figures Pre-Orders For November 5th, 2026",
+   "url": "https://toyhypeusa.com/2026/11/05/takara-tomy-transformers-overgear-missing-link-new-legends-adamas-machina-figures-pre-orders-for-november-5th-2026/?utm_source=rss&utm_medium=rss&utm_campaign=takara-tomy-transformers-overgear-missing-link-new-legends-adamas-machina-figures-pre-orders-for-november-5th-2026",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-05T18:28:27+00:00"
+  },
+  {
+   "title": "Dragon Ball Z's Tien Shinhan Gets New S.H.Figuarts Z-Fighters Figure",
+   "url": "https://bleedingcool.com/collectibles/dragon-ball-zs-tien-shinhan-gets-new-s-h-figuarts-z-fighters-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-05T17:53:08+00:00"
+  },
+  {
+   "title": "Hasbro G.I. Joe Classified Series 6″ King Cobra Commander with Throne Set Available Now (Update)",
+   "url": "https://toyhypeusa.com/2026/11/05/hasbro-gijoe-classified-series-king-cobra-commander-with-throne-set-available-now-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-gijoe-classified-series-king-cobra-commander-with-throne-set-available-now-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-05T17:17:50+00:00"
+  },
+  {
+   "title": "McFarlane Toys Superman The Movie Clark Kent Elite Edition Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/05/mcfarlane-toys-superman-the-movie-clark-kent-elite-edition-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-superman-the-movie-clark-kent-elite-edition-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-05T17:01:24+00:00"
+  },
+  {
+   "title": "LEGO Unleashes Massive Godzilla Ideas Set with Over 5,300 Pieces!",
+   "url": "https://bleedingcool.com/collectibles/lego-unleashes-massive-godzilla-ideas-set-with-over-5300-pieces/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-05T16:52:08+00:00"
+  },
+  {
+   "title": "McFarlane Toys Unleashes Necroplasm Spawn with New Page Punchers",
+   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-unleashes-necroplasm-spawn-with-new-page-punchers/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-05T16:22:07+00:00"
+  },
+  {
+   "title": "Super7 G.I. Joe ReAction+ Jinx (Tiger Force) Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/05/super7-gijoe-reaction-figures-jinx-tiger-force-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=super7-gijoe-reaction-figures-jinx-tiger-force-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-05T16:11:08+00:00"
+  },
+  {
+   "title": "He-Man Blasts Off with New Mattel Flight Armor Chronicles Figure",
+   "url": "https://bleedingcool.com/collectibles/he-man-blasts-off-with-new-mattel-flight-armor-chronicles-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-05T15:52:08+00:00"
+  },
   {
    "title": "Hasbro Blooms by Play-Doh Brings A Court of Thorns and Roses to Life!",
    "url": "https://bleedingcool.com/collectibles/hasbro-blooms-by-play-doh-brings-a-court-of-thorns-and-roses-to-life/",
@@ -214,72 +281,6 @@
    "url": "https://toyhabits.com/mcfarlane-dc-multiverse-clark-kent-superman-the-movie-elite-edition-official-images/",
    "source": "Toy Habits",
    "iso": "2026-11-03T14:54:36+00:00"
-  },
-  {
-   "title": "Syrax Takes Flight with Iron Studios' New House of the Dragon Statue",
-   "url": "https://bleedingcool.com/collectibles/syrax-takes-flight-with-iron-studios-new-house-of-the-dragon-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-03T14:52:07+00:00"
-  },
-  {
-   "title": "Voldemort is Unleashed with Iron Studios' New Harry Potter 1/10 Statue",
-   "url": "https://bleedingcool.com/collectibles/voldemort-is-unleashed-with-iron-studios-new-harry-potter-1-10-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-03T13:51:07+00:00"
-  },
-  {
-   "title": "Superman (1978) – DC Multiverse Clark Kent Figure",
-   "url": "https://www.toyark.com/2026/11/03/superman-1978-dc-multiverse-clark-kent-figure-602178",
-   "source": "The Toyark",
-   "iso": "2026-11-03T13:12:45+00:00"
-  },
-  {
-   "title": "DC Multiverse Gold Label Mr. Freeze and Harley Quinn",
-   "url": "https://www.toyark.com/2026/11/03/dc-multiverse-gold-label-mr-freeze-and-harley-quinn-602160",
-   "source": "The Toyark",
-   "iso": "2026-11-03T13:08:22+00:00"
-  },
-  {
-   "title": "New Masters of the Universe Kid Core, Origins, and Chronicles",
-   "url": "https://www.toyark.com/2026/11/03/new-masters-of-the-universe-kid-core-origins-and-chronicles-602107",
-   "source": "The Toyark",
-   "iso": "2026-11-03T12:56:24+00:00"
-  },
-  {
-   "title": "GWAR IS COMING TO ﻿MUTANT FOOTBALL LEAGUE 2",
-   "url": "https://www.actionfigureinsider.com/gwar-is-coming-to-mutant-football-league-2/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-03T12:00:19+00:00"
-  },
-  {
-   "title": "Mattel Masters of the Universe Chronicles & Origins Figures Pre-Orders For November 1st, 2026 (Update)",
-   "url": "https://toyhypeusa.com/2026/11/02/mattel-motu-chronicles-origins-figures-pre-orders-for-november-1st-2026-update/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-motu-chronicles-origins-figures-pre-orders-for-november-1st-2026-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-03T00:09:50+00:00"
-  },
-  {
-   "title": "Bandai Namco – Dragon Ball Super: Beerus S.H. Figuarts Beerus (The God of Destruction Awakens) Figure Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/11/02/bandai-namco-dragon-ball-super-beerus-shfiguarts-beerus-the-god-of-destruction-awakens-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bandai-namco-dragon-ball-super-beerus-shfiguarts-beerus-the-god-of-destruction-awakens-figure-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-02T23:48:13+00:00"
-  },
-  {
-   "title": "Battle for Subternia MOTU Core Wave 1 Preorder",
-   "url": "https://toyhabits.com/battle-for-subternia-motu-core-wave-1-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-11-02T23:09:34+00:00"
-  },
-  {
-   "title": "MOTU Chronicles 2027 Wave 1 Preorders",
-   "url": "https://toyhabits.com/motu-chronicles-2027-wave-1-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-11-02T23:06:30+00:00"
-  },
-  {
-   "title": "MOTU Origins Shadow Beast Build-A-Figure Wave 1 Preorders",
-   "url": "https://toyhabits.com/motu-origins-build-a-figure-wave-1-he-man-beast-man-and-battle-armor-man-at-arms-preorders/",
-   "source": "Toy Habits",
-   "iso": "2026-11-02T23:05:59+00:00"
   }
  ],
  "trends": {
