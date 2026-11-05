@@ -1,17 +1,34 @@
 {
- "updatedISO": "2026-11-04T23:46:27+00:00",
+ "updatedISO": "2026-11-05T06:55:32+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
+  "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Toy Habits: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Transformers Missing Link C-16 Arcee Headmasters Version Official Images",
+   "url": "https://toyhabits.com/transformers-missing-link-c-16-arcee-headmasters-version-official-images/",
+   "source": "Toy Habits",
+   "iso": "2026-11-05T01:43:15+00:00"
+  },
+  {
+   "title": "Aliens Corporal Hicks Hot Toys Sixth Scale Figure Prototype Images Reveal Incredible Details",
+   "url": "https://toyhabits.com/aliens-corporal-hicks-hot-toys-sixth-scale-figure-prototype-images-reveal-incredible-details/",
+   "source": "Toy Habits",
+   "iso": "2026-11-05T01:20:43+00:00"
+  },
+  {
+   "title": "BigBadToyStore News: Holiday Spotlight Sale, Tamashii Nations, Transformers, MOTU, Godzilla & More",
+   "url": "https://toyhypeusa.com/2026/11/04/bbts-holiday-spotlight-sale-tamashii-nations-transformers-motu-godzilla/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-holiday-spotlight-sale-tamashii-nations-transformers-motu-godzilla",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-04T23:54:11+00:00"
+  },
   {
    "title": "Bandai Namco – Dragon Ball Super Dragon Stars Super Saiyan Blue Goku vs. Hit, Frieza 4th Form Power Up Pack Figures Pre-Orders",
    "url": "https://toyhypeusa.com/2026/11/04/bandai-namco-dragon-ball-super-dragon-stars-super-saiyan-blue-goku-vs-hit-frieza-4th-form-power-up-pack-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bandai-namco-dragon-ball-super-dragon-stars-super-saiyan-blue-goku-vs-hit-frieza-4th-form-power-up-pack-figures-pre-orders",
@@ -263,24 +280,6 @@
    "url": "https://toyhabits.com/mcfarlane-dc-multiverse-clark-kent-superman-the-movie-elite-edition-preorders-go-live-november-5/",
    "source": "Toy Habits",
    "iso": "2026-11-02T15:25:33+00:00"
-  },
-  {
-   "title": "SPONSOR NEWS: BBTS News — Cult & Classic Movie sale, The Tick, Thundercats, DC, Marvel & More! New Pre-orders & Arrivals",
-   "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-cult-classic-movie-sale-the-tick-thundercats-dc-marvel-more-new-pre-orders-arrivals/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-02T14:33:56+00:00"
-  },
-  {
-   "title": "Entertainment Earth Offers $10 Off With $100+ Purchase Holiday Sale For November 2026",
-   "url": "https://toyhypeusa.com/2026/11/02/ee-offers-10-off-with-100-purchase-holiday-sale-for-november-2026/?utm_source=rss&utm_medium=rss&utm_campaign=ee-offers-10-off-with-100-purchase-holiday-sale-for-november-2026",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-02T14:21:02+00:00"
-  },
-  {
-   "title": "McFarlane Toys Vox and Necroplasm Spawn",
-   "url": "https://www.toyark.com/2026/11/02/mcfarlane-toys-vox-and-necroplasm-spawn-602102",
-   "source": "The Toyark",
-   "iso": "2026-11-02T13:31:46+00:00"
   }
  ],
  "trends": {
