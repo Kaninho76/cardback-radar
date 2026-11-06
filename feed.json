@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-06T02:31:46+00:00",
+ "updatedISO": "2026-11-06T11:01:31+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -283,80 +283,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-05T15:33:57+00:00",
+  "updatedISO": "2026-11-06T11:01:31+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 42480,
-    "change": 88
-   },
-   {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 3702,
-    "change": 76
+    "perDay": 4207,
+    "change": 100
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 42491,
+    "change": 91
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1453,
-    "change": 54
+    "perDay": 1623,
+    "change": 73
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 978,
-    "change": 14
+    "perDay": 966,
+    "change": 13
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2336,
-    "change": 12
+    "perDay": 2302,
+    "change": 10
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2383,
-    "change": 10
+    "perDay": 2354,
+    "change": 9
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 608,
+    "perDay": 605,
     "change": 7
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 133,
-    "change": -7
+    "perDay": 134,
+    "change": -6
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 84,
-    "change": -11
+    "perDay": 81,
+    "change": -14
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 62,
-    "change": -13
+    "perDay": 60,
+    "change": -15
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
     "perDay": 506,
-    "change": -17
+    "change": -16
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -55
+    "change": -62
    }
   ],
   "missed": []
