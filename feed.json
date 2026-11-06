@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-11-05T22:04:26+00:00",
+ "updatedISO": "2026-11-06T02:31:46+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
+  "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Fwoosh: HTTP 500"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Transformers Missing Link C-16 Arcee Headmasters Version Rebirth Preorder",
+   "url": "https://toyhabits.com/transformers-missing-link-c-16-arcee-headmasters-version-rebirth-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-11-05T22:18:18+00:00"
+  },
   {
    "title": "Takara-Tomy Transformers New Legends NL-01 Green Lioconvoy Figure Review",
    "url": "https://toyhypeusa.com/2026/11/05/takara-tomy-transformers-new-legends-nl-01-green-lioconvoy-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=takara-tomy-transformers-new-legends-nl-01-green-lioconvoy-figure-review",
@@ -275,12 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/batman-dons-red-with-new-challengers-of-the-unknown-7-scale-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-11-03T15:22:08+00:00"
-  },
-  {
-   "title": "McFarlane DC Multiverse Clark Kent Superman The Movie Elite Edition Official Images",
-   "url": "https://toyhabits.com/mcfarlane-dc-multiverse-clark-kent-superman-the-movie-elite-edition-official-images/",
-   "source": "Toy Habits",
-   "iso": "2026-11-03T14:54:36+00:00"
   }
  ],
  "trends": {
