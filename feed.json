@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-08T00:42:25+00:00",
+ "updatedISO": "2026-11-08T07:28:06+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -283,80 +283,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-07T16:53:49+00:00",
+  "updatedISO": "2026-11-08T07:28:06+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 4698,
-    "change": 122
+    "perDay": 5533,
+    "change": 160
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1742,
-    "change": 85
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 33864,
-    "change": 40
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 959,
-    "change": 12
+    "perDay": 1990,
+    "change": 109
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 606,
-    "change": 8
+    "perDay": 598,
+    "change": 12
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 933,
+    "change": 9
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2262,
-    "change": 8
+    "perDay": 2185,
+    "change": 3
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2310,
-    "change": 7
+    "perDay": 2201,
+    "change": 1
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 26056,
+    "change": 0
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 133,
-    "change": -7
+    "perDay": 134,
+    "change": -6
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 87,
+    "change": -9
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 526,
+    "change": -11
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 61,
-    "change": -12
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 82,
     "change": -13
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 510,
-    "change": -15
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -47
+    "change": -68
    }
   ],
   "missed": []
