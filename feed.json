@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-10T01:36:18+00:00",
+ "updatedISO": "2026-11-10T09:58:27+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Wave 13 Super7 G.I. Joe ReAction+ Leaks",
+   "url": "https://toyhabits.com/wave-13-super7-g-i-joe-reaction-leaks/",
+   "source": "Toy Habits",
+   "iso": "2026-11-10T01:15:40+00:00"
+  },
   {
    "title": "Battle Armor Cobra Commander Super7 G.I. Joe ReAction+ Wave 13 Official Image",
    "url": "https://toyhabits.com/battle-armor-cobra-commander-super7-g-i-joe-reaction-wave-13-official-image/",
@@ -274,89 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/hasbro-reveals-kpop-demon-hunters-interactive-delivery-derpy-tiger/",
    "source": "Bleeding Cool",
    "iso": "2026-11-06T18:22:09+00:00"
-  },
-  {
-   "title": "Boss Fight Studio Hellboy 1/12 Scale Wave 2 Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/11/06/boss-fight-studio-hellboy-wave-2-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-hellboy-wave-2-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-06T18:09:45+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-09T17:37:15+00:00",
+  "updatedISO": "2026-11-10T09:58:27+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 6559,
-    "change": 206
+    "perDay": 7695,
+    "change": 256
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 2309,
-    "change": 142
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 592,
-    "change": 11
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 920,
-    "change": 7
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2095,
-    "change": -2
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 557,
-    "change": -2
+    "perDay": 2654,
+    "change": 176
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 94,
-    "change": -2
+    "perDay": 109,
+    "change": 14
    },
    {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 136,
-    "change": -4
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 575,
+    "change": 2
    },
    {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 24725,
-    "change": -6
-   },
-   {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 2072,
-    "change": -6
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 849,
+    "change": -3
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 64,
+    "perDay": 66,
+    "change": -4
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 135,
+    "change": -4
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 519,
+    "change": -5
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 2017,
     "change": -7
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 24016,
+    "change": -9
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 1994,
+    "change": -9
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -57
+    "change": -61
    }
   ],
   "missed": []
