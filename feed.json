@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-11T06:35:11+00:00",
+ "updatedISO": "2026-11-11T15:20:05+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Koshchei the Deathless Rises with New Hellboy Boss Fight Figure",
+   "url": "https://bleedingcool.com/collectibles/koshchei-the-deathless-rises-with-new-hellboy-boss-fight-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-11T14:22:07+00:00"
+  },
+  {
+   "title": "MGA’s Miniverse Real TV™ Makes Its Small-Screen Debut with a Fully Functional Mini TV and Playable Video Tapes Featuring Clips from Fan-Favorite Movies and Shows",
+   "url": "https://www.actionfigureinsider.com/mgas-miniverse-real-tv-makes-its-small-screen-debut-with-a-fully-functional-mini-tv-and-playable-video-tapes-featuring-clips-from-fan-favorite-movies-and-shows/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-11T12:00:20+00:00"
+  },
   {
    "title": "Hasbro The Real Ghostbusters Kenner Classics Ecto-Glow Heroes 4-Figure Collector’s Set Now $74.99",
    "url": "https://toyhypeusa.com/2026/11/10/hasbro-the-real-ghostbusters-kenner-classics-ecto-glow-heroes-4-figure-collectors-set-now-74-99/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-the-real-ghostbusters-kenner-classics-ecto-glow-heroes-4-figure-collectors-set-now-74-99",
@@ -268,95 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/clawful-arrives-for-the-masters-of-the-universe-chronicles-2027-lineup/",
    "source": "Bleeding Cool",
    "iso": "2026-11-07T18:22:08+00:00"
-  },
-  {
-   "title": "Bowser Gets A Traditional LEGO Minifigure with New Mario Kart Set",
-   "url": "https://bleedingcool.com/collectibles/bowser-gets-a-traditional-lego-minifigure-with-new-mario-kart-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-07T17:22:07+00:00"
-  },
-  {
-   "title": "McFarlane Toys Reveals New 1:6 The Amazing Spider-Man #642 Statue",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-reveals-new-16-the-amazing-spider-man-642-statue/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-07T16:22:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-10T23:28:53+00:00",
+  "updatedISO": "2026-11-11T15:20:05+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 7695,
-    "change": 256
+    "perDay": 8752,
+    "change": 299
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 2654,
-    "change": 176
+    "perDay": 2981,
+    "change": 206
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 109,
-    "change": 14
+    "perDay": 119,
+    "change": 25
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 575,
-    "change": 2
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 849,
-    "change": -3
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 66,
-    "change": -4
+    "perDay": 592,
+    "change": 7
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 135,
-    "change": -4
+    "perDay": 137,
+    "change": -2
+   },
+   {
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 65,
+    "change": -5
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 829,
+    "change": -5
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 519,
-    "change": -5
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2017,
-    "change": -7
+    "perDay": 496,
+    "change": -9
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 24016,
-    "change": -9
+    "perDay": 23678,
+    "change": -10
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1994,
-    "change": -9
+    "perDay": 1965,
+    "change": -10
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 1961,
+    "change": -10
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -61
+    "change": -49
    }
   ],
   "missed": []
