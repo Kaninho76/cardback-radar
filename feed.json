@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-12T03:05:30+00:00",
+ "updatedISO": "2026-11-12T11:25:47+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Bandai Namco S.H. Figuarts Dragon Ball DAMAI Panzy Figure Now $62",
+   "url": "https://toyhypeusa.com/2026/11/11/bandai-namco-shfiguarts-dragon-ball-damai-panzy-figure-now-62/?utm_source=rss&utm_medium=rss&utm_campaign=bandai-namco-shfiguarts-dragon-ball-damai-panzy-figure-now-62",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-12T04:09:14+00:00"
+  },
   {
    "title": "BigBadToyStore News: New Holiday Sale Items, Army Ants Armada, M.A.S.K., Transformers, Sonic, Hellboy & More",
    "url": "https://toyhypeusa.com/2026/11/11/bbts-new-holiday-sale-items-army-ants-armada-mask-transformers-sonic-hellboy/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-new-holiday-sale-items-army-ants-armada-mask-transformers-sonic-hellboy",
@@ -274,89 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-unveils-image-comics-founders-series-prophet-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-11-09T15:22:08+00:00"
-  },
-  {
-   "title": "Alien Arthur Dallas and Ellen Ripley Hiya Toys PX Previews Exclusive Figures In-Hand Review",
-   "url": "https://toyhabits.com/alien-arthur-dallas-and-ellen-ripley-hiya-toys-px-previews-exclusive-figures-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-11-09T14:50:35+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-11T15:20:05+00:00",
+  "updatedISO": "2026-11-12T11:25:47+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 8752,
-    "change": 299
+    "perDay": 8314,
+    "change": 230
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 2981,
-    "change": 206
+    "perDay": 2921,
+    "change": 178
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 119,
-    "change": 25
+    "perDay": 124,
+    "change": 29
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 592,
-    "change": 7
+    "perDay": 598,
+    "change": 9
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 137,
-    "change": -2
+    "perDay": 140,
+    "change": 0
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 65,
+    "perDay": 66,
     "change": -5
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 829,
-    "change": -5
+    "perDay": 814,
+    "change": -6
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 496,
-    "change": -9
+    "perDay": 500,
+    "change": -8
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 23678,
+    "perDay": 23639,
     "change": -10
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1965,
+    "perDay": 1955,
     "change": -10
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 1961,
+    "perDay": 1947,
     "change": -10
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -49
+    "change": -60
    }
   ],
   "missed": []
