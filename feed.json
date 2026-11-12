@@ -1,17 +1,28 @@
 {
- "updatedISO": "2026-11-11T22:03:10+00:00",
+ "updatedISO": "2026-11-12T03:05:30+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
   "The Toyark",
+  "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Fwoosh: HTTP 500"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "BigBadToyStore News: New Holiday Sale Items, Army Ants Armada, M.A.S.K., Transformers, Sonic, Hellboy & More",
+   "url": "https://toyhypeusa.com/2026/11/11/bbts-new-holiday-sale-items-army-ants-armada-mask-transformers-sonic-hellboy/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-new-holiday-sale-items-army-ants-armada-mask-transformers-sonic-hellboy",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-12T00:33:14+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Magic: The Gathering Captain America Figure Now $29.99",
+   "url": "https://toyhypeusa.com/2026/11/11/hasbro-marvel-legends-series-magic-the-gathering-captain-america-figure-now-29-99/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-magic-the-gathering-captain-america-figure-now-29-99",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-12T00:12:31+00:00"
+  },
   {
    "title": "Wave 13 Super7 G.I. Joe ReAction+ Ninja Force Leaks",
    "url": "https://toyhabits.com/wave-13-super7-g-i-joe-reaction-ninja-force-leaks/",
@@ -269,18 +280,6 @@
    "url": "https://toyhabits.com/alien-arthur-dallas-and-ellen-ripley-hiya-toys-px-previews-exclusive-figures-in-hand-review/",
    "source": "Toy Habits",
    "iso": "2026-11-09T14:50:35+00:00"
-  },
-  {
-   "title": "Bow Before the Eleventh Brother with Hot Toys' Newest Star Wars Figure",
-   "url": "https://bleedingcool.com/collectibles/bow-before-the-eleventh-brother-with-hot-toys-newest-star-wars-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-09T14:22:07+00:00"
-  },
-  {
-   "title": "Happy (Belated) Birthday He-Man! New Promo Mailer & Shots",
-   "url": "https://www.toyark.com/2026/11/09/happy-belated-birthday-he-man-new-promo-mailer-shots-602288",
-   "source": "The Toyark",
-   "iso": "2026-11-09T14:02:31+00:00"
   }
  ],
  "trends": {
