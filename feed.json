@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-12T19:59:56+00:00",
+ "updatedISO": "2026-11-13T01:10:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,36 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "The Loyal Subjects M.A.S.K. Wave 2 Figures & Vehicles Available Now (Update)",
+   "url": "https://toyhypeusa.com/2026/11/12/the-loyal-subjects-mask-wave-2-figures-vehicles-available-now-update/?utm_source=rss&utm_medium=rss&utm_campaign=the-loyal-subjects-mask-wave-2-figures-vehicles-available-now-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-12T21:51:55+00:00"
+  },
+  {
+   "title": "JAKKS Pacific and Skybound Bring Invincible to Life with Collectibles & Tech Accessories, Launching Spring 2028",
+   "url": "https://www.actionfigureinsider.com/jakks-pacific-and-skybound-bring-invincible-to-life-with-collectibles-tech-accessories-launching-spring-2028/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-12T20:29:17+00:00"
+  },
+  {
+   "title": "Star Wars Countdown to 50 Years Vintage Collection and Black Series Preorders",
+   "url": "https://toyhabits.com/star-wars-countdown-to-50-years-vintage-collection-and-black-series-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-11-12T20:21:17+00:00"
+  },
+  {
+   "title": "SPONSOR NEWS – BBTS News — New Holiday Sale Items, Army Ants Armada, M.A.S.K., Transformers, Sonic, Hellboy & More!",
+   "url": "https://www.actionfigureinsider.com/sponsor-news-bbts-news-new-holiday-sale-items-army-ants-armada-m-a-s-k-transformers-sonic-hellboy-more/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-12T20:12:42+00:00"
+  },
+  {
+   "title": "@HASBRO CELEBRATES #STARWARS ™ 50TH ANNIVERSARY WITH NEW PRODUCT REVEALS IN #BLACKSERIES #VINTAGECOLLECTION AND #RETROCOLLECTION",
+   "url": "https://www.actionfigureinsider.com/hasbro-celebrates-starwars-50th-anniversary-with-new-product-reveals-in-blackseries-vintagecollection-and-retrocollection/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-12T20:00:34+00:00"
+  },
   {
    "title": "Frankenstein: Legend of Terror Limited Edition Blu- Ray by Deaf Crocodile (Review)",
    "url": "https://www.actionfigureinsider.com/frankenstein-legend-of-terror-limited-edition-blu-ray-by-deaf-crocodile-review/",
@@ -250,113 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/transformers-takara-tomy-brings-go-prime-and-vector-sigma-to-life/",
    "source": "Bleeding Cool",
    "iso": "2026-11-10T16:23:10+00:00"
-  },
-  {
-   "title": "More Super7 G.I. Joe ReAction+ Listings Surface on Amazon",
-   "url": "https://toyhabits.com/more-super7-g-i-joe-reaction-listings-surface/",
-   "source": "Toy Habits",
-   "iso": "2026-11-10T15:37:39+00:00"
-  },
-  {
-   "title": "Gladstone Investment Corporation Acquires Majority Stake in McFarlane Toys",
-   "url": "https://www.actionfigureinsider.com/gladstone-investment-corporation-acquires-majority-stake-in-mcfarlane-toys/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-10T15:09:07+00:00"
-  },
-  {
-   "title": "A Master Of Business Administration On The Todd McFarlane Toys Buyout",
-   "url": "https://bleedingcool.com/comics/a-master-of-business-administration-on-the-todd-mcfarlane-toys-buyout/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-10T14:57:11+00:00"
-  },
-  {
-   "title": "TFSource News! Adamas Machina Star Saber, Takara Tomy, Fans Toys, MMC and More!",
-   "url": "https://www.toyark.com/2026/11/10/tfsource-news-adamas-machina-star-saber-takara-tomy-fans-toys-mmc-and-more-602398",
-   "source": "The Toyark",
-   "iso": "2026-11-10T13:08:41+00:00"
-  },
-  {
-   "title": "Marvel Fighting Armor Mighty Thor by Sentinel",
-   "url": "https://www.toyark.com/2026/11/10/marvel-fighting-armor-mighty-thor-by-sentinel-602387",
-   "source": "The Toyark",
-   "iso": "2026-11-10T12:55:29+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-12T11:25:47+00:00",
+  "updatedISO": "2026-11-13T01:10:35+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 8314,
-    "change": 230
+    "perDay": 8662,
+    "change": 228
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 2921,
+    "perDay": 3034,
     "change": 178
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 124,
-    "change": 29
+    "perDay": 131,
+    "change": 42
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 598,
+    "perDay": 613,
+    "change": 12
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 28642,
     "change": 9
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 140,
-    "change": 0
+    "perDay": 142,
+    "change": 2
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 66,
-    "change": -5
+    "perDay": 67,
+    "change": -1
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 814,
-    "change": -6
+    "perDay": 830,
+    "change": -4
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 500,
+    "perDay": 499,
     "change": -8
-   },
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 23639,
-    "change": -10
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1955,
-    "change": -10
+    "perDay": 1963,
+    "change": -9
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 1947,
+    "perDay": 1950,
     "change": -10
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -60
+    "change": -56
    }
   ],
   "missed": []
