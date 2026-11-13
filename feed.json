@@ -1,16 +1,89 @@
 {
- "updatedISO": "2026-11-13T16:31:11+00:00",
+ "updatedISO": "2026-11-13T22:41:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "SONIC brings 10 iconic Hasbro toys to its latest Wacky Pack",
+   "url": "https://www.actionfigureinsider.com/sonic-brings-10-iconic-hasbro-toys-to-its-latest-wacky-pack/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-13T20:55:00+00:00"
+  },
+  {
+   "title": "A galaxy built brick by brick: New LEGO® Star Wars™ 7-piece collection revealed for the 50th anniversary of Star Wars™",
+   "url": "https://www.actionfigureinsider.com/a-galaxy-built-brick-by-brick-new-lego-star-wars-7-piece-collection-revealed-for-the-50th-anniversary-of-star-wars/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-13T20:52:47+00:00"
+  },
+  {
+   "title": "Cybershark Takes A Bite with Hasbro's Transformers: Age of the Primes",
+   "url": "https://bleedingcool.com/collectibles/cybershark-takes-a-bite-with-hasbros-transformers-age-of-the-primes/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-13T20:22:19+00:00"
+  },
+  {
+   "title": "R2-D2 Joins Hasbro's Star Wars: A New Hope 50th Anniversary Line",
+   "url": "https://bleedingcool.com/collectibles/r2-d2-joins-hasbros-star-wars-a-new-hope-50th-anniversary-line/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-13T19:23:19+00:00"
+  },
+  {
+   "title": "Entertainment Earth News: Marvel, Star Wars, Bandai Namco, Hellboy, Street Fighter, G.I. Joe & Batman",
+   "url": "https://toyhypeusa.com/2026/11/13/ee-marvel-star-wars-bandai-namco-hellboy-street-fighter-gijoe-batman/?utm_source=rss&utm_medium=rss&utm_campaign=ee-marvel-star-wars-bandai-namco-hellboy-street-fighter-gijoe-batman",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-13T19:00:21+00:00"
+  },
+  {
+   "title": "Wave 13 Super7 G.I. Joe ReAction+ In Hand Images",
+   "url": "https://toyhabits.com/wave-13-super7-g-i-joe-reaction-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-11-13T18:40:22+00:00"
+  },
+  {
+   "title": "LEGO Unveils New Star Wars Rebel Y-Wing Starfighter Set",
+   "url": "https://bleedingcool.com/collectibles/lego-unveils-new-star-wars-rebel-y-wing-starfighter-set/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-13T18:22:09+00:00"
+  },
+  {
+   "title": "New Star Wars: TVC Death Star Escape 4-Pack Set Coming Soon",
+   "url": "https://bleedingcool.com/collectibles/new-star-wars-tvc-death-star-escape-4-pack-set-coming-soon/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-13T17:52:09+00:00"
+  },
+  {
+   "title": "Bandai Namco – S.H. Figuarts Dragon Ball Z – Z-Fighters Tenshinhan & Chaozu Figures Pre-Orders (Update)",
+   "url": "https://toyhypeusa.com/2026/11/13/bandai-namco-shfiguarts-dbz-z-fighters-tenshinhan-chaozu-figures-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=bandai-namco-shfiguarts-dbz-z-fighters-tenshinhan-chaozu-figures-pre-orders-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-13T17:23:52+00:00"
+  },
+  {
+   "title": "Hasbro Debuts Transformers' Onyx Prime the Deceiver",
+   "url": "https://bleedingcool.com/collectibles/hasbro-debuts-transformers-onyx-prime-the-deceiver/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-13T17:22:09+00:00"
+  },
+  {
+   "title": "LEGO Captures Luke vs. Darth Vader with New Duel on Bespin Set",
+   "url": "https://bleedingcool.com/collectibles/lego-captures-luke-vs-darth-vader-with-new-duel-on-bespin-set/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-13T16:52:07+00:00"
+  },
+  {
+   "title": "LEGO Star Wars 75466 Darth Vader 2 in 1 Wall Art Set Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/13/lego-star-wars-75466-darth-vader-2-in-1-wall-art-set-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=lego-star-wars-75466-darth-vader-2-in-1-wall-art-set-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-13T16:51:51+00:00"
+  },
   {
    "title": "Hasbro Unveils Star Wars 50th-Anniversary Princess Leia Black Series",
    "url": "https://bleedingcool.com/collectibles/hasbro-unveils-star-wars-50th-anniversary-princess-leia-black-series/",
@@ -208,78 +281,6 @@
    "url": "https://toyhabits.com/wave-13-super7-g-i-joe-reaction-leaks-confirmed/",
    "source": "Toy Habits",
    "iso": "2026-11-11T20:45:38+00:00"
-  },
-  {
-   "title": "Super7's Godzilla Minus Zero Stomps Into ReAction Figures Wave 14",
-   "url": "https://bleedingcool.com/collectibles/super7s-godzilla-minus-zero-stomps-into-reaction-figures-wave-14/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-11T19:52:08+00:00"
-  },
-  {
-   "title": "Mezco Toyz – Marvel Comics One:12 Collective Daredevil & The Incredible Hulk Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/11/11/mezco-toyz-marvel-comics-one12-collective-daredevil-the-incredible-hulk-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mezco-toyz-marvel-comics-one12-collective-daredevil-the-incredible-hulk-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-11T19:26:58+00:00"
-  },
-  {
-   "title": "Boss Fight Studio – The Frost-Giant’s Daughter Epic H.A.C.K.S. Conan the Barbarian & Atali 1/12 Scale Figure Set Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/11/11/boss-fight-studio-the-frost-giants-daughter-epic-hacks-conan-the-barbarian-atali-1-12-scale-figure-set-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-the-frost-giants-daughter-epic-hacks-conan-the-barbarian-atali-1-12-scale-figure-set-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-11T18:54:23+00:00"
-  },
-  {
-   "title": "Abe Sapien Dives Into the Unknown with New Hellboy 1/12 Figure",
-   "url": "https://bleedingcool.com/collectibles/abe-sapien-dives-into-the-unknown-with-new-hellboy-1-12-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-11T18:51:07+00:00"
-  },
-  {
-   "title": "McFarlane Toys Debuts New Avengers: Doomsday 1:3 Scale Doom Bust",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-debuts-new-avengers-doomsday-13-scale-doom-bust/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-11T17:52:08+00:00"
-  },
-  {
-   "title": "McFarlane Toys Absolute Batman McFarlane Elite Edition Batman Deluxe Figure Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/11/11/mcfarlane-toys-absolute-batman-mcfarlane-elite-edition-batman-deluxe-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-absolute-batman-mcfarlane-elite-edition-batman-deluxe-figure-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-11T17:07:40+00:00"
-  },
-  {
-   "title": "Eldor MOTU Origins Mattel Creations Exclusive Preorder and Official Images",
-   "url": "https://toyhabits.com/eldor-motu-origins-mattel-creations-exclusive-official-images-and-preorder/",
-   "source": "Toy Habits",
-   "iso": "2026-11-11T16:53:15+00:00"
-  },
-  {
-   "title": "Sentinel Unveils Marvel Fighting Armor Jane Foster Mighty Thor Figure",
-   "url": "https://bleedingcool.com/collectibles/sentinel-unveils-marvel-fighting-armor-jane-foster-mighty-thor-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-11T16:52:09+00:00"
-  },
-  {
-   "title": "Ankama Expands the Welsh & Shedar Universe with a New Webtoon",
-   "url": "https://www.actionfigureinsider.com/ankama-expands-the-welsh-shedar-universe-with-a-new-webtoon/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-11T16:42:37+00:00"
-  },
-  {
-   "title": "Hellboy (Wolves of St. August) Arrives from Boss Fight Studio Brings",
-   "url": "https://bleedingcool.com/collectibles/hellboy-wolves-of-st-august-arrives-from-boss-fight-studio-brings/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-11T16:22:08+00:00"
-  },
-  {
-   "title": "Alien 40th Anniversary Ultimate Big Chap NECA In-Hand Review",
-   "url": "https://toyhabits.com/alien-40th-anniversary-ultimate-big-chap-neca-in-hand-review/",
-   "source": "Toy Habits",
-   "iso": "2026-11-11T16:11:48+00:00"
-  },
-  {
-   "title": "Lone Coconut Brings Back Army Ants Armada with New 4.5-inch Figures",
-   "url": "https://bleedingcool.com/collectibles/lone-coconut-brings-back-army-ants-armada-with-new-4-5-inch-figures/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-11T15:23:07+00:00"
   }
  ],
  "trends": {
