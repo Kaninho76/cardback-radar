@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-11-13T22:41:35+00:00",
+ "updatedISO": "2026-11-14T03:20:54+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "SONIC brings 10 iconic Hasbro toys to its latest Wacky Pack",
