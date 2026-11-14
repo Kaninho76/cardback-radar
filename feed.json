@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-14T03:20:54+00:00",
+ "updatedISO": "2026-11-14T11:34:48+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Candy Land NYC Opens Saturday: Step Into NYC’s Sweetest New Destination This Holiday Season",
+   "url": "https://www.actionfigureinsider.com/candy-land-nyc-opens-saturday-step-into-nycs-sweetest-new-destination-this-holiday-season/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-14T10:00:07+00:00"
+  },
+  {
+   "title": "Stratos Mondo MOTU Sixth Scale Figure on Display at DesignerCon 2026",
+   "url": "https://toyhabits.com/mondo-masters-of-the-universe-stratos-sixth-scale-figure-on-display-at-designercon-2026/",
+   "source": "Toy Habits",
+   "iso": "2026-11-14T05:16:52+00:00"
+  },
   {
    "title": "SONIC brings 10 iconic Hasbro toys to its latest Wacky Pack",
    "url": "https://www.actionfigureinsider.com/sonic-brings-10-iconic-hasbro-toys-to-its-latest-wacky-pack/",
@@ -268,95 +280,83 @@
    "url": "https://toyhypeusa.com/2026/11/11/hasbro-marvel-legends-series-magic-the-gathering-captain-america-figure-now-29-99/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-magic-the-gathering-captain-america-figure-now-29-99",
    "source": "Toy Hype USA",
    "iso": "2026-11-12T00:12:31+00:00"
-  },
-  {
-   "title": "Wave 13 Super7 G.I. Joe ReAction+ Ninja Force Leaks",
-   "url": "https://toyhabits.com/wave-13-super7-g-i-joe-reaction-ninja-force-leaks/",
-   "source": "Toy Habits",
-   "iso": "2026-11-11T21:05:00+00:00"
-  },
-  {
-   "title": "Wave 13 Super7 G.I. Joe ReAction+ Leaks Confirmed",
-   "url": "https://toyhabits.com/wave-13-super7-g-i-joe-reaction-leaks-confirmed/",
-   "source": "Toy Habits",
-   "iso": "2026-11-11T20:45:38+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-13T16:31:11+00:00",
+  "updatedISO": "2026-11-14T11:34:48+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 8662,
-    "change": 228
+    "perDay": 8927,
+    "change": 223
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 3034,
-    "change": 178
+    "perDay": 3120,
+    "change": 177
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 131,
-    "change": 42
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 613,
-    "change": 12
+    "perDay": 137,
+    "change": 51
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 28642,
-    "change": 9
+    "perDay": 32567,
+    "change": 24
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 623,
+    "change": 14
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 142,
-    "change": 2
+    "perDay": 146,
+    "change": 5
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 67,
-    "change": -1
+    "change": -2
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 830,
-    "change": -4
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 499,
-    "change": -8
-   },
-   {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1963,
-    "change": -9
+    "perDay": 818,
+    "change": -6
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 1950,
-    "change": -10
+    "perDay": 1982,
+    "change": -8
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 492,
+    "change": -9
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 1957,
+    "change": -9
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 1,
-    "change": -56
+    "perDay": 0,
+    "change": -78
    }
   ],
   "missed": []
