@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-14T22:30:17+00:00",
+ "updatedISO": "2026-11-15T02:46:07+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -283,80 +283,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-14T11:34:48+00:00",
+  "updatedISO": "2026-11-15T02:46:07+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 8927,
-    "change": 223
+    "perDay": 8702,
+    "change": 192
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 3120,
-    "change": 177
+    "perDay": 3023,
+    "change": 154
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 137,
-    "change": 51
+    "perDay": 131,
+    "change": 43
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 32567,
-    "change": 24
+    "perDay": 36252,
+    "change": 38
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 623,
-    "change": 14
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 146,
-    "change": 5
+    "perDay": 605,
+    "change": 10
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 67,
-    "change": -2
+    "perDay": 70,
+    "change": 4
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 144,
+    "change": 3
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 818,
-    "change": -6
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 1982,
-    "change": -8
+    "perDay": 826,
+    "change": -5
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 492,
-    "change": -9
+    "perDay": 495,
+    "change": -8
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 1987,
+    "change": -8
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1957,
+    "perDay": 1952,
     "change": -9
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
-    "perDay": 0,
-    "change": -78
+    "perDay": 1,
+    "change": -37
    }
   ],
   "missed": []
