@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-15T02:46:07+00:00",
+ "updatedISO": "2026-11-15T11:03:59+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,18 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Reese's Peanut Butter Cup Pie In The Daily LITG, 15th November, 2026",
+   "url": "https://bleedingcool.com/collectibles/reeses-peanut-butter-cup-pie-in-the-daily-litg-15th-november-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-15T10:48:09+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ X-Men ’97 Beast Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/11/15/hasbro-marvel-legends-series-x-men-97-beast-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-97-beast-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-15T10:39:22+00:00"
+  },
   {
    "title": "Defel Mercenary Arleil Schous Joins Star Wars: The Vintage Collection",
    "url": "https://bleedingcool.com/collectibles/defel-mercenary-arleil-schous-joins-star-wars-the-vintage-collection/",
@@ -268,18 +280,6 @@
    "url": "https://www.actionfigureinsider.com/hasbro-celebrates-starwars-50th-anniversary-with-new-product-reveals-in-blackseries-vintagecollection-and-retrocollection/",
    "source": "Action Figure Insider",
    "iso": "2026-11-12T20:00:34+00:00"
-  },
-  {
-   "title": "Frankenstein: Legend of Terror Limited Edition Blu- Ray by Deaf Crocodile (Review)",
-   "url": "https://www.actionfigureinsider.com/frankenstein-legend-of-terror-limited-edition-blu-ray-by-deaf-crocodile-review/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-12T19:08:42+00:00"
-  },
-  {
-   "title": "REVIEW: Marvel Legends Avengers Doomsday MAGNETO Figure (Amazon Exclusive)",
-   "url": "https://marveltoynews.com/review-marvel-legends-avengers-doomsday-magneto-figure-amazon-exclusive/",
-   "source": "Marvel Toy News",
-   "iso": "2026-11-12T18:57:34+00:00"
   }
  ],
  "trends": {
