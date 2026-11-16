@@ -1,17 +1,22 @@
 {
- "updatedISO": "2026-11-16T02:47:42+00:00",
+ "updatedISO": "2026-11-16T11:34:52+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Bandai Namco – Godzilla Minus Zero (2026) S.H.MonsterArts King Ghidorah Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/16/bandai-namco-godzilla-minus-zero-2026-s-h-monsterarts-king-ghidorah-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bandai-namco-godzilla-minus-zero-2026-s-h-monsterarts-king-ghidorah-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-16T08:00:25+00:00"
+  },
   {
    "title": "Entertainment Earth Offers $10 Off With $100+ Purchase Holiday Sale For November 2026 – Ends Today",
    "url": "https://toyhypeusa.com/2026/11/15/ee-offers-10-off-with-100-purchase-holiday-sale-for-november-2026-ends-today/?utm_source=rss&utm_medium=rss&utm_campaign=ee-offers-10-off-with-100-purchase-holiday-sale-for-november-2026-ends-today",
@@ -275,53 +280,41 @@
    "url": "https://toyhabits.com/star-wars-retro-collection-a-new-hope-50th-anniversary-reveals/",
    "source": "Toy Habits",
    "iso": "2026-11-13T01:10:11+00:00"
-  },
-  {
-   "title": "The Loyal Subjects M.A.S.K. Wave 2 Figures & Vehicles Available Now (Update)",
-   "url": "https://toyhypeusa.com/2026/11/12/the-loyal-subjects-mask-wave-2-figures-vehicles-available-now-update/?utm_source=rss&utm_medium=rss&utm_campaign=the-loyal-subjects-mask-wave-2-figures-vehicles-available-now-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-12T21:51:55+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-15T17:48:32+00:00",
+  "updatedISO": "2026-11-16T11:34:52+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 8702,
-    "change": 192
+    "perDay": 8325,
+    "change": 157
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 3023,
-    "change": 154
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 131,
-    "change": 43
+    "perDay": 2881,
+    "change": 126
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 36252,
-    "change": 38
+    "perDay": 39917,
+    "change": 51
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 122,
+    "change": 33
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 605,
-    "change": 10
-   },
-   {
-    "label": "Marvel Legends",
-    "article": "Marvel_Legends",
-    "perDay": 70,
-    "change": 4
+    "perDay": 589,
+    "change": 7
    },
    {
     "label": "Actiefiguren",
@@ -330,34 +323,40 @@
     "change": 3
    },
    {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 826,
-    "change": -5
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 495,
-    "change": -8
+    "label": "Marvel Legends",
+    "article": "Marvel_Legends",
+    "perDay": 67,
+    "change": -2
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 1987,
-    "change": -8
+    "perDay": 2017,
+    "change": -6
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 819,
+    "change": -7
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 494,
+    "change": -9
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1952,
+    "perDay": 1959,
     "change": -9
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -37
+    "change": -15
    }
   ],
   "missed": []
