@@ -1,16 +1,89 @@
 {
- "updatedISO": "2026-11-17T14:31:48+00:00",
+ "updatedISO": "2026-11-17T22:58:07+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
-  "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "Marvel Toy News: URLError"
+ ],
  "items": [
+  {
+   "title": "SAN DIEGO LEGO®-CON Finds Permanent Home at Comic-Con Museum®",
+   "url": "https://www.actionfigureinsider.com/san-diego-lego-con-finds-permanent-home-at-comic-con-museum/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-17T21:38:22+00:00"
+  },
+  {
+   "title": "Robosen Transformers Elite Optimus Prime Auto-Converting Robot (2026 Edition) Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/17/robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-17T20:50:58+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Maximum Series 6″ Thor & Throg Figures Review",
+   "url": "https://toyhypeusa.com/2026/11/17/hasbro-marvel-legends-maximum-series-thor-throg-figures-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-maximum-series-thor-throg-figures-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-17T20:30:21+00:00"
+  },
+  {
+   "title": "Star Wars: R2-D2 Celebrates Life Day with Droid Factory Figure",
+   "url": "https://bleedingcool.com/collectibles/star-wars-r2-d2-celebrates-life-day-with-droid-factory-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-17T19:28:08+00:00"
+  },
+  {
+   "title": "MOTU Chronicles, Origins, and Battle For Subternia Spring Catalog 2027 New Figures",
+   "url": "https://toyhabits.com/motu-chronicles-origins-and-battle-for-subternia-spring-catalog-2027-new-figures/",
+   "source": "Toy Habits",
+   "iso": "2026-11-17T18:42:32+00:00"
+  },
+  {
+   "title": "Exclusive Star Wars Retro Cardboard Display Set Revealed by Hasbro",
+   "url": "https://bleedingcool.com/collectibles/exclusive-star-wars-retro-cardboard-display-set-revealed-by-hasbro/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-17T17:22:41+00:00"
+  },
+  {
+   "title": "Amazon Black Friday Sales 2026 Toy Sales",
+   "url": "https://toyhabits.com/amazon-black-friday-sales-2026-toy-sales/",
+   "source": "Toy Habits",
+   "iso": "2026-11-17T17:02:48+00:00"
+  },
+  {
+   "title": "It's Anakin Vs. Obi-Wan with LEGO's New Star Wars Mustafar Duel Set",
+   "url": "https://bleedingcool.com/collectibles/its-anakin-vs-obi-wan-with-legos-new-star-wars-mustafar-duel-set/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-17T16:21:07+00:00"
+  },
+  {
+   "title": "Star Wars: A New Hope Jawa & Tusken Raider Retro 2-Pack Revealed",
+   "url": "https://bleedingcool.com/collectibles/star-wars-a-new-hope-jawa-tusken-raider-retro-2-pack-revealed/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-17T15:52:29+00:00"
+  },
+  {
+   "title": "Stone Protectors Series 1 by Toyhiti Cornelius Chester and Zok Preorders",
+   "url": "https://toyhabits.com/stone-protectors-by-toyhiti-cornelius-chester-and-zok-preorders/",
+   "source": "Toy Habits",
+   "iso": "2026-11-17T15:32:41+00:00"
+  },
+  {
+   "title": "Hasbro Goes Retro with New Star Wars Rebel & Stormtrooper 2-Pack",
+   "url": "https://bleedingcool.com/collectibles/hasbro-goes-retro-with-new-star-wars-rebel-stormtrooper-2-pack/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-17T15:22:09+00:00"
+  },
+  {
+   "title": "Mighty Masters Wave 3 Surfaces at Walmart Bringing Man-E-Faces and New Packaging",
+   "url": "https://toyhabits.com/mighty-masters-wave-3-surfaces-at-walmart-bringing-man-e-faces-and-new-packaging/",
+   "source": "Toy Habits",
+   "iso": "2026-11-17T14:48:56+00:00"
+  },
   {
    "title": "New LEGO Star Wars Stormtrooper (Concept Art) Helmet Revealed",
    "url": "https://bleedingcool.com/collectibles/new-lego-star-wars-stormtrooper-concept-art-helmet-revealed/",
@@ -208,82 +281,10 @@
    "url": "https://bleedingcool.com/collectibles/mezco-toyz-steps-into-hells-kitchen-with-new-one12-daredevil-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-11-14T17:22:09+00:00"
-  },
-  {
-   "title": "Four Horsemen Studios – LegionsCon 2026 Exclusives Figures Available Now",
-   "url": "https://toyhypeusa.com/2026/11/14/four-horsemen-studios-legionscon-2026-exclusives-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=four-horsemen-studios-legionscon-2026-exclusives-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-14T17:22:08+00:00"
-  },
-  {
-   "title": "The Force is Strong with LEGO's Up-Scaled Star Wars Luke Skywalker Set",
-   "url": "https://bleedingcool.com/collectibles/the-force-is-strong-with-legos-up-scaled-star-wars-luke-skywalker-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-14T16:22:08+00:00"
-  },
-  {
-   "title": "BigBadToyStore – Holiday Sales For November 2026 – From The Archives Sale – More Items Added",
-   "url": "https://toyhypeusa.com/2026/11/14/bbts-holiday-sales-for-november-2026-from-the-archives-sale-more-items-added/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-holiday-sales-for-november-2026-from-the-archives-sale-more-items-added",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-14T16:08:38+00:00"
-  },
-  {
-   "title": "Starscream Seizes Control with New Transformers Machine Wars Figure",
-   "url": "https://bleedingcool.com/collectibles/starscream-seizes-control-with-new-transformers-machine-wars-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-14T15:51:09+00:00"
-  },
-  {
-   "title": "Transformers Breakaway Takes Flight for Hasbro's Age of the Primes",
-   "url": "https://bleedingcool.com/collectibles/transformers-breakaway-takes-flight-for-hasbros-age-of-the-primes/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-14T15:22:09+00:00"
-  },
-  {
-   "title": "Transformers Sky Guard Joins Hasbro's Age of the Primes Collection",
-   "url": "https://bleedingcool.com/collectibles/transformers-sky-guard-joins-hasbros-age-of-the-primes-collection/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-14T14:52:09+00:00"
-  },
-  {
-   "title": "MOTU Origins BAF Wave 3 Details Confirmed and Build-A-Figure Name Revealed",
-   "url": "https://toyhabits.com/motu-origins-baf-wave-3-details-confirmed-and-build-a-figure-name-revealed/",
-   "source": "Toy Habits",
-   "iso": "2026-11-14T14:22:46+00:00"
-  },
-  {
-   "title": "New Transformers Age of the Primes Deluxe Class Alpha Bravo Revealed",
-   "url": "https://bleedingcool.com/collectibles/new-transformers-age-of-the-primes-deluxe-class-alpha-bravo-revealed/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-14T14:22:09+00:00"
-  },
-  {
-   "title": "BE@RBRICK HEROES Steam Store Page Goes Live — Wishlist Now Ahead of Steam Launch",
-   "url": "https://www.actionfigureinsider.com/berbrick-heroes-steam-store-page-goes-live-wishlist-now-ahead-of-steam-launch/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-14T12:00:27+00:00"
-  },
-  {
-   "title": "Candy Land NYC Opens Saturday: Step Into NYC’s Sweetest New Destination This Holiday Season",
-   "url": "https://www.actionfigureinsider.com/candy-land-nyc-opens-saturday-step-into-nycs-sweetest-new-destination-this-holiday-season/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-14T10:00:07+00:00"
-  },
-  {
-   "title": "Stratos Mondo MOTU Sixth Scale Figure on Display at DesignerCon 2026",
-   "url": "https://toyhabits.com/mondo-masters-of-the-universe-stratos-sixth-scale-figure-on-display-at-designercon-2026/",
-   "source": "Toy Habits",
-   "iso": "2026-11-14T05:16:52+00:00"
-  },
-  {
-   "title": "SONIC brings 10 iconic Hasbro toys to its latest Wacky Pack",
-   "url": "https://www.actionfigureinsider.com/sonic-brings-10-iconic-hasbro-toys-to-its-latest-wacky-pack/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-13T20:55:00+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-17T04:34:44+00:00",
+  "updatedISO": "2026-11-17T22:58:07+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
