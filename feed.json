@@ -1,16 +1,23 @@
 {
- "updatedISO": "2026-11-16T22:12:19+00:00",
+ "updatedISO": "2026-11-17T04:34:44+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Hasbro Pulse Marvel Fanstream Fall 2026",
+   "url": "https://toyhabits.com/hasbro-pulse-marvel-fanstream-fall-2026/",
+   "source": "Toy Habits",
+   "iso": "2026-11-17T01:21:40+00:00"
+  },
   {
    "title": "Mattel Masters of the Universe Origins 2027 Wave 1 Figures Available Now",
    "url": "https://toyhypeusa.com/2026/11/16/mattel-motu-origins-2027-wave-1-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-motu-origins-2027-wave-1-figures-available-now",
@@ -274,89 +281,83 @@
    "url": "https://bleedingcool.com/collectibles/new-star-wars-tvc-death-star-escape-4-pack-set-coming-soon/",
    "source": "Bleeding Cool",
    "iso": "2026-11-13T17:52:09+00:00"
-  },
-  {
-   "title": "Bandai Namco – S.H. Figuarts Dragon Ball Z – Z-Fighters Tenshinhan & Chaozu Figures Pre-Orders (Update)",
-   "url": "https://toyhypeusa.com/2026/11/13/bandai-namco-shfiguarts-dbz-z-fighters-tenshinhan-chaozu-figures-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=bandai-namco-shfiguarts-dbz-z-fighters-tenshinhan-chaozu-figures-pre-orders-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-13T17:23:52+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-16T11:34:52+00:00",
+  "updatedISO": "2026-11-17T04:34:44+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 8325,
-    "change": 157
+    "perDay": 7874,
+    "change": 124
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 2881,
-    "change": 126
+    "perDay": 2706,
+    "change": 97
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 39917,
-    "change": 51
+    "perDay": 43390,
+    "change": 63
+   },
+   {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 2,
+    "change": 47
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 122,
-    "change": 33
+    "perDay": 108,
+    "change": 17
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 589,
+    "perDay": 593,
     "change": 7
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 144,
-    "change": 3
+    "perDay": 145,
+    "change": 4
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 67,
+    "perDay": 66,
     "change": -2
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2017,
+    "perDay": 2025,
     "change": -6
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 819,
+    "perDay": 813,
     "change": -7
-   },
-   {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 494,
-    "change": -9
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1959,
-    "change": -9
+    "perDay": 1967,
+    "change": -8
    },
    {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 1,
-    "change": -15
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 496,
+    "change": -9
    }
   ],
   "missed": []
