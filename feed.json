@@ -1,22 +1,63 @@
 {
- "updatedISO": "2026-11-17T04:34:44+00:00",
+ "updatedISO": "2026-11-17T14:31:48+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "New LEGO Star Wars Stormtrooper (Concept Art) Helmet Revealed",
+   "url": "https://bleedingcool.com/collectibles/new-lego-star-wars-stormtrooper-concept-art-helmet-revealed/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-17T14:22:08+00:00"
+  },
+  {
+   "title": "Invincible Super7 Deluxe Wave 1 In-Hand Review",
+   "url": "https://toyhabits.com/invincible-super7-deluxe-wave-1-in-hand-review/",
+   "source": "Toy Habits",
+   "iso": "2026-11-17T14:11:23+00:00"
+  },
+  {
+   "title": "The Terminator – InArt Tech Noir T-800 Figure",
+   "url": "https://www.toyark.com/2026/11/17/the-terminator-inart-tech-noir-t-800-figure-602785",
+   "source": "The Toyark",
+   "iso": "2026-11-17T13:09:47+00:00"
+  },
+  {
+   "title": "Dune: Part 3 – McFarlane Toys Paul Atreides and Chani Figures",
+   "url": "https://www.toyark.com/2026/11/17/dune-part-3-mcfarlane-toys-paul-atreides-and-chani-figures-602778",
+   "source": "The Toyark",
+   "iso": "2026-11-17T13:00:25+00:00"
+  },
+  {
+   "title": "VisionQuest – Hot Toys Vision Preview",
+   "url": "https://www.toyark.com/2026/11/17/visionquest-hot-toys-vision-preview-602775",
+   "source": "The Toyark",
+   "iso": "2026-11-17T12:47:46+00:00"
+  },
+  {
+   "title": "Xfinity Gives Gamers a Free 15-Day WiFi Speed Boost for the Highly Anticipated Grand Theft Auto VI Launch",
+   "url": "https://www.actionfigureinsider.com/xfinity-gives-gamers-a-free-15-day-wifi-speed-boost-for-the-highly-anticipated-grand-theft-auto-vi-launch/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-17T12:00:13+00:00"
+  },
   {
    "title": "Hasbro Pulse Marvel Fanstream Fall 2026",
    "url": "https://toyhabits.com/hasbro-pulse-marvel-fanstream-fall-2026/",
    "source": "Toy Habits",
    "iso": "2026-11-17T01:21:40+00:00"
+  },
+  {
+   "title": "Marvel Legends Fanstream – Superior Iron Man, The Maker, Ghost Rider and Doctor Doom",
+   "url": "https://www.toyark.com/2026/11/16/marvel-legends-fanstream-superior-iron-man-the-maker-ghost-rider-and-doctor-doom-602685",
+   "source": "The Toyark",
+   "iso": "2026-11-16T23:59:22+00:00"
   },
   {
    "title": "Mattel Masters of the Universe Origins 2027 Wave 1 Figures Available Now",
@@ -239,48 +280,6 @@
    "url": "https://www.actionfigureinsider.com/sonic-brings-10-iconic-hasbro-toys-to-its-latest-wacky-pack/",
    "source": "Action Figure Insider",
    "iso": "2026-11-13T20:55:00+00:00"
-  },
-  {
-   "title": "A galaxy built brick by brick: New LEGO® Star Wars™ 7-piece collection revealed for the 50th anniversary of Star Wars™",
-   "url": "https://www.actionfigureinsider.com/a-galaxy-built-brick-by-brick-new-lego-star-wars-7-piece-collection-revealed-for-the-50th-anniversary-of-star-wars/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-13T20:52:47+00:00"
-  },
-  {
-   "title": "Cybershark Takes A Bite with Hasbro's Transformers: Age of the Primes",
-   "url": "https://bleedingcool.com/collectibles/cybershark-takes-a-bite-with-hasbros-transformers-age-of-the-primes/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-13T20:22:19+00:00"
-  },
-  {
-   "title": "R2-D2 Joins Hasbro's Star Wars: A New Hope 50th Anniversary Line",
-   "url": "https://bleedingcool.com/collectibles/r2-d2-joins-hasbros-star-wars-a-new-hope-50th-anniversary-line/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-13T19:23:19+00:00"
-  },
-  {
-   "title": "Entertainment Earth News: Marvel, Star Wars, Bandai Namco, Hellboy, Street Fighter, G.I. Joe & Batman",
-   "url": "https://toyhypeusa.com/2026/11/13/ee-marvel-star-wars-bandai-namco-hellboy-street-fighter-gijoe-batman/?utm_source=rss&utm_medium=rss&utm_campaign=ee-marvel-star-wars-bandai-namco-hellboy-street-fighter-gijoe-batman",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-13T19:00:21+00:00"
-  },
-  {
-   "title": "Wave 13 Super7 G.I. Joe ReAction+ In Hand Images",
-   "url": "https://toyhabits.com/wave-13-super7-g-i-joe-reaction-in-hand-images/",
-   "source": "Toy Habits",
-   "iso": "2026-11-13T18:40:22+00:00"
-  },
-  {
-   "title": "LEGO Unveils New Star Wars Rebel Y-Wing Starfighter Set",
-   "url": "https://bleedingcool.com/collectibles/lego-unveils-new-star-wars-rebel-y-wing-starfighter-set/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-13T18:22:09+00:00"
-  },
-  {
-   "title": "New Star Wars: TVC Death Star Escape 4-Pack Set Coming Soon",
-   "url": "https://bleedingcool.com/collectibles/new-star-wars-tvc-death-star-escape-4-pack-set-coming-soon/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-13T17:52:09+00:00"
   }
  ],
  "trends": {
