@@ -223,10 +223,10 @@ h2.sec{
   box-shadow:var(--shadow);overflow:hidden;margin-bottom:14px;
 }
 .wave-top{
-  display:flex;gap:16px;align-items:center;
+  display:flex;gap:16px;align-items:flex-start;
   padding:15px 16px;background:var(--sunk);border-bottom:1.5px solid var(--line);
 }
-.clock{flex:none;text-align:center;min-width:74px}
+.clock{flex:0 0 74px;width:74px;text-align:center}
 .clock .num{
   font-family:Anton,"Arial Narrow",Impact,sans-serif;
   font-size:36px;line-height:1;color:var(--red);font-variant-numeric:tabular-nums;
@@ -235,12 +235,18 @@ h2.sec{
 .clock .unit{
   font-family:"IBM Plex Mono",monospace;font-size:9.5px;
   letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft);margin-top:4px;line-height:1.3;
+  overflow-wrap:anywhere;word-break:break-word;
 }
 .wave-title{flex:1;min-width:0}
 .wave-title h3{
   font-family:Anton,"Arial Narrow",Impact,sans-serif;
   font-size:18px;text-transform:uppercase;letter-spacing:.02em;
 }
+.wave-title .cd{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.03em;
+  color:var(--red);margin-top:5px;line-height:1.35;
+}
+.wave.minor .wave-title .cd{color:var(--ink-soft)}
 .wave-title .when{color:var(--ink-soft);font-size:13px;margin-top:3px}
 .wave-body{padding:15px 16px;display:flex;flex-direction:column;gap:11px}
 .wave-body p{font-size:15px}
@@ -748,17 +754,31 @@ h2.sec{
         var top = el("div", "wave-top");
         var clock = el("div", "clock");
         var num = el("div", "num", "—");
-        var unit = el("div", "unit", (w.countdown && w.countdown.unit) || "");
+        /* De aftelzin is vaak een hele zin. Alleen het eerste woord past naast
+           het getal; de rest komt als losse regel onder de titel te staan. */
+        var unitFull = String((w.countdown && w.countdown.unit) || "").trim();
+        var unitShort = unitFull, unitRest = "";
+        if (unitFull.length > 16) {
+          var sp = unitFull.indexOf(" ");
+          if (sp > 0) { unitShort = unitFull.slice(0, sp); unitRest = unitFull.slice(sp + 1); }
+          else { unitShort = unitFull.slice(0, 16); unitRest = unitFull.slice(16); }
+        }
         var when = parseDay(w.countdown && w.countdown.date);
         if (when) {
           var n = (w.countdown.mode === "since") ? days(when, today) : days(today, when);
-          if (n >= 0) num.textContent = n;
-          else if (w.countdown.mode !== "since") { num.textContent = "nu"; unit.textContent = "in de zalen"; }
+          if (n >= 0) {
+            num.textContent = n;
+            if (n === 1 && unitShort.toLowerCase() === "dagen") unitShort = "dag";
+          } else if (w.countdown.mode !== "since") {
+            num.textContent = "nu"; unitShort = "in de zalen"; unitRest = "";
+          }
         }
+        var unit = el("div", "unit", unitShort);
         clock.appendChild(num); clock.appendChild(unit);
         top.appendChild(clock);
         var ttl = el("div", "wave-title");
         ttl.appendChild(el("h3", null, w.title || ""));
+        if (unitRest) ttl.appendChild(el("div", "cd", unitRest));
         if (w.when) ttl.appendChild(el("div", "when", w.when));
         top.appendChild(ttl);
         box.appendChild(top);
