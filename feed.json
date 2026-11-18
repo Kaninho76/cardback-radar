@@ -1,17 +1,28 @@
 {
- "updatedISO": "2026-11-17T22:58:07+00:00",
+ "updatedISO": "2026-11-18T04:29:00+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
+  "Marvel Toy News",
   "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "Marvel Toy News: URLError"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "TMNT The Movie 2027 New Figures & Vehicles Coming",
+   "url": "https://toyhabits.com/tmnt-the-movie-2027-new-figures-vehicles-coming/",
+   "source": "Toy Habits",
+   "iso": "2026-11-18T02:10:12+00:00"
+  },
+  {
+   "title": "BigBadWorkShop – The Raven Society: Founder Edition 1/12 Scale Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/17/bigbadworkshop-the-raven-society-founder-edition-1-12-scale-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-the-raven-society-founder-edition-1-12-scale-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-17T23:37:09+00:00"
+  },
   {
    "title": "SAN DIEGO LEGO®-CON Finds Permanent Home at Comic-Con Museum®",
    "url": "https://www.actionfigureinsider.com/san-diego-lego-con-finds-permanent-home-at-comic-con-museum/",
@@ -269,18 +280,6 @@
    "url": "https://bleedingcool.com/collectibles/boss-fight-debuts-new-conan-the-barbarian-epic-h-a-c-k-s-2-pack/",
    "source": "Bleeding Cool",
    "iso": "2026-11-14T18:52:07+00:00"
-  },
-  {
-   "title": "Jurassic Park Terraventure Triceratops Model Kit Revealed by Blokees",
-   "url": "https://bleedingcool.com/collectibles/jurassic-park-terraventure-triceratops-model-kit-revealed-by-blokees/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-14T17:52:33+00:00"
-  },
-  {
-   "title": "Mezco Toyz Steps Into Hell's Kitchen with New One:12 Daredevil Figure",
-   "url": "https://bleedingcool.com/collectibles/mezco-toyz-steps-into-hells-kitchen-with-new-one12-daredevil-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-14T17:22:09+00:00"
   }
  ],
  "trends": {
