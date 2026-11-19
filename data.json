@@ -1,73 +1,85 @@
 {
-  "updatedISO": "2026-11-18T07:00:00+01:00",
-  "updatedLabel": "woensdag 18 november 2026",
+  "updatedISO": "2026-11-19T06:30:00+01:00",
+  "updatedLabel": "donderdag 19 november 2026",
   "quiet": true,
-  "quietNote": "Rustige nieuwsdag: na de Fanstream van maandag is er vandaag geen enkele officiele aankondiging bijgekomen in jouw hoeken, en het enige nieuwe is een winkellijst van Mattels Turtles die nog door niemand bevestigd is. Deze radar loopt daarom op de agenda en niet op het nieuws: vrijdag sluit het enige harde venster van de maand en zaterdag staat de Jaarbeurs vol.",
+  "quietNote": "Weer een rustige nieuwsdag: er zijn vandaag twee kleine dingen bijgekomen (een Venom-preorder en een correctie van Mattel op het einde van Powers of Grayskull) en geen enkele nieuwe onthulling van gewicht. Deze radar loopt daarom op de klok: morgenavond sluit het enige harde venster van de maand, zaterdag staat de Jaarbeurs vol, en over vier weken staat Doomsday in de bioscoop.",
   "waves": [
     {
-      "title": "Twee dagen tot de enige harde deadline van deze maand — en er zit een detail in dat je vrijdag van je twijfel afhelpt",
-      "when": "Vrijdag 20 november 23.59 uur oostkusttijd — hier zaterdagochtend 5.59 uur — sluit het made-to-order-venster van het Marvel Legends X-Men ’97 Bolivar Trask & Bastion Nimrod tweepak, 74,99 dollar · zaterdag 21 en zondag 22 november is Heroes Dutch Comic Con in de Jaarbeurs Utrecht, beide dagen 10 tot 18 uur",
+      "title": "Morgenavond sluit het venster, zaterdag staat de Jaarbeurs vol — dit is de enige dag van de week waarop je nog iets kunt doen",
+      "when": "Vrijdag 20 november 23.59 uur oostkusttijd — hier zaterdagochtend 5.59 uur — sluit het made-to-order-venster van het Marvel Legends X-Men ’97 Bolivar Trask & Bastion Nimrod tweepak · zaterdag 21 en zondag 22 november is Heroes Dutch Comic Con in de Jaarbeurs Utrecht, beide dagen 10 tot 18 uur",
       "countdown": {
         "date": "2026-11-20",
         "mode": "until",
-        "unit": "dagen tot het venster sluit; daarna is dit tweepak alleen nog tweedehands"
+        "unit": "dag tot het venster sluit; daarna is dit tweepak alleen nog tweedehands"
       },
-      "body": "Vandaag nog een keer bij de bron nagekeken, en er staat iets bij dat gisteren hier niet stond: je mag je order na vrijdag nog intrekken. Het venster sluit vrijdag 20 november om 23.59 uur oostkusttijd — reken hier op zaterdagochtend 5.59 uur — maar een geplaatste order kun je tot 7 december 23.59 uur oostkusttijd nog kosteloos annuleren. Dat verandert de afweging volledig: made-to-order betekent dat Hasbro precies zoveel maakt als er in het venster besteld zijn en daarna niets meer, dus na vrijdag kun je er niet meer bij, maar tot 7 december kun je er wél nog uit. Twijfelen hoort dus aan de kant van bestellen, niet aan de kant van wachten. De cijfers: 74,99 dollar, alleen via Hasbro Pulse, en de verzending staat op november 2027 — dat is bijna een jaar, dus reken er niet op voor de kast van komend voorjaar. En dan het weekend zelf. Heroes Dutch Comic Con staat zaterdag en zondag in de Jaarbeurs Utrecht, beide dagen 10 tot 18 uur, hal 3 en 4 op zaterdag tot 19 uur, met een VIP-kaart vanaf 9 uur. Het is een week na de VerzamelJaarbeurs in dezelfde hallen, dus een deel van de handel heeft daar al verkocht en komt met een dunnere bak — wees er zaterdag vroeg, want wat goed is, is ’s middags weg. De figuur- en vintagehandel zit achterin en niet bij de ingang.",
-      "do": "Doe het vrijdagavond, niet zaterdagochtend — en doe het ook als je nog twijfelt, want je kunt tot 7 december nog annuleren en na vrijdag kun je er niet meer bij. Zet je telefoon leeg mee naar de Jaarbeurs: dit is het weekend waarin je een vondst-met-de-prijs-erbij kunt maken, en dat formaat werkt alleen als je de kraam fotografeert vóórdat je afrekent. Cash mee, want de kramen willen liever contant en de geldautomaat in de gang krijgt rijen."
+      "body": "Vandaag nog een keer bij de bron nagekeken en de datum staat er onveranderd: alleen via preorder tot 20 november 23.59 uur oostkusttijd, en een geplaatste order kun je tot 7 december 23.59 uur oostkusttijd nog kosteloos annuleren. Reken hier op zaterdagochtend 5.59 uur, dus praktisch is morgenavond je laatste moment. Made to order betekent dat Hasbro precies zoveel maakt als er in het venster besteld zijn en daarna niets meer: na morgen kun je er niet meer bij, maar tot 7 december kun je er wél nog uit. Dat is de hele afweging, en die valt dus aan de kant van bestellen. De cijfers: 74,99 dollar via Hasbro Pulse, verzending november 2027 — bijna een jaar, dus reken er niet op voor de kast van komend voorjaar. Er zijn inmiddels ook in-hand foto's van het stel verschenen, dus je koopt niet meer op renders. En dan het weekend. Heroes Dutch Comic Con staat zaterdag en zondag in de Jaarbeurs Utrecht, beide dagen 10 tot 18 uur, hal 3 en 4 op zaterdag tot 19 uur, met VIP vanaf 9 uur. Het is een week na de VerzamelJaarbeurs in dezelfde hallen, dus een deel van de handel heeft daar al verkocht en komt met een dunnere bak — wees er zaterdag vroeg, want wat goed is, is 's middags weg. De figuur- en vintagehandel zit achterin en niet bij de ingang.",
+      "do": "Bestel het tweepak vrijdagavond en niet zaterdagochtend, ook als je nog twijfelt: annuleren kan tot 7 december, erbij komen niet meer. Zet je telefoon leeg mee naar de Jaarbeurs en fotografeer elke kraam vóórdat je afrekent — een vondst-met-de-prijs-erbij werkt alleen als je de bak hebt waar hij uit kwam. Cash mee: horeca en garderobe zijn alleen pinnen, maar de kramen willen liever contant en de geldautomaat in de gang krijgt rijen."
     },
     {
-      "title": "Over zes weken verandert niet alleen de naam op je DC-plank maar ook de maat: 6,5 inch tegen de 7 inch die er nu staat",
-      "when": "Vrijdag 1 januari opent Mattel zijn DC-tijdperk met een livestream op Mattel Creations, waarin de volledige golven, de rosters en de preorderdata bekend worden · dezelfde nacht loopt de Turtles-licentie van Playmates af",
+      "title": "Over vier weken staat Doomsday in de Nederlandse bioscoop, de figuren liggen nu al in de winkel, en Nederland heeft er een record mee gezet",
+      "when": "Woensdag 16 december komt Avengers: Doomsday in de Nederlandse bioscopen, twee dagen voor de Amerikaanse start op 18 december · de Marvel Legends Doomsday-golf ligt sinds eind september in de winkel op 27,99 dollar per figuur · in dezelfde weken gaan vier losse Hasbro-preorderdagen open",
       "countdown": {
-        "date": "2027-01-01",
+        "date": "2026-12-16",
         "mode": "until",
-        "unit": "dagen tot de Mattel-livestream en de twee licentiewissels"
+        "unit": "dagen tot Avengers: Doomsday in de Nederlandse bioscopen staat"
       },
-      "body": "Wat tot nu toe „Mattel neemt DC over” was, heeft sinds NYCC cijfers, en die cijfers gaan over je plank en niet over je portemonnee. Mattels DC-figuren zijn 6,5 inch, oftewel echte 1:12-verhoudingen. De McFarlane DC Multiverse-figuren die er nu staan zijn 7 inch. Dat is een halve inch, en dat is precies genoeg om een rij door elkaar te zetten: zet een Mattel-Batman naast een McFarlane-Batman en de een is zichtbaar kleiner. Mattel zelf zegt dat de maat juist aansluit bij moderne 1:12-kasten, en dat alle lagen — handpennen, nekballen, effectdelen — onderling passen. Maar ze passen onderling, niet bij wat jij al hebt. De opbouw: een DC Core-reeks voor de gewone winkel op 12,99 dollar per figuur, bij Target, Walmart en de grote webwinkels, en daarboven een premiumlaag waarvan het eerste stuk een Batman: Hush-dakdiorama van 100 dollar is bij Mattel Creations — naar het werk van Jim Lee, met een Batman van 6,5 inch met 34 punten beweging, een gargoyle die eraf kan, een werkend Bat-signaal van 7 inch dat op de muur projecteert, en een ultrasone vernevelaar voor de mist. Op NYCC zijn er achter gesloten deuren nog twee reeksen gelaten die niet naar buiten zijn gekomen. Alles — welke figuren, welke golven, welke preorderdata — komt op 1 januari in de livestream. Bij de Turtles is het net anders en dat is belangrijk voor je karton: de licentie van Playmates loopt op 31 december af, maar er zit een uitverkoopvenster tot begin 2027 achter, dus Playmates-karton blijft nog even in de winkel liggen nadat de naam officieel weg is.",
-      "do": "Meet vandaag één McFarlane-figuur uit je kast op en schrijf het getal op de doos. Op 1 januari weet je pas welke figuren Mattel maakt, maar de maat weet je nu al, en dat getal is het enige waarmee je straks kunt zien of iets naast je bestaande rij past of ernaast valt. En bedenk voor je kerst-aankopen: de Playmates-dozen zijn na 31 december niet ineens weg uit de winkel, dus haast is daar niet nodig."
+      "body": "Dit is de golf die je deze maand moet voorbereiden en niet de Mattel-wissel van 1 januari, want deze gaat over een publiek dat groter is dan je volgerslijst. Avengers: Doomsday staat op 16 december in de Nederlandse bioscopen, en de Nederlandse voorverkoop heeft al een record gezet: Disney meldde ruim 50.000 kaarten in de eerste 24 uur, waar Avengers: Endgame op 42.000 stond, en er zijn extra voorstellingen bijgezet. Wereldwijd liep de voorverkoop 100 dagen voor de start al over de 50 miljoen dollar. Robert Downey Jr. speelt Doctor Doom, en naast de bekende Avengers staan er X-Men-acteurs in: Patrick Stewart, Ian McKellen en James Marsden. Dat betekent dat „Doom”, „Cyclops” en „Magneto” de komende vier weken ook iets zeggen tegen mensen die nooit een figuur hebben gekocht — en dat is precies het publiek waar bereik bij niet-volgers vandaan komt. De figuurkant loopt er netjes op mee. De Marvel Legends Avengers: Doomsday-golf 1 is sinds 29 september aan het verschepen op 27,99 dollar per figuur: Magneto, Doctor Doom, Thor, Cyclops, Gambit, Captain America en Shang-Chi, met Doom als eerste die bij Amazon uitverkocht raakte. Daarbovenop komen vier losse Hasbro-preorderdagen in december, allemaal om 13 uur oostkusttijd: 9 december Ghost Rider en het X-Factor-tweepak, 10 december Superior Iron Man & The Maker bij Amazon, 14 december Secret Wars Doctor Doom bij Walmart, en 16 december — dezelfde dag als de film — de zes Uncanny X-Men op retrokarton.",
+      "do": "Je hebt hier niets nieuws voor nodig: zet deze week je eigen Doom-figuren op één rij, van de oudste die je hebt tot de nieuwste, en fotografeer die rij nu al. Over vier weken is dat de meest doorgestuurde foto van je pagina en in januari is het oud nieuws. Maak je kartonfoto's voor de Uncanny X-Men-golf in de week vóór 16 december en niet op de dag zelf, want op 16 december concurreer je met de film. En zet drie wekkers in december en niet één: negen, tien en veertien december zijn drie verschillende winkels."
     }
   ],
   "drops": [
     {
       "maker": "Hasbro",
-      "what": "Marvel Legends X-Men ’97 Bolivar Trask & Bastion Nimrod tweepak — made to order, en de enige harde deadline van de maand",
-      "note": "74,99 dollar, alleen via Hasbro Pulse. Het venster sluit vrijdag 20 november 23.59 uur oostkusttijd, hier zaterdagochtend 5.59 uur. Nieuw detail van vandaag: een geplaatste order kun je tot 7 december 23.59 uur oostkusttijd nog kosteloos annuleren. Verzending staat op november 2027. Hasbro maakt precies zoveel als er besteld worden en daarna niets meer.",
+      "what": "Marvel Legends X-Men ’97 Bolivar Trask & Bastion Nimrod tweepak — made to order, en morgenavond sluit het",
+      "note": "74,99 dollar, alleen via Hasbro Pulse. Vandaag opnieuw bij de bron nagekeken: alleen via preorder tot 20 november 23.59 uur oostkusttijd, hier zaterdagochtend 5.59 uur, en annuleren kan tot 7 december 23.59 uur oostkusttijd. Verzending november 2027. Er zijn inmiddels in-hand foto's, dus je koopt niet op renders. Hasbro maakt precies zoveel als er besteld worden en daarna niets meer.",
       "heat": "hot"
     },
     {
-      "maker": "Mattel",
-      "what": "MOTU Origins 2027 golf 1 — He-Man, Beast Man en Battle Armor Man-At-Arms, en nu weten we ook wie er in golf 2 zitten",
-      "note": "Entertainment Earth heeft ze op voorraad op 23,99 dollar per stuk, BigBadToyStore heeft ze nog als preorder op 22,99 dollar. Alle drie dragen een deel van een Shadow Beast van zeven inch. De andere drie delen zitten in golf 2, en dat zijn Skeletor, Mer-Man en Man-E-Faces — een datum voor die golf is er nog niet. De achterkanten van de dozen vormen samen één stripverhaal en de zijpanelen één gevechtsscène.",
+      "maker": "Hasbro",
+      "what": "Marvel Legends Venom (Spider-Man) — het enige nieuwe Marvel-stuk van vandaag",
+      "note": "Gisteren opengezet: 39,99 dollar, zes inch in een kijkdoos, verzending rond 1 maart 2027. Preorder staat bij Entertainment Earth, BigBadToyStore, The Chosen Prime, TFSource en Amazon. Erbij zitten een wisselkop, twee wisselhanden en een webdraad, en de figuur heeft meer dan twintig punten beweging. Hasbro laat opzettelijk in het midden wie er onder het symbioot zit.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hasbro",
+      "what": "Marvel Legends Avengers: Doomsday golf 1 — ligt nu in de winkel, vier weken voor de film",
+      "note": "27,99 dollar per figuur, verschepen begon 29 september. In de golf: Magneto, Doctor Doom, Thor, Cyclops, Gambit, Captain America en Shang-Chi. Doom was het eerste stuk dat bij Amazon uitverkocht raakte; Entertainment Earth en BigBadToyStore hadden hem daarna nog. Dit is de goedkoopste manier om deze maand op de filmgolf mee te liften.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Hasbro",
+      "what": "De vier Marvel-preorderdagen in december — vier losse dagen, vier verschillende winkels, nog steeds geen prijzen",
+      "note": "Woensdag 9 december Ghost Rider (Sgt. Sal Romero) met motor en het X-Factor-tweepak bij Hasbro Pulse en de fan-channelwinkels; donderdag 10 december Superior Iron Man & The Maker als Amazon-exclusief; maandag 14 december Secret Wars Doctor Doom alleen bij Walmart; woensdag 16 december de zes Uncanny X-Men op retrokarton. Alle vier om 13 uur oostkusttijd, 19 uur hier, alles voor het voorjaar van 2027. Bij geen enkel stuk staat een prijs.",
       "heat": "yours"
     },
     {
       "maker": "Mattel",
-      "what": "MOTU Origins Eldor — Mattel Creations-exclusief, uit het Powers of Grayskull-idee",
-      "note": "22 dollar, alleen bij Mattel Creations. Club Grayskull-leden konden er op 11 november om 9 uur westkusttijd bij, de rest sinds 12 november. Nieuwe kop met achterovergekamd bruin haar en volle witte baard, bruine jas met gesculpteerd bont, en als losse delen een houten staf, een afneembare kap, een kristallen bol op gouden voet en het Book of Living Spells. Kap, jas en gordel kunnen eraf. In de doos zit een Gauntlet of the Dead-stripboekje.",
+      "what": "MOTU Origins 2027 golf 1 — sinds 16 november in de winkel, en de 2027-lijsten beginnen op te duiken",
+      "note": "He-Man, Beast Man en Battle Armor Man-At-Arms, elk met een deel van een Shadow Beast van zeven inch. Entertainment Earth heeft ze op voorraad op 23,99 dollar, BigBadToyStore had ze als preorder op 22,99 dollar. De andere drie delen zitten in golf 2: Skeletor, Mer-Man en Man-E-Faces, nog zonder datum. De achterkanten van de dozen vormen samen één stripverhaal en de zijpanelen één gevechtsscene.",
+      "heat": "yours"
+    },
+    {
+      "maker": "Mattel",
+      "what": "MOTU Origins Eldor — en Mattel neemt vandaag terug dat dit het einde van Powers of Grayskull was",
+      "note": "22 dollar, alleen bij Mattel Creations, sinds 11 november voor Club Grayskull-leden en 12 november voor de rest. Nieuwe kop met achterovergekamd haar en volle witte baard, bruine jas met gesculpteerd bont, houten staf, afneembare kap, kristallen bol op gouden voet en het Book of Living Spells, plus een Gauntlet of the Dead-stripboekje. Nieuw sinds gisteren: een Mattel-beheerder schreef op het Club Grayskull-forum dat Eldor de laatste Powers of Grayskull van 2026 is en niet de laatste ooit, dat de deur niet dicht is en dat „Origins isn't going anywhere”. Geen namen, geen golven, geen data — alleen de ontkenning.",
       "heat": "yours"
     },
     {
       "maker": "Super7",
       "what": "Toho ULTIMATES! golf 09 (Minus Zero) — Godzilla en King Ghidorah uit de film die hier nu in de bioscoop loopt",
-      "note": "Preorders staan open bij Entertainment Earth, BigBadToyStore, Amazon en de Super7 Store. Ultimates Godzilla 95 dollar, Ultimates King Ghidorah 195 dollar, en daarnaast drie deluxe-figuren tussen 20 en 30 dollar (Godzilla, Super Kaiju Godzilla en Super Kaiju King Ghidorah). Verzending februari 2027. Dit is het goedkoopste instappunt in de Minus Zero-golf — de deluxes, niet de Ultimates.",
+      "note": "Preorders staan bij Entertainment Earth, BigBadToyStore, Amazon en de Super7 Store. Ultimates Godzilla 95 dollar, Ultimates King Ghidorah 195 dollar, en daarnaast drie deluxe-figuren tussen 20 en 30 dollar (Godzilla, Super Kaiju Godzilla en Super Kaiju King Ghidorah). Verzending februari 2027. Het goedkoopste instappunt in deze golf zijn de deluxes en niet de Ultimates.",
       "heat": "yours"
     },
     {
       "maker": "Bandai / Tamashii Nations",
-      "what": "S.H.MonsterArts Burning Millennium Godzilla — loterij bij Premium Bandai in Japan",
-      "note": "12.100 yen inclusief belasting, 16 centimeter, origineel en verf van Yuji Sakai. Inschrijven tot zondag 29 november 23 uur Japanse tijd, 15 uur hier; uitslag eind november, verzending januari 2027. Inschrijven kost niets behalve de moeite — je zit er pas aan vast als je getrokken wordt. Dit is de laatste Godzilla-deadline voor de kerst.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Bandai / Tamashii Nations",
-      "what": "S.H.MonsterArts King Ghidorah (2026) uit Minus Zero",
-      "note": "30.800 yen inclusief belasting, preorder open op het Tamashii Web Shop, levering juni 2027. 245 millimeter hoog bij 320 breed en 680 lang — meet die 68 centimeter uit vóór je bestelt, want dat is geen plankstuk maar een tafelstuk.",
+      "what": "S.H.MonsterArts Burning Millennium Godzilla — loterij bij Premium Bandai, sluit over tien dagen",
+      "note": "12.100 yen inclusief belasting, 16 centimeter, origineel en verf van Yuji Sakai. Inschrijven tot zondag 29 november 23 uur Japanse tijd, 15 uur hier; uitslag eind november, verzending januari 2027. Inschrijven kost niets behalve de moeite — je zit er pas aan vast als je getrokken wordt. Dit is de laatste Godzilla-deadline voor de kerst. Daarnaast staat de S.H.MonsterArts King Ghidorah uit Minus Zero in preorder op het Tamashii Web Shop voor 30.800 yen, levering juni 2027, en die is 68 centimeter lang — meet dat uit vóór je bestelt.",
       "heat": "yours"
     },
     {
       "maker": "Mattel (niet bevestigd)",
-      "what": "TMNT 2027 — een winkellijst met Mattels eerste Turtles-golf is uitgelekt, en de Technodrome en de Party Wagon staan erop",
-      "note": "Gisteren opgedoken: een preorderlijst van een winkel, met losse artikelnummers, gedeeld via Instagram. Erop staan een Breakframe Krang, een Ultimate Mikey van 12 inch, een Party Wagon, een Sewer Lair-playset, een Technodrome-playset, een boorvoertuig, een vierpak Turtles en een XL-figuur met licht en geluid. Harde waarschuwing: één bron, geen foto’s, geen prijzen, geen data, en Mattel heeft niets bevestigd — de verzamelaarssite die Mattels Turtles-lijn bijhoudt had tot eind september nog nul listings gezien. Doorvertellen mag, maar dan met „uitgelekt” erbij.",
+      "what": "TMNT 2027 — de uitgelekte winkellijst met Technodrome en Party Wagon, nu met een mogelijke filmdatum erbij",
+      "note": "Een preorderlijst van een winkel met losse artikelnummers, gedeeld via Instagram en maandag opgepikt. Erop staan een Breakframe Krang, een Ultimate Mikey van 12 inch, een Party Wagon, een Sewer Lair-playset, een Technodrome-playset, een boorvoertuig, een vierpak Turtles en een XL-figuur met licht en geluid. De lijst wordt in verband gebracht met een Turtles-film in 2027, mogelijk Mutant Mayhem II op 13 augustus 2027, maar ook dat is niet bevestigd. Harde waarschuwing: één bron, geen foto's, geen prijzen, geen data, en Mattel zegt niets. Doorvertellen mag, maar dan met „uitgelekt” erbij.",
       "heat": "yours"
     },
     {
@@ -75,83 +87,71 @@
       "what": "Batman: Hush dakdiorama met werkend Bat-signaal — het eerste premiumstuk van het nieuwe DC-tijdperk",
       "note": "100 dollar bij Mattel Creations, naar het werk van Jim Lee. Een Batman van 6,5 inch met 34 punten beweging en wisselhanden, een Gotham-dakvoet met afneembare gargoyle, een Bat-signaal van 7 inch dat echt op de muur projecteert, en een ultrasone vernevelaar op water voor de mist. Let op de maat: 6,5 inch, een halve inch kleiner dan de McFarlane-figuren die er bij jou staan.",
       "heat": "yours"
-    },
-    {
-      "maker": "Hasbro",
-      "what": "De vier Marvel-preorderdagen in december — nog steeds vier losse dagen, nog steeds geen prijzen",
-      "note": "Vandaag opnieuw nagekeken en onveranderd: woensdag 9 december Ghost Rider (Sgt. Sal Romero) met motor en het X-Factor-tweepak bij Hasbro Pulse en de fan-channelwinkels; donderdag 10 december Superior Iron Man & The Maker als Amazon-exclusief; maandag 14 december Secret Wars Doctor Doom alleen bij Walmart; woensdag 16 december de zes Uncanny X-Men op retrokarton. Alle vier om 13 uur oostkusttijd, 19 uur hier, alles voor het voorjaar van 2027. Bij geen enkel stuk staat een prijs.",
-      "heat": "yours"
-    },
-    {
-      "maker": "Playmates",
-      "what": "TMNT x G.I. Joe — genomineerd voor Action Figure of the Year 2027, en je kunt zelf stemmen",
-      "note": "De publieksstemming op toyawards.org loopt tot 6 januari, de winnaars worden op 19 februari in New York bekendgemaakt. Dit is de laatste prijzenronde waarin Playmates nog Turtles-licentiehouder is: de licentie loopt op 31 december af, met een uitverkoopvenster tot begin 2027.",
-      "heat": "yours"
     }
   ],
   "talk": [
     {
-      "title": "Het enige nieuwe van vandaag is een lijstje dat niemand bevestigt — en juist daarom is het bruikbaar",
-      "body": "Een winkel heeft per ongeluk preorder-artikelnummers van Mattels eerste Turtles-golf laten staan, iemand heeft er een schermafbeelding van op Instagram gezet, en één verzamelaarssite heeft dat gisteren opgepakt. Dat is de hele keten. Geen foto’s, geen prijzen, geen data, geen woord van Mattel. Maar wat er op dat lijstje staat, is precies waarom het rondgaat: een Technodrome, een Party Wagon, een Sewer Lair. Dat zijn geen figuren, dat zijn de drie dingen die in de jaren negentig in half Nederland op zolder stonden. Voor een pagina als die van jou is een onbevestigd lijstje met die namen erop meer waard dan een nette productfoto van iets nieuws, want het is een vraag en niet een mededeling — en de vraag „wie had de Technodrome” laat zich veel makkelijker doorsturen dan „kijk, een nieuwe figuur”. Zet er wel „uitgelekt, niet bevestigd” bij. Dat kost je geen bereik en het scheelt je een correctie."
+      "title": "De Nederlandse voorverkoop van Doomsday heeft Endgame verslagen, en dat getal is bruikbaarder voor je pagina dan welke onthulling dan ook",
+      "body": "Ruim 50.000 kaarten in de eerste 24 uur in Nederland, tegen 42.000 voor Avengers: Endgame — dat meldde Disney toen de voorverkoop in oktober openging, en er zijn extra voorstellingen bijgezet. Op 16 december staat de film hier in de zaal, twee dagen voor Amerika. Wat dat voor jou betekent: de komende vier weken is „Doctor Doom” geen nichewoord meer. Robert Downey Jr. speelt hem, en met Patrick Stewart, Ian McKellen en James Marsden erbij geldt hetzelfde voor Magneto, Professor X en Cyclops. Dat is precies de voorwaarde waaronder een figuurfoto bij niet-volgers terechtkomt: het onderwerp moet al in iemands hoofd zitten voordat hij jouw beeld ziet. Je hebt er geen nieuwe aankoop voor nodig — je hebt een la vol Dooms en Cyclopsen van vijftien jaar verzamelen, en dat is deze maand meer waard dan een preorder. Praktisch: de golf die bij de film hoort ligt al in de winkel op 27,99 dollar per figuur, dus als je één stuk wilt toevoegen om je rij af te maken, is dit de maand."
     },
     {
-      "title": "De halve inch is het echte nieuws van de licentiewissel, en bijna niemand heeft het erover",
-      "body": "Iedereen praat over wélke figuren Mattel gaat maken. Dat weet je pas op 1 januari. Wat je nu al weet is de maat, en die is concreter: Mattels DC-figuren worden 6,5 inch, de McFarlane DC Multiverse-figuren die er nu staan zijn 7 inch. In een vitrine zie je dat. Mattel noemt het zelf een aansluiting bij moderne 1:12-kasten en belooft dat handpennen, nekballen en effectdelen tussen al hun lagen uitwisselbaar zijn — maar dat gaat over hun eigen reeksen, niet over de jouwe. De mass-retailreeks heet DC Core en gaat 12,99 dollar per figuur kosten bij Target, Walmart en de grote webwinkels; het premiumstuk waarmee ze beginnen is het Batman: Hush-dakdiorama van 100 dollar. Voor een verzamelaar met een volle DC-plank is dit de vraag waar het de komende maanden over gaat: zet je de nieuwe erbij of ernaast? Dat is precies het soort vraag waar mensen onder een foto over gaan ruziemaken, en dat is goed voor je bereik."
+      "title": "Mattel neemt terug dat Powers of Grayskull klaar is — en dat is de eerste keer dit jaar dat ze op een mail reageren",
+      "body": "Begin november stuurde Mattel een mail waarin Eldor „this last figure in the Powers of Grayskull line” werd genoemd, zonder jaartal erbij, en de scene las dat als: de subreeks is dood. Gisteren schreef een Mattel Creations-beheerder op het Club Grayskull-forum dat het om de laatste van 2026 ging, dat ze de deur niet dichtdoen en dat „Origins isn't going anywhere”. Wat er niet bij staat: geen namen, geen golven, geen data. Mattel haalt dus alleen de verkeerde lezing weg en belooft niets. Voor een verzamelaarspagina is dat wel een bruikbaar gat: de vintage reuzen Tytus en Megator hebben nog steeds geen Origins-versie, en Strobo en Plasmar stonden in de verpakkingskunst zonder dat ze ooit zijn gemaakt. Dat is het soort lijstje waar mensen onder een foto over gaan praten — niet omdat het nieuws is, maar omdat iedereen z'n eigen ontbrekende figuur heeft."
     },
     {
-      "title": "Godzilla staat hier nu in de bioscoop en de cijfers zeggen dat je er deze maand iets mee moet, niet in januari",
-      "body": "Minus Zero loopt sinds 5 november in de Nederlandse bioscopen. In Amerika opende de film op 31,6 miljoen dollar — een record voor distributeur GKIDS — en stond na twee weekenden op 49,1 miljoen binnenlands, met wereldwijd meer dan 100 miljoen erop. Maar het tweede weekend was 8 miljoen, een val van 73 procent. Dat getal is je timing: de film heeft een enorme eerste duw gehad en zakt nu hard weg, dus de weken waarin „Godzilla” bij een gewoon publiek nog iets betekent, zijn deze weken en niet die na de kerst. De figuurkant loopt daar precies op mee: Super7 heeft de Minus Zero-golf open staan met een Godzilla op 95 dollar en een King Ghidorah op 195, de goedkopere deluxes op 20 tot 30 dollar, allemaal voor februari 2027, en Bandai sluit zondag 29 november zijn loterij voor de Burning Millennium. Je hoeft die stukken niet te hebben om er iets mee te doen — je hebt je eigen Godzilla, en die is nu interessanter dan ooit omdat iedereen de naam net in de bioscoop heeft gezien."
+      "title": "McFarlane heeft zes weken voor het einde van zijn DC-licentie de meerderheid van zijn aandelen verkocht",
+      "body": "Op 6 november werd bekend dat Gladstone Investment Corporation, een beursgenoteerde investeerder, een meerderheidsbelang in McFarlane Toys heeft genomen, met vreemd en eigen vermogen. De prijs is niet bekendgemaakt. Todd McFarlane zelf en mede-eigenaar en directeur Stephan Tetrault blijven aandeelhouder van betekenis en blijven betrokken bij de strategie, dus dit is geen vertrek. Gladstone zegt te willen investeren in productontwikkeling, nieuwe categorieën en licenties. De timing is het verhaal: op 31 december raakt McFarlane de DC-licentie kwijt aan Mattel, en dat is jarenlang de ruggengraat van het bedrijf geweest. Voor jou is dit geen koopmoment en geen paniekmoment — het is een reden om goed te kijken naar wat er de komende maanden nog aan DC Multiverse in de winkel komt, want dat is het laatste karton onder die naam."
     },
     {
-      "title": "Dolph Lundgren staat op 5 en 6 december in Dortmund, en dat is voor jouw publiek de beste beursreden van het kwartaal",
-      "body": "De German Film & Comic Con Winter Edition staat zaterdag 5 en zondag 6 december in de Messe Dortmund, zaterdag 10 tot 18 uur en zondag 10 tot 17 uur, met de ingang via het nieuwe noordforum. Lundgren staat er als sterrengast, en dat is voor een MOTU-verzamelaar een dubbele: hij was He-Man in de film van 1987 én hij heeft een cameo in de nieuwe Masters of the Universe van dit jaar, als „Macho Man” in een sportschool. Dat is een ketting van veertig jaar in één persoon, en dat is precies het soort ding waarover je op een verzamelaarspagina iets kunt zeggen dat verder gaat dan een handtekeningprijs. Verder op de gastenlijst onder anderen Ewan McGregor, John Cena, John Cleese, Robert Englund, Robert Patrick, Anthony Daniels en John Boyega; sterren zijn er in principe beide dagen. Afgezegd zijn Ted DiBiase en Nikko Angelo Hinayo. De site waarschuwt zelf dat de ingangscontrole tijd kost."
+      "title": "De halve inch blijft de vraag waar het op je DC-plank over gaat",
+      "body": "Mattels DC-figuren worden 6,5 inch, oftewel echte 1:12-verhoudingen. De McFarlane DC Multiverse-figuren die er nu staan zijn 7 inch. In een vitrine zie je dat verschil. Mattel zegt zelf dat de maat aansluit bij moderne 1:12-kasten en dat handpennen, nekballen en effectdelen tussen al hun eigen lagen uitwisselbaar zijn — maar dat gaat over hun reeksen en niet over de jouwe. De opbouw: een DC Core-reeks voor de gewone winkel op 12,99 dollar per figuur bij Target, Walmart en de grote webwinkels, en daarboven een premiumlaag die begint met het Batman: Hush-dakdiorama van 100 dollar bij Mattel Creations. Welke figuren, welke golven en welke preorderdata het worden, komt op 1 januari in de livestream. Tot die tijd is dit de vraag die onder elke DC-foto van jou hoort: zet je de nieuwe erbij of ernaast?"
     }
   ],
   "ideas": [
     {
       "slot": "Op de golf",
-      "title": "De Godzilla die je het langst hebt, met de prijs van de nieuwe erbij — nu de film hier nog in de bioscoop loopt",
-      "hook": "Beeld een is de kop van je oudste Godzilla, van onderaf en zo dichtbij dat je alleen de kaak en de tanden ziet, met de verf die op de randen versleten is. Tekstregel over het beeld: „deze heb ik al jaren. De nieuwe kost 195 dollar.”",
-      "why": "Dit staat op twee golven tegelijk en dat is zeldzaam. Minus Zero loopt sinds 5 november in de Nederlandse bioscopen, dus „Godzilla” betekent deze weken ook iets voor mensen die niets verzamelen — maar het tweede weekend in Amerika viel al 73 procent terug, dus die aandacht is over een paar weken weg. En de figuurkant staat er nu bovenop: Super7 heeft de Minus Zero-golf open met een King Ghidorah op 195 dollar en een Godzilla op 95, en Bandai sluit op 29 november zijn loterij. Het formaat dat hier werkt is een vondst met de prijs erbij, maar omgekeerd: niet wat jij ergens voor betaalde, maar wat hetzelfde nu kost. Dat is een getal, en getallen worden doorgestuurd. Belangrijk: maak het geen klacht over prijzen en geen „vroeger was alles beter”. Je laat alleen twee dingen naast elkaar zien en de kijker rekent zelf. Je hebt hier niets nieuws voor nodig, alleen de Godzilla die je al hebt — en als die versleten is, is dat winst en geen probleem.",
+      "title": "Al je Doctor Dooms op één rij, van de oudste die je hebt tot de nieuwste, met de bioscoopdatum als slot",
+      "hook": "Beeld een is het gezicht van je oudste Doom, zo dicht op de kap dat je alleen de ogen en de randen van het masker ziet, met de verf die op de randen versleten is. Tekstregel over het beeld: „deze Doom heb ik al jaren. Op 16 december speelt Robert Downey Jr. hem.”",
+      "why": "Dit is de enige golf van deze maand die buiten je eigen publiek iets betekent. Avengers: Doomsday staat op 16 december in de Nederlandse bioscopen, de voorverkoop zette hier een record van ruim 50.000 kaarten in 24 uur tegen 42.000 voor Endgame, en Downey speelt Doom. De komende vier weken zit die naam dus al in het hoofd van mensen die nooit een figuur hebben gekocht, en dat is de voorwaarde waaronder een figuurfoto bij niet-volgers terechtkomt. Het formaat is toen-en-nu in één beweging, maar met een rij in plaats van twee foto's: de kijker ziet in vijf seconden hoe lang jij al met dit personage bezig bent. Je hebt er niets nieuws voor nodig — alleen de Dooms die je al hebt, en hoe versleten de oudste is, hoe beter. Belangrijk: geen oordeel over de film en geen vergelijking van welke figuur de beste is. Je laat alleen een rij zien en zet er een datum onder. Doe dit deze week en niet op 16 december zelf, want dan concurreer je met de filmposter.",
       "shots": [
-        "Foto 1: de kop van onderaf, staand (9:16), macro-dichtbij, één lamp laag van de zijkant zodat de tanden schaduw krijgen en de versleten randen oplichten. Twee seconden — hier zit de haak, en er mag nog niets van de hele figuur te zien zijn.",
-        "Foto 2: zelfde lamp, zelfde hoogte, camera een halve meter terug: kop en voorpoten in beeld. Anderhalve seconde. Camera alleen naar achteren en niet opzij, dan leest het als uitzoomen in plaats van als een nieuwe foto.",
-        "Foto 3: de hele figuur recht van voren, vullend in het kader, op een donkere ondergrond zodat de silhouetlijn klopt. Twee seconden. Niet oppoetsen — de slijtage is het bewijs dat je hem echt hebt.",
-        "Foto 4: zelfde figuur, nu met je telefoon ernaast in beeld waarop de Super7-pagina met 195 dollar staat, van bovenaf geschoten. Twee seconden, en laat deze staan tot het einde. Tekst in beeld: bij foto 1 „deze heb ik al jaren”, bij foto 2 „versleten op alle randen”, bij foto 3 „en hij staat er nog”, bij foto 4 „de nieuwe King Ghidorah kost 195 dollar. Welke kaiju staat bij jou het langst op de plank?”"
+        "Foto 1: de kap en de ogen van je oudste Doom, staand (9:16), macro-dichtbij, één lamp laag van de zijkant zodat de versleten randen oplichten. Twee seconden — hier zit de haak en er mag nog niets van de rij te zien zijn.",
+        "Foto 2: zelfde lamp, zelfde hoogte, camera een halve meter terug: dezelfde figuur nu helemaal in beeld, met de schade erin. Anderhalve seconde. Camera alleen naar achteren en niet opzij, dan leest het als uitzoomen.",
+        "Foto 3: camera nog een meter terug, alle Dooms die je hebt op één rij, oudste links, nieuwste rechts, op een donkere ondergrond. Twee seconden. Niet netjes op gelijke afstand — iets rommeliger leest als een kast en niet als een winkel.",
+        "Foto 4: dezelfde rij van laag ervoor geschoten, zodat de oudste het grootst in beeld staat. Twee seconden, en laat deze staan tot het einde. Tekst in beeld: bij foto 1 „deze Doom heb ik al jaren”, bij foto 2 „verf eraf, staat er nog”, bij foto 3 „elke Doom die ik heb, oudste links”, bij foto 4 „16 december staat hij in de bioscoop. Welke was jouw eerste?”"
       ],
-      "send": "de vriend die je vorige week meesleepte naar Minus Zero en sindsdien over kaiju praat",
-      "tags": "#godzilla #kaiju #actionfigures #toystagram"
+      "send": "de zwager die op 16 december met je mee wil naar de bioscoop en nog denkt dat je er één hebt",
+      "tags": "#marvellegends #doctordoom #actionfigures #toystagram"
     },
     {
       "slot": "Doorstuurbaar",
-      "title": "Je meest versleten vintage Turtle, met de uitgelekte Mattel-lijst eronder waarop de Technodrome en de Party Wagon staan",
-      "hook": "Beeld een is één vintage Turtle in close-up, de meest versleten die je hebt: verschoten plastic, weggesleten verf op de knieën, misschien een bijtspoor. Tekstregel over het beeld: „deze heeft bij jou ook in de zandbak gelegen.”",
-      "why": "Dit is het enige verse nieuws van vandaag en het is precies het soort nieuws dat zich laat doorsturen. Er is een winkellijst uitgelekt van Mattels eerste Turtles-golf voor 2027, en daarop staan geen figuren waar niemand van gehoord heeft, maar een Technodrome, een Party Wagon en een Sewer Lair — de drie dingen die in de jaren negentig bij half Nederland op zolder stonden. Mattel neemt de licentie over nu Playmates die op 31 december kwijtraakt. Het formaat dat hier werkt is „wie had deze ook”, en dat werkt omdat het niet over jouw kast gaat maar over de hunne: iedereen die dit ziet, denkt aan zijn eigen zolder. Dat is wat een DM-doorstuur oplevert en een like niet. Twee dingen om goed te doen. Eén: zeg er duidelijk bij dat de lijst uitgelekt is en door Mattel niet bevestigd — er zijn geen foto’s, geen prijzen en geen data. Twee: bouw de video op één figuur die je al hebt en niet op de Technodrome, want die hoef je niet te bezitten om de vraag te stellen. De vraag is het stuk, niet het speelgoed.",
+      "title": "De achterkant van je meest versleten vintage He-Man-kaart, met je vinger op de figuur die je nooit hebt gehad",
+      "hook": "Beeld een is de achterkant van een vintage MOTU-kaart in macro, met het rastertje figuren erop, en jouw vinger die er één aanwijst. Tekstregel over het beeld: „achterop de kaart stonden ze allemaal. Deze heb ik nooit gehad.”",
+      "why": "Dit is het beste doorstuurformaat dat je hebt en het staat op het verse nieuws van vandaag. Mattel nam gisteren terug dat Eldor het einde van Powers of Grayskull was: het was de laatste van 2026, de deur is niet dicht, en „Origins isn't going anywhere” — maar namen, golven en data zijn er niet. Dat gat is precies je onderwerp, want de kartonachterkant is al veertig jaar de lijst van wat je niet kon krijgen. Tytus en Megator hebben nog steeds geen Origins-versie, en Strobo en Plasmar stonden in de verpakkingskunst zonder ooit gemaakt te zijn. Het formaat is „wie had deze ook”, en het werkt omdat het niet over jouw kast gaat maar over de hunne: iedereen die als kind één He-Man-kaart heeft omgedraaid, heeft een figuur op dat rastertje aangewezen die hij nooit kreeg. Dat is wat een DM-doorstuur oplevert en een like niet. En het is ook letterlijk waar je pagina over gaat: het karton, niet alleen de figuur. Bouw het op wat je hebt — één kaart en je eigen vintage rij — en niet op iets dat nog niet bestaat.",
       "shots": [
-        "Foto 1: één vintage Turtle in macro, staand (9:16), strijklicht van één kant zodat de krassen en het verschoten plastic zichtbaar worden. Twee seconden — hier zit de haak, en het moet er gebruikt uitzien en niet gepoetst.",
-        "Foto 2: zelfde licht, camera een halve meter terug, de hele figuur rechtop in beeld met de schade aan de knieën en de wapens die er nog bij zijn. Anderhalve seconde.",
-        "Foto 3: camera nog een meter terug, alle vintage Turtles die je hebt naast elkaar op één rij, door elkaar en niet netjes gezet. Twee seconden. Het rommelige is het punt — een nette rij leest als een winkel, een rommelige rij als een zolder.",
-        "Foto 4: zelfde rij, camera laag ervoor, met je telefoon in beeld waarop de uitgelekte lijst met Technodrome en Party Wagon staat. Twee seconden, en laat deze staan tot het einde. Tekst in beeld: bij foto 1 „deze heeft bij jou ook in de zandbak gelegen”, bij foto 2 „mijne hebben het overleefd”, bij foto 3 „Mattel neemt de Turtles op 1 januari over”, bij foto 4 „en op de uitgelekte lijst staan de Technodrome én de Party Wagon (niet bevestigd). Wie had de Technodrome?”"
+        "Foto 1: de achterkant van één vintage kaart in macro, staand (9:16), strijklicht van één kant zodat de vouwen en het verschoten karton zichtbaar worden, met je vinger op één figuur in het raster. Twee seconden — hier zit de haak, en het karton moet gebruikt zijn en niet gestreken.",
+        "Foto 2: zelfde licht, camera een halve meter terug: de hele achterkant in beeld, zodat het complete rastertje leesbaar is. Anderhalve seconde.",
+        "Foto 3: de kaart omgedraaid naast de figuren die je er wél van hebt, door elkaar op tafel en niet in een rij gezet. Twee seconden. Het rommelige is het punt — een nette opstelling leest als een winkel, een rommelige als een zolder.",
+        "Foto 4: camera laag ervoor, kaart rechtop achter de figuren. Twee seconden, en laat deze staan tot het einde. Tekst in beeld: bij foto 1 „achterop de kaart stonden ze allemaal”, bij foto 2 „deze heb ik nooit gehad”, bij foto 3 „deze wél, en die hebben het overleefd”, bij foto 4 „Mattel zegt deze week dat de lijn niet dicht is. Welke stond bij jou achterop en kreeg je nooit?”"
       ],
-      "send": "je broer of je neef, want die lag met dezelfde figuren in dezelfde zandbak",
-      "tags": "#tmnt #ninjaturtles #vintagetoys #toycollector"
+      "send": "de neef die zijn He-Man-kaartjes nog in een schoenendoos op zolder heeft liggen",
+      "tags": "#motu #mastersoftheuniverse #vintagetoys #toycollector"
     }
   ],
   "agenda": [
     {
       "date": "2026-11-20",
       "label": "Vrijdag 20 november 23.59 uur oostkusttijd: het made-to-order-venster van het Marvel Legends X-Men ’97 Bolivar Trask & Bastion Nimrod tweepak sluit, 74,99 dollar",
-      "note": "Hier is dat zaterdagochtend 5.59 uur, dus vrijdagavond is je laatste kans. Alleen via Hasbro Pulse. Je kunt een geplaatste order nog tot 7 december 23.59 uur oostkusttijd kosteloos annuleren, dus bestellen kan ook als je nog twijfelt. Verzending november 2027. Dit is de enige harde deadline van november."
+      "note": "Hier is dat zaterdagochtend 5.59 uur, dus vrijdagavond is je laatste kans. Alleen via Hasbro Pulse. Annuleren kan daarna nog tot 7 december 23.59 uur oostkusttijd, dus bestellen kan ook als je twijfelt. Verzending november 2027. Dit is de enige harde deadline van november."
     },
     {
       "date": "2026-11-21",
       "label": "Zaterdag 21 en zondag 22 november: Heroes Dutch Comic Con in de Jaarbeurs Utrecht, een week na de VerzamelJaarbeurs in dezelfde hallen",
-      "note": "Beide dagen 10 tot 18 uur, hal 3 en 4 op zaterdag tot 19 uur, VIP vanaf 9 uur. Figuur- en vintagehandel zit achterin. Neem cash mee. De site noemt twee adressen, Jaarbeursplein 6 en 15; controleer het voordat je wegrijdt."
+      "note": "Beide dagen 10 tot 18 uur, hal 3 en 4 op zaterdag tot 19 uur, VIP vanaf 9 uur. Figuur- en vintagehandel zit achterin. Horeca en garderobe zijn alleen pinnen, de kramen willen liever cash. De site noemt twee adressen, Jaarbeursplein 6 en 15; controleer het voordat je wegrijdt."
     },
     {
       "date": "2026-11-27",
       "label": "Vrijdag 27 november: LEGO Black Friday begint en Ideas 21375 Godzilla gaat in de verkoop voor 399,99 euro",
-      "note": "5.363 stukjes, 70 centimeter hoog met de afneembare hitte-straal erop en 40 centimeter breed. Eerst alleen bij LEGO.com. In dollars 449,99 en in ponden 349,99, dus de europrijs is hier niet de slechtste van de drie."
+      "note": "5.363 stukjes, ongeveer 70 centimeter hoog. In dollars 449,99. Eerst alleen bij LEGO.com, en wie bij de start koopt krijgt zolang de voorraad strekt set 40888 Godzilla Logo & Footprint erbij, met een voetafdruk op de maat van het model, microstad in puin en een klein Mothra-deel."
     },
     {
       "date": "2026-11-29",
@@ -166,17 +166,17 @@
     {
       "date": "2026-12-09",
       "label": "Woensdag 9 december 13 uur oostkusttijd (19 uur hier): de eerste twee preorders uit de Fanstream gaan open — Ghost Rider met motor en het X-Factor-tweepak",
-      "note": "Beide bij Hasbro Pulse en de fan-channelwinkels, beide voorjaar 2027, prijzen nog onbekend. Een dag later, donderdag 10 december, zelfde tijdstip, komt Superior Iron Man & The Maker als Amazon-exclusief, en maandag 14 december Secret Wars Doctor Doom alleen bij Walmart. Zet drie wekkers in die twee weken en niet één."
+      "note": "Beide bij Hasbro Pulse en de fan-channelwinkels, beide voorjaar 2027, prijzen nog onbekend. Een dag later, donderdag 10 december, komt Superior Iron Man & The Maker als Amazon-exclusief, en maandag 14 december Secret Wars Doctor Doom alleen bij Walmart. Drie wekkers in twee weken, niet één."
     },
     {
       "date": "2026-12-16",
-      "label": "Woensdag 16 december 13 uur oostkusttijd (19 uur hier): de zes Uncanny X-Men op retrokarton gaan open, bij Hasbro Pulse en de gewone winkels",
-      "note": "Wolverine (Team X), Cyclops in de Jim Lee-uitvoering, Storm uit haar eigen reeks, Hepzibah, Mesmero en een zesde die nog niet vaststaat. Dit is de golf waar jouw publiek het hardst op reageert, dus maak je eigen kartonfoto’s in de week ervoor en niet op de dag zelf."
+      "label": "Woensdag 16 december: Avengers: Doomsday komt in de Nederlandse bioscopen én om 19 uur gaan de zes Uncanny X-Men op retrokarton in preorder",
+      "note": "De film staat hier twee dagen voor Amerika in de zaal; de Nederlandse voorverkoop zette een record van ruim 50.000 kaarten in 24 uur. Het retrokarton komt bij Hasbro Pulse en de gewone winkels: Wolverine (Team X), Cyclops in de Jim Lee-uitvoering, Storm uit haar eigen reeks, Hepzibah, Mesmero en een zesde die nog niet vaststaat. Maak je eigen kartonfoto's in de week ervoor, want op deze dag concurreer je met de film."
     },
     {
       "date": "2027-01-01",
       "label": "Nieuwjaarsdag: Mattel opent zijn DC-tijdperk met een livestream op Mattel Creations, en dezelfde nacht lopen de DC-licentie van McFarlane en de Turtles-licentie van Playmates af",
-      "note": "In de livestream komen de volledige golven, de rosters en de preorderdata van alle lagen: DC Core op 12,99 dollar voor de gewone winkel en daarboven het premiumwerk. De figuren worden 6,5 inch tegen de 7 inch van McFarlane. Bij Playmates zit achter 31 december nog een uitverkoopvenster tot begin 2027, dus dat karton blijft nog even liggen."
+      "note": "In de livestream komen de volledige golven, de rosters en de preorderdata: DC Core op 12,99 dollar voor de gewone winkel en daarboven het premiumwerk. De figuren worden 6,5 inch tegen de 7 inch van McFarlane. Bij Playmates zit achter 31 december nog een uitverkoopvenster tot begin 2027, dus dat karton blijft nog even liggen."
     }
   ],
   "fairs": [
@@ -185,7 +185,7 @@
       "name": "Heroes Dutch Comic Con",
       "city": "Utrecht",
       "country": "NL",
-      "note": "21 en 22 november in de Jaarbeurs, gisteren op de eigen site bevestigd: beide dagen 10 tot 18 uur, hal 3 en 4 op zaterdag tot 19 uur, met een VIP-kaart beide dagen vanaf 9 uur. Dit weekend dus — en daarmee de eerste beurs op deze lijst. Groot en druk; de figuur- en vintagehandel zit achterin, niet bij de ingang. Een week na de VerzamelJaarbeurs in dezelfde hallen, dus een deel van de handel komt met een dunnere bak — wees er zaterdag vroeg. Horeca en garderobe zijn alleen pinnen en de garderobe kost geld, maar de meeste kramen willen liever cash; de geldautomaat in de gang krijgt rijen. De site noemt twee adressen, Jaarbeursplein 6 en Jaarbeursplein 15; controleer het voordat je wegrijdt.",
+      "note": "21 en 22 november in de Jaarbeurs, vandaag opnieuw op de eigen site bevestigd: beide dagen 10 tot 18 uur, hal 3 en 4 op zaterdag tot 19 uur, VIP beide dagen vanaf 9 uur. Dit weekend dus. Groot en druk; de figuur- en vintagehandel zit achterin en niet bij de ingang. Een week na de VerzamelJaarbeurs in dezelfde hallen, dus een deel van de handel komt met een dunnere bak — wees er zaterdag vroeg. Zaal, horeca en garderobe zijn alleen pinnen, maar de meeste kramen willen liever cash en de geldautomaat in de gang krijgt rijen. De site noemt twee adressen, Jaarbeursplein 6 en Jaarbeursplein 15; controleer het voordat je wegrijdt.",
       "url": "https://www.dutchcomiccon.com/info/"
     },
     {
@@ -193,7 +193,7 @@
       "name": "In the Toyzone Holiday Edition",
       "city": "Haarlem",
       "country": "NL",
-      "note": "Kennemer Sportcenter aan de IJsbaanlaan 4A, vandaag opnieuw nagekeken. Puur speelgoed en actiefiguren — van de hele lijst de beurs die het best op jouw onderwerp zit. Er zijn drie soorten kaarten (Early Bird, Normaal en Fashionably Late); de aankondigingspagina noemt nog steeds geen prijzen en geen openingstijden, vorige editie was 11 tot 17 uur voor 10 euro. Dezelfde zaterdag is er ook een algemene verzamelbeurs in Leerdam, maar die noemt geen speelgoed.",
+      "note": "Kennemer Sportcenter aan de IJsbaanlaan 4A, vandaag opnieuw nagekeken. Duizend vierkante meter speelgoed en collectibles — van de hele lijst de beurs die het best op jouw onderwerp zit. Er zijn drie soorten kaarten (Early Bird, Normaal en Fashionably Late) via nowonlinetickets.nl; de aankondigingspagina noemt nog steeds geen prijzen en geen openingstijden, vorige editie was 11 tot 17 uur voor 10 euro. Dezelfde zaterdag is er ook een algemene verzamelbeurs in Leerdam, maar die noemt geen speelgoed.",
       "url": "https://toyparadise.nl/2026/09/07/in-the-toyzone-toy-paradise/"
     },
     {
@@ -201,7 +201,7 @@
       "name": "Happy Collecting Beurs",
       "city": "Heerhugowaard",
       "country": "NL",
-      "note": "Vierde editie, vandaag opnieuw nagekeken op de eigen site: 11 tot 16 uur met VIP-toegang vanaf 10 uur, Gildestraat 2; prijzen staan niet op de site, alleen een ticketlink. De organisator noemt het zelf \"TCG - Vintage games & toys\" en de nadruk ligt op Pokémon, Yu-Gi-Oh! en retrogames, dus actiefiguren zijn hier bijvangst en geen hoofdzaak — ga erheen voor een bak doorzoeken en niet voor een plank met Marvel Legends. Er staan wel figuurhandelaren: Figure it Out meldt zelf een stand op deze editie.",
+      "note": "Vierde editie, vandaag opnieuw op de eigen site bevestigd: 11 tot 16 uur met VIP-toegang van 10 tot 11 uur, Gildestraat 2. Prijzen staan niet op de site, alleen een ticketlink via Weeztix. De organisator noemt zelf TCG (Pokémon, Yu-Gi-Oh!), vintage games, speelgoed en fan-art, dus actiefiguren zijn hier bijvangst en geen hoofdzaak — ga erheen voor een bak doorzoeken en niet voor een plank met Marvel Legends.",
       "url": "https://www.happycollecting.nl/"
     },
     {
@@ -209,7 +209,7 @@
       "name": "Filmbörse Neu-Isenburg",
       "city": "Neu-Isenburg",
       "country": "DE",
-      "note": "10 tot 15 uur in de Hugenottenhalle, net onder Frankfurt, vandaag opnieuw bevestigd op filmboersen.de. Ver rijden, maar dit is de enige Filmbörse van deze maand. En het is de laatste in Neu-Isenburg: filmboersen.de zet op 31 januari 2027 een Filmbörse in de Stadthalle Langen met de aantekening dat die in de plaats komt van Neu-Isenburg.",
+      "note": "10 tot 15 uur in de Hugenottenhalle, net onder Frankfurt, vandaag opnieuw bevestigd op filmboersen.de. Ver rijden, maar dit is de enige Filmbörse van deze maand. En het is de laatste in Neu-Isenburg: op 31 januari staat er een Filmbörse in de Stadthalle Langen met de aantekening dat die in de plaats komt van Neu-Isenburg.",
       "url": "https://filmboersen.de/termine"
     },
     {
@@ -217,7 +217,7 @@
       "name": "German Film & Comic Con Winter Edition",
       "city": "Dortmund",
       "country": "DE",
-      "note": "5 en 6 december in de Messe Dortmund, hallen 4 tot en met 7, ingang via het nieuwe noordforum, vandaag opnieuw nagekeken; zaterdag 10 tot 18 uur, zondag 10 tot 17 uur. De gastenlijst maakt dit de beurs van dit kwartaal voor jou: Dolph Lundgren uit de MOTU-film van 1987, naast onder anderen Ewan McGregor, John Cena, Robert Englund, Anthony Daniels, John Boyega en Robert Patrick. Sterren zijn er in principe beide dagen. De site noemt zelf dat de ingangscontrole tijd kost, dus wees er vroeg. Ted DiBiase en Nikko Angelo Hinayo zijn afgezegd.",
+      "note": "5 en 6 december in de Messe Dortmund, hallen 4 tot en met 7, ingang via het nieuwe noordforum; zaterdag 10 tot 18 uur, zondag 10 tot 17 uur. De gastenlijst maakt dit de beurs van dit kwartaal voor jou: Dolph Lundgren uit de MOTU-film van 1987, naast onder anderen Ewan McGregor, John Cena, Robert Englund, Anthony Daniels, John Boyega en Robert Patrick. Sterren zijn er in principe beide dagen. De site noemt zelf dat de ingangscontrole tijd kost, dus wees er vroeg. Ted DiBiase en Nikko Angelo Hinayo zijn afgezegd.",
       "url": "https://germanfilmcomiccon.com/en/home"
     },
     {
@@ -225,15 +225,15 @@
       "name": "ADLER Spielzeug Markt",
       "city": "Aken",
       "country": "DE",
-      "note": "11 tot 15 uur in de Park Terrassen aan de Dammstraße 40, vandaag opnieuw bevestigd op toymarkt.de. Dichtstbijzijnde ADLER-markt van het jaar vanuit Limburg, en dezelfde zondag als de tweede dag in Dortmund èn als de verzamelbeurzen in Gent — die drie zijn niet te combineren, dus kies. Alle data op toymarkt.de staan onder voorbehoud van goedkeuring door de autoriteiten.",
+      "note": "11 tot 15 uur in de Park Terrassen aan de Dammstraße 40, vandaag opnieuw bevestigd op toymarkt.de. Dichtstbijzijnde ADLER-markt van het jaar vanuit Limburg, en dezelfde zondag als de tweede dag in Dortmund èn als de verzamelbeurs in Gent — die drie zijn niet te combineren, dus kies. Alle data op toymarkt.de staan onder voorbehoud van goedkeuring door de autoriteiten.",
       "url": "https://www.toymarkt.de/termine.html"
     },
     {
       "date": "2026-12-06",
-      "name": "Verzamelbeurs Gent + Stripboekenbeurs Gent",
+      "name": "Verzamelbeurs Gent",
       "city": "Gent",
       "country": "BE",
-      "note": "Zondag 6 december in Flanders Expo, met vier beurzen van dezelfde organisator (Dipro) onder één dak: de Verzamelbeurs, een voor het eerst georganiseerde Stripboekenbeurs, de Platen- en CD-beurs en de Fotografiebeurs, plus de rommel- en brocantebeurs met ruim 1.250 meter standen. Wees eerlijk over wat het is: de Verzamelbeurs leunt zwaar op modeltreinen, miniatuurauto's en blikken speelgoed, maar de omschrijving noemt uitdrukkelijk vintage, figuurtjes en collectables, en de nieuwe Stripboekenbeurs noemt comics, manga, affiches én figuurtjes. Voor een zondag doorzoeken in België is dit in december het grootste aanbod binnen bereik.",
+      "note": "Zondag 6 december in Flanders Expo, vandaag opnieuw nagekeken; openingstijden en entreeprijs staan niet op de site, tickets alleen via de officiële kanalen. Wees eerlijk over wat het is: de omschrijving leunt zwaar op modeltreinen, miniatuurauto's, blikken speelgoed en Dinky Toys, maar noemt uitdrukkelijk ook figuren, vintage, bouwdozen, LEGO en collectables, met ruim een halve kilometer tafels. Voor een zondag doorzoeken in België is dit in december het grootste aanbod binnen bereik.",
       "url": "https://www.flandersexpo.be/kalender/verzamelbeurs/"
     },
     {
@@ -249,7 +249,7 @@
       "name": "Retro Game Beurs Kalken",
       "city": "Laarne",
       "country": "BE",
-      "note": "10 tot 15 uur, 5 euro entree. Games en consoles voeren hier de boventoon, maar het is de enige Belgische beurs van december binnen bereik na Gent, en bij dit soort beurzen staan er altijd een paar kramen met losse figuren uit dezelfde jaren. Dezelfde zondag als Troisdorf, dus het is of België of Duitsland. Vandaag opnieuw nagekeken op retrogamebeurzen.nl.",
+      "note": "10 tot 15 uur, 5 euro entree, vandaag opnieuw bevestigd op retrogamebeurzen.nl. Games en consoles voeren hier de boventoon, maar het is de enige Belgische beurs van december binnen bereik na Gent, en bij dit soort beurzen staan er altijd een paar kramen met losse figuren uit dezelfde jaren. Dezelfde zondag als Troisdorf, dus het is of België of Duitsland.",
       "url": "https://retrogamebeurzen.nl/events/"
     },
     {
@@ -257,7 +257,7 @@
       "name": "ADLER Spielzeug Markt",
       "city": "Keulen-Mülheim",
       "country": "DE",
-      "note": "Een speelgoedmarkt op nieuwjaarsdag zelf, 13 tot 17 uur in de Stadthalle aan de Jan-Wellem-Straße bij de Wiener Platz — het soort ding waar de concurrentie laag is, want de helft van de verzamelaars ligt dan nog in bed. Let op de afwijkende tijden: deze editie is 's middags, de andere ADLER-markten zijn 11 tot 15 uur. Vandaag opnieuw bevestigd op toymarkt.de. Dezelfde dag opent Mattel zijn DC-tijdperk met een livestream, dus je kunt die rustig terugkijken.",
+      "note": "Een speelgoedmarkt op nieuwjaarsdag zelf, 13 tot 17 uur in de Stadthalle aan de Jan-Wellem-Straße bij de Wiener Platz — het soort ding waar de concurrentie laag is, want de helft van de verzamelaars ligt dan nog in bed. Let op de afwijkende tijden: deze editie is 's middags, de andere ADLER-markten zijn 11 tot 15 uur. Vandaag opnieuw bevestigd op toymarkt.de. Dezelfde dag opent Mattel zijn DC-tijdperk met een livestream, dus die kun je rustig terugkijken.",
       "url": "https://www.toymarkt.de/termine.html"
     },
     {
@@ -265,7 +265,7 @@
       "name": "Filmbörse Neuss",
       "city": "Neuss",
       "country": "DE",
-      "note": "10 tot 15 uur in Gare du Neuss. Film- en tv-spullen met vaste figuurhandelaren, en de dichtstbijzijnde Duitse beurs van het nieuwe jaar. Twee dagen na de nieuwjaarsmarkt in Keulen-Mülheim, dus dat is één weekend met twee kansen. Vandaag opnieuw bevestigd op filmboersen.de.",
+      "note": "10 tot 15 uur in Gare du Neuss, vandaag opnieuw bevestigd op filmboersen.de. Film- en tv-spullen met vaste figuurhandelaren, en de dichtstbijzijnde Duitse beurs van het nieuwe jaar. Twee dagen na de nieuwjaarsmarkt in Keulen-Mülheim, dus dat is één weekend met twee kansen.",
       "url": "https://filmboersen.de/termine"
     },
     {
@@ -275,14 +275,6 @@
       "country": "DE",
       "note": "10 tot 15 uur in de Mensa am Ring. Van de Duitse Filmbörsen is Münster na Neuss de best te rijden vanuit Nederland, en daarmee heb je twee weekenden op rij een Duitse film- en tv-beurs binnen bereik. Vandaag opnieuw bevestigd op filmboersen.de, met dezelfde aantekening als eerder: de link daar wijst nog naar een oktoberdatum, dus bevestig bij de organisator voordat je gaat.",
       "url": "https://filmboersen.de/termine"
-    },
-    {
-      "date": "2027-01-24",
-      "name": "ADLER Spielzeug Markt",
-      "city": "Troisdorf",
-      "country": "DE",
-      "note": "11 tot 15 uur in de Stadthalle aan de Kölner Straße 167, vandaag opnieuw bevestigd op toymarkt.de. Drie weken na de nieuwjaarsmarkt en de best te rijden ADLER van januari; de week erna is Leverkusen. Alle data op toymarkt.de staan onder voorbehoud van goedkeuring door de autoriteiten.",
-      "url": "https://www.toymarkt.de/termine.html"
     },
     {
       "date": "2027-01-31",
@@ -297,22 +289,50 @@
       "name": "GlitchMania 2027 Vintage Game & Toy Fair",
       "city": "Herzele",
       "country": "BE",
-      "note": "De enige beurs binnen bereik die vintage speelgoed uitdrukkelijk in zijn naam zet. Zaterdag 20 februari, 9 tot 16 uur, 5 euro entree. Zeven uur open is lang voor dit soort beurzen, dus je hoeft hier niet om negen uur te staan. Games en speelgoed door elkaar; voor jou is dit het soort zaal waar losse figuren uit de jaren tachtig en negentig in bakken liggen in plaats van op planken. Vandaag opnieuw nagekeken op retrogamebeurzen.nl.",
+      "note": "De enige beurs binnen bereik die vintage speelgoed uitdrukkelijk in zijn naam zet. Zaterdag 20 februari, 9 tot 16 uur, 5 euro entree, vandaag opnieuw bevestigd op retrogamebeurzen.nl. Zeven uur open is lang voor dit soort beurzen, dus je hoeft hier niet om negen uur te staan. Games en speelgoed door elkaar; voor jou is dit het soort zaal waar losse figuren uit de jaren tachtig en negentig in bakken liggen in plaats van op planken.",
       "url": "https://retrogamebeurzen.nl/events/"
+    },
+    {
+      "date": "2027-02-21",
+      "name": "Filmbörse Köln — Das Original",
+      "city": "Keulen-Mülheim",
+      "country": "DE",
+      "note": "10 tot 15 uur in de Stadthalle Köln-Mülheim, vandaag voor het eerst op filmboersen.de gezien staan. Zelfde zaal als de ADLER-markten en daarmee de best te rijden Filmbörse van het voorjaar: film- en tv-spullen in plaats van modeltreinen. Een dag na GlitchMania in Herzele, dus dat weekend kun je beide kanten op.",
+      "url": "https://filmboersen.de/termine"
     }
   ],
   "sources": [
     {
-      "label": "Toyark — X-Men ’97 Marvel Legends Bolivar Trask en Bastion Nimrod: 74,99 dollar, venster sluit 20 november, annuleren tot 7 december",
-      "url": "https://www.toyark.com/2026/10/07/x-men-97-marvel-legends-bolivar-trask-and-bastion-nimrod-600069"
-    },
-    {
-      "label": "MarvelousNews — preorder-alert Trask & Nimrod met de exacte sluit- en annuleerdata",
-      "url": "https://marvelousnews.com/252-39268"
+      "label": "MarvelousNews — in-hand foto's van het Trask & Nimrod tweepak, met de sluitdatum 20 november en annuleren tot 7 december",
+      "url": "https://marvelousnews.com/252-39361"
     },
     {
       "label": "Bleeding Cool — made-to-order Trask en Nimrod onthuld, 74,99 dollar, verzending november 2027",
       "url": "https://bleedingcool.com/collectibles/marvel-legends-made-to-order-x-men-97-trask-and-nimrod-revealed/"
+    },
+    {
+      "label": "Toyark — Marvel Legends Venom (Spider-Man) officiële foto's en preorders, 39,99 dollar, maart 2027",
+      "url": "https://www.toyark.com/2026/11/18/marvel-legends-venom-spider-man-official-images-and-preorders-602849"
+    },
+    {
+      "label": "Toy Hype USA — verschepingsupdate Marvel Legends Avengers: Doomsday golf 1, 27,99 dollar per figuur",
+      "url": "https://toyhypeusa.com/2026/09/28/hasbro-marvel-legends-series-avengers-doomsday-wave-1-figures-shipping-update/"
+    },
+    {
+      "label": "Toy Habits — de zes preorders van de Avengers: Doomsday-golf en hun prijzen",
+      "url": "https://toyhabits.com/avengers-doomsday-marvel-legends-preorders/"
+    },
+    {
+      "label": "Wikipedia — Avengers: Doomsday: Amerikaanse start 18 december, rolverdeling en voorverkoopcijfers",
+      "url": "https://en.wikipedia.org/wiki/Avengers:_Doomsday"
+    },
+    {
+      "label": "Pathé — Avengers: Doomsday staat op 16 december in de Nederlandse bioscopen",
+      "url": "https://www.pathe.nl/nl/films/avengers-doomsday-48093"
+    },
+    {
+      "label": "FilmVandaag — Nederlands record: ruim 50.000 kaarten in 24 uur tegen 42.000 voor Endgame",
+      "url": "https://www.filmvandaag.nl/nieuws/32990-avengers-doomsday-vestigt-nu-al-een-bijzonder-record-in-nederland"
     },
     {
       "label": "Pirates & Princesses — wanneer de Marvel Legends-preorders opengaan (9, 10 en 14 december, 13 uur oostkusttijd)",
@@ -323,11 +343,15 @@
       "url": "https://www.toyark.com/2026/11/16/marvel-legends-fanstream-superior-iron-man-the-maker-ghost-rider-and-doctor-doom-602685"
     },
     {
+      "label": "heman.org — Mattel zet een jaartal achter het einde van Powers of Grayskull en zegt dat Origins niet weggaat",
+      "url": "https://heman.org/news/2026-11-18-powers-of-grayskull-clarification/"
+    },
+    {
       "label": "heman.org — Origins golf 1 ligt op voorraad; golf 2 is Skeletor, Mer-Man en Man-E-Faces",
       "url": "https://heman.org/news/2026-11-16-motu-origins-baf-wave-1-in-stock/"
     },
     {
-      "label": "Toy Habits — MOTU Origins Eldor, Mattel Creations-exclusief, 22 dollar, 11 en 12 november",
+      "label": "Toy Habits — MOTU Origins Eldor, Mattel Creations-exclusief, 22 dollar",
       "url": "https://toyhabits.com/eldor-motu-origins-mattel-creations-exclusive-official-images-and-preorder/"
     },
     {
@@ -335,7 +359,11 @@
       "url": "https://toyhypeusa.com/2026/11/06/super7-godzilla-ultimates-godzilla-king-ghidorah-minus-zero-godzilla-delxue-figures-pre-orders/"
     },
     {
-      "label": "Toy Habits — uitgelekte winkellijst van Mattels TMNT-golf 2027 (Technodrome, Party Wagon, Sewer Lair), niets bevestigd",
+      "label": "Toyark — Godzilla: Minus Zero S.H.MonsterArts King Ghidorah preorders",
+      "url": "https://www.toyark.com/2026/11/09/godzilla-minus-zero-super7-godzilla-and-king-ghidorah-ultimates-reaction-and-super-kaiju-figures-602287"
+    },
+    {
+      "label": "Toy Habits — uitgelekte winkellijst van Mattels TMNT-golf, mogelijk bij een film op 13 augustus 2027, niets bevestigd",
       "url": "https://toyhabits.com/tmnt-the-movie-2027-new-figures-vehicles-coming/"
     },
     {
@@ -343,36 +371,20 @@
       "url": "https://ninjaturtles.tv/toys/mattel-tmnt/"
     },
     {
+      "label": "Toyark — Gladstone Investment neemt een meerderheidsbelang in McFarlane Toys",
+      "url": "https://www.toyark.com/2026/11/06/mcfarlane-toys-majority-stake-acquired-by-gladstone-investment-601999"
+    },
+    {
       "label": "DC Collectors — alles wat Mattel op NYCC 2026 liet zien: 6,5 inch, DC Core 12,99 dollar, Batman: Hush-diorama 100 dollar, livestream 1 januari",
       "url": "https://dccollectors.com/2026/10/09/mattel-dc-action-figures-everything-revealed-at-nycc-2026/"
     },
     {
-      "label": "Toy Habits — Mattel Creations DC-livestream staat op 1 januari 2027",
-      "url": "https://toyhabits.com/mattel-creations-dc-collector-line-livestream-set-for-january-1-2027/"
+      "label": "9to5Toys — LEGO Ideas 21375 Godzilla op 27 november, 5.363 stukjes, met set 40888 als cadeau bij aankoop",
+      "url": "https://9to5toys.com/2026/11/03/lego-reveal-ideas-godzilla-set-black-friday/"
     },
     {
-      "label": "The Numbers — box office Godzilla Minus Zero: 49,1 miljoen binnenlands tot en met 15 november",
-      "url": "https://www.the-numbers.com/movie/Godzilla-Minus-Zero-(2026-Japan)"
-    },
-    {
-      "label": "Anime News Network — tweede weekend 8 miljoen dollar, een val van 73 procent, en wereldwijd over de 100 miljoen",
-      "url": "https://www.animenewsnetwork.com/news/2026-11-16/godzilla-minus-zero-earns-usd8-million-in-73-percent-drop-at-u.s-box-office-passes-usd100-million-/.243859"
-    },
-    {
-      "label": "NBC News — recordopening van 31,6 miljoen dollar voor Godzilla Minus Zero",
-      "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/godzilla-zero-stomps-record-setting-316-debut-clobbering-cat-hat-rcna608257"
-    },
-    {
-      "label": "Pathé — Godzilla Minus Zero loopt in de Nederlandse bioscopen",
-      "url": "https://www.pathe.nl/nl/films/godzilla-minus-zero-nederlands-ondertiteld-56215"
-    },
-    {
-      "label": "Wikipedia — Masters of the Universe (2026): releasedata, cijfers en de cameo van Dolph Lundgren",
-      "url": "https://en.wikipedia.org/wiki/Masters_of_the_Universe_(2026_film)"
-    },
-    {
-      "label": "German Film & Comic Con — Dortmund 5 en 6 december, openingstijden en gastenlijst",
-      "url": "https://germanfilmcomiccon.com/en/home"
+      "label": "Heroes Dutch Comic Con — data, openingstijden en praktische informatie, vandaag nagekeken",
+      "url": "https://www.dutchcomiccon.com/info/"
     },
     {
       "label": "toymarkt.de — ADLER-marktdata, vandaag opnieuw nagekeken",
@@ -383,28 +395,32 @@
       "url": "https://filmboersen.de/termine"
     },
     {
-      "label": "meukisleuk.nl — agenda verzamelbeurzen",
-      "url": "https://meukisleuk.nl/agenda/verzamelbeurs"
-    },
-    {
       "label": "retrogamebeurzen.nl — beursagenda NL/BE/DE, vandaag opnieuw nagekeken",
       "url": "https://retrogamebeurzen.nl/events/"
     },
     {
-      "label": "Toy Paradise — In the Toyzone Holiday Edition, Haarlem 28 november",
-      "url": "https://toyparadise.nl/2026/09/07/in-the-toyzone-toy-paradise/"
-    },
-    {
-      "label": "happycollecting.nl — Happy Collecting Beurs Heerhugowaard 29 november, 11 tot 16 uur, VIP vanaf 10 uur",
-      "url": "https://www.happycollecting.nl/"
+      "label": "meukisleuk.nl — agenda verzamelbeurzen, vandaag nagekeken (geen figuurbeurzen nieuw)",
+      "url": "https://meukisleuk.nl/agenda/verzamelbeurs"
     },
     {
       "label": "popfiguren.nl — speelgoedbeurzen (geen data meer na 10 oktober)",
       "url": "https://popfiguren.nl/speelgoedbeurzen-2026"
     },
     {
-      "label": "ninjaturtles.tv — TMNT x G.I. Joe genomineerd voor Action Figure of the Year, stemmen tot 6 januari",
-      "url": "https://ninjaturtles.tv/news/2026-11-09-tmnt-gi-joe-toty-2027-action-figure-finalist/"
+      "label": "Toy Paradise — In the Toyzone Holiday Edition, Haarlem 28 november",
+      "url": "https://toyparadise.nl/2026/09/07/in-the-toyzone-toy-paradise/"
+    },
+    {
+      "label": "happycollecting.nl — Happy Collecting Beurs Heerhugowaard 29 november, 11 tot 16 uur, VIP van 10 tot 11",
+      "url": "https://www.happycollecting.nl/"
+    },
+    {
+      "label": "Flanders Expo — Verzamelbeurs Gent op 6 december",
+      "url": "https://www.flandersexpo.be/kalender/verzamelbeurs/"
+    },
+    {
+      "label": "German Film & Comic Con — Dortmund 5 en 6 december, openingstijden en gastenlijst",
+      "url": "https://germanfilmcomiccon.com/en/home"
     }
   ],
   "sourceNote": "Reddit blokkeert geautomatiseerd meelezen, dus het gesprek in de scene komt van de verzamelaarsblogs en niet van het forum zelf."
