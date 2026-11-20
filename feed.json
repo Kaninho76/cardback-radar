@@ -1,17 +1,34 @@
 {
- "updatedISO": "2026-11-20T03:25:17+00:00",
+ "updatedISO": "2026-11-20T13:01:42+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Avengers: Doomsday – Hot Toys Lord Doom (Concept Art) Figure",
+   "url": "https://www.toyark.com/2026/11/20/avengers-doomsday-hot-toys-lord-doom-concept-art-figure-602937",
+   "source": "The Toyark",
+   "iso": "2026-11-20T12:49:49+00:00"
+  },
+  {
+   "title": "Absolute Batman – Hot Toys Bane Figure",
+   "url": "https://www.toyark.com/2026/11/20/absolute-batman-hot-toys-bane-figure-602911",
+   "source": "The Toyark",
+   "iso": "2026-11-20T12:43:08+00:00"
+  },
+  {
+   "title": "FanRoll Acquires Easy Roller Dice Company, Expanding Its Reach in the Tabletop Gaming Market",
+   "url": "https://www.actionfigureinsider.com/fanroll-acquires-easy-roller-dice-company-expanding-its-reach-in-the-tabletop-gaming-market/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-20T12:00:27+00:00"
+  },
   {
    "title": "Mezco Toyz Teenage Mutant Ninja Turtles (1990) One:12 Collective Action Figure Boxed Set Available Now",
    "url": "https://toyhypeusa.com/2026/11/19/mezco-toyz-tmnt-1990-one12-collective-action-figure-boxed-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mezco-toyz-tmnt-1990-one12-collective-action-figure-boxed-set-available-now",
@@ -263,100 +280,82 @@
    "url": "https://toyhabits.com/tmnt-the-movie-2027-new-figures-vehicles-coming/",
    "source": "Toy Habits",
    "iso": "2026-11-18T02:10:12+00:00"
-  },
-  {
-   "title": "BigBadWorkShop – The Raven Society: Founder Edition 1/12 Scale Figures Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/11/17/bigbadworkshop-the-raven-society-founder-edition-1-12-scale-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-the-raven-society-founder-edition-1-12-scale-figures-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-17T23:37:09+00:00"
-  },
-  {
-   "title": "SAN DIEGO LEGO®-CON Finds Permanent Home at Comic-Con Museum®",
-   "url": "https://www.actionfigureinsider.com/san-diego-lego-con-finds-permanent-home-at-comic-con-museum/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-17T21:38:22+00:00"
-  },
-  {
-   "title": "Robosen Transformers Elite Optimus Prime Auto-Converting Robot (2026 Edition) Figure Pre-Orders",
-   "url": "https://toyhypeusa.com/2026/11/17/robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-17T20:50:58+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-19T21:41:52+00:00",
+  "updatedISO": "2026-11-20T13:01:42+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": 114
+    "change": 94
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 50647,
-    "change": 90
+    "perDay": 49633,
+    "change": 77
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 6919,
-    "change": 73
+    "perDay": 6428,
+    "change": 52
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 2332,
-    "change": 53
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 592,
-    "change": 6
+    "perDay": 2139,
+    "change": 34
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
     "perDay": 68,
+    "change": 3
+   },
+   {
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 574,
     "change": 1
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 141,
-    "change": 1
-   },
-   {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 91,
-    "change": -4
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 823,
+    "perDay": 134,
     "change": -5
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 2026,
-    "change": -5
+    "perDay": 2018,
+    "change": -6
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 816,
+    "change": -7
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1944,
-    "change": -8
+    "perDay": 1919,
+    "change": -10
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 86,
+    "change": -10
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 475,
+    "perDay": 472,
     "change": -11
    }
   ],
