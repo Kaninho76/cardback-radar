@@ -1,16 +1,35 @@
 {
- "updatedISO": "2026-11-19T21:41:52+00:00",
+ "updatedISO": "2026-11-20T03:25:17+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Mezco Toyz Teenage Mutant Ninja Turtles (1990) One:12 Collective Action Figure Boxed Set Available Now",
+   "url": "https://toyhypeusa.com/2026/11/19/mezco-toyz-tmnt-1990-one12-collective-action-figure-boxed-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mezco-toyz-tmnt-1990-one12-collective-action-figure-boxed-set-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-20T01:48:18+00:00"
+  },
+  {
+   "title": "Super7 G.I. Joe ReAction+ Tiger Force Wild Bill, Snake Eyes & Duke, Python Patrol Cobra Commander, & Serpentor Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/11/19/super7-gijoe-reaction-tiger-force-wild-bill-snake-eyes-duke-python-patrol-cobra-commander-serpentor-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=super7-gijoe-reaction-tiger-force-wild-bill-snake-eyes-duke-python-patrol-cobra-commander-serpentor-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-20T01:35:23+00:00"
+  },
+  {
+   "title": "Super7 Ultimates Mako Tiger Sharks In Hand Images",
+   "url": "https://toyhabits.com/super7-ultimates-mako-tiger-sharks-in-hand-images/",
+   "source": "Toy Habits",
+   "iso": "2026-11-19T23:56:11+00:00"
+  },
   {
    "title": "LEGO Up-Scaled Santa Minifigure 40820 Set Now $41.99",
    "url": "https://toyhypeusa.com/2026/11/19/lego-up-scaled-santa-minifigure-40820-set-now-41-99/?utm_source=rss&utm_medium=rss&utm_campaign=lego-up-scaled-santa-minifigure-40820-set-now-41-99",
@@ -262,24 +281,6 @@
    "url": "https://toyhypeusa.com/2026/11/17/robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders",
    "source": "Toy Hype USA",
    "iso": "2026-11-17T20:50:58+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Maximum Series 6″ Thor & Throg Figures Review",
-   "url": "https://toyhypeusa.com/2026/11/17/hasbro-marvel-legends-maximum-series-thor-throg-figures-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-maximum-series-thor-throg-figures-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-17T20:30:21+00:00"
-  },
-  {
-   "title": "Star Wars: R2-D2 Celebrates Life Day with Droid Factory Figure",
-   "url": "https://bleedingcool.com/collectibles/star-wars-r2-d2-celebrates-life-day-with-droid-factory-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-17T19:28:08+00:00"
-  },
-  {
-   "title": "MOTU Chronicles, Origins, and Battle For Subternia Spring Catalog 2027 New Figures",
-   "url": "https://toyhabits.com/motu-chronicles-origins-and-battle-for-subternia-spring-catalog-2027-new-figures/",
-   "source": "Toy Habits",
-   "iso": "2026-11-17T18:42:32+00:00"
   }
  ],
  "trends": {
