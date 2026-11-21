@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-20T21:11:55+00:00",
+ "updatedISO": "2026-11-21T02:24:51+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "Entertainment Earth News: Tamashii Nations, DC, Epic H.A.C.K.S, Street Fighter, Batman, G.I. Joe, X-Men ’97 & Star Wars",
+   "url": "https://toyhypeusa.com/2026/11/20/ee-tamashii-nations-dc-epic-h-a-c-k-s-street-fighter-batman-gijoe-xmen-97-star-wars/?utm_source=rss&utm_medium=rss&utm_campaign=ee-tamashii-nations-dc-epic-h-a-c-k-s-street-fighter-batman-gijoe-xmen-97-star-wars",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-20T21:20:40+00:00"
+  },
   {
    "title": "BigBadWorkShop – Army Ants Armada Trooper Squad Grubb & Infantry Team Grunt Figure 2-Pack Pre-Orders – Fully Funded",
    "url": "https://toyhypeusa.com/2026/11/20/bigbadworkshop-army-ants-armada-trooper-squad-grubb-infantry-team-grunt-figure-2-pack-pre-orders-fully-funded/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-army-ants-armada-trooper-squad-grubb-infantry-team-grunt-figure-2-pack-pre-orders-fully-funded",
@@ -274,16 +280,10 @@
    "url": "https://bleedingcool.com/collectibles/therakles-lion-of-erebus-joins-boss-fight-studios-epic-h-a-c-k-s/",
    "source": "Bleeding Cool",
    "iso": "2026-11-18T19:52:07+00:00"
-  },
-  {
-   "title": "Marvel Legends Amazing Venom Spider-Man Deluxe Figure Up for Order! (Boomerang/Comeback)",
-   "url": "https://marveltoynews.com/marvel-legends-amazing-venom-spider-man-deluxe-figure-up-for-order-boomerang-comeback/",
-   "source": "Marvel Toy News",
-   "iso": "2026-11-18T19:19:46+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-20T13:01:42+00:00",
+  "updatedISO": "2026-11-21T02:24:51+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
@@ -295,68 +295,68 @@
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 49633,
-    "change": 77
+    "perDay": 48809,
+    "change": 68
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 6428,
-    "change": 52
+    "perDay": 5916,
+    "change": 34
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 2139,
-    "change": 34
+    "perDay": 1994,
+    "change": 20
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 68,
-    "change": 3
+    "perDay": 67,
+    "change": 2
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 574,
-    "change": 1
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 134,
-    "change": -5
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 2018,
-    "change": -6
+    "perDay": 559,
+    "change": -2
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 816,
-    "change": -7
+    "perDay": 802,
+    "change": -8
    },
    {
-    "label": "TMNT",
-    "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1919,
-    "change": -10
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 1970,
+    "change": -8
    },
    {
-    "label": "McFarlane Toys",
-    "article": "McFarlane_Toys",
-    "perDay": 86,
-    "change": -10
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 129,
+    "change": -9
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 472,
+    "perDay": 474,
     "change": -11
+   },
+   {
+    "label": "TMNT",
+    "article": "Teenage_Mutant_Ninja_Turtles",
+    "perDay": 1901,
+    "change": -11
+   },
+   {
+    "label": "McFarlane Toys",
+    "article": "McFarlane_Toys",
+    "perDay": 82,
+    "change": -15
    }
   ],
   "missed": []
