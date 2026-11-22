@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-21T23:24:44+00:00",
+ "updatedISO": "2026-11-22T06:59:37+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -283,80 +283,80 @@
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-21T18:02:32+00:00",
+  "updatedISO": "2026-11-22T06:59:37+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 2,
-    "change": 94
+    "change": 63
    },
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 48809,
-    "change": 68
+    "perDay": 47296,
+    "change": 57
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 5916,
-    "change": 34
+    "perDay": 5511,
+    "change": 21
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1994,
-    "change": 20
+    "perDay": 1871,
+    "change": 10
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 67,
-    "change": 2
+    "perDay": 65,
+    "change": -1
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 559,
-    "change": -2
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 802,
-    "change": -8
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 1970,
-    "change": -8
+    "perDay": 558,
+    "change": -1
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 129,
+    "perDay": 130,
+    "change": -7
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 788,
     "change": -9
    },
    {
-    "label": "Masters of the Universe",
-    "article": "Masters_of_the_Universe",
-    "perDay": 474,
-    "change": -11
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 1943,
+    "change": -9
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1901,
+    "perDay": 1878,
     "change": -11
+   },
+   {
+    "label": "Masters of the Universe",
+    "article": "Masters_of_the_Universe",
+    "perDay": 457,
+    "change": -14
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 82,
-    "change": -15
+    "perDay": 80,
+    "change": -18
    }
   ],
   "missed": []
