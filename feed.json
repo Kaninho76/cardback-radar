@@ -1,17 +1,34 @@
 {
- "updatedISO": "2026-11-23T02:51:28+00:00",
+ "updatedISO": "2026-11-23T13:00:11+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Superstar DJ & Producer John Summit Drops New Squishmallows Collaboration with Jazwares",
+   "url": "https://www.actionfigureinsider.com/superstar-dj-producer-john-summit-drops-new-squishmallows-collaboration-with-jazwares/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-23T12:00:09+00:00"
+  },
+  {
+   "title": "Doctor Stitch In The Daily LITG For The 23rd Of November 2026",
+   "url": "https://bleedingcool.com/collectibles/doctor-stitch-in-the-daily-litg-for-the-23rd-of-november-2026/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T09:58:07+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Gamerverse (Marvel vs Capcom) – Wolverine vs. Psylocke (Player 2) Figures Available Now",
+   "url": "https://toyhypeusa.com/2026/11/23/hasbro-marvel-legends-series-gamerverse-marvel-vs-capcom-wolverine-vs-psylocke-player-2-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-gamerverse-marvel-vs-capcom-wolverine-vs-psylocke-player-2-figures-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-23T05:37:43+00:00"
+  },
   {
    "title": "Boss Fight Studio – Sam & Max 1/18 Scale Figure Two-Packs Pre-Orders",
    "url": "https://toyhypeusa.com/2026/11/22/boss-fight-studio-sam-max-1-18-scale-figure-two-packs-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=boss-fight-studio-sam-max-1-18-scale-figure-two-packs-pre-orders",
@@ -263,101 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/mcdonalds-unveils-new-holiday-meal-for-december-with-home-alone/",
    "source": "Bleeding Cool",
    "iso": "2026-11-19T17:22:08+00:00"
-  },
-  {
-   "title": "Amazon Black Friday Sales 2026 Toy Sales",
-   "url": "https://toyhabits.com/amazon-black-friday-sales-2026-toy-sales/",
-   "source": "Toy Habits",
-   "iso": "2026-11-19T17:02:48+00:00"
-  },
-  {
-   "title": "Bow Before the New Marvel Legends God Emperor Doom",
-   "url": "https://bleedingcool.com/collectibles/bow-before-the-new-marvel-legends-god-emperor-doom/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-19T16:23:08+00:00"
-  },
-  {
-   "title": "Blokees Debuts Transformers Power of the Primes Defender Version 09",
-   "url": "https://bleedingcool.com/collectibles/blokees-debuts-transformers-power-of-the-primes-defender-version-09/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-19T15:52:16+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-22T21:52:46+00:00",
+  "updatedISO": "2026-11-23T13:00:11+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 2,
-    "change": 63
-   },
-   {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 47296,
-    "change": 57
+    "perDay": 45494,
+    "change": 46
+   },
+   {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 1,
+    "change": 29
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 5511,
-    "change": 21
+    "perDay": 5101,
+    "change": 8
    },
    {
     "label": "Kaiju",
     "article": "Kaiju",
-    "perDay": 1871,
-    "change": 10
+    "perDay": 1742,
+    "change": -1
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 65,
-    "change": -1
+    "perDay": 64,
+    "change": -2
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 558,
-    "change": -1
+    "perDay": 540,
+    "change": -5
    },
    {
     "label": "Actiefiguren",
     "article": "Action_figure",
-    "perDay": 130,
-    "change": -7
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 788,
+    "perDay": 127,
     "change": -9
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 1943,
-    "change": -9
+    "perDay": 1906,
+    "change": -11
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 768,
+    "change": -12
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1878,
-    "change": -11
+    "perDay": 1855,
+    "change": -12
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 457,
-    "change": -14
+    "perDay": 441,
+    "change": -17
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 80,
-    "change": -18
+    "perDay": 77,
+    "change": -21
    }
   ],
   "missed": []
