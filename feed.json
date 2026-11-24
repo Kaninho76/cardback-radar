@@ -1,16 +1,101 @@
 {
- "updatedISO": "2026-11-23T13:00:11+00:00",
+ "updatedISO": "2026-11-24T00:57:46+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Super7 2026 Black Friday Sale & Doorbusters",
+   "url": "https://toyhabits.com/super7-2026-black-friday-sale-doorbusters/",
+   "source": "Toy Habits",
+   "iso": "2026-11-24T00:38:52+00:00"
+  },
+  {
+   "title": "Robosen Transformers Elite Optimus Prime Auto-Converting Robot (2026 Edition) Figure Pre-Orders (Update)",
+   "url": "https://toyhypeusa.com/2026/11/23/robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders-update/?utm_source=rss&utm_medium=rss&utm_campaign=robosen-transformers-elite-optimus-prime-auto-converting-robot-2026-edition-figure-pre-orders-update",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-23T23:56:32+00:00"
+  },
+  {
+   "title": "Hasbro Marvel Legends Series 6″ Spider-Man (Marvel Holiday Special) Figure Available Now",
+   "url": "https://toyhypeusa.com/2026/11/23/hasbro-marvel-legends-series-spider-man-marvel-holiday-special-figure-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-spider-man-marvel-holiday-special-figure-available-now",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-23T21:09:19+00:00"
+  },
+  {
+   "title": "Hot Wheels Adds Cadillac and Audi to Complete F1 Lineup",
+   "url": "https://www.actionfigureinsider.com/hot-wheels-adds-cadillac-and-audi-to-complete-f1-lineup/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-23T20:02:57+00:00"
+  },
+  {
+   "title": "McFarlane Toys Prepares Collectors for Dune: Part Three with Chani",
+   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-prepares-collectors-for-dune-part-three-with-chani/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T18:53:08+00:00"
+  },
+  {
+   "title": "Lovecraft Returns from the Dead for BigBadWorkShop's The Raven Society",
+   "url": "https://bleedingcool.com/collectibles/lovecraft-returns-from-the-dead-for-bigbadworkshops-the-raven-society/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T17:53:10+00:00"
+  },
+  {
+   "title": "Medicom – MAFEX Batgirl (Cassandra Cain), Batman, T’Chaka (Black Panther), Michael Jordan & Looney Tunes Figures Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/23/medicom-mafex-batgirl-cassandra-cain-batman-tchaka-black-panther-michael-jordan-looney-tunes-figures-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=medicom-mafex-batgirl-cassandra-cain-batman-tchaka-black-panther-michael-jordan-looney-tunes-figures-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-23T17:31:13+00:00"
+  },
+  {
+   "title": "Harry Houdini Escapes Into BigBadWorkShop's 1/12 The Raven Society",
+   "url": "https://bleedingcool.com/collectibles/harry-houdini-escapes-into-bigbadworkshops-1-12-the-raven-society/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T17:23:08+00:00"
+  },
+  {
+   "title": "Mr. Home Arcade 2.0 Custom Action Figure In-Hand Review & Preorder",
+   "url": "https://toyhabits.com/mr-home-arcade-v2-custom-action-figure-in-hand-review-preorder/",
+   "source": "Toy Habits",
+   "iso": "2026-11-23T17:22:31+00:00"
+  },
+  {
+   "title": "Savage Crucible Enters the Age of Knights with New Sir Kassian Figure",
+   "url": "https://bleedingcool.com/collectibles/savage-crucible-enters-the-age-of-knights-with-new-sir-kassian-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T16:22:08+00:00"
+  },
+  {
+   "title": "Edgar Allan Poe Battles the Supernatural with The Raven Society",
+   "url": "https://bleedingcool.com/collectibles/edgar-allan-poe-battles-the-supernatural-with-the-raven-society/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T15:52:08+00:00"
+  },
+  {
+   "title": "Meet Savage Crucible's Knight of the Bearing and His Codes of Honor",
+   "url": "https://bleedingcool.com/collectibles/meet-savage-crucibles-knight-of-the-bearing-and-his-codes-of-honor/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T15:22:07+00:00"
+  },
+  {
+   "title": "Sam & Max Are Back on the Case with New Boss Fight Studio 2-Pack",
+   "url": "https://bleedingcool.com/collectibles/sam-max-are-back-on-the-case-with-new-boss-fight-studio-2-pack/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T14:52:08+00:00"
+  },
+  {
+   "title": "Paul Atreides Returns to McFarlane with New Dune: Part Three Figure",
+   "url": "https://bleedingcool.com/collectibles/paul-atreides-returns-to-mcfarlane-with-new-dune-part-three-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-23T14:22:07+00:00"
+  },
   {
    "title": "Superstar DJ & Producer John Summit Drops New Squishmallows Collaboration with Jazwares",
    "url": "https://www.actionfigureinsider.com/superstar-dj-producer-john-summit-drops-new-squishmallows-collaboration-with-jazwares/",
@@ -88,6 +173,12 @@
    "url": "https://bleedingcool.com/collectibles/blokees-speeds-into-dc-comics-with-new-legend-edition-flash-model-kit/",
    "source": "Bleeding Cool",
    "iso": "2026-11-21T17:21:08+00:00"
+  },
+  {
+   "title": "Amazon Black Friday Sales 2026 Toy Sales",
+   "url": "https://toyhabits.com/amazon-black-friday-sales-2026-toy-sales/",
+   "source": "Toy Habits",
+   "iso": "2026-11-21T17:02:48+00:00"
   },
   {
    "title": "Blokees Adds The Joker from Batman: Hush to DC Champion Class",
@@ -190,96 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/holiday-gift-guide-2026-cozy-finds-to-make-winter-a-little-warmer/",
    "source": "Bleeding Cool",
    "iso": "2026-11-20T17:22:11+00:00"
-  },
-  {
-   "title": "MOTUNIVERSE 2027 Kickstarter Coming Soon as Masters of the Universe Celebrates 45 Years",
-   "url": "https://toyhabits.com/motuniverse-2027-kickstarter-coming-soon-as-masters-of-the-universe-celebrates-45-years/",
-   "source": "Toy Habits",
-   "iso": "2026-11-20T16:15:44+00:00"
-  },
-  {
-   "title": "Fanhome Launches Top Gun Maverick F/A-18 Super Hornet Build-Up Model",
-   "url": "https://www.actionfigureinsider.com/fanhome-launches-top-gun-maverick-f-a-18-super-hornet-build-up-model/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-20T16:00:32+00:00"
-  },
-  {
-   "title": "Mondo’s Adventure Time Marceline & Princess Bubblegum Set + Poster",
-   "url": "https://www.actionfigureinsider.com/mondos-adventure-time-marceline-princess-bubblegum-set-poster/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-20T15:12:43+00:00"
-  },
-  {
-   "title": "Rockstar Games Announces Grand Theft Auto VI Now Available",
-   "url": "https://www.actionfigureinsider.com/rockstar-games-announces-grand-theft-auto-vi-now-available/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-20T15:01:33+00:00"
-  },
-  {
-   "title": "The Chosen Prime Newsletter November 20, 2026",
-   "url": "https://www.toyark.com/2026/11/20/the-chosen-prime-newsletter-november-20-2026-602956",
-   "source": "The Toyark",
-   "iso": "2026-11-20T13:05:52+00:00"
-  },
-  {
-   "title": "Avengers: Doomsday – Hot Toys Lord Doom (Concept Art) Figure",
-   "url": "https://www.toyark.com/2026/11/20/avengers-doomsday-hot-toys-lord-doom-concept-art-figure-602937",
-   "source": "The Toyark",
-   "iso": "2026-11-20T12:49:49+00:00"
-  },
-  {
-   "title": "Absolute Batman – Hot Toys Bane Figure",
-   "url": "https://www.toyark.com/2026/11/20/absolute-batman-hot-toys-bane-figure-602911",
-   "source": "The Toyark",
-   "iso": "2026-11-20T12:43:08+00:00"
-  },
-  {
-   "title": "FanRoll Acquires Easy Roller Dice Company, Expanding Its Reach in the Tabletop Gaming Market",
-   "url": "https://www.actionfigureinsider.com/fanroll-acquires-easy-roller-dice-company-expanding-its-reach-in-the-tabletop-gaming-market/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-20T12:00:27+00:00"
-  },
-  {
-   "title": "Mezco Toyz Teenage Mutant Ninja Turtles (1990) One:12 Collective Action Figure Boxed Set Available Now",
-   "url": "https://toyhypeusa.com/2026/11/19/mezco-toyz-tmnt-1990-one12-collective-action-figure-boxed-set-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=mezco-toyz-tmnt-1990-one12-collective-action-figure-boxed-set-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T01:48:18+00:00"
-  },
-  {
-   "title": "Super7 G.I. Joe ReAction+ Tiger Force Wild Bill, Snake Eyes & Duke, Python Patrol Cobra Commander, & Serpentor Figures Available Now",
-   "url": "https://toyhypeusa.com/2026/11/19/super7-gijoe-reaction-tiger-force-wild-bill-snake-eyes-duke-python-patrol-cobra-commander-serpentor-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=super7-gijoe-reaction-tiger-force-wild-bill-snake-eyes-duke-python-patrol-cobra-commander-serpentor-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T01:35:23+00:00"
-  },
-  {
-   "title": "Super7 Ultimates Mako Tiger Sharks In Hand Images",
-   "url": "https://toyhabits.com/super7-ultimates-mako-tiger-sharks-in-hand-images/",
-   "source": "Toy Habits",
-   "iso": "2026-11-19T23:56:11+00:00"
-  },
-  {
-   "title": "LEGO Up-Scaled Santa Minifigure 40820 Set Now $41.99",
-   "url": "https://toyhypeusa.com/2026/11/19/lego-up-scaled-santa-minifigure-40820-set-now-41-99/?utm_source=rss&utm_medium=rss&utm_campaign=lego-up-scaled-santa-minifigure-40820-set-now-41-99",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-19T20:25:46+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series 6″ Axel “Synapse” Soma Figure Review",
-   "url": "https://toyhypeusa.com/2026/11/19/hasbro-g-i-joe-classified-series-axel-synapse-soma-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-g-i-joe-classified-series-axel-synapse-soma-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-19T19:36:27+00:00"
-  },
-  {
-   "title": "Star Wars: Kit Fisto Legacy Lightsaber Hilt Arrives at Disney Store",
-   "url": "https://bleedingcool.com/collectibles/star-wars-kit-fisto-legacy-lightsaber-hilt-arrives-at-disney-store/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-19T18:22:08+00:00"
-  },
-  {
-   "title": "McDonald's Unveils New Holiday Meal for December with Home Alone",
-   "url": "https://bleedingcool.com/collectibles/mcdonalds-unveils-new-holiday-meal-for-december-with-home-alone/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-19T17:22:08+00:00"
   }
  ],
  "trends": {
