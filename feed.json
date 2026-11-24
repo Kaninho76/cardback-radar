@@ -1,16 +1,71 @@
 {
- "updatedISO": "2026-11-24T11:02:35+00:00",
+ "updatedISO": "2026-11-24T21:18:29+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
-  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [],
+ "sourcesFailed": [
+  "The Toyark: HTTP 403"
+ ],
  "items": [
+  {
+   "title": "Harvinger Studios Unleashes Savage Crucible's Varkul of the Bone",
+   "url": "https://bleedingcool.com/collectibles/harvinger-studios-unleashes-savage-crucibles-varkul-of-the-bone/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-24T19:52:07+00:00"
+  },
+  {
+   "title": "Ghostly The Raven Society Figure Arrives with Another Edgar Allan Poe",
+   "url": "https://bleedingcool.com/collectibles/ghostly-the-raven-society-figure-arrives-with-another-edgar-allan-poe/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-24T18:52:07+00:00"
+  },
+  {
+   "title": "Spider-Man Returns with New Hot Toys 1/6-scale No Way Home Figure",
+   "url": "https://bleedingcool.com/collectibles/spider-man-returns-with-new-hot-toys-1-6-scale-no-way-home-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-24T17:52:09+00:00"
+  },
+  {
+   "title": "Hot Toys Gives Loki New Artisan Edition Figure for Avengers: Doomsday",
+   "url": "https://bleedingcool.com/collectibles/hot-toys-gives-loki-new-artisan-edition-figure-for-avengers-doomsday/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-24T17:22:09+00:00"
+  },
+  {
+   "title": "McFarlane Toys Spawn King Spawn Deluxe 7″ Figure Pre-Orders",
+   "url": "https://toyhypeusa.com/2026/11/24/mcfarlane-toys-spawn-king-spawn-deluxe-figure-pre-orders/?utm_source=rss&utm_medium=rss&utm_campaign=mcfarlane-toys-spawn-king-spawn-deluxe-figure-pre-orders",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-24T17:02:04+00:00"
+  },
+  {
+   "title": "Hot Toys' 1/6-scale Ultron from Marvel Studios' VisionQuest",
+   "url": "https://bleedingcool.com/collectibles/hot-toys-1-6-scale-ultron-from-marvel-studios-visionquest/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-24T16:52:10+00:00"
+  },
+  {
+   "title": "Hot Toys Brings Vision Back to 1/6 Scale with New VisionQuest Figure",
+   "url": "https://bleedingcool.com/collectibles/hot-toys-brings-vision-back-to-1-6-scale-with-new-visionquest-figure/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-24T15:22:08+00:00"
+  },
+  {
+   "title": "Boss Fight Studio Debuts Sam & Max Fizzball Championship Two-Pack",
+   "url": "https://bleedingcool.com/collectibles/boss-fight-studio-debuts-sam-max-fizzball-championship-two-pack/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-24T14:22:08+00:00"
+  },
+  {
+   "title": "Dark Horse Direct Celebrates 10 Years of Hellboy in Hell with Collectible Statue",
+   "url": "https://www.actionfigureinsider.com/dark-horse-direct-celebrates-10-years-of-hellboy-in-hell-with-collectible-statue/",
+   "source": "Action Figure Insider",
+   "iso": "2026-11-24T12:00:59+00:00"
+  },
   {
    "title": "Super7 2026 Black Friday Sale & Doorbusters",
    "url": "https://toyhabits.com/super7-2026-black-friday-sale-doorbusters/",
@@ -132,6 +187,12 @@
    "iso": "2026-11-22T17:52:09+00:00"
   },
   {
+   "title": "Amazon Black Friday Sales 2026 Toy Sales",
+   "url": "https://toyhabits.com/amazon-black-friday-sales-2026-toy-sales/",
+   "source": "Toy Habits",
+   "iso": "2026-11-22T17:02:48+00:00"
+  },
+  {
    "title": "TMNT Cowabunga Forever 90s Movie Figures 5 Pack on Target",
    "url": "https://toyhabits.com/tmnt-cowabunga-forever-90s-movie-figures-5-pack-on-target/",
    "source": "Toy Habits",
@@ -180,12 +241,6 @@
    "iso": "2026-11-21T17:21:08+00:00"
   },
   {
-   "title": "Amazon Black Friday Sales 2026 Toy Sales",
-   "url": "https://toyhabits.com/amazon-black-friday-sales-2026-toy-sales/",
-   "source": "Toy Habits",
-   "iso": "2026-11-21T17:02:48+00:00"
-  },
-  {
    "title": "Blokees Adds The Joker from Batman: Hush to DC Champion Class",
    "url": "https://bleedingcool.com/collectibles/blokees-adds-the-joker-from-batman-hush-to-dc-champion-class/",
    "source": "Bleeding Cool",
@@ -226,60 +281,6 @@
    "url": "https://bleedingcool.com/collectibles/the-wasteland-awaits-with-new-fallouts-t-51-vault-tec-power-armor/",
    "source": "Bleeding Cool",
    "iso": "2026-11-20T20:22:08+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ Daredevil: Born Again – Daredevil & Jessica Jones Figures Available Now",
-   "url": "https://toyhypeusa.com/2026/11/20/hasbro-marvel-legends-series-daredevil-born-again-daredevil-jessica-jones-figures-available-now/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-daredevil-born-again-daredevil-jessica-jones-figures-available-now",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T19:50:59+00:00"
-  },
-  {
-   "title": "Hasbro G.I. Joe Classified Series 208 Duke 6″ Figure Review",
-   "url": "https://toyhypeusa.com/2026/11/20/hasbro-g-i-joe-classified-series-208-duke-figure-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-g-i-joe-classified-series-208-duke-figure-review",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T19:30:14+00:00"
-  },
-  {
-   "title": "Hasbro Unveils Spider-Man: Web of Venom #1 Marvel Legends Figure",
-   "url": "https://bleedingcool.com/collectibles/hasbro-unveils-spider-man-web-of-venom-1-marvel-legends-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-20T19:21:10+00:00"
-  },
-  {
-   "title": "Burger King Brings Snoopy and the Peanuts Gang to Its Holiday Menu",
-   "url": "https://bleedingcool.com/collectibles/burger-king-brings-snoopy-and-the-peanuts-gang-to-its-holiday-menu/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-20T18:52:09+00:00"
-  },
-  {
-   "title": "Hasbro Marvel Legends Series 6″ X-Men ’97 Beast Figure Available Now (Update)",
-   "url": "https://toyhypeusa.com/2026/11/20/hasbro-marvel-legends-series-x-men-97-beast-figure-available-now-update/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-marvel-legends-series-x-men-97-beast-figure-available-now-update",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T18:46:48+00:00"
-  },
-  {
-   "title": "Fanhome Launches Top Gun Maverick F/A-18 Super Hornet Build-Up Model",
-   "url": "https://toyhypeusa.com/2026/11/20/fanhome-launches-top-gun-maverick-f-a-18-super-hornet-build-up-model/?utm_source=rss&utm_medium=rss&utm_campaign=fanhome-launches-top-gun-maverick-f-a-18-super-hornet-build-up-model",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T18:40:21+00:00"
-  },
-  {
-   "title": "Mattel's DC Premier Line Adds Deathstroke for a New Wave of Action",
-   "url": "https://bleedingcool.com/collectibles/mattels-dc-premier-line-adds-deathstroke-for-a-new-wave-of-action/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-20T18:22:09+00:00"
-  },
-  {
-   "title": "Funko x TheBurntPeanut Pop! Available Now for Pre-Order",
-   "url": "https://www.actionfigureinsider.com/funko-x-theburntpeanut-pop-available-now-for-pre-order/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-20T17:56:47+00:00"
-  },
-  {
-   "title": "Absolute Bane is Unleashed with New Hot Toys Absolute Batman Figure",
-   "url": "https://bleedingcool.com/collectibles/absolute-bane-is-unleashed-with-new-hot-toys-absolute-batman-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-20T17:52:08+00:00"
   }
  ],
  "trends": {
