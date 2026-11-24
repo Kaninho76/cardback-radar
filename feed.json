@@ -1,16 +1,15 @@
 {
- "updatedISO": "2026-11-24T00:57:46+00:00",
+ "updatedISO": "2026-11-24T11:02:35+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
   {
    "title": "Super7 2026 Black Friday Sale & Doorbusters",
@@ -95,6 +94,12 @@
    "url": "https://bleedingcool.com/collectibles/paul-atreides-returns-to-mcfarlane-with-new-dune-part-three-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-11-23T14:22:07+00:00"
+  },
+  {
+   "title": "New Marvel Hot Toys – Vision, Ultron, Loki, Spider-Man",
+   "url": "https://www.toyark.com/2026/11/23/new-marvel-hot-toys-vision-ultron-loki-spider-man-602960",
+   "source": "The Toyark",
+   "iso": "2026-11-23T13:32:48+00:00"
   },
   {
    "title": "Superstar DJ & Producer John Summit Drops New Squishmallows Collaboration with Jazwares",
@@ -275,89 +280,83 @@
    "url": "https://bleedingcool.com/collectibles/absolute-bane-is-unleashed-with-new-hot-toys-absolute-batman-figure/",
    "source": "Bleeding Cool",
    "iso": "2026-11-20T17:52:08+00:00"
-  },
-  {
-   "title": "Holiday Gift Guide 2026: Cozy Finds to Make Winter a Little Warmer",
-   "url": "https://bleedingcool.com/collectibles/holiday-gift-guide-2026-cozy-finds-to-make-winter-a-little-warmer/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-20T17:22:11+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-23T13:00:11+00:00",
+  "updatedISO": "2026-11-24T11:02:35+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
-   {
-    "label": "Avengers: Doomsday",
-    "article": "Avengers:_Doomsday",
-    "perDay": 45494,
-    "change": 46
-   },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": 29
+    "change": 43
+   },
+   {
+    "label": "Avengers: Doomsday",
+    "article": "Avengers:_Doomsday",
+    "perDay": 44018,
+    "change": 37
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 5101,
-    "change": 8
-   },
-   {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 1742,
-    "change": -1
+    "perDay": 4683,
+    "change": -5
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 64,
-    "change": -2
+    "perDay": 61,
+    "change": -6
    },
    {
     "label": "G.I. Joe",
     "article": "G.I._Joe",
-    "perDay": 540,
-    "change": -5
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 127,
+    "perDay": 517,
     "change": -9
-   },
-   {
-    "label": "Power Rangers",
-    "article": "Power_Rangers",
-    "perDay": 1906,
-    "change": -11
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 768,
-    "change": -12
+    "perDay": 786,
+    "change": -10
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 125,
+    "change": -10
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 1616,
+    "change": -11
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1855,
+    "perDay": 1861,
+    "change": -12
+   },
+   {
+    "label": "Power Rangers",
+    "article": "Power_Rangers",
+    "perDay": 1883,
     "change": -12
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 441,
-    "change": -17
+    "perDay": 440,
+    "change": -18
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 77,
-    "change": -21
+    "perDay": 72,
+    "change": -25
    }
   ],
   "missed": []
