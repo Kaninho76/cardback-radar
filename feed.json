@@ -1,17 +1,46 @@
 {
- "updatedISO": "2026-11-24T21:18:29+00:00",
+ "updatedISO": "2026-11-25T04:21:04+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
   "Marvel Toy News",
+  "The Toyark",
   "The Fwoosh",
   "Toy Habits",
   "Action Figure Insider"
  ],
- "sourcesFailed": [
-  "The Toyark: HTTP 403"
- ],
+ "sourcesFailed": [],
  "items": [
+  {
+   "title": "Mattel WWE Slambulance Vehicle (Red Version) With Main Event John Cena & Cody Rhodes Figures Now $46.49",
+   "url": "https://toyhypeusa.com/2026/11/24/mattel-wwe-slambulance-vehicle-red-version-with-main-event-john-cena-cody-rhodes-figures-now-46-49/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-wwe-slambulance-vehicle-red-version-with-main-event-john-cena-cody-rhodes-figures-now-46-49",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-25T03:19:13+00:00"
+  },
+  {
+   "title": "Mattel Masters of the Universe Movie 2026 4-Pack Now $25.99",
+   "url": "https://toyhypeusa.com/2026/11/24/mattel-masters-of-the-universe-movie-2026-4-pack-now-25-99/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-masters-of-the-universe-movie-2026-4-pack-now-25-99",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-25T03:09:02+00:00"
+  },
+  {
+   "title": "Bethesda Has Released a DOOM: The Dark Ages Super Shotgun Replica",
+   "url": "https://bleedingcool.com/collectibles/bethesda-has-released-a-doom-the-dark-ages-super-shotgun-replica/",
+   "source": "Bleeding Cool",
+   "iso": "2026-11-25T01:53:10+00:00"
+  },
+  {
+   "title": "LEGO Announces Black Friday 2026 Sales – Godzilla Set Announced",
+   "url": "https://toyhypeusa.com/2026/11/24/lego-announces-black-friday-2026-sales/?utm_source=rss&utm_medium=rss&utm_campaign=lego-announces-black-friday-2026-sales",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-24T23:27:55+00:00"
+  },
+  {
+   "title": "Hasbro Transformers: Age of the Primes Autobot Mirage, Ironhide & Bluestreak Figure 3-Pack Review",
+   "url": "https://toyhypeusa.com/2026/11/24/hasbro-transformers-age-of-the-primes-autobot-mirage-ironhide-bluestreak-figure-3-pack-review/?utm_source=rss&utm_medium=rss&utm_campaign=hasbro-transformers-age-of-the-primes-autobot-mirage-ironhide-bluestreak-figure-3-pack-review",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-24T21:31:31+00:00"
+  },
   {
    "title": "Harvinger Studios Unleashes Savage Crucible's Varkul of the Bone",
    "url": "https://bleedingcool.com/collectibles/harvinger-studios-unleashes-savage-crucibles-varkul-of-the-bone/",
@@ -59,6 +88,36 @@
    "url": "https://bleedingcool.com/collectibles/boss-fight-studio-debuts-sam-max-fizzball-championship-two-pack/",
    "source": "Bleeding Cool",
    "iso": "2026-11-24T14:22:08+00:00"
+  },
+  {
+   "title": "TFSource News! Black Friday Week Starts! Today only – Save Up to $40 on Select Fans Toys!",
+   "url": "https://www.toyark.com/2026/11/24/tfsource-news-black-friday-week-starts-today-only-save-up-to-40-on-select-fans-toys-603205",
+   "source": "The Toyark",
+   "iso": "2026-11-24T13:20:50+00:00"
+  },
+  {
+   "title": "TMNT – Mondo Michelangelo",
+   "url": "https://www.toyark.com/2026/11/24/tmnt-mondo-michelangelo-603138",
+   "source": "The Toyark",
+   "iso": "2026-11-24T13:16:08+00:00"
+  },
+  {
+   "title": "MAFEX Michael Jordan – Space Jam, Air Jordan 1992, and Air Jordan 1993",
+   "url": "https://www.toyark.com/2026/11/24/mafex-michael-jordan-space-jam-air-jordan-1992-and-air-jordan-1993-603106",
+   "source": "The Toyark",
+   "iso": "2026-11-24T13:06:03+00:00"
+  },
+  {
+   "title": "New Marvel and DC MAFEX – T’Chaka, KnightsEnd Batman, Batgirl",
+   "url": "https://www.toyark.com/2026/11/24/new-marvel-and-dc-mafex-tchaka-knightsend-batman-batgirl-603073",
+   "source": "The Toyark",
+   "iso": "2026-11-24T12:49:48+00:00"
+  },
+  {
+   "title": "World of Warcraft – McFarlane Elite Edition Lich King",
+   "url": "https://www.toyark.com/2026/11/24/world-of-warcraft-mcfarlane-elite-edition-lich-king-603062",
+   "source": "The Toyark",
+   "iso": "2026-11-24T12:29:43+00:00"
   },
   {
    "title": "Dark Horse Direct Celebrates 10 Years of Hellboy in Hell with Collectible Statue",
@@ -221,106 +280,28 @@
    "url": "https://toyhabits.com/mattel-asks-motu-fans-mini-comics-or-art-prints-take-our-survey/",
    "source": "Toy Habits",
    "iso": "2026-11-21T22:31:40+00:00"
-  },
-  {
-   "title": "Mattel Loads Up Batman for Tactical Strike in DC Premier Wave 3",
-   "url": "https://bleedingcool.com/collectibles/mattel-loads-up-batman-for-tactical-strike-in-dc-premier-wave-3/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-21T19:22:08+00:00"
-  },
-  {
-   "title": "Nightwing Joins Mattel's DC Comics 6.5-inch Premier Line",
-   "url": "https://bleedingcool.com/collectibles/nightwing-joins-mattels-dc-comics-6-5-inch-premier-line/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-21T18:22:07+00:00"
-  },
-  {
-   "title": "Blokees Speeds Into DC Comics with New Legend Edition Flash Model Kit",
-   "url": "https://bleedingcool.com/collectibles/blokees-speeds-into-dc-comics-with-new-legend-edition-flash-model-kit/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-21T17:21:08+00:00"
-  },
-  {
-   "title": "Blokees Adds The Joker from Batman: Hush to DC Champion Class",
-   "url": "https://bleedingcool.com/collectibles/blokees-adds-the-joker-from-batman-hush-to-dc-champion-class/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-21T16:22:13+00:00"
-  },
-  {
-   "title": "Blokees Brings Batman: Hush – Superman to DC Champion Class Series",
-   "url": "https://bleedingcool.com/collectibles/blokees-brings-batman-hush-superman-to-dc-champion-class-series/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-21T15:23:25+00:00"
-  },
-  {
-   "title": "McFarlane Toys Debuts Dune Emperor Paul Atreides Elite Edition Figure",
-   "url": "https://bleedingcool.com/collectibles/mcfarlane-toys-debuts-dune-emperor-paul-atreides-elite-edition-figure/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-21T14:22:07+00:00"
-  },
-  {
-   "title": "Play Nintendo Switch 2 and Discover Gift Ideas at the Nintendo Switch 2 Holiday Experience, Starting Nov. 25",
-   "url": "https://www.actionfigureinsider.com/play-nintendo-switch-2-and-discover-gift-ideas-at-the-nintendo-switch-2-holiday-experience-starting-nov-25/",
-   "source": "Action Figure Insider",
-   "iso": "2026-11-21T12:00:25+00:00"
-  },
-  {
-   "title": "Entertainment Earth News: Tamashii Nations, DC, Epic H.A.C.K.S, Street Fighter, Batman, G.I. Joe, X-Men ’97 & Star Wars",
-   "url": "https://toyhypeusa.com/2026/11/20/ee-tamashii-nations-dc-epic-h-a-c-k-s-street-fighter-batman-gijoe-xmen-97-star-wars/?utm_source=rss&utm_medium=rss&utm_campaign=ee-tamashii-nations-dc-epic-h-a-c-k-s-street-fighter-batman-gijoe-xmen-97-star-wars",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T21:20:40+00:00"
-  },
-  {
-   "title": "BigBadWorkShop – Army Ants Armada Trooper Squad Grubb & Infantry Team Grunt Figure 2-Pack Pre-Orders – Fully Funded",
-   "url": "https://toyhypeusa.com/2026/11/20/bigbadworkshop-army-ants-armada-trooper-squad-grubb-infantry-team-grunt-figure-2-pack-pre-orders-fully-funded/?utm_source=rss&utm_medium=rss&utm_campaign=bigbadworkshop-army-ants-armada-trooper-squad-grubb-infantry-team-grunt-figure-2-pack-pre-orders-fully-funded",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-20T20:41:34+00:00"
-  },
-  {
-   "title": "The Wasteland Awaits with New Fallout's T-51 Vault-Tec Power Armor",
-   "url": "https://bleedingcool.com/collectibles/the-wasteland-awaits-with-new-fallouts-t-51-vault-tec-power-armor/",
-   "source": "Bleeding Cool",
-   "iso": "2026-11-20T20:22:08+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-24T11:02:35+00:00",
+  "updatedISO": "2026-11-25T04:21:04+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
-    "label": "Transformers",
-    "article": "Transformers_(franchise)",
-    "perDay": 1,
-    "change": 43
-   },
-   {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 44018,
-    "change": 37
-   },
-   {
-    "label": "Godzilla",
-    "article": "Godzilla",
-    "perDay": 4683,
-    "change": -5
+    "perDay": 53529,
+    "change": 61
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 61,
-    "change": -6
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 517,
-    "change": -9
+    "perDay": 58,
+    "change": -10
    },
    {
     "label": "He-Man",
     "article": "He-Man",
-    "perDay": 786,
+    "perDay": 776,
     "change": -10
    },
    {
@@ -330,34 +311,52 @@
     "change": -10
    },
    {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 1616,
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 505,
     "change": -11
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1861,
-    "change": -12
+    "perDay": 1838,
+    "change": -13
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 1883,
-    "change": -12
+    "perDay": 1851,
+    "change": -13
+   },
+   {
+    "label": "Godzilla",
+    "article": "Godzilla",
+    "perDay": 4323,
+    "change": -14
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 440,
+    "perDay": 439,
+    "change": -17
+   },
+   {
+    "label": "Transformers",
+    "article": "Transformers_(franchise)",
+    "perDay": 1,
+    "change": -17
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 1521,
     "change": -18
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 72,
-    "change": -25
+    "perDay": 69,
+    "change": -28
    }
   ],
   "missed": []
