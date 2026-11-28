@@ -1,5 +1,5 @@
 {
- "updatedISO": "2026-11-27T19:59:50+00:00",
+ "updatedISO": "2026-11-28T02:45:54+00:00",
  "sourcesOk": [
   "Toy Hype USA",
   "Bleeding Cool",
@@ -11,6 +11,12 @@
  ],
  "sourcesFailed": [],
  "items": [
+  {
+   "title": "BigBadToyStore Adds ToyHypeUSA’s Shopping Suggestions To Collector-Curated Holiday Favorites",
+   "url": "https://toyhypeusa.com/2026/11/27/bbts-adds-toyhypeusa-to-collector-curated-holiday-favorites/?utm_source=rss&utm_medium=rss&utm_campaign=bbts-adds-toyhypeusa-to-collector-curated-holiday-favorites",
+   "source": "Toy Hype USA",
+   "iso": "2026-11-28T00:22:09+00:00"
+  },
   {
    "title": "WWE LJN Superstars Wave 7 Cage Match Ring and Steiner Brothers Target Exclusive Preorders",
    "url": "https://toyhabits.com/wwe-ljn-superstars-wave-7-cage-match-ring-and-steiner-brothers-target-exclusive-preorders/",
@@ -274,89 +280,83 @@
    "url": "https://toyhabits.com/tmnt-cowabunga-forever-90s-movie-figures-5-pack-in-hand-review/",
    "source": "Toy Habits",
    "iso": "2026-11-25T04:22:10+00:00"
-  },
-  {
-   "title": "Mattel WWE Slambulance Vehicle (Red Version) With Main Event John Cena & Cody Rhodes Figures Now $46.49",
-   "url": "https://toyhypeusa.com/2026/11/24/mattel-wwe-slambulance-vehicle-red-version-with-main-event-john-cena-cody-rhodes-figures-now-46-49/?utm_source=rss&utm_medium=rss&utm_campaign=mattel-wwe-slambulance-vehicle-red-version-with-main-event-john-cena-cody-rhodes-figures-now-46-49",
-   "source": "Toy Hype USA",
-   "iso": "2026-11-25T03:19:13+00:00"
   }
  ],
  "trends": {
-  "updatedISO": "2026-11-27T10:58:32+00:00",
+  "updatedISO": "2026-11-28T02:45:54+00:00",
   "window": "7 dagen tegen de 28 daarvoor",
   "rows": [
    {
     "label": "Avengers: Doomsday",
     "article": "Avengers:_Doomsday",
-    "perDay": 68031,
-    "change": 93
-   },
-   {
-    "label": "Actiefiguren",
-    "article": "Action_figure",
-    "perDay": 136,
-    "change": -1
-   },
-   {
-    "label": "He-Man",
-    "article": "He-Man",
-    "perDay": 776,
-    "change": -10
+    "perDay": 72516,
+    "change": 100
    },
    {
     "label": "Transformers",
     "article": "Transformers_(franchise)",
     "perDay": 1,
-    "change": -10
+    "change": 3
+   },
+   {
+    "label": "Actiefiguren",
+    "article": "Action_figure",
+    "perDay": 135,
+    "change": -1
+   },
+   {
+    "label": "He-Man",
+    "article": "He-Man",
+    "perDay": 806,
+    "change": -6
    },
    {
     "label": "Marvel Legends",
     "article": "Marvel_Legends",
-    "perDay": 58,
-    "change": -12
+    "perDay": 59,
+    "change": -10
    },
    {
     "label": "TMNT",
     "article": "Teenage_Mutant_Ninja_Turtles",
-    "perDay": 1832,
-    "change": -13
-   },
-   {
-    "label": "G.I. Joe",
-    "article": "G.I._Joe",
-    "perDay": 480,
-    "change": -15
+    "perDay": 1859,
+    "change": -11
    },
    {
     "label": "Masters of the Universe",
     "article": "Masters_of_the_Universe",
-    "perDay": 441,
-    "change": -16
+    "perDay": 448,
+    "change": -14
    },
    {
     "label": "Power Rangers",
     "article": "Power_Rangers",
-    "perDay": 1781,
-    "change": -16
+    "perDay": 1769,
+    "change": -15
    },
    {
-    "label": "Kaiju",
-    "article": "Kaiju",
-    "perDay": 1395,
-    "change": -26
+    "label": "G.I. Joe",
+    "article": "G.I._Joe",
+    "perDay": 469,
+    "change": -17
    },
    {
     "label": "Godzilla",
     "article": "Godzilla",
-    "perDay": 3829,
-    "change": -27
+    "perDay": 3697,
+    "change": -30
+   },
+   {
+    "label": "Kaiju",
+    "article": "Kaiju",
+    "perDay": 1346,
+    "change": -30
    },
    {
     "label": "McFarlane Toys",
     "article": "McFarlane_Toys",
-    "perDay": 66,
-    "change": -30
+    "perDay": 64,
+    "change": -32
    }
   ],
   "missed": []
